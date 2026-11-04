@@ -1,0 +1,3 @@
+9d761f53a52e0e7244447cc45a2c26f3a08404033fc8f01d0570140fde6e2a46  outputs/night-sorter.mp4
+00bb186b50cada6f2d98c71c69a22970657164726b69a8caef49283fca82ec8b  examples/night-sorter/assets/hits.wav
+00bb186b50cada6f2d98c71c69a22970657164726b69a8caef49283fca82ec8b  evidence/forward-input/hits.wav

@@ -1,0 +1,12 @@
+{
+  "examples/harbor-landfall/instrument.mjs": "689b3f8fe9baf635e606734854910f3499e36ef3c520a6073c7b95bbc67d38a4",
+  "examples/harbor-landfall/work.json": "427e7b8b31ce205cd9b80241d94bbf1dddadebb2c2ecb03dcfd77b9b662c591a",
+  "examples/harbor-landfall/route-ink.mjs": "f92d979d1db0e6f1b275ad6048f2e184859a950a60e8df8e9c2205b0eb30dd8f",
+  "examples/harbor-landfall/shore.mjs": "292b196704666319083fa2f85a3d88ae93547673c5252bc4d0a79958ffc05cff",
+  "examples/harbor-landfall/assets/shore.jpg": "461513d0cd3e16960ebcfc4ddf47202ba6f4a11e03d03a02ecb38796ffe8a27d",
+  "examples/harbor-landfall/assets/coast-entry.svg": "a4c5b19a9d554d521a5a60a37e1dab345213f1b76e44d537eeecb398d0f28e96",
+  "examples/harbor-landfall/assets/score.wav": "6e185e264c97a57afef48e96b4ad2d404d62a8ff6edb1b1ead90cbc77bcd9918",
+  "outputs/harbor-landfall.mp4": "51bd40c93b39b6ea5b647dc3b34b5d3dd65228564cc91b1c5510839aba653cdd",
+  "evidence/RESULTS.md": "244b5314efc3138f01417b43bfcc818ae72f40d405b01ab573b3d0d52e5267d4",
+  "evidence/WORKING.md": "15518596189550e6f4078682a6ed6c8937fa0386a42383ed89c32eca7a9c40e9"
+}

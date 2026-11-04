@@ -1,0 +1,43 @@
+# Cinewright
+
+독립 개발 경로는 `/Volumes/eyedisk/develop/cinewright`다. 이 디렉터리가 Git 저장소 루트다.
+
+[SKILL.md](SKILL.md)에서 제작을 시작한다. 작품의 시간, 자산, 개별 표현과 선택적 교환 값을 작성하면 같은 개정본으로 대화형 재생, 프레임 추출, 구간·전체 렌더와 MP4 비교를 할 수 있다.
+
+| 작품 | 재생 파일 | 프로젝트 |
+| --- | --- | --- |
+| 신호의 항구 · 밤의 통로 | [24초 MP4](outputs/harbor-v2/harbor-v2.mp4), [기존안과 비교](outputs/harbor-v2/index.html) | [work.json](examples/harbor-v2/work.json) |
+| 신호의 항구 · 착안 | [18초 MP4](outputs/harbor-landfall.mp4), [컷 앞뒤 2초](outputs/harbor-cut-review.mp4) | [work.json](examples/harbor-landfall/work.json) |
+| 인쇄기 · 러프 | [9초 MP4](outputs/press-rough.mp4) | [work.json](examples/press/work.json) |
+| 야간 분류함 | [6초 MP4](outputs/night-sorter.mp4) | [work.json](examples/night-sorter/work.json) |
+| 항구 비교 | [귀환안 18초](outputs/alternatives/harbor-draft.mp4), [해도안 19초](outputs/alternatives/harbor-map-draft.mp4), [착안 러프 18초](outputs/alternatives/harbor-landfall-draft.mp4) | `examples/harbor*` |
+
+## 실행
+
+이 디렉터리에서 실행한다. Node.js, FFmpeg/FFprobe, Chromium이 필요하다.
+
+```sh
+npm ci
+npm test
+node scripts/direction.mjs doctor
+node scripts/direction.mjs play examples/harbor-landfall
+node scripts/direction.mjs frame examples/harbor-landfall return
+node scripts/direction.mjs render examples/harbor-landfall --span '연결 검토'
+node scripts/direction.mjs render examples/harbor-landfall
+```
+
+`play`가 출력한 로컬 주소에서 재생·일시 정지·탐색과 이름 붙인 구간 반복을 쓸 수 있다. 전체 또는 구간 렌더가 출력한 작업 ID로 `review JOB_ID OTHER_JOB_ID`를 실행하면 개별 재생과 같은 시각 비교를 할 수 있다.
+
+항로에 다른 방향을 시험하려면 `examples/harbor-landfall/work.json`의 `channels.steering.data.keys`를 수정한다. 같은 명령으로 새 개정본을 만들고 방위계와 귀환 뒤 항로를 함께 확인한다. `freeze`에서 받은 해시를 프로젝트 경로 대신 넘기면 이전 개정본으로 재실행할 수 있다.
+
+[도구와 복구](references/tools.md) · [입력과 모듈](references/format.md) · [제작 및 기술 검토](evidence/RESULTS.md) · [별도 창작 의뢰 재현](evidence/FORWARD.md)
+
+《밤의 통로》의 창작 입력은 [스타일과 스토리](evidence/harbor-v2/STYLE-STORY.md) 두 항목이다. 세부 연출과 구현은 제작 과정에서 도출했다. [검토와 재실행](evidence/harbor-v2/REVIEW.md) · [스킬 수정 근거](evidence/harbor-v2/SKILL-CHANGES.md)
+
+## 저장소 구성
+
+`scripts/`와 `runtime/`은 실행 도구, `examples/`는 제작 입력, `tests/`는 회귀 검사다. `SKILL.md`와 `references/`에 제작 지침을 둔다. `outputs/`와 `evidence/`에는 현재 검증 작품과 제작 근거를 함께 보관한다.
+
+`node_modules/`와 `.direction/`은 로컬 실행 데이터다. 새 체크아웃에서는 `npm ci`를 실행하고 예제 경로로 렌더한다. 기존 개정본 해시와 작업 ID를 사용하는 명령은 해당 `.direction/` 기록이 있는 환경에서 실행한다.
+
+이전 제작 기록의 절대 경로는 당시 실행 환경을 가리킨다. 독립 경로 구성과 실행 검증은 [설정 기록](evidence/standalone-setup/RESULT.md)에 있다.

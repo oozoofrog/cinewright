@@ -1,0 +1,63 @@
+{
+  "version": 1,
+  "title": "인쇄기 · 러프",
+  "size": [
+    960,
+    540
+  ],
+  "fps": 24,
+  "frames": 216,
+  "points": {
+    "double": 48,
+    "matrix": 96,
+    "lock": 180
+  },
+  "spans": {
+    "한 줄": [
+      0,
+      48
+    ],
+    "어긋남": [
+      48,
+      96
+    ],
+    "활자판": [
+      96,
+      180
+    ],
+    "잠금": [
+      180,
+      216
+    ]
+  },
+  "layers": [
+    {
+      "id": "letterpress",
+      "module": "press.mjs",
+      "exposure": [
+        {
+          "from": 0,
+          "to": 180,
+          "every": 12,
+          "value": "stamp"
+        },
+        {
+          "from": 180,
+          "to": 216,
+          "every": 36,
+          "value": "locked"
+        }
+      ]
+    }
+  ],
+  "audio": [
+    {
+      "asset": "assets/score.wav",
+      "sourceIn": 9600,
+      "sourceOut": 441600,
+      "at": 0,
+      "gain": 1,
+      "provenance": "Original authored synthesis, no estimated beat analysis"
+    }
+  ]
+}

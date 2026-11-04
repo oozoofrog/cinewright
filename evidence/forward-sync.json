@@ -1,0 +1,71 @@
+{
+  "job": "2d6a1977-6641-4bbc-8643-f250f2628a43",
+  "pass": true,
+  "toleranceMs": 41.666666666666664,
+  "fixedOffsetMs": 3.2083333333332575,
+  "driftMs": 0.8124999999998828,
+  "durationDeltaMs": 0,
+  "cadenceErrorMs": 0.000333333333379926,
+  "videoStart": "0.000000",
+  "audioStart": "0.000000",
+  "videoFrames": 144,
+  "checks": [
+    {
+      "label": "orient",
+      "authoredFrame": 18,
+      "visualFrame": 18,
+      "luma": [
+        82,
+        82,
+        82,
+        225,
+        225,
+        225,
+        82
+      ],
+      "jump": 143,
+      "audioSeconds": 0.7523958333333334,
+      "videoSeconds": 0.75,
+      "peak": 0.7539047002792358,
+      "offsetMs": 2.395833333333375
+    },
+    {
+      "label": "sort",
+      "authoredFrame": 60,
+      "visualFrame": 60,
+      "luma": [
+        82,
+        82,
+        82,
+        225,
+        225,
+        225,
+        82
+      ],
+      "jump": 143,
+      "audioSeconds": 2.504020833333333,
+      "videoSeconds": 2.5,
+      "peak": 0.7657543420791626,
+      "offsetMs": 4.02083333333314
+    },
+    {
+      "label": "reveal",
+      "authoredFrame": 114,
+      "visualFrame": 114,
+      "luma": [
+        82,
+        82,
+        82,
+        226,
+        226,
+        226,
+        82
+      ],
+      "jump": 144,
+      "audioSeconds": 4.753208333333333,
+      "videoSeconds": 4.75,
+      "peak": 0.7745299935340881,
+      "offsetMs": 3.2083333333332575
+    }
+  ]
+}

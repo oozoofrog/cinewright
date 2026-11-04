@@ -1,0 +1,52 @@
+{
+  "job": "8d92875a-3b53-4a0b-b32b-2a8b34c643ec",
+  "pass": true,
+  "toleranceMs": 41.666666666666664,
+  "fixedOffsetMs": 0.9062499999996643,
+  "driftMs": -0.35416666666732155,
+  "durationDeltaMs": 0,
+  "cadenceErrorMs": 0.0003333333342681044,
+  "videoStart": "0.000000",
+  "audioStart": "0.000000",
+  "videoFrames": 432,
+  "checks": [
+    {
+      "label": "첫 등화",
+      "authoredFrame": 18,
+      "visualFrame": 18,
+      "luma": [
+        25,
+        25,
+        25,
+        225,
+        225,
+        225,
+        225
+      ],
+      "jump": 200,
+      "audioSeconds": 0.7510833333333333,
+      "videoSeconds": 0.75,
+      "peak": 0.9614976644515991,
+      "offsetMs": 1.083333333333325
+    },
+    {
+      "label": "마지막 등화",
+      "authoredFrame": 402,
+      "visualFrame": 402,
+      "luma": [
+        25,
+        25,
+        25,
+        227,
+        227,
+        227,
+        196
+      ],
+      "jump": 202,
+      "audioSeconds": 16.750729166666666,
+      "videoSeconds": 16.75,
+      "peak": 0.8794746398925781,
+      "offsetMs": 0.7291666666660035
+    }
+  ]
+}

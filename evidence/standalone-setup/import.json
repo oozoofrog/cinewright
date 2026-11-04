@@ -1,0 +1,41 @@
+{
+  "source": "/Volumes/eyedisk/Videos/MusicVideos/Counting Star/animation-v2/multimedia-direction-toolkit",
+  "destination": "/Volumes/eyedisk/develop/cinewright",
+  "copiedFiles": 307,
+  "copiedContentSHA256": "4742ae7e9dc31b038277cb1c1906f934e757caee1624dc348fe85009bbd66663",
+  "sourceBytesMatched": true,
+  "localJobs": [
+    {
+      "id": "0003ce2b-b6f5-433c-baf8-8cf524caf560",
+      "revision": "dd5e77acbe9af9b855222380844d37002837a458dc92256e5a16fded9c78a48b",
+      "output": "/Volumes/eyedisk/develop/cinewright/.direction/jobs/0003ce2b-b6f5-433c-baf8-8cf524caf560/work.mp4"
+    },
+    {
+      "id": "2d6a1977-6641-4bbc-8643-f250f2628a43",
+      "revision": "6cdf31d770fd21e1c09af9e97a18ab87623e2f5ffe9f183a91693fd490f3a9b8",
+      "output": "/Volumes/eyedisk/develop/cinewright/.direction/jobs/2d6a1977-6641-4bbc-8643-f250f2628a43/work.mp4"
+    },
+    {
+      "id": "8d92875a-3b53-4a0b-b32b-2a8b34c643ec",
+      "revision": "7a995bdadc2e34f7beec718dd9dd8c7feb2f0b49329b87dbda11b52cf6110557",
+      "output": "/Volumes/eyedisk/develop/cinewright/.direction/jobs/8d92875a-3b53-4a0b-b32b-2a8b34c643ec/work.mp4"
+    },
+    {
+      "id": "b0ef21a7-19be-47ab-aca0-21aa9ef876bf",
+      "revision": "83218bf131eafdfd1ce367be0b87e5b58feb56dd54595a416539b323d3b5da28",
+      "output": "/Volumes/eyedisk/develop/cinewright/.direction/jobs/b0ef21a7-19be-47ab-aca0-21aa9ef876bf/work.mp4"
+    }
+  ],
+  "localRevisions": [
+    "6cdf31d770fd21e1c09af9e97a18ab87623e2f5ffe9f183a91693fd490f3a9b8",
+    "7a995bdadc2e34f7beec718dd9dd8c7feb2f0b49329b87dbda11b52cf6110557",
+    "83218bf131eafdfd1ce367be0b87e5b58feb56dd54595a416539b323d3b5da28",
+    "dd5e77acbe9af9b855222380844d37002837a458dc92256e5a16fded9c78a48b"
+  ],
+  "gitExcluded": [
+    "node_modules/",
+    ".direction/",
+    "__pycache__/",
+    ".DS_Store"
+  ]
+}

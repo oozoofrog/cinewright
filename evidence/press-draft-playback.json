@@ -1,0 +1,60 @@
+{
+  "id": "57384651-e804-4352-84bf-9cf1a06153fa",
+  "duration": 9,
+  "frameCount": 168,
+  "firstFrame": 0.125,
+  "lastFrame": 8.958333,
+  "audioPeak": 0.41977378726005554,
+  "periods": [
+    {
+      "seconds": 0.125,
+      "audioPeakSincePrevious": 0.04220359027385712
+    },
+    {
+      "seconds": 1.625,
+      "audioPeakSincePrevious": 0.04710471257567406
+    },
+    {
+      "seconds": 1.791667,
+      "audioPeakSincePrevious": 0.0028760884888470173
+    },
+    {
+      "seconds": 2.25,
+      "audioPeakSincePrevious": 0.1631055474281311
+    },
+    {
+      "seconds": 3,
+      "audioPeakSincePrevious": 0.41977378726005554
+    },
+    {
+      "seconds": 3.75,
+      "audioPeakSincePrevious": 0.3331637382507324
+    },
+    {
+      "seconds": 4.5,
+      "audioPeakSincePrevious": 0.34633076190948486
+    },
+    {
+      "seconds": 5.25,
+      "audioPeakSincePrevious": 0.35388118028640747
+    },
+    {
+      "seconds": 6,
+      "audioPeakSincePrevious": 0.35178661346435547
+    },
+    {
+      "seconds": 6.75,
+      "audioPeakSincePrevious": 0.33976495265960693
+    },
+    {
+      "seconds": 7.5,
+      "audioPeakSincePrevious": 0.3530709147453308
+    },
+    {
+      "seconds": 8.25,
+      "audioPeakSincePrevious": 0.2509753704071045
+    }
+  ],
+  "wallSeconds": 9.13230000001192,
+  "sampleDirectory": "/Volumes/eyedisk/Videos/MusicVideos/Counting Star/animation-v2/multimedia-direction-toolkit/.direction/review/observe-KnAhDE"
+}

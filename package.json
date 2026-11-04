@@ -1,0 +1,17 @@
+{
+  "name": "cinewright",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "test": "node --test tests/*.test.mjs",
+    "direction": "node scripts/direction.mjs"
+  },
+  "dependencies": {
+    "playwright-core": "1.64.1",
+    "three": "0.180.0"
+  }
+}

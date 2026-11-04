@@ -1,0 +1,72 @@
+{
+  "id": "b0ef21a7-19be-47ab-aca0-21aa9ef876bf",
+  "duration": 6,
+  "frameCount": 109,
+  "firstFrame": 0,
+  "lastFrame": 5.958333,
+  "audioPeak": 0.5476754307746887,
+  "periods": [
+    {
+      "requestedSeconds": 0,
+      "seconds": 0,
+      "audioPeakSincePrevious": 0
+    },
+    {
+      "requestedSeconds": 0.5,
+      "seconds": 0.625,
+      "audioPeakSincePrevious": 0
+    },
+    {
+      "requestedSeconds": 1,
+      "seconds": 1.125,
+      "audioPeakSincePrevious": 0
+    },
+    {
+      "requestedSeconds": 1.5,
+      "seconds": 1.666667,
+      "audioPeakSincePrevious": 0
+    },
+    {
+      "requestedSeconds": 2,
+      "seconds": 2,
+      "audioPeakSincePrevious": 0
+    },
+    {
+      "requestedSeconds": 2.5,
+      "seconds": 2.5,
+      "audioPeakSincePrevious": 0.5414701104164124
+    },
+    {
+      "requestedSeconds": 3,
+      "seconds": 3,
+      "audioPeakSincePrevious": 0.3037748336791992
+    },
+    {
+      "requestedSeconds": 3.5,
+      "seconds": 3.5,
+      "audioPeakSincePrevious": 0
+    },
+    {
+      "requestedSeconds": 4,
+      "seconds": 4,
+      "audioPeakSincePrevious": 0
+    },
+    {
+      "requestedSeconds": 4.5,
+      "seconds": 4.5,
+      "audioPeakSincePrevious": 0
+    },
+    {
+      "requestedSeconds": 5,
+      "seconds": 5,
+      "audioPeakSincePrevious": 0.5476754307746887
+    },
+    {
+      "requestedSeconds": 5.5,
+      "seconds": 5.5,
+      "audioPeakSincePrevious": 0.0000021420412394945743
+    }
+  ],
+  "wallSeconds": 6.305899999976158,
+  "sampleDirectory": "/Volumes/eyedisk/Videos/MusicVideos/Counting Star/animation-v2/multimedia-direction-toolkit/.direction/review/observe-yFT6KT"
+}

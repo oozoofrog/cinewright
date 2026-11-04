@@ -1,0 +1,27 @@
+{
+  "pass": true,
+  "root": "/Volumes/eyedisk/develop/cinewright",
+  "revisionsVerified": 4,
+  "clips": [
+    {
+      "url": "/clip/0003ce2b-b6f5-433c-baf8-8cf524caf560.mp4",
+      "status": 206,
+      "bytes": 100
+    },
+    {
+      "url": "/clip/2d6a1977-6641-4bbc-8643-f250f2628a43.mp4",
+      "status": 206,
+      "bytes": 100
+    },
+    {
+      "url": "/clip/8d92875a-3b53-4a0b-b32b-2a8b34c643ec.mp4",
+      "status": 206,
+      "bytes": 100
+    },
+    {
+      "url": "/clip/b0ef21a7-19be-47ab-aca0-21aa9ef876bf.mp4",
+      "status": 206,
+      "bytes": 100
+    }
+  ]
+}

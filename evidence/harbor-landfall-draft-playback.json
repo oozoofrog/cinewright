@@ -1,0 +1,60 @@
+{
+  "id": "3b88ea79-6f42-4af0-a12f-99695df745d5",
+  "duration": 18,
+  "frameCount": 376,
+  "firstFrame": 1.333333,
+  "lastFrame": 17.958333,
+  "audioPeak": 0.6218824982643127,
+  "periods": [
+    {
+      "seconds": 1.333333,
+      "audioPeakSincePrevious": 0.023077361285686493
+    },
+    {
+      "seconds": 1.958333,
+      "audioPeakSincePrevious": 0.013878075405955315
+    },
+    {
+      "seconds": 3,
+      "audioPeakSincePrevious": 0.07468457520008087
+    },
+    {
+      "seconds": 4.5,
+      "audioPeakSincePrevious": 0.22553926706314087
+    },
+    {
+      "seconds": 6,
+      "audioPeakSincePrevious": 0.32936418056488037
+    },
+    {
+      "seconds": 7.5,
+      "audioPeakSincePrevious": 0.3038647174835205
+    },
+    {
+      "seconds": 9,
+      "audioPeakSincePrevious": 0.07420533895492554
+    },
+    {
+      "seconds": 10.5,
+      "audioPeakSincePrevious": 0.16228023171424866
+    },
+    {
+      "seconds": 12,
+      "audioPeakSincePrevious": 0.14274358749389648
+    },
+    {
+      "seconds": 13.5,
+      "audioPeakSincePrevious": 0.09017974138259888
+    },
+    {
+      "seconds": 15,
+      "audioPeakSincePrevious": 0.07134455442428589
+    },
+    {
+      "seconds": 16.5,
+      "audioPeakSincePrevious": 0.009184131398797035
+    }
+  ],
+  "wallSeconds": 18.25360000002384,
+  "sampleDirectory": "/Volumes/eyedisk/Videos/MusicVideos/Counting Star/animation-v2/multimedia-direction-toolkit/.direction/review/observe-UMgZZu"
+}

@@ -1,0 +1,50 @@
+{
+  "pass": true,
+  "toleranceRGB": 8,
+  "frames": [
+    {
+      "frame": 23,
+      "meanAbsoluteRGBError": 0.8043314814814814
+    },
+    {
+      "frame": 24,
+      "meanAbsoluteRGBError": 0.8468787037037037
+    },
+    {
+      "frame": 25,
+      "meanAbsoluteRGBError": 0.8008509259259259
+    },
+    {
+      "frame": 168,
+      "meanAbsoluteRGBError": 1.0299509259259259
+    },
+    {
+      "frame": 264,
+      "meanAbsoluteRGBError": 0.8921074074074075
+    },
+    {
+      "frame": 360,
+      "meanAbsoluteRGBError": 0.9867583333333334
+    },
+    {
+      "frame": 503,
+      "meanAbsoluteRGBError": 1.1439342592592594
+    },
+    {
+      "frame": 504,
+      "meanAbsoluteRGBError": 1.2482138888888887
+    },
+    {
+      "frame": 505,
+      "meanAbsoluteRGBError": 1.2062083333333333
+    },
+    {
+      "frame": 552,
+      "meanAbsoluteRGBError": 1.2311314814814815
+    },
+    {
+      "frame": 575,
+      "meanAbsoluteRGBError": 1.2767472222222223
+    }
+  ]
+}

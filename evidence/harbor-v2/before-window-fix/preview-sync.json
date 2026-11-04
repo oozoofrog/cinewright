@@ -1,0 +1,52 @@
+{
+  "job": "cf72b8fa-6aea-44d8-84f4-345a79aebe6f",
+  "pass": true,
+  "toleranceMs": 41.666666666666664,
+  "fixedOffsetMs": 11.927083333332478,
+  "driftMs": -6.187500000001567,
+  "durationDeltaMs": 0,
+  "cadenceErrorMs": 0.0003333333342681044,
+  "videoStart": "0.000000",
+  "audioStart": "0.000000",
+  "videoFrames": 576,
+  "checks": [
+    {
+      "label": "배의 신호",
+      "authoredFrame": 24,
+      "visualFrame": 24,
+      "luma": [
+        169,
+        169,
+        169,
+        244,
+        245,
+        244,
+        245
+      ],
+      "jump": 75,
+      "audioSeconds": 1.0150208333333333,
+      "videoSeconds": 1,
+      "peak": 0.3403591215610504,
+      "offsetMs": 15.020833333333261
+    },
+    {
+      "label": "부두의 응답",
+      "authoredFrame": 504,
+      "visualFrame": 504,
+      "luma": [
+        133,
+        140,
+        142,
+        236,
+        229,
+        221,
+        210
+      ],
+      "jump": 94,
+      "audioSeconds": 21.00883333333333,
+      "videoSeconds": 21,
+      "peak": 0.3835426867008209,
+      "offsetMs": 8.833333333331694
+    }
+  ]
+}

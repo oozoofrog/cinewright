@@ -1,0 +1,28 @@
+{
+  "revision": "7a995bdadc2e34f7beec718dd9dd8c7feb2f0b49329b87dbda11b52cf6110557",
+  "sameFrame": 220,
+  "match": [
+    {
+      "currentTime": 9.177083,
+      "paused": true,
+      "w": 960
+    },
+    {
+      "currentTime": 9.177083,
+      "paused": true,
+      "w": 480
+    }
+  ],
+  "independent": [
+    {
+      "currentTime": 0,
+      "paused": true,
+      "w": 960
+    },
+    {
+      "currentTime": 0.014015,
+      "paused": false,
+      "w": 480
+    }
+  ]
+}

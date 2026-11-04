@@ -1,0 +1,14 @@
+node:internal/fs/promises:2131
+  return await PromisePrototypeThen(
+         ^
+
+Error: ENOENT: no such file or directory, mkdtemp '/Volumes/eyedisk/Videos/MusicVideos/Counting Star/animation-v2/multimedia-direction-toolkit/.direction/play/check-9ZxE22'
+    at async Object.mkdtemp (node:internal/fs/promises:2131:10)
+    at async file:///Volumes/eyedisk/Videos/MusicVideos/Counting%20Star/animation-v2/multimedia-direction-toolkit/evidence/harbor-v2/verify-work.mjs:16:13 {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'mkdtemp',
+  path: '/Volumes/eyedisk/Videos/MusicVideos/Counting Star/animation-v2/multimedia-direction-toolkit/.direction/play/check-9ZxE22'
+}
+
+Node.js v26.12.1

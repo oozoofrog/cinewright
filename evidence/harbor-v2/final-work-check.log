@@ -1,0 +1,92 @@
+{
+  "revision": "dd5e77acbe9af9b855222380844d37002837a458dc92256e5a16fded9c78a48b",
+  "pass": true,
+  "repeatedFrames": 9,
+  "sampledFrames": [
+    0,
+    23,
+    24,
+    25,
+    100,
+    168,
+    264,
+    360,
+    503,
+    504,
+    505,
+    552,
+    575
+  ],
+  "playbackFrames": [
+    1,
+    49,
+    98,
+    146,
+    195,
+    243,
+    291,
+    340,
+    388,
+    436,
+    485,
+    533
+  ],
+  "clearances": [
+    {
+      "obstacle": "west rock",
+      "centerDistance": 3.626440341577559,
+      "required": 2.75
+    },
+    {
+      "obstacle": "east rock",
+      "centerDistance": 4.7704389390349204,
+      "required": 2.85
+    },
+    {
+      "obstacle": "inner buoy",
+      "centerDistance": 2.2151603459331963,
+      "required": 1.15
+    }
+  ],
+  "cues": {
+    "first": {
+      "boat": [
+        -7.422702294554132,
+        0,
+        9.147090939824007
+      ],
+      "heading": -0.5731093128405336,
+      "lampScreen": [
+        0.3956485588015063,
+        0.3101881389447989
+      ],
+      "windowScreen": [
+        1.0504067854130852,
+        0.1658961487429837
+      ],
+      "shot": 0,
+      "call": true,
+      "answer": false
+    },
+    "last": {
+      "boat": [
+        0.7848454172417705,
+        0,
+        -6.696968472290188
+      ],
+      "heading": 0.23755196370182544,
+      "lampScreen": [
+        0.36833673394928,
+        0.4129520193627735
+      ],
+      "windowScreen": [
+        0.4304802905977496,
+        0.4063616619179582
+      ],
+      "shot": 2,
+      "call": false,
+      "answer": true
+    }
+  },
+  "directListening": "unverified"
+}

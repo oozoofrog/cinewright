@@ -1,0 +1,41 @@
+{
+  "id": "0003ce2b-b6f5-433c-baf8-8cf524caf560",
+  "revision": "dd5e77acbe9af9b855222380844d37002837a458dc92256e5a16fded9c78a48b",
+  "settings": {
+    "mode": "video",
+    "from": 0,
+    "to": 576,
+    "scale": 1
+  },
+  "status": "completed",
+  "phase": "published",
+  "frames": 576,
+  "totalFrames": 576,
+  "pid": 70789,
+  "started": "2026-11-04T06:50:50.533Z",
+  "log": "/Volumes/eyedisk/Videos/MusicVideos/Counting Star/animation-v2/multimedia-direction-toolkit/.direction/jobs/0003ce2b-b6f5-433c-baf8-8cf524caf560/execution.log",
+  "ffmpeg": "ffmpeg version 9.0.2 Copyright (c) 2000-2026 the FFmpeg developers",
+  "audio": {
+    "file": "/Volumes/eyedisk/Videos/MusicVideos/Counting Star/animation-v2/multimedia-direction-toolkit/.direction/jobs/0003ce2b-b6f5-433c-baf8-8cf524caf560/mix.wav",
+    "rate": 48000,
+    "duration": 1152000,
+    "sources": [
+      {
+        "asset": "assets/score.wav",
+        "decoded": 1152000,
+        "sourceIn": 0,
+        "sourceOut": 1152000,
+        "at": 0,
+        "gain": 1,
+        "used": [
+          0,
+          1152000
+        ]
+      }
+    ]
+  },
+  "browser": "156.0.8078.80",
+  "outputSha256": "13591c567a33aab3616ca45c8e84d528e1cf7adffadb894238d3ec604fc1d106",
+  "output": "/Volumes/eyedisk/Videos/MusicVideos/Counting Star/animation-v2/multimedia-direction-toolkit/.direction/jobs/0003ce2b-b6f5-433c-baf8-8cf524caf560/work.mp4",
+  "finished": "2026-11-04T06:52:29.087Z"
+}

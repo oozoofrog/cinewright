@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="ko">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>신호의 항구</title>
+<link rel="stylesheet" href="style.css">
+<header><h1>신호의 항구</h1><p>밤의 통로</p></header>
+<section>
+<div class="label"><h2>새 버전</h2><p>24초 · 1600 × 900 · 24 fps</p></div>
+<video id="new" controls playsinline preload="metadata" poster="poster.jpg" aria-label="신호의 항구 밤의 통로">
+<source src="harbor-v2.mp4" type="video/mp4">
+<a href="harbor-v2.mp4">영상 파일 열기</a>
+</video>
+<div class="tools">
+<button data-at="0">처음부터</button>
+<button data-at="1">배의 신호</button>
+<button data-at="8">통로의 발견</button>
+<button data-at="21">부두의 응답</button>
+<a href="harbor-v2.mp4" download>MP4 저장</a>
+</div>
+</section>
+<details>
+<summary>기존 버전 보기 · 18초</summary>
+<div class="old">
+<video id="old" controls playsinline preload="metadata" aria-label="신호의 항구 기존 버전">
+<source src="../harbor-landfall.mp4" type="video/mp4">
+<a href="../harbor-landfall.mp4">기존 영상 파일 열기</a>
+</video>
+</div>
+</details>
+<footer>
+<a href="../../evidence/harbor-v2/REVIEW.md">검토 기록</a>
+<a href="../../evidence/harbor-v2/STYLE-STORY.md">스타일과 스토리</a>
+<a href="../../README.md">실행 방법</a>
+</footer>
+<script src="review.js"></script>
+</html>

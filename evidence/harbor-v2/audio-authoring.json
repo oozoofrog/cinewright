@@ -1,0 +1,11 @@
+{
+  "samples": 1152000,
+  "rate": 48000,
+  "peak": 0.29107806699721017,
+  "seed": 11042026,
+  "cueFrames": [
+    24,
+    504
+  ],
+  "directListening": "unverified"
+}

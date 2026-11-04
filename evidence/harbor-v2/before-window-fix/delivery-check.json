@@ -1,0 +1,43 @@
+{
+  "pass": true,
+  "preserved": {
+    "examples/harbor-landfall/instrument.mjs": true,
+    "examples/harbor-landfall/work.json": true,
+    "examples/harbor-landfall/route-ink.mjs": true,
+    "examples/harbor-landfall/shore.mjs": true,
+    "examples/harbor-landfall/assets/shore.jpg": true,
+    "examples/harbor-landfall/assets/coast-entry.svg": true,
+    "examples/harbor-landfall/assets/score.wav": true,
+    "outputs/harbor-landfall.mp4": true,
+    "evidence/RESULTS.md": true,
+    "evidence/WORKING.md": true
+  },
+  "pcmIdentical": true,
+  "pcmBytes": 4608000,
+  "sha256": {
+    "examples/harbor-v2/sea.mjs": "f4b20faa9fa2bedc1bb53a3e8cb720fc6654dff0d440194724086185e781edc5",
+    "examples/harbor-v2/coast.mjs": "1cf7cb24fd673bd9e4730568d2f3f5f60afa04c6ce7007b07761d163c1875a32",
+    "examples/harbor-v2/vessel.mjs": "8015d3a240a3c443fdb61c5c471e31dc717189251358a6961a4cb287d8a6235c",
+    "examples/harbor-v2/forms.mjs": "4e84a03569ef9df064795ffbf19e0a4382db940a63e99fa7ba2793787f594109",
+    "examples/harbor-v2/harbor.mjs": "59438fda54671299da57edd48fe4543fd0da84d6027f5f67e5c7d1f5741ee878",
+    "examples/harbor-v2/work.json": "d9631aa90d473144d4375194dbf53d19f7740a943c4c7a13e7b4de5b4de06b3d",
+    "examples/harbor-v2/score.py": "08a78fa6fdc1337b5115b30ecfe126edfc7f4149459ddd9687779a81c475a30c",
+    "examples/harbor-v2/assets/score.wav": "a82338d1a77f814ec2e706cd32c067f7421abd270f8448f452596d01bec4031f",
+    "examples/harbor-v2/vendor/RoundedBoxGeometry.js": "c1b7c9bd2cddff2e3f3a0723f618a3d364a47450e3d25771d21faed88410bec8",
+    "examples/harbor-v2/vendor/THREE-LICENSE": "bfe119ea4fd413f5f7ca3fcd63adb0c4a073ed39daa2fe7d3e6b769e21272601",
+    "outputs/harbor-v2/index.html": "4114a87b8ed0bdeaad0a5ba88372076e38fa99eeb21ca99ec9cb79acc1b8a9d3",
+    "outputs/harbor-v2/poster.jpg": "2af14e20d636ef7a7f9f127c121bf0759bd1c6e931addf1e08afcbb189f54331",
+    "outputs/harbor-v2/three-shot-draft.mp4": "379ff6ba230a8f3652a7f79ff8c8f0103bc673a05e2b246c7ca7e391e9d7a422",
+    "outputs/harbor-v2/continuous-draft.mp4": "a1b35b7af3abf19e350aad771aeddda34de114eeb980b3c947359dd8d62375ad",
+    "outputs/harbor-v2/preview.mp4": "8b8dcf1a647c0c61a1f08106229b9c9941c90a409d49fa87019c49a9f26fd2a9",
+    "outputs/harbor-v2/harbor-v2.mp4": "31148f69c9fa4cf94a49290d5c5639d3138d37bf8fd94936ed771ea90535d870",
+    "SKILL.md": "8e9109bf7dd34cd80b365a3972f407d137c405ef2eab83cb41e5fa1c606a62f1",
+    "references/direction.md": "978dbb19d8b1382acc669b982cec5171f7744c16ebb6e65ad7b932a25f1e6689",
+    "evidence/harbor-v2/REVIEW.md": "8c47da38a52d3a08d756d853c7d10528447eeeafc17b28497add6bbc3c2bde52",
+    "evidence/harbor-v2/STYLE-STORY.md": "2634a6487d114f3631958ac6847297119166f536a93fe9bc3e17273b408f63e7",
+    "evidence/harbor-v2/SKILL-CHANGES.md": "22a2b43d1b25dfdc9690817c3ba607b1c820555fadc4f2c78c0d30f54febceb5",
+    "outputs/harbor-v2/review.js": "db878b2756c411dd73ccb8c5a0b84884e7d1fb36b267f40e4bf6e99ecce4a416",
+    "outputs/harbor-v2/style.css": "9544272640f34943059bb09cf31dace932cb21b2e8c19621545d2b8b0a00dbdd",
+    "evidence/harbor-v2/serve-review.mjs": "71b40182954d930fa0d7aac0dc4a13c98e9d2af1b309389127a4867e6cc31263"
+  }
+}

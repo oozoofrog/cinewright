@@ -1,0 +1,20 @@
+{
+  "id": "25af79db-e6d1-410c-8009-576de10c80df",
+  "revision": "1e957508058b9b3fea769b34deb63856f8ecc5bffe6af25f9664e1cfaa56ac85",
+  "settings": {
+    "mode": "frame",
+    "from": 360,
+    "to": 361,
+    "scale": 0.6
+  },
+  "status": "failed",
+  "phase": "preparing",
+  "frames": 0,
+  "totalFrames": 1,
+  "pid": 60976,
+  "started": "2026-11-04T06:26:36.827Z",
+  "log": "/Volumes/eyedisk/Videos/MusicVideos/Counting Star/animation-v2/multimedia-direction-toolkit/.direction/jobs/25af79db-e6d1-410c-8009-576de10c80df/execution.log",
+  "ffmpeg": "ffmpeg version 9.0.2 Copyright (c) 2000-2026 the FFmpeg developers",
+  "error": "Error: Missing audio source: assets/score.wav\n    at mix (file:///Volumes/eyedisk/Videos/MusicVideos/Counting%20Star/animation-v2/multimedia-direction-toolkit/.direction/revisions/1e957508058b9b3fea769b34deb63856f8ecc5bffe6af25f9664e1cfaa56ac85/tools/audio.mjs:18:47)\n    at render (file:///Volumes/eyedisk/Videos/MusicVideos/Counting%20Star/animation-v2/multimedia-direction-toolkit/.direction/revisions/1e957508058b9b3fea769b34deb63856f8ecc5bffe6af25f9664e1cfaa56ac85/tools/jobs.mjs:41:25)\n    at async main (file:///Volumes/eyedisk/Videos/MusicVideos/Counting%20Star/animation-v2/multimedia-direction-toolkit/scripts/direction.mjs:133:14)",
+  "finished": "2026-11-04T06:26:36.880Z"
+}

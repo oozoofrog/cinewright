@@ -1,0 +1,21 @@
+
+> multimedia-direction-toolkit@1.0.0 test
+> node --test tests/*.test.mjs
+
+Integration records: /Volumes/eyedisk/Videos/MusicVideos/Counting Star/animation-v2/multimedia-direction-toolkit/.direction/test-runs/integration-YOYEhv
+✔ continuous playback, direct seek, authored substitutions and offline frame use the same state and pixels (11139.198709ms)
+✔ changing a steering input invalidates revision and drives 3D and both consumers across a cut (5297.028542ms)
+✔ missing assets and tool failure cannot publish; cancellation retains partial frames and retries into a new job (19793.354875ms)
+✔ precomputed exchange data is loaded and evaluated out of order (2736.067125ms)
+✔ held exposure and hard substitution are half-open, including a hole (2.074417ms)
+✔ linear and stepped properties are stable in random access (0.253583ms)
+✔ cues are descriptive and spans remain independent of them (1.11575ms)
+✔ channel contracts enforce provider, consumer, space, validity and presence (0.274292ms)
+ℹ tests 8
+ℹ suites 0
+ℹ pass 8
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 39101.437709

@@ -1,0 +1,60 @@
+{
+  "id": "87112d06-3657-4410-b341-4c8d7fce86a7",
+  "duration": 18,
+  "frameCount": 405,
+  "firstFrame": 0,
+  "lastFrame": 17.958333,
+  "audioPeak": 0.6146079897880554,
+  "periods": [
+    {
+      "seconds": 0,
+      "audioPeakSincePrevious": 0
+    },
+    {
+      "seconds": 1.5,
+      "audioPeakSincePrevious": 0.09311726689338684
+    },
+    {
+      "seconds": 3,
+      "audioPeakSincePrevious": 0.26494625210762024
+    },
+    {
+      "seconds": 4.5,
+      "audioPeakSincePrevious": 0.16090276837348938
+    },
+    {
+      "seconds": 6,
+      "audioPeakSincePrevious": 0.2443397045135498
+    },
+    {
+      "seconds": 7.5,
+      "audioPeakSincePrevious": 0.06868172436952591
+    },
+    {
+      "seconds": 9,
+      "audioPeakSincePrevious": 0.31116944551467896
+    },
+    {
+      "seconds": 10.5,
+      "audioPeakSincePrevious": 0.018786633387207985
+    },
+    {
+      "seconds": 12,
+      "audioPeakSincePrevious": 0.12120015919208527
+    },
+    {
+      "seconds": 13.5,
+      "audioPeakSincePrevious": 0.1381830871105194
+    },
+    {
+      "seconds": 15,
+      "audioPeakSincePrevious": 0.09500719606876373
+    },
+    {
+      "seconds": 16.5,
+      "audioPeakSincePrevious": 0.08059872686862946
+    }
+  ],
+  "wallSeconds": 19.188099999964237,
+  "sampleDirectory": "/Volumes/eyedisk/Videos/MusicVideos/Counting Star/animation-v2/multimedia-direction-toolkit/.direction/review/observe-DzIHoU"
+}
