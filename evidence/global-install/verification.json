@@ -1,0 +1,13 @@
+{
+  "pass": true,
+  "installedFilesVerified": 64,
+  "removedLocalSkill": "/Volumes/eyedisk/Videos/MusicVideos/Counting Star/animation-v2/multimedia-direction-toolkit/SKILL.md",
+  "removedSHA256": "ff63312381bfdbf18e07c6345f692c7aa9700cd04a651f24f759bd86222bb2e6",
+  "sourceSkillPreserved": "/Volumes/eyedisk/develop/cinewright/SKILL.md",
+  "globalSkill": "/Users/oozoofrog/.codex/skills/cinewright/SKILL.md",
+  "projectSkillPreserved": "/Volumes/eyedisk/Videos/MusicVideos/Counting Star/animation-v2/.agents/skills/counting-star-animation/SKILL.md",
+  "smokeFrames": 24,
+  "smokeSeconds": 1,
+  "smokeOutputSHA256": "2c4d01076cf7bbc2d7e60de6729ebd1081cd0e1bdc11bab05b61c095f5f3ccb6",
+  "catalogDiscovery": "not observed in current skill catalog; check next turn"
+}

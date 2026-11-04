@@ -12,6 +12,20 @@
 | 야간 분류함 | [6초 MP4](outputs/night-sorter.mp4) | [work.json](examples/night-sorter/work.json) |
 | 항구 비교 | [귀환안 18초](outputs/alternatives/harbor-draft.mp4), [해도안 19초](outputs/alternatives/harbor-map-draft.mp4), [착안 러프 18초](outputs/alternatives/harbor-landfall-draft.mp4) | `examples/harbor*` |
 
+## 전역 설치
+
+전역 스킬은 `/Users/oozoofrog/.codex/skills/cinewright`에 설치했다. 개발 저장소와 분리된 복사본이며, 실행 코드·참조 문서·예제·테스트와 잠금 파일 기준 의존성을 포함한다. 개발 소스의 변경은 설치본에 자동으로 반영되지 않는다.
+
+프로젝트 작업 경로에서 전역 도구를 실행하면 `.direction/` 기록도 해당 작업 경로에 저장한다. 다른 기록 경로가 필요하면 `--store`를 지정한다.
+
+```sh
+node /Users/oozoofrog/.codex/skills/cinewright/scripts/direction.mjs doctor
+node /Users/oozoofrog/.codex/skills/cinewright/scripts/direction.mjs init ./my-film
+node /Users/oozoofrog/.codex/skills/cinewright/scripts/direction.mjs preview ./my-film
+```
+
+[설치 및 실행 검증](evidence/global-install/RESULT.md)
+
 ## 실행
 
 이 디렉터리에서 실행한다. Node.js, FFmpeg/FFprobe, Chromium이 필요하다.

@@ -1,0 +1,8 @@
+{
+  "node": "v26.12.1",
+  "ffmpeg": "ffmpeg version 9.0.2 Copyright (c) 2000-2026 the FFmpeg developers",
+  "ffprobe": "ffprobe version 9.0.2 Copyright (c) 2007-2026 the FFmpeg developers",
+  "chromium": "156.0.8078.80",
+  "canvas": true,
+  "webgl2": true
+}

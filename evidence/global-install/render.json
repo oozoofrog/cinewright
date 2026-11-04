@@ -1,0 +1,28 @@
+{
+  "id": "a9fadc32-9826-4433-94ce-39ffb6688640",
+  "revision": "8cc53f98fad34eec6cca7871b49116b6c4397cf781beda590108112711bd9a88",
+  "settings": {
+    "mode": "video",
+    "from": 0,
+    "to": 24,
+    "scale": 0.125
+  },
+  "status": "completed",
+  "phase": "published",
+  "frames": 24,
+  "totalFrames": 24,
+  "pid": 36133,
+  "started": "2026-11-04T10:04:13.260Z",
+  "log": "/var/folders/tf/wn7gzzvd6l7f7_ttdx84ps880000gn/T/cinewright-global-proof-na_o6b6z/.direction/jobs/a9fadc32-9826-4433-94ce-39ffb6688640/execution.log",
+  "ffmpeg": "ffmpeg version 9.0.2 Copyright (c) 2000-2026 the FFmpeg developers",
+  "audio": {
+    "file": "/var/folders/tf/wn7gzzvd6l7f7_ttdx84ps880000gn/T/cinewright-global-proof-na_o6b6z/.direction/jobs/a9fadc32-9826-4433-94ce-39ffb6688640/mix.wav",
+    "rate": 48000,
+    "duration": 48000,
+    "sources": []
+  },
+  "browser": "156.0.8078.80",
+  "outputSha256": "2c4d01076cf7bbc2d7e60de6729ebd1081cd0e1bdc11bab05b61c095f5f3ccb6",
+  "output": "/var/folders/tf/wn7gzzvd6l7f7_ttdx84ps880000gn/T/cinewright-global-proof-na_o6b6z/.direction/jobs/a9fadc32-9826-4433-94ce-39ffb6688640/work.mp4",
+  "finished": "2026-11-04T10:04:19.004Z"
+}
