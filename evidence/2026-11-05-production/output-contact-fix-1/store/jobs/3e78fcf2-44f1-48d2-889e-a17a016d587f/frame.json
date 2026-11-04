@@ -1,0 +1,14 @@
+{
+  "frame": 60,
+  "values": {},
+  "exposures": {
+    "tableau": {
+      "frame": 60,
+      "value": "released"
+    },
+    "window-light": {
+      "frame": 60,
+      "value": "released"
+    }
+  }
+}

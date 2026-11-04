@@ -1,0 +1,10 @@
+{
+  "repetition": 2,
+  "directory": "evidence/2026-11-05-production/task-5-measurement/runs/baseline-4-r2",
+  "startedAt": "2026-11-04T21:40:16.238Z",
+  "status": "completed",
+  "pid": 25779,
+  "code": 0,
+  "signal": null,
+  "finishedAt": "2026-11-04T21:40:19.863Z"
+}

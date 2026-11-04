@@ -1,0 +1,98 @@
+{
+  "scope": "Offline recomputation from 24 preserved individual forward seeks per condition. Each elapsedMs includes seek and PNG readback as originally measured. No new measurement, timer change or raw modification.",
+  "conditions": [
+    {
+      "case": "baseline-4",
+      "forwardSeekCount": 24,
+      "maxIndividualForwardSeekAndReadback": {
+        "repetition": 1,
+        "index": 3,
+        "requestedFrame": 47,
+        "elapsedMs": 506.1279169999998
+      },
+      "displayMs": "506.128",
+      "rawFiles": [
+        {
+          "path": "evidence/2026-11-05-production/task-5-measurement/runs/baseline-4-r1/result.json",
+          "sha256": "889ec40699e4bd1fd23bc12570116c8dde1d8845ae5e58f2e995b25a86d70a4f",
+          "rawStatus": "completed",
+          "count": 8
+        },
+        {
+          "path": "evidence/2026-11-05-production/task-5-measurement/runs/baseline-4-r2/result.json",
+          "sha256": "5af4d05ee39a47d5b84d371739a6ed80a6c7289b09bff89e4e4fd047aa67c233",
+          "rawStatus": "completed",
+          "count": 8
+        },
+        {
+          "path": "evidence/2026-11-05-production/task-5-measurement/runs/baseline-4-r3/result.json",
+          "sha256": "3c8b4bbe0a63420606689afbb634056e07338792c637725cd8a7c66452910f8e",
+          "rawStatus": "completed",
+          "count": 8
+        }
+      ]
+    },
+    {
+      "case": "reused-24",
+      "forwardSeekCount": 24,
+      "maxIndividualForwardSeekAndReadback": {
+        "repetition": 3,
+        "index": 0,
+        "requestedFrame": 0,
+        "elapsedMs": 433.93391599999995
+      },
+      "displayMs": "433.934",
+      "rawFiles": [
+        {
+          "path": "evidence/2026-11-05-production/task-5-measurement/runs/reused-24-r1/result.json",
+          "sha256": "545cb9d7309fa617520207882135d2e6962d2ec430a740b5209b372c652f6709",
+          "rawStatus": "completed",
+          "count": 8
+        },
+        {
+          "path": "evidence/2026-11-05-production/task-5-measurement/runs/reused-24-r2/result.json",
+          "sha256": "c75017a000f6bd0883fc5d06a0df08fd72639d8d601899aba3e9e65c9be81c3e",
+          "rawStatus": "failed",
+          "count": 8
+        },
+        {
+          "path": "evidence/2026-11-05-production/task-5-measurement/runs/reused-24-r3/result.json",
+          "sha256": "3a72437cc8c4fdfb8c1346cefc3dfa43fdd37208cfabd0e8c3f90995cecaaeb0",
+          "rawStatus": "completed",
+          "count": 8
+        }
+      ]
+    },
+    {
+      "case": "unique-24",
+      "forwardSeekCount": 24,
+      "maxIndividualForwardSeekAndReadback": {
+        "repetition": 3,
+        "index": 0,
+        "requestedFrame": 0,
+        "elapsedMs": 448.5827079999999
+      },
+      "displayMs": "448.583",
+      "rawFiles": [
+        {
+          "path": "evidence/2026-11-05-production/task-5-measurement/runs/unique-24-r1/result.json",
+          "sha256": "4af806f08d9f9bd2cfcc69efdf3ea1dd717eb17582930034ddd2eecdfb79cec0",
+          "rawStatus": "completed",
+          "count": 8
+        },
+        {
+          "path": "evidence/2026-11-05-production/task-5-measurement/runs/unique-24-r2/result.json",
+          "sha256": "746f212d2f8dbd89d96ce1ab8087167b7a201fbe936395b5b5b8780cd48bb7d1",
+          "rawStatus": "completed",
+          "count": 8
+        },
+        {
+          "path": "evidence/2026-11-05-production/task-5-measurement/runs/unique-24-r3/result.json",
+          "sha256": "5057dbddc56a1cd88a0bd90a05ee28a90dc9fca7831f8d593abfea118a8e7c00",
+          "rawStatus": "completed",
+          "count": 8
+        }
+      ]
+    }
+  ]
+}

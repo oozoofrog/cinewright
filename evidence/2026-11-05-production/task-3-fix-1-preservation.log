@@ -1,0 +1,8 @@
+a all 10 project files byte-identical to the pre-fix snapshot
+b all 10 project files byte-identical to the pre-fix snapshot
+source.mjs byte-identical
+scene.mjs byte-identical
+rebuild.mjs byte-identical
+fixtures/boundary-before.json byte-identical
+fixtures/boundary-after.json byte-identical
+No freeze, frame, playback or video-render command was run in this fix round. Existing stored smoke revisions were not modified.

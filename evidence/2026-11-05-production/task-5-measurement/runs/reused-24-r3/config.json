@@ -1,0 +1,46 @@
+{
+  "id": "reused-24",
+  "repetition": 3,
+  "store": "/Volumes/eyedisk/develop/cinewright/evidence/2026-11-05-production/task-5-measurement/stores/reused-24",
+  "revision": "16a5290d78a75919deb5f5bcf4c55b0a7a1081495d1f8762015cce8c5f146ce4",
+  "audioFile": "/Volumes/eyedisk/develop/cinewright/evidence/2026-11-05-production/task-5-measurement/audio/reused-24/mix.wav",
+  "fixture": "/Volumes/eyedisk/develop/cinewright/evidence/2026-11-05-production/task-5-measurement/fixtures/reused-24",
+  "tmpdir": "/Volumes/eyedisk/develop/cinewright/evidence/2026-11-05-production/task-5-measurement/tmp/reused-24-r3",
+  "runDirectory": "/Volumes/eyedisk/develop/cinewright/evidence/2026-11-05-production/task-5-measurement/runs/reused-24-r3",
+  "casePlan": {
+    "id": "reused-24",
+    "cuts": 24,
+    "uniqueAssets": 4,
+    "frames": 576,
+    "forward": [
+      0,
+      23,
+      24,
+      143,
+      144,
+      287,
+      288,
+      575
+    ],
+    "reverse": [
+      575,
+      288,
+      287,
+      144,
+      143,
+      24,
+      23,
+      0
+    ],
+    "random": [
+      383,
+      26,
+      531,
+      127,
+      302,
+      59,
+      447,
+      211
+    ]
+  }
+}

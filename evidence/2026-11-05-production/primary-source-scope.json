@@ -1,0 +1,34 @@
+{
+  "status": "AUTHORIZED_WORKING_TREE_SCOPE",
+  "head": "5bd6d89763dd500d0fd85903bf8c288775e4ac0e",
+  "trackedChanged": [
+    "README.md",
+    "SKILL.md",
+    "references/direction.md",
+    "references/format.md",
+    "references/tools.md"
+  ],
+  "untrackedFileCountsByTopDirectory": {
+    "docs": 1,
+    "evidence": 838,
+    "examples": 31,
+    "modules": 2,
+    "references": 2,
+    "tests": 5
+  },
+  "untrackedFiles": 879,
+  "allowedPrefixes": [
+    "docs/",
+    "evidence/2026-11-05-production/",
+    "examples/stillcuts/",
+    "modules/",
+    "references/craft.md",
+    "references/stillcuts.md",
+    "tests/artwork.test.mjs",
+    "tests/cuts.test.mjs",
+    "tests/stillcuts-build.test.mjs",
+    "tests/stillcuts-evidence.test.mjs",
+    "tests/stillcuts.integration.test.mjs"
+  ],
+  "scope": "Git-visible working tree only; generated ignored stores and preserved coordination evidence are documented separately. Final owner is still completing reports."
+}

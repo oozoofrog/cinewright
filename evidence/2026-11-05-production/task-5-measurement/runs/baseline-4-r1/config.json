@@ -1,0 +1,46 @@
+{
+  "id": "baseline-4",
+  "repetition": 1,
+  "store": "/Volumes/eyedisk/develop/cinewright/evidence/2026-11-05-production/task-5-measurement/stores/baseline-4",
+  "revision": "ddc2b82474ed99437967d0ef7f797ca28aa153d1dddfce6ca4b3bfbfede0f094",
+  "audioFile": "/Volumes/eyedisk/develop/cinewright/evidence/2026-11-05-production/task-5-measurement/audio/baseline-4/mix.wav",
+  "fixture": "/Volumes/eyedisk/develop/cinewright/evidence/2026-11-05-production/task-5-measurement/fixtures/baseline-4",
+  "tmpdir": "/Volumes/eyedisk/develop/cinewright/evidence/2026-11-05-production/task-5-measurement/tmp/baseline-4-r1",
+  "runDirectory": "/Volumes/eyedisk/develop/cinewright/evidence/2026-11-05-production/task-5-measurement/runs/baseline-4-r1",
+  "casePlan": {
+    "id": "baseline-4",
+    "cuts": 4,
+    "uniqueAssets": 4,
+    "frames": 96,
+    "forward": [
+      0,
+      23,
+      24,
+      47,
+      48,
+      71,
+      72,
+      95
+    ],
+    "reverse": [
+      95,
+      72,
+      71,
+      48,
+      47,
+      24,
+      23,
+      0
+    ],
+    "random": [
+      63,
+      4,
+      88,
+      21,
+      50,
+      9,
+      74,
+      35
+    ]
+  }
+}

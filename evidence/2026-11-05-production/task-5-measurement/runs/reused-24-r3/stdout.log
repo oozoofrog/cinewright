@@ -1,0 +1,7 @@
+{"case":"reused-24","repetition":3,"stage":"beforeBrowser","nodeKiB":58928,"browserKiB":0,"temporaryBytes":0}
+{"case":"reused-24","repetition":3,"stage":"browserLaunched","nodeKiB":133568,"browserKiB":512272,"temporaryBytes":1433680}
+{"case":"reused-24","repetition":3,"stage":"firstFrame0","nodeKiB":143712,"browserKiB":1241072,"temporaryBytes":6879942}
+{"case":"reused-24","repetition":3,"stage":"afterForward","nodeKiB":144464,"browserKiB":1268528,"temporaryBytes":7259246}
+{"case":"reused-24","repetition":3,"stage":"afterReverse","nodeKiB":145344,"browserKiB":1275168,"temporaryBytes":7259246}
+{"case":"reused-24","repetition":3,"stage":"afterRandom","nodeKiB":146112,"browserKiB":1276288,"temporaryBytes":7259246}
+{"case":"reused-24","repetition":3,"stage":"afterBrowserClose","nodeKiB":146720,"browserKiB":0,"temporaryBytes":0}

@@ -1,0 +1,10 @@
+{
+  "repetition": 1,
+  "directory": "evidence/2026-11-05-production/task-5-measurement/runs/reused-24-r1",
+  "startedAt": "2026-11-04T21:40:23.771Z",
+  "status": "completed",
+  "pid": 25941,
+  "code": 0,
+  "signal": null,
+  "finishedAt": "2026-11-04T21:40:27.417Z"
+}

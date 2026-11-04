@@ -1,0 +1,1319 @@
+{
+  "case": "reused-24",
+  "repetition": 2,
+  "status": "failed",
+  "startedAt": "2026-11-04T21:40:27.505Z",
+  "nodePid": 26009,
+  "tmpdir": "evidence/2026-11-05-production/task-5-measurement/tmp/reused-24-r2",
+  "revision": "16a5290d78a75919deb5f5bcf4c55b0a7a1081495d1f8762015cce8c5f146ce4",
+  "stages": [
+    {
+      "stage": "beforeBrowser",
+      "rss": {
+        "sampledAt": "2026-11-04T21:40:27.522Z",
+        "node": {
+          "pid": 26009,
+          "ppid": 25687,
+          "rssKiB": 58688,
+          "executable": "node"
+        },
+        "browser": [],
+        "browserSumKiB": 0,
+        "otherDescendants": [],
+        "excludedSamplerPid": 26010,
+        "unit": "KiB",
+        "scope": "fresh worker and current browser descendants"
+      },
+      "disk": {
+        "fixture": {
+          "path": "evidence/2026-11-05-production/task-5-measurement/fixtures/reused-24",
+          "regularFiles": 8,
+          "logicalBytes": 21397,
+          "directories": 3,
+          "symlinks": 0,
+          "specialFiles": 0,
+          "vanishedDuringWalk": 0,
+          "errors": []
+        },
+        "store": {
+          "path": "evidence/2026-11-05-production/task-5-measurement/stores/reused-24",
+          "regularFiles": 25,
+          "logicalBytes": 2071243,
+          "directories": 10,
+          "symlinks": 0,
+          "specialFiles": 0,
+          "vanishedDuringWalk": 0,
+          "errors": []
+        },
+        "audio": {
+          "path": "evidence/2026-11-05-production/task-5-measurement/audio/reused-24",
+          "regularFiles": 2,
+          "logicalBytes": 4608433,
+          "directories": 1,
+          "symlinks": 0,
+          "specialFiles": 0,
+          "vanishedDuringWalk": 0,
+          "errors": []
+        },
+        "temporary": {
+          "path": "evidence/2026-11-05-production/task-5-measurement/tmp/reused-24-r2",
+          "regularFiles": 0,
+          "logicalBytes": 0,
+          "directories": 1,
+          "symlinks": 0,
+          "specialFiles": 0,
+          "vanishedDuringWalk": 0,
+          "errors": []
+        },
+        "run": {
+          "path": "evidence/2026-11-05-production/task-5-measurement/runs/reused-24-r2",
+          "regularFiles": 5,
+          "logicalBytes": 1825,
+          "directories": 2,
+          "symlinks": 0,
+          "specialFiles": 0,
+          "vanishedDuringWalk": 0,
+          "errors": []
+        }
+      },
+      "scopedLogicalBytes": 6702898
+    },
+    {
+      "stage": "browserLaunched",
+      "rss": {
+        "sampledAt": "2026-11-04T21:40:27.928Z",
+        "node": {
+          "pid": 26009,
+          "ppid": 25687,
+          "rssKiB": 133824,
+          "executable": "node"
+        },
+        "browser": [
+          {
+            "pid": 26014,
+            "ppid": 26009,
+            "rssKiB": 169264,
+            "executable": "Google Chrome"
+          },
+          {
+            "pid": 26024,
+            "ppid": 26014,
+            "rssKiB": 108752,
+            "executable": "Google Chrome Helper (GPU)"
+          },
+          {
+            "pid": 26025,
+            "ppid": 26014,
+            "rssKiB": 93248,
+            "executable": "Google Chrome Helper"
+          },
+          {
+            "pid": 26026,
+            "ppid": 26014,
+            "rssKiB": 81392,
+            "executable": "Google Chrome Helper"
+          },
+          {
+            "pid": 26027,
+            "ppid": 26014,
+            "rssKiB": 77024,
+            "executable": "(Google Chrome He)"
+          }
+        ],
+        "browserSumKiB": 529680,
+        "otherDescendants": [],
+        "excludedSamplerPid": 26028,
+        "unit": "KiB",
+        "scope": "fresh worker and current browser descendants"
+      },
+      "disk": {
+        "fixture": {
+          "path": "evidence/2026-11-05-production/task-5-measurement/fixtures/reused-24",
+          "regularFiles": 8,
+          "logicalBytes": 21397,
+          "directories": 3,
+          "symlinks": 0,
+          "specialFiles": 0,
+          "vanishedDuringWalk": 0,
+          "errors": []
+        },
+        "store": {
+          "path": "evidence/2026-11-05-production/task-5-measurement/stores/reused-24",
+          "regularFiles": 25,
+          "logicalBytes": 2071243,
+          "directories": 10,
+          "symlinks": 0,
+          "specialFiles": 0,
+          "vanishedDuringWalk": 0,
+          "errors": []
+        },
+        "audio": {
+          "path": "evidence/2026-11-05-production/task-5-measurement/audio/reused-24",
+          "regularFiles": 2,
+          "logicalBytes": 4608433,
+          "directories": 1,
+          "symlinks": 0,
+          "specialFiles": 0,
+          "vanishedDuringWalk": 0,
+          "errors": []
+        },
+        "temporary": {
+          "path": "evidence/2026-11-05-production/task-5-measurement/tmp/reused-24-r2",
+          "regularFiles": 114,
+          "logicalBytes": 1433656,
+          "directories": 46,
+          "symlinks": 4,
+          "specialFiles": 0,
+          "vanishedDuringWalk": 0,
+          "errors": []
+        },
+        "run": {
+          "path": "evidence/2026-11-05-production/task-5-measurement/runs/reused-24-r2",
+          "regularFiles": 5,
+          "logicalBytes": 6269,
+          "directories": 2,
+          "symlinks": 0,
+          "specialFiles": 0,
+          "vanishedDuringWalk": 0,
+          "errors": []
+        }
+      },
+      "scopedLogicalBytes": 8140998
+    },
+    {
+      "stage": "firstFrame0",
+      "rss": {
+        "sampledAt": "2026-11-04T21:40:29.797Z",
+        "node": {
+          "pid": 26009,
+          "ppid": 25687,
+          "rssKiB": 145648,
+          "executable": "node"
+        },
+        "browser": [
+          {
+            "pid": 26014,
+            "ppid": 26009,
+            "rssKiB": 234544,
+            "executable": "Google Chrome"
+          },
+          {
+            "pid": 26024,
+            "ppid": 26014,
+            "rssKiB": 245120,
+            "executable": "Google Chrome Helper (GPU)"
+          },
+          {
+            "pid": 26025,
+            "ppid": 26014,
+            "rssKiB": 103472,
+            "executable": "Google Chrome Helper"
+          },
+          {
+            "pid": 26026,
+            "ppid": 26014,
+            "rssKiB": 83840,
+            "executable": "Google Chrome Helper"
+          },
+          {
+            "pid": 26035,
+            "ppid": 26014,
+            "rssKiB": 193440,
+            "executable": "Google Chrome Helper (Renderer)"
+          },
+          {
+            "pid": 26037,
+            "ppid": 26014,
+            "rssKiB": 105776,
+            "executable": "Google Chrome Helper (Renderer)"
+          },
+          {
+            "pid": 26038,
+            "ppid": 26014,
+            "rssKiB": 182688,
+            "executable": "Google Chrome Helper (Renderer)"
+          },
+          {
+            "pid": 26044,
+            "ppid": 26014,
+            "rssKiB": 96768,
+            "executable": "Google Chrome Helper"
+          }
+        ],
+        "browserSumKiB": 1245648,
+        "otherDescendants": [],
+        "excludedSamplerPid": 26054,
+        "unit": "KiB",
+        "scope": "fresh worker and current browser descendants"
+      },
+      "disk": {
+        "fixture": {
+          "path": "evidence/2026-11-05-production/task-5-measurement/fixtures/reused-24",
+          "regularFiles": 8,
+          "logicalBytes": 21397,
+          "directories": 3,
+          "symlinks": 0,
+          "specialFiles": 0,
+          "vanishedDuringWalk": 0,
+          "errors": []
+        },
+        "store": {
+          "path": "evidence/2026-11-05-production/task-5-measurement/stores/reused-24",
+          "regularFiles": 25,
+          "logicalBytes": 2071243,
+          "directories": 10,
+          "symlinks": 0,
+          "specialFiles": 0,
+          "vanishedDuringWalk": 0,
+          "errors": []
+        },
+        "audio": {
+          "path": "evidence/2026-11-05-production/task-5-measurement/audio/reused-24",
+          "regularFiles": 2,
+          "logicalBytes": 4608433,
+          "directories": 1,
+          "symlinks": 0,
+          "specialFiles": 0,
+          "vanishedDuringWalk": 0,
+          "errors": []
+        },
+        "temporary": {
+          "path": "evidence/2026-11-05-production/task-5-measurement/tmp/reused-24-r2",
+          "regularFiles": 124,
+          "logicalBytes": 6879942,
+          "directories": 46,
+          "symlinks": 4,
+          "specialFiles": 0,
+          "vanishedDuringWalk": 0,
+          "errors": []
+        },
+        "run": {
+          "path": "evidence/2026-11-05-production/task-5-measurement/runs/reused-24-r2",
+          "regularFiles": 6,
+          "logicalBytes": 15805,
+          "directories": 2,
+          "symlinks": 0,
+          "specialFiles": 0,
+          "vanishedDuringWalk": 0,
+          "errors": []
+        }
+      },
+      "scopedLogicalBytes": 13596820
+    },
+    {
+      "stage": "afterForward",
+      "rss": {
+        "sampledAt": "2026-11-04T21:40:30.531Z",
+        "node": {
+          "pid": 26009,
+          "ppid": 25687,
+          "rssKiB": 143328,
+          "executable": "node"
+        },
+        "browser": [
+          {
+            "pid": 26014,
+            "ppid": 26009,
+            "rssKiB": 242464,
+            "executable": "Google Chrome"
+          },
+          {
+            "pid": 26024,
+            "ppid": 26014,
+            "rssKiB": 259200,
+            "executable": "Google Chrome Helper (GPU)"
+          },
+          {
+            "pid": 26025,
+            "ppid": 26014,
+            "rssKiB": 105632,
+            "executable": "Google Chrome Helper"
+          },
+          {
+            "pid": 26026,
+            "ppid": 26014,
+            "rssKiB": 83840,
+            "executable": "Google Chrome Helper"
+          },
+          {
+            "pid": 26035,
+            "ppid": 26014,
+            "rssKiB": 193712,
+            "executable": "Google Chrome Helper (Renderer)"
+          },
+          {
+            "pid": 26037,
+            "ppid": 26014,
+            "rssKiB": 105776,
+            "executable": "Google Chrome Helper (Renderer)"
+          },
+          {
+            "pid": 26038,
+            "ppid": 26014,
+            "rssKiB": 182144,
+            "executable": "Google Chrome Helper (Renderer)"
+          },
+          {
+            "pid": 26044,
+            "ppid": 26014,
+            "rssKiB": 96912,
+            "executable": "Google Chrome Helper"
+          }
+        ],
+        "browserSumKiB": 1269680,
+        "otherDescendants": [],
+        "excludedSamplerPid": 26060,
+        "unit": "KiB",
+        "scope": "fresh worker and current browser descendants"
+      },
+      "disk": {
+        "fixture": {
+          "path": "evidence/2026-11-05-production/task-5-measurement/fixtures/reused-24",
+          "regularFiles": 8,
+          "logicalBytes": 21397,
+          "directories": 3,
+          "symlinks": 0,
+          "specialFiles": 0,
+          "vanishedDuringWalk": 0,
+          "errors": []
+        },
+        "store": {
+          "path": "evidence/2026-11-05-production/task-5-measurement/stores/reused-24",
+          "regularFiles": 25,
+          "logicalBytes": 2071243,
+          "directories": 10,
+          "symlinks": 0,
+          "specialFiles": 0,
+          "vanishedDuringWalk": 0,
+          "errors": []
+        },
+        "audio": {
+          "path": "evidence/2026-11-05-production/task-5-measurement/audio/reused-24",
+          "regularFiles": 2,
+          "logicalBytes": 4608433,
+          "directories": 1,
+          "symlinks": 0,
+          "specialFiles": 0,
+          "vanishedDuringWalk": 0,
+          "errors": []
+        },
+        "temporary": {
+          "path": "evidence/2026-11-05-production/task-5-measurement/tmp/reused-24-r2",
+          "regularFiles": 160,
+          "logicalBytes": 7259246,
+          "directories": 54,
+          "symlinks": 4,
+          "specialFiles": 0,
+          "vanishedDuringWalk": 0,
+          "errors": []
+        },
+        "run": {
+          "path": "evidence/2026-11-05-production/task-5-measurement/runs/reused-24-r2",
+          "regularFiles": 14,
+          "logicalBytes": 52963,
+          "directories": 2,
+          "symlinks": 0,
+          "specialFiles": 0,
+          "vanishedDuringWalk": 0,
+          "errors": []
+        }
+      },
+      "scopedLogicalBytes": 14013282
+    },
+    {
+      "stage": "afterReverse",
+      "rss": {
+        "sampledAt": "2026-11-04T21:40:30.628Z",
+        "node": {
+          "pid": 26009,
+          "ppid": 25687,
+          "rssKiB": 144016,
+          "executable": "node"
+        },
+        "browser": [
+          {
+            "pid": 26014,
+            "ppid": 26009,
+            "rssKiB": 242624,
+            "executable": "Google Chrome"
+          },
+          {
+            "pid": 26024,
+            "ppid": 26014,
+            "rssKiB": 264720,
+            "executable": "Google Chrome Helper (GPU)"
+          },
+          {
+            "pid": 26025,
+            "ppid": 26014,
+            "rssKiB": 105632,
+            "executable": "Google Chrome Helper"
+          },
+          {
+            "pid": 26026,
+            "ppid": 26014,
+            "rssKiB": 83840,
+            "executable": "Google Chrome Helper"
+          },
+          {
+            "pid": 26035,
+            "ppid": 26014,
+            "rssKiB": 193712,
+            "executable": "Google Chrome Helper (Renderer)"
+          },
+          {
+            "pid": 26037,
+            "ppid": 26014,
+            "rssKiB": 105776,
+            "executable": "Google Chrome Helper (Renderer)"
+          },
+          {
+            "pid": 26038,
+            "ppid": 26014,
+            "rssKiB": 183376,
+            "executable": "Google Chrome Helper (Renderer)"
+          },
+          {
+            "pid": 26044,
+            "ppid": 26014,
+            "rssKiB": 96912,
+            "executable": "Google Chrome Helper"
+          }
+        ],
+        "browserSumKiB": 1276592,
+        "otherDescendants": [],
+        "excludedSamplerPid": 26061,
+        "unit": "KiB",
+        "scope": "fresh worker and current browser descendants"
+      },
+      "disk": {
+        "fixture": {
+          "path": "evidence/2026-11-05-production/task-5-measurement/fixtures/reused-24",
+          "regularFiles": 8,
+          "logicalBytes": 21397,
+          "directories": 3,
+          "symlinks": 0,
+          "specialFiles": 0,
+          "vanishedDuringWalk": 0,
+          "errors": []
+        },
+        "store": {
+          "path": "evidence/2026-11-05-production/task-5-measurement/stores/reused-24",
+          "regularFiles": 25,
+          "logicalBytes": 2071243,
+          "directories": 10,
+          "symlinks": 0,
+          "specialFiles": 0,
+          "vanishedDuringWalk": 0,
+          "errors": []
+        },
+        "audio": {
+          "path": "evidence/2026-11-05-production/task-5-measurement/audio/reused-24",
+          "regularFiles": 2,
+          "logicalBytes": 4608433,
+          "directories": 1,
+          "symlinks": 0,
+          "specialFiles": 0,
+          "vanishedDuringWalk": 0,
+          "errors": []
+        },
+        "temporary": {
+          "path": "evidence/2026-11-05-production/task-5-measurement/tmp/reused-24-r2",
+          "regularFiles": 160,
+          "logicalBytes": 7259246,
+          "directories": 54,
+          "symlinks": 4,
+          "specialFiles": 0,
+          "vanishedDuringWalk": 0,
+          "errors": []
+        },
+        "run": {
+          "path": "evidence/2026-11-05-production/task-5-measurement/runs/reused-24-r2",
+          "regularFiles": 22,
+          "logicalBytes": 94232,
+          "directories": 2,
+          "symlinks": 0,
+          "specialFiles": 0,
+          "vanishedDuringWalk": 0,
+          "errors": []
+        }
+      },
+      "scopedLogicalBytes": 14054551
+    },
+    {
+      "stage": "afterRandom",
+      "rss": {
+        "sampledAt": "2026-11-04T21:40:30.717Z",
+        "node": {
+          "pid": 26009,
+          "ppid": 25687,
+          "rssKiB": 144576,
+          "executable": "node"
+        },
+        "browser": [
+          {
+            "pid": 26014,
+            "ppid": 26009,
+            "rssKiB": 242672,
+            "executable": "Google Chrome"
+          },
+          {
+            "pid": 26024,
+            "ppid": 26014,
+            "rssKiB": 264736,
+            "executable": "Google Chrome Helper (GPU)"
+          },
+          {
+            "pid": 26025,
+            "ppid": 26014,
+            "rssKiB": 105632,
+            "executable": "Google Chrome Helper"
+          },
+          {
+            "pid": 26026,
+            "ppid": 26014,
+            "rssKiB": 83840,
+            "executable": "Google Chrome Helper"
+          },
+          {
+            "pid": 26035,
+            "ppid": 26014,
+            "rssKiB": 193712,
+            "executable": "Google Chrome Helper (Renderer)"
+          },
+          {
+            "pid": 26037,
+            "ppid": 26014,
+            "rssKiB": 105776,
+            "executable": "Google Chrome Helper (Renderer)"
+          },
+          {
+            "pid": 26038,
+            "ppid": 26014,
+            "rssKiB": 188320,
+            "executable": "Google Chrome Helper (Renderer)"
+          },
+          {
+            "pid": 26044,
+            "ppid": 26014,
+            "rssKiB": 96912,
+            "executable": "Google Chrome Helper"
+          }
+        ],
+        "browserSumKiB": 1281600,
+        "otherDescendants": [],
+        "excludedSamplerPid": 26062,
+        "unit": "KiB",
+        "scope": "fresh worker and current browser descendants"
+      },
+      "disk": {
+        "fixture": {
+          "path": "evidence/2026-11-05-production/task-5-measurement/fixtures/reused-24",
+          "regularFiles": 8,
+          "logicalBytes": 21397,
+          "directories": 3,
+          "symlinks": 0,
+          "specialFiles": 0,
+          "vanishedDuringWalk": 0,
+          "errors": []
+        },
+        "store": {
+          "path": "evidence/2026-11-05-production/task-5-measurement/stores/reused-24",
+          "regularFiles": 25,
+          "logicalBytes": 2071243,
+          "directories": 10,
+          "symlinks": 0,
+          "specialFiles": 0,
+          "vanishedDuringWalk": 0,
+          "errors": []
+        },
+        "audio": {
+          "path": "evidence/2026-11-05-production/task-5-measurement/audio/reused-24",
+          "regularFiles": 2,
+          "logicalBytes": 4608433,
+          "directories": 1,
+          "symlinks": 0,
+          "specialFiles": 0,
+          "vanishedDuringWalk": 0,
+          "errors": []
+        },
+        "temporary": {
+          "path": "evidence/2026-11-05-production/task-5-measurement/tmp/reused-24-r2",
+          "regularFiles": 160,
+          "logicalBytes": 7259246,
+          "directories": 54,
+          "symlinks": 4,
+          "specialFiles": 0,
+          "vanishedDuringWalk": 0,
+          "errors": []
+        },
+        "run": {
+          "path": "evidence/2026-11-05-production/task-5-measurement/runs/reused-24-r2",
+          "regularFiles": 30,
+          "logicalBytes": 135249,
+          "directories": 2,
+          "symlinks": 0,
+          "specialFiles": 0,
+          "vanishedDuringWalk": 0,
+          "errors": []
+        }
+      },
+      "scopedLogicalBytes": 14095568
+    },
+    {
+      "stage": "afterBrowserClose",
+      "rss": {
+        "sampledAt": "2026-11-04T21:40:30.984Z",
+        "node": {
+          "pid": 26009,
+          "ppid": 25687,
+          "rssKiB": 146720,
+          "executable": "node"
+        },
+        "browser": [],
+        "browserSumKiB": 0,
+        "otherDescendants": [],
+        "excludedSamplerPid": 26066,
+        "unit": "KiB",
+        "scope": "fresh worker and current browser descendants"
+      },
+      "disk": {
+        "fixture": {
+          "path": "evidence/2026-11-05-production/task-5-measurement/fixtures/reused-24",
+          "regularFiles": 8,
+          "logicalBytes": 21397,
+          "directories": 3,
+          "symlinks": 0,
+          "specialFiles": 0,
+          "vanishedDuringWalk": 0,
+          "errors": []
+        },
+        "store": {
+          "path": "evidence/2026-11-05-production/task-5-measurement/stores/reused-24",
+          "regularFiles": 25,
+          "logicalBytes": 2071243,
+          "directories": 10,
+          "symlinks": 0,
+          "specialFiles": 0,
+          "vanishedDuringWalk": 0,
+          "errors": []
+        },
+        "audio": {
+          "path": "evidence/2026-11-05-production/task-5-measurement/audio/reused-24",
+          "regularFiles": 2,
+          "logicalBytes": 4608433,
+          "directories": 1,
+          "symlinks": 0,
+          "specialFiles": 0,
+          "vanishedDuringWalk": 0,
+          "errors": []
+        },
+        "temporary": {
+          "path": "evidence/2026-11-05-production/task-5-measurement/tmp/reused-24-r2",
+          "regularFiles": 0,
+          "logicalBytes": 0,
+          "directories": 1,
+          "symlinks": 0,
+          "specialFiles": 0,
+          "vanishedDuringWalk": 0,
+          "errors": []
+        },
+        "run": {
+          "path": "evidence/2026-11-05-production/task-5-measurement/runs/reused-24-r2",
+          "regularFiles": 30,
+          "logicalBytes": 144338,
+          "directories": 2,
+          "symlinks": 0,
+          "specialFiles": 0,
+          "vanishedDuringWalk": 0,
+          "errors": []
+        }
+      },
+      "scopedLogicalBytes": 6845411
+    }
+  ],
+  "seeks": {
+    "forward": [
+      {
+        "requestedFrame": 0,
+        "elapsedMs": 426.3715000000002,
+        "state": {
+          "frame": 0,
+          "values": {},
+          "exposures": {
+            "artwork": {
+              "frame": 0,
+              "value": "art-00"
+            }
+          }
+        },
+        "canvas": [
+          320,
+          180
+        ],
+        "image": "evidence/2026-11-05-production/task-5-measurement/runs/reused-24-r2/readbacks/forward-0-0.png",
+        "pngBytes": 4104,
+        "sha256": "7b222868bb3a2f3c25bbc554947d4696e094c7fccf4fa04c65a0e6f35c82aea8"
+      },
+      {
+        "requestedFrame": 23,
+        "elapsedMs": 177.5340000000001,
+        "state": {
+          "frame": 23,
+          "values": {},
+          "exposures": {
+            "artwork": {
+              "frame": 23,
+              "value": "art-00"
+            }
+          }
+        },
+        "canvas": [
+          320,
+          180
+        ],
+        "image": "evidence/2026-11-05-production/task-5-measurement/runs/reused-24-r2/readbacks/forward-1-23.png",
+        "pngBytes": 4104,
+        "sha256": "7b222868bb3a2f3c25bbc554947d4696e094c7fccf4fa04c65a0e6f35c82aea8"
+      },
+      {
+        "requestedFrame": 24,
+        "elapsedMs": 6.4208340000000135,
+        "state": {
+          "frame": 24,
+          "values": {},
+          "exposures": {
+            "artwork": {
+              "frame": 24,
+              "value": "art-01"
+            }
+          }
+        },
+        "canvas": [
+          320,
+          180
+        ],
+        "image": "evidence/2026-11-05-production/task-5-measurement/runs/reused-24-r2/readbacks/forward-2-24.png",
+        "pngBytes": 4137,
+        "sha256": "191ec78c3b0fb5775959dd7b4fdc42f84f9d53b458d4cc959510b69c72c7ff45"
+      },
+      {
+        "requestedFrame": 143,
+        "elapsedMs": 3.7849999999998545,
+        "state": {
+          "frame": 143,
+          "values": {},
+          "exposures": {
+            "artwork": {
+              "frame": 143,
+              "value": "art-01"
+            }
+          }
+        },
+        "canvas": [
+          320,
+          180
+        ],
+        "image": "evidence/2026-11-05-production/task-5-measurement/runs/reused-24-r2/readbacks/forward-3-143.png",
+        "pngBytes": 4137,
+        "sha256": "191ec78c3b0fb5775959dd7b4fdc42f84f9d53b458d4cc959510b69c72c7ff45"
+      },
+      {
+        "requestedFrame": 144,
+        "elapsedMs": 31.47858300000007,
+        "state": {
+          "frame": 144,
+          "values": {},
+          "exposures": {
+            "artwork": {
+              "frame": 144,
+              "value": "art-02"
+            }
+          }
+        },
+        "canvas": [
+          320,
+          180
+        ],
+        "image": "evidence/2026-11-05-production/task-5-measurement/runs/reused-24-r2/readbacks/forward-4-144.png",
+        "pngBytes": 4060,
+        "sha256": "15fd9b377a3382015c9f57437edc5350e0ad7e88910178055f6ce262d2265ce3"
+      },
+      {
+        "requestedFrame": 287,
+        "elapsedMs": 4.777207999999973,
+        "state": {
+          "frame": 287,
+          "values": {},
+          "exposures": {
+            "artwork": {
+              "frame": 287,
+              "value": "art-03"
+            }
+          }
+        },
+        "canvas": [
+          320,
+          180
+        ],
+        "image": "evidence/2026-11-05-production/task-5-measurement/runs/reused-24-r2/readbacks/forward-5-287.png",
+        "pngBytes": 4068,
+        "sha256": "c954537fa0554fd5839606f7fe73f0f542864149dc4b646fc5b044d6186069e4"
+      },
+      {
+        "requestedFrame": 288,
+        "elapsedMs": 3.3687919999997575,
+        "state": {
+          "frame": 288,
+          "values": {},
+          "exposures": {
+            "artwork": {
+              "frame": 288,
+              "value": "art-00"
+            }
+          }
+        },
+        "canvas": [
+          320,
+          180
+        ],
+        "image": "evidence/2026-11-05-production/task-5-measurement/runs/reused-24-r2/readbacks/forward-6-288.png",
+        "pngBytes": 4104,
+        "sha256": "7b222868bb3a2f3c25bbc554947d4696e094c7fccf4fa04c65a0e6f35c82aea8"
+      },
+      {
+        "requestedFrame": 575,
+        "elapsedMs": 2.5610830000000533,
+        "state": {
+          "frame": 575,
+          "values": {},
+          "exposures": {
+            "artwork": {
+              "frame": 575,
+              "value": "art-03"
+            }
+          }
+        },
+        "canvas": [
+          320,
+          180
+        ],
+        "image": "evidence/2026-11-05-production/task-5-measurement/runs/reused-24-r2/readbacks/forward-7-575.png",
+        "pngBytes": 4068,
+        "sha256": "c954537fa0554fd5839606f7fe73f0f542864149dc4b646fc5b044d6186069e4"
+      }
+    ],
+    "reverse": [
+      {
+        "requestedFrame": 575,
+        "elapsedMs": 2.0668330000003152,
+        "state": {
+          "frame": 575,
+          "values": {},
+          "exposures": {
+            "artwork": {
+              "frame": 575,
+              "value": "art-03"
+            }
+          }
+        },
+        "canvas": [
+          320,
+          180
+        ],
+        "image": "evidence/2026-11-05-production/task-5-measurement/runs/reused-24-r2/readbacks/reverse-0-575.png",
+        "pngBytes": 4068,
+        "sha256": "c954537fa0554fd5839606f7fe73f0f542864149dc4b646fc5b044d6186069e4"
+      },
+      {
+        "requestedFrame": 288,
+        "elapsedMs": 2.4846659999998337,
+        "state": {
+          "frame": 288,
+          "values": {},
+          "exposures": {
+            "artwork": {
+              "frame": 288,
+              "value": "art-00"
+            }
+          }
+        },
+        "canvas": [
+          320,
+          180
+        ],
+        "image": "evidence/2026-11-05-production/task-5-measurement/runs/reused-24-r2/readbacks/reverse-1-288.png",
+        "pngBytes": 4104,
+        "sha256": "7b222868bb3a2f3c25bbc554947d4696e094c7fccf4fa04c65a0e6f35c82aea8"
+      },
+      {
+        "requestedFrame": 287,
+        "elapsedMs": 1.6922500000000582,
+        "state": {
+          "frame": 287,
+          "values": {},
+          "exposures": {
+            "artwork": {
+              "frame": 287,
+              "value": "art-03"
+            }
+          }
+        },
+        "canvas": [
+          320,
+          180
+        ],
+        "image": "evidence/2026-11-05-production/task-5-measurement/runs/reused-24-r2/readbacks/reverse-2-287.png",
+        "pngBytes": 4068,
+        "sha256": "c954537fa0554fd5839606f7fe73f0f542864149dc4b646fc5b044d6186069e4"
+      },
+      {
+        "requestedFrame": 144,
+        "elapsedMs": 2.818833000000268,
+        "state": {
+          "frame": 144,
+          "values": {},
+          "exposures": {
+            "artwork": {
+              "frame": 144,
+              "value": "art-02"
+            }
+          }
+        },
+        "canvas": [
+          320,
+          180
+        ],
+        "image": "evidence/2026-11-05-production/task-5-measurement/runs/reused-24-r2/readbacks/reverse-3-144.png",
+        "pngBytes": 4060,
+        "sha256": "15fd9b377a3382015c9f57437edc5350e0ad7e88910178055f6ce262d2265ce3"
+      },
+      {
+        "requestedFrame": 143,
+        "elapsedMs": 1.460041000000274,
+        "state": {
+          "frame": 143,
+          "values": {},
+          "exposures": {
+            "artwork": {
+              "frame": 143,
+              "value": "art-01"
+            }
+          }
+        },
+        "canvas": [
+          320,
+          180
+        ],
+        "image": "evidence/2026-11-05-production/task-5-measurement/runs/reused-24-r2/readbacks/reverse-4-143.png",
+        "pngBytes": 4137,
+        "sha256": "191ec78c3b0fb5775959dd7b4fdc42f84f9d53b458d4cc959510b69c72c7ff45"
+      },
+      {
+        "requestedFrame": 24,
+        "elapsedMs": 1.4221669999997175,
+        "state": {
+          "frame": 24,
+          "values": {},
+          "exposures": {
+            "artwork": {
+              "frame": 24,
+              "value": "art-01"
+            }
+          }
+        },
+        "canvas": [
+          320,
+          180
+        ],
+        "image": "evidence/2026-11-05-production/task-5-measurement/runs/reused-24-r2/readbacks/reverse-5-24.png",
+        "pngBytes": 4137,
+        "sha256": "191ec78c3b0fb5775959dd7b4fdc42f84f9d53b458d4cc959510b69c72c7ff45"
+      },
+      {
+        "requestedFrame": 23,
+        "elapsedMs": 1.2965410000001611,
+        "state": {
+          "frame": 23,
+          "values": {},
+          "exposures": {
+            "artwork": {
+              "frame": 23,
+              "value": "art-00"
+            }
+          }
+        },
+        "canvas": [
+          320,
+          180
+        ],
+        "image": "evidence/2026-11-05-production/task-5-measurement/runs/reused-24-r2/readbacks/reverse-6-23.png",
+        "pngBytes": 4104,
+        "sha256": "7b222868bb3a2f3c25bbc554947d4696e094c7fccf4fa04c65a0e6f35c82aea8"
+      },
+      {
+        "requestedFrame": 0,
+        "elapsedMs": 1.5733749999999418,
+        "state": {
+          "frame": 0,
+          "values": {},
+          "exposures": {
+            "artwork": {
+              "frame": 0,
+              "value": "art-00"
+            }
+          }
+        },
+        "canvas": [
+          320,
+          180
+        ],
+        "image": "evidence/2026-11-05-production/task-5-measurement/runs/reused-24-r2/readbacks/reverse-7-0.png",
+        "pngBytes": 4104,
+        "sha256": "7b222868bb3a2f3c25bbc554947d4696e094c7fccf4fa04c65a0e6f35c82aea8"
+      }
+    ],
+    "random": [
+      {
+        "requestedFrame": 383,
+        "elapsedMs": 1.9507920000000922,
+        "state": {
+          "frame": 383,
+          "values": {},
+          "exposures": {
+            "artwork": {
+              "frame": 383,
+              "value": "art-03"
+            }
+          }
+        },
+        "canvas": [
+          320,
+          180
+        ],
+        "image": "evidence/2026-11-05-production/task-5-measurement/runs/reused-24-r2/readbacks/random-0-383.png",
+        "pngBytes": 4068,
+        "sha256": "c954537fa0554fd5839606f7fe73f0f542864149dc4b646fc5b044d6186069e4"
+      },
+      {
+        "requestedFrame": 26,
+        "elapsedMs": 2.6883750000001783,
+        "state": {
+          "frame": 26,
+          "values": {},
+          "exposures": {
+            "artwork": {
+              "frame": 26,
+              "value": "art-01"
+            }
+          }
+        },
+        "canvas": [
+          320,
+          180
+        ],
+        "image": "evidence/2026-11-05-production/task-5-measurement/runs/reused-24-r2/readbacks/random-1-26.png",
+        "pngBytes": 4137,
+        "sha256": "191ec78c3b0fb5775959dd7b4fdc42f84f9d53b458d4cc959510b69c72c7ff45"
+      },
+      {
+        "requestedFrame": 531,
+        "elapsedMs": 1.2730000000001382,
+        "state": {
+          "frame": 531,
+          "values": {},
+          "exposures": {
+            "artwork": {
+              "frame": 531,
+              "value": "art-02"
+            }
+          }
+        },
+        "canvas": [
+          320,
+          180
+        ],
+        "image": "evidence/2026-11-05-production/task-5-measurement/runs/reused-24-r2/readbacks/random-2-531.png",
+        "pngBytes": 4060,
+        "sha256": "15fd9b377a3382015c9f57437edc5350e0ad7e88910178055f6ce262d2265ce3"
+      },
+      {
+        "requestedFrame": 127,
+        "elapsedMs": 1.6172919999999067,
+        "state": {
+          "frame": 127,
+          "values": {},
+          "exposures": {
+            "artwork": {
+              "frame": 127,
+              "value": "art-01"
+            }
+          }
+        },
+        "canvas": [
+          320,
+          180
+        ],
+        "image": "evidence/2026-11-05-production/task-5-measurement/runs/reused-24-r2/readbacks/random-3-127.png",
+        "pngBytes": 4137,
+        "sha256": "191ec78c3b0fb5775959dd7b4fdc42f84f9d53b458d4cc959510b69c72c7ff45"
+      },
+      {
+        "requestedFrame": 302,
+        "elapsedMs": 1.392457999999806,
+        "state": {
+          "frame": 302,
+          "values": {},
+          "exposures": {
+            "artwork": {
+              "frame": 302,
+              "value": "art-00"
+            }
+          }
+        },
+        "canvas": [
+          320,
+          180
+        ],
+        "image": "evidence/2026-11-05-production/task-5-measurement/runs/reused-24-r2/readbacks/random-4-302.png",
+        "pngBytes": 4104,
+        "sha256": "7b222868bb3a2f3c25bbc554947d4696e094c7fccf4fa04c65a0e6f35c82aea8"
+      },
+      {
+        "requestedFrame": 59,
+        "elapsedMs": 1.4373340000001917,
+        "state": {
+          "frame": 59,
+          "values": {},
+          "exposures": {
+            "artwork": {
+              "frame": 59,
+              "value": "art-02"
+            }
+          }
+        },
+        "canvas": [
+          320,
+          180
+        ],
+        "image": "evidence/2026-11-05-production/task-5-measurement/runs/reused-24-r2/readbacks/random-5-59.png",
+        "pngBytes": 4060,
+        "sha256": "15fd9b377a3382015c9f57437edc5350e0ad7e88910178055f6ce262d2265ce3"
+      },
+      {
+        "requestedFrame": 447,
+        "elapsedMs": 1.2590000000000146,
+        "state": {
+          "frame": 447,
+          "values": {},
+          "exposures": {
+            "artwork": {
+              "frame": 447,
+              "value": "art-02"
+            }
+          }
+        },
+        "canvas": [
+          320,
+          180
+        ],
+        "image": "evidence/2026-11-05-production/task-5-measurement/runs/reused-24-r2/readbacks/random-6-447.png",
+        "pngBytes": 4060,
+        "sha256": "15fd9b377a3382015c9f57437edc5350e0ad7e88910178055f6ce262d2265ce3"
+      },
+      {
+        "requestedFrame": 211,
+        "elapsedMs": 1.4989580000001297,
+        "state": {
+          "frame": 211,
+          "values": {},
+          "exposures": {
+            "artwork": {
+              "frame": 211,
+              "value": "art-00"
+            }
+          }
+        },
+        "canvas": [
+          320,
+          180
+        ],
+        "image": "evidence/2026-11-05-production/task-5-measurement/runs/reused-24-r2/readbacks/random-7-211.png",
+        "pngBytes": 4104,
+        "sha256": "7b222868bb3a2f3c25bbc554947d4696e094c7fccf4fa04c65a0e6f35c82aea8"
+      }
+    ]
+  },
+  "browserEvents": [
+    {
+      "at": "2026-11-04T21:40:30.533Z",
+      "kind": "requestfailed",
+      "url": "http://127.0.0.1:50117/audio.wav",
+      "error": {
+        "errorText": "net::ERR_ABORTED"
+      }
+    }
+  ],
+  "assetRequests": [
+    "/project/assets/art-00.svg",
+    "/project/assets/art-01.svg",
+    "/project/assets/art-02.svg",
+    "/project/assets/art-03.svg"
+  ],
+  "command": [
+    "/opt/homebrew/Cellar/node/26.12.1_1/bin/node",
+    "/Volumes/eyedisk/develop/cinewright/evidence/2026-11-05-production/measure.mjs",
+    "--worker",
+    "/Volumes/eyedisk/develop/cinewright/evidence/2026-11-05-production/task-5-measurement/runs/reused-24-r2/config.json"
+  ],
+  "url": "http://127.0.0.1:50117",
+  "browserExecutable": "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome",
+  "browserLaunchMs": 339.02825,
+  "browserVersion": "156.0.8078.80",
+  "navigationToReadyMs": 595.304792,
+  "navigationToFirstFrameReadbackMs": 1062.645625,
+  "firstFrame": {
+    "state": {
+      "frame": 0,
+      "values": {},
+      "exposures": {
+        "artwork": {
+          "frame": 0,
+          "value": "art-00"
+        }
+      }
+    },
+    "canvas": [
+      320,
+      180
+    ],
+    "image": "evidence/2026-11-05-production/task-5-measurement/runs/reused-24-r2/readbacks/first-frame-0.png",
+    "pngBytes": 4104,
+    "sha256": "7b222868bb3a2f3c25bbc554947d4696e094c7fccf4fa04c65a0e6f35c82aea8"
+  },
+  "seekSummariesMs": {
+    "forward": {
+      "n": 8,
+      "min": 2.5610830000000533,
+      "median": 5.599020999999993,
+      "max": 426.3715000000002,
+      "mean": 82.037125
+    },
+    "reverse": {
+      "n": 8,
+      "min": 1.2965410000001611,
+      "median": 1.6328125,
+      "max": 2.818833000000268,
+      "mean": 1.8518382500000712
+    },
+    "random": {
+      "n": 8,
+      "min": 1.2590000000000146,
+      "median": 1.4681460000001607,
+      "max": 2.6883750000001783,
+      "mean": 1.6396511250000572
+    }
+  },
+  "error": "AssertionError [ERR_ASSERTION]: Expected values to be strictly deep-equal:\n+ actual - expected\n\n+ [\n+   {\n+     at: '2026-11-04T21:40:30.533Z',\n+     error: {\n+       errorText: 'net::ERR_ABORTED'\n+     },\n+     kind: 'requestfailed',\n+     url: 'http://127.0.0.1:50117/audio.wav'\n+   }\n+ ]\n- []\n\n    at worker (file:///Volumes/eyedisk/develop/cinewright/evidence/2026-11-05-production/measure.mjs:193:12)\n    at async file:///Volumes/eyedisk/develop/cinewright/evidence/2026-11-05-production/measure.mjs:365:37",
+  "finishedAt": "2026-11-04T21:40:31.052Z"
+}

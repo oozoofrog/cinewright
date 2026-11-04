@@ -1,0 +1,842 @@
+{
+  "runId": "contact-fix-1",
+  "phase": "completed",
+  "outputs": "/Volumes/eyedisk/develop/cinewright/evidence/2026-11-05-production/task-4/runs/contact-fix-1/outputs.json",
+  "store": "/Volumes/eyedisk/develop/cinewright/.direction/production",
+  "tmpdir": "/Volumes/eyedisk/develop/cinewright/.direction/production/task-4-runs/contact-fix-1/tmp",
+  "record": "/Volumes/eyedisk/develop/cinewright/.direction/production/task-4-runs/contact-fix-1/inspection",
+  "examples": {
+    "a": {
+      "revision": "f1d51eaa10567cba25eb1787fa5e65d8776f4da185c1c2bd4e290a0a658abc04",
+      "size": [
+        640,
+        360
+      ],
+      "fps": 24,
+      "frames": 192,
+      "authoredRanges": {
+        "frame": {
+          "from": 60,
+          "to": 61,
+          "frames": 1,
+          "seconds": 0.041666666666666664
+        },
+        "span": {
+          "from": 36,
+          "to": 78,
+          "frames": 42,
+          "seconds": 1.75
+        },
+        "full": {
+          "from": 0,
+          "to": 192,
+          "frames": 192,
+          "seconds": 8
+        }
+      },
+      "commands": {
+        "freeze": [
+          "/opt/homebrew/Cellar/node/26.12.1_1/bin/node",
+          "/Volumes/eyedisk/develop/cinewright/scripts/direction.mjs",
+          "freeze",
+          "/Volumes/eyedisk/develop/cinewright/examples/stillcuts/a",
+          "--store",
+          "/Volumes/eyedisk/develop/cinewright/.direction/production"
+        ],
+        "play": [
+          "/opt/homebrew/Cellar/node/26.12.1_1/bin/node",
+          "/Volumes/eyedisk/develop/cinewright/scripts/direction.mjs",
+          "play",
+          "f1d51eaa10567cba25eb1787fa5e65d8776f4da185c1c2bd4e290a0a658abc04",
+          "--store",
+          "/Volumes/eyedisk/develop/cinewright/.direction/production"
+        ],
+        "frame": [
+          "/opt/homebrew/Cellar/node/26.12.1_1/bin/node",
+          "/Volumes/eyedisk/develop/cinewright/scripts/direction.mjs",
+          "frame",
+          "f1d51eaa10567cba25eb1787fa5e65d8776f4da185c1c2bd4e290a0a658abc04",
+          "touch",
+          "--store",
+          "/Volumes/eyedisk/develop/cinewright/.direction/production"
+        ],
+        "span": [
+          "/opt/homebrew/Cellar/node/26.12.1_1/bin/node",
+          "/Volumes/eyedisk/develop/cinewright/scripts/direction.mjs",
+          "render",
+          "f1d51eaa10567cba25eb1787fa5e65d8776f4da185c1c2bd4e290a0a658abc04",
+          "--span",
+          "contact-review",
+          "--store",
+          "/Volumes/eyedisk/develop/cinewright/.direction/production"
+        ],
+        "full": [
+          "/opt/homebrew/Cellar/node/26.12.1_1/bin/node",
+          "/Volumes/eyedisk/develop/cinewright/scripts/direction.mjs",
+          "render",
+          "f1d51eaa10567cba25eb1787fa5e65d8776f4da185c1c2bd4e290a0a658abc04",
+          "--store",
+          "/Volumes/eyedisk/develop/cinewright/.direction/production"
+        ]
+      },
+      "playServer": {
+        "pid": 21177,
+        "terminated": true,
+        "exitCode": 0
+      },
+      "jobs": {
+        "frame": {
+          "id": "625649a9-cab3-4934-bb64-a7caeaf63fdf",
+          "output": "/Volumes/eyedisk/develop/cinewright/.direction/production/jobs/625649a9-cab3-4934-bb64-a7caeaf63fdf/frame.png",
+          "sha256": "08defbd229b05c2ced088721008848a78f3d3e2a9c605f1e307035540c667a03",
+          "settings": {
+            "mode": "frame",
+            "from": 60,
+            "to": 61,
+            "scale": 1
+          }
+        },
+        "span": {
+          "id": "a515dfc7-fd57-4f78-aa76-77e336d9d78f",
+          "output": "/Volumes/eyedisk/develop/cinewright/.direction/production/jobs/a515dfc7-fd57-4f78-aa76-77e336d9d78f/work.mp4",
+          "sha256": "f6ca7b36a1f27932d494bb4e2cd6c6f849b99a64fdf2435f5df0b3a3e9896355",
+          "settings": {
+            "mode": "video",
+            "from": 36,
+            "to": 78,
+            "scale": 1
+          }
+        },
+        "full": {
+          "id": "b030aad5-33a8-4a71-9977-994c046e3b50",
+          "output": "/Volumes/eyedisk/develop/cinewright/.direction/production/jobs/b030aad5-33a8-4a71-9977-994c046e3b50/work.mp4",
+          "sha256": "c3311210b71d139ea4d6bde647314878163d0843b3fecc2f40b014604bd32b72",
+          "settings": {
+            "mode": "video",
+            "from": 0,
+            "to": 192,
+            "scale": 1
+          }
+        }
+      },
+      "point": "touch",
+      "span": "contact-review",
+      "directCli": {
+        "point": "touch",
+        "frame": 60,
+        "equalPNG": true
+      },
+      "directFull": {
+        "equalPNG": true,
+        "frameCount": 77,
+        "frames": "Union of boundary and dense indices below; per-frame results in comparison."
+      },
+      "strips": {
+        "boundary": {
+          "frames": [
+            0,
+            1,
+            23,
+            24,
+            25,
+            35,
+            36,
+            37,
+            59,
+            60,
+            61,
+            71,
+            72,
+            73,
+            77,
+            78,
+            79,
+            101,
+            102,
+            103,
+            191
+          ],
+          "live": "/Volumes/eyedisk/develop/cinewright/.direction/production/task-4-runs/contact-fix-1/inspection/a/boundary-live.png",
+          "decoded": "/Volumes/eyedisk/develop/cinewright/.direction/production/task-4-runs/contact-fix-1/inspection/a/boundary-decoded.png"
+        },
+        "dense": {
+          "frames": [
+            34,
+            35,
+            36,
+            37,
+            38,
+            39,
+            40,
+            41,
+            42,
+            43,
+            44,
+            45,
+            46,
+            47,
+            48,
+            49,
+            50,
+            51,
+            52,
+            53,
+            54,
+            55,
+            56,
+            57,
+            58,
+            59,
+            60,
+            61,
+            62,
+            63,
+            64,
+            65,
+            66,
+            67,
+            68,
+            69,
+            70,
+            71,
+            72,
+            73,
+            74,
+            75,
+            76,
+            77,
+            78,
+            79,
+            80,
+            81,
+            82,
+            83,
+            84,
+            85,
+            86,
+            87,
+            88,
+            89,
+            90,
+            91,
+            92,
+            93,
+            94,
+            95,
+            96,
+            97,
+            98,
+            99,
+            100,
+            101,
+            102,
+            103,
+            104
+          ],
+          "live": "/Volumes/eyedisk/develop/cinewright/.direction/production/task-4-runs/contact-fix-1/inspection/a/dense-live.png",
+          "decoded": "/Volumes/eyedisk/develop/cinewright/.direction/production/task-4-runs/contact-fix-1/inspection/a/dense-decoded.png"
+        }
+      },
+      "decodedDirectory": "/Volumes/eyedisk/develop/cinewright/.direction/production/task-4-runs/contact-fix-1/inspection/a/decoded",
+      "comparison": "/Volumes/eyedisk/develop/cinewright/.direction/production/task-4-runs/contact-fix-1/inspection/a/decode-comparison.json",
+      "decodedSummary": {
+        "evaluatedFrames": 77,
+        "maximumMeanAbsoluteRGB": 0.7877922453703704,
+        "maximumRMSE": 1.436809415439743,
+        "maximumPixelRGBDifference": 45,
+        "note": "Lossy H.264 differences are measured, not required to be pixel-identical."
+      },
+      "probe": {
+        "span": {
+          "authoredRange": [
+            36,
+            78
+          ],
+          "codec": "h264",
+          "pixelFormat": "yuv420p",
+          "size": [
+            640,
+            360
+          ],
+          "fps": "24/1",
+          "frames": 42,
+          "seconds": 1.75,
+          "firstPTS": 0,
+          "lastPTS": 1.708333,
+          "maxPTSErrorSeconds": 3.33333333379926e-7,
+          "audio": {
+            "codec": "aac",
+            "rate": 48000,
+            "channels": 2,
+            "duration": 1.75
+          }
+        },
+        "full": {
+          "authoredRange": [
+            0,
+            192
+          ],
+          "codec": "h264",
+          "pixelFormat": "yuv420p",
+          "size": [
+            640,
+            360
+          ],
+          "fps": "24/1",
+          "frames": 192,
+          "seconds": 8,
+          "firstPTS": 0,
+          "lastPTS": 7.958333,
+          "maxPTSErrorSeconds": 3.33333333379926e-7,
+          "audio": {
+            "codec": "aac",
+            "rate": 48000,
+            "channels": 2,
+            "duration": 8
+          }
+        }
+      },
+      "silentAudio": {
+        "peak": 0,
+        "channels": 2,
+        "rate": 48000,
+        "decodedSamplesPerChannel": 384000,
+        "note": "AAC decode may retain encoder padding; stream durations are checked separately. No listening or event-sync claim."
+      },
+      "livePlayback": {
+        "wallMs": 8071.5,
+        "presentedCount": 191,
+        "firstPresented": 1,
+        "lastPresented": 191,
+        "finalFrame": 191,
+        "playbackRate": 1,
+        "canvas": [
+          640,
+          360
+        ],
+        "display": [
+          640,
+          360
+        ],
+        "rawObservation": "/Volumes/eyedisk/develop/cinewright/evidence/2026-11-05-production/task-4/runs/contact-fix-1/outputs.json"
+      },
+      "mp4Playback": {
+        "wallMs": 8450.600000023842,
+        "duration": 8,
+        "currentTime": 8,
+        "ended": true,
+        "playbackRate": 1,
+        "muted": false,
+        "naturalSize": [
+          640,
+          360
+        ],
+        "displaySize": [
+          640,
+          360
+        ],
+        "played": [
+          [
+            0,
+            8
+          ]
+        ],
+        "playbackQuality": {
+          "totalVideoFrames": 192,
+          "droppedVideoFrames": 1
+        },
+        "presentedCount": 191,
+        "firstPresentedTime": 0,
+        "lastPresentedTime": 7.958333,
+        "rawObservation": "/Volumes/eyedisk/develop/cinewright/.direction/production/task-4-runs/contact-fix-1/inspection/a/mp4-playback.json",
+        "screenshot": "/Volumes/eyedisk/develop/cinewright/.direction/production/task-4-runs/contact-fix-1/inspection/a/mp4-playback-ended.png"
+      }
+    },
+    "b": {
+      "revision": "4355e5ec4829e994785e96c7788387d0a61f44dd43d2aa566cb3124cdd86fac0",
+      "size": [
+        640,
+        360
+      ],
+      "fps": 24,
+      "frames": 168,
+      "authoredRanges": {
+        "frame": {
+          "from": 48,
+          "to": 49,
+          "frames": 1,
+          "seconds": 0.041666666666666664
+        },
+        "span": {
+          "from": 18,
+          "to": 66,
+          "frames": 48,
+          "seconds": 2
+        },
+        "full": {
+          "from": 0,
+          "to": 168,
+          "frames": 168,
+          "seconds": 7
+        }
+      },
+      "commands": {
+        "freeze": [
+          "/opt/homebrew/Cellar/node/26.12.1_1/bin/node",
+          "/Volumes/eyedisk/develop/cinewright/scripts/direction.mjs",
+          "freeze",
+          "/Volumes/eyedisk/develop/cinewright/examples/stillcuts/b",
+          "--store",
+          "/Volumes/eyedisk/develop/cinewright/.direction/production"
+        ],
+        "play": [
+          "/opt/homebrew/Cellar/node/26.12.1_1/bin/node",
+          "/Volumes/eyedisk/develop/cinewright/scripts/direction.mjs",
+          "play",
+          "4355e5ec4829e994785e96c7788387d0a61f44dd43d2aa566cb3124cdd86fac0",
+          "--store",
+          "/Volumes/eyedisk/develop/cinewright/.direction/production"
+        ],
+        "frame": [
+          "/opt/homebrew/Cellar/node/26.12.1_1/bin/node",
+          "/Volumes/eyedisk/develop/cinewright/scripts/direction.mjs",
+          "frame",
+          "4355e5ec4829e994785e96c7788387d0a61f44dd43d2aa566cb3124cdd86fac0",
+          "touch",
+          "--store",
+          "/Volumes/eyedisk/develop/cinewright/.direction/production"
+        ],
+        "span": [
+          "/opt/homebrew/Cellar/node/26.12.1_1/bin/node",
+          "/Volumes/eyedisk/develop/cinewright/scripts/direction.mjs",
+          "render",
+          "4355e5ec4829e994785e96c7788387d0a61f44dd43d2aa566cb3124cdd86fac0",
+          "--span",
+          "contact-review",
+          "--store",
+          "/Volumes/eyedisk/develop/cinewright/.direction/production"
+        ],
+        "full": [
+          "/opt/homebrew/Cellar/node/26.12.1_1/bin/node",
+          "/Volumes/eyedisk/develop/cinewright/scripts/direction.mjs",
+          "render",
+          "4355e5ec4829e994785e96c7788387d0a61f44dd43d2aa566cb3124cdd86fac0",
+          "--store",
+          "/Volumes/eyedisk/develop/cinewright/.direction/production"
+        ]
+      },
+      "playServer": {
+        "pid": 21503,
+        "terminated": true,
+        "exitCode": 0
+      },
+      "jobs": {
+        "frame": {
+          "id": "9e39ea24-e8af-46df-b502-6dff54a5c791",
+          "output": "/Volumes/eyedisk/develop/cinewright/.direction/production/jobs/9e39ea24-e8af-46df-b502-6dff54a5c791/frame.png",
+          "sha256": "b72ed75bbd981db9e4c5fbb7aefe15c5ee2b85c4252822c9f99e6ad270774efd",
+          "settings": {
+            "mode": "frame",
+            "from": 48,
+            "to": 49,
+            "scale": 1
+          }
+        },
+        "span": {
+          "id": "88c9ab45-8bf1-49fd-95ff-42f376b1cf79",
+          "output": "/Volumes/eyedisk/develop/cinewright/.direction/production/jobs/88c9ab45-8bf1-49fd-95ff-42f376b1cf79/work.mp4",
+          "sha256": "e910b0c53373e5b139a787b2fd5931bac015854373b60a1f6da4f4c0d7c83679",
+          "settings": {
+            "mode": "video",
+            "from": 18,
+            "to": 66,
+            "scale": 1
+          }
+        },
+        "full": {
+          "id": "c5d57e2c-0459-4def-a8c2-b8f49ea5748c",
+          "output": "/Volumes/eyedisk/develop/cinewright/.direction/production/jobs/c5d57e2c-0459-4def-a8c2-b8f49ea5748c/work.mp4",
+          "sha256": "ea760f35da06285dc346c0869664c3581b36717721d807128c824bef10edd08c",
+          "settings": {
+            "mode": "video",
+            "from": 0,
+            "to": 168,
+            "scale": 1
+          }
+        }
+      },
+      "point": "touch",
+      "span": "contact-review",
+      "directCli": {
+        "point": "touch",
+        "frame": 48,
+        "equalPNG": true
+      },
+      "directFull": {
+        "equalPNG": true,
+        "frameCount": 83,
+        "frames": "Union of boundary and dense indices below; per-frame results in comparison."
+      },
+      "strips": {
+        "boundary": {
+          "frames": [
+            0,
+            1,
+            17,
+            18,
+            19,
+            47,
+            48,
+            49,
+            59,
+            60,
+            61,
+            65,
+            66,
+            67,
+            89,
+            90,
+            91,
+            119,
+            120,
+            121,
+            167
+          ],
+          "live": "/Volumes/eyedisk/develop/cinewright/.direction/production/task-4-runs/contact-fix-1/inspection/b/boundary-live.png",
+          "decoded": "/Volumes/eyedisk/develop/cinewright/.direction/production/task-4-runs/contact-fix-1/inspection/b/boundary-decoded.png"
+        },
+        "dense": {
+          "frames": [
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30,
+            31,
+            32,
+            33,
+            34,
+            35,
+            36,
+            37,
+            38,
+            39,
+            40,
+            41,
+            42,
+            43,
+            44,
+            45,
+            46,
+            47,
+            48,
+            49,
+            50,
+            51,
+            52,
+            53,
+            54,
+            55,
+            56,
+            57,
+            58,
+            59,
+            60,
+            61,
+            62,
+            63,
+            64,
+            65,
+            66,
+            67,
+            68,
+            69,
+            70,
+            71,
+            72,
+            73,
+            74,
+            75,
+            76,
+            77,
+            78,
+            79,
+            80,
+            81,
+            82,
+            83,
+            84,
+            85,
+            86,
+            87,
+            88,
+            89,
+            90,
+            91,
+            92
+          ],
+          "live": "/Volumes/eyedisk/develop/cinewright/.direction/production/task-4-runs/contact-fix-1/inspection/b/dense-live.png",
+          "decoded": "/Volumes/eyedisk/develop/cinewright/.direction/production/task-4-runs/contact-fix-1/inspection/b/dense-decoded.png"
+        }
+      },
+      "decodedDirectory": "/Volumes/eyedisk/develop/cinewright/.direction/production/task-4-runs/contact-fix-1/inspection/b/decoded",
+      "comparison": "/Volumes/eyedisk/develop/cinewright/.direction/production/task-4-runs/contact-fix-1/inspection/b/decode-comparison.json",
+      "decodedSummary": {
+        "evaluatedFrames": 83,
+        "maximumMeanAbsoluteRGB": 0.7017534722222222,
+        "maximumRMSE": 1.4266133654373367,
+        "maximumPixelRGBDifference": 44,
+        "note": "Lossy H.264 differences are measured, not required to be pixel-identical."
+      },
+      "probe": {
+        "span": {
+          "authoredRange": [
+            18,
+            66
+          ],
+          "codec": "h264",
+          "pixelFormat": "yuv420p",
+          "size": [
+            640,
+            360
+          ],
+          "fps": "24/1",
+          "frames": 48,
+          "seconds": 2,
+          "firstPTS": 0,
+          "lastPTS": 1.958333,
+          "maxPTSErrorSeconds": 3.33333333379926e-7,
+          "audio": {
+            "codec": "aac",
+            "rate": 48000,
+            "channels": 2,
+            "duration": 2
+          }
+        },
+        "full": {
+          "authoredRange": [
+            0,
+            168
+          ],
+          "codec": "h264",
+          "pixelFormat": "yuv420p",
+          "size": [
+            640,
+            360
+          ],
+          "fps": "24/1",
+          "frames": 168,
+          "seconds": 7,
+          "firstPTS": 0,
+          "lastPTS": 6.958333,
+          "maxPTSErrorSeconds": 3.33333333379926e-7,
+          "audio": {
+            "codec": "aac",
+            "rate": 48000,
+            "channels": 2,
+            "duration": 7
+          }
+        }
+      },
+      "silentAudio": {
+        "peak": 0,
+        "channels": 2,
+        "rate": 48000,
+        "decodedSamplesPerChannel": 336000,
+        "note": "AAC decode may retain encoder padding; stream durations are checked separately. No listening or event-sync claim."
+      },
+      "livePlayback": {
+        "wallMs": 7050.199999988079,
+        "presentedCount": 167,
+        "firstPresented": 1,
+        "lastPresented": 167,
+        "finalFrame": 167,
+        "playbackRate": 1,
+        "canvas": [
+          640,
+          360
+        ],
+        "display": [
+          640,
+          360
+        ],
+        "rawObservation": "/Volumes/eyedisk/develop/cinewright/evidence/2026-11-05-production/task-4/runs/contact-fix-1/outputs.json"
+      },
+      "mp4Playback": {
+        "wallMs": 7080.5,
+        "duration": 7,
+        "currentTime": 7,
+        "ended": true,
+        "playbackRate": 1,
+        "muted": false,
+        "naturalSize": [
+          640,
+          360
+        ],
+        "displaySize": [
+          640,
+          360
+        ],
+        "played": [
+          [
+            0,
+            7
+          ]
+        ],
+        "playbackQuality": {
+          "totalVideoFrames": 168,
+          "droppedVideoFrames": 0
+        },
+        "presentedCount": 168,
+        "firstPresentedTime": 0,
+        "lastPresentedTime": 6.958333,
+        "rawObservation": "/Volumes/eyedisk/develop/cinewright/.direction/production/task-4-runs/contact-fix-1/inspection/b/mp4-playback.json",
+        "screenshot": "/Volumes/eyedisk/develop/cinewright/.direction/production/task-4-runs/contact-fix-1/inspection/b/mp4-playback-ended.png"
+      }
+    }
+  },
+  "limitation": "Automatic playback and frame comparisons do not establish uninterrupted direct human viewing, listening or creative acceptance. Intentional silence excludes the observe audio-peak gate and authored audio-sync claims.",
+  "verification": {
+    "fullRegression": {
+      "command": "TMPDIR=\"$PWD/.direction/task-4-tmp\" npm test",
+      "tests": 360,
+      "passed": 360,
+      "failed": 0,
+      "log": "/Volumes/eyedisk/develop/cinewright/evidence/2026-11-05-production/task-4/fix-1-npm-test.log"
+    },
+    "focused": {
+      "tests": 4,
+      "passed": 4,
+      "log": "/Volumes/eyedisk/develop/cinewright/evidence/2026-11-05-production/task-4/fix-1-focused.log",
+      "classification": "Exit 7, malformed media, readiness timeout and wrong ranges are deliberate negative controls, not production failures."
+    },
+    "nativeFixture": {
+      "directory": "/Volumes/eyedisk/develop/cinewright/.direction/test-runs/stillcuts-integration-kA3jCx",
+      "receipt": "/Volumes/eyedisk/develop/cinewright/.direction/test-runs/stillcuts-integration-kA3jCx/receipt.json",
+      "cover": "/Volumes/eyedisk/develop/cinewright/.direction/test-runs/stillcuts-integration-kA3jCx/cover-alpha.json",
+      "excludedOpaqueCropPixel": [
+        4,
+        20
+      ]
+    },
+    "controlsDirectory": "/Volumes/eyedisk/develop/cinewright/.direction/test-runs/stillcuts-evidence-OO3Gtj",
+    "ownedCode": [
+      {
+        "path": "/Volumes/eyedisk/develop/cinewright/tests/stillcuts.integration.test.mjs",
+        "sha256": "70894aabcb1c55a9c57605edbd7861f83104b34e453c7aac0044e970fe427f81"
+      },
+      {
+        "path": "/Volumes/eyedisk/develop/cinewright/tests/stillcuts-build.test.mjs",
+        "sha256": "22919a31af9036c06fea4e92865ae5cc1b7f97163733ae17d6056af2c44e5abe"
+      },
+      {
+        "path": "/Volumes/eyedisk/develop/cinewright/tests/stillcuts-evidence.test.mjs",
+        "sha256": "21f02a928fc2d28394282482e2d82a0bd80ed8a1c80a953916940a4650f27052"
+      },
+      {
+        "path": "/Volumes/eyedisk/develop/cinewright/evidence/2026-11-05-production/task-4/task4-run.mjs",
+        "sha256": "a570f5170662b9b7ad07f85aa1689caa589e0ae2fd8239364ac9095b904e7a4b"
+      },
+      {
+        "path": "/Volumes/eyedisk/develop/cinewright/evidence/2026-11-05-production/task-4/produce-outputs.mjs",
+        "sha256": "efdb0285bb1727d2cb333c69301cfd6203e3f1b2c29a2664eba8a94aeac05726"
+      },
+      {
+        "path": "/Volumes/eyedisk/develop/cinewright/evidence/2026-11-05-production/task-4/inspect-outputs.mjs",
+        "sha256": "b53daadd13293b73ea6cfb4303c422f301cdd5b3961d7f20b8eddb7f8c143c46"
+      }
+    ],
+    "sourceState": "Corrected keys.svg is the only changed production asset, including its A/B copies. No example timing, module, runtime, CLI or package was changed by Task4.",
+    "frozenArtwork": [
+      {
+        "example": "a",
+        "path": "/Volumes/eyedisk/develop/cinewright/.direction/production/revisions/f1d51eaa10567cba25eb1787fa5e65d8776f4da185c1c2bd4e290a0a658abc04/project/assets/keys.svg",
+        "sha256": "67f1166d961f7dd39faf6bb5c1f8777da92630d53bb944385c93db0e75152ab4"
+      },
+      {
+        "example": "b",
+        "path": "/Volumes/eyedisk/develop/cinewright/.direction/production/revisions/4355e5ec4829e994785e96c7788387d0a61f44dd43d2aa566cb3124cdd86fac0/project/assets/keys.svg",
+        "sha256": "67f1166d961f7dd39faf6bb5c1f8777da92630d53bb944385c93db0e75152ab4"
+      }
+    ],
+    "technicalReview": "Root reported scoped technical approval of all three Important and both Minor findings.",
+    "previousReceipt": "/Volumes/eyedisk/develop/cinewright/evidence/2026-11-05-production/task-4/receipt.json",
+    "preservation": "Root reported final protected-path verification: installed 64 files, comparison 1011 files, and Counting Star tracked state/HEAD unchanged within stated scope; all 928 pre-fix raw output records also match.",
+    "rootPreservationReceipt": "/Volumes/eyedisk/develop/cinewright/evidence/2026-11-05-production/contact-pre-fix-preservation-after.json",
+    "baselineReuse": "Unchanged doctor/help baseline reused. No performance phase.",
+    "finalProtectionReceipt": "/Volumes/eyedisk/develop/cinewright/evidence/2026-11-05-production/protected-after.json"
+  },
+  "outputGate": {
+    "status": "Addressed in independent corrected-output re-review: no mandatory contact defect in inspected A/B frames. Direct continuous 1x rhythm remains unverified.",
+    "sourceRepairReport": "/Volumes/eyedisk/develop/cinewright/.superpowers/sdd/2026-11-05-cinewright-production/output-contact-fix-report.md",
+    "decodedFilenameSemantics": "Decoded filenames are extraction indices. Use decode-comparison.json to map timeline frames to paths.",
+    "frames": [
+      {
+        "example": "a",
+        "timelineFrame": 60,
+        "extractionIndex": 31,
+        "decoded": "/Volumes/eyedisk/develop/cinewright/.direction/production/task-4-runs/contact-fix-1/inspection/a/decoded/0031.png",
+        "live": "/Volumes/eyedisk/develop/cinewright/.direction/production/task-4-runs/contact-fix-1/a/live/0060.png"
+      },
+      {
+        "example": "b",
+        "timelineFrame": 48,
+        "extractionIndex": 34,
+        "decoded": "/Volumes/eyedisk/develop/cinewright/.direction/production/task-4-runs/contact-fix-1/inspection/b/decoded/0034.png",
+        "live": "/Volumes/eyedisk/develop/cinewright/.direction/production/task-4-runs/contact-fix-1/b/live/0048.png"
+      },
+      {
+        "example": "b",
+        "timelineFrame": 60,
+        "extractionIndex": 46,
+        "decoded": "/Volumes/eyedisk/develop/cinewright/.direction/production/task-4-runs/contact-fix-1/inspection/b/decoded/0046.png",
+        "live": "/Volumes/eyedisk/develop/cinewright/.direction/production/task-4-runs/contact-fix-1/b/live/0060.png"
+      },
+      {
+        "example": "b",
+        "timelineFrame": 76,
+        "extractionIndex": 62,
+        "decoded": "/Volumes/eyedisk/develop/cinewright/.direction/production/task-4-runs/contact-fix-1/inspection/b/decoded/0062.png",
+        "live": "/Volumes/eyedisk/develop/cinewright/.direction/production/task-4-runs/contact-fix-1/b/live/0076.png"
+      },
+      {
+        "example": "b",
+        "timelineFrame": 119,
+        "extractionIndex": 79,
+        "decoded": "/Volumes/eyedisk/develop/cinewright/.direction/production/task-4-runs/contact-fix-1/inspection/b/decoded/0079.png",
+        "live": "/Volumes/eyedisk/develop/cinewright/.direction/production/task-4-runs/contact-fix-1/b/live/0119.png"
+      },
+      {
+        "example": "b",
+        "timelineFrame": 120,
+        "extractionIndex": 80,
+        "decoded": "/Volumes/eyedisk/develop/cinewright/.direction/production/task-4-runs/contact-fix-1/inspection/b/decoded/0080.png",
+        "live": "/Volumes/eyedisk/develop/cinewright/.direction/production/task-4-runs/contact-fix-1/b/live/0120.png"
+      }
+    ],
+    "independentReview": "/Volumes/eyedisk/develop/cinewright/.superpowers/sdd/2026-11-05-cinewright-production/independent-output-review-fixed.md"
+  },
+  "temporaryScope": {
+    "production": "/Volumes/eyedisk/develop/cinewright/.direction/production/task-4-runs/contact-fix-1/tmp",
+    "fullSuite": "/Volumes/eyedisk/develop/cinewright/.direction/task-4-tmp",
+    "nativeFixture": "/Volumes/eyedisk/develop/cinewright/.direction/test-runs/stillcuts-integration-kA3jCx/tmp",
+    "focusedControls": "/Volumes/eyedisk/develop/cinewright/.direction/test-runs/stillcuts-evidence-OO3Gtj/tmp",
+    "diskMeasurement": "No performance or disk benchmark run."
+  },
+  "completion": {
+    "technicalRevalidation": "complete",
+    "ownedServersAndBrowsers": "closed; producer and inspector exited 0",
+    "performancePhase": "not started; root owns Task5",
+    "remainingLimit": "Direct continuous human 1x rhythm viewing/listening and user acceptance are not established by automatic playback."
+  }
+}

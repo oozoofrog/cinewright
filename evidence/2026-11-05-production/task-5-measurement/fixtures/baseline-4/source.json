@@ -1,0 +1,81 @@
+{
+  "frames": 96,
+  "artworks": {
+    "art-00": {
+      "asset": "assets/art-00.svg",
+      "placement": {
+        "fit": "contain"
+      }
+    },
+    "art-01": {
+      "asset": "assets/art-01.svg",
+      "placement": {
+        "fit": "contain"
+      }
+    },
+    "art-02": {
+      "asset": "assets/art-02.svg",
+      "placement": {
+        "fit": "contain"
+      }
+    },
+    "art-03": {
+      "asset": "assets/art-03.svg",
+      "placement": {
+        "fit": "contain"
+      }
+    }
+  },
+  "boundaries": [
+    {
+      "name": "edge-0",
+      "frame": 0
+    },
+    {
+      "name": "edge-1",
+      "frame": 24
+    },
+    {
+      "name": "edge-2",
+      "frame": 48
+    },
+    {
+      "name": "edge-3",
+      "frame": 72
+    },
+    {
+      "name": "edge-4",
+      "frame": 96
+    }
+  ],
+  "cuts": [
+    {
+      "name": "cut-0",
+      "from": "edge-0",
+      "to": "edge-1",
+      "every": 1,
+      "artwork": "art-00"
+    },
+    {
+      "name": "cut-1",
+      "from": "edge-1",
+      "to": "edge-2",
+      "every": 1,
+      "artwork": "art-01"
+    },
+    {
+      "name": "cut-2",
+      "from": "edge-2",
+      "to": "edge-3",
+      "every": 1,
+      "artwork": "art-02"
+    },
+    {
+      "name": "cut-3",
+      "from": "edge-3",
+      "to": "edge-4",
+      "every": 1,
+      "artwork": "art-03"
+    }
+  ]
+}

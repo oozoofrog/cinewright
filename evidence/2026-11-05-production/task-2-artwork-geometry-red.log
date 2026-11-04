@@ -1,0 +1,2140 @@
+✔ provides only the geometry and prepare entry points without browser globals (0.992083ms)
+✖ places an original-image anchor at its target with one scalar (0.592417ms)
+✖ keeps the same original anchor at its target after moving the crop origin (0.15175ms)
+✖ defaults crop to the whole source and permits an off-canvas target without canvasSize (0.137041ms)
+✖ supports fractional coordinates and anchors outside the source (0.130041ms)
+✖ contain centers a wide image in the default canvas box without clipping or stretching (0.114208ms)
+✖ cover centers a wide image and clips overflow to the default canvas box (0.585375ms)
+▶ fits the cropped dimensions inside an explicit box without requiring canvasSize
+  ✖ contain (0.129917ms)
+  ✖ cover (0.0825ms)
+✖ fits the cropped dimensions inside an explicit box without requiring canvasSize (0.407833ms)
+▶ fits a tall image into an off-canvas box using the other limiting dimension
+  ✖ contain (0.077541ms)
+  ✖ cover (0.063584ms)
+✖ fits a tall image into an off-canvas box using the other limiting dimension (0.274167ms)
+✖ does not mutate input or expose its arrays through placement output (2.628167ms)
+✖ inherited optional crop and canvasSize cannot change anchored placement (0.0865ms)
+✖ inherited fit and box cannot switch anchored placement mode (0.059917ms)
+✖ inherited box or anchored controls cannot change fit placement (0.087292ms)
+▶ rejects invalid root, placement, and missing anchored fields
+  ✖ missing root (0.107541ms)
+  ✖ null root (0.041333ms)
+  ✖ array root (0.047167ms)
+  ✖ text root (0.042709ms)
+  ✖ missing placement (0.047875ms)
+  ✖ placement shape 0 (0.040291ms)
+  ✖ placement shape 1 (0.036917ms)
+  ✖ placement shape 2 (0.042917ms)
+  ✖ missing anchor (0.044333ms)
+  ✖ missing at (0.036417ms)
+  ✖ missing scale (0.038125ms)
+✖ rejects invalid root, placement, and missing anchored fields (0.778375ms)
+▶ rejects source sizes that are not two finite positive numbers
+  ✖ size 0 (0.046417ms)
+  ✖ size 1 (0.03275ms)
+  ✖ size 2 (0.03675ms)
+  ✖ size 3 (0.031834ms)
+  ✖ size 4 (0.039417ms)
+  ✖ size 5 (0.033167ms)
+  ✖ size 6 (0.034791ms)
+  ✖ size 7 (0.031291ms)
+  ✖ size 8 (0.032916ms)
+  ✖ size 9 (0.210958ms)
+  ✖ size 10 (0.028ms)
+✖ rejects source sizes that are not two finite positive numbers (0.740167ms)
+▶ rejects invalid crop shapes, nonfinite coordinates, and crops beyond the source
+  ✖ crop 0 (0.037458ms)
+  ✖ crop 1 (0.027584ms)
+  ✖ crop 2 (0.028333ms)
+  ✖ crop 3 (0.027709ms)
+  ✖ crop 4 (0.027375ms)
+  ✖ crop 5 (0.028625ms)
+  ✖ crop 6 (0.027ms)
+  ✖ crop 7 (0.027166ms)
+  ✖ crop 8 (0.027333ms)
+  ✖ crop 9 (0.0275ms)
+  ✖ crop 10 (0.027125ms)
+  ✖ crop 11 (0.026958ms)
+  ✖ crop 12 (0.030333ms)
+  ✖ crop 13 (0.046125ms)
+  ✖ crop 14 (0.087833ms)
+  ✖ crop 15 (0.059834ms)
+  ✖ crop 16 (0.048583ms)
+✖ rejects invalid crop shapes, nonfinite coordinates, and crops beyond the source (0.923833ms)
+▶ rejects anchors and targets that are not finite coordinate pairs
+  ✖ anchor 0 (0.061042ms)
+  ✖ anchor 1 (0.034917ms)
+  ✖ anchor 2 (0.033875ms)
+  ✖ anchor 3 (0.039583ms)
+  ✖ anchor 4 (0.031333ms)
+  ✖ anchor 5 (0.029208ms)
+  ✖ anchor 6 (0.030958ms)
+  ✖ anchor 7 (0.033375ms)
+  ✖ anchor 8 (0.031375ms)
+  ✖ at 0 (0.032209ms)
+  ✖ at 1 (0.059083ms)
+  ✖ at 2 (0.03275ms)
+  ✖ at 3 (0.030041ms)
+  ✖ at 4 (0.030584ms)
+  ✖ at 5 (0.0295ms)
+  ✖ at 6 (0.033667ms)
+  ✖ at 7 (0.030459ms)
+  ✖ at 8 (0.029166ms)
+✖ rejects anchors and targets that are not finite coordinate pairs (1.215666ms)
+▶ rejects zero, negative, nonfinite, and non-scalar scales
+  ✖ scale 0 (0.037041ms)
+  ✖ scale 1 (0.027167ms)
+  ✖ scale 2 (0.026458ms)
+  ✖ scale 3 (0.026208ms)
+  ✖ scale 4 (0.027125ms)
+  ✖ scale 5 (0.028459ms)
+  ✖ scale 6 (0.026292ms)
+  ✖ scale 7 (0.027625ms)
+  ✖ scale 8 (0.032459ms)
+✖ rejects zero, negative, nonfinite, and non-scalar scales (0.404542ms)
+▶ rejects unknown fit modes and explicit invalid optional controls
+  ✖ fit 0 (0.039125ms)
+  ✖ fit 1 (0.028292ms)
+  ✖ fit 2 (0.027667ms)
+  ✖ fit 3 (0.027084ms)
+  ✖ fit 4 (0.027292ms)
+  ✖ fit 5 (0.026917ms)
+  ✖ explicit undefined box (0.034458ms)
+  ✖ no default scale (0.033584ms)
+✖ rejects unknown fit modes and explicit invalid optional controls (0.378083ms)
+▶ rejects mixing fit and anchored controls even when their own value is undefined
+  ✖ anchor (0.037291ms)
+  ✖ at (0.027958ms)
+  ✖ scale (0.030959ms)
+  ✖ box without fit (0.0395ms)
+✖ rejects mixing fit and anchored controls even when their own value is undefined (0.227166ms)
+▶ rejects inherited required anchored fields
+  ✖ anchor (0.039917ms)
+  ✖ at (0.0275ms)
+  ✖ scale (0.027125ms)
+✖ rejects inherited required anchored fields (0.169708ms)
+▶ requires canvasSize for the default fit box and validates it whenever supplied
+  ✖ missing default canvas (0.035459ms)
+  ✖ anchored canvas 0 (0.035792ms)
+  ✖ anchored canvas 1 (0.027333ms)
+  ✖ anchored canvas 2 (0.026833ms)
+  ✖ anchored canvas 3 (0.02675ms)
+  ✖ anchored canvas 4 (0.026584ms)
+  ✖ anchored canvas 5 (0.027667ms)
+  ✖ anchored canvas 6 (0.026625ms)
+  ✖ anchored canvas 7 (0.026667ms)
+  ✖ anchored canvas 8 (0.030083ms)
+  ✖ unused explicit-box canvas (0.034459ms)
+✖ requires canvasSize for the default fit box and validates it whenever supplied (0.665417ms)
+▶ rejects fit boxes with invalid shape, coordinates, or dimensions
+  ✖ box 0 (0.035125ms)
+  ✖ box 1 (0.027666ms)
+  ✖ box 2 (0.027083ms)
+  ✖ box 3 (0.026834ms)
+  ✖ box 4 (0.028459ms)
+  ✖ box 5 (0.027209ms)
+  ✖ box 6 (0.026875ms)
+  ✖ box 7 (0.030125ms)
+  ✖ box 8 (0.027042ms)
+✖ rejects fit boxes with invalid shape, coordinates, or dimensions (0.38225ms)
+✖ rejects finite inputs whose derived scale or destination is not drawable (0.070375ms)
+ℹ tests 129
+ℹ suites 0
+ℹ pass 1
+ℹ fail 128
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 124.002875
+
+✖ failing tests:
+
+test at tests/artwork.test.mjs:46:1
+✖ places an original-image anchor at its target with one scalar (0.592417ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly deep-equal:
+  + actual - expected
+  
+  + undefined
+  - {
+  -   clip: null,
+  -   destination: [
+  -     80,
+  -     60,
+  -     160,
+  -     80
+  -   ],
+  -   scale: 2,
+  -   source: [
+  -     40,
+  -     20,
+  -     80,
+  -     40
+  -   ]
+  - }
+  
+      at TestContext.<anonymous> (file:///Volumes/eyedisk/develop/cinewright/tests/artwork.test.mjs:48:10)
+      at async Test.run (node:internal/test_runner/test:1409:7)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: undefined,
+    expected: { source: [ 40, 20, 80, 40 ], destination: [ 80, 60, 160, 80 ], scale: 2, clip: null },
+    operator: 'deepStrictEqual',
+    diff: 'simple'
+  }
+
+test at tests/artwork.test.mjs:53:1
+✖ keeps the same original anchor at its target after moving the crop origin (0.15175ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly deep-equal:
+  + actual - expected
+  
+  + undefined
+  - {
+  -   clip: null,
+  -   destination: [
+  -     160,
+  -     100,
+  -     160,
+  -     80
+  -   ],
+  -   scale: 2,
+  -   source: [
+  -     80,
+  -     40,
+  -     80,
+  -     40
+  -   ]
+  - }
+  
+      at TestContext.<anonymous> (file:///Volumes/eyedisk/develop/cinewright/tests/artwork.test.mjs:58:10)
+      at async Test.run (node:internal/test_runner/test:1409:7)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: undefined,
+    expected: { source: [ 80, 40, 80, 40 ], destination: [ 160, 100, 160, 80 ], scale: 2, clip: null },
+    operator: 'deepStrictEqual',
+    diff: 'simple'
+  }
+
+test at tests/artwork.test.mjs:63:1
+✖ defaults crop to the whole source and permits an off-canvas target without canvasSize (0.137041ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly deep-equal:
+  + actual - expected
+  
+  + undefined
+  - {
+  -   clip: null,
+  -   destination: [
+  -     -20,
+  -     500,
+  -     80,
+  -     40
+  -   ],
+  -   scale: 0.5,
+  -   source: [
+  -     0,
+  -     0,
+  -     160,
+  -     80
+  -   ]
+  - }
+  
+      at TestContext.<anonymous> (file:///Volumes/eyedisk/develop/cinewright/tests/artwork.test.mjs:65:10)
+      at async Test.run (node:internal/test_runner/test:1409:7)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: undefined,
+    expected: { source: [ 0, 0, 160, 80 ], destination: [ -20, 500, 80, 40 ], scale: 0.5, clip: null },
+    operator: 'deepStrictEqual',
+    diff: 'simple'
+  }
+
+test at tests/artwork.test.mjs:72:1
+✖ supports fractional coordinates and anchors outside the source (0.130041ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly deep-equal:
+  + actual - expected
+  
+  + undefined
+  - {
+  -   clip: null,
+  -   destination: [
+  -     1.875,
+  -     -2.75,
+  -     1,
+  -     0.5
+  -   ],
+  -   scale: 0.5,
+  -   source: [
+  -     0.25,
+  -     0.5,
+  -     2,
+  -     1
+  -   ]
+  - }
+  
+      at TestContext.<anonymous> (file:///Volumes/eyedisk/develop/cinewright/tests/artwork.test.mjs:74:10)
+      at async Test.run (node:internal/test_runner/test:1409:7)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: undefined,
+    expected: { source: [ 0.25, 0.5, 2, 1 ], destination: [ 1.875, -2.75, 1, 0.5 ], scale: 0.5, clip: null },
+    operator: 'deepStrictEqual',
+    diff: 'simple'
+  }
+
+test at tests/artwork.test.mjs:82:1
+✖ contain centers a wide image in the default canvas box without clipping or stretching (0.114208ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly deep-equal:
+  + actual - expected
+  
+  + undefined
+  - {
+  -   clip: null,
+  -   destination: [
+  -     0,
+  -     25,
+  -     100,
+  -     50
+  -   ],
+  -   scale: 0.5,
+  -   source: [
+  -     0,
+  -     0,
+  -     200,
+  -     100
+  -   ]
+  - }
+  
+      at TestContext.<anonymous> (file:///Volumes/eyedisk/develop/cinewright/tests/artwork.test.mjs:84:10)
+      at async Test.run (node:internal/test_runner/test:1409:7)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: undefined,
+    expected: { source: [ 0, 0, 200, 100 ], destination: [ 0, 25, 100, 50 ], scale: 0.5, clip: null },
+    operator: 'deepStrictEqual',
+    diff: 'simple'
+  }
+
+test at tests/artwork.test.mjs:91:1
+✖ cover centers a wide image and clips overflow to the default canvas box (0.585375ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly deep-equal:
+  + actual - expected
+  
+  + undefined
+  - {
+  -   clip: [
+  -     0,
+  -     0,
+  -     100,
+  -     100
+  -   ],
+  -   destination: [
+  -     -50,
+  -     0,
+  -     200,
+  -     100
+  -   ],
+  -   scale: 1,
+  -   source: [
+  -     0,
+  -     0,
+  -     200,
+  -     100
+  -   ]
+  - }
+  
+      at TestContext.<anonymous> (file:///Volumes/eyedisk/develop/cinewright/tests/artwork.test.mjs:93:10)
+      at async Test.run (node:internal/test_runner/test:1409:7)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: undefined,
+    expected: { source: [ 0, 0, 200, 100 ], destination: [ -50, 0, 200, 100 ], scale: 1, clip: [ 0, 0, 100, 100 ] },
+    operator: 'deepStrictEqual',
+    diff: 'simple'
+  }
+
+test at tests/artwork.test.mjs:106:13
+✖ contain (0.129917ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly deep-equal:
+  + actual - expected
+  
+  + undefined
+  - {
+  -   clip: null,
+  -   destination: [
+  -     10,
+  -     50,
+  -     80,
+  -     40
+  -   ],
+  -   scale: 1,
+  -   source: [
+  -     40,
+  -     20,
+  -     80,
+  -     40
+  -   ]
+  - }
+  
+      at TestContext.<anonymous> (file:///Volumes/eyedisk/develop/cinewright/tests/artwork.test.mjs:106:36)
+      at Test.runInAsyncScope (node:async_hooks:226:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.start (node:internal/test_runner/test:1262:17)
+      at TestContext.test (node:internal/test_runner/test:400:20)
+      at TestContext.<anonymous> (file:///Volumes/eyedisk/develop/cinewright/tests/artwork.test.mjs:106:13)
+      at async Test.run (node:internal/test_runner/test:1409:7)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: undefined,
+    expected: { source: [ 40, 20, 80, 40 ], destination: [ 10, 50, 80, 40 ], scale: 1, clip: null },
+    operator: 'deepStrictEqual',
+    diff: 'simple'
+  }
+
+test at tests/artwork.test.mjs:106:13
+✖ cover (0.0825ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly deep-equal:
+  + actual - expected
+  
+  + undefined
+  - {
+  -   clip: [
+  -     10,
+  -     20,
+  -     80,
+  -     100
+  -   ],
+  -   destination: [
+  -     -50,
+  -     20,
+  -     200,
+  -     100
+  -   ],
+  -   scale: 2.5,
+  -   source: [
+  -     40,
+  -     20,
+  -     80,
+  -     40
+  -   ]
+  - }
+  
+      at TestContext.<anonymous> (file:///Volumes/eyedisk/develop/cinewright/tests/artwork.test.mjs:106:36)
+      at Test.runInAsyncScope (node:async_hooks:226:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.start (node:internal/test_runner/test:1262:17)
+      at TestContext.test (node:internal/test_runner/test:400:20)
+      at TestContext.<anonymous> (file:///Volumes/eyedisk/develop/cinewright/tests/artwork.test.mjs:106:13)
+      at async Test.run (node:internal/test_runner/test:1409:7)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: undefined,
+    expected: { source: [ 40, 20, 80, 40 ], destination: [ -50, 20, 200, 100 ], scale: 2.5, clip: [ 10, 20, 80, 100 ] },
+    operator: 'deepStrictEqual',
+    diff: 'simple'
+  }
+
+test at tests/artwork.test.mjs:118:13
+✖ contain (0.077541ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly deep-equal:
+  + actual - expected
+  
+  + undefined
+  - {
+  -   clip: null,
+  -   destination: [
+  -     -5,
+  -     -20,
+  -     30,
+  -     60
+  -   ],
+  -   scale: 0.3,
+  -   source: [
+  -     0,
+  -     0,
+  -     100,
+  -     200
+  -   ]
+  - }
+  
+      at TestContext.<anonymous> (file:///Volumes/eyedisk/develop/cinewright/tests/artwork.test.mjs:118:36)
+      at Test.runInAsyncScope (node:async_hooks:226:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.start (node:internal/test_runner/test:1262:17)
+      at TestContext.test (node:internal/test_runner/test:400:20)
+      at TestContext.<anonymous> (file:///Volumes/eyedisk/develop/cinewright/tests/artwork.test.mjs:118:13)
+      at async Test.run (node:internal/test_runner/test:1409:7)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: undefined,
+    expected: { source: [ 0, 0, 100, 200 ], destination: [ -5, -20, 30, 60 ], scale: 0.3, clip: null },
+    operator: 'deepStrictEqual',
+    diff: 'simple'
+  }
+
+test at tests/artwork.test.mjs:118:13
+✖ cover (0.063584ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly deep-equal:
+  + actual - expected
+  
+  + undefined
+  - {
+  -   clip: [
+  -     -50,
+  -     -20,
+  -     120,
+  -     60
+  -   ],
+  -   destination: [
+  -     -50,
+  -     -110,
+  -     120,
+  -     240
+  -   ],
+  -   scale: 1.2,
+  -   source: [
+  -     0,
+  -     0,
+  -     100,
+  -     200
+  -   ]
+  - }
+  
+      at TestContext.<anonymous> (file:///Volumes/eyedisk/develop/cinewright/tests/artwork.test.mjs:118:36)
+      at Test.runInAsyncScope (node:async_hooks:226:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.start (node:internal/test_runner/test:1262:17)
+      at TestContext.test (node:internal/test_runner/test:400:20)
+      at TestContext.<anonymous> (file:///Volumes/eyedisk/develop/cinewright/tests/artwork.test.mjs:118:13)
+      at async Test.run (node:internal/test_runner/test:1409:7)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: undefined,
+    expected: { source: [ 0, 0, 100, 200 ], destination: [ -50, -110, 120, 240 ], scale: 1.2, clip: [ -50, -20, 120, 60 ] },
+    operator: 'deepStrictEqual',
+    diff: 'simple'
+  }
+
+test at tests/artwork.test.mjs:124:1
+✖ does not mutate input or expose its arrays through placement output (2.628167ms)
+  AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+  
+    assert.ok(result)
+  
+      at TestContext.<anonymous> (file:///Volumes/eyedisk/develop/cinewright/tests/artwork.test.mjs:132:10)
+      at async Test.run (node:internal/test_runner/test:1409:7)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: undefined,
+    expected: true,
+    operator: '==',
+    diff: 'simple'
+  }
+
+test at tests/artwork.test.mjs:143:1
+✖ inherited optional crop and canvasSize cannot change anchored placement (0.0865ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly deep-equal:
+  + actual - expected
+  
+  + undefined
+  - {
+  -   clip: null,
+  -   destination: [
+  -     0,
+  -     0,
+  -     20,
+  -     10
+  -   ],
+  -   scale: 1,
+  -   source: [
+  -     0,
+  -     0,
+  -     20,
+  -     10
+  -   ]
+  - }
+  
+      at TestContext.<anonymous> (file:///Volumes/eyedisk/develop/cinewright/tests/artwork.test.mjs:148:10)
+      at async Test.run (node:internal/test_runner/test:1409:7)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: undefined,
+    expected: { source: [ 0, 0, 20, 10 ], destination: [ 0, 0, 20, 10 ], scale: 1, clip: null },
+    operator: 'deepStrictEqual',
+    diff: 'simple'
+  }
+
+test at tests/artwork.test.mjs:153:1
+✖ inherited fit and box cannot switch anchored placement mode (0.059917ms)
+  TypeError [Error]: Cannot read properties of undefined (reading 'destination')
+      at TestContext.<anonymous> (file:///Volumes/eyedisk/develop/cinewright/tests/artwork.test.mjs:157:42)
+      at async Test.run (node:internal/test_runner/test:1409:7)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7)
+
+test at tests/artwork.test.mjs:160:1
+✖ inherited box or anchored controls cannot change fit placement (0.087292ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly deep-equal:
+  + actual - expected
+  
+  + undefined
+  - {
+  -   clip: null,
+  -   destination: [
+  -     0,
+  -     25,
+  -     100,
+  -     50
+  -   ],
+  -   scale: 0.5,
+  -   source: [
+  -     0,
+  -     0,
+  -     200,
+  -     100
+  -   ]
+  - }
+  
+      at TestContext.<anonymous> (file:///Volumes/eyedisk/develop/cinewright/tests/artwork.test.mjs:162:10)
+      at async Test.run (node:internal/test_runner/test:1409:7)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: undefined,
+    expected: { source: [ 0, 0, 200, 100 ], destination: [ 0, 25, 100, 50 ], scale: 0.5, clip: null },
+    operator: 'deepStrictEqual',
+    diff: 'simple'
+  }
+
+test at tests/artwork.test.mjs:180:14
+✖ missing root (0.107541ms)
+  AssertionError [ERR_ASSERTION]: Missing expected exception.
+      at placementRejects (file:///Volumes/eyedisk/develop/cinewright/tests/artwork.test.mjs:38:10)
+      at async Test.run (node:internal/test_runner/test:1409:7)
+      at async TestContext.<anonymous> (file:///Volumes/eyedisk/develop/cinewright/tests/artwork.test.mjs:180:6)
+      at async Test.run (node:internal/test_runner/test:1409:7)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: undefined,
+    operator: 'throws',
+    diff: 'simple'
+  }
+
+test at tests/artwork.test.mjs:180:14
+✖ null root (0.041333ms)
+  AssertionError [ERR_ASSERTION]: Missing expected exception.
+      at placementRejects (file:///Volumes/eyedisk/develop/cinewright/tests/artwork.test.mjs:38:10)
+      at async Test.run (node:internal/test_runner/test:1409:7)
+      at async TestContext.<anonymous> (file:///Volumes/eyedisk/develop/cinewright/tests/artwork.test.mjs:180:6)
+      at async Test.run (node:internal/test_runner/test:1409:7)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: undefined,
+    operator: 'throws',
+    diff: 'simple'
+  }
+
+test at tests/artwork.test.mjs:180:14
+✖ array root (0.047167ms)
+  AssertionError [ERR_ASSERTION]: Missing expected exception.
+      at placementRejects (file:///Volumes/eyedisk/develop/cinewright/tests/artwork.test.mjs:38:10)
+      at async Test.run (node:internal/test_runner/test:1409:7)
+      at async TestContext.<anonymous> (file:///Volumes/eyedisk/develop/cinewright/tests/artwork.test.mjs:180:6)
+      at async Test.run (node:internal/test_runner/test:1409:7)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: undefined,
+    operator: 'throws',
+    diff: 'simple'
+  }
+
+test at tests/artwork.test.mjs:180:14
+✖ text root (0.042709ms)
+  AssertionError [ERR_ASSERTION]: Missing expected exception.
+      at placementRejects (file:///Volumes/eyedisk/develop/cinewright/tests/artwork.test.mjs:38:10)
+      at async Test.run (node:internal/test_runner/test:1409:7)
+      at async TestContext.<anonymous> (file:///Volumes/eyedisk/develop/cinewright/tests/artwork.test.mjs:180:6)
+      at async Test.run (node:internal/test_runner/test:1409:7)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: undefined,
+    operator: 'throws',
+    diff: 'simple'
+  }
+
+test at tests/artwork.test.mjs:180:14
+✖ missing placement (0.047875ms)
+  AssertionError [ERR_ASSERTION]: Missing expected exception.
+      at placementRejects (file:///Volumes/eyedisk/develop/cinewright/tests/artwork.test.mjs:38:10)
+      at async Test.run (node:internal/test_runner/test:1409:7)
+      at async TestContext.<anonymous> (file:///Volumes/eyedisk/develop/cinewright/tests/artwork.test.mjs:180:6)
+      at async Test.run (node:internal/test_runner/test:1409:7)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: undefined,
+    operator: 'throws',
+    diff: 'simple'
+  }
+
+test at tests/artwork.test.mjs:180:14
+✖ placement shape 0 (0.040291ms)
+  AssertionError [ERR_ASSERTION]: Missing expected exception.
+      at placementRejects (file:///Volumes/eyedisk/develop/cinewright/tests/artwork.test.mjs:38:10)
+      at async Test.run (node:internal/test_runner/test:1409:7)
+      at async TestContext.<anonymous> (file:///Volumes/eyedisk/develop/cinewright/tests/artwork.test.mjs:180:6)
+      at async Test.run (node:internal/test_runner/test:1409:7)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: undefined,
+    operator: 'throws',
+    diff: 'simple'
+  }
+
+test at tests/artwork.test.mjs:180:14
+✖ placement shape 1 (0.036917ms)
+  AssertionError [ERR_ASSERTION]: Missing expected exception.
+      at placementRejects (file:///Volumes/eyedisk/develop/cinewright/tests/artwork.test.mjs:38:10)
+      at async Test.run (node:internal/test_runner/test:1409:7)
+      at async TestContext.<anonymous> (file:///Volumes/eyedisk/develop/cinewright/tests/artwork.test.mjs:180:6)
+      at async Test.run (node:internal/test_runner/test:1409:7)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: undefined,
+    operator: 'throws',
+    diff: 'simple'
+  }
+
+test at tests/artwork.test.mjs:180:14
+✖ placement shape 2 (0.042917ms)
+  AssertionError [ERR_ASSERTION]: Missing expected exception.
+      at placementRejects (file:///Volumes/eyedisk/develop/cinewright/tests/artwork.test.mjs:38:10)
+      at async Test.run (node:internal/test_runner/test:1409:7)
+      at async TestContext.<anonymous> (file:///Volumes/eyedisk/develop/cinewright/tests/artwork.test.mjs:180:6)
+      at async Test.run (node:internal/test_runner/test:1409:7)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: undefined,
+    operator: 'throws',
+    diff: 'simple'
+  }
+
+test at tests/artwork.test.mjs:180:14
+✖ missing anchor (0.044333ms)
+  AssertionError [ERR_ASSERTION]: Missing expected exception.
+      at placementRejects (file:///Volumes/eyedisk/develop/cinewright/tests/artwork.test.mjs:38:10)
+      at async Test.run (node:internal/test_runner/test:1409:7)
+      at async TestContext.<anonymous> (file:///Volumes/eyedisk/develop/cinewright/tests/artwork.test.mjs:180:6)
+      at async Test.run (node:internal/test_runner/test:1409:7)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: undefined,
+    operator: 'throws',
+    diff: 'simple'
+  }
+
+test at tests/artwork.test.mjs:180:14
+✖ missing at (0.036417ms)
+  AssertionError [ERR_ASSERTION]: Missing expected exception.
+      at placementRejects (file:///Volumes/eyedisk/develop/cinewright/tests/artwork.test.mjs:38:10)
+      at async Test.run (node:internal/test_runner/test:1409:7)
+      at async TestContext.<anonymous> (file:///Volumes/eyedisk/develop/cinewright/tests/artwork.test.mjs:180:6)
+      at async Test.run (node:internal/test_runner/test:1409:7)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: undefined,
+    operator: 'throws',
+    diff: 'simple'
+  }
+
+test at tests/artwork.test.mjs:180:14
+✖ missing scale (0.038125ms)
+  AssertionError [ERR_ASSERTION]: Missing expected exception.
+      at placementRejects (file:///Volumes/eyedisk/develop/cinewright/tests/artwork.test.mjs:38:10)
+      at async Test.run (node:internal/test_runner/test:1409:7)
+      at async TestContext.<anonymous> (file:///Volumes/eyedisk/develop/cinewright/tests/artwork.test.mjs:180:6)
+      at async Test.run (node:internal/test_runner/test:1409:7)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: undefined,
+    operator: 'throws',
+    diff: 'simple'
+  }
+
+test at tests/artwork.test.mjs:186:13
+✖ size 0 (0.046417ms)
+  AssertionError [ERR_ASSERTION]: Missing expected exception.
+      at placementRejects (file:///Volumes/eyedisk/develop/cinewright/tests/artwork.test.mjs:38:10)
+      at async Test.run (node:internal/test_runner/test:1409:7)
+      at async TestContext.<anonymous> (file:///Volumes/eyedisk/develop/cinewright/tests/artwork.test.mjs:186:5)
+      at async Test.run (node:internal/test_runner/test:1409:7)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: undefined,
+    operator: 'throws',
+    diff: 'simple'
+  }
+
+test at tests/artwork.test.mjs:186:13
+✖ size 1 (0.03275ms)
+  AssertionError [ERR_ASSERTION]: Missing expected exception.
+      at placementRejects (file:///Volumes/eyedisk/develop/cinewright/tests/artwork.test.mjs:38:10)
+      at async Test.run (node:internal/test_runner/test:1409:7)
+      at async TestContext.<anonymous> (file:///Volumes/eyedisk/develop/cinewright/tests/artwork.test.mjs:186:5)
+      at async Test.run (node:internal/test_runner/test:1409:7)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: undefined,
+    operator: 'throws',
+    diff: 'simple'
+  }
+
+test at tests/artwork.test.mjs:186:13
+✖ size 2 (0.03675ms)
+  AssertionError [ERR_ASSERTION]: Missing expected exception.
+      at placementRejects (file:///Volumes/eyedisk/develop/cinewright/tests/artwork.test.mjs:38:10)
+      at async Test.run (node:internal/test_runner/test:1409:7)
+      at async TestContext.<anonymous> (file:///Volumes/eyedisk/develop/cinewright/tests/artwork.test.mjs:186:5)
+      at async Test.run (node:internal/test_runner/test:1409:7)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: undefined,
+    operator: 'throws',
+    diff: 'simple'
+  }
+
+test at tests/artwork.test.mjs:186:13
+✖ size 3 (0.031834ms)
+  AssertionError [ERR_ASSERTION]: Missing expected exception.
+      at placementRejects (file:///Volumes/eyedisk/develop/cinewright/tests/artwork.test.mjs:38:10)
+      at async Test.run (node:internal/test_runner/test:1409:7)
+      at async TestContext.<anonymous> (file:///Volumes/eyedisk/develop/cinewright/tests/artwork.test.mjs:186:5)
+      at async Test.run (node:internal/test_runner/test:1409:7)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: undefined,
+    operator: 'throws',
+    diff: 'simple'
+  }
+
+test at tests/artwork.test.mjs:186:13
+✖ size 4 (0.039417ms)
+  AssertionError [ERR_ASSERTION]: Missing expected exception.
+      at placementRejects (file:///Volumes/eyedisk/develop/cinewright/tests/artwork.test.mjs:38:10)
+      at async Test.run (node:internal/test_runner/test:1409:7)
+      at async TestContext.<anonymous> (file:///Volumes/eyedisk/develop/cinewright/tests/artwork.test.mjs:186:5)
+      at async Test.run (node:internal/test_runner/test:1409:7)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: undefined,
+    operator: 'throws',
+    diff: 'simple'
+  }
+
+test at tests/artwork.test.mjs:186:13
+✖ size 5 (0.033167ms)
+  AssertionError [ERR_ASSERTION]: Missing expected exception.
+      at placementRejects (file:///Volumes/eyedisk/develop/cinewright/tests/artwork.test.mjs:38:10)
+      at async Test.run (node:internal/test_runner/test:1409:7)
+      at async TestContext.<anonymous> (file:///Volumes/eyedisk/develop/cinewright/tests/artwork.test.mjs:186:5)
+      at async Test.run (node:internal/test_runner/test:1409:7)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: undefined,
+    operator: 'throws',
+    diff: 'simple'
+  }
+
+test at tests/artwork.test.mjs:186:13
+✖ size 6 (0.034791ms)
+  AssertionError [ERR_ASSERTION]: Missing expected exception.
+      at placementRejects (file:///Volumes/eyedisk/develop/cinewright/tests/artwork.test.mjs:38:10)
+      at async Test.run (node:internal/test_runner/test:1409:7)
+      at async TestContext.<anonymous> (file:///Volumes/eyedisk/develop/cinewright/tests/artwork.test.mjs:186:5)
+      at async Test.run (node:internal/test_runner/test:1409:7)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: undefined,
+    operator: 'throws',
+    diff: 'simple'
+  }
+
+test at tests/artwork.test.mjs:186:13
+✖ size 7 (0.031291ms)
+  AssertionError [ERR_ASSERTION]: Missing expected exception.
+      at placementRejects (file:///Volumes/eyedisk/develop/cinewright/tests/artwork.test.mjs:38:10)
+      at async Test.run (node:internal/test_runner/test:1409:7)
+      at async TestContext.<anonymous> (file:///Volumes/eyedisk/develop/cinewright/tests/artwork.test.mjs:186:5)
+      at async Test.run (node:internal/test_runner/test:1409:7)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: undefined,
+    operator: 'throws',
+    diff: 'simple'
+  }
+
+test at tests/artwork.test.mjs:186:13
+✖ size 8 (0.032916ms)
+  AssertionError [ERR_ASSERTION]: Missing expected exception.
+      at placementRejects (file:///Volumes/eyedisk/develop/cinewright/tests/artwork.test.mjs:38:10)
+      at async Test.run (node:internal/test_runner/test:1409:7)
+      at async TestContext.<anonymous> (file:///Volumes/eyedisk/develop/cinewright/tests/artwork.test.mjs:186:5)
+      at async Test.run (node:internal/test_runner/test:1409:7)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: undefined,
+    operator: 'throws',
+    diff: 'simple'
+  }
+
+test at tests/artwork.test.mjs:186:13
+✖ size 9 (0.210958ms)
+  AssertionError [ERR_ASSERTION]: Missing expected exception.
+      at placementRejects (file:///Volumes/eyedisk/develop/cinewright/tests/artwork.test.mjs:38:10)
+      at async Test.run (node:internal/test_runner/test:1409:7)
+      at async TestContext.<anonymous> (file:///Volumes/eyedisk/develop/cinewright/tests/artwork.test.mjs:186:5)
+      at async Test.run (node:internal/test_runner/test:1409:7)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: undefined,
+    operator: 'throws',
+    diff: 'simple'
+  }
+
+test at tests/artwork.test.mjs:186:13
+✖ size 10 (0.028ms)
+  AssertionError [ERR_ASSERTION]: Missing expected exception.
+      at placementRejects (file:///Volumes/eyedisk/develop/cinewright/tests/artwork.test.mjs:38:10)
+      at async Test.run (node:internal/test_runner/test:1409:7)
+      at async TestContext.<anonymous> (file:///Volumes/eyedisk/develop/cinewright/tests/artwork.test.mjs:186:5)
+      at async Test.run (node:internal/test_runner/test:1409:7)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: undefined,
+    operator: 'throws',
+    diff: 'simple'
+  }
+
+test at tests/artwork.test.mjs:197:13
+✖ crop 0 (0.037458ms)
+  AssertionError [ERR_ASSERTION]: Missing expected exception.
+      at placementRejects (file:///Volumes/eyedisk/develop/cinewright/tests/artwork.test.mjs:38:10)
+      at async Test.run (node:internal/test_runner/test:1409:7)
+      at async TestContext.<anonymous> (file:///Volumes/eyedisk/develop/cinewright/tests/artwork.test.mjs:197:5)
+      at async Test.run (node:internal/test_runner/test:1409:7)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: undefined,
+    operator: 'throws',
+    diff: 'simple'
+  }
+
+test at tests/artwork.test.mjs:197:13
+✖ crop 1 (0.027584ms)
+  AssertionError [ERR_ASSERTION]: Missing expected exception.
+      at placementRejects (file:///Volumes/eyedisk/develop/cinewright/tests/artwork.test.mjs:38:10)
+      at async Test.run (node:internal/test_runner/test:1409:7)
+      at async TestContext.<anonymous> (file:///Volumes/eyedisk/develop/cinewright/tests/artwork.test.mjs:197:5)
+      at async Test.run (node:internal/test_runner/test:1409:7)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: undefined,
+    operator: 'throws',
+    diff: 'simple'
+  }
+
+test at tests/artwork.test.mjs:197:13
+✖ crop 2 (0.028333ms)
+  AssertionError [ERR_ASSERTION]: Missing expected exception.
+      at placementRejects (file:///Volumes/eyedisk/develop/cinewright/tests/artwork.test.mjs:38:10)
+      at async Test.run (node:internal/test_runner/test:1409:7)
+      at async TestContext.<anonymous> (file:///Volumes/eyedisk/develop/cinewright/tests/artwork.test.mjs:197:5)
+      at async Test.run (node:internal/test_runner/test:1409:7)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: undefined,
+    operator: 'throws',
+    diff: 'simple'
+  }
+
+test at tests/artwork.test.mjs:197:13
+✖ crop 3 (0.027709ms)
+  AssertionError [ERR_ASSERTION]: Missing expected exception.
+      at placementRejects (file:///Volumes/eyedisk/develop/cinewright/tests/artwork.test.mjs:38:10)
+      at async Test.run (node:internal/test_runner/test:1409:7)
+      at async TestContext.<anonymous> (file:///Volumes/eyedisk/develop/cinewright/tests/artwork.test.mjs:197:5)
+      at async Test.run (node:internal/test_runner/test:1409:7)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: undefined,
+    operator: 'throws',
+    diff: 'simple'
+  }
+
+test at tests/artwork.test.mjs:197:13
+✖ crop 4 (0.027375ms)
+  AssertionError [ERR_ASSERTION]: Missing expected exception.
+      at placementRejects (file:///Volumes/eyedisk/develop/cinewright/tests/artwork.test.mjs:38:10)
+      at async Test.run (node:internal/test_runner/test:1409:7)
+      at async TestContext.<anonymous> (file:///Volumes/eyedisk/develop/cinewright/tests/artwork.test.mjs:197:5)
+      at async Test.run (node:internal/test_runner/test:1409:7)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: undefined,
+    operator: 'throws',
+    diff: 'simple'
+  }
+
+test at tests/artwork.test.mjs:197:13
+✖ crop 5 (0.028625ms)
+  AssertionError [ERR_ASSERTION]: Missing expected exception.
+      at placementRejects (file:///Volumes/eyedisk/develop/cinewright/tests/artwork.test.mjs:38:10)
+      at async Test.run (node:internal/test_runner/test:1409:7)
+      at async TestContext.<anonymous> (file:///Volumes/eyedisk/develop/cinewright/tests/artwork.test.mjs:197:5)
+      at async Test.run (node:internal/test_runner/test:1409:7)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: undefined,
+    operator: 'throws',
+    diff: 'simple'
+  }
+
+test at tests/artwork.test.mjs:197:13
+✖ crop 6 (0.027ms)
+  AssertionError [ERR_ASSERTION]: Missing expected exception.
+      at placementRejects (file:///Volumes/eyedisk/develop/cinewright/tests/artwork.test.mjs:38:10)
+      at async Test.run (node:internal/test_runner/test:1409:7)
+      at async TestContext.<anonymous> (file:///Volumes/eyedisk/develop/cinewright/tests/artwork.test.mjs:197:5)
+      at async Test.run (node:internal/test_runner/test:1409:7)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: undefined,
+    operator: 'throws',
+    diff: 'simple'
+  }
+
+test at tests/artwork.test.mjs:197:13
+✖ crop 7 (0.027166ms)
+  AssertionError [ERR_ASSERTION]: Missing expected exception.
+      at placementRejects (file:///Volumes/eyedisk/develop/cinewright/tests/artwork.test.mjs:38:10)
+      at async Test.run (node:internal/test_runner/test:1409:7)
+      at async TestContext.<anonymous> (file:///Volumes/eyedisk/develop/cinewright/tests/artwork.test.mjs:197:5)
+      at async Test.run (node:internal/test_runner/test:1409:7)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: undefined,
+    operator: 'throws',
+    diff: 'simple'
+  }
+
+test at tests/artwork.test.mjs:197:13
+✖ crop 8 (0.027333ms)
+  AssertionError [ERR_ASSERTION]: Missing expected exception.
+      at placementRejects (file:///Volumes/eyedisk/develop/cinewright/tests/artwork.test.mjs:38:10)
+      at async Test.run (node:internal/test_runner/test:1409:7)
+      at async TestContext.<anonymous> (file:///Volumes/eyedisk/develop/cinewright/tests/artwork.test.mjs:197:5)
+      at async Test.run (node:internal/test_runner/test:1409:7)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: undefined,
+    operator: 'throws',
+    diff: 'simple'
+  }
+
+test at tests/artwork.test.mjs:197:13
+✖ crop 9 (0.0275ms)
+  AssertionError [ERR_ASSERTION]: Missing expected exception.
+      at placementRejects (file:///Volumes/eyedisk/develop/cinewright/tests/artwork.test.mjs:38:10)
+      at async Test.run (node:internal/test_runner/test:1409:7)
+      at async TestContext.<anonymous> (file:///Volumes/eyedisk/develop/cinewright/tests/artwork.test.mjs:197:5)
+      at async Test.run (node:internal/test_runner/test:1409:7)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: undefined,
+    operator: 'throws',
+    diff: 'simple'
+  }
+
+test at tests/artwork.test.mjs:197:13
+✖ crop 10 (0.027125ms)
+  AssertionError [ERR_ASSERTION]: Missing expected exception.
+      at placementRejects (file:///Volumes/eyedisk/develop/cinewright/tests/artwork.test.mjs:38:10)
+      at async Test.run (node:internal/test_runner/test:1409:7)
+      at async TestContext.<anonymous> (file:///Volumes/eyedisk/develop/cinewright/tests/artwork.test.mjs:197:5)
+      at async Test.run (node:internal/test_runner/test:1409:7)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: undefined,
+    operator: 'throws',
+    diff: 'simple'
+  }
+
+test at tests/artwork.test.mjs:197:13
+✖ crop 11 (0.026958ms)
+  AssertionError [ERR_ASSERTION]: Missing expected exception.
+      at placementRejects (file:///Volumes/eyedisk/develop/cinewright/tests/artwork.test.mjs:38:10)
+      at async Test.run (node:internal/test_runner/test:1409:7)
+      at async TestContext.<anonymous> (file:///Volumes/eyedisk/develop/cinewright/tests/artwork.test.mjs:197:5)
+      at async Test.run (node:internal/test_runner/test:1409:7)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: undefined,
+    operator: 'throws',
+    diff: 'simple'
+  }
+
+test at tests/artwork.test.mjs:197:13
+✖ crop 12 (0.030333ms)
+  AssertionError [ERR_ASSERTION]: Missing expected exception.
+      at placementRejects (file:///Volumes/eyedisk/develop/cinewright/tests/artwork.test.mjs:38:10)
+      at async Test.run (node:internal/test_runner/test:1409:7)
+      at async TestContext.<anonymous> (file:///Volumes/eyedisk/develop/cinewright/tests/artwork.test.mjs:197:5)
+      at async Test.run (node:internal/test_runner/test:1409:7)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: undefined,
+    operator: 'throws',
+    diff: 'simple'
+  }
+
+test at tests/artwork.test.mjs:197:13
+✖ crop 13 (0.046125ms)
+  AssertionError [ERR_ASSERTION]: Missing expected exception.
+      at placementRejects (file:///Volumes/eyedisk/develop/cinewright/tests/artwork.test.mjs:38:10)
+      at async Test.run (node:internal/test_runner/test:1409:7)
+      at async TestContext.<anonymous> (file:///Volumes/eyedisk/develop/cinewright/tests/artwork.test.mjs:197:5)
+      at async Test.run (node:internal/test_runner/test:1409:7)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: undefined,
+    operator: 'throws',
+    diff: 'simple'
+  }
+
+test at tests/artwork.test.mjs:197:13
+✖ crop 14 (0.087833ms)
+  AssertionError [ERR_ASSERTION]: Missing expected exception.
+      at placementRejects (file:///Volumes/eyedisk/develop/cinewright/tests/artwork.test.mjs:38:10)
+      at async Test.run (node:internal/test_runner/test:1409:7)
+      at async TestContext.<anonymous> (file:///Volumes/eyedisk/develop/cinewright/tests/artwork.test.mjs:197:5)
+      at async Test.run (node:internal/test_runner/test:1409:7)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: undefined,
+    operator: 'throws',
+    diff: 'simple'
+  }
+
+test at tests/artwork.test.mjs:197:13
+✖ crop 15 (0.059834ms)
+  AssertionError [ERR_ASSERTION]: Missing expected exception.
+      at placementRejects (file:///Volumes/eyedisk/develop/cinewright/tests/artwork.test.mjs:38:10)
+      at async Test.run (node:internal/test_runner/test:1409:7)
+      at async TestContext.<anonymous> (file:///Volumes/eyedisk/develop/cinewright/tests/artwork.test.mjs:197:5)
+      at async Test.run (node:internal/test_runner/test:1409:7)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: undefined,
+    operator: 'throws',
+    diff: 'simple'
+  }
+
+test at tests/artwork.test.mjs:197:13
+✖ crop 16 (0.048583ms)
+  AssertionError [ERR_ASSERTION]: Missing expected exception.
+      at placementRejects (file:///Volumes/eyedisk/develop/cinewright/tests/artwork.test.mjs:38:10)
+      at async Test.run (node:internal/test_runner/test:1409:7)
+      at async TestContext.<anonymous> (file:///Volumes/eyedisk/develop/cinewright/tests/artwork.test.mjs:197:5)
+      at async Test.run (node:internal/test_runner/test:1409:7)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: undefined,
+    operator: 'throws',
+    diff: 'simple'
+  }
+
+test at tests/artwork.test.mjs:206:15
+✖ anchor 0 (0.061042ms)
+  AssertionError [ERR_ASSERTION]: Missing expected exception.
+      at placementRejects (file:///Volumes/eyedisk/develop/cinewright/tests/artwork.test.mjs:38:10)
+      at async Test.run (node:internal/test_runner/test:1409:7)
+      at async TestContext.<anonymous> (file:///Volumes/eyedisk/develop/cinewright/tests/artwork.test.mjs:206:7)
+      at async Test.run (node:internal/test_runner/test:1409:7)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: undefined,
+    operator: 'throws',
+    diff: 'simple'
+  }
+
+test at tests/artwork.test.mjs:206:15
+✖ anchor 1 (0.034917ms)
+  AssertionError [ERR_ASSERTION]: Missing expected exception.
+      at placementRejects (file:///Volumes/eyedisk/develop/cinewright/tests/artwork.test.mjs:38:10)
+      at async Test.run (node:internal/test_runner/test:1409:7)
+      at async TestContext.<anonymous> (file:///Volumes/eyedisk/develop/cinewright/tests/artwork.test.mjs:206:7)
+      at async Test.run (node:internal/test_runner/test:1409:7)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: undefined,
+    operator: 'throws',
+    diff: 'simple'
+  }
+
+test at tests/artwork.test.mjs:206:15
+✖ anchor 2 (0.033875ms)
+  AssertionError [ERR_ASSERTION]: Missing expected exception.
+      at placementRejects (file:///Volumes/eyedisk/develop/cinewright/tests/artwork.test.mjs:38:10)
+      at async Test.run (node:internal/test_runner/test:1409:7)
+      at async TestContext.<anonymous> (file:///Volumes/eyedisk/develop/cinewright/tests/artwork.test.mjs:206:7)
+      at async Test.run (node:internal/test_runner/test:1409:7)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: undefined,
+    operator: 'throws',
+    diff: 'simple'
+  }
+
+test at tests/artwork.test.mjs:206:15
+✖ anchor 3 (0.039583ms)
+  AssertionError [ERR_ASSERTION]: Missing expected exception.
+      at placementRejects (file:///Volumes/eyedisk/develop/cinewright/tests/artwork.test.mjs:38:10)
+      at async Test.run (node:internal/test_runner/test:1409:7)
+      at async TestContext.<anonymous> (file:///Volumes/eyedisk/develop/cinewright/tests/artwork.test.mjs:206:7)
+      at async Test.run (node:internal/test_runner/test:1409:7)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: undefined,
+    operator: 'throws',
+    diff: 'simple'
+  }
+
+test at tests/artwork.test.mjs:206:15
+✖ anchor 4 (0.031333ms)
+  AssertionError [ERR_ASSERTION]: Missing expected exception.
+      at placementRejects (file:///Volumes/eyedisk/develop/cinewright/tests/artwork.test.mjs:38:10)
+      at async Test.run (node:internal/test_runner/test:1409:7)
+      at async TestContext.<anonymous> (file:///Volumes/eyedisk/develop/cinewright/tests/artwork.test.mjs:206:7)
+      at async Test.run (node:internal/test_runner/test:1409:7)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: undefined,
+    operator: 'throws',
+    diff: 'simple'
+  }
+
+test at tests/artwork.test.mjs:206:15
+✖ anchor 5 (0.029208ms)
+  AssertionError [ERR_ASSERTION]: Missing expected exception.
+      at placementRejects (file:///Volumes/eyedisk/develop/cinewright/tests/artwork.test.mjs:38:10)
+      at async Test.run (node:internal/test_runner/test:1409:7)
+      at async TestContext.<anonymous> (file:///Volumes/eyedisk/develop/cinewright/tests/artwork.test.mjs:206:7)
+      at async Test.run (node:internal/test_runner/test:1409:7)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: undefined,
+    operator: 'throws',
+    diff: 'simple'
+  }
+
+test at tests/artwork.test.mjs:206:15
+✖ anchor 6 (0.030958ms)
+  AssertionError [ERR_ASSERTION]: Missing expected exception.
+      at placementRejects (file:///Volumes/eyedisk/develop/cinewright/tests/artwork.test.mjs:38:10)
+      at async Test.run (node:internal/test_runner/test:1409:7)
+      at async TestContext.<anonymous> (file:///Volumes/eyedisk/develop/cinewright/tests/artwork.test.mjs:206:7)
+      at async Test.run (node:internal/test_runner/test:1409:7)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: undefined,
+    operator: 'throws',
+    diff: 'simple'
+  }
+
+test at tests/artwork.test.mjs:206:15
+✖ anchor 7 (0.033375ms)
+  AssertionError [ERR_ASSERTION]: Missing expected exception.
+      at placementRejects (file:///Volumes/eyedisk/develop/cinewright/tests/artwork.test.mjs:38:10)
+      at async Test.run (node:internal/test_runner/test:1409:7)
+      at async TestContext.<anonymous> (file:///Volumes/eyedisk/develop/cinewright/tests/artwork.test.mjs:206:7)
+      at async Test.run (node:internal/test_runner/test:1409:7)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: undefined,
+    operator: 'throws',
+    diff: 'simple'
+  }
+
+test at tests/artwork.test.mjs:206:15
+✖ anchor 8 (0.031375ms)
+  AssertionError [ERR_ASSERTION]: Missing expected exception.
+      at placementRejects (file:///Volumes/eyedisk/develop/cinewright/tests/artwork.test.mjs:38:10)
+      at async Test.run (node:internal/test_runner/test:1409:7)
+      at async TestContext.<anonymous> (file:///Volumes/eyedisk/develop/cinewright/tests/artwork.test.mjs:206:7)
+      at async Test.run (node:internal/test_runner/test:1409:7)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: undefined,
+    operator: 'throws',
+    diff: 'simple'
+  }
+
+test at tests/artwork.test.mjs:206:15
+✖ at 0 (0.032209ms)
+  AssertionError [ERR_ASSERTION]: Missing expected exception.
+      at placementRejects (file:///Volumes/eyedisk/develop/cinewright/tests/artwork.test.mjs:38:10)
+      at async Test.run (node:internal/test_runner/test:1409:7)
+      at async TestContext.<anonymous> (file:///Volumes/eyedisk/develop/cinewright/tests/artwork.test.mjs:206:7)
+      at async Test.run (node:internal/test_runner/test:1409:7)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: undefined,
+    operator: 'throws',
+    diff: 'simple'
+  }
+
+test at tests/artwork.test.mjs:206:15
+✖ at 1 (0.059083ms)
+  AssertionError [ERR_ASSERTION]: Missing expected exception.
+      at placementRejects (file:///Volumes/eyedisk/develop/cinewright/tests/artwork.test.mjs:38:10)
+      at async Test.run (node:internal/test_runner/test:1409:7)
+      at async TestContext.<anonymous> (file:///Volumes/eyedisk/develop/cinewright/tests/artwork.test.mjs:206:7)
+      at async Test.run (node:internal/test_runner/test:1409:7)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: undefined,
+    operator: 'throws',
+    diff: 'simple'
+  }
+
+test at tests/artwork.test.mjs:206:15
+✖ at 2 (0.03275ms)
+  AssertionError [ERR_ASSERTION]: Missing expected exception.
+      at placementRejects (file:///Volumes/eyedisk/develop/cinewright/tests/artwork.test.mjs:38:10)
+      at async Test.run (node:internal/test_runner/test:1409:7)
+      at async TestContext.<anonymous> (file:///Volumes/eyedisk/develop/cinewright/tests/artwork.test.mjs:206:7)
+      at async Test.run (node:internal/test_runner/test:1409:7)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: undefined,
+    operator: 'throws',
+    diff: 'simple'
+  }
+
+test at tests/artwork.test.mjs:206:15
+✖ at 3 (0.030041ms)
+  AssertionError [ERR_ASSERTION]: Missing expected exception.
+      at placementRejects (file:///Volumes/eyedisk/develop/cinewright/tests/artwork.test.mjs:38:10)
+      at async Test.run (node:internal/test_runner/test:1409:7)
+      at async TestContext.<anonymous> (file:///Volumes/eyedisk/develop/cinewright/tests/artwork.test.mjs:206:7)
+      at async Test.run (node:internal/test_runner/test:1409:7)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: undefined,
+    operator: 'throws',
+    diff: 'simple'
+  }
+
+test at tests/artwork.test.mjs:206:15
+✖ at 4 (0.030584ms)
+  AssertionError [ERR_ASSERTION]: Missing expected exception.
+      at placementRejects (file:///Volumes/eyedisk/develop/cinewright/tests/artwork.test.mjs:38:10)
+      at async Test.run (node:internal/test_runner/test:1409:7)
+      at async TestContext.<anonymous> (file:///Volumes/eyedisk/develop/cinewright/tests/artwork.test.mjs:206:7)
+      at async Test.run (node:internal/test_runner/test:1409:7)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: undefined,
+    operator: 'throws',
+    diff: 'simple'
+  }
+
+test at tests/artwork.test.mjs:206:15
+✖ at 5 (0.0295ms)
+  AssertionError [ERR_ASSERTION]: Missing expected exception.
+      at placementRejects (file:///Volumes/eyedisk/develop/cinewright/tests/artwork.test.mjs:38:10)
+      at async Test.run (node:internal/test_runner/test:1409:7)
+      at async TestContext.<anonymous> (file:///Volumes/eyedisk/develop/cinewright/tests/artwork.test.mjs:206:7)
+      at async Test.run (node:internal/test_runner/test:1409:7)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: undefined,
+    operator: 'throws',
+    diff: 'simple'
+  }
+
+test at tests/artwork.test.mjs:206:15
+✖ at 6 (0.033667ms)
+  AssertionError [ERR_ASSERTION]: Missing expected exception.
+      at placementRejects (file:///Volumes/eyedisk/develop/cinewright/tests/artwork.test.mjs:38:10)
+      at async Test.run (node:internal/test_runner/test:1409:7)
+      at async TestContext.<anonymous> (file:///Volumes/eyedisk/develop/cinewright/tests/artwork.test.mjs:206:7)
+      at async Test.run (node:internal/test_runner/test:1409:7)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: undefined,
+    operator: 'throws',
+    diff: 'simple'
+  }
+
+test at tests/artwork.test.mjs:206:15
+✖ at 7 (0.030459ms)
+  AssertionError [ERR_ASSERTION]: Missing expected exception.
+      at placementRejects (file:///Volumes/eyedisk/develop/cinewright/tests/artwork.test.mjs:38:10)
+      at async Test.run (node:internal/test_runner/test:1409:7)
+      at async TestContext.<anonymous> (file:///Volumes/eyedisk/develop/cinewright/tests/artwork.test.mjs:206:7)
+      at async Test.run (node:internal/test_runner/test:1409:7)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: undefined,
+    operator: 'throws',
+    diff: 'simple'
+  }
+
+test at tests/artwork.test.mjs:206:15
+✖ at 8 (0.029166ms)
+  AssertionError [ERR_ASSERTION]: Missing expected exception.
+      at placementRejects (file:///Volumes/eyedisk/develop/cinewright/tests/artwork.test.mjs:38:10)
+      at async Test.run (node:internal/test_runner/test:1409:7)
+      at async TestContext.<anonymous> (file:///Volumes/eyedisk/develop/cinewright/tests/artwork.test.mjs:206:7)
+      at async Test.run (node:internal/test_runner/test:1409:7)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: undefined,
+    operator: 'throws',
+    diff: 'simple'
+  }
+
+test at tests/artwork.test.mjs:215:13
+✖ scale 0 (0.037041ms)
+  AssertionError [ERR_ASSERTION]: Missing expected exception.
+      at placementRejects (file:///Volumes/eyedisk/develop/cinewright/tests/artwork.test.mjs:38:10)
+      at async Test.run (node:internal/test_runner/test:1409:7)
+      at async TestContext.<anonymous> (file:///Volumes/eyedisk/develop/cinewright/tests/artwork.test.mjs:215:5)
+      at async Test.run (node:internal/test_runner/test:1409:7)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: undefined,
+    operator: 'throws',
+    diff: 'simple'
+  }
+
+test at tests/artwork.test.mjs:215:13
+✖ scale 1 (0.027167ms)
+  AssertionError [ERR_ASSERTION]: Missing expected exception.
+      at placementRejects (file:///Volumes/eyedisk/develop/cinewright/tests/artwork.test.mjs:38:10)
+      at async Test.run (node:internal/test_runner/test:1409:7)
+      at async TestContext.<anonymous> (file:///Volumes/eyedisk/develop/cinewright/tests/artwork.test.mjs:215:5)
+      at async Test.run (node:internal/test_runner/test:1409:7)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: undefined,
+    operator: 'throws',
+    diff: 'simple'
+  }
+
+test at tests/artwork.test.mjs:215:13
+✖ scale 2 (0.026458ms)
+  AssertionError [ERR_ASSERTION]: Missing expected exception.
+      at placementRejects (file:///Volumes/eyedisk/develop/cinewright/tests/artwork.test.mjs:38:10)
+      at async Test.run (node:internal/test_runner/test:1409:7)
+      at async TestContext.<anonymous> (file:///Volumes/eyedisk/develop/cinewright/tests/artwork.test.mjs:215:5)
+      at async Test.run (node:internal/test_runner/test:1409:7)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: undefined,
+    operator: 'throws',
+    diff: 'simple'
+  }
+
+test at tests/artwork.test.mjs:215:13
+✖ scale 3 (0.026208ms)
+  AssertionError [ERR_ASSERTION]: Missing expected exception.
+      at placementRejects (file:///Volumes/eyedisk/develop/cinewright/tests/artwork.test.mjs:38:10)
+      at async Test.run (node:internal/test_runner/test:1409:7)
+      at async TestContext.<anonymous> (file:///Volumes/eyedisk/develop/cinewright/tests/artwork.test.mjs:215:5)
+      at async Test.run (node:internal/test_runner/test:1409:7)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: undefined,
+    operator: 'throws',
+    diff: 'simple'
+  }
+
+test at tests/artwork.test.mjs:215:13
+✖ scale 4 (0.027125ms)
+  AssertionError [ERR_ASSERTION]: Missing expected exception.
+      at placementRejects (file:///Volumes/eyedisk/develop/cinewright/tests/artwork.test.mjs:38:10)
+      at async Test.run (node:internal/test_runner/test:1409:7)
+      at async TestContext.<anonymous> (file:///Volumes/eyedisk/develop/cinewright/tests/artwork.test.mjs:215:5)
+      at async Test.run (node:internal/test_runner/test:1409:7)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: undefined,
+    operator: 'throws',
+    diff: 'simple'
+  }
+
+test at tests/artwork.test.mjs:215:13
+✖ scale 5 (0.028459ms)
+  AssertionError [ERR_ASSERTION]: Missing expected exception.
+      at placementRejects (file:///Volumes/eyedisk/develop/cinewright/tests/artwork.test.mjs:38:10)
+      at async Test.run (node:internal/test_runner/test:1409:7)
+      at async TestContext.<anonymous> (file:///Volumes/eyedisk/develop/cinewright/tests/artwork.test.mjs:215:5)
+      at async Test.run (node:internal/test_runner/test:1409:7)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: undefined,
+    operator: 'throws',
+    diff: 'simple'
+  }
+
+test at tests/artwork.test.mjs:215:13
+✖ scale 6 (0.026292ms)
+  AssertionError [ERR_ASSERTION]: Missing expected exception.
+      at placementRejects (file:///Volumes/eyedisk/develop/cinewright/tests/artwork.test.mjs:38:10)
+      at async Test.run (node:internal/test_runner/test:1409:7)
+      at async TestContext.<anonymous> (file:///Volumes/eyedisk/develop/cinewright/tests/artwork.test.mjs:215:5)
+      at async Test.run (node:internal/test_runner/test:1409:7)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: undefined,
+    operator: 'throws',
+    diff: 'simple'
+  }
+
+test at tests/artwork.test.mjs:215:13
+✖ scale 7 (0.027625ms)
+  AssertionError [ERR_ASSERTION]: Missing expected exception.
+      at placementRejects (file:///Volumes/eyedisk/develop/cinewright/tests/artwork.test.mjs:38:10)
+      at async Test.run (node:internal/test_runner/test:1409:7)
+      at async TestContext.<anonymous> (file:///Volumes/eyedisk/develop/cinewright/tests/artwork.test.mjs:215:5)
+      at async Test.run (node:internal/test_runner/test:1409:7)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: undefined,
+    operator: 'throws',
+    diff: 'simple'
+  }
+
+test at tests/artwork.test.mjs:215:13
+✖ scale 8 (0.032459ms)
+  AssertionError [ERR_ASSERTION]: Missing expected exception.
+      at placementRejects (file:///Volumes/eyedisk/develop/cinewright/tests/artwork.test.mjs:38:10)
+      at async Test.run (node:internal/test_runner/test:1409:7)
+      at async TestContext.<anonymous> (file:///Volumes/eyedisk/develop/cinewright/tests/artwork.test.mjs:215:5)
+      at async Test.run (node:internal/test_runner/test:1409:7)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: undefined,
+    operator: 'throws',
+    diff: 'simple'
+  }
+
+test at tests/artwork.test.mjs:221:13
+✖ fit 0 (0.039125ms)
+  AssertionError [ERR_ASSERTION]: Missing expected exception.
+      at placementRejects (file:///Volumes/eyedisk/develop/cinewright/tests/artwork.test.mjs:38:10)
+      at async Test.run (node:internal/test_runner/test:1409:7)
+      at async TestContext.<anonymous> (file:///Volumes/eyedisk/develop/cinewright/tests/artwork.test.mjs:221:5)
+      at async Test.run (node:internal/test_runner/test:1409:7)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: undefined,
+    operator: 'throws',
+    diff: 'simple'
+  }
+
+test at tests/artwork.test.mjs:221:13
+✖ fit 1 (0.028292ms)
+  AssertionError [ERR_ASSERTION]: Missing expected exception.
+      at placementRejects (file:///Volumes/eyedisk/develop/cinewright/tests/artwork.test.mjs:38:10)
+      at async Test.run (node:internal/test_runner/test:1409:7)
+      at async TestContext.<anonymous> (file:///Volumes/eyedisk/develop/cinewright/tests/artwork.test.mjs:221:5)
+      at async Test.run (node:internal/test_runner/test:1409:7)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: undefined,
+    operator: 'throws',
+    diff: 'simple'
+  }
+
+test at tests/artwork.test.mjs:221:13
+✖ fit 2 (0.027667ms)
+  AssertionError [ERR_ASSERTION]: Missing expected exception.
+      at placementRejects (file:///Volumes/eyedisk/develop/cinewright/tests/artwork.test.mjs:38:10)
+      at async Test.run (node:internal/test_runner/test:1409:7)
+      at async TestContext.<anonymous> (file:///Volumes/eyedisk/develop/cinewright/tests/artwork.test.mjs:221:5)
+      at async Test.run (node:internal/test_runner/test:1409:7)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: undefined,
+    operator: 'throws',
+    diff: 'simple'
+  }
+
+test at tests/artwork.test.mjs:221:13
+✖ fit 3 (0.027084ms)
+  AssertionError [ERR_ASSERTION]: Missing expected exception.
+      at placementRejects (file:///Volumes/eyedisk/develop/cinewright/tests/artwork.test.mjs:38:10)
+      at async Test.run (node:internal/test_runner/test:1409:7)
+      at async TestContext.<anonymous> (file:///Volumes/eyedisk/develop/cinewright/tests/artwork.test.mjs:221:5)
+      at async Test.run (node:internal/test_runner/test:1409:7)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: undefined,
+    operator: 'throws',
+    diff: 'simple'
+  }
+
+test at tests/artwork.test.mjs:221:13
+✖ fit 4 (0.027292ms)
+  AssertionError [ERR_ASSERTION]: Missing expected exception.
+      at placementRejects (file:///Volumes/eyedisk/develop/cinewright/tests/artwork.test.mjs:38:10)
+      at async Test.run (node:internal/test_runner/test:1409:7)
+      at async TestContext.<anonymous> (file:///Volumes/eyedisk/develop/cinewright/tests/artwork.test.mjs:221:5)
+      at async Test.run (node:internal/test_runner/test:1409:7)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: undefined,
+    operator: 'throws',
+    diff: 'simple'
+  }
+
+test at tests/artwork.test.mjs:221:13
+✖ fit 5 (0.026917ms)
+  AssertionError [ERR_ASSERTION]: Missing expected exception.
+      at placementRejects (file:///Volumes/eyedisk/develop/cinewright/tests/artwork.test.mjs:38:10)
+      at async Test.run (node:internal/test_runner/test:1409:7)
+      at async TestContext.<anonymous> (file:///Volumes/eyedisk/develop/cinewright/tests/artwork.test.mjs:221:5)
+      at async Test.run (node:internal/test_runner/test:1409:7)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: undefined,
+    operator: 'throws',
+    diff: 'simple'
+  }
+
+test at tests/artwork.test.mjs:223:11
+✖ explicit undefined box (0.034458ms)
+  AssertionError [ERR_ASSERTION]: Missing expected exception.
+      at placementRejects (file:///Volumes/eyedisk/develop/cinewright/tests/artwork.test.mjs:38:10)
+      at async Test.run (node:internal/test_runner/test:1409:7)
+      at async TestContext.<anonymous> (file:///Volumes/eyedisk/develop/cinewright/tests/artwork.test.mjs:223:3)
+      at async Test.run (node:internal/test_runner/test:1409:7)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: undefined,
+    operator: 'throws',
+    diff: 'simple'
+  }
+
+test at tests/artwork.test.mjs:226:11
+✖ no default scale (0.033584ms)
+  AssertionError [ERR_ASSERTION]: Missing expected exception.
+      at placementRejects (file:///Volumes/eyedisk/develop/cinewright/tests/artwork.test.mjs:38:10)
+      at async Test.run (node:internal/test_runner/test:1409:7)
+      at async TestContext.<anonymous> (file:///Volumes/eyedisk/develop/cinewright/tests/artwork.test.mjs:226:3)
+      at async Test.run (node:internal/test_runner/test:1409:7)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: undefined,
+    operator: 'throws',
+    diff: 'simple'
+  }
+
+test at tests/artwork.test.mjs:233:13
+✖ anchor (0.037291ms)
+  AssertionError [ERR_ASSERTION]: Missing expected exception.
+      at placementRejects (file:///Volumes/eyedisk/develop/cinewright/tests/artwork.test.mjs:38:10)
+      at async Test.run (node:internal/test_runner/test:1409:7)
+      at async TestContext.<anonymous> (file:///Volumes/eyedisk/develop/cinewright/tests/artwork.test.mjs:233:5)
+      at async Test.run (node:internal/test_runner/test:1409:7)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: undefined,
+    operator: 'throws',
+    diff: 'simple'
+  }
+
+test at tests/artwork.test.mjs:233:13
+✖ at (0.027958ms)
+  AssertionError [ERR_ASSERTION]: Missing expected exception.
+      at placementRejects (file:///Volumes/eyedisk/develop/cinewright/tests/artwork.test.mjs:38:10)
+      at async Test.run (node:internal/test_runner/test:1409:7)
+      at async TestContext.<anonymous> (file:///Volumes/eyedisk/develop/cinewright/tests/artwork.test.mjs:233:5)
+      at async Test.run (node:internal/test_runner/test:1409:7)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: undefined,
+    operator: 'throws',
+    diff: 'simple'
+  }
+
+test at tests/artwork.test.mjs:233:13
+✖ scale (0.030959ms)
+  AssertionError [ERR_ASSERTION]: Missing expected exception.
+      at placementRejects (file:///Volumes/eyedisk/develop/cinewright/tests/artwork.test.mjs:38:10)
+      at async Test.run (node:internal/test_runner/test:1409:7)
+      at async TestContext.<anonymous> (file:///Volumes/eyedisk/develop/cinewright/tests/artwork.test.mjs:233:5)
+      at async Test.run (node:internal/test_runner/test:1409:7)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: undefined,
+    operator: 'throws',
+    diff: 'simple'
+  }
+
+test at tests/artwork.test.mjs:237:11
+✖ box without fit (0.0395ms)
+  AssertionError [ERR_ASSERTION]: Missing expected exception.
+      at placementRejects (file:///Volumes/eyedisk/develop/cinewright/tests/artwork.test.mjs:38:10)
+      at async Test.run (node:internal/test_runner/test:1409:7)
+      at async TestContext.<anonymous> (file:///Volumes/eyedisk/develop/cinewright/tests/artwork.test.mjs:237:3)
+      at async Test.run (node:internal/test_runner/test:1409:7)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: undefined,
+    operator: 'throws',
+    diff: 'simple'
+  }
+
+test at tests/artwork.test.mjs:250:13
+✖ anchor (0.039917ms)
+  AssertionError [ERR_ASSERTION]: Missing expected exception.
+      at placementRejects (file:///Volumes/eyedisk/develop/cinewright/tests/artwork.test.mjs:38:10)
+      at async Test.run (node:internal/test_runner/test:1409:7)
+      at async TestContext.<anonymous> (file:///Volumes/eyedisk/develop/cinewright/tests/artwork.test.mjs:250:5)
+      at async Test.run (node:internal/test_runner/test:1409:7)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: undefined,
+    operator: 'throws',
+    diff: 'simple'
+  }
+
+test at tests/artwork.test.mjs:250:13
+✖ at (0.0275ms)
+  AssertionError [ERR_ASSERTION]: Missing expected exception.
+      at placementRejects (file:///Volumes/eyedisk/develop/cinewright/tests/artwork.test.mjs:38:10)
+      at async Test.run (node:internal/test_runner/test:1409:7)
+      at async TestContext.<anonymous> (file:///Volumes/eyedisk/develop/cinewright/tests/artwork.test.mjs:250:5)
+      at async Test.run (node:internal/test_runner/test:1409:7)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: undefined,
+    operator: 'throws',
+    diff: 'simple'
+  }
+
+test at tests/artwork.test.mjs:250:13
+✖ scale (0.027125ms)
+  AssertionError [ERR_ASSERTION]: Missing expected exception.
+      at placementRejects (file:///Volumes/eyedisk/develop/cinewright/tests/artwork.test.mjs:38:10)
+      at async Test.run (node:internal/test_runner/test:1409:7)
+      at async TestContext.<anonymous> (file:///Volumes/eyedisk/develop/cinewright/tests/artwork.test.mjs:250:5)
+      at async Test.run (node:internal/test_runner/test:1409:7)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: undefined,
+    operator: 'throws',
+    diff: 'simple'
+  }
+
+test at tests/artwork.test.mjs:255:11
+✖ missing default canvas (0.035459ms)
+  AssertionError [ERR_ASSERTION]: Missing expected exception.
+      at placementRejects (file:///Volumes/eyedisk/develop/cinewright/tests/artwork.test.mjs:38:10)
+      at async Test.run (node:internal/test_runner/test:1409:7)
+      at async TestContext.<anonymous> (file:///Volumes/eyedisk/develop/cinewright/tests/artwork.test.mjs:255:3)
+      at async Test.run (node:internal/test_runner/test:1409:7)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: undefined,
+    operator: 'throws',
+    diff: 'simple'
+  }
+
+test at tests/artwork.test.mjs:259:13
+✖ anchored canvas 0 (0.035792ms)
+  AssertionError [ERR_ASSERTION]: Missing expected exception.
+      at placementRejects (file:///Volumes/eyedisk/develop/cinewright/tests/artwork.test.mjs:38:10)
+      at async Test.run (node:internal/test_runner/test:1409:7)
+      at async TestContext.<anonymous> (file:///Volumes/eyedisk/develop/cinewright/tests/artwork.test.mjs:259:5)
+      at async Test.run (node:internal/test_runner/test:1409:7)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: undefined,
+    operator: 'throws',
+    diff: 'simple'
+  }
+
+test at tests/artwork.test.mjs:259:13
+✖ anchored canvas 1 (0.027333ms)
+  AssertionError [ERR_ASSERTION]: Missing expected exception.
+      at placementRejects (file:///Volumes/eyedisk/develop/cinewright/tests/artwork.test.mjs:38:10)
+      at async Test.run (node:internal/test_runner/test:1409:7)
+      at async TestContext.<anonymous> (file:///Volumes/eyedisk/develop/cinewright/tests/artwork.test.mjs:259:5)
+      at async Test.run (node:internal/test_runner/test:1409:7)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: undefined,
+    operator: 'throws',
+    diff: 'simple'
+  }
+
+test at tests/artwork.test.mjs:259:13
+✖ anchored canvas 2 (0.026833ms)
+  AssertionError [ERR_ASSERTION]: Missing expected exception.
+      at placementRejects (file:///Volumes/eyedisk/develop/cinewright/tests/artwork.test.mjs:38:10)
+      at async Test.run (node:internal/test_runner/test:1409:7)
+      at async TestContext.<anonymous> (file:///Volumes/eyedisk/develop/cinewright/tests/artwork.test.mjs:259:5)
+      at async Test.run (node:internal/test_runner/test:1409:7)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: undefined,
+    operator: 'throws',
+    diff: 'simple'
+  }
+
+test at tests/artwork.test.mjs:259:13
+✖ anchored canvas 3 (0.02675ms)
+  AssertionError [ERR_ASSERTION]: Missing expected exception.
+      at placementRejects (file:///Volumes/eyedisk/develop/cinewright/tests/artwork.test.mjs:38:10)
+      at async Test.run (node:internal/test_runner/test:1409:7)
+      at async TestContext.<anonymous> (file:///Volumes/eyedisk/develop/cinewright/tests/artwork.test.mjs:259:5)
+      at async Test.run (node:internal/test_runner/test:1409:7)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: undefined,
+    operator: 'throws',
+    diff: 'simple'
+  }
+
+test at tests/artwork.test.mjs:259:13
+✖ anchored canvas 4 (0.026584ms)
+  AssertionError [ERR_ASSERTION]: Missing expected exception.
+      at placementRejects (file:///Volumes/eyedisk/develop/cinewright/tests/artwork.test.mjs:38:10)
+      at async Test.run (node:internal/test_runner/test:1409:7)
+      at async TestContext.<anonymous> (file:///Volumes/eyedisk/develop/cinewright/tests/artwork.test.mjs:259:5)
+      at async Test.run (node:internal/test_runner/test:1409:7)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: undefined,
+    operator: 'throws',
+    diff: 'simple'
+  }
+
+test at tests/artwork.test.mjs:259:13
+✖ anchored canvas 5 (0.027667ms)
+  AssertionError [ERR_ASSERTION]: Missing expected exception.
+      at placementRejects (file:///Volumes/eyedisk/develop/cinewright/tests/artwork.test.mjs:38:10)
+      at async Test.run (node:internal/test_runner/test:1409:7)
+      at async TestContext.<anonymous> (file:///Volumes/eyedisk/develop/cinewright/tests/artwork.test.mjs:259:5)
+      at async Test.run (node:internal/test_runner/test:1409:7)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: undefined,
+    operator: 'throws',
+    diff: 'simple'
+  }
+
+test at tests/artwork.test.mjs:259:13
+✖ anchored canvas 6 (0.026625ms)
+  AssertionError [ERR_ASSERTION]: Missing expected exception.
+      at placementRejects (file:///Volumes/eyedisk/develop/cinewright/tests/artwork.test.mjs:38:10)
+      at async Test.run (node:internal/test_runner/test:1409:7)
+      at async TestContext.<anonymous> (file:///Volumes/eyedisk/develop/cinewright/tests/artwork.test.mjs:259:5)
+      at async Test.run (node:internal/test_runner/test:1409:7)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: undefined,
+    operator: 'throws',
+    diff: 'simple'
+  }
+
+test at tests/artwork.test.mjs:259:13
+✖ anchored canvas 7 (0.026667ms)
+  AssertionError [ERR_ASSERTION]: Missing expected exception.
+      at placementRejects (file:///Volumes/eyedisk/develop/cinewright/tests/artwork.test.mjs:38:10)
+      at async Test.run (node:internal/test_runner/test:1409:7)
+      at async TestContext.<anonymous> (file:///Volumes/eyedisk/develop/cinewright/tests/artwork.test.mjs:259:5)
+      at async Test.run (node:internal/test_runner/test:1409:7)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: undefined,
+    operator: 'throws',
+    diff: 'simple'
+  }
+
+test at tests/artwork.test.mjs:259:13
+✖ anchored canvas 8 (0.030083ms)
+  AssertionError [ERR_ASSERTION]: Missing expected exception.
+      at placementRejects (file:///Volumes/eyedisk/develop/cinewright/tests/artwork.test.mjs:38:10)
+      at async Test.run (node:internal/test_runner/test:1409:7)
+      at async TestContext.<anonymous> (file:///Volumes/eyedisk/develop/cinewright/tests/artwork.test.mjs:259:5)
+      at async Test.run (node:internal/test_runner/test:1409:7)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: undefined,
+    operator: 'throws',
+    diff: 'simple'
+  }
+
+test at tests/artwork.test.mjs:261:11
+✖ unused explicit-box canvas (0.034459ms)
+  AssertionError [ERR_ASSERTION]: Missing expected exception.
+      at placementRejects (file:///Volumes/eyedisk/develop/cinewright/tests/artwork.test.mjs:38:10)
+      at async Test.run (node:internal/test_runner/test:1409:7)
+      at async TestContext.<anonymous> (file:///Volumes/eyedisk/develop/cinewright/tests/artwork.test.mjs:261:3)
+      at async Test.run (node:internal/test_runner/test:1409:7)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: undefined,
+    operator: 'throws',
+    diff: 'simple'
+  }
+
+test at tests/artwork.test.mjs:268:13
+✖ box 0 (0.035125ms)
+  AssertionError [ERR_ASSERTION]: Missing expected exception.
+      at placementRejects (file:///Volumes/eyedisk/develop/cinewright/tests/artwork.test.mjs:38:10)
+      at async Test.run (node:internal/test_runner/test:1409:7)
+      at async TestContext.<anonymous> (file:///Volumes/eyedisk/develop/cinewright/tests/artwork.test.mjs:268:5)
+      at async Test.run (node:internal/test_runner/test:1409:7)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: undefined,
+    operator: 'throws',
+    diff: 'simple'
+  }
+
+test at tests/artwork.test.mjs:268:13
+✖ box 1 (0.027666ms)
+  AssertionError [ERR_ASSERTION]: Missing expected exception.
+      at placementRejects (file:///Volumes/eyedisk/develop/cinewright/tests/artwork.test.mjs:38:10)
+      at async Test.run (node:internal/test_runner/test:1409:7)
+      at async TestContext.<anonymous> (file:///Volumes/eyedisk/develop/cinewright/tests/artwork.test.mjs:268:5)
+      at async Test.run (node:internal/test_runner/test:1409:7)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: undefined,
+    operator: 'throws',
+    diff: 'simple'
+  }
+
+test at tests/artwork.test.mjs:268:13
+✖ box 2 (0.027083ms)
+  AssertionError [ERR_ASSERTION]: Missing expected exception.
+      at placementRejects (file:///Volumes/eyedisk/develop/cinewright/tests/artwork.test.mjs:38:10)
+      at async Test.run (node:internal/test_runner/test:1409:7)
+      at async TestContext.<anonymous> (file:///Volumes/eyedisk/develop/cinewright/tests/artwork.test.mjs:268:5)
+      at async Test.run (node:internal/test_runner/test:1409:7)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: undefined,
+    operator: 'throws',
+    diff: 'simple'
+  }
+
+test at tests/artwork.test.mjs:268:13
+✖ box 3 (0.026834ms)
+  AssertionError [ERR_ASSERTION]: Missing expected exception.
+      at placementRejects (file:///Volumes/eyedisk/develop/cinewright/tests/artwork.test.mjs:38:10)
+      at async Test.run (node:internal/test_runner/test:1409:7)
+      at async TestContext.<anonymous> (file:///Volumes/eyedisk/develop/cinewright/tests/artwork.test.mjs:268:5)
+      at async Test.run (node:internal/test_runner/test:1409:7)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: undefined,
+    operator: 'throws',
+    diff: 'simple'
+  }
+
+test at tests/artwork.test.mjs:268:13
+✖ box 4 (0.028459ms)
+  AssertionError [ERR_ASSERTION]: Missing expected exception.
+      at placementRejects (file:///Volumes/eyedisk/develop/cinewright/tests/artwork.test.mjs:38:10)
+      at async Test.run (node:internal/test_runner/test:1409:7)
+      at async TestContext.<anonymous> (file:///Volumes/eyedisk/develop/cinewright/tests/artwork.test.mjs:268:5)
+      at async Test.run (node:internal/test_runner/test:1409:7)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: undefined,
+    operator: 'throws',
+    diff: 'simple'
+  }
+
+test at tests/artwork.test.mjs:268:13
+✖ box 5 (0.027209ms)
+  AssertionError [ERR_ASSERTION]: Missing expected exception.
+      at placementRejects (file:///Volumes/eyedisk/develop/cinewright/tests/artwork.test.mjs:38:10)
+      at async Test.run (node:internal/test_runner/test:1409:7)
+      at async TestContext.<anonymous> (file:///Volumes/eyedisk/develop/cinewright/tests/artwork.test.mjs:268:5)
+      at async Test.run (node:internal/test_runner/test:1409:7)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: undefined,
+    operator: 'throws',
+    diff: 'simple'
+  }
+
+test at tests/artwork.test.mjs:268:13
+✖ box 6 (0.026875ms)
+  AssertionError [ERR_ASSERTION]: Missing expected exception.
+      at placementRejects (file:///Volumes/eyedisk/develop/cinewright/tests/artwork.test.mjs:38:10)
+      at async Test.run (node:internal/test_runner/test:1409:7)
+      at async TestContext.<anonymous> (file:///Volumes/eyedisk/develop/cinewright/tests/artwork.test.mjs:268:5)
+      at async Test.run (node:internal/test_runner/test:1409:7)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: undefined,
+    operator: 'throws',
+    diff: 'simple'
+  }
+
+test at tests/artwork.test.mjs:268:13
+✖ box 7 (0.030125ms)
+  AssertionError [ERR_ASSERTION]: Missing expected exception.
+      at placementRejects (file:///Volumes/eyedisk/develop/cinewright/tests/artwork.test.mjs:38:10)
+      at async Test.run (node:internal/test_runner/test:1409:7)
+      at async TestContext.<anonymous> (file:///Volumes/eyedisk/develop/cinewright/tests/artwork.test.mjs:268:5)
+      at async Test.run (node:internal/test_runner/test:1409:7)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: undefined,
+    operator: 'throws',
+    diff: 'simple'
+  }
+
+test at tests/artwork.test.mjs:268:13
+✖ box 8 (0.027042ms)
+  AssertionError [ERR_ASSERTION]: Missing expected exception.
+      at placementRejects (file:///Volumes/eyedisk/develop/cinewright/tests/artwork.test.mjs:38:10)
+      at async Test.run (node:internal/test_runner/test:1409:7)
+      at async TestContext.<anonymous> (file:///Volumes/eyedisk/develop/cinewright/tests/artwork.test.mjs:268:5)
+      at async Test.run (node:internal/test_runner/test:1409:7)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: undefined,
+    operator: 'throws',
+    diff: 'simple'
+  }
+
+test at tests/artwork.test.mjs:274:1
+✖ rejects finite inputs whose derived scale or destination is not drawable (0.070375ms)
+  TypeError [Error]: Cannot read properties of undefined (reading 'scale')
+      at TestContext.<anonymous> (file:///Volumes/eyedisk/develop/cinewright/tests/artwork.test.mjs:284:47)
+      at async Test.run (node:internal/test_runner/test:1409:7)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7)

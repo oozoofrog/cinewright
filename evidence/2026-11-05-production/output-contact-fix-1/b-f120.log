@@ -1,0 +1,35 @@
+COMMAND ["/opt/homebrew/Cellar/node/26.12.1_1/bin/node","scripts/direction.mjs","frame","4355e5ec4829e994785e96c7788387d0a61f44dd43d2aa566cb3124cdd86fac0","120","--scale","1","--store","/Volumes/eyedisk/develop/cinewright/evidence/2026-11-05-production/output-contact-fix-1/store"]
+TMPDIR /Volumes/eyedisk/develop/cinewright/evidence/2026-11-05-production/output-contact-fix-1/tmp
+EXIT 0
+STDOUT
+{
+  "id": "92efe51a-74e4-4e59-af82-acbeaf6eccae",
+  "revision": "4355e5ec4829e994785e96c7788387d0a61f44dd43d2aa566cb3124cdd86fac0",
+  "settings": {
+    "mode": "frame",
+    "from": 120,
+    "to": 121,
+    "scale": 1
+  },
+  "status": "completed",
+  "phase": "published",
+  "frames": 1,
+  "totalFrames": 1,
+  "pid": 16953,
+  "started": "2026-11-04T21:16:40.701Z",
+  "log": "/Volumes/eyedisk/develop/cinewright/evidence/2026-11-05-production/output-contact-fix-1/store/jobs/92efe51a-74e4-4e59-af82-acbeaf6eccae/execution.log",
+  "ffmpeg": "ffmpeg version 9.0.2 Copyright (c) 2000-2026 the FFmpeg developers",
+  "audio": {
+    "file": "/Volumes/eyedisk/develop/cinewright/evidence/2026-11-05-production/output-contact-fix-1/store/jobs/92efe51a-74e4-4e59-af82-acbeaf6eccae/mix.wav",
+    "rate": 48000,
+    "duration": 336000,
+    "sources": []
+  },
+  "browser": "156.0.8078.80",
+  "outputSha256": "d49904dc11e4300414b7280a93855041fb44e47202df9d12ec0a8539e85d2f0c",
+  "output": "/Volumes/eyedisk/develop/cinewright/evidence/2026-11-05-production/output-contact-fix-1/store/jobs/92efe51a-74e4-4e59-af82-acbeaf6eccae/frame.png",
+  "finished": "2026-11-04T21:16:43.730Z"
+}
+
+STDERR
+Job 92efe51a-74e4-4e59-af82-acbeaf6eccae · /Volumes/eyedisk/develop/cinewright/evidence/2026-11-05-production/output-contact-fix-1/store/jobs/92efe51a-74e4-4e59-af82-acbeaf6eccae

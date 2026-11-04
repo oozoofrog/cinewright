@@ -1,0 +1,3 @@
+{"example":"a","project":"/Volumes/eyedisk/develop/cinewright/examples/stillcuts/a","frames":192,"seconds":8}
+{"example":"b","project":"/Volumes/eyedisk/develop/cinewright/examples/stillcuts/b","frames":168,"seconds":7}
+{"boundaryFixture":"touch: 60 -> 66","changedSourceFields":1,"changes":[{"field":"cutSpec.boundaries[3].frame","from":60,"to":66}]}

@@ -1,0 +1,10 @@
+Compared 30 non-document input/generated files to root pre-fix snapshot.
+Only changed files: [ 'a/assets/keys.svg', 'assets/keys.svg', 'b/assets/keys.svg' ]
+All timing/source/manifests/cuts/scene/hand/room/copied helpers/fixed timing fixture files are byte-identical.
+b timeline f48: PNG 640x360, published hash matches, job 23a7fcc7-51e7-4053-8256-280a79aa1089
+a timeline f60: PNG 640x360, published hash matches, job 6d14074c-52e8-4604-b84b-f6276de11626
+b timeline f60: PNG 640x360, published hash matches, job 3e78fcf2-44f1-48d2-889e-a17a016d587f
+b timeline f76: PNG 640x360, published hash matches, job fb95c0d4-f0d1-46f9-8983-c168525fcbcc
+b timeline f119: PNG 640x360, published hash matches, job b12f1b4c-44c1-4a93-80d9-b1d0b4248239
+b timeline f120: PNG 640x360, published hash matches, job 92efe51a-74e4-4e59-af82-acbeaf6eccae
+Image size/hash and file preservation support the observation; they do not certify contact readability or full motion.

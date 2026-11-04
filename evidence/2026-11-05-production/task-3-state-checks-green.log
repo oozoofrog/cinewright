@@ -1,0 +1,3 @@
+Systematic debugging: negative lowerOffset multiplied by zero yields -0; numeric coordinate equality is the intended assertion. No source change.
+PASS: actual scene evaluate uses exposed for held positions and frame for light; shifted boundary changes lowering; final keys stay; reverse order agrees.
+Scope: actual scene state evaluation with supplied image dimensions. No Canvas or movie-playback claim.

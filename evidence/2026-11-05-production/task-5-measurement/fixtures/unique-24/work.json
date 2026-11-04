@@ -1,0 +1,436 @@
+{
+  "version": 1,
+  "title": "성능 측정 unique-24",
+  "size": [
+    320,
+    180
+  ],
+  "fps": 24,
+  "frames": 576,
+  "background": "#101016",
+  "points": {
+    "edge-0": 0,
+    "edge-1": 24,
+    "edge-2": 48,
+    "edge-3": 72,
+    "edge-4": 96,
+    "edge-5": 120,
+    "edge-6": 144,
+    "edge-7": 168,
+    "edge-8": 192,
+    "edge-9": 216,
+    "edge-10": 240,
+    "edge-11": 264,
+    "edge-12": 288,
+    "edge-13": 312,
+    "edge-14": 336,
+    "edge-15": 360,
+    "edge-16": 384,
+    "edge-17": 408,
+    "edge-18": 432,
+    "edge-19": 456,
+    "edge-20": 480,
+    "edge-21": 504,
+    "edge-22": 528,
+    "edge-23": 552
+  },
+  "spans": {
+    "cut-0": [
+      0,
+      24
+    ],
+    "cut-1": [
+      24,
+      48
+    ],
+    "cut-2": [
+      48,
+      72
+    ],
+    "cut-3": [
+      72,
+      96
+    ],
+    "cut-4": [
+      96,
+      120
+    ],
+    "cut-5": [
+      120,
+      144
+    ],
+    "cut-6": [
+      144,
+      168
+    ],
+    "cut-7": [
+      168,
+      192
+    ],
+    "cut-8": [
+      192,
+      216
+    ],
+    "cut-9": [
+      216,
+      240
+    ],
+    "cut-10": [
+      240,
+      264
+    ],
+    "cut-11": [
+      264,
+      288
+    ],
+    "cut-12": [
+      288,
+      312
+    ],
+    "cut-13": [
+      312,
+      336
+    ],
+    "cut-14": [
+      336,
+      360
+    ],
+    "cut-15": [
+      360,
+      384
+    ],
+    "cut-16": [
+      384,
+      408
+    ],
+    "cut-17": [
+      408,
+      432
+    ],
+    "cut-18": [
+      432,
+      456
+    ],
+    "cut-19": [
+      456,
+      480
+    ],
+    "cut-20": [
+      480,
+      504
+    ],
+    "cut-21": [
+      504,
+      528
+    ],
+    "cut-22": [
+      528,
+      552
+    ],
+    "cut-23": [
+      552,
+      576
+    ]
+  },
+  "audio": [],
+  "layers": [
+    {
+      "id": "artwork",
+      "module": "modules/artwork.mjs",
+      "exposure": [
+        {
+          "from": 0,
+          "to": 24,
+          "every": 1,
+          "value": "art-00"
+        },
+        {
+          "from": 24,
+          "to": 48,
+          "every": 1,
+          "value": "art-01"
+        },
+        {
+          "from": 48,
+          "to": 72,
+          "every": 1,
+          "value": "art-02"
+        },
+        {
+          "from": 72,
+          "to": 96,
+          "every": 1,
+          "value": "art-03"
+        },
+        {
+          "from": 96,
+          "to": 120,
+          "every": 1,
+          "value": "art-04"
+        },
+        {
+          "from": 120,
+          "to": 144,
+          "every": 1,
+          "value": "art-05"
+        },
+        {
+          "from": 144,
+          "to": 168,
+          "every": 1,
+          "value": "art-06"
+        },
+        {
+          "from": 168,
+          "to": 192,
+          "every": 1,
+          "value": "art-07"
+        },
+        {
+          "from": 192,
+          "to": 216,
+          "every": 1,
+          "value": "art-08"
+        },
+        {
+          "from": 216,
+          "to": 240,
+          "every": 1,
+          "value": "art-09"
+        },
+        {
+          "from": 240,
+          "to": 264,
+          "every": 1,
+          "value": "art-10"
+        },
+        {
+          "from": 264,
+          "to": 288,
+          "every": 1,
+          "value": "art-11"
+        },
+        {
+          "from": 288,
+          "to": 312,
+          "every": 1,
+          "value": "art-12"
+        },
+        {
+          "from": 312,
+          "to": 336,
+          "every": 1,
+          "value": "art-13"
+        },
+        {
+          "from": 336,
+          "to": 360,
+          "every": 1,
+          "value": "art-14"
+        },
+        {
+          "from": 360,
+          "to": 384,
+          "every": 1,
+          "value": "art-15"
+        },
+        {
+          "from": 384,
+          "to": 408,
+          "every": 1,
+          "value": "art-16"
+        },
+        {
+          "from": 408,
+          "to": 432,
+          "every": 1,
+          "value": "art-17"
+        },
+        {
+          "from": 432,
+          "to": 456,
+          "every": 1,
+          "value": "art-18"
+        },
+        {
+          "from": 456,
+          "to": 480,
+          "every": 1,
+          "value": "art-19"
+        },
+        {
+          "from": 480,
+          "to": 504,
+          "every": 1,
+          "value": "art-20"
+        },
+        {
+          "from": 504,
+          "to": 528,
+          "every": 1,
+          "value": "art-21"
+        },
+        {
+          "from": 528,
+          "to": 552,
+          "every": 1,
+          "value": "art-22"
+        },
+        {
+          "from": 552,
+          "to": 576,
+          "every": 1,
+          "value": "art-23"
+        }
+      ],
+      "config": {
+        "artworks": {
+          "art-00": {
+            "asset": "assets/art-00.svg",
+            "placement": {
+              "fit": "contain"
+            }
+          },
+          "art-01": {
+            "asset": "assets/art-01.svg",
+            "placement": {
+              "fit": "contain"
+            }
+          },
+          "art-02": {
+            "asset": "assets/art-02.svg",
+            "placement": {
+              "fit": "contain"
+            }
+          },
+          "art-03": {
+            "asset": "assets/art-03.svg",
+            "placement": {
+              "fit": "contain"
+            }
+          },
+          "art-04": {
+            "asset": "assets/art-04.svg",
+            "placement": {
+              "fit": "contain"
+            }
+          },
+          "art-05": {
+            "asset": "assets/art-05.svg",
+            "placement": {
+              "fit": "contain"
+            }
+          },
+          "art-06": {
+            "asset": "assets/art-06.svg",
+            "placement": {
+              "fit": "contain"
+            }
+          },
+          "art-07": {
+            "asset": "assets/art-07.svg",
+            "placement": {
+              "fit": "contain"
+            }
+          },
+          "art-08": {
+            "asset": "assets/art-08.svg",
+            "placement": {
+              "fit": "contain"
+            }
+          },
+          "art-09": {
+            "asset": "assets/art-09.svg",
+            "placement": {
+              "fit": "contain"
+            }
+          },
+          "art-10": {
+            "asset": "assets/art-10.svg",
+            "placement": {
+              "fit": "contain"
+            }
+          },
+          "art-11": {
+            "asset": "assets/art-11.svg",
+            "placement": {
+              "fit": "contain"
+            }
+          },
+          "art-12": {
+            "asset": "assets/art-12.svg",
+            "placement": {
+              "fit": "contain"
+            }
+          },
+          "art-13": {
+            "asset": "assets/art-13.svg",
+            "placement": {
+              "fit": "contain"
+            }
+          },
+          "art-14": {
+            "asset": "assets/art-14.svg",
+            "placement": {
+              "fit": "contain"
+            }
+          },
+          "art-15": {
+            "asset": "assets/art-15.svg",
+            "placement": {
+              "fit": "contain"
+            }
+          },
+          "art-16": {
+            "asset": "assets/art-16.svg",
+            "placement": {
+              "fit": "contain"
+            }
+          },
+          "art-17": {
+            "asset": "assets/art-17.svg",
+            "placement": {
+              "fit": "contain"
+            }
+          },
+          "art-18": {
+            "asset": "assets/art-18.svg",
+            "placement": {
+              "fit": "contain"
+            }
+          },
+          "art-19": {
+            "asset": "assets/art-19.svg",
+            "placement": {
+              "fit": "contain"
+            }
+          },
+          "art-20": {
+            "asset": "assets/art-20.svg",
+            "placement": {
+              "fit": "contain"
+            }
+          },
+          "art-21": {
+            "asset": "assets/art-21.svg",
+            "placement": {
+              "fit": "contain"
+            }
+          },
+          "art-22": {
+            "asset": "assets/art-22.svg",
+            "placement": {
+              "fit": "contain"
+            }
+          },
+          "art-23": {
+            "asset": "assets/art-23.svg",
+            "placement": {
+              "fit": "contain"
+            }
+          }
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "command": [
+    "/opt/homebrew/Cellar/node/26.12.1_1/bin/node",
+    "/Volumes/eyedisk/develop/cinewright/scripts/direction.mjs",
+    "freeze",
+    "/Volumes/eyedisk/develop/cinewright/examples/stillcuts/a",
+    "--store",
+    "/Volumes/eyedisk/develop/cinewright/.direction/production"
+  ],
+  "tmpdir": "/Volumes/eyedisk/develop/cinewright/.direction/production/task-4-runs/contact-fix-1/tmp",
+  "started": "2026-11-04T21:28:08.905Z",
+  "exitCode": 0,
+  "signal": null,
+  "finished": "2026-11-04T21:28:09.028Z"
+}

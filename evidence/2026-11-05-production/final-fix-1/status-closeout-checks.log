@@ -1,0 +1,8 @@
+Scope: the three owned status documents and appended handoff note only.
+Checks: local Markdown link target existence, final newline, and trailing whitespace.
+Not checked: remote URLs, heading fragments, source, tests, media, benchmark, or protected paths.
+evidence/2026-11-05-production/RESULT.md: checked 70 local link targets; final newline and trailing whitespace checked.
+evidence/2026-11-05-production/REVIEW.md: checked 20 local link targets; final newline and trailing whitespace checked.
+examples/stillcuts/README.md: checked 27 local link targets; final newline and trailing whitespace checked.
+.superpowers/sdd/2026-11-05-cinewright-production/final-fix-1-report.md: checked 14 local link targets; final newline and trailing whitespace checked.
+RESULT: PASS; 4 documents; 131 local link targets; 0 failures.

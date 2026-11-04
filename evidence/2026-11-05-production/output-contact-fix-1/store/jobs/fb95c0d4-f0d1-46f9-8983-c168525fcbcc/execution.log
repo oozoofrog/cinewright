@@ -1,0 +1,4 @@
+
+["ffmpeg","-version"]
+
+["ffmpeg","-hide_banner","-loglevel","warning","-y","-f","lavfi","-i","anullsrc=r=48000:cl=stereo","-filter_complex","[0:a]atrim=end_sample=336000[base];[base]amix=inputs=1:duration=first:normalize=0[out]","-map","[out]","-c:a","pcm_s16le","/Volumes/eyedisk/develop/cinewright/evidence/2026-11-05-production/output-contact-fix-1/store/jobs/fb95c0d4-f0d1-46f9-8983-c168525fcbcc/mix.wav"]

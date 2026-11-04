@@ -1,0 +1,27 @@
+Task 3 bounded input checks; Node v26.12.1
+a valid manifest; 3 assets and 2 helpers byte-equal; no symlinks; local rebuild is byte-stable
+b valid manifest; 3 assets and 2 helpers byte-equal; no symlinks; local rebuild is byte-stable
+One source field touch 60 -> 66 changes adjacent exposures, point and both generated cut spans
+node:internal/modules/run_main:111
+    triggerUncaughtException(
+    ^
+
+AssertionError [ERR_ASSERTION]: Expected values to be strictly deep-equal:
++ actual - expected
+
+  [
+    0,
++   -0
+-   0
+  ]
+
+    at file:///Volumes/eyedisk/develop/cinewright/[eval1]:75:8 {
+  generatedMessage: true,
+  code: 'ERR_ASSERTION',
+  actual: [ 0, -0 ],
+  expected: [ 0, 0 ],
+  operator: 'deepStrictEqual',
+  diff: 'simple'
+}
+
+Node.js v26.12.1

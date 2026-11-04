@@ -1,0 +1,4 @@
+First documentation apply_patch attempt failed before application:
+apply_patch verification failed: invalid patch: multiple operations target /Volumes/eyedisk/develop/cinewright/references/direction.md
+Cause: one patch combined Delete File and Add File for the same existing file.
+Retry: update SKILL.md separately and replace the owned direction document in a subsequent write.

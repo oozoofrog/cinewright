@@ -1,0 +1,101 @@
+{
+  "scope": "The three drawImage asset selections and source/destination rectangles at the first ordinary-contact exposure of each copied A/B scene, before/after the dictionary fix. Node image/Canvas stand-ins. Excludes transforms and other Canvas commands, native pixels, all-frame parity, playback and artistic evidence.",
+  "controls": [
+    {
+      "example": "a",
+      "before": ".direction/test-runs/stillcuts-build-veGhHc/own-artwork-a-ordinary-contact/draws.json",
+      "after": ".direction/test-runs/stillcuts-build-I2WGPh/own-artwork-a-ordinary-contact/draws.json",
+      "sha256": "718758b72f9f9d4c67456210de51ea6768e436edf1615d3d833bbcb101557e27",
+      "equal": true,
+      "draws": [
+        {
+          "asset": "assets/room.svg",
+          "rectangles": [
+            0,
+            0,
+            640,
+            360,
+            0,
+            0,
+            640,
+            360
+          ]
+        },
+        {
+          "asset": "assets/keys.svg",
+          "rectangles": [
+            0,
+            0,
+            120,
+            40,
+            308,
+            227,
+            120,
+            40
+          ]
+        },
+        {
+          "asset": "assets/hand-atlas.svg",
+          "rectangles": [
+            0,
+            0,
+            200,
+            300,
+            228,
+            -25,
+            200,
+            300
+          ]
+        }
+      ]
+    },
+    {
+      "example": "b",
+      "before": ".direction/test-runs/stillcuts-build-veGhHc/own-artwork-b-ordinary-contact/draws.json",
+      "after": ".direction/test-runs/stillcuts-build-I2WGPh/own-artwork-b-ordinary-contact/draws.json",
+      "sha256": "718758b72f9f9d4c67456210de51ea6768e436edf1615d3d833bbcb101557e27",
+      "equal": true,
+      "draws": [
+        {
+          "asset": "assets/room.svg",
+          "rectangles": [
+            0,
+            0,
+            640,
+            360,
+            0,
+            0,
+            640,
+            360
+          ]
+        },
+        {
+          "asset": "assets/keys.svg",
+          "rectangles": [
+            0,
+            0,
+            120,
+            40,
+            308,
+            227,
+            120,
+            40
+          ]
+        },
+        {
+          "asset": "assets/hand-atlas.svg",
+          "rectangles": [
+            0,
+            0,
+            200,
+            300,
+            228,
+            -25,
+            200,
+            300
+          ]
+        }
+      ]
+    }
+  ]
+}

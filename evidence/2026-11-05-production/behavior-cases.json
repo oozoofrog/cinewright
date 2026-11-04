@@ -1,0 +1,30 @@
+{
+  "scope": "Fictional skill behavior probes. Only unselected has a pre-change baseline. These are qualitative samples, not measured general improvement or user agreement.",
+  "cases": [
+    {
+      "id": "unselected",
+      "prompt": "비 오는 날 버스에서 내렸을 때 느꼈던 안도감을 짧은 애니메이션으로 만들고 싶어요. 엄마가 우산을 내 쪽으로 기울여 자기 어깨는 젖는 순간이 꼭 보여야 해요. 귀여운 가족 광고처럼은 안 보였으면 합니다. 작법은 모르지만 오래 영화는 봤어요. 구도나 표현 방식은 제안을 보고 맡기고 싶습니다. 제 사진은 없고 가상의 두 사람이어도 좋아요.",
+      "observe": "Preserves the visible umbrella/shoulder facts and mature taste; provides substantively different visible/audible alternatives and recommendation; recognizes direction has not yet been selected/delegated."
+    },
+    {
+      "id": "delegated",
+      "prompt": "앞에서 1안으로 하기로 했고, 8초·가로 화면·거친 연필선은 확정했습니다. 손이 실제로 올라갔다가 멈추는 과정은 꼭 보여주세요. 이 조건 안에서 구도, 크롭, 컷 길이, 매체 조합은 맡겼습니다. 이제 대표 화면과 짧은 동작 시험을 진행해주세요.",
+      "observe": "Treats existing same-scope delegation as valid and advances without repeated direction approval; preserves visible hand movement and fixed style/duration; does not treat requested trial as final acceptance."
+    },
+    {
+      "id": "explicit_action",
+      "prompt": "상대를 부르려던 손이 올라가는 과정과 중간에서 멈추는 순간을 둘 다 직접 보고 싶어요. 망설임만 전달된다면 되는 것이 아니라 이 동작 자체가 중요해요. 장면은 정지된 원화 위주여도 좋지만 손동작을 그림자나 상대의 반응만으로 바꾸지는 말아주세요. 두 가지 표현을 먼저 보고 고르겠습니다.",
+      "observe": "Does not replace an explicit visible action with inferred offscreen action; alternatives vary framing/timing without dropping action; asks or leaves a genuine selection before production."
+    },
+    {
+      "id": "ambiguous_means",
+      "prompt": "좁은 방에서 생각이 꼬이다가 창문 밖을 보고 조금 편해지는 짧은 장면을 만들고 싶어요. 카메라가 한 바퀴 돌면 그런 느낌이 나지 않을까 싶지만 잘 모르겠어요. 정신없거나 현기증 나는 느낌은 싫어요.",
+      "observe": "Treats camera orbit as an explicitly uncertain means, states a hypothesis, asks only meaning-relevant clarification if needed; suggests executable alternatives preserving the stated emotional contrast, without a professional terminology survey."
+    },
+    {
+      "id": "experienced_feedback",
+      "prompt": "초안에서 사람이 마지막까지 작고 어둡게 보이는 게 마음에 걸려요. 저는 외로워서 불쌍한 사람이 아니라 혼자 있어도 괜찮아진 사람을 원했어요. 이야기나 작법을 설명할 말은 모르지만, 오래 기다리다 끝내 포기했던 제 경험과는 지금 화면이 다릅니다. 음악을 더 밝게 만들기보다는 그 차이를 화면에서 바꿔주세요.",
+      "observe": "Uses concrete experience and observed small/dark figure as evidence; distinguishes original purpose from its own prior interpretation; proposes composition/action/time revision rather than treating nontechnical feedback as unsophisticated or merely increasing brightness/music. Do not claim to have inspected an unavailable draft."
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "id": "b030aad5-33a8-4a71-9977-994c046e3b50",
+  "revision": "f1d51eaa10567cba25eb1787fa5e65d8776f4da185c1c2bd4e290a0a658abc04",
+  "settings": {
+    "mode": "video",
+    "from": 0,
+    "to": 192,
+    "scale": 1
+  },
+  "status": "completed",
+  "phase": "published",
+  "frames": 192,
+  "totalFrames": 192,
+  "pid": 21456,
+  "started": "2026-11-04T21:28:28.215Z",
+  "log": "/Volumes/eyedisk/develop/cinewright/.direction/production/jobs/b030aad5-33a8-4a71-9977-994c046e3b50/execution.log",
+  "ffmpeg": "ffmpeg version 9.0.2 Copyright (c) 2000-2026 the FFmpeg developers",
+  "audio": {
+    "file": "/Volumes/eyedisk/develop/cinewright/.direction/production/jobs/b030aad5-33a8-4a71-9977-994c046e3b50/mix.wav",
+    "rate": 48000,
+    "duration": 384000,
+    "sources": []
+  },
+  "browser": "156.0.8078.80",
+  "outputSha256": "c3311210b71d139ea4d6bde647314878163d0843b3fecc2f40b014604bd32b72",
+  "output": "/Volumes/eyedisk/develop/cinewright/.direction/production/jobs/b030aad5-33a8-4a71-9977-994c046e3b50/work.mp4",
+  "finished": "2026-11-04T21:28:33.301Z"
+}

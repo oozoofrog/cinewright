@@ -1,0 +1,12 @@
+{
+  "command": [
+    "git",
+    "rev-parse",
+    "HEAD"
+  ],
+  "pid": 25698,
+  "code": 0,
+  "signal": null,
+  "stdout": "5bd6d89763dd500d0fd85903bf8c288775e4ac0e\n",
+  "stderr": ""
+}

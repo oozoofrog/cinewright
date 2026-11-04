@@ -1,0 +1,12 @@
+Stillcuts build records: /Volumes/eyedisk/develop/cinewright/.direction/test-runs/stillcuts-build-5WklWT
+✔ real stillcuts build preserves valid unchanged input and reports a distinct boundary fixture (98.562125ms)
+✔ real stillcuts build preserves valid touch-equals-fixture-target input and reports a distinct boundary fixture (97.63025ms)
+✔ real stillcuts build preserves valid release-before-fixture-target input and reports a distinct boundary fixture (94.281583ms)
+ℹ tests 3
+ℹ suites 0
+ℹ pass 3
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 385.705625

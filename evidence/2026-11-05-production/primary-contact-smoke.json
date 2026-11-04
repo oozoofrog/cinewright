@@ -1,0 +1,35 @@
+{
+  "status": "CORRECTED_NATIVE_CONTACT_READABLE_FOR_OUTPUT_REVALIDATION",
+  "observed": [
+    {
+      "example": "b",
+      "frame": 48,
+      "revision": "4355e5ec4829e994785e96c7788387d0a61f44dd43d2aa566cb3124cdd86fac0",
+      "path": "/Volumes/eyedisk/develop/cinewright/evidence/2026-11-05-production/output-contact-fix-1/store/jobs/23a7fcc7-51e7-4053-8256-280a79aa1089/frame.png",
+      "sha256": "b72ed75bbd981db9e4c5fbb7aefe15c5ee2b85c4252822c9f99e6ad270774efd"
+    },
+    {
+      "example": "a",
+      "frame": 60,
+      "revision": "f1d51eaa10567cba25eb1787fa5e65d8776f4da185c1c2bd4e290a0a658abc04",
+      "path": "/Volumes/eyedisk/develop/cinewright/evidence/2026-11-05-production/output-contact-fix-1/store/jobs/6d14074c-52e8-4604-b84b-f6276de11626/frame.png",
+      "sha256": "08defbd229b05c2ced088721008848a78f3d3e2a9c605f1e307035540c667a03"
+    },
+    {
+      "example": "b",
+      "frame": 60,
+      "revision": "4355e5ec4829e994785e96c7788387d0a61f44dd43d2aa566cb3124cdd86fac0",
+      "path": "/Volumes/eyedisk/develop/cinewright/evidence/2026-11-05-production/output-contact-fix-1/store/jobs/3e78fcf2-44f1-48d2-889e-a17a016d587f/frame.png",
+      "sha256": "682b1428a13b58ebbb5db2957e49a3a6ddec8419bcdfcf971b715e7d4bf58654"
+    },
+    {
+      "example": "b",
+      "frame": 76,
+      "revision": "4355e5ec4829e994785e96c7788387d0a61f44dd43d2aa566cb3124cdd86fac0",
+      "path": "/Volumes/eyedisk/develop/cinewright/evidence/2026-11-05-production/output-contact-fix-1/store/jobs/fb95c0d4-f0d1-46f9-8983-c168525fcbcc/frame.png",
+      "sha256": "e31aaca587ddcec4d68ecbddbd8acb2b8b0df8bb3e2d8a98aa35982a0816bae9"
+    }
+  ],
+  "observation": "고리와 주 열쇠 이빨의 하단이 탁자 경계와 그림자에 연결된다. B48에서 닿은 상태가 B60 손가락 교체보다 먼저 보이며 B76 손 퇴장 뒤에도 접점이 유지된다. A60에서도 접점이 보인다.",
+  "scope": "Root 직접 정지 PNG 관찰. 전체 수정 영상의 재렌더·디코드·자동 재생·독립 재검토는 아직 필요하다. 직접 연속 시청/청취, 관객 반응, 사용자 수락을 주장하지 않는다."
+}

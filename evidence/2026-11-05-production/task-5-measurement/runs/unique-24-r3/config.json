@@ -1,0 +1,46 @@
+{
+  "id": "unique-24",
+  "repetition": 3,
+  "store": "/Volumes/eyedisk/develop/cinewright/evidence/2026-11-05-production/task-5-measurement/stores/unique-24",
+  "revision": "ec93f1a4f306737b88eca519996a7fc6c1c7c25db8d9b0e4d33689c98973885c",
+  "audioFile": "/Volumes/eyedisk/develop/cinewright/evidence/2026-11-05-production/task-5-measurement/audio/unique-24/mix.wav",
+  "fixture": "/Volumes/eyedisk/develop/cinewright/evidence/2026-11-05-production/task-5-measurement/fixtures/unique-24",
+  "tmpdir": "/Volumes/eyedisk/develop/cinewright/evidence/2026-11-05-production/task-5-measurement/tmp/unique-24-r3",
+  "runDirectory": "/Volumes/eyedisk/develop/cinewright/evidence/2026-11-05-production/task-5-measurement/runs/unique-24-r3",
+  "casePlan": {
+    "id": "unique-24",
+    "cuts": 24,
+    "uniqueAssets": 24,
+    "frames": 576,
+    "forward": [
+      0,
+      23,
+      24,
+      143,
+      144,
+      287,
+      288,
+      575
+    ],
+    "reverse": [
+      575,
+      288,
+      287,
+      144,
+      143,
+      24,
+      23,
+      0
+    ],
+    "random": [
+      383,
+      26,
+      531,
+      127,
+      302,
+      59,
+      447,
+      211
+    ]
+  }
+}

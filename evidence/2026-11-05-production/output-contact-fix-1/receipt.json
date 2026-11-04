@@ -1,0 +1,298 @@
+{
+  "scope": "Six native 640x360 PNGs only; no video, playback, direct listening or independent acceptance claim",
+  "store": "/Volumes/eyedisk/develop/cinewright/evidence/2026-11-05-production/output-contact-fix-1/store",
+  "tmpdir": "/Volumes/eyedisk/develop/cinewright/evidence/2026-11-05-production/output-contact-fix-1/tmp",
+  "records": [
+    {
+      "example": "b",
+      "frame": 48,
+      "job": {
+        "id": "23a7fcc7-51e7-4053-8256-280a79aa1089",
+        "revision": "4355e5ec4829e994785e96c7788387d0a61f44dd43d2aa566cb3124cdd86fac0",
+        "settings": {
+          "mode": "frame",
+          "from": 48,
+          "to": 49,
+          "scale": 1
+        },
+        "status": "completed",
+        "phase": "published",
+        "frames": 1,
+        "totalFrames": 1,
+        "pid": 16406,
+        "started": "2026-11-04T21:15:36.821Z",
+        "log": "/Volumes/eyedisk/develop/cinewright/evidence/2026-11-05-production/output-contact-fix-1/store/jobs/23a7fcc7-51e7-4053-8256-280a79aa1089/execution.log",
+        "ffmpeg": "ffmpeg version 9.0.2 Copyright (c) 2000-2026 the FFmpeg developers",
+        "audio": {
+          "file": "/Volumes/eyedisk/develop/cinewright/evidence/2026-11-05-production/output-contact-fix-1/store/jobs/23a7fcc7-51e7-4053-8256-280a79aa1089/mix.wav",
+          "rate": 48000,
+          "duration": 336000,
+          "sources": []
+        },
+        "browser": "156.0.8078.80",
+        "outputSha256": "b72ed75bbd981db9e4c5fbb7aefe15c5ee2b85c4252822c9f99e6ad270774efd",
+        "output": "/Volumes/eyedisk/develop/cinewright/evidence/2026-11-05-production/output-contact-fix-1/store/jobs/23a7fcc7-51e7-4053-8256-280a79aa1089/frame.png",
+        "finished": "2026-11-04T21:15:40.472Z"
+      },
+      "command": [
+        "node",
+        "scripts/direction.mjs",
+        "frame",
+        "examples/stillcuts/b",
+        "touch",
+        "--store",
+        "evidence/2026-11-05-production/output-contact-fix-1/store"
+      ],
+      "before": {
+        "native": "/Volumes/eyedisk/develop/cinewright/.direction/production/task-4/b/live/0048.png",
+        "decoded": "/Volumes/eyedisk/develop/cinewright/.direction/production/task-4/b/decoded/0034.png",
+        "extractionIndex": 34
+      }
+    },
+    {
+      "example": "a",
+      "frame": 60,
+      "job": {
+        "id": "6d14074c-52e8-4604-b84b-f6276de11626",
+        "revision": "f1d51eaa10567cba25eb1787fa5e65d8776f4da185c1c2bd4e290a0a658abc04",
+        "settings": {
+          "mode": "frame",
+          "from": 60,
+          "to": 61,
+          "scale": 1
+        },
+        "status": "completed",
+        "phase": "published",
+        "frames": 1,
+        "totalFrames": 1,
+        "pid": 16774,
+        "started": "2026-11-04T21:16:28.532Z",
+        "log": "/Volumes/eyedisk/develop/cinewright/evidence/2026-11-05-production/output-contact-fix-1/store/jobs/6d14074c-52e8-4604-b84b-f6276de11626/execution.log",
+        "ffmpeg": "ffmpeg version 9.0.2 Copyright (c) 2000-2026 the FFmpeg developers",
+        "audio": {
+          "file": "/Volumes/eyedisk/develop/cinewright/evidence/2026-11-05-production/output-contact-fix-1/store/jobs/6d14074c-52e8-4604-b84b-f6276de11626/mix.wav",
+          "rate": 48000,
+          "duration": 384000,
+          "sources": []
+        },
+        "browser": "156.0.8078.80",
+        "outputSha256": "08defbd229b05c2ced088721008848a78f3d3e2a9c605f1e307035540c667a03",
+        "output": "/Volumes/eyedisk/develop/cinewright/evidence/2026-11-05-production/output-contact-fix-1/store/jobs/6d14074c-52e8-4604-b84b-f6276de11626/frame.png",
+        "finished": "2026-11-04T21:16:31.719Z"
+      },
+      "command": [
+        "/opt/homebrew/Cellar/node/26.12.1_1/bin/node",
+        "scripts/direction.mjs",
+        "frame",
+        "examples/stillcuts/a",
+        "touch",
+        "--scale",
+        "1",
+        "--store",
+        "/Volumes/eyedisk/develop/cinewright/evidence/2026-11-05-production/output-contact-fix-1/store"
+      ],
+      "log": "/Volumes/eyedisk/develop/cinewright/evidence/2026-11-05-production/output-contact-fix-1/a-f60.log",
+      "before": {
+        "native": "/Volumes/eyedisk/develop/cinewright/.direction/production/task-4/a/live/0060.png",
+        "decoded": "/Volumes/eyedisk/develop/cinewright/.direction/production/task-4/a/decoded/0031.png",
+        "extractionIndex": 31
+      }
+    },
+    {
+      "example": "b",
+      "frame": 60,
+      "job": {
+        "id": "3e78fcf2-44f1-48d2-889e-a17a016d587f",
+        "revision": "4355e5ec4829e994785e96c7788387d0a61f44dd43d2aa566cb3124cdd86fac0",
+        "settings": {
+          "mode": "frame",
+          "from": 60,
+          "to": 61,
+          "scale": 1
+        },
+        "status": "completed",
+        "phase": "published",
+        "frames": 1,
+        "totalFrames": 1,
+        "pid": 16856,
+        "started": "2026-11-04T21:16:31.836Z",
+        "log": "/Volumes/eyedisk/develop/cinewright/evidence/2026-11-05-production/output-contact-fix-1/store/jobs/3e78fcf2-44f1-48d2-889e-a17a016d587f/execution.log",
+        "ffmpeg": "ffmpeg version 9.0.2 Copyright (c) 2000-2026 the FFmpeg developers",
+        "audio": {
+          "file": "/Volumes/eyedisk/develop/cinewright/evidence/2026-11-05-production/output-contact-fix-1/store/jobs/3e78fcf2-44f1-48d2-889e-a17a016d587f/mix.wav",
+          "rate": 48000,
+          "duration": 336000,
+          "sources": []
+        },
+        "browser": "156.0.8078.80",
+        "outputSha256": "682b1428a13b58ebbb5db2957e49a3a6ddec8419bcdfcf971b715e7d4bf58654",
+        "output": "/Volumes/eyedisk/develop/cinewright/evidence/2026-11-05-production/output-contact-fix-1/store/jobs/3e78fcf2-44f1-48d2-889e-a17a016d587f/frame.png",
+        "finished": "2026-11-04T21:16:34.748Z"
+      },
+      "command": [
+        "/opt/homebrew/Cellar/node/26.12.1_1/bin/node",
+        "scripts/direction.mjs",
+        "frame",
+        "4355e5ec4829e994785e96c7788387d0a61f44dd43d2aa566cb3124cdd86fac0",
+        "60",
+        "--scale",
+        "1",
+        "--store",
+        "/Volumes/eyedisk/develop/cinewright/evidence/2026-11-05-production/output-contact-fix-1/store"
+      ],
+      "log": "/Volumes/eyedisk/develop/cinewright/evidence/2026-11-05-production/output-contact-fix-1/b-f60.log",
+      "before": {
+        "native": "/Volumes/eyedisk/develop/cinewright/.direction/production/task-4/b/live/0060.png",
+        "decoded": "/Volumes/eyedisk/develop/cinewright/.direction/production/task-4/b/decoded/0046.png",
+        "extractionIndex": 46
+      }
+    },
+    {
+      "example": "b",
+      "frame": 76,
+      "job": {
+        "id": "fb95c0d4-f0d1-46f9-8983-c168525fcbcc",
+        "revision": "4355e5ec4829e994785e96c7788387d0a61f44dd43d2aa566cb3124cdd86fac0",
+        "settings": {
+          "mode": "frame",
+          "from": 76,
+          "to": 77,
+          "scale": 1
+        },
+        "status": "completed",
+        "phase": "published",
+        "frames": 1,
+        "totalFrames": 1,
+        "pid": 16895,
+        "started": "2026-11-04T21:16:34.863Z",
+        "log": "/Volumes/eyedisk/develop/cinewright/evidence/2026-11-05-production/output-contact-fix-1/store/jobs/fb95c0d4-f0d1-46f9-8983-c168525fcbcc/execution.log",
+        "ffmpeg": "ffmpeg version 9.0.2 Copyright (c) 2000-2026 the FFmpeg developers",
+        "audio": {
+          "file": "/Volumes/eyedisk/develop/cinewright/evidence/2026-11-05-production/output-contact-fix-1/store/jobs/fb95c0d4-f0d1-46f9-8983-c168525fcbcc/mix.wav",
+          "rate": 48000,
+          "duration": 336000,
+          "sources": []
+        },
+        "browser": "156.0.8078.80",
+        "outputSha256": "e31aaca587ddcec4d68ecbddbd8acb2b8b0df8bb3e2d8a98aa35982a0816bae9",
+        "output": "/Volumes/eyedisk/develop/cinewright/evidence/2026-11-05-production/output-contact-fix-1/store/jobs/fb95c0d4-f0d1-46f9-8983-c168525fcbcc/frame.png",
+        "finished": "2026-11-04T21:16:37.714Z"
+      },
+      "command": [
+        "/opt/homebrew/Cellar/node/26.12.1_1/bin/node",
+        "scripts/direction.mjs",
+        "frame",
+        "4355e5ec4829e994785e96c7788387d0a61f44dd43d2aa566cb3124cdd86fac0",
+        "76",
+        "--scale",
+        "1",
+        "--store",
+        "/Volumes/eyedisk/develop/cinewright/evidence/2026-11-05-production/output-contact-fix-1/store"
+      ],
+      "log": "/Volumes/eyedisk/develop/cinewright/evidence/2026-11-05-production/output-contact-fix-1/b-f76.log",
+      "before": {
+        "native": "/Volumes/eyedisk/develop/cinewright/.direction/production/task-4/b/live/0076.png",
+        "decoded": "/Volumes/eyedisk/develop/cinewright/.direction/production/task-4/b/decoded/0062.png",
+        "extractionIndex": 62
+      }
+    },
+    {
+      "example": "b",
+      "frame": 119,
+      "job": {
+        "id": "b12f1b4c-44c1-4a93-80d9-b1d0b4248239",
+        "revision": "4355e5ec4829e994785e96c7788387d0a61f44dd43d2aa566cb3124cdd86fac0",
+        "settings": {
+          "mode": "frame",
+          "from": 119,
+          "to": 120,
+          "scale": 1
+        },
+        "status": "completed",
+        "phase": "published",
+        "frames": 1,
+        "totalFrames": 1,
+        "pid": 16918,
+        "started": "2026-11-04T21:16:37.823Z",
+        "log": "/Volumes/eyedisk/develop/cinewright/evidence/2026-11-05-production/output-contact-fix-1/store/jobs/b12f1b4c-44c1-4a93-80d9-b1d0b4248239/execution.log",
+        "ffmpeg": "ffmpeg version 9.0.2 Copyright (c) 2000-2026 the FFmpeg developers",
+        "audio": {
+          "file": "/Volumes/eyedisk/develop/cinewright/evidence/2026-11-05-production/output-contact-fix-1/store/jobs/b12f1b4c-44c1-4a93-80d9-b1d0b4248239/mix.wav",
+          "rate": 48000,
+          "duration": 336000,
+          "sources": []
+        },
+        "browser": "156.0.8078.80",
+        "outputSha256": "28cf10c0169a7fa8320eb599c85eaf2f3930e38aa3459653101e1d1545aca525",
+        "output": "/Volumes/eyedisk/develop/cinewright/evidence/2026-11-05-production/output-contact-fix-1/store/jobs/b12f1b4c-44c1-4a93-80d9-b1d0b4248239/frame.png",
+        "finished": "2026-11-04T21:16:40.593Z"
+      },
+      "command": [
+        "/opt/homebrew/Cellar/node/26.12.1_1/bin/node",
+        "scripts/direction.mjs",
+        "frame",
+        "4355e5ec4829e994785e96c7788387d0a61f44dd43d2aa566cb3124cdd86fac0",
+        "119",
+        "--scale",
+        "1",
+        "--store",
+        "/Volumes/eyedisk/develop/cinewright/evidence/2026-11-05-production/output-contact-fix-1/store"
+      ],
+      "log": "/Volumes/eyedisk/develop/cinewright/evidence/2026-11-05-production/output-contact-fix-1/b-f119.log",
+      "before": {
+        "native": "/Volumes/eyedisk/develop/cinewright/.direction/production/task-4/b/live/0119.png",
+        "decoded": "/Volumes/eyedisk/develop/cinewright/.direction/production/task-4/b/decoded/0079.png",
+        "extractionIndex": 79
+      }
+    },
+    {
+      "example": "b",
+      "frame": 120,
+      "job": {
+        "id": "92efe51a-74e4-4e59-af82-acbeaf6eccae",
+        "revision": "4355e5ec4829e994785e96c7788387d0a61f44dd43d2aa566cb3124cdd86fac0",
+        "settings": {
+          "mode": "frame",
+          "from": 120,
+          "to": 121,
+          "scale": 1
+        },
+        "status": "completed",
+        "phase": "published",
+        "frames": 1,
+        "totalFrames": 1,
+        "pid": 16953,
+        "started": "2026-11-04T21:16:40.701Z",
+        "log": "/Volumes/eyedisk/develop/cinewright/evidence/2026-11-05-production/output-contact-fix-1/store/jobs/92efe51a-74e4-4e59-af82-acbeaf6eccae/execution.log",
+        "ffmpeg": "ffmpeg version 9.0.2 Copyright (c) 2000-2026 the FFmpeg developers",
+        "audio": {
+          "file": "/Volumes/eyedisk/develop/cinewright/evidence/2026-11-05-production/output-contact-fix-1/store/jobs/92efe51a-74e4-4e59-af82-acbeaf6eccae/mix.wav",
+          "rate": 48000,
+          "duration": 336000,
+          "sources": []
+        },
+        "browser": "156.0.8078.80",
+        "outputSha256": "d49904dc11e4300414b7280a93855041fb44e47202df9d12ec0a8539e85d2f0c",
+        "output": "/Volumes/eyedisk/develop/cinewright/evidence/2026-11-05-production/output-contact-fix-1/store/jobs/92efe51a-74e4-4e59-af82-acbeaf6eccae/frame.png",
+        "finished": "2026-11-04T21:16:43.730Z"
+      },
+      "command": [
+        "/opt/homebrew/Cellar/node/26.12.1_1/bin/node",
+        "scripts/direction.mjs",
+        "frame",
+        "4355e5ec4829e994785e96c7788387d0a61f44dd43d2aa566cb3124cdd86fac0",
+        "120",
+        "--scale",
+        "1",
+        "--store",
+        "/Volumes/eyedisk/develop/cinewright/evidence/2026-11-05-production/output-contact-fix-1/store"
+      ],
+      "log": "/Volumes/eyedisk/develop/cinewright/evidence/2026-11-05-production/output-contact-fix-1/b-f120.log",
+      "before": {
+        "native": "/Volumes/eyedisk/develop/cinewright/.direction/production/task-4/b/live/0120.png",
+        "decoded": "/Volumes/eyedisk/develop/cinewright/.direction/production/task-4/b/decoded/0080.png",
+        "extractionIndex": 80
+      }
+    }
+  ]
+}

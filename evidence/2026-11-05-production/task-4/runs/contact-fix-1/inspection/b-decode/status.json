@@ -1,0 +1,22 @@
+{
+  "command": [
+    "ffmpeg",
+    "-v",
+    "error",
+    "-y",
+    "-i",
+    "/Volumes/eyedisk/develop/cinewright/.direction/production/jobs/c5d57e2c-0459-4def-a8c2-b8f49ea5748c/work.mp4",
+    "-vf",
+    "select=eq(n\\,0)+eq(n\\,1)+eq(n\\,16)+eq(n\\,17)+eq(n\\,18)+eq(n\\,19)+eq(n\\,20)+eq(n\\,21)+eq(n\\,22)+eq(n\\,23)+eq(n\\,24)+eq(n\\,25)+eq(n\\,26)+eq(n\\,27)+eq(n\\,28)+eq(n\\,29)+eq(n\\,30)+eq(n\\,31)+eq(n\\,32)+eq(n\\,33)+eq(n\\,34)+eq(n\\,35)+eq(n\\,36)+eq(n\\,37)+eq(n\\,38)+eq(n\\,39)+eq(n\\,40)+eq(n\\,41)+eq(n\\,42)+eq(n\\,43)+eq(n\\,44)+eq(n\\,45)+eq(n\\,46)+eq(n\\,47)+eq(n\\,48)+eq(n\\,49)+eq(n\\,50)+eq(n\\,51)+eq(n\\,52)+eq(n\\,53)+eq(n\\,54)+eq(n\\,55)+eq(n\\,56)+eq(n\\,57)+eq(n\\,58)+eq(n\\,59)+eq(n\\,60)+eq(n\\,61)+eq(n\\,62)+eq(n\\,63)+eq(n\\,64)+eq(n\\,65)+eq(n\\,66)+eq(n\\,67)+eq(n\\,68)+eq(n\\,69)+eq(n\\,70)+eq(n\\,71)+eq(n\\,72)+eq(n\\,73)+eq(n\\,74)+eq(n\\,75)+eq(n\\,76)+eq(n\\,77)+eq(n\\,78)+eq(n\\,79)+eq(n\\,80)+eq(n\\,81)+eq(n\\,82)+eq(n\\,83)+eq(n\\,84)+eq(n\\,85)+eq(n\\,86)+eq(n\\,87)+eq(n\\,88)+eq(n\\,89)+eq(n\\,90)+eq(n\\,91)+eq(n\\,92)+eq(n\\,119)+eq(n\\,120)+eq(n\\,121)+eq(n\\,167)",
+    "-fps_mode",
+    "passthrough",
+    "-start_number",
+    "0",
+    "/Volumes/eyedisk/develop/cinewright/.direction/production/task-4-runs/contact-fix-1/inspection/b/decoded/%04d.png"
+  ],
+  "tmpdir": "/Volumes/eyedisk/develop/cinewright/.direction/production/task-4-runs/contact-fix-1/tmp",
+  "started": "2026-11-04T21:29:37.904Z",
+  "exitCode": 0,
+  "signal": null,
+  "finished": "2026-11-04T21:29:37.965Z"
+}

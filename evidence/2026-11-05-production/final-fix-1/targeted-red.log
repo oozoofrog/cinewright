@@ -1,0 +1,38 @@
+Stillcuts build records: /Volumes/eyedisk/develop/cinewright/.direction/test-runs/stillcuts-build-veGhHc
+✔ real stillcuts build preserves valid unchanged input and reports a distinct boundary fixture (105.792959ms)
+✔ real stillcuts build preserves valid touch-equals-fixture-target input and reports a distinct boundary fixture (96.05775ms)
+✔ real stillcuts build preserves valid release-before-fixture-target input and reports a distinct boundary fixture (94.1825ms)
+✔ copied stillcuts a draws all three artworks after editing the source ID to ordinary-contact (3.135834ms)
+✖ copied stillcuts a draws all three artworks after editing the source ID to __proto__ (0.82375ms)
+✔ copied stillcuts b draws all three artworks after editing the source ID to ordinary-contact (2.28225ms)
+✖ copied stillcuts b draws all three artworks after editing the source ID to __proto__ (0.6585ms)
+ℹ tests 7
+ℹ suites 0
+ℹ pass 5
+ℹ fail 2
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 403.059458
+
+✖ failing tests:
+
+test at tests/stillcuts-build.test.mjs:81:5
+✖ copied stillcuts a draws all three artworks after editing the source ID to __proto__ (0.82375ms)
+  Error: artwork.draw: t.value: unknown own artwork key "__proto__"
+      at fail (file:///Volumes/eyedisk/develop/cinewright/examples/stillcuts/a/modules/artwork.mjs:2:9)
+      at Object.draw (file:///Volumes/eyedisk/develop/cinewright/examples/stillcuts/a/modules/artwork.mjs:132:9)
+      at Object.draw (file:///Volumes/eyedisk/develop/cinewright/examples/stillcuts/a/scene.mjs:63:14)
+      at TestContext.<anonymous> (file:///Volumes/eyedisk/develop/cinewright/tests/stillcuts-build.test.mjs:117:15)
+      at async Test.run (node:internal/test_runner/test:1409:7)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7)
+
+test at tests/stillcuts-build.test.mjs:81:5
+✖ copied stillcuts b draws all three artworks after editing the source ID to __proto__ (0.6585ms)
+  Error: artwork.draw: t.value: unknown own artwork key "__proto__"
+      at fail (file:///Volumes/eyedisk/develop/cinewright/examples/stillcuts/b/modules/artwork.mjs:2:9)
+      at Object.draw (file:///Volumes/eyedisk/develop/cinewright/examples/stillcuts/b/modules/artwork.mjs:132:9)
+      at Object.draw (file:///Volumes/eyedisk/develop/cinewright/examples/stillcuts/b/scene.mjs:63:14)
+      at TestContext.<anonymous> (file:///Volumes/eyedisk/develop/cinewright/tests/stillcuts-build.test.mjs:117:15)
+      at async Test.run (node:internal/test_runner/test:1409:7)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7)

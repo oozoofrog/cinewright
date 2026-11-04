@@ -1,0 +1,102 @@
+{
+  "status": "VERIFIED_RECORDED_MEASUREMENTS",
+  "performanceSha256": "85d7e0854619ba5edf2d75d2fdc18666aa85d1cc6d8520dbe78fc8fbde4b10a0",
+  "planSha256": "18a208d5933e1dcc3228d1b9046bfadc2f143ac92164c379d708cecf4d0fc0c2",
+  "runs": [
+    {
+      "name": "baseline-4-r1",
+      "pid": 25712,
+      "rawStatus": "completed",
+      "processExit": 0,
+      "seeks": 24,
+      "readbacks": 25,
+      "browserClosed": true,
+      "tmpLogicalBytesAfterClose": 0
+    },
+    {
+      "name": "baseline-4-r2",
+      "pid": 25779,
+      "rawStatus": "completed",
+      "processExit": 0,
+      "seeks": 24,
+      "readbacks": 25,
+      "browserClosed": true,
+      "tmpLogicalBytesAfterClose": 0
+    },
+    {
+      "name": "baseline-4-r3",
+      "pid": 25836,
+      "rawStatus": "completed",
+      "processExit": 0,
+      "seeks": 24,
+      "readbacks": 25,
+      "browserClosed": true,
+      "tmpLogicalBytesAfterClose": 0
+    },
+    {
+      "name": "reused-24-r1",
+      "pid": 25941,
+      "rawStatus": "completed",
+      "processExit": 0,
+      "seeks": 24,
+      "readbacks": 25,
+      "browserClosed": true,
+      "tmpLogicalBytesAfterClose": 0
+    },
+    {
+      "name": "reused-24-r2",
+      "pid": 26009,
+      "rawStatus": "failed",
+      "processExit": 1,
+      "seeks": 24,
+      "readbacks": 25,
+      "browserClosed": true,
+      "tmpLogicalBytesAfterClose": 0
+    },
+    {
+      "name": "reused-24-r3",
+      "pid": 26928,
+      "rawStatus": "completed",
+      "processExit": 0,
+      "seeks": 24,
+      "readbacks": 25,
+      "browserClosed": true,
+      "tmpLogicalBytesAfterClose": 0
+    },
+    {
+      "name": "unique-24-r1",
+      "pid": 27004,
+      "rawStatus": "completed",
+      "processExit": 0,
+      "seeks": 24,
+      "readbacks": 25,
+      "browserClosed": true,
+      "tmpLogicalBytesAfterClose": 0
+    },
+    {
+      "name": "unique-24-r2",
+      "pid": 27073,
+      "rawStatus": "completed",
+      "processExit": 0,
+      "seeks": 24,
+      "readbacks": 25,
+      "browserClosed": true,
+      "tmpLogicalBytesAfterClose": 0
+    },
+    {
+      "name": "unique-24-r3",
+      "pid": 27146,
+      "rawStatus": "completed",
+      "processExit": 0,
+      "seeks": 24,
+      "readbacks": 25,
+      "browserClosed": true,
+      "tmpLogicalBytesAfterClose": 0
+    }
+  ],
+  "uniqueWorkerPids": 9,
+  "imageHashesAndDimensionsChecked": 225,
+  "failedRawPreserved": true,
+  "firstFiveWorkerIdentityPreserved": true,
+  "limitations": "Offline audit of recorded data and saved images, not a new benchmark; no peak RAM, cold-cache, physical-display or audio-seek completion claim."
+}

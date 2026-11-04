@@ -1,0 +1,23 @@
+{
+  "command": [
+    "ffmpeg",
+    "-v",
+    "error",
+    "-y",
+    "-i",
+    "/Volumes/eyedisk/develop/cinewright/.direction/production/jobs/b030aad5-33a8-4a71-9977-994c046e3b50/work.mp4",
+    "-vn",
+    "-ac",
+    "2",
+    "-ar",
+    "48000",
+    "-f",
+    "f32le",
+    "/Volumes/eyedisk/develop/cinewright/.direction/production/task-4-runs/contact-fix-1/inspection/a/decoded-audio.f32"
+  ],
+  "tmpdir": "/Volumes/eyedisk/develop/cinewright/.direction/production/task-4-runs/contact-fix-1/tmp",
+  "started": "2026-11-04T21:29:37.737Z",
+  "exitCode": 0,
+  "signal": null,
+  "finished": "2026-11-04T21:29:37.767Z"
+}

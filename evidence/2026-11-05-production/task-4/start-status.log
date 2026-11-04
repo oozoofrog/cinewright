@@ -1,0 +1,14 @@
+ M README.md
+ M SKILL.md
+ M references/direction.md
+ M references/format.md
+ M references/tools.md
+?? docs/
+?? evidence/2026-11-05-production/
+?? examples/stillcuts/
+?? modules/
+?? references/craft.md
+?? references/stillcuts.md
+?? tests/artwork.test.mjs
+?? tests/cuts.test.mjs
+?? tests/stillcuts-build.test.mjs

@@ -1,0 +1,10 @@
+{
+  "command": [
+    "/usr/bin/sw_vers"
+  ],
+  "pid": 25703,
+  "code": 0,
+  "signal": null,
+  "stdout": "ProductName:\t\tmacOS\nProductVersion:\t\t27.2\nBuildVersion:\t\t26B123\n",
+  "stderr": ""
+}

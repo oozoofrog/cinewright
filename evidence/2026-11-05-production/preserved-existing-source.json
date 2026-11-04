@@ -1,0 +1,367 @@
+{
+  "base": "5bd6d89763dd500d0fd85903bf8c288775e4ac0e",
+  "scope": "Tracked files already present at baseline under runtime, scripts, package declarations/lock, original timeline/integration tests and examples. New stillcut files are outside this set.",
+  "files": [
+    {
+      "path": "examples/harbor-landfall/assets/coast-entry.svg",
+      "baselineSha256": "a4c5b19a9d554d521a5a60a37e1dab345213f1b76e44d537eeecb398d0f28e96",
+      "currentSha256": "a4c5b19a9d554d521a5a60a37e1dab345213f1b76e44d537eeecb398d0f28e96",
+      "equal": true
+    },
+    {
+      "path": "examples/harbor-landfall/assets/score.wav",
+      "baselineSha256": "6e185e264c97a57afef48e96b4ad2d404d62a8ff6edb1b1ead90cbc77bcd9918",
+      "currentSha256": "6e185e264c97a57afef48e96b4ad2d404d62a8ff6edb1b1ead90cbc77bcd9918",
+      "equal": true
+    },
+    {
+      "path": "examples/harbor-landfall/assets/shore.jpg",
+      "baselineSha256": "461513d0cd3e16960ebcfc4ddf47202ba6f4a11e03d03a02ecb38796ffe8a27d",
+      "currentSha256": "461513d0cd3e16960ebcfc4ddf47202ba6f4a11e03d03a02ecb38796ffe8a27d",
+      "equal": true
+    },
+    {
+      "path": "examples/harbor-landfall/instrument.mjs",
+      "baselineSha256": "689b3f8fe9baf635e606734854910f3499e36ef3c520a6073c7b95bbc67d38a4",
+      "currentSha256": "689b3f8fe9baf635e606734854910f3499e36ef3c520a6073c7b95bbc67d38a4",
+      "equal": true
+    },
+    {
+      "path": "examples/harbor-landfall/route-ink.mjs",
+      "baselineSha256": "f92d979d1db0e6f1b275ad6048f2e184859a950a60e8df8e9c2205b0eb30dd8f",
+      "currentSha256": "f92d979d1db0e6f1b275ad6048f2e184859a950a60e8df8e9c2205b0eb30dd8f",
+      "equal": true
+    },
+    {
+      "path": "examples/harbor-landfall/shore.mjs",
+      "baselineSha256": "292b196704666319083fa2f85a3d88ae93547673c5252bc4d0a79958ffc05cff",
+      "currentSha256": "292b196704666319083fa2f85a3d88ae93547673c5252bc4d0a79958ffc05cff",
+      "equal": true
+    },
+    {
+      "path": "examples/harbor-landfall/work.json",
+      "baselineSha256": "427e7b8b31ce205cd9b80241d94bbf1dddadebb2c2ecb03dcfd77b9b662c591a",
+      "currentSha256": "427e7b8b31ce205cd9b80241d94bbf1dddadebb2c2ecb03dcfd77b9b662c591a",
+      "equal": true
+    },
+    {
+      "path": "examples/harbor-map/assets/coast-entry.svg",
+      "baselineSha256": "a4c5b19a9d554d521a5a60a37e1dab345213f1b76e44d537eeecb398d0f28e96",
+      "currentSha256": "a4c5b19a9d554d521a5a60a37e1dab345213f1b76e44d537eeecb398d0f28e96",
+      "equal": true
+    },
+    {
+      "path": "examples/harbor-map/assets/score.wav",
+      "baselineSha256": "3fb1512d9daeb8097b841703d75135fc440f65f4c7db5086ff47a88799081461",
+      "currentSha256": "3fb1512d9daeb8097b841703d75135fc440f65f4c7db5086ff47a88799081461",
+      "equal": true
+    },
+    {
+      "path": "examples/harbor-map/assets/shore.jpg",
+      "baselineSha256": "461513d0cd3e16960ebcfc4ddf47202ba6f4a11e03d03a02ecb38796ffe8a27d",
+      "currentSha256": "461513d0cd3e16960ebcfc4ddf47202ba6f4a11e03d03a02ecb38796ffe8a27d",
+      "equal": true
+    },
+    {
+      "path": "examples/harbor-map/instrument.mjs",
+      "baselineSha256": "689b3f8fe9baf635e606734854910f3499e36ef3c520a6073c7b95bbc67d38a4",
+      "currentSha256": "689b3f8fe9baf635e606734854910f3499e36ef3c520a6073c7b95bbc67d38a4",
+      "equal": true
+    },
+    {
+      "path": "examples/harbor-map/route-ink.mjs",
+      "baselineSha256": "f92d979d1db0e6f1b275ad6048f2e184859a950a60e8df8e9c2205b0eb30dd8f",
+      "currentSha256": "f92d979d1db0e6f1b275ad6048f2e184859a950a60e8df8e9c2205b0eb30dd8f",
+      "equal": true
+    },
+    {
+      "path": "examples/harbor-map/shore.mjs",
+      "baselineSha256": "06152058993a1427cde1174ca43e21fa6b95f555f4270a4563067d0de8c7827f",
+      "currentSha256": "06152058993a1427cde1174ca43e21fa6b95f555f4270a4563067d0de8c7827f",
+      "equal": true
+    },
+    {
+      "path": "examples/harbor-map/work.json",
+      "baselineSha256": "0d3fb9c215f0b5a3262694a02c3a504ad2651f45ab33a91c1f71d56c6b1a0d4b",
+      "currentSha256": "0d3fb9c215f0b5a3262694a02c3a504ad2651f45ab33a91c1f71d56c6b1a0d4b",
+      "equal": true
+    },
+    {
+      "path": "examples/harbor-v2/assets/score.wav",
+      "baselineSha256": "a82338d1a77f814ec2e706cd32c067f7421abd270f8448f452596d01bec4031f",
+      "currentSha256": "a82338d1a77f814ec2e706cd32c067f7421abd270f8448f452596d01bec4031f",
+      "equal": true
+    },
+    {
+      "path": "examples/harbor-v2/coast.mjs",
+      "baselineSha256": "451b982e0a6446a6d1d084f401d743b885c1cc56dd55b46502279f5aefda4bc3",
+      "currentSha256": "451b982e0a6446a6d1d084f401d743b885c1cc56dd55b46502279f5aefda4bc3",
+      "equal": true
+    },
+    {
+      "path": "examples/harbor-v2/forms.mjs",
+      "baselineSha256": "4e84a03569ef9df064795ffbf19e0a4382db940a63e99fa7ba2793787f594109",
+      "currentSha256": "4e84a03569ef9df064795ffbf19e0a4382db940a63e99fa7ba2793787f594109",
+      "equal": true
+    },
+    {
+      "path": "examples/harbor-v2/harbor.mjs",
+      "baselineSha256": "59438fda54671299da57edd48fe4543fd0da84d6027f5f67e5c7d1f5741ee878",
+      "currentSha256": "59438fda54671299da57edd48fe4543fd0da84d6027f5f67e5c7d1f5741ee878",
+      "equal": true
+    },
+    {
+      "path": "examples/harbor-v2/score.py",
+      "baselineSha256": "08a78fa6fdc1337b5115b30ecfe126edfc7f4149459ddd9687779a81c475a30c",
+      "currentSha256": "08a78fa6fdc1337b5115b30ecfe126edfc7f4149459ddd9687779a81c475a30c",
+      "equal": true
+    },
+    {
+      "path": "examples/harbor-v2/sea.mjs",
+      "baselineSha256": "f4b20faa9fa2bedc1bb53a3e8cb720fc6654dff0d440194724086185e781edc5",
+      "currentSha256": "f4b20faa9fa2bedc1bb53a3e8cb720fc6654dff0d440194724086185e781edc5",
+      "equal": true
+    },
+    {
+      "path": "examples/harbor-v2/vendor/RoundedBoxGeometry.js",
+      "baselineSha256": "c1b7c9bd2cddff2e3f3a0723f618a3d364a47450e3d25771d21faed88410bec8",
+      "currentSha256": "c1b7c9bd2cddff2e3f3a0723f618a3d364a47450e3d25771d21faed88410bec8",
+      "equal": true
+    },
+    {
+      "path": "examples/harbor-v2/vendor/THREE-LICENSE",
+      "baselineSha256": "bfe119ea4fd413f5f7ca3fcd63adb0c4a073ed39daa2fe7d3e6b769e21272601",
+      "currentSha256": "bfe119ea4fd413f5f7ca3fcd63adb0c4a073ed39daa2fe7d3e6b769e21272601",
+      "equal": true
+    },
+    {
+      "path": "examples/harbor-v2/vessel.mjs",
+      "baselineSha256": "8015d3a240a3c443fdb61c5c471e31dc717189251358a6961a4cb287d8a6235c",
+      "currentSha256": "8015d3a240a3c443fdb61c5c471e31dc717189251358a6961a4cb287d8a6235c",
+      "equal": true
+    },
+    {
+      "path": "examples/harbor-v2/work.json",
+      "baselineSha256": "d9631aa90d473144d4375194dbf53d19f7740a943c4c7a13e7b4de5b4de06b3d",
+      "currentSha256": "d9631aa90d473144d4375194dbf53d19f7740a943c4c7a13e7b4de5b4de06b3d",
+      "equal": true
+    },
+    {
+      "path": "examples/harbor/assets/coast-entry.svg",
+      "baselineSha256": "a4c5b19a9d554d521a5a60a37e1dab345213f1b76e44d537eeecb398d0f28e96",
+      "currentSha256": "a4c5b19a9d554d521a5a60a37e1dab345213f1b76e44d537eeecb398d0f28e96",
+      "equal": true
+    },
+    {
+      "path": "examples/harbor/assets/score.wav",
+      "baselineSha256": "357112fe637e9ee20406a27079971e5d4652264fa2e492e9f593cd91aff9cec3",
+      "currentSha256": "357112fe637e9ee20406a27079971e5d4652264fa2e492e9f593cd91aff9cec3",
+      "equal": true
+    },
+    {
+      "path": "examples/harbor/assets/shore.jpg",
+      "baselineSha256": "461513d0cd3e16960ebcfc4ddf47202ba6f4a11e03d03a02ecb38796ffe8a27d",
+      "currentSha256": "461513d0cd3e16960ebcfc4ddf47202ba6f4a11e03d03a02ecb38796ffe8a27d",
+      "equal": true
+    },
+    {
+      "path": "examples/harbor/instrument.mjs",
+      "baselineSha256": "689b3f8fe9baf635e606734854910f3499e36ef3c520a6073c7b95bbc67d38a4",
+      "currentSha256": "689b3f8fe9baf635e606734854910f3499e36ef3c520a6073c7b95bbc67d38a4",
+      "equal": true
+    },
+    {
+      "path": "examples/harbor/route-ink.mjs",
+      "baselineSha256": "f92d979d1db0e6f1b275ad6048f2e184859a950a60e8df8e9c2205b0eb30dd8f",
+      "currentSha256": "f92d979d1db0e6f1b275ad6048f2e184859a950a60e8df8e9c2205b0eb30dd8f",
+      "equal": true
+    },
+    {
+      "path": "examples/harbor/shore.mjs",
+      "baselineSha256": "292b196704666319083fa2f85a3d88ae93547673c5252bc4d0a79958ffc05cff",
+      "currentSha256": "292b196704666319083fa2f85a3d88ae93547673c5252bc4d0a79958ffc05cff",
+      "equal": true
+    },
+    {
+      "path": "examples/harbor/work.json",
+      "baselineSha256": "334d117ae5fa6c49be124d7714c4375aac81e1e84bf758ea3b7d5285973d0c02",
+      "currentSha256": "334d117ae5fa6c49be124d7714c4375aac81e1e84bf758ea3b7d5285973d0c02",
+      "equal": true
+    },
+    {
+      "path": "examples/night-sorter/assets/hits.wav",
+      "baselineSha256": "00bb186b50cada6f2d98c71c69a22970657164726b69a8caef49283fca82ec8b",
+      "currentSha256": "00bb186b50cada6f2d98c71c69a22970657164726b69a8caef49283fca82ec8b",
+      "equal": true
+    },
+    {
+      "path": "examples/night-sorter/motion.mjs",
+      "baselineSha256": "921e85cd2c9d631893af81b3fd7df1ad5a52d65bb78bbce759e7a3884e3832b6",
+      "currentSha256": "921e85cd2c9d631893af81b3fd7df1ad5a52d65bb78bbce759e7a3884e3832b6",
+      "equal": true
+    },
+    {
+      "path": "examples/night-sorter/work.json",
+      "baselineSha256": "551542053cdfc9983907f4ef648b21fd8ec09a4e063856d019f01c817e6569cc",
+      "currentSha256": "551542053cdfc9983907f4ef648b21fd8ec09a4e063856d019f01c817e6569cc",
+      "equal": true
+    },
+    {
+      "path": "examples/press/assets/rosette.svg",
+      "baselineSha256": "c9fc7d170f8ef7ace8d9b197674451d320eccf7b201a806a8f5c1f6dd1f8beef",
+      "currentSha256": "c9fc7d170f8ef7ace8d9b197674451d320eccf7b201a806a8f5c1f6dd1f8beef",
+      "equal": true
+    },
+    {
+      "path": "examples/press/assets/score.wav",
+      "baselineSha256": "5a21fd9184b04dfea952fbc0f21e194cf9e7d7c334fc9b23b4fdbf2d29ef6266",
+      "currentSha256": "5a21fd9184b04dfea952fbc0f21e194cf9e7d7c334fc9b23b4fdbf2d29ef6266",
+      "equal": true
+    },
+    {
+      "path": "examples/press/press.mjs",
+      "baselineSha256": "e7375d6fc6859367bdc376683b4d40f5aedbeaa4bd4ee025fccc304ca5293ce0",
+      "currentSha256": "e7375d6fc6859367bdc376683b4d40f5aedbeaa4bd4ee025fccc304ca5293ce0",
+      "equal": true
+    },
+    {
+      "path": "examples/press/work.json",
+      "baselineSha256": "23d9e643762b86b089ecb34daa8c66ef9c862707ce55b9e3d4cceb3c0272d952",
+      "currentSha256": "23d9e643762b86b089ecb34daa8c66ef9c862707ce55b9e3d4cceb3c0272d952",
+      "equal": true
+    },
+    {
+      "path": "package-lock.json",
+      "baselineSha256": "bed5348ff23d04b1be7db2e6e3fae77bf5b46a7ea8d2b966b5205fce601f3a75",
+      "currentSha256": "bed5348ff23d04b1be7db2e6e3fae77bf5b46a7ea8d2b966b5205fce601f3a75",
+      "equal": true
+    },
+    {
+      "path": "package.json",
+      "baselineSha256": "fef2edc88d434301227f5c0fdd60b525fdd384a44032839e7def92ab768fb411",
+      "currentSha256": "fef2edc88d434301227f5c0fdd60b525fdd384a44032839e7def92ab768fb411",
+      "equal": true
+    },
+    {
+      "path": "runtime/compositor.mjs",
+      "baselineSha256": "77403609f91f19a351bc208ebafae1f2b8a148e1bedf24c67eda7100a53eb339",
+      "currentSha256": "77403609f91f19a351bc208ebafae1f2b8a148e1bedf24c67eda7100a53eb339",
+      "equal": true
+    },
+    {
+      "path": "runtime/index.html",
+      "baselineSha256": "fd1163d6b2aa63f8a2612015182e532f37119f460701a663aab85c90e58b7058",
+      "currentSha256": "fd1163d6b2aa63f8a2612015182e532f37119f460701a663aab85c90e58b7058",
+      "equal": true
+    },
+    {
+      "path": "runtime/player.mjs",
+      "baselineSha256": "621ccb51cb7651802007f79b708f08d5cf053066947b3bf4a755ef728a86bfb0",
+      "currentSha256": "621ccb51cb7651802007f79b708f08d5cf053066947b3bf4a755ef728a86bfb0",
+      "equal": true
+    },
+    {
+      "path": "runtime/review-player.mjs",
+      "baselineSha256": "26e83e6388788739339e1e8e20540fed2d176f357eb6dc89ed43ad9d307ebe1f",
+      "currentSha256": "26e83e6388788739339e1e8e20540fed2d176f357eb6dc89ed43ad9d307ebe1f",
+      "equal": true
+    },
+    {
+      "path": "runtime/review.html",
+      "baselineSha256": "5fff586a2e74e8546268d78c7261bd1fb7fa5f7d721e6cae7f641d6607bb3c36",
+      "currentSha256": "5fff586a2e74e8546268d78c7261bd1fb7fa5f7d721e6cae7f641d6607bb3c36",
+      "equal": true
+    },
+    {
+      "path": "runtime/style.css",
+      "baselineSha256": "4fa07acdc1151256de06102930edf2ab4763ae26d7226db1a683efac3ca83683",
+      "currentSha256": "4fa07acdc1151256de06102930edf2ab4763ae26d7226db1a683efac3ca83683",
+      "equal": true
+    },
+    {
+      "path": "runtime/timeline.mjs",
+      "baselineSha256": "a7533564e29a503ca35b690459f40e9db3ee249b21b03ab45f0bc93de61cc1d3",
+      "currentSha256": "a7533564e29a503ca35b690459f40e9db3ee249b21b03ab45f0bc93de61cc1d3",
+      "equal": true
+    },
+    {
+      "path": "scripts/audio.mjs",
+      "baselineSha256": "bf0f7de2fb731db43bff719e7ad3514ef0c63a171a84ec47e830d02ee650f69c",
+      "currentSha256": "bf0f7de2fb731db43bff719e7ad3514ef0c63a171a84ec47e830d02ee650f69c",
+      "equal": true
+    },
+    {
+      "path": "scripts/direction.mjs",
+      "baselineSha256": "e8e6e11f4ccddd2e79933209013704204f0231b37ea56e65d1bb02c0d04abb89",
+      "currentSha256": "e8e6e11f4ccddd2e79933209013704204f0231b37ea56e65d1bb02c0d04abb89",
+      "equal": true
+    },
+    {
+      "path": "scripts/execution.mjs",
+      "baselineSha256": "73a005ee1ec131838e0493e225d6fc09bfc7f0407d88e58373798f0a9a03b794",
+      "currentSha256": "73a005ee1ec131838e0493e225d6fc09bfc7f0407d88e58373798f0a9a03b794",
+      "equal": true
+    },
+    {
+      "path": "scripts/jobs.mjs",
+      "baselineSha256": "a5ce3d0c02abe63c34a0704439af9500f35e8f3b9c5405e886e1a5001cab3199",
+      "currentSha256": "a5ce3d0c02abe63c34a0704439af9500f35e8f3b9c5405e886e1a5001cab3199",
+      "equal": true
+    },
+    {
+      "path": "scripts/make_examples.py",
+      "baselineSha256": "ec7c6b43da47595895653745f22d0e16cec46726361dc080a6126b0fe64db627",
+      "currentSha256": "ec7c6b43da47595895653745f22d0e16cec46726361dc080a6126b0fe64db627",
+      "equal": true
+    },
+    {
+      "path": "scripts/observe.mjs",
+      "baselineSha256": "cd474bdc00a010723b3d72c308fa8a0e65bff80355b40058985f2f5e6fdf7596",
+      "currentSha256": "cd474bdc00a010723b3d72c308fa8a0e65bff80355b40058985f2f5e6fdf7596",
+      "equal": true
+    },
+    {
+      "path": "scripts/playback-sheet.py",
+      "baselineSha256": "dd69e28bb67c2716863f2c6cc566a36275ef98f0cad80712d32d192b260b6c95",
+      "currentSha256": "dd69e28bb67c2716863f2c6cc566a36275ef98f0cad80712d32d192b260b6c95",
+      "equal": true
+    },
+    {
+      "path": "scripts/review.mjs",
+      "baselineSha256": "0914bcd345d6daf4fe2efa62dba7da0f211fbd845955064244610a3b13ee256e",
+      "currentSha256": "0914bcd345d6daf4fe2efa62dba7da0f211fbd845955064244610a3b13ee256e",
+      "equal": true
+    },
+    {
+      "path": "scripts/revisions.mjs",
+      "baselineSha256": "44fa3baf89eaad1c584ac724723df186877a7cef46f35ced9d398710c747c516",
+      "currentSha256": "44fa3baf89eaad1c584ac724723df186877a7cef46f35ced9d398710c747c516",
+      "equal": true
+    },
+    {
+      "path": "scripts/scaffold.mjs",
+      "baselineSha256": "9a8f7d91c05465fb2b689b20dd1ad14286645c8ccb639802b50a18f9a696865c",
+      "currentSha256": "9a8f7d91c05465fb2b689b20dd1ad14286645c8ccb639802b50a18f9a696865c",
+      "equal": true
+    },
+    {
+      "path": "scripts/server.mjs",
+      "baselineSha256": "1c10818a1e28fd47dff72a0c13797b1cbbea13fc071859113ebe8e4974835ab2",
+      "currentSha256": "1c10818a1e28fd47dff72a0c13797b1cbbea13fc071859113ebe8e4974835ab2",
+      "equal": true
+    },
+    {
+      "path": "tests/integration.test.mjs",
+      "baselineSha256": "17d3708679b483ca69b3d8b6ad357bd73f470280931e9dfa4d4cbc3b86ff7edb",
+      "currentSha256": "17d3708679b483ca69b3d8b6ad357bd73f470280931e9dfa4d4cbc3b86ff7edb",
+      "equal": true
+    },
+    {
+      "path": "tests/timeline.test.mjs",
+      "baselineSha256": "d995196dbb108ef51a6d96648faa6971c22fd0009cab80fb046719ee0cc64ac2",
+      "currentSha256": "d995196dbb108ef51a6d96648faa6971c22fd0009cab80fb046719ee0cc64ac2",
+      "equal": true
+    }
+  ],
+  "allEqual": true
+}

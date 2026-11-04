@@ -1,0 +1,58 @@
+2026-11-04T21:40:27.702Z pw:browser <launching> /Applications/Google Chrome.app/Contents/MacOS/Google Chrome --disable-field-trial-config --disable-background-networking --disable-background-timer-throttling --disable-backgrounding-occluded-windows --disable-back-forward-cache --disable-breakpad --disable-client-side-phishing-detection --disable-component-extensions-with-background-pages --disable-component-update --no-default-browser-check --disable-default-apps --disable-dev-shm-usage --disable-edgeupdater --disable-extensions --disable-features=AvoidUnnecessaryBeforeUnloadCheckSync,DestroyProfileOnBrowserClose,DialMediaRouteProvider,GlobalMediaControls,HttpsUpgrades,LensOverlay,MediaRouter,PaintHolding,ThirdPartyStoragePartitioning,BlockOriginHeaderModificationOnRedirect,AvoidCorsURLLoaderRestartOnRedirect,Translate,AutoDeElevate,OptimizationHints,NetworkTimeServiceQuerying,AimEnabled,msForceBrowserSignIn,msEdgeUpdateLaunchServicesPreferredVersion --enable-features=CDPScreenshotNewSurface --allow-pre-commit-input --disable-hang-monitor --disable-ipc-flooding-protection --disable-popup-blocking --disable-prompt-on-repost --disable-renderer-backgrounding --disable-updater-scheduler --force-color-profile=srgb --metrics-recording-only --no-first-run --password-store=basic --use-mock-keychain --no-service-autorun --export-tagged-pdf --disable-search-engine-choice-screen --unsafely-disable-devtools-self-xss-warnings --edge-skip-compat-layer-relaunch --disable-infobars --disable-search-engine-choice-screen --disable-sync --enable-unsafe-swiftshader --headless --hide-scrollbars --mute-audio --blink-settings=primaryHoverType=2,availableHoverTypes=2,primaryPointerType=4,availablePointerTypes=4 --no-sandbox --use-angle=swiftshader --enable-unsafe-swiftshader --autoplay-policy=no-user-gesture-required --user-data-dir=/Volumes/eyedisk/develop/cinewright/evidence/2026-11-05-production/task-5-measurement/tmp/reused-24-r2/playwright_chromiumdev_profile-Mv8GbX --remote-debugging-pipe --no-startup-window
+2026-11-04T21:40:27.703Z pw:browser <launched> pid=26014
+2026-11-04T21:40:28.120Z pw:browser [pid=26014][err] Trying to load the allocator multiple times. This is *not* supported.
+2026-11-04T21:40:28.185Z pw:browser [pid=26014][err] [26024:33172599:1105/064028.184960:ERROR:ui/display/mac/cv_display_link_mac.mm:188] CVDisplayLinkCreateWithCGDisplay failed. CVReturn: -6670
+2026-11-04T21:40:28.185Z pw:browser [pid=26014][err] [26024:33172666:1105/064028.185179:ERROR:ui/display/mac/cv_display_link_mac.mm:188] CVDisplayLinkCreateWithCGDisplay failed. CVReturn: -6670
+2026-11-04T21:40:28.185Z pw:browser [pid=26014][err] [26024:33172599:1105/064028.185421:ERROR:ui/display/mac/cv_display_link_mac.mm:188] CVDisplayLinkCreateWithCGDisplay failed. CVReturn: -6670
+2026-11-04T21:40:28.185Z pw:browser [pid=26014][err] [26024:33172666:1105/064028.185500:ERROR:ui/display/mac/cv_display_link_mac.mm:188] CVDisplayLinkCreateWithCGDisplay failed. CVReturn: -6670
+2026-11-04T21:40:28.185Z pw:browser [pid=26014][err] [26024:33172599:1105/064028.185608:ERROR:ui/display/mac/cv_display_link_mac.mm:188] CVDisplayLinkCreateWithCGDisplay failed. CVReturn: -6670
+2026-11-04T21:40:28.186Z pw:browser [pid=26014][err] [26024:33172666:1105/064028.185669:ERROR:ui/display/mac/cv_display_link_mac.mm:188] CVDisplayLinkCreateWithCGDisplay failed. CVReturn: -6670
+2026-11-04T21:40:28.186Z pw:browser [pid=26014][err] [26024:33172599:1105/064028.185837:ERROR:ui/display/mac/cv_display_link_mac.mm:188] CVDisplayLinkCreateWithCGDisplay failed. CVReturn: -6670
+2026-11-04T21:40:28.186Z pw:browser [pid=26014][err] [26024:33172666:1105/064028.185887:ERROR:ui/display/mac/cv_display_link_mac.mm:188] CVDisplayLinkCreateWithCGDisplay failed. CVReturn: -6670
+2026-11-04T21:40:28.186Z pw:browser [pid=26014][err] [26024:33172599:1105/064028.185974:ERROR:ui/display/mac/cv_display_link_mac.mm:188] CVDisplayLinkCreateWithCGDisplay failed. CVReturn: -6670
+2026-11-04T21:40:28.186Z pw:browser [pid=26014][err] [26024:33172666:1105/064028.186006:ERROR:ui/display/mac/cv_display_link_mac.mm:188] CVDisplayLinkCreateWithCGDisplay failed. CVReturn: -6670
+2026-11-04T21:40:28.872Z pw:browser [pid=26014][err] [26044:33172875:1105/064028.872155:ERROR:sandbox/mac/system_services.cc:31] SetApplicationIsDaemon: Error Domain=NSOSStatusErrorDomain Code=-50 "paramErr: error in user parameter list" (-50)
+2026-11-04T21:40:30.793Z pw:browser [pid=26014] <gracefully close start>
+2026-11-04T21:40:30.797Z pw:browser [pid=26014][err] [26014:33172597:1105/064030.797390:ERROR:base/process/process_mac.cc:45] task_policy_set TASK_CATEGORY_POLICY: (os/kern) invalid argument (4)
+2026-11-04T21:40:30.797Z pw:browser [pid=26014][err] [26014:33172597:1105/064030.797403:ERROR:base/process/process_mac.cc:90] task_policy_set TASK_SUPPRESSION_POLICY: (os/kern) invalid argument (4)
+2026-11-04T21:40:30.976Z pw:browser [pid=26014] <process did exit: exitCode=0, signal=null>
+2026-11-04T21:40:30.977Z pw:browser [pid=26014] starting temporary directories cleanup
+2026-11-04T21:40:30.983Z pw:browser [pid=26014] finished temporary directories cleanup
+2026-11-04T21:40:30.983Z pw:browser [pid=26014] <gracefully close end>
+node:internal/modules/run_main:111
+    triggerUncaughtException(
+    ^
+
+AssertionError [ERR_ASSERTION]: Expected values to be strictly deep-equal:
++ actual - expected
+
++ [
++   {
++     at: '2026-11-04T21:40:30.533Z',
++     error: {
++       errorText: 'net::ERR_ABORTED'
++     },
++     kind: 'requestfailed',
++     url: 'http://127.0.0.1:50117/audio.wav'
++   }
++ ]
+- []
+
+    at worker (file:///Volumes/eyedisk/develop/cinewright/evidence/2026-11-05-production/measure.mjs:193:12)
+    at async file:///Volumes/eyedisk/develop/cinewright/evidence/2026-11-05-production/measure.mjs:365:37 {
+  generatedMessage: true,
+  code: 'ERR_ASSERTION',
+  actual: [
+    {
+      at: '2026-11-04T21:40:30.533Z',
+      kind: 'requestfailed',
+      url: 'http://127.0.0.1:50117/audio.wav',
+      error: { errorText: 'net::ERR_ABORTED' }
+    }
+  ],
+  expected: [],
+  operator: 'deepStrictEqual',
+  diff: 'simple'
+}
+
+Node.js v26.12.1

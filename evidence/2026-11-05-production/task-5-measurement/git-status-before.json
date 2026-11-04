@@ -1,0 +1,12 @@
+{
+  "command": [
+    "git",
+    "status",
+    "--short"
+  ],
+  "pid": 25700,
+  "code": 0,
+  "signal": null,
+  "stdout": " M README.md\n M SKILL.md\n M references/direction.md\n M references/format.md\n M references/tools.md\n?? docs/\n?? evidence/2026-11-05-production/\n?? examples/stillcuts/\n?? modules/\n?? references/craft.md\n?? references/stillcuts.md\n?? tests/artwork.test.mjs\n?? tests/cuts.test.mjs\n?? tests/stillcuts-build.test.mjs\n?? tests/stillcuts-evidence.test.mjs\n?? tests/stillcuts.integration.test.mjs\n",
+  "stderr": ""
+}

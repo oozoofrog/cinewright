@@ -1,0 +1,881 @@
+{
+  "schema": 1,
+  "status": "failed",
+  "startedAt": "2026-11-04T21:40:11.618Z",
+  "plan": "evidence/2026-11-05-production/measurement-plan.json",
+  "planSha256": "18a208d5933e1dcc3228d1b9046bfadc2f143ac92164c379d708cecf4d0fc0c2",
+  "measurementCodeSha256": "fb5e04c351f8a0ef69b145f0656b43507772878cba8e9ce34ae392b9a01c5cdb",
+  "scope": {
+    "schema": 1,
+    "task": "Task 5 bounded measurement; declared before execution",
+    "size": [
+      320,
+      180
+    ],
+    "fps": 24,
+    "framesPerCut": 24,
+    "every": 1,
+    "repetitions": 3,
+    "freshNodeWorkerPerRepetition": true,
+    "freshBrowserPerRepetition": true,
+    "caseOrder": [
+      "baseline-4",
+      "reused-24",
+      "unique-24"
+    ],
+    "cases": [
+      {
+        "id": "baseline-4",
+        "cuts": 4,
+        "uniqueAssets": 4,
+        "frames": 96,
+        "forward": [
+          0,
+          23,
+          24,
+          47,
+          48,
+          71,
+          72,
+          95
+        ],
+        "reverse": [
+          95,
+          72,
+          71,
+          48,
+          47,
+          24,
+          23,
+          0
+        ],
+        "random": [
+          63,
+          4,
+          88,
+          21,
+          50,
+          9,
+          74,
+          35
+        ]
+      },
+      {
+        "id": "reused-24",
+        "cuts": 24,
+        "uniqueAssets": 4,
+        "frames": 576,
+        "forward": [
+          0,
+          23,
+          24,
+          143,
+          144,
+          287,
+          288,
+          575
+        ],
+        "reverse": [
+          575,
+          288,
+          287,
+          144,
+          143,
+          24,
+          23,
+          0
+        ],
+        "random": [
+          383,
+          26,
+          531,
+          127,
+          302,
+          59,
+          447,
+          211
+        ]
+      },
+      {
+        "id": "unique-24",
+        "cuts": 24,
+        "uniqueAssets": 24,
+        "frames": 576,
+        "forward": [
+          0,
+          23,
+          24,
+          143,
+          144,
+          287,
+          288,
+          575
+        ],
+        "reverse": [
+          575,
+          288,
+          287,
+          144,
+          143,
+          24,
+          23,
+          0
+        ],
+        "random": [
+          383,
+          26,
+          531,
+          127,
+          302,
+          59,
+          447,
+          211
+        ]
+      }
+    ],
+    "fixture": {
+      "source": "Task-specific original synthetic SVG, not a third production example",
+      "assetSize": [
+        64,
+        36
+      ],
+      "shapesPerAsset": 3,
+      "cutAssetSelection": "cut index modulo uniqueAssets",
+      "layer": "one copied modules/artwork.mjs layer, fit contain, compiled cuts",
+      "audio": "existing mixer produces intentional silence once per case"
+    },
+    "timing": {
+      "preparation": "Generate fixture, freeze once per case and prepare silent mix before any measured browser navigation. Record freeze and mix separately.",
+      "navigationToReady": "Node performance.now immediately before page.goto(waitUntil=domcontentloaded), ending when waitForFunction observes window.direction.status().frame===0. Includes navigation, eager imports/assets, first draw and readiness polling/protocol overhead. Excludes freeze, mix, worker/browser launch and page creation.",
+      "navigationToFirstFrameReadback": "Same start; ends after a separate page.evaluate returns frame-0 state and canvas.toDataURL(image/png) to Node. Includes PNG encoding and protocol transfer, excludes disk write/hash/assertion. This proves canvas readback, not physical display presentation.",
+      "seekReadback": "Node performance.now around one awaited page.evaluate: direction.seek(index), canvas.toDataURL(image/png), returned draw state and PNG data URL. Includes pause/draw/audio-currentTime assignment, PNG encoding, serialization and protocol return. Excludes audio seek completion, requestAnimationFrame/display presentation, PNG disk write/hash/assertion and RSS/disk sampling.",
+      "seekGroups": [
+        "forward",
+        "reverse",
+        "random"
+      ],
+      "warmup": "No separate warmup. First frame precedes the 24 declared seeks; same group order for every run."
+    },
+    "rss": {
+      "method": "ps pid/ppid/rss/comm snapshot; RSS in KiB (1024 bytes). Only the fresh Node worker and its current Chrome/Chromium descendants, with exact PIDs recorded. The sampler ps process is excluded.",
+      "stages": [
+        "beforeBrowser",
+        "browserLaunched",
+        "firstFrame0",
+        "afterForward",
+        "afterReverse",
+        "afterRandom",
+        "afterBrowserClose"
+      ],
+      "limits": "Snapshots, not peak. Browser sum can double-count shared pages. Coordinator Node, ancestor/sibling/unrelated apps, exited/reparented descendants and OS memory are excluded. No global process arguments are retained."
+    },
+    "disk": {
+      "unit": "logical regular-file bytes (lstat.size), no allocated-block claim",
+      "scopes": [
+        "this case fixture",
+        "this case frozen store",
+        "this case retained silent audio",
+        "this run repository-local TMPDIR",
+        "this run readbacks/results/logs"
+      ],
+      "stages": [
+        "fixtureGenerated",
+        "afterFreeze",
+        "afterMix",
+        "beforeBrowser",
+        "browserLaunched",
+        "firstFrame0",
+        "afterForward",
+        "afterReverse",
+        "afterRandom",
+        "afterBrowserClose"
+      ],
+      "cleanup": "Playwright performs normal browser/profile cleanup on close. Retain remaining repository-local temp files and all evidence. Do not manually erase measurement evidence.",
+      "limits": "No symlink traversal; count symlinks/special files separately. Record vanished files during a non-atomic walk. Browser/OS writes outside inherited repository-local TMPDIR, OS caches/swap and APFS physical allocation are not measured. Root measurement-directory bytes accumulate and are audit-only, not a case comparison."
+    },
+    "execution": {
+      "benchmarkCommand": "TMPDIR=\"$PWD/evidence/2026-11-05-production/task-5-launch-tmp\" node evidence/2026-11-05-production/measure.mjs",
+      "runPolicy": "Exactly three cases by three fresh-browser repetitions. Existing output rendering/playback has stopped. No whole video rendering, optimization, case expansion, number-chasing rerun or broad npm test.",
+      "failurePolicy": "Preserve partial performance.json, per-run result and full stdout/stderr/events. Stop on a failure. Explain cause before any necessary retry; never overwrite an earlier run."
+    }
+  },
+  "coordinatorPid": 25687,
+  "coordinatorMemoryExcluded": true,
+  "sourceHead": "5bd6d89763dd500d0fd85903bf8c288775e4ac0e",
+  "versions": {
+    "node": "v26.12.1",
+    "v8": "14.6.202.34-node.40",
+    "playwrightCore": "1.64.1",
+    "three": "0.180.0",
+    "ffmpeg": "ffmpeg version 9.0.2 Copyright (c) 2000-2026 the FFmpeg developers",
+    "os": {
+      "platform": "darwin",
+      "release": "27.2.0",
+      "version": "Darwin Kernel Version 27.2.0: Wed Oct 14 23:44:56 PDT 2026; root:xnu-13432.41.4~25/RELEASE_ARM64_T6041",
+      "arch": "arm64",
+      "cpuModel": "Apple M4 Pro",
+      "logicalCPUs": 12,
+      "totalMemoryBytes": 25769803776,
+      "swVers": "ProductName:\t\tmacOS\nProductVersion:\t\t27.2\nBuildVersion:\t\t26B123"
+    }
+  },
+  "cases": [
+    {
+      "id": "baseline-4",
+      "fixture": "/Volumes/eyedisk/develop/cinewright/evidence/2026-11-05-production/task-5-measurement/fixtures/baseline-4",
+      "store": "/Volumes/eyedisk/develop/cinewright/evidence/2026-11-05-production/task-5-measurement/stores/baseline-4",
+      "audioFile": "/Volumes/eyedisk/develop/cinewright/evidence/2026-11-05-production/task-5-measurement/audio/baseline-4/mix.wav",
+      "revision": "ddc2b82474ed99437967d0ef7f797ca28aa153d1dddfce6ca4b3bfbfede0f094",
+      "counts": {
+        "cuts": 4,
+        "frames": 96,
+        "fps": 24,
+        "size": [
+          320,
+          180
+        ],
+        "assetReferences": 4,
+        "uniqueFiles": 4,
+        "uniqueContents": 4,
+        "reuseReferences": 0,
+        "assetLogicalBytes": 964
+      },
+      "assetFiles": [
+        {
+          "file": "assets/art-00.svg",
+          "bytes": 241,
+          "sha256": "5f26ec417857cf1fee1c751a42f9d8144634e5828d37ba8ce38ca018563f6200",
+          "uses": 1
+        },
+        {
+          "file": "assets/art-01.svg",
+          "bytes": 241,
+          "sha256": "b4d08f35144ce6db39a46cf7750291aa1761920e3d96572d94acbe93e87a4640",
+          "uses": 1
+        },
+        {
+          "file": "assets/art-02.svg",
+          "bytes": 241,
+          "sha256": "a2ba21077baf8f11a6b942d6fcce843ea2276407a1385ae423a65cee03c45abb",
+          "uses": 1
+        },
+        {
+          "file": "assets/art-03.svg",
+          "bytes": 241,
+          "sha256": "6daf4530c9e3cb918d92f8070d57a3be24660035595d6fe46bc839fe936d6729",
+          "uses": 1
+        }
+      ],
+      "freezeMs": 15.332417000000007,
+      "audioMixMs": 38.56599999999999,
+      "preparation": {
+        "fixtureGenerated": {
+          "path": "evidence/2026-11-05-production/task-5-measurement/fixtures/baseline-4",
+          "regularFiles": 8,
+          "logicalBytes": 14133,
+          "directories": 3,
+          "symlinks": 0,
+          "specialFiles": 0,
+          "vanishedDuringWalk": 0,
+          "errors": []
+        },
+        "afterFreeze": {
+          "path": "evidence/2026-11-05-production/task-5-measurement/stores/baseline-4",
+          "regularFiles": 25,
+          "logicalBytes": 2063979,
+          "directories": 10,
+          "symlinks": 0,
+          "specialFiles": 0,
+          "vanishedDuringWalk": 0,
+          "errors": []
+        },
+        "afterMix": {
+          "path": "evidence/2026-11-05-production/task-5-measurement/audio/baseline-4",
+          "regularFiles": 2,
+          "logicalBytes": 768433,
+          "directories": 1,
+          "symlinks": 0,
+          "specialFiles": 0,
+          "vanishedDuringWalk": 0,
+          "errors": []
+        }
+      },
+      "runs": [
+        {
+          "repetition": 1,
+          "directory": "evidence/2026-11-05-production/task-5-measurement/runs/baseline-4-r1",
+          "startedAt": "2026-11-04T21:40:11.751Z",
+          "status": "completed",
+          "pid": 25712,
+          "code": 0,
+          "signal": null,
+          "finishedAt": "2026-11-04T21:40:16.236Z",
+          "result": "evidence/2026-11-05-production/task-5-measurement/runs/baseline-4-r1/result.json",
+          "browserVersion": "156.0.8078.80",
+          "navigationToReadyMs": 729.0821249999999,
+          "navigationToFirstFrameReadbackMs": 1111.40875,
+          "browserLaunchMs": 735.627208,
+          "seekSummariesMs": {
+            "forward": {
+              "n": 8,
+              "min": 2.1114589999997406,
+              "median": 8.985500000000002,
+              "max": 506.1279169999998,
+              "mean": 142.5568698749999
+            },
+            "reverse": {
+              "n": 8,
+              "min": 1.3223330000000715,
+              "median": 1.4268334999999297,
+              "max": 2.1110829999997804,
+              "mean": 1.6305051249999565
+            },
+            "random": {
+              "n": 8,
+              "min": 1.2354999999997744,
+              "median": 1.3781670000000759,
+              "max": 2.828708000000006,
+              "mean": 1.6113437500000032
+            }
+          },
+          "nodeSampledMaximumKiB": 149008,
+          "browserSampledMaximumSumKiB": 1268736,
+          "temporarySampledMaximumLogicalBytes": 7259262,
+          "temporaryAfterCloseLogicalBytes": 0,
+          "scopeDiskAfterClose": {
+            "fixture": {
+              "path": "evidence/2026-11-05-production/task-5-measurement/fixtures/baseline-4",
+              "regularFiles": 8,
+              "logicalBytes": 14133,
+              "directories": 3,
+              "symlinks": 0,
+              "specialFiles": 0,
+              "vanishedDuringWalk": 0,
+              "errors": []
+            },
+            "store": {
+              "path": "evidence/2026-11-05-production/task-5-measurement/stores/baseline-4",
+              "regularFiles": 25,
+              "logicalBytes": 2063979,
+              "directories": 10,
+              "symlinks": 0,
+              "specialFiles": 0,
+              "vanishedDuringWalk": 0,
+              "errors": []
+            },
+            "audio": {
+              "path": "evidence/2026-11-05-production/task-5-measurement/audio/baseline-4",
+              "regularFiles": 2,
+              "logicalBytes": 768433,
+              "directories": 1,
+              "symlinks": 0,
+              "specialFiles": 0,
+              "vanishedDuringWalk": 0,
+              "errors": []
+            },
+            "temporary": {
+              "path": "evidence/2026-11-05-production/task-5-measurement/tmp/baseline-4-r1",
+              "regularFiles": 0,
+              "logicalBytes": 0,
+              "directories": 1,
+              "symlinks": 0,
+              "specialFiles": 0,
+              "vanishedDuringWalk": 0,
+              "errors": []
+            },
+            "run": {
+              "path": "evidence/2026-11-05-production/task-5-measurement/runs/baseline-4-r1",
+              "regularFiles": 30,
+              "logicalBytes": 143471,
+              "directories": 2,
+              "symlinks": 0,
+              "specialFiles": 0,
+              "vanishedDuringWalk": 0,
+              "errors": []
+            }
+          }
+        },
+        {
+          "repetition": 2,
+          "directory": "evidence/2026-11-05-production/task-5-measurement/runs/baseline-4-r2",
+          "startedAt": "2026-11-04T21:40:16.238Z",
+          "status": "completed",
+          "pid": 25779,
+          "code": 0,
+          "signal": null,
+          "finishedAt": "2026-11-04T21:40:19.863Z",
+          "result": "evidence/2026-11-05-production/task-5-measurement/runs/baseline-4-r2/result.json",
+          "browserVersion": "156.0.8078.80",
+          "navigationToReadyMs": 600.7543749999999,
+          "navigationToFirstFrameReadbackMs": 1081.631958,
+          "browserLaunchMs": 311.944958,
+          "seekSummariesMs": {
+            "forward": {
+              "n": 8,
+              "min": 2.4868329999999332,
+              "median": 4.727374999999938,
+              "max": 435.4332079999999,
+              "mean": 83.621031125
+            },
+            "reverse": {
+              "n": 8,
+              "min": 1.318667000000005,
+              "median": 1.4527079999998023,
+              "max": 2.198167000000012,
+              "mean": 1.5629376250000178
+            },
+            "random": {
+              "n": 8,
+              "min": 1.2255409999997937,
+              "median": 1.5147294999999303,
+              "max": 3.0552090000001044,
+              "mean": 1.8710366250000448
+            }
+          },
+          "nodeSampledMaximumKiB": 149648,
+          "browserSampledMaximumSumKiB": 1265120,
+          "temporarySampledMaximumLogicalBytes": 7259262,
+          "temporaryAfterCloseLogicalBytes": 0,
+          "scopeDiskAfterClose": {
+            "fixture": {
+              "path": "evidence/2026-11-05-production/task-5-measurement/fixtures/baseline-4",
+              "regularFiles": 8,
+              "logicalBytes": 14133,
+              "directories": 3,
+              "symlinks": 0,
+              "specialFiles": 0,
+              "vanishedDuringWalk": 0,
+              "errors": []
+            },
+            "store": {
+              "path": "evidence/2026-11-05-production/task-5-measurement/stores/baseline-4",
+              "regularFiles": 25,
+              "logicalBytes": 2063979,
+              "directories": 10,
+              "symlinks": 0,
+              "specialFiles": 0,
+              "vanishedDuringWalk": 0,
+              "errors": []
+            },
+            "audio": {
+              "path": "evidence/2026-11-05-production/task-5-measurement/audio/baseline-4",
+              "regularFiles": 2,
+              "logicalBytes": 768433,
+              "directories": 1,
+              "symlinks": 0,
+              "specialFiles": 0,
+              "vanishedDuringWalk": 0,
+              "errors": []
+            },
+            "temporary": {
+              "path": "evidence/2026-11-05-production/task-5-measurement/tmp/baseline-4-r2",
+              "regularFiles": 0,
+              "logicalBytes": 0,
+              "directories": 1,
+              "symlinks": 0,
+              "specialFiles": 0,
+              "vanishedDuringWalk": 0,
+              "errors": []
+            },
+            "run": {
+              "path": "evidence/2026-11-05-production/task-5-measurement/runs/baseline-4-r2",
+              "regularFiles": 30,
+              "logicalBytes": 143867,
+              "directories": 2,
+              "symlinks": 0,
+              "specialFiles": 0,
+              "vanishedDuringWalk": 0,
+              "errors": []
+            }
+          }
+        },
+        {
+          "repetition": 3,
+          "directory": "evidence/2026-11-05-production/task-5-measurement/runs/baseline-4-r3",
+          "startedAt": "2026-11-04T21:40:19.864Z",
+          "status": "completed",
+          "pid": 25836,
+          "code": 0,
+          "signal": null,
+          "finishedAt": "2026-11-04T21:40:23.695Z",
+          "result": "evidence/2026-11-05-production/task-5-measurement/runs/baseline-4-r3/result.json",
+          "browserVersion": "156.0.8078.80",
+          "navigationToReadyMs": 904.765333,
+          "navigationToFirstFrameReadbackMs": 1249.363458,
+          "browserLaunchMs": 317.57124999999996,
+          "seekSummariesMs": {
+            "forward": {
+              "n": 8,
+              "min": 3.2162920000000668,
+              "median": 4.375541500000054,
+              "max": 407.0026249999996,
+              "mean": 79.47634912499996
+            },
+            "reverse": {
+              "n": 8,
+              "min": 1.3524170000000595,
+              "median": 1.4766664999999648,
+              "max": 2.145582999999988,
+              "mean": 1.5657446250000362
+            },
+            "random": {
+              "n": 8,
+              "min": 1.2853749999999309,
+              "median": 1.5211874999999964,
+              "max": 2.870958999999857,
+              "mean": 1.866505249999875
+            }
+          },
+          "nodeSampledMaximumKiB": 148000,
+          "browserSampledMaximumSumKiB": 1259488,
+          "temporarySampledMaximumLogicalBytes": 7259262,
+          "temporaryAfterCloseLogicalBytes": 0,
+          "scopeDiskAfterClose": {
+            "fixture": {
+              "path": "evidence/2026-11-05-production/task-5-measurement/fixtures/baseline-4",
+              "regularFiles": 8,
+              "logicalBytes": 14133,
+              "directories": 3,
+              "symlinks": 0,
+              "specialFiles": 0,
+              "vanishedDuringWalk": 0,
+              "errors": []
+            },
+            "store": {
+              "path": "evidence/2026-11-05-production/task-5-measurement/stores/baseline-4",
+              "regularFiles": 25,
+              "logicalBytes": 2063979,
+              "directories": 10,
+              "symlinks": 0,
+              "specialFiles": 0,
+              "vanishedDuringWalk": 0,
+              "errors": []
+            },
+            "audio": {
+              "path": "evidence/2026-11-05-production/task-5-measurement/audio/baseline-4",
+              "regularFiles": 2,
+              "logicalBytes": 768433,
+              "directories": 1,
+              "symlinks": 0,
+              "specialFiles": 0,
+              "vanishedDuringWalk": 0,
+              "errors": []
+            },
+            "temporary": {
+              "path": "evidence/2026-11-05-production/task-5-measurement/tmp/baseline-4-r3",
+              "regularFiles": 0,
+              "logicalBytes": 0,
+              "directories": 1,
+              "symlinks": 0,
+              "specialFiles": 0,
+              "vanishedDuringWalk": 0,
+              "errors": []
+            },
+            "run": {
+              "path": "evidence/2026-11-05-production/task-5-measurement/runs/baseline-4-r3",
+              "regularFiles": 30,
+              "logicalBytes": 143880,
+              "directories": 2,
+              "symlinks": 0,
+              "specialFiles": 0,
+              "vanishedDuringWalk": 0,
+              "errors": []
+            }
+          }
+        }
+      ],
+      "summary": {
+        "navigationToReadyMs": {
+          "n": 3,
+          "min": 600.7543749999999,
+          "median": 729.0821249999999,
+          "max": 904.765333,
+          "mean": 744.8672776666666
+        },
+        "navigationToFirstFrameReadbackMs": {
+          "n": 3,
+          "min": 1081.631958,
+          "median": 1111.40875,
+          "max": 1249.363458,
+          "mean": 1147.4680553333335
+        },
+        "browserLaunchMs": {
+          "n": 3,
+          "min": 311.944958,
+          "median": 317.57124999999996,
+          "max": 735.627208,
+          "mean": 455.0478053333333
+        },
+        "nodeSampledMaximumKiB": {
+          "n": 3,
+          "min": 148000,
+          "median": 149008,
+          "max": 149648,
+          "mean": 148885.33333333334
+        },
+        "browserSampledMaximumSumKiB": {
+          "n": 3,
+          "min": 1259488,
+          "median": 1265120,
+          "max": 1268736,
+          "mean": 1264448
+        },
+        "temporarySampledMaximumLogicalBytes": {
+          "n": 3,
+          "min": 7259262,
+          "median": 7259262,
+          "max": 7259262,
+          "mean": 7259262
+        },
+        "perRunSeekMediansMs": {
+          "forward": {
+            "n": 3,
+            "min": 4.375541500000054,
+            "median": 4.727374999999938,
+            "max": 8.985500000000002,
+            "mean": 6.029472166666665
+          },
+          "reverse": {
+            "n": 3,
+            "min": 1.4268334999999297,
+            "median": 1.4527079999998023,
+            "max": 1.4766664999999648,
+            "mean": 1.4520693333332322
+          },
+          "random": {
+            "n": 3,
+            "min": 1.3781670000000759,
+            "median": 1.5147294999999303,
+            "max": 1.5211874999999964,
+            "mean": 1.4713613333333342
+          }
+        }
+      }
+    },
+    {
+      "id": "reused-24",
+      "fixture": "/Volumes/eyedisk/develop/cinewright/evidence/2026-11-05-production/task-5-measurement/fixtures/reused-24",
+      "store": "/Volumes/eyedisk/develop/cinewright/evidence/2026-11-05-production/task-5-measurement/stores/reused-24",
+      "audioFile": "/Volumes/eyedisk/develop/cinewright/evidence/2026-11-05-production/task-5-measurement/audio/reused-24/mix.wav",
+      "revision": "16a5290d78a75919deb5f5bcf4c55b0a7a1081495d1f8762015cce8c5f146ce4",
+      "counts": {
+        "cuts": 24,
+        "frames": 576,
+        "fps": 24,
+        "size": [
+          320,
+          180
+        ],
+        "assetReferences": 24,
+        "uniqueFiles": 4,
+        "uniqueContents": 4,
+        "reuseReferences": 20,
+        "assetLogicalBytes": 964
+      },
+      "assetFiles": [
+        {
+          "file": "assets/art-00.svg",
+          "bytes": 241,
+          "sha256": "5f26ec417857cf1fee1c751a42f9d8144634e5828d37ba8ce38ca018563f6200",
+          "uses": 6
+        },
+        {
+          "file": "assets/art-01.svg",
+          "bytes": 241,
+          "sha256": "b4d08f35144ce6db39a46cf7750291aa1761920e3d96572d94acbe93e87a4640",
+          "uses": 6
+        },
+        {
+          "file": "assets/art-02.svg",
+          "bytes": 241,
+          "sha256": "a2ba21077baf8f11a6b942d6fcce843ea2276407a1385ae423a65cee03c45abb",
+          "uses": 6
+        },
+        {
+          "file": "assets/art-03.svg",
+          "bytes": 241,
+          "sha256": "6daf4530c9e3cb918d92f8070d57a3be24660035595d6fe46bc839fe936d6729",
+          "uses": 6
+        }
+      ],
+      "freezeMs": 14.584834000001138,
+      "audioMixMs": 56.35662499999853,
+      "preparation": {
+        "fixtureGenerated": {
+          "path": "evidence/2026-11-05-production/task-5-measurement/fixtures/reused-24",
+          "regularFiles": 8,
+          "logicalBytes": 21397,
+          "directories": 3,
+          "symlinks": 0,
+          "specialFiles": 0,
+          "vanishedDuringWalk": 0,
+          "errors": []
+        },
+        "afterFreeze": {
+          "path": "evidence/2026-11-05-production/task-5-measurement/stores/reused-24",
+          "regularFiles": 25,
+          "logicalBytes": 2071243,
+          "directories": 10,
+          "symlinks": 0,
+          "specialFiles": 0,
+          "vanishedDuringWalk": 0,
+          "errors": []
+        },
+        "afterMix": {
+          "path": "evidence/2026-11-05-production/task-5-measurement/audio/reused-24",
+          "regularFiles": 2,
+          "logicalBytes": 4608433,
+          "directories": 1,
+          "symlinks": 0,
+          "specialFiles": 0,
+          "vanishedDuringWalk": 0,
+          "errors": []
+        }
+      },
+      "runs": [
+        {
+          "repetition": 1,
+          "directory": "evidence/2026-11-05-production/task-5-measurement/runs/reused-24-r1",
+          "startedAt": "2026-11-04T21:40:23.771Z",
+          "status": "completed",
+          "pid": 25941,
+          "code": 0,
+          "signal": null,
+          "finishedAt": "2026-11-04T21:40:27.417Z",
+          "result": "evidence/2026-11-05-production/task-5-measurement/runs/reused-24-r1/result.json",
+          "browserVersion": "156.0.8078.80",
+          "navigationToReadyMs": 844.423791,
+          "navigationToFirstFrameReadbackMs": 1108.9748749999999,
+          "browserLaunchMs": 313.429208,
+          "seekSummariesMs": {
+            "forward": {
+              "n": 8,
+              "min": 3.6323750000001382,
+              "median": 5.065770999999813,
+              "max": 420.27033299999994,
+              "mean": 81.73078624999994
+            },
+            "reverse": {
+              "n": 8,
+              "min": 1.3371250000000146,
+              "median": 1.4598130000001674,
+              "max": 2.715208000000075,
+              "mean": 1.6708906250000837
+            },
+            "random": {
+              "n": 8,
+              "min": 1.354291000000103,
+              "median": 1.524208499999986,
+              "max": 2.7689580000001115,
+              "mean": 1.7606768750000583
+            }
+          },
+          "nodeSampledMaximumKiB": 146464,
+          "browserSampledMaximumSumKiB": 1279664,
+          "temporarySampledMaximumLogicalBytes": 7259246,
+          "temporaryAfterCloseLogicalBytes": 0,
+          "scopeDiskAfterClose": {
+            "fixture": {
+              "path": "evidence/2026-11-05-production/task-5-measurement/fixtures/reused-24",
+              "regularFiles": 8,
+              "logicalBytes": 21397,
+              "directories": 3,
+              "symlinks": 0,
+              "specialFiles": 0,
+              "vanishedDuringWalk": 0,
+              "errors": []
+            },
+            "store": {
+              "path": "evidence/2026-11-05-production/task-5-measurement/stores/reused-24",
+              "regularFiles": 25,
+              "logicalBytes": 2071243,
+              "directories": 10,
+              "symlinks": 0,
+              "specialFiles": 0,
+              "vanishedDuringWalk": 0,
+              "errors": []
+            },
+            "audio": {
+              "path": "evidence/2026-11-05-production/task-5-measurement/audio/reused-24",
+              "regularFiles": 2,
+              "logicalBytes": 4608433,
+              "directories": 1,
+              "symlinks": 0,
+              "specialFiles": 0,
+              "vanishedDuringWalk": 0,
+              "errors": []
+            },
+            "temporary": {
+              "path": "evidence/2026-11-05-production/task-5-measurement/tmp/reused-24-r1",
+              "regularFiles": 0,
+              "logicalBytes": 0,
+              "directories": 1,
+              "symlinks": 0,
+              "specialFiles": 0,
+              "vanishedDuringWalk": 0,
+              "errors": []
+            },
+            "run": {
+              "path": "evidence/2026-11-05-production/task-5-measurement/runs/reused-24-r1",
+              "regularFiles": 30,
+              "logicalBytes": 144004,
+              "directories": 2,
+              "symlinks": 0,
+              "specialFiles": 0,
+              "vanishedDuringWalk": 0,
+              "errors": []
+            }
+          }
+        },
+        {
+          "repetition": 2,
+          "directory": "evidence/2026-11-05-production/task-5-measurement/runs/reused-24-r2",
+          "startedAt": "2026-11-04T21:40:27.418Z",
+          "status": "failed",
+          "pid": 26009,
+          "code": 1,
+          "signal": null,
+          "finishedAt": "2026-11-04T21:40:31.058Z"
+        }
+      ]
+    }
+  ],
+  "failures": [
+    {
+      "at": "2026-11-04T21:40:31.058Z",
+      "error": "AssertionError [ERR_ASSERTION]: reused-24-r2 failed; full logs are in /Volumes/eyedisk/develop/cinewright/evidence/2026-11-05-production/task-5-measurement/runs/reused-24-r2\n\n1 !== 0\n\n    at coordinator (file:///Volumes/eyedisk/develop/cinewright/evidence/2026-11-05-production/measure.mjs:324:16)\n    at async file:///Volumes/eyedisk/develop/cinewright/evidence/2026-11-05-production/measure.mjs:366:123"
+    }
+  ],
+  "claims": {
+    "peakMemory": false,
+    "uniquePhysicalRAM": false,
+    "coldOSCache": false,
+    "scalability": false,
+    "wholeVideoRendered": false,
+    "physicalDisplayPresentationMeasured": false,
+    "finalAcceptance": false
+  },
+  "sourceHashes": {
+    "modules/cuts.mjs": "9e4e40e55efd03bb6d53ca214068f6cabc88025d5d3fbf2f161487aa7516e784",
+    "modules/artwork.mjs": "825482b415cfd645e853ac85b6e4dd048130634517bfacea74dc78924992abfd",
+    "runtime/compositor.mjs": "77403609f91f19a351bc208ebafae1f2b8a148e1bedf24c67eda7100a53eb339",
+    "runtime/player.mjs": "621ccb51cb7651802007f79b708f08d5cf053066947b3bf4a755ef728a86bfb0",
+    "runtime/timeline.mjs": "a7533564e29a503ca35b690459f40e9db3ee249b21b03ab45f0bc93de61cc1d3",
+    "scripts/revisions.mjs": "44fa3baf89eaad1c584ac724723df186877a7cef46f35ced9d398710c747c516",
+    "scripts/server.mjs": "1c10818a1e28fd47dff72a0c13797b1cbbea13fc071859113ebe8e4974835ab2",
+    "scripts/execution.mjs": "73a005ee1ec131838e0493e225d6fc09bfc7f0407d88e58373798f0a9a03b794",
+    "scripts/audio.mjs": "bf0f7de2fb731db43bff719e7ad3514ef0c63a171a84ec47e830d02ee650f69c",
+    "package-lock.json": "bed5348ff23d04b1be7db2e6e3fae77bf5b46a7ea8d2b966b5205fce601f3a75"
+  },
+  "finishedAt": "2026-11-04T21:40:31.058Z",
+  "measurementDirectory": {
+    "path": "evidence/2026-11-05-production/task-5-measurement",
+    "regularFiles": 229,
+    "logicalBytes": 10286034,
+    "directories": 50,
+    "symlinks": 0,
+    "specialFiles": 0,
+    "vanishedDuringWalk": 0,
+    "errors": []
+  }
+}

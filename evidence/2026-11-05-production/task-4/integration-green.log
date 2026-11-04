@@ -1,0 +1,15 @@
+Stillcuts build records: /Volumes/eyedisk/develop/cinewright/.direction/test-runs/stillcuts-build-cV8D0f
+✔ real stillcuts build preserves valid unchanged input and reports a distinct boundary fixture (101.283042ms)
+✔ real stillcuts build preserves valid touch-equals-fixture-target input and reports a distinct boundary fixture (100.5025ms)
+✔ real stillcuts build preserves valid release-before-fixture-target input and reports a distinct boundary fixture (98.549083ms)
+Stillcuts integration records: /Volumes/eyedisk/develop/cinewright/.direction/test-runs/stillcuts-integration-aaawQy
+✔ native pixels, frame order, CLI frames and copied frozen helpers preserve the stillcut contract (29520.374417ms)
+✔ actual Canvas cover clipping preserves alpha, caller graphics state and current path (2651.121917ms)
+ℹ tests 5
+ℹ suites 0
+ℹ pass 5
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 32389.374583

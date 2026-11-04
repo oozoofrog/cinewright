@@ -4,6 +4,10 @@
 
 [SKILL.md](SKILL.md)에서 제작을 시작한다. 작품의 시간, 자산, 개별 표현과 선택적 교환 값을 작성하면 같은 개정본으로 대화형 재생, 프레임 추출, 구간·전체 렌더와 MP4 비교를 할 수 있다.
 
+미완성 의뢰는 [제작 전 협의](references/direction.md)에서 목적·필수 행동·대안·위임으로 구체화한다. [여섯 분야의 작법](references/craft.md)은 출처 내용과 애니메이션 적용을 구분한다. [스틸컷 지침](references/stillcuts.md)은 원화 선택·시간·배치와 두 재사용 helper의 계약을 다룬다.
+
+[하루를 내려놓는 자리](examples/stillcuts/README.md)는 같은 가상 의뢰를 넓은 구도의 긴 hold와 세부에서 방으로 확장하는 컷으로 구성한 8초·7초 예제다. 두 프로젝트는 같은 자체 SVG 3개와 복사한 helper를 쓴다. `node examples/stillcuts/build.mjs`로 다시 생성한다. [수정본 영상·기술 검증·제한된 성능 기록](evidence/2026-11-05-production/RESULT.md)과 [구간별 독립 검토 종합](evidence/2026-11-05-production/REVIEW.md)에서 확인 범위와 남은 감상 판단을 구분한다.
+
 | 작품 | 재생 파일 | 프로젝트 |
 | --- | --- | --- |
 | 신호의 항구 · 밤의 통로 | [24초 MP4](outputs/harbor-v2/harbor-v2.mp4), [기존안과 비교](outputs/harbor-v2/index.html) | [work.json](examples/harbor-v2/work.json) |
@@ -28,10 +32,9 @@ node /Users/oozoofrog/.codex/skills/cinewright/scripts/direction.mjs preview ./m
 
 ## 실행
 
-이 디렉터리에서 실행한다. Node.js, FFmpeg/FFprobe, Chromium이 필요하다.
+이 디렉터리에서 실행한다. Node.js 22 이상, FFmpeg/FFprobe, Chromium이 필요하다. 기존 의존성이 준비되어 있으면 재설치하지 않는다. 준비되지 않은 체크아웃에서만 `npm ci`를 먼저 실행한다.
 
 ```sh
-npm ci
 npm test
 node scripts/direction.mjs doctor
 node scripts/direction.mjs play examples/harbor-landfall
@@ -50,7 +53,7 @@ node scripts/direction.mjs render examples/harbor-landfall
 
 ## 저장소 구성
 
-`scripts/`와 `runtime/`은 실행 도구, `examples/`는 제작 입력, `tests/`는 회귀 검사다. `SKILL.md`와 `references/`에 제작 지침을 둔다. `outputs/`와 `evidence/`에는 현재 검증 작품과 제작 근거를 함께 보관한다.
+`scripts/`와 `runtime/`은 실행 도구, `modules/`는 프로젝트에 복사하는 컷·원화 helper, `examples/`는 제작 입력, `tests/`는 회귀 검사다. `SKILL.md`와 `references/`에 제작 지침을 둔다. `outputs/`와 `evidence/`에는 현재 검증 작품과 제작 근거를 함께 보관한다.
 
 `node_modules/`와 `.direction/`은 로컬 실행 데이터다. 새 체크아웃에서는 `npm ci`를 실행하고 예제 경로로 렌더한다. 기존 개정본 해시와 작업 ID를 사용하는 명령은 해당 `.direction/` 기록이 있는 환경에서 실행한다.
 

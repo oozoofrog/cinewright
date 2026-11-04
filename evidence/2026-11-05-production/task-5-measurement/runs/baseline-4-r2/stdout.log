@@ -1,0 +1,7 @@
+{"case":"baseline-4","repetition":2,"stage":"beforeBrowser","nodeKiB":58928,"browserKiB":0,"temporaryBytes":0}
+{"case":"baseline-4","repetition":2,"stage":"browserLaunched","nodeKiB":133872,"browserKiB":523232,"temporaryBytes":1433672}
+{"case":"baseline-4","repetition":2,"stage":"firstFrame0","nodeKiB":148400,"browserKiB":1229408,"temporaryBytes":6879958}
+{"case":"baseline-4","repetition":2,"stage":"afterForward","nodeKiB":149056,"browserKiB":1257360,"temporaryBytes":7259262}
+{"case":"baseline-4","repetition":2,"stage":"afterReverse","nodeKiB":149648,"browserKiB":1263984,"temporaryBytes":7259262}
+{"case":"baseline-4","repetition":2,"stage":"afterRandom","nodeKiB":147136,"browserKiB":1265120,"temporaryBytes":7259262}
+{"case":"baseline-4","repetition":2,"stage":"afterBrowserClose","nodeKiB":147856,"browserKiB":0,"temporaryBytes":0}

@@ -1,0 +1,60 @@
+{
+  "status": "LOCAL_SOURCE_AND_OWNERSHIP_VERIFIED",
+  "at": "2026-11-04T22:08:42.670828+00:00",
+  "root": "/Volumes/eyedisk/develop/cinewright",
+  "head": "5bd6d89763dd500d0fd85903bf8c288775e4ac0e",
+  "branch": "main",
+  "trackedChanged": [
+    "README.md",
+    "SKILL.md",
+    "references/direction.md",
+    "references/format.md",
+    "references/tools.md"
+  ],
+  "authorizedNewPathPrefixes": [
+    "docs/",
+    "evidence/2026-11-05-production/",
+    "examples/stillcuts/",
+    "modules/",
+    "references/craft.md",
+    "references/stillcuts.md",
+    "tests/artwork.test.mjs",
+    "tests/cuts.test.mjs",
+    "tests/stillcuts-build.test.mjs",
+    "tests/stillcuts-evidence.test.mjs",
+    "tests/stillcuts.integration.test.mjs"
+  ],
+  "allGitVisibleNewPathsAuthorized": true,
+  "codeSha256": {
+    "modules/cuts.mjs": "9e4e40e55efd03bb6d53ca214068f6cabc88025d5d3fbf2f161487aa7516e784",
+    "modules/artwork.mjs": "825482b415cfd645e853ac85b6e4dd048130634517bfacea74dc78924992abfd",
+    "examples/stillcuts/scene.mjs": "7f0057c1aee468e84c08757d444eb46da9e23ce14f77c1fcda0aaba77ef9c1ec",
+    "examples/stillcuts/a/scene.mjs": "7f0057c1aee468e84c08757d444eb46da9e23ce14f77c1fcda0aaba77ef9c1ec",
+    "examples/stillcuts/b/scene.mjs": "7f0057c1aee468e84c08757d444eb46da9e23ce14f77c1fcda0aaba77ef9c1ec",
+    "tests/cuts.test.mjs": "ea02afb46c6270f43e7573e3fe9189f96889ace5248b3fb3fb521139f7772b2a",
+    "tests/artwork.test.mjs": "e762d33b0fa3d640cea4df4c137394c0d328d9a4f124c86b08a7ec921cc3fa45",
+    "tests/stillcuts-build.test.mjs": "85269fc989a4d60360c7f7eb181e69cf898de5cc5af469febf7a041be3d8e16b",
+    "tests/stillcuts-evidence.test.mjs": "21f02a928fc2d28394282482e2d82a0bd80ed8a1c80a953916940a4650f27052",
+    "tests/stillcuts.integration.test.mjs": "70894aabcb1c55a9c57605edbd7861f83104b34e453c7aac0044e970fe427f81"
+  },
+  "allSevenScopedReviewedHashesMatched": true,
+  "independentReview": {
+    "path": "/Volumes/eyedisk/develop/cinewright/.superpowers/sdd/2026-11-05-cinewright-production/final-fix-1-re-review.md",
+    "sha256": "af2145c65b446e876bd3a3e2777655b1604043008c2ae97d4fb725a9dddb50eb",
+    "verdict": "No remaining findings; ready for local delivery after status/ownership wording"
+  },
+  "tests": {
+    "path": "/Volumes/eyedisk/develop/cinewright/evidence/2026-11-05-production/final-fix-1/npm-test.log",
+    "sha256": "441561724b34233a5008dd7fab16bf78d55cc795aed0b24a2d4ef90661c2b3c9",
+    "passed": 364,
+    "failed": 0,
+    "rerunByParent": false
+  },
+  "remainingCloseout": "Only status and ownership wording/link update in RESULT.md, REVIEW.md and examples/stillcuts/README.md; no code changes authorized in this closeout. Parent will inspect its diff.",
+  "limits": [
+    "Reviewed videos remain the explicitly identified pre-own-key-hardening revisions; no new render claimed.",
+    "Direct continuous viewing/listening, A normal-speed contact readability, audience response and user acceptance remain unverified.",
+    "Protected external paths are covered only by the prior scoped receipts; not re-audited here.",
+    "No commit, branch/worktree creation, install, publish or deployment."
+  ]
+}

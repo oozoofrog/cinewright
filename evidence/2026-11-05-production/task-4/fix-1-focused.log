@@ -1,0 +1,13 @@
+Stillcuts evidence records: /Volumes/eyedisk/develop/cinewright/.direction/test-runs/stillcuts-evidence-hptaRw
+✔ Task 4 refuses completed and partial destinations without changing retained records (4.807791ms)
+✔ deliberate subprocess failure retains stdout, stderr and status before rejection (90.747833ms)
+✔ frozen authored bounds reject a same-length wrong span and wrong frame/full ranges (1.109458ms)
+✔ actual video readiness has bounded timeout and media-error paths (3391.086792ms)
+ℹ tests 4
+ℹ suites 0
+ℹ pass 4
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 3600.278333

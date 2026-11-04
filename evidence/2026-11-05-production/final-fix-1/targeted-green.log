@@ -1,0 +1,16 @@
+Stillcuts build records: /Volumes/eyedisk/develop/cinewright/.direction/test-runs/stillcuts-build-I2WGPh
+✔ real stillcuts build preserves valid unchanged input and reports a distinct boundary fixture (97.486042ms)
+✔ real stillcuts build preserves valid touch-equals-fixture-target input and reports a distinct boundary fixture (95.584833ms)
+✔ real stillcuts build preserves valid release-before-fixture-target input and reports a distinct boundary fixture (94.945958ms)
+✔ copied stillcuts a draws all three artworks after editing the source ID to ordinary-contact (2.569166ms)
+✔ copied stillcuts a draws all three artworks after editing the source ID to __proto__ (0.802791ms)
+✔ copied stillcuts b draws all three artworks after editing the source ID to ordinary-contact (2.133375ms)
+✔ copied stillcuts b draws all three artworks after editing the source ID to __proto__ (0.616916ms)
+ℹ tests 7
+ℹ suites 0
+ℹ pass 7
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 391.453666

@@ -1,0 +1,14 @@
+{
+  "frame": 120,
+  "values": {},
+  "exposures": {
+    "tableau": {
+      "frame": 120,
+      "value": "remaining"
+    },
+    "window-light": {
+      "frame": 120,
+      "value": "remaining"
+    }
+  }
+}

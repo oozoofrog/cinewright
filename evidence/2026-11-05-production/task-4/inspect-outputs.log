@@ -1,0 +1,2 @@
+{"example":"a","evaluatedFrames":77,"maximumMeanAbsoluteRGB":0.786121238425926,"maximumRMSE":1.4369498746058018,"maximumPixelRGBDifference":43,"note":"Lossy H.264 differences are measured, not required to be pixel-identical.","peak":0}
+{"example":"b","evaluatedFrames":83,"maximumMeanAbsoluteRGB":0.6926678240740741,"maximumRMSE":1.3812096734518757,"maximumPixelRGBDifference":44,"note":"Lossy H.264 differences are measured, not required to be pixel-identical.","peak":0}

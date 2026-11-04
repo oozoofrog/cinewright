@@ -1,0 +1,3 @@
+PASS: 10 owned documents; 56 local file links resolve. Heading fragments and remote URLs are outside this check.
+PASS: owned text files have final newline and no trailing whitespace; copied helpers included.
+PASS: no unexpected Japanese/Chinese text matched the prior bounded owned-source scan.

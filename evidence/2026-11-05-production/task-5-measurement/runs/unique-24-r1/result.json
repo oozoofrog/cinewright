@@ -1,0 +1,1348 @@
+{
+  "case": "unique-24",
+  "repetition": 1,
+  "status": "completed",
+  "startedAt": "2026-11-04T21:43:15.327Z",
+  "nodePid": 27004,
+  "tmpdir": "evidence/2026-11-05-production/task-5-measurement/tmp/unique-24-r1",
+  "revision": "ec93f1a4f306737b88eca519996a7fc6c1c7c25db8d9b0e4d33689c98973885c",
+  "stages": [
+    {
+      "stage": "beforeBrowser",
+      "rss": {
+        "sampledAt": "2026-11-04T21:43:15.345Z",
+        "node": {
+          "pid": 27004,
+          "ppid": 26918,
+          "rssKiB": 59712,
+          "executable": "node"
+        },
+        "browser": [],
+        "browserSumKiB": 0,
+        "otherDescendants": [],
+        "excludedSamplerPid": 27005,
+        "unit": "KiB",
+        "scope": "fresh worker and current browser descendants"
+      },
+      "disk": {
+        "fixture": {
+          "path": "evidence/2026-11-05-production/task-5-measurement/fixtures/unique-24",
+          "regularFiles": 28,
+          "logicalBytes": 31457,
+          "directories": 3,
+          "symlinks": 0,
+          "specialFiles": 0,
+          "vanishedDuringWalk": 0,
+          "errors": []
+        },
+        "store": {
+          "path": "evidence/2026-11-05-production/task-5-measurement/stores/unique-24",
+          "regularFiles": 45,
+          "logicalBytes": 2083723,
+          "directories": 10,
+          "symlinks": 0,
+          "specialFiles": 0,
+          "vanishedDuringWalk": 0,
+          "errors": []
+        },
+        "audio": {
+          "path": "evidence/2026-11-05-production/task-5-measurement/audio/unique-24",
+          "regularFiles": 2,
+          "logicalBytes": 4608433,
+          "directories": 1,
+          "symlinks": 0,
+          "specialFiles": 0,
+          "vanishedDuringWalk": 0,
+          "errors": []
+        },
+        "temporary": {
+          "path": "evidence/2026-11-05-production/task-5-measurement/tmp/unique-24-r1",
+          "regularFiles": 0,
+          "logicalBytes": 0,
+          "directories": 1,
+          "symlinks": 0,
+          "specialFiles": 0,
+          "vanishedDuringWalk": 0,
+          "errors": []
+        },
+        "run": {
+          "path": "evidence/2026-11-05-production/task-5-measurement/runs/unique-24-r1",
+          "regularFiles": 5,
+          "logicalBytes": 1826,
+          "directories": 2,
+          "symlinks": 0,
+          "specialFiles": 0,
+          "vanishedDuringWalk": 0,
+          "errors": []
+        }
+      },
+      "scopedLogicalBytes": 6725439
+    },
+    {
+      "stage": "browserLaunched",
+      "rss": {
+        "sampledAt": "2026-11-04T21:43:15.730Z",
+        "node": {
+          "pid": 27004,
+          "ppid": 26918,
+          "rssKiB": 135456,
+          "executable": "node"
+        },
+        "browser": [
+          {
+            "pid": 27012,
+            "ppid": 27004,
+            "rssKiB": 166256,
+            "executable": "Google Chrome"
+          },
+          {
+            "pid": 27019,
+            "ppid": 27012,
+            "rssKiB": 108784,
+            "executable": "Google Chrome Helper (GPU)"
+          },
+          {
+            "pid": 27020,
+            "ppid": 27012,
+            "rssKiB": 93344,
+            "executable": "Google Chrome Helper"
+          },
+          {
+            "pid": 27021,
+            "ppid": 27012,
+            "rssKiB": 80752,
+            "executable": "Google Chrome Helper"
+          },
+          {
+            "pid": 27022,
+            "ppid": 27012,
+            "rssKiB": 75344,
+            "executable": "Google Chrome Helper (Alerts)"
+          }
+        ],
+        "browserSumKiB": 524480,
+        "otherDescendants": [],
+        "excludedSamplerPid": 27023,
+        "unit": "KiB",
+        "scope": "fresh worker and current browser descendants"
+      },
+      "disk": {
+        "fixture": {
+          "path": "evidence/2026-11-05-production/task-5-measurement/fixtures/unique-24",
+          "regularFiles": 28,
+          "logicalBytes": 31457,
+          "directories": 3,
+          "symlinks": 0,
+          "specialFiles": 0,
+          "vanishedDuringWalk": 0,
+          "errors": []
+        },
+        "store": {
+          "path": "evidence/2026-11-05-production/task-5-measurement/stores/unique-24",
+          "regularFiles": 45,
+          "logicalBytes": 2083723,
+          "directories": 10,
+          "symlinks": 0,
+          "specialFiles": 0,
+          "vanishedDuringWalk": 0,
+          "errors": []
+        },
+        "audio": {
+          "path": "evidence/2026-11-05-production/task-5-measurement/audio/unique-24",
+          "regularFiles": 2,
+          "logicalBytes": 4608433,
+          "directories": 1,
+          "symlinks": 0,
+          "specialFiles": 0,
+          "vanishedDuringWalk": 0,
+          "errors": []
+        },
+        "temporary": {
+          "path": "evidence/2026-11-05-production/task-5-measurement/tmp/unique-24-r1",
+          "regularFiles": 115,
+          "logicalBytes": 1433676,
+          "directories": 46,
+          "symlinks": 4,
+          "specialFiles": 0,
+          "vanishedDuringWalk": 0,
+          "errors": []
+        },
+        "run": {
+          "path": "evidence/2026-11-05-production/task-5-measurement/runs/unique-24-r1",
+          "regularFiles": 5,
+          "logicalBytes": 6271,
+          "directories": 2,
+          "symlinks": 0,
+          "specialFiles": 0,
+          "vanishedDuringWalk": 0,
+          "errors": []
+        }
+      },
+      "scopedLogicalBytes": 8163560
+    },
+    {
+      "stage": "firstFrame0",
+      "rss": {
+        "sampledAt": "2026-11-04T21:43:17.718Z",
+        "node": {
+          "pid": 27004,
+          "ppid": 26918,
+          "rssKiB": 141536,
+          "executable": "node"
+        },
+        "browser": [
+          {
+            "pid": 27012,
+            "ppid": 27004,
+            "rssKiB": 231056,
+            "executable": "Google Chrome"
+          },
+          {
+            "pid": 27019,
+            "ppid": 27012,
+            "rssKiB": 244288,
+            "executable": "Google Chrome Helper (GPU)"
+          },
+          {
+            "pid": 27020,
+            "ppid": 27012,
+            "rssKiB": 103568,
+            "executable": "Google Chrome Helper"
+          },
+          {
+            "pid": 27021,
+            "ppid": 27012,
+            "rssKiB": 83840,
+            "executable": "Google Chrome Helper"
+          },
+          {
+            "pid": 27035,
+            "ppid": 27012,
+            "rssKiB": 191488,
+            "executable": "Google Chrome Helper (Renderer)"
+          },
+          {
+            "pid": 27042,
+            "ppid": 27012,
+            "rssKiB": 104064,
+            "executable": "Google Chrome Helper (Renderer)"
+          },
+          {
+            "pid": 27043,
+            "ppid": 27012,
+            "rssKiB": 190560,
+            "executable": "Google Chrome Helper (Renderer)"
+          },
+          {
+            "pid": 27053,
+            "ppid": 27012,
+            "rssKiB": 96672,
+            "executable": "Google Chrome Helper"
+          }
+        ],
+        "browserSumKiB": 1245536,
+        "otherDescendants": [],
+        "excludedSamplerPid": 27061,
+        "unit": "KiB",
+        "scope": "fresh worker and current browser descendants"
+      },
+      "disk": {
+        "fixture": {
+          "path": "evidence/2026-11-05-production/task-5-measurement/fixtures/unique-24",
+          "regularFiles": 28,
+          "logicalBytes": 31457,
+          "directories": 3,
+          "symlinks": 0,
+          "specialFiles": 0,
+          "vanishedDuringWalk": 0,
+          "errors": []
+        },
+        "store": {
+          "path": "evidence/2026-11-05-production/task-5-measurement/stores/unique-24",
+          "regularFiles": 45,
+          "logicalBytes": 2083723,
+          "directories": 10,
+          "symlinks": 0,
+          "specialFiles": 0,
+          "vanishedDuringWalk": 0,
+          "errors": []
+        },
+        "audio": {
+          "path": "evidence/2026-11-05-production/task-5-measurement/audio/unique-24",
+          "regularFiles": 2,
+          "logicalBytes": 4608433,
+          "directories": 1,
+          "symlinks": 0,
+          "specialFiles": 0,
+          "vanishedDuringWalk": 0,
+          "errors": []
+        },
+        "temporary": {
+          "path": "evidence/2026-11-05-production/task-5-measurement/tmp/unique-24-r1",
+          "regularFiles": 124,
+          "logicalBytes": 6879942,
+          "directories": 46,
+          "symlinks": 4,
+          "specialFiles": 0,
+          "vanishedDuringWalk": 0,
+          "errors": []
+        },
+        "run": {
+          "path": "evidence/2026-11-05-production/task-5-measurement/runs/unique-24-r1",
+          "regularFiles": 6,
+          "logicalBytes": 15820,
+          "directories": 2,
+          "symlinks": 0,
+          "specialFiles": 0,
+          "vanishedDuringWalk": 0,
+          "errors": []
+        }
+      },
+      "scopedLogicalBytes": 13619375
+    },
+    {
+      "stage": "afterForward",
+      "rss": {
+        "sampledAt": "2026-11-04T21:43:18.473Z",
+        "node": {
+          "pid": 27004,
+          "ppid": 26918,
+          "rssKiB": 139328,
+          "executable": "node"
+        },
+        "browser": [
+          {
+            "pid": 27012,
+            "ppid": 27004,
+            "rssKiB": 239344,
+            "executable": "Google Chrome"
+          },
+          {
+            "pid": 27019,
+            "ppid": 27012,
+            "rssKiB": 260256,
+            "executable": "Google Chrome Helper (GPU)"
+          },
+          {
+            "pid": 27020,
+            "ppid": 27012,
+            "rssKiB": 105696,
+            "executable": "Google Chrome Helper"
+          },
+          {
+            "pid": 27021,
+            "ppid": 27012,
+            "rssKiB": 83840,
+            "executable": "Google Chrome Helper"
+          },
+          {
+            "pid": 27035,
+            "ppid": 27012,
+            "rssKiB": 191696,
+            "executable": "Google Chrome Helper (Renderer)"
+          },
+          {
+            "pid": 27042,
+            "ppid": 27012,
+            "rssKiB": 104064,
+            "executable": "Google Chrome Helper (Renderer)"
+          },
+          {
+            "pid": 27043,
+            "ppid": 27012,
+            "rssKiB": 190256,
+            "executable": "Google Chrome Helper (Renderer)"
+          },
+          {
+            "pid": 27053,
+            "ppid": 27012,
+            "rssKiB": 96816,
+            "executable": "Google Chrome Helper"
+          }
+        ],
+        "browserSumKiB": 1271968,
+        "otherDescendants": [],
+        "excludedSamplerPid": 27067,
+        "unit": "KiB",
+        "scope": "fresh worker and current browser descendants"
+      },
+      "disk": {
+        "fixture": {
+          "path": "evidence/2026-11-05-production/task-5-measurement/fixtures/unique-24",
+          "regularFiles": 28,
+          "logicalBytes": 31457,
+          "directories": 3,
+          "symlinks": 0,
+          "specialFiles": 0,
+          "vanishedDuringWalk": 0,
+          "errors": []
+        },
+        "store": {
+          "path": "evidence/2026-11-05-production/task-5-measurement/stores/unique-24",
+          "regularFiles": 45,
+          "logicalBytes": 2083723,
+          "directories": 10,
+          "symlinks": 0,
+          "specialFiles": 0,
+          "vanishedDuringWalk": 0,
+          "errors": []
+        },
+        "audio": {
+          "path": "evidence/2026-11-05-production/task-5-measurement/audio/unique-24",
+          "regularFiles": 2,
+          "logicalBytes": 4608433,
+          "directories": 1,
+          "symlinks": 0,
+          "specialFiles": 0,
+          "vanishedDuringWalk": 0,
+          "errors": []
+        },
+        "temporary": {
+          "path": "evidence/2026-11-05-production/task-5-measurement/tmp/unique-24-r1",
+          "regularFiles": 160,
+          "logicalBytes": 7259246,
+          "directories": 54,
+          "symlinks": 4,
+          "specialFiles": 0,
+          "vanishedDuringWalk": 0,
+          "errors": []
+        },
+        "run": {
+          "path": "evidence/2026-11-05-production/task-5-measurement/runs/unique-24-r1",
+          "regularFiles": 14,
+          "logicalBytes": 53491,
+          "directories": 2,
+          "symlinks": 0,
+          "specialFiles": 0,
+          "vanishedDuringWalk": 0,
+          "errors": []
+        }
+      },
+      "scopedLogicalBytes": 14036350
+    },
+    {
+      "stage": "afterReverse",
+      "rss": {
+        "sampledAt": "2026-11-04T21:43:18.569Z",
+        "node": {
+          "pid": 27004,
+          "ppid": 26918,
+          "rssKiB": 140128,
+          "executable": "node"
+        },
+        "browser": [
+          {
+            "pid": 27012,
+            "ppid": 27004,
+            "rssKiB": 239488,
+            "executable": "Google Chrome"
+          },
+          {
+            "pid": 27019,
+            "ppid": 27012,
+            "rssKiB": 265856,
+            "executable": "Google Chrome Helper (GPU)"
+          },
+          {
+            "pid": 27020,
+            "ppid": 27012,
+            "rssKiB": 105696,
+            "executable": "Google Chrome Helper"
+          },
+          {
+            "pid": 27021,
+            "ppid": 27012,
+            "rssKiB": 83840,
+            "executable": "Google Chrome Helper"
+          },
+          {
+            "pid": 27035,
+            "ppid": 27012,
+            "rssKiB": 191696,
+            "executable": "Google Chrome Helper (Renderer)"
+          },
+          {
+            "pid": 27042,
+            "ppid": 27012,
+            "rssKiB": 104064,
+            "executable": "Google Chrome Helper (Renderer)"
+          },
+          {
+            "pid": 27043,
+            "ppid": 27012,
+            "rssKiB": 191344,
+            "executable": "Google Chrome Helper (Renderer)"
+          },
+          {
+            "pid": 27053,
+            "ppid": 27012,
+            "rssKiB": 96816,
+            "executable": "Google Chrome Helper"
+          }
+        ],
+        "browserSumKiB": 1278800,
+        "otherDescendants": [],
+        "excludedSamplerPid": 27068,
+        "unit": "KiB",
+        "scope": "fresh worker and current browser descendants"
+      },
+      "disk": {
+        "fixture": {
+          "path": "evidence/2026-11-05-production/task-5-measurement/fixtures/unique-24",
+          "regularFiles": 28,
+          "logicalBytes": 31457,
+          "directories": 3,
+          "symlinks": 0,
+          "specialFiles": 0,
+          "vanishedDuringWalk": 0,
+          "errors": []
+        },
+        "store": {
+          "path": "evidence/2026-11-05-production/task-5-measurement/stores/unique-24",
+          "regularFiles": 45,
+          "logicalBytes": 2083723,
+          "directories": 10,
+          "symlinks": 0,
+          "specialFiles": 0,
+          "vanishedDuringWalk": 0,
+          "errors": []
+        },
+        "audio": {
+          "path": "evidence/2026-11-05-production/task-5-measurement/audio/unique-24",
+          "regularFiles": 2,
+          "logicalBytes": 4608433,
+          "directories": 1,
+          "symlinks": 0,
+          "specialFiles": 0,
+          "vanishedDuringWalk": 0,
+          "errors": []
+        },
+        "temporary": {
+          "path": "evidence/2026-11-05-production/task-5-measurement/tmp/unique-24-r1",
+          "regularFiles": 160,
+          "logicalBytes": 7259246,
+          "directories": 54,
+          "symlinks": 4,
+          "specialFiles": 0,
+          "vanishedDuringWalk": 0,
+          "errors": []
+        },
+        "run": {
+          "path": "evidence/2026-11-05-production/task-5-measurement/runs/unique-24-r1",
+          "regularFiles": 22,
+          "logicalBytes": 94586,
+          "directories": 2,
+          "symlinks": 0,
+          "specialFiles": 0,
+          "vanishedDuringWalk": 0,
+          "errors": []
+        }
+      },
+      "scopedLogicalBytes": 14077445
+    },
+    {
+      "stage": "afterRandom",
+      "rss": {
+        "sampledAt": "2026-11-04T21:43:18.663Z",
+        "node": {
+          "pid": 27004,
+          "ppid": 26918,
+          "rssKiB": 141600,
+          "executable": "node"
+        },
+        "browser": [
+          {
+            "pid": 27012,
+            "ppid": 27004,
+            "rssKiB": 239552,
+            "executable": "Google Chrome"
+          },
+          {
+            "pid": 27019,
+            "ppid": 27012,
+            "rssKiB": 265968,
+            "executable": "Google Chrome Helper (GPU)"
+          },
+          {
+            "pid": 27020,
+            "ppid": 27012,
+            "rssKiB": 105696,
+            "executable": "Google Chrome Helper"
+          },
+          {
+            "pid": 27021,
+            "ppid": 27012,
+            "rssKiB": 83840,
+            "executable": "Google Chrome Helper"
+          },
+          {
+            "pid": 27035,
+            "ppid": 27012,
+            "rssKiB": 191696,
+            "executable": "Google Chrome Helper (Renderer)"
+          },
+          {
+            "pid": 27042,
+            "ppid": 27012,
+            "rssKiB": 104064,
+            "executable": "Google Chrome Helper (Renderer)"
+          },
+          {
+            "pid": 27043,
+            "ppid": 27012,
+            "rssKiB": 196336,
+            "executable": "Google Chrome Helper (Renderer)"
+          },
+          {
+            "pid": 27053,
+            "ppid": 27012,
+            "rssKiB": 96816,
+            "executable": "Google Chrome Helper"
+          }
+        ],
+        "browserSumKiB": 1283968,
+        "otherDescendants": [],
+        "excludedSamplerPid": 27070,
+        "unit": "KiB",
+        "scope": "fresh worker and current browser descendants"
+      },
+      "disk": {
+        "fixture": {
+          "path": "evidence/2026-11-05-production/task-5-measurement/fixtures/unique-24",
+          "regularFiles": 28,
+          "logicalBytes": 31457,
+          "directories": 3,
+          "symlinks": 0,
+          "specialFiles": 0,
+          "vanishedDuringWalk": 0,
+          "errors": []
+        },
+        "store": {
+          "path": "evidence/2026-11-05-production/task-5-measurement/stores/unique-24",
+          "regularFiles": 45,
+          "logicalBytes": 2083723,
+          "directories": 10,
+          "symlinks": 0,
+          "specialFiles": 0,
+          "vanishedDuringWalk": 0,
+          "errors": []
+        },
+        "audio": {
+          "path": "evidence/2026-11-05-production/task-5-measurement/audio/unique-24",
+          "regularFiles": 2,
+          "logicalBytes": 4608433,
+          "directories": 1,
+          "symlinks": 0,
+          "specialFiles": 0,
+          "vanishedDuringWalk": 0,
+          "errors": []
+        },
+        "temporary": {
+          "path": "evidence/2026-11-05-production/task-5-measurement/tmp/unique-24-r1",
+          "regularFiles": 160,
+          "logicalBytes": 7259246,
+          "directories": 54,
+          "symlinks": 4,
+          "specialFiles": 0,
+          "vanishedDuringWalk": 0,
+          "errors": []
+        },
+        "run": {
+          "path": "evidence/2026-11-05-production/task-5-measurement/runs/unique-24-r1",
+          "regularFiles": 30,
+          "logicalBytes": 135196,
+          "directories": 2,
+          "symlinks": 0,
+          "specialFiles": 0,
+          "vanishedDuringWalk": 0,
+          "errors": []
+        }
+      },
+      "scopedLogicalBytes": 14118055
+    },
+    {
+      "stage": "afterBrowserClose",
+      "rss": {
+        "sampledAt": "2026-11-04T21:43:18.945Z",
+        "node": {
+          "pid": 27004,
+          "ppid": 26918,
+          "rssKiB": 145424,
+          "executable": "node"
+        },
+        "browser": [],
+        "browserSumKiB": 0,
+        "otherDescendants": [],
+        "excludedSamplerPid": 27072,
+        "unit": "KiB",
+        "scope": "fresh worker and current browser descendants"
+      },
+      "disk": {
+        "fixture": {
+          "path": "evidence/2026-11-05-production/task-5-measurement/fixtures/unique-24",
+          "regularFiles": 28,
+          "logicalBytes": 31457,
+          "directories": 3,
+          "symlinks": 0,
+          "specialFiles": 0,
+          "vanishedDuringWalk": 0,
+          "errors": []
+        },
+        "store": {
+          "path": "evidence/2026-11-05-production/task-5-measurement/stores/unique-24",
+          "regularFiles": 45,
+          "logicalBytes": 2083723,
+          "directories": 10,
+          "symlinks": 0,
+          "specialFiles": 0,
+          "vanishedDuringWalk": 0,
+          "errors": []
+        },
+        "audio": {
+          "path": "evidence/2026-11-05-production/task-5-measurement/audio/unique-24",
+          "regularFiles": 2,
+          "logicalBytes": 4608433,
+          "directories": 1,
+          "symlinks": 0,
+          "specialFiles": 0,
+          "vanishedDuringWalk": 0,
+          "errors": []
+        },
+        "temporary": {
+          "path": "evidence/2026-11-05-production/task-5-measurement/tmp/unique-24-r1",
+          "regularFiles": 0,
+          "logicalBytes": 0,
+          "directories": 1,
+          "symlinks": 0,
+          "specialFiles": 0,
+          "vanishedDuringWalk": 0,
+          "errors": []
+        },
+        "run": {
+          "path": "evidence/2026-11-05-production/task-5-measurement/runs/unique-24-r1",
+          "regularFiles": 30,
+          "logicalBytes": 144286,
+          "directories": 2,
+          "symlinks": 0,
+          "specialFiles": 0,
+          "vanishedDuringWalk": 0,
+          "errors": []
+        }
+      },
+      "scopedLogicalBytes": 6867899
+    }
+  ],
+  "seeks": {
+    "forward": [
+      {
+        "requestedFrame": 0,
+        "elapsedMs": 435.14458300000024,
+        "state": {
+          "frame": 0,
+          "values": {},
+          "exposures": {
+            "artwork": {
+              "frame": 0,
+              "value": "art-00"
+            }
+          }
+        },
+        "canvas": [
+          320,
+          180
+        ],
+        "image": "evidence/2026-11-05-production/task-5-measurement/runs/unique-24-r1/readbacks/forward-0-0.png",
+        "pngBytes": 4104,
+        "sha256": "7b222868bb3a2f3c25bbc554947d4696e094c7fccf4fa04c65a0e6f35c82aea8"
+      },
+      {
+        "requestedFrame": 23,
+        "elapsedMs": 184.18141699999978,
+        "state": {
+          "frame": 23,
+          "values": {},
+          "exposures": {
+            "artwork": {
+              "frame": 23,
+              "value": "art-00"
+            }
+          }
+        },
+        "canvas": [
+          320,
+          180
+        ],
+        "image": "evidence/2026-11-05-production/task-5-measurement/runs/unique-24-r1/readbacks/forward-1-23.png",
+        "pngBytes": 4104,
+        "sha256": "7b222868bb3a2f3c25bbc554947d4696e094c7fccf4fa04c65a0e6f35c82aea8"
+      },
+      {
+        "requestedFrame": 24,
+        "elapsedMs": 31.085875000000215,
+        "state": {
+          "frame": 24,
+          "values": {},
+          "exposures": {
+            "artwork": {
+              "frame": 24,
+              "value": "art-01"
+            }
+          }
+        },
+        "canvas": [
+          320,
+          180
+        ],
+        "image": "evidence/2026-11-05-production/task-5-measurement/runs/unique-24-r1/readbacks/forward-2-24.png",
+        "pngBytes": 4137,
+        "sha256": "191ec78c3b0fb5775959dd7b4fdc42f84f9d53b458d4cc959510b69c72c7ff45"
+      },
+      {
+        "requestedFrame": 143,
+        "elapsedMs": 5.676666999999725,
+        "state": {
+          "frame": 143,
+          "values": {},
+          "exposures": {
+            "artwork": {
+              "frame": 143,
+              "value": "art-05"
+            }
+          }
+        },
+        "canvas": [
+          320,
+          180
+        ],
+        "image": "evidence/2026-11-05-production/task-5-measurement/runs/unique-24-r1/readbacks/forward-3-143.png",
+        "pngBytes": 4023,
+        "sha256": "1507db9b47d72a464341772f01fccd520eff568044667338b0e2125ac1e34471"
+      },
+      {
+        "requestedFrame": 144,
+        "elapsedMs": 2.515208999999686,
+        "state": {
+          "frame": 144,
+          "values": {},
+          "exposures": {
+            "artwork": {
+              "frame": 144,
+              "value": "art-06"
+            }
+          }
+        },
+        "canvas": [
+          320,
+          180
+        ],
+        "image": "evidence/2026-11-05-production/task-5-measurement/runs/unique-24-r1/readbacks/forward-4-144.png",
+        "pngBytes": 3974,
+        "sha256": "848ce25a9798a01d35ff3e701c136296d4e837d926dc912f89c721bc2d7ce226"
+      },
+      {
+        "requestedFrame": 287,
+        "elapsedMs": 6.704291999999896,
+        "state": {
+          "frame": 287,
+          "values": {},
+          "exposures": {
+            "artwork": {
+              "frame": 287,
+              "value": "art-11"
+            }
+          }
+        },
+        "canvas": [
+          320,
+          180
+        ],
+        "image": "evidence/2026-11-05-production/task-5-measurement/runs/unique-24-r1/readbacks/forward-5-287.png",
+        "pngBytes": 4207,
+        "sha256": "7f6fa370c907995874bbec7de2ad5af3cf0df0ca82091060c8d5484311b9779a"
+      },
+      {
+        "requestedFrame": 288,
+        "elapsedMs": 3.0219160000001466,
+        "state": {
+          "frame": 288,
+          "values": {},
+          "exposures": {
+            "artwork": {
+              "frame": 288,
+              "value": "art-12"
+            }
+          }
+        },
+        "canvas": [
+          320,
+          180
+        ],
+        "image": "evidence/2026-11-05-production/task-5-measurement/runs/unique-24-r1/readbacks/forward-6-288.png",
+        "pngBytes": 4139,
+        "sha256": "ebeeeff8378bb41ecb9ebe10482a59d27669ab594c03cf12c92bef847d0f770b"
+      },
+      {
+        "requestedFrame": 575,
+        "elapsedMs": 3.626832999999806,
+        "state": {
+          "frame": 575,
+          "values": {},
+          "exposures": {
+            "artwork": {
+              "frame": 575,
+              "value": "art-23"
+            }
+          }
+        },
+        "canvas": [
+          320,
+          180
+        ],
+        "image": "evidence/2026-11-05-production/task-5-measurement/runs/unique-24-r1/readbacks/forward-7-575.png",
+        "pngBytes": 3919,
+        "sha256": "194dcff2c608322e6e17808903107702eeb47746fb1f20bdd31930b665dc6862"
+      }
+    ],
+    "reverse": [
+      {
+        "requestedFrame": 575,
+        "elapsedMs": 2.1077909999999065,
+        "state": {
+          "frame": 575,
+          "values": {},
+          "exposures": {
+            "artwork": {
+              "frame": 575,
+              "value": "art-23"
+            }
+          }
+        },
+        "canvas": [
+          320,
+          180
+        ],
+        "image": "evidence/2026-11-05-production/task-5-measurement/runs/unique-24-r1/readbacks/reverse-0-575.png",
+        "pngBytes": 3919,
+        "sha256": "194dcff2c608322e6e17808903107702eeb47746fb1f20bdd31930b665dc6862"
+      },
+      {
+        "requestedFrame": 288,
+        "elapsedMs": 2.6427090000001954,
+        "state": {
+          "frame": 288,
+          "values": {},
+          "exposures": {
+            "artwork": {
+              "frame": 288,
+              "value": "art-12"
+            }
+          }
+        },
+        "canvas": [
+          320,
+          180
+        ],
+        "image": "evidence/2026-11-05-production/task-5-measurement/runs/unique-24-r1/readbacks/reverse-1-288.png",
+        "pngBytes": 4139,
+        "sha256": "ebeeeff8378bb41ecb9ebe10482a59d27669ab594c03cf12c92bef847d0f770b"
+      },
+      {
+        "requestedFrame": 287,
+        "elapsedMs": 1.5022500000000036,
+        "state": {
+          "frame": 287,
+          "values": {},
+          "exposures": {
+            "artwork": {
+              "frame": 287,
+              "value": "art-11"
+            }
+          }
+        },
+        "canvas": [
+          320,
+          180
+        ],
+        "image": "evidence/2026-11-05-production/task-5-measurement/runs/unique-24-r1/readbacks/reverse-2-287.png",
+        "pngBytes": 4207,
+        "sha256": "7f6fa370c907995874bbec7de2ad5af3cf0df0ca82091060c8d5484311b9779a"
+      },
+      {
+        "requestedFrame": 144,
+        "elapsedMs": 1.3867079999999987,
+        "state": {
+          "frame": 144,
+          "values": {},
+          "exposures": {
+            "artwork": {
+              "frame": 144,
+              "value": "art-06"
+            }
+          }
+        },
+        "canvas": [
+          320,
+          180
+        ],
+        "image": "evidence/2026-11-05-production/task-5-measurement/runs/unique-24-r1/readbacks/reverse-3-144.png",
+        "pngBytes": 3974,
+        "sha256": "848ce25a9798a01d35ff3e701c136296d4e837d926dc912f89c721bc2d7ce226"
+      },
+      {
+        "requestedFrame": 143,
+        "elapsedMs": 1.426749999999629,
+        "state": {
+          "frame": 143,
+          "values": {},
+          "exposures": {
+            "artwork": {
+              "frame": 143,
+              "value": "art-05"
+            }
+          }
+        },
+        "canvas": [
+          320,
+          180
+        ],
+        "image": "evidence/2026-11-05-production/task-5-measurement/runs/unique-24-r1/readbacks/reverse-4-143.png",
+        "pngBytes": 4023,
+        "sha256": "1507db9b47d72a464341772f01fccd520eff568044667338b0e2125ac1e34471"
+      },
+      {
+        "requestedFrame": 24,
+        "elapsedMs": 1.6170410000004267,
+        "state": {
+          "frame": 24,
+          "values": {},
+          "exposures": {
+            "artwork": {
+              "frame": 24,
+              "value": "art-01"
+            }
+          }
+        },
+        "canvas": [
+          320,
+          180
+        ],
+        "image": "evidence/2026-11-05-production/task-5-measurement/runs/unique-24-r1/readbacks/reverse-5-24.png",
+        "pngBytes": 4137,
+        "sha256": "191ec78c3b0fb5775959dd7b4fdc42f84f9d53b458d4cc959510b69c72c7ff45"
+      },
+      {
+        "requestedFrame": 23,
+        "elapsedMs": 1.664792000000034,
+        "state": {
+          "frame": 23,
+          "values": {},
+          "exposures": {
+            "artwork": {
+              "frame": 23,
+              "value": "art-00"
+            }
+          }
+        },
+        "canvas": [
+          320,
+          180
+        ],
+        "image": "evidence/2026-11-05-production/task-5-measurement/runs/unique-24-r1/readbacks/reverse-6-23.png",
+        "pngBytes": 4104,
+        "sha256": "7b222868bb3a2f3c25bbc554947d4696e094c7fccf4fa04c65a0e6f35c82aea8"
+      },
+      {
+        "requestedFrame": 0,
+        "elapsedMs": 1.7716669999999795,
+        "state": {
+          "frame": 0,
+          "values": {},
+          "exposures": {
+            "artwork": {
+              "frame": 0,
+              "value": "art-00"
+            }
+          }
+        },
+        "canvas": [
+          320,
+          180
+        ],
+        "image": "evidence/2026-11-05-production/task-5-measurement/runs/unique-24-r1/readbacks/reverse-7-0.png",
+        "pngBytes": 4104,
+        "sha256": "7b222868bb3a2f3c25bbc554947d4696e094c7fccf4fa04c65a0e6f35c82aea8"
+      }
+    ],
+    "random": [
+      {
+        "requestedFrame": 383,
+        "elapsedMs": 2.2147500000000946,
+        "state": {
+          "frame": 383,
+          "values": {},
+          "exposures": {
+            "artwork": {
+              "frame": 383,
+              "value": "art-15"
+            }
+          }
+        },
+        "canvas": [
+          320,
+          180
+        ],
+        "image": "evidence/2026-11-05-production/task-5-measurement/runs/unique-24-r1/readbacks/random-0-383.png",
+        "pngBytes": 4093,
+        "sha256": "f6cf8eb9f5f91fd51a57691bff507b5928ee061ef0ece217790e701917d073e3"
+      },
+      {
+        "requestedFrame": 26,
+        "elapsedMs": 3.063832999999704,
+        "state": {
+          "frame": 26,
+          "values": {},
+          "exposures": {
+            "artwork": {
+              "frame": 26,
+              "value": "art-01"
+            }
+          }
+        },
+        "canvas": [
+          320,
+          180
+        ],
+        "image": "evidence/2026-11-05-production/task-5-measurement/runs/unique-24-r1/readbacks/random-1-26.png",
+        "pngBytes": 4137,
+        "sha256": "191ec78c3b0fb5775959dd7b4fdc42f84f9d53b458d4cc959510b69c72c7ff45"
+      },
+      {
+        "requestedFrame": 531,
+        "elapsedMs": 2.2845829999996567,
+        "state": {
+          "frame": 531,
+          "values": {},
+          "exposures": {
+            "artwork": {
+              "frame": 531,
+              "value": "art-22"
+            }
+          }
+        },
+        "canvas": [
+          320,
+          180
+        ],
+        "image": "evidence/2026-11-05-production/task-5-measurement/runs/unique-24-r1/readbacks/random-2-531.png",
+        "pngBytes": 3955,
+        "sha256": "21d7424de58551df40ec5f521439d676db5be2a6b187183d589aed39529c380d"
+      },
+      {
+        "requestedFrame": 127,
+        "elapsedMs": 1.6615830000000642,
+        "state": {
+          "frame": 127,
+          "values": {},
+          "exposures": {
+            "artwork": {
+              "frame": 127,
+              "value": "art-05"
+            }
+          }
+        },
+        "canvas": [
+          320,
+          180
+        ],
+        "image": "evidence/2026-11-05-production/task-5-measurement/runs/unique-24-r1/readbacks/random-3-127.png",
+        "pngBytes": 4023,
+        "sha256": "1507db9b47d72a464341772f01fccd520eff568044667338b0e2125ac1e34471"
+      },
+      {
+        "requestedFrame": 302,
+        "elapsedMs": 1.6205419999996593,
+        "state": {
+          "frame": 302,
+          "values": {},
+          "exposures": {
+            "artwork": {
+              "frame": 302,
+              "value": "art-12"
+            }
+          }
+        },
+        "canvas": [
+          320,
+          180
+        ],
+        "image": "evidence/2026-11-05-production/task-5-measurement/runs/unique-24-r1/readbacks/random-4-302.png",
+        "pngBytes": 4139,
+        "sha256": "ebeeeff8378bb41ecb9ebe10482a59d27669ab594c03cf12c92bef847d0f770b"
+      },
+      {
+        "requestedFrame": 59,
+        "elapsedMs": 2.5713329999998678,
+        "state": {
+          "frame": 59,
+          "values": {},
+          "exposures": {
+            "artwork": {
+              "frame": 59,
+              "value": "art-02"
+            }
+          }
+        },
+        "canvas": [
+          320,
+          180
+        ],
+        "image": "evidence/2026-11-05-production/task-5-measurement/runs/unique-24-r1/readbacks/random-5-59.png",
+        "pngBytes": 4060,
+        "sha256": "15fd9b377a3382015c9f57437edc5350e0ad7e88910178055f6ce262d2265ce3"
+      },
+      {
+        "requestedFrame": 447,
+        "elapsedMs": 1.5717909999998483,
+        "state": {
+          "frame": 447,
+          "values": {},
+          "exposures": {
+            "artwork": {
+              "frame": 447,
+              "value": "art-18"
+            }
+          }
+        },
+        "canvas": [
+          320,
+          180
+        ],
+        "image": "evidence/2026-11-05-production/task-5-measurement/runs/unique-24-r1/readbacks/random-6-447.png",
+        "pngBytes": 4068,
+        "sha256": "954cd7306cff3e6d406305f507115d71c1d39a391887ca038262c7ff67070b83"
+      },
+      {
+        "requestedFrame": 211,
+        "elapsedMs": 1.4225409999999101,
+        "state": {
+          "frame": 211,
+          "values": {},
+          "exposures": {
+            "artwork": {
+              "frame": 211,
+              "value": "art-08"
+            }
+          }
+        },
+        "canvas": [
+          320,
+          180
+        ],
+        "image": "evidence/2026-11-05-production/task-5-measurement/runs/unique-24-r1/readbacks/random-7-211.png",
+        "pngBytes": 3847,
+        "sha256": "c557cfe71e7fbfef5f6713301fcf7e0d939540993a2ea4df6c9466033edd9c10"
+      }
+    ]
+  },
+  "browserEvents": [
+    {
+      "at": "2026-11-04T21:43:18.475Z",
+      "kind": "requestfailed",
+      "url": "http://127.0.0.1:50216/audio.wav",
+      "error": {
+        "errorText": "net::ERR_ABORTED"
+      }
+    }
+  ],
+  "assetRequests": [
+    "/project/assets/art-00.svg",
+    "/project/assets/art-01.svg",
+    "/project/assets/art-02.svg",
+    "/project/assets/art-03.svg",
+    "/project/assets/art-04.svg",
+    "/project/assets/art-05.svg",
+    "/project/assets/art-06.svg",
+    "/project/assets/art-07.svg",
+    "/project/assets/art-08.svg",
+    "/project/assets/art-09.svg",
+    "/project/assets/art-10.svg",
+    "/project/assets/art-11.svg",
+    "/project/assets/art-12.svg",
+    "/project/assets/art-13.svg",
+    "/project/assets/art-14.svg",
+    "/project/assets/art-15.svg",
+    "/project/assets/art-16.svg",
+    "/project/assets/art-17.svg",
+    "/project/assets/art-18.svg",
+    "/project/assets/art-19.svg",
+    "/project/assets/art-20.svg",
+    "/project/assets/art-21.svg",
+    "/project/assets/art-22.svg",
+    "/project/assets/art-23.svg"
+  ],
+  "command": [
+    "/opt/homebrew/Cellar/node/26.12.1_1/bin/node",
+    "/Volumes/eyedisk/develop/cinewright/evidence/2026-11-05-production/measure.mjs",
+    "--worker",
+    "/Volumes/eyedisk/develop/cinewright/evidence/2026-11-05-production/task-5-measurement/runs/unique-24-r1/config.json"
+  ],
+  "url": "http://127.0.0.1:50216",
+  "browserExecutable": "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome",
+  "browserLaunchMs": 316.208584,
+  "browserVersion": "156.0.8078.80",
+  "navigationToReadyMs": 611.2795840000001,
+  "navigationToFirstFrameReadbackMs": 1085.721417,
+  "firstFrame": {
+    "state": {
+      "frame": 0,
+      "values": {},
+      "exposures": {
+        "artwork": {
+          "frame": 0,
+          "value": "art-00"
+        }
+      }
+    },
+    "canvas": [
+      320,
+      180
+    ],
+    "image": "evidence/2026-11-05-production/task-5-measurement/runs/unique-24-r1/readbacks/first-frame-0.png",
+    "pngBytes": 4104,
+    "sha256": "7b222868bb3a2f3c25bbc554947d4696e094c7fccf4fa04c65a0e6f35c82aea8"
+  },
+  "seekSummariesMs": {
+    "forward": {
+      "n": 8,
+      "min": 2.515208999999686,
+      "median": 6.19047949999981,
+      "max": 435.14458300000024,
+      "mean": 83.99459899999994
+    },
+    "reverse": {
+      "n": 8,
+      "min": 1.3867079999999987,
+      "median": 1.6409165000002304,
+      "max": 2.6427090000001954,
+      "mean": 1.7649635000000217
+    },
+    "random": {
+      "n": 8,
+      "min": 1.4225409999999101,
+      "median": 1.9381665000000794,
+      "max": 3.063832999999704,
+      "mean": 2.0513694999998506
+    }
+  },
+  "audioRequestAborts": [
+    {
+      "at": "2026-11-04T21:43:18.475Z",
+      "kind": "requestfailed",
+      "url": "http://127.0.0.1:50216/audio.wav",
+      "error": {
+        "errorText": "net::ERR_ABORTED"
+      }
+    }
+  ],
+  "finishedAt": "2026-11-04T21:43:19.017Z"
+}

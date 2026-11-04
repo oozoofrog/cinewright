@@ -1,0 +1,529 @@
+{
+  "version": 1,
+  "size": [
+    640,
+    360
+  ],
+  "fps": 24,
+  "background": "#d9d5c8",
+  "audio": [],
+  "title": "하루를 내려놓는 자리 · B 손에서 방으로",
+  "frames": 168,
+  "points": {
+    "start": 0,
+    "lower": 18,
+    "touch": 48,
+    "release": 60,
+    "leave": 66,
+    "quiet": 90,
+    "room": 120
+  },
+  "spans": {
+    "poised-hold": [
+      0,
+      18
+    ],
+    "lowering": [
+      18,
+      48
+    ],
+    "contact-hold": [
+      48,
+      60
+    ],
+    "release-hold": [
+      60,
+      66
+    ],
+    "withdrawal": [
+      66,
+      90
+    ],
+    "detail-rest": [
+      90,
+      120
+    ],
+    "room-rest": [
+      120,
+      168
+    ],
+    "action": [
+      0,
+      90
+    ],
+    "contact-review": [
+      18,
+      66
+    ],
+    "ending": [
+      90,
+      168
+    ]
+  },
+  "layers": [
+    {
+      "id": "tableau",
+      "module": "scene.mjs",
+      "exposure": [
+        {
+          "from": 0,
+          "to": 18,
+          "every": 6,
+          "value": "poised"
+        },
+        {
+          "from": 18,
+          "to": 48,
+          "every": 3,
+          "value": "descending"
+        },
+        {
+          "from": 48,
+          "to": 60,
+          "every": 6,
+          "value": "contact"
+        },
+        {
+          "from": 60,
+          "to": 66,
+          "every": 3,
+          "value": "released"
+        },
+        {
+          "from": 66,
+          "to": 90,
+          "every": 2,
+          "value": "withdrawing"
+        },
+        {
+          "from": 90,
+          "to": 120,
+          "every": 12,
+          "value": "detailRest"
+        },
+        {
+          "from": 120,
+          "to": 168,
+          "every": 12,
+          "value": "remaining"
+        }
+      ],
+      "config": {
+        "keyAt": [
+          328,
+          264
+        ],
+        "handAt": [
+          328,
+          235
+        ],
+        "lowerOffset": [
+          0,
+          -52
+        ],
+        "exitOffset": [
+          -220,
+          -300
+        ],
+        "loweringSpan": "lowering",
+        "withdrawalSpan": "withdrawal",
+        "light": {
+          "fromX": 174,
+          "toX": 202,
+          "opacity": 0.09
+        },
+        "phases": {
+          "poised": {
+            "view": {
+              "scale": 1.85,
+              "focus": [
+                340,
+                237
+              ],
+              "at": [
+                320,
+                206
+              ]
+            },
+            "hand": "grip",
+            "keys": true,
+            "motion": "poised"
+          },
+          "descending": {
+            "view": {
+              "scale": 1.85,
+              "focus": [
+                340,
+                237
+              ],
+              "at": [
+                320,
+                206
+              ]
+            },
+            "hand": "grip",
+            "keys": true,
+            "motion": "lower"
+          },
+          "contact": {
+            "view": {
+              "scale": 1.85,
+              "focus": [
+                340,
+                237
+              ],
+              "at": [
+                320,
+                206
+              ]
+            },
+            "hand": "grip",
+            "keys": true,
+            "motion": "rest"
+          },
+          "released": {
+            "view": {
+              "scale": 1.85,
+              "focus": [
+                340,
+                237
+              ],
+              "at": [
+                320,
+                206
+              ]
+            },
+            "hand": "open",
+            "keys": true,
+            "motion": "rest"
+          },
+          "withdrawing": {
+            "view": {
+              "scale": 1.85,
+              "focus": [
+                340,
+                237
+              ],
+              "at": [
+                320,
+                206
+              ]
+            },
+            "hand": "open",
+            "keys": true,
+            "motion": "withdraw"
+          },
+          "detailRest": {
+            "view": {
+              "scale": 1.85,
+              "focus": [
+                340,
+                237
+              ],
+              "at": [
+                320,
+                206
+              ]
+            },
+            "hand": null,
+            "keys": true,
+            "motion": "rest"
+          },
+          "remaining": {
+            "view": {
+              "scale": 1,
+              "focus": [
+                320,
+                180
+              ],
+              "at": [
+                320,
+                180
+              ]
+            },
+            "hand": null,
+            "keys": true,
+            "motion": "rest"
+          }
+        },
+        "exposure": [
+          {
+            "from": 0,
+            "to": 18,
+            "every": 6,
+            "value": "poised"
+          },
+          {
+            "from": 18,
+            "to": 48,
+            "every": 3,
+            "value": "descending"
+          },
+          {
+            "from": 48,
+            "to": 60,
+            "every": 6,
+            "value": "contact"
+          },
+          {
+            "from": 60,
+            "to": 66,
+            "every": 3,
+            "value": "released"
+          },
+          {
+            "from": 66,
+            "to": 90,
+            "every": 2,
+            "value": "withdrawing"
+          },
+          {
+            "from": 90,
+            "to": 120,
+            "every": 12,
+            "value": "detailRest"
+          },
+          {
+            "from": 120,
+            "to": 168,
+            "every": 12,
+            "value": "remaining"
+          }
+        ],
+        "role": "scene"
+      }
+    },
+    {
+      "id": "window-light",
+      "module": "scene.mjs",
+      "exposure": [
+        {
+          "from": 0,
+          "to": 18,
+          "every": 6,
+          "value": "poised"
+        },
+        {
+          "from": 18,
+          "to": 48,
+          "every": 3,
+          "value": "descending"
+        },
+        {
+          "from": 48,
+          "to": 60,
+          "every": 6,
+          "value": "contact"
+        },
+        {
+          "from": 60,
+          "to": 66,
+          "every": 3,
+          "value": "released"
+        },
+        {
+          "from": 66,
+          "to": 90,
+          "every": 2,
+          "value": "withdrawing"
+        },
+        {
+          "from": 90,
+          "to": 120,
+          "every": 12,
+          "value": "detailRest"
+        },
+        {
+          "from": 120,
+          "to": 168,
+          "every": 12,
+          "value": "remaining"
+        }
+      ],
+      "config": {
+        "keyAt": [
+          328,
+          264
+        ],
+        "handAt": [
+          328,
+          235
+        ],
+        "lowerOffset": [
+          0,
+          -52
+        ],
+        "exitOffset": [
+          -220,
+          -300
+        ],
+        "loweringSpan": "lowering",
+        "withdrawalSpan": "withdrawal",
+        "light": {
+          "fromX": 174,
+          "toX": 202,
+          "opacity": 0.09
+        },
+        "phases": {
+          "poised": {
+            "view": {
+              "scale": 1.85,
+              "focus": [
+                340,
+                237
+              ],
+              "at": [
+                320,
+                206
+              ]
+            },
+            "hand": "grip",
+            "keys": true,
+            "motion": "poised"
+          },
+          "descending": {
+            "view": {
+              "scale": 1.85,
+              "focus": [
+                340,
+                237
+              ],
+              "at": [
+                320,
+                206
+              ]
+            },
+            "hand": "grip",
+            "keys": true,
+            "motion": "lower"
+          },
+          "contact": {
+            "view": {
+              "scale": 1.85,
+              "focus": [
+                340,
+                237
+              ],
+              "at": [
+                320,
+                206
+              ]
+            },
+            "hand": "grip",
+            "keys": true,
+            "motion": "rest"
+          },
+          "released": {
+            "view": {
+              "scale": 1.85,
+              "focus": [
+                340,
+                237
+              ],
+              "at": [
+                320,
+                206
+              ]
+            },
+            "hand": "open",
+            "keys": true,
+            "motion": "rest"
+          },
+          "withdrawing": {
+            "view": {
+              "scale": 1.85,
+              "focus": [
+                340,
+                237
+              ],
+              "at": [
+                320,
+                206
+              ]
+            },
+            "hand": "open",
+            "keys": true,
+            "motion": "withdraw"
+          },
+          "detailRest": {
+            "view": {
+              "scale": 1.85,
+              "focus": [
+                340,
+                237
+              ],
+              "at": [
+                320,
+                206
+              ]
+            },
+            "hand": null,
+            "keys": true,
+            "motion": "rest"
+          },
+          "remaining": {
+            "view": {
+              "scale": 1,
+              "focus": [
+                320,
+                180
+              ],
+              "at": [
+                320,
+                180
+              ]
+            },
+            "hand": null,
+            "keys": true,
+            "motion": "rest"
+          }
+        },
+        "exposure": [
+          {
+            "from": 0,
+            "to": 18,
+            "every": 6,
+            "value": "poised"
+          },
+          {
+            "from": 18,
+            "to": 48,
+            "every": 3,
+            "value": "descending"
+          },
+          {
+            "from": 48,
+            "to": 60,
+            "every": 6,
+            "value": "contact"
+          },
+          {
+            "from": 60,
+            "to": 66,
+            "every": 3,
+            "value": "released"
+          },
+          {
+            "from": 66,
+            "to": 90,
+            "every": 2,
+            "value": "withdrawing"
+          },
+          {
+            "from": 90,
+            "to": 120,
+            "every": 12,
+            "value": "detailRest"
+          },
+          {
+            "from": 120,
+            "to": 168,
+            "every": 12,
+            "value": "remaining"
+          }
+        ],
+        "role": "light"
+      }
+    }
+  ]
+}

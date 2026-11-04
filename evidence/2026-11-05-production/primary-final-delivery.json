@@ -1,0 +1,56 @@
+{
+  "status": "LOCAL_IMPLEMENTATION_AND_VERIFICATION_COMPLETE",
+  "at": "2026-11-04T22:10:37.373856+00:00",
+  "root": "/Volumes/eyedisk/develop/cinewright",
+  "head": "5bd6d89763dd500d0fd85903bf8c288775e4ac0e",
+  "codeAndPriorReviewedFilesUnchangedAfterScopedReview": 33,
+  "statusDocumentsSha256": {
+    "evidence/2026-11-05-production/RESULT.md": "b1ee74ec2c139cfbee357f1307094f2c1f02bb08ef39f1bce2cb3795635aa476",
+    "evidence/2026-11-05-production/REVIEW.md": "b18686526c38e3e509e02123a0a2871caee872cca6f69716d91f3e45975a95c5",
+    "examples/stillcuts/README.md": "a927729a43dd428c7634991fe48bd896e3930e9bb3bb1f95ac3a3c566becdc86"
+  },
+  "statusDiff": "/Volumes/eyedisk/develop/cinewright/evidence/2026-11-05-production/final-fix-1/status-closeout.diff",
+  "statusDiffSha256": "5d2eb27188074e3b9bb673c720b22cf10bd9d13cbce27628d4adbd75af1e686b",
+  "checks": {
+    "currentRegression": {
+      "passed": 364,
+      "failed": 0,
+      "log": "/Volumes/eyedisk/develop/cinewright/evidence/2026-11-05-production/final-fix-1/npm-test.log"
+    },
+    "independentReview": "/Volumes/eyedisk/develop/cinewright/.superpowers/sdd/2026-11-05-cinewright-production/final-fix-1-re-review.md",
+    "ownership": "/Volumes/eyedisk/develop/cinewright/evidence/2026-11-05-production/primary-final-source-scope.json",
+    "documentLinks": {
+      "targets": 131,
+      "log": "/Volumes/eyedisk/develop/cinewright/evidence/2026-11-05-production/final-fix-1/status-closeout-checks.log"
+    },
+    "gitWhitespace": "pass"
+  },
+  "media": {
+    "a": {
+      "revision": "f1d51eaa10567cba25eb1787fa5e65d8776f4da185c1c2bd4e290a0a658abc04",
+      "job": "b030aad5-33a8-4a71-9977-994c046e3b50",
+      "seconds": 8
+    },
+    "b": {
+      "revision": "4355e5ec4829e994785e96c7788387d0a61f44dd43d2aa566cb3124cdd86fac0",
+      "job": "c5d57e2c-0459-4def-a8c2-b8f49ea5748c",
+      "seconds": 7
+    },
+    "provenance": "Inspected contact-corrected video snapshots before the later own-key dictionary hardening; never relabeled as a render of the hardened scene. Prior media validation and preservation receipts remain authoritative."
+  },
+  "performance": {
+    "workers": 9,
+    "seeks": 216,
+    "pngReadbacks": 225,
+    "status": "measured-with-recorded-interruption",
+    "source": "/Volumes/eyedisk/develop/cinewright/evidence/2026-11-05-production/performance.json",
+    "audit": "/Volumes/eyedisk/develop/cinewright/evidence/2026-11-05-production/primary-performance-audit.json"
+  },
+  "limits": [
+    "Direct uninterrupted viewing/listening and A f54–60 normal-speed contact recognition unverified.",
+    "Audience response and user acceptance unverified.",
+    "Performance is bounded to declared synthetic cases and sampling scope.",
+    "External protected paths rely on their precise prior audit scope.",
+    "No install, commit, push, branch/worktree, publication or deployment."
+  ]
+}

@@ -1,0 +1,96 @@
+{
+  "version": 1,
+  "title": "성능 측정 baseline-4",
+  "size": [
+    320,
+    180
+  ],
+  "fps": 24,
+  "frames": 96,
+  "background": "#101016",
+  "points": {
+    "edge-0": 0,
+    "edge-1": 24,
+    "edge-2": 48,
+    "edge-3": 72
+  },
+  "spans": {
+    "cut-0": [
+      0,
+      24
+    ],
+    "cut-1": [
+      24,
+      48
+    ],
+    "cut-2": [
+      48,
+      72
+    ],
+    "cut-3": [
+      72,
+      96
+    ]
+  },
+  "audio": [],
+  "layers": [
+    {
+      "id": "artwork",
+      "module": "modules/artwork.mjs",
+      "exposure": [
+        {
+          "from": 0,
+          "to": 24,
+          "every": 1,
+          "value": "art-00"
+        },
+        {
+          "from": 24,
+          "to": 48,
+          "every": 1,
+          "value": "art-01"
+        },
+        {
+          "from": 48,
+          "to": 72,
+          "every": 1,
+          "value": "art-02"
+        },
+        {
+          "from": 72,
+          "to": 96,
+          "every": 1,
+          "value": "art-03"
+        }
+      ],
+      "config": {
+        "artworks": {
+          "art-00": {
+            "asset": "assets/art-00.svg",
+            "placement": {
+              "fit": "contain"
+            }
+          },
+          "art-01": {
+            "asset": "assets/art-01.svg",
+            "placement": {
+              "fit": "contain"
+            }
+          },
+          "art-02": {
+            "asset": "assets/art-02.svg",
+            "placement": {
+              "fit": "contain"
+            }
+          },
+          "art-03": {
+            "asset": "assets/art-03.svg",
+            "placement": {
+              "fit": "contain"
+            }
+          }
+        }
+      }
+    }
+  ]
+}

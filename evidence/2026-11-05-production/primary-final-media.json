@@ -1,0 +1,284 @@
+{
+  "status": "FINAL_MEDIA_HASH_REVISION_AND_AUTHORED_RANGE_MATCH",
+  "checkedJobs": [
+    {
+      "example": "a",
+      "kind": "frame",
+      "revision": "f1d51eaa10567cba25eb1787fa5e65d8776f4da185c1c2bd4e290a0a658abc04",
+      "job": "625649a9-cab3-4934-bb64-a7caeaf63fdf",
+      "path": "/Volumes/eyedisk/develop/cinewright/.direction/production/jobs/625649a9-cab3-4934-bb64-a7caeaf63fdf/frame.png",
+      "sha256": "08defbd229b05c2ced088721008848a78f3d3e2a9c605f1e307035540c667a03",
+      "bounds": [
+        60,
+        61
+      ]
+    },
+    {
+      "example": "a",
+      "kind": "span",
+      "revision": "f1d51eaa10567cba25eb1787fa5e65d8776f4da185c1c2bd4e290a0a658abc04",
+      "job": "a515dfc7-fd57-4f78-aa76-77e336d9d78f",
+      "path": "/Volumes/eyedisk/develop/cinewright/.direction/production/jobs/a515dfc7-fd57-4f78-aa76-77e336d9d78f/work.mp4",
+      "sha256": "f6ca7b36a1f27932d494bb4e2cd6c6f849b99a64fdf2435f5df0b3a3e9896355",
+      "bounds": [
+        36,
+        78
+      ]
+    },
+    {
+      "example": "a",
+      "kind": "full",
+      "revision": "f1d51eaa10567cba25eb1787fa5e65d8776f4da185c1c2bd4e290a0a658abc04",
+      "job": "b030aad5-33a8-4a71-9977-994c046e3b50",
+      "path": "/Volumes/eyedisk/develop/cinewright/.direction/production/jobs/b030aad5-33a8-4a71-9977-994c046e3b50/work.mp4",
+      "sha256": "c3311210b71d139ea4d6bde647314878163d0843b3fecc2f40b014604bd32b72",
+      "bounds": [
+        0,
+        192
+      ]
+    },
+    {
+      "example": "b",
+      "kind": "frame",
+      "revision": "4355e5ec4829e994785e96c7788387d0a61f44dd43d2aa566cb3124cdd86fac0",
+      "job": "9e39ea24-e8af-46df-b502-6dff54a5c791",
+      "path": "/Volumes/eyedisk/develop/cinewright/.direction/production/jobs/9e39ea24-e8af-46df-b502-6dff54a5c791/frame.png",
+      "sha256": "b72ed75bbd981db9e4c5fbb7aefe15c5ee2b85c4252822c9f99e6ad270774efd",
+      "bounds": [
+        48,
+        49
+      ]
+    },
+    {
+      "example": "b",
+      "kind": "span",
+      "revision": "4355e5ec4829e994785e96c7788387d0a61f44dd43d2aa566cb3124cdd86fac0",
+      "job": "88c9ab45-8bf1-49fd-95ff-42f376b1cf79",
+      "path": "/Volumes/eyedisk/develop/cinewright/.direction/production/jobs/88c9ab45-8bf1-49fd-95ff-42f376b1cf79/work.mp4",
+      "sha256": "e910b0c53373e5b139a787b2fd5931bac015854373b60a1f6da4f4c0d7c83679",
+      "bounds": [
+        18,
+        66
+      ]
+    },
+    {
+      "example": "b",
+      "kind": "full",
+      "revision": "4355e5ec4829e994785e96c7788387d0a61f44dd43d2aa566cb3124cdd86fac0",
+      "job": "c5d57e2c-0459-4def-a8c2-b8f49ea5748c",
+      "path": "/Volumes/eyedisk/develop/cinewright/.direction/production/jobs/c5d57e2c-0459-4def-a8c2-b8f49ea5748c/work.mp4",
+      "sha256": "ea760f35da06285dc346c0869664c3581b36717721d807128c824bef10edd08c",
+      "bounds": [
+        0,
+        168
+      ]
+    }
+  ],
+  "sourceReceipt": "/Volumes/eyedisk/develop/cinewright/evidence/2026-11-05-production/task-4/runs/contact-fix-1/inspection/receipt.json",
+  "sourceReceiptSha256": "0d9065aa54e74b2074ccb5c8e5b2df284d7645ce77b4cc98ba8be794af2df536",
+  "observedRuntimeSummary": {
+    "a": {
+      "revision": "f1d51eaa10567cba25eb1787fa5e65d8776f4da185c1c2bd4e290a0a658abc04",
+      "probe": {
+        "span": {
+          "authoredRange": [
+            36,
+            78
+          ],
+          "codec": "h264",
+          "pixelFormat": "yuv420p",
+          "size": [
+            640,
+            360
+          ],
+          "fps": "24/1",
+          "frames": 42,
+          "seconds": 1.75,
+          "firstPTS": 0,
+          "lastPTS": 1.708333,
+          "maxPTSErrorSeconds": 3.33333333379926e-07,
+          "audio": {
+            "codec": "aac",
+            "rate": 48000,
+            "channels": 2,
+            "duration": 1.75
+          }
+        },
+        "full": {
+          "authoredRange": [
+            0,
+            192
+          ],
+          "codec": "h264",
+          "pixelFormat": "yuv420p",
+          "size": [
+            640,
+            360
+          ],
+          "fps": "24/1",
+          "frames": 192,
+          "seconds": 8,
+          "firstPTS": 0,
+          "lastPTS": 7.958333,
+          "maxPTSErrorSeconds": 3.33333333379926e-07,
+          "audio": {
+            "codec": "aac",
+            "rate": 48000,
+            "channels": 2,
+            "duration": 8
+          }
+        }
+      },
+      "livePlayback": {
+        "wallMs": 8071.5,
+        "presentedCount": 191,
+        "firstPresented": 1,
+        "lastPresented": 191,
+        "finalFrame": 191,
+        "playbackRate": 1,
+        "canvas": [
+          640,
+          360
+        ],
+        "display": [
+          640,
+          360
+        ],
+        "rawObservation": "/Volumes/eyedisk/develop/cinewright/evidence/2026-11-05-production/task-4/runs/contact-fix-1/outputs.json"
+      },
+      "mp4Playback": {
+        "wallMs": 8450.600000023842,
+        "duration": 8,
+        "currentTime": 8,
+        "ended": true,
+        "playbackRate": 1,
+        "muted": false,
+        "naturalSize": [
+          640,
+          360
+        ],
+        "displaySize": [
+          640,
+          360
+        ],
+        "played": [
+          [
+            0,
+            8
+          ]
+        ],
+        "playbackQuality": {
+          "totalVideoFrames": 192,
+          "droppedVideoFrames": 1
+        },
+        "presentedCount": 191,
+        "firstPresentedTime": 0,
+        "lastPresentedTime": 7.958333,
+        "rawObservation": "/Volumes/eyedisk/develop/cinewright/.direction/production/task-4-runs/contact-fix-1/inspection/a/mp4-playback.json",
+        "screenshot": "/Volumes/eyedisk/develop/cinewright/.direction/production/task-4-runs/contact-fix-1/inspection/a/mp4-playback-ended.png"
+      }
+    },
+    "b": {
+      "revision": "4355e5ec4829e994785e96c7788387d0a61f44dd43d2aa566cb3124cdd86fac0",
+      "probe": {
+        "span": {
+          "authoredRange": [
+            18,
+            66
+          ],
+          "codec": "h264",
+          "pixelFormat": "yuv420p",
+          "size": [
+            640,
+            360
+          ],
+          "fps": "24/1",
+          "frames": 48,
+          "seconds": 2,
+          "firstPTS": 0,
+          "lastPTS": 1.958333,
+          "maxPTSErrorSeconds": 3.33333333379926e-07,
+          "audio": {
+            "codec": "aac",
+            "rate": 48000,
+            "channels": 2,
+            "duration": 2
+          }
+        },
+        "full": {
+          "authoredRange": [
+            0,
+            168
+          ],
+          "codec": "h264",
+          "pixelFormat": "yuv420p",
+          "size": [
+            640,
+            360
+          ],
+          "fps": "24/1",
+          "frames": 168,
+          "seconds": 7,
+          "firstPTS": 0,
+          "lastPTS": 6.958333,
+          "maxPTSErrorSeconds": 3.33333333379926e-07,
+          "audio": {
+            "codec": "aac",
+            "rate": 48000,
+            "channels": 2,
+            "duration": 7
+          }
+        }
+      },
+      "livePlayback": {
+        "wallMs": 7050.199999988079,
+        "presentedCount": 167,
+        "firstPresented": 1,
+        "lastPresented": 167,
+        "finalFrame": 167,
+        "playbackRate": 1,
+        "canvas": [
+          640,
+          360
+        ],
+        "display": [
+          640,
+          360
+        ],
+        "rawObservation": "/Volumes/eyedisk/develop/cinewright/evidence/2026-11-05-production/task-4/runs/contact-fix-1/outputs.json"
+      },
+      "mp4Playback": {
+        "wallMs": 7080.5,
+        "duration": 7,
+        "currentTime": 7,
+        "ended": true,
+        "playbackRate": 1,
+        "muted": false,
+        "naturalSize": [
+          640,
+          360
+        ],
+        "displaySize": [
+          640,
+          360
+        ],
+        "played": [
+          [
+            0,
+            7
+          ]
+        ],
+        "playbackQuality": {
+          "totalVideoFrames": 168,
+          "droppedVideoFrames": 0
+        },
+        "presentedCount": 168,
+        "firstPresentedTime": 0,
+        "lastPresentedTime": 6.958333,
+        "rawObservation": "/Volumes/eyedisk/develop/cinewright/.direction/production/task-4-runs/contact-fix-1/inspection/b/mp4-playback.json",
+        "screenshot": "/Volumes/eyedisk/develop/cinewright/.direction/production/task-4-runs/contact-fix-1/inspection/b/mp4-playback-ended.png"
+      }
+    }
+  },
+  "limitations": "Hash/range checks validate artifact identity, not creative quality. Independent decoded-frame review and direct-viewing limits are separately recorded."
+}

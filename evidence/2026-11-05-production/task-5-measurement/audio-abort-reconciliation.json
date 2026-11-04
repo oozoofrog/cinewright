@@ -1,0 +1,29 @@
+{
+  "status": "COMPLETED_IMAGE_MEASUREMENTS_RECONCILED_WITH_RECORDED_AUDIO_ABORT",
+  "at": "2026-11-04T21:42:07.405Z",
+  "failedWorker": "reused-24-r2",
+  "rawResultSha256": "c75017a000f6bd0883fc5d06a0df08fd72639d8d601899aba3e9e65c9be81c3e",
+  "readbacksVerified": 25,
+  "seeksVerified": 24,
+  "originalProcessExit": 1,
+  "originalResultStatus": "failed",
+  "event": {
+    "at": "2026-11-04T21:40:30.533Z",
+    "kind": "requestfailed",
+    "url": "http://127.0.0.1:50117/audio.wav",
+    "error": {
+      "errorText": "net::ERR_ABORTED"
+    }
+  },
+  "diagnosis": "Post-measurement blanket network guard rejected one aborted audio request. Every timed image readback/state assertion and cleanup stage completed. Exact cancellation cause is not directly observed; rapid currentTime assignments are a plausible trigger, not proof. Audio seek completion is excluded by the original plan.",
+  "decision": "Retain this measured repetition with an explicit audio-abort flag. Preserve failed raw status/logs. Do not repeat it. Continue only four unexecuted workers.",
+  "checks": [
+    "original guard rejects saved event",
+    "scoped audio-abort classifier accepts only that event",
+    "HTTP error, page error and image request failure remain fatal",
+    "25 PNG SHA-256/dimension checks",
+    "24 declared ordered frames and positive elapsed times",
+    "7 stages and no remaining browser descendants"
+  ],
+  "timingOrInputChanged": false
+}

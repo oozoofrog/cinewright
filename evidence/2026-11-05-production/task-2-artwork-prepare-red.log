@@ -1,0 +1,791 @@
+✔ provides only the geometry and prepare entry points without browser globals (1.917667ms)
+✔ places an original-image anchor at its target with one scalar (0.21825ms)
+✔ keeps the same original anchor at its target after moving the crop origin (0.100667ms)
+✔ defaults crop to the whole source and permits an off-canvas target without canvasSize (0.0985ms)
+✔ supports fractional coordinates and anchors outside the source (0.125792ms)
+✔ contain centers a wide image in the default canvas box without clipping or stretching (0.081333ms)
+✔ cover centers a wide image and clips overflow to the default canvas box (0.072875ms)
+▶ fits the cropped dimensions inside an explicit box without requiring canvasSize
+  ✔ contain (0.0525ms)
+  ✔ cover (0.055625ms)
+✔ fits the cropped dimensions inside an explicit box without requiring canvasSize (0.327834ms)
+▶ fits a tall image into an off-canvas box using the other limiting dimension
+  ✔ contain (0.05125ms)
+  ✔ cover (0.030459ms)
+✔ fits a tall image into an off-canvas box using the other limiting dimension (0.20375ms)
+✔ does not mutate input or expose its arrays through placement output (0.113709ms)
+✔ inherited optional crop and canvasSize cannot change anchored placement (0.057541ms)
+✔ inherited fit and box cannot switch anchored placement mode (0.054459ms)
+✔ inherited box or anchored controls cannot change fit placement (0.057917ms)
+▶ rejects invalid root, placement, and missing anchored fields
+  ✔ missing root (0.212459ms)
+  ✔ null root (0.04525ms)
+  ✔ array root (0.027667ms)
+  ✔ text root (0.031917ms)
+  ✔ missing placement (0.037958ms)
+  ✔ placement shape 0 (0.0315ms)
+  ✔ placement shape 1 (0.026417ms)
+  ✔ placement shape 2 (0.030125ms)
+  ✔ missing anchor (0.028166ms)
+  ✔ missing at (0.027833ms)
+  ✔ missing scale (0.038041ms)
+✔ rejects invalid root, placement, and missing anchored fields (0.769959ms)
+▶ rejects source sizes that are not two finite positive numbers
+  ✔ size 0 (0.048291ms)
+  ✔ size 1 (0.023666ms)
+  ✔ size 2 (0.022125ms)
+  ✔ size 3 (0.032292ms)
+  ✔ size 4 (0.022583ms)
+  ✔ size 5 (0.029291ms)
+  ✔ size 6 (0.022042ms)
+  ✔ size 7 (0.033042ms)
+  ✔ size 8 (0.020166ms)
+  ✔ size 9 (0.020667ms)
+  ✔ size 10 (0.023042ms)
+✔ rejects source sizes that are not two finite positive numbers (0.48275ms)
+▶ rejects invalid crop shapes, nonfinite coordinates, and crops beyond the source
+  ✔ crop 0 (0.030458ms)
+  ✔ crop 1 (0.022709ms)
+  ✔ crop 2 (0.020333ms)
+  ✔ crop 3 (0.0215ms)
+  ✔ crop 4 (0.021334ms)
+  ✔ crop 5 (0.02ms)
+  ✔ crop 6 (0.034875ms)
+  ✔ crop 7 (0.020791ms)
+  ✔ crop 8 (0.022375ms)
+  ✔ crop 9 (0.019667ms)
+  ✔ crop 10 (0.021167ms)
+  ✔ crop 11 (0.019833ms)
+  ✔ crop 12 (0.022ms)
+  ✔ crop 13 (0.025625ms)
+  ✔ crop 14 (0.028208ms)
+  ✔ crop 15 (0.023583ms)
+  ✔ crop 16 (0.022042ms)
+✔ rejects invalid crop shapes, nonfinite coordinates, and crops beyond the source (1.022958ms)
+▶ rejects anchors and targets that are not finite coordinate pairs
+  ✔ anchor 0 (0.103083ms)
+  ✔ anchor 1 (0.021292ms)
+  ✔ anchor 2 (0.031208ms)
+  ✔ anchor 3 (0.143083ms)
+  ✔ anchor 4 (0.045958ms)
+  ✔ anchor 5 (0.033084ms)
+  ✔ anchor 6 (0.026916ms)
+  ✔ anchor 7 (0.023ms)
+  ✔ anchor 8 (0.032875ms)
+  ✔ at 0 (0.021333ms)
+  ✔ at 1 (0.024916ms)
+  ✔ at 2 (0.022583ms)
+  ✔ at 3 (0.021084ms)
+  ✔ at 4 (0.024ms)
+  ✔ at 5 (0.022625ms)
+  ✔ at 6 (0.02225ms)
+  ✔ at 7 (0.0235ms)
+  ✔ at 8 (0.021084ms)
+✔ rejects anchors and targets that are not finite coordinate pairs (1.1025ms)
+▶ rejects zero, negative, nonfinite, and non-scalar scales
+  ✔ scale 0 (0.043291ms)
+  ✔ scale 1 (0.021916ms)
+  ✔ scale 2 (0.020417ms)
+  ✔ scale 3 (0.023375ms)
+  ✔ scale 4 (0.022291ms)
+  ✔ scale 5 (0.032292ms)
+  ✔ scale 6 (0.020292ms)
+  ✔ scale 7 (0.023458ms)
+  ✔ scale 8 (0.024417ms)
+✔ rejects zero, negative, nonfinite, and non-scalar scales (0.394709ms)
+▶ rejects unknown fit modes and explicit invalid optional controls
+  ✔ fit 0 (0.03475ms)
+  ✔ fit 1 (0.023708ms)
+  ✔ fit 2 (0.020541ms)
+  ✔ fit 3 (0.020625ms)
+  ✔ fit 4 (0.035292ms)
+  ✔ fit 5 (0.026334ms)
+  ✔ explicit undefined box (0.028333ms)
+  ✔ no default scale (0.028625ms)
+✔ rejects unknown fit modes and explicit invalid optional controls (0.367208ms)
+▶ rejects mixing fit and anchored controls even when their own value is undefined
+  ✔ anchor (0.0445ms)
+  ✔ at (0.350958ms)
+  ✔ scale (0.047958ms)
+  ✔ box without fit (0.042709ms)
+✔ rejects mixing fit and anchored controls even when their own value is undefined (0.604292ms)
+▶ rejects inherited required anchored fields
+  ✔ anchor (0.034333ms)
+  ✔ at (0.025125ms)
+  ✔ scale (0.023167ms)
+✔ rejects inherited required anchored fields (0.169ms)
+▶ requires canvasSize for the default fit box and validates it whenever supplied
+  ✔ missing default canvas (0.029875ms)
+  ✔ anchored canvas 0 (0.02625ms)
+  ✔ anchored canvas 1 (0.019416ms)
+  ✔ anchored canvas 2 (0.017959ms)
+  ✔ anchored canvas 3 (0.01825ms)
+  ✔ anchored canvas 4 (0.018583ms)
+  ✔ anchored canvas 5 (0.018125ms)
+  ✔ anchored canvas 6 (0.018083ms)
+  ✔ anchored canvas 7 (0.01825ms)
+  ✔ anchored canvas 8 (0.018042ms)
+  ✔ unused explicit-box canvas (0.023958ms)
+✔ requires canvasSize for the default fit box and validates it whenever supplied (0.435708ms)
+▶ rejects fit boxes with invalid shape, coordinates, or dimensions
+  ✔ box 0 (0.027834ms)
+  ✔ box 1 (0.019375ms)
+  ✔ box 2 (0.025833ms)
+  ✔ box 3 (0.023917ms)
+  ✔ box 4 (0.020084ms)
+  ✔ box 5 (0.01975ms)
+  ✔ box 6 (0.019917ms)
+  ✔ box 7 (0.019833ms)
+  ✔ box 8 (0.019625ms)
+✔ rejects fit boxes with invalid shape, coordinates, or dimensions (0.328125ms)
+▶ rejects finite inputs whose derived scale or destination is not drawable
+  ✔ unrepresentable result 0 (0.033584ms)
+  ✔ unrepresentable result 1 (0.023ms)
+  ✔ unrepresentable result 2 (0.0225ms)
+  ✔ unrepresentable result 3 (0.022583ms)
+✔ rejects finite inputs whose derived scale or destination is not drawable (0.188166ms)
+✔ does not impose an arbitrary size limit on representable finite geometry (0.083625ms)
+✖ prepare loads every artwork and draws the selected image using natural dimensions (0.483ms)
+✖ cover clips with a separate Path2D and restores state after drawing (0.265ms)
+✖ restores saved state when drawImage throws (0.101125ms)
+✖ prepares cover without Path2D and restores state if its draw-time construction fails (0.088375ms)
+✖ selects own artwork keys including prototype-like and nonenumerable names (0.090292ms)
+✖ rejects unknown or missing values before changing the graphics state (0.063709ms)
+✖ draw uses prepared geometry consistently across frame order and later config edits (0.065792ms)
+✖ empty artwork dictionaries can prepare but have no implicit draw fallback (0.049584ms)
+✖ preparation ignores inherited optional crop data (0.271375ms)
+▶ image rejection and synchronous loader failure retain artwork ID, asset, and cause
+  ✖ rejection (0.084958ms)
+  ✖ throw (0.033ms)
+✖ image rejection and synchronous loader failure retain artwork ID, asset, and cause (0.195167ms)
+▶ invalid decoded image dimensions never fall back to displayed dimensions
+  ✖ image 0 (0.039541ms)
+  ✖ image 1 (0.025458ms)
+  ✖ image 2 (0.02325ms)
+  ✖ image 3 (0.022709ms)
+  ✖ image 4 (0.024291ms)
+  ✖ image 5 (0.02275ms)
+✖ invalid decoded image dimensions never fall back to displayed dimensions (0.279542ms)
+▶ invalid artwork objects, asset names, crops, and placement carry artwork context
+  ✖ artwork 0 (0.031542ms)
+  ✖ artwork 1 (0.021958ms)
+  ✖ artwork 2 (0.021375ms)
+  ✖ artwork 3 (0.020667ms)
+  ✖ artwork 4 (0.02025ms)
+  ✖ artwork 5 (0.019625ms)
+  ✖ artwork 6 (0.019875ms)
+  ✖ artwork 7 (0.019833ms)
+  ✖ artwork 8 (0.019875ms)
+✖ invalid artwork objects, asset names, crops, and placement carry artwork context (0.344125ms)
+▶ rejects invalid preparation API or configuration with field context
+  ✖ shape 0 (0.025708ms)
+  ✖ shape 1 (0.019209ms)
+  ✖ shape 2 (0.019084ms)
+  ✖ shape 3 (0.019375ms)
+  ✖ shape 4 (0.029916ms)
+  ✖ shape 5 (0.0235ms)
+  ✖ shape 6 (0.019792ms)
+  ✖ shape 7 (0.020166ms)
+  ✖ shape 8 (0.022458ms)
+  ✖ shape 9 (0.0205ms)
+  ✖ shape 10 (0.019542ms)
+  ✖ shape 11 (0.01925ms)
+✖ rejects invalid preparation API or configuration with field context (0.443041ms)
+ℹ tests 176
+ℹ suites 0
+ℹ pass 134
+ℹ fail 42
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 124.5815
+
+✖ failing tests:
+
+test at tests/artwork.test.mjs:347:1
+✖ prepare loads every artwork and draws the selected image using natural dimensions (0.483ms)
+  AssertionError [ERR_ASSERTION]: prepare must return a draw function
+  + actual - expected
+  
+  + 'undefined'
+  - 'function'
+  
+      at prepared (file:///Volumes/eyedisk/develop/cinewright/tests/artwork.test.mjs:334:10)
+      at async TestContext.<anonymous> (file:///Volumes/eyedisk/develop/cinewright/tests/artwork.test.mjs:360:18)
+      at async Test.run (node:internal/test_runner/test:1409:7)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: 'undefined',
+    expected: 'function',
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at tests/artwork.test.mjs:372:1
+✖ cover clips with a separate Path2D and restores state after drawing (0.265ms)
+  AssertionError [ERR_ASSERTION]: prepare must return a draw function
+  + actual - expected
+  
+  + 'undefined'
+  - 'function'
+  
+      at prepared (file:///Volumes/eyedisk/develop/cinewright/tests/artwork.test.mjs:334:10)
+      at async TestContext.<anonymous> (file:///Volumes/eyedisk/develop/cinewright/tests/artwork.test.mjs:375:18)
+      at async Test.run (node:internal/test_runner/test:1409:7)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: 'undefined',
+    expected: 'function',
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at tests/artwork.test.mjs:386:1
+✖ restores saved state when drawImage throws (0.101125ms)
+  AssertionError [ERR_ASSERTION]: prepare must return a draw function
+  + actual - expected
+  
+  + 'undefined'
+  - 'function'
+  
+      at prepared (file:///Volumes/eyedisk/develop/cinewright/tests/artwork.test.mjs:334:10)
+      at async TestContext.<anonymous> (file:///Volumes/eyedisk/develop/cinewright/tests/artwork.test.mjs:389:18)
+      at async Test.run (node:internal/test_runner/test:1409:7)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: 'undefined',
+    expected: 'function',
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at tests/artwork.test.mjs:401:1
+✖ prepares cover without Path2D and restores state if its draw-time construction fails (0.088375ms)
+  AssertionError [ERR_ASSERTION]: prepare must return a draw function
+  + actual - expected
+  
+  + 'undefined'
+  - 'function'
+  
+      at prepared (file:///Volumes/eyedisk/develop/cinewright/tests/artwork.test.mjs:334:10)
+      at async TestContext.<anonymous> (file:///Volumes/eyedisk/develop/cinewright/tests/artwork.test.mjs:405:18)
+      at async Test.run (node:internal/test_runner/test:1409:7)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: 'undefined',
+    expected: 'function',
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at tests/artwork.test.mjs:413:1
+✖ selects own artwork keys including prototype-like and nonenumerable names (0.090292ms)
+  AssertionError [ERR_ASSERTION]: prepare must return a draw function
+  + actual - expected
+  
+  + 'undefined'
+  - 'function'
+  
+      at prepared (file:///Volumes/eyedisk/develop/cinewright/tests/artwork.test.mjs:334:10)
+      at async TestContext.<anonymous> (file:///Volumes/eyedisk/develop/cinewright/tests/artwork.test.mjs:420:18)
+      at async Test.run (node:internal/test_runner/test:1409:7)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: 'undefined',
+    expected: 'function',
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at tests/artwork.test.mjs:430:1
+✖ rejects unknown or missing values before changing the graphics state (0.063709ms)
+  AssertionError [ERR_ASSERTION]: prepare must return a draw function
+  + actual - expected
+  
+  + 'undefined'
+  - 'function'
+  
+      at prepared (file:///Volumes/eyedisk/develop/cinewright/tests/artwork.test.mjs:334:10)
+      at async TestContext.<anonymous> (file:///Volumes/eyedisk/develop/cinewright/tests/artwork.test.mjs:431:18)
+      at async Test.run (node:internal/test_runner/test:1409:7)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: 'undefined',
+    expected: 'function',
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at tests/artwork.test.mjs:444:1
+✖ draw uses prepared geometry consistently across frame order and later config edits (0.065792ms)
+  AssertionError [ERR_ASSERTION]: prepare must return a draw function
+  + actual - expected
+  
+  + 'undefined'
+  - 'function'
+  
+      at prepared (file:///Volumes/eyedisk/develop/cinewright/tests/artwork.test.mjs:334:10)
+      at async TestContext.<anonymous> (file:///Volumes/eyedisk/develop/cinewright/tests/artwork.test.mjs:447:18)
+      at async Test.run (node:internal/test_runner/test:1409:7)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: 'undefined',
+    expected: 'function',
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at tests/artwork.test.mjs:462:1
+✖ empty artwork dictionaries can prepare but have no implicit draw fallback (0.049584ms)
+  AssertionError [ERR_ASSERTION]: prepare must return a draw function
+  + actual - expected
+  
+  + 'undefined'
+  - 'function'
+  
+      at prepared (file:///Volumes/eyedisk/develop/cinewright/tests/artwork.test.mjs:334:10)
+      at async TestContext.<anonymous> (file:///Volumes/eyedisk/develop/cinewright/tests/artwork.test.mjs:463:18)
+      at async Test.run (node:internal/test_runner/test:1409:7)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: 'undefined',
+    expected: 'function',
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at tests/artwork.test.mjs:469:1
+✖ preparation ignores inherited optional crop data (0.271375ms)
+  AssertionError [ERR_ASSERTION]: prepare must return a draw function
+  + actual - expected
+  
+  + 'undefined'
+  - 'function'
+  
+      at prepared (file:///Volumes/eyedisk/develop/cinewright/tests/artwork.test.mjs:334:10)
+      at async TestContext.<anonymous> (file:///Volumes/eyedisk/develop/cinewright/tests/artwork.test.mjs:474:18)
+      at async Test.run (node:internal/test_runner/test:1409:7)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: 'undefined',
+    expected: 'function',
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at tests/artwork.test.mjs:483:13
+✖ rejection (0.084958ms)
+  AssertionError [ERR_ASSERTION]: Missing expected rejection.
+      at async TestContext.<anonymous> (file:///Volumes/eyedisk/develop/cinewright/tests/artwork.test.mjs:486:7)
+      at async Test.run (node:internal/test_runner/test:1409:7)
+      at async TestContext.<anonymous> (file:///Volumes/eyedisk/develop/cinewright/tests/artwork.test.mjs:483:5)
+      at async Test.run (node:internal/test_runner/test:1409:7)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: undefined,
+    operator: 'rejects',
+    diff: 'simple'
+  }
+
+test at tests/artwork.test.mjs:483:13
+✖ throw (0.033ms)
+  AssertionError [ERR_ASSERTION]: Missing expected rejection.
+      at async TestContext.<anonymous> (file:///Volumes/eyedisk/develop/cinewright/tests/artwork.test.mjs:486:7)
+      at async Test.run (node:internal/test_runner/test:1409:7)
+      at async TestContext.<anonymous> (file:///Volumes/eyedisk/develop/cinewright/tests/artwork.test.mjs:483:5)
+      at async Test.run (node:internal/test_runner/test:1409:7)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: undefined,
+    operator: 'rejects',
+    diff: 'simple'
+  }
+
+test at tests/artwork.test.mjs:504:13
+✖ image 0 (0.039541ms)
+  AssertionError [ERR_ASSERTION]: Missing expected rejection.
+      at async Test.run (node:internal/test_runner/test:1409:7)
+      at async TestContext.<anonymous> (file:///Volumes/eyedisk/develop/cinewright/tests/artwork.test.mjs:504:5)
+      at async Test.run (node:internal/test_runner/test:1409:7)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: undefined,
+    operator: 'rejects',
+    diff: 'simple'
+  }
+
+test at tests/artwork.test.mjs:504:13
+✖ image 1 (0.025458ms)
+  AssertionError [ERR_ASSERTION]: Missing expected rejection.
+      at async Test.run (node:internal/test_runner/test:1409:7)
+      at async TestContext.<anonymous> (file:///Volumes/eyedisk/develop/cinewright/tests/artwork.test.mjs:504:5)
+      at async Test.run (node:internal/test_runner/test:1409:7)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: undefined,
+    operator: 'rejects',
+    diff: 'simple'
+  }
+
+test at tests/artwork.test.mjs:504:13
+✖ image 2 (0.02325ms)
+  AssertionError [ERR_ASSERTION]: Missing expected rejection.
+      at async Test.run (node:internal/test_runner/test:1409:7)
+      at async TestContext.<anonymous> (file:///Volumes/eyedisk/develop/cinewright/tests/artwork.test.mjs:504:5)
+      at async Test.run (node:internal/test_runner/test:1409:7)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: undefined,
+    operator: 'rejects',
+    diff: 'simple'
+  }
+
+test at tests/artwork.test.mjs:504:13
+✖ image 3 (0.022709ms)
+  AssertionError [ERR_ASSERTION]: Missing expected rejection.
+      at async Test.run (node:internal/test_runner/test:1409:7)
+      at async TestContext.<anonymous> (file:///Volumes/eyedisk/develop/cinewright/tests/artwork.test.mjs:504:5)
+      at async Test.run (node:internal/test_runner/test:1409:7)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: undefined,
+    operator: 'rejects',
+    diff: 'simple'
+  }
+
+test at tests/artwork.test.mjs:504:13
+✖ image 4 (0.024291ms)
+  AssertionError [ERR_ASSERTION]: Missing expected rejection.
+      at async Test.run (node:internal/test_runner/test:1409:7)
+      at async TestContext.<anonymous> (file:///Volumes/eyedisk/develop/cinewright/tests/artwork.test.mjs:504:5)
+      at async Test.run (node:internal/test_runner/test:1409:7)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: undefined,
+    operator: 'rejects',
+    diff: 'simple'
+  }
+
+test at tests/artwork.test.mjs:504:13
+✖ image 5 (0.02275ms)
+  AssertionError [ERR_ASSERTION]: Missing expected rejection.
+      at async Test.run (node:internal/test_runner/test:1409:7)
+      at async TestContext.<anonymous> (file:///Volumes/eyedisk/develop/cinewright/tests/artwork.test.mjs:504:5)
+      at async Test.run (node:internal/test_runner/test:1409:7)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: undefined,
+    operator: 'rejects',
+    diff: 'simple'
+  }
+
+test at tests/artwork.test.mjs:521:13
+✖ artwork 0 (0.031542ms)
+  AssertionError [ERR_ASSERTION]: Missing expected rejection.
+      at async Test.run (node:internal/test_runner/test:1409:7)
+      at async TestContext.<anonymous> (file:///Volumes/eyedisk/develop/cinewright/tests/artwork.test.mjs:521:5)
+      at async Test.run (node:internal/test_runner/test:1409:7)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: undefined,
+    operator: 'rejects',
+    diff: 'simple'
+  }
+
+test at tests/artwork.test.mjs:521:13
+✖ artwork 1 (0.021958ms)
+  AssertionError [ERR_ASSERTION]: Missing expected rejection.
+      at async Test.run (node:internal/test_runner/test:1409:7)
+      at async TestContext.<anonymous> (file:///Volumes/eyedisk/develop/cinewright/tests/artwork.test.mjs:521:5)
+      at async Test.run (node:internal/test_runner/test:1409:7)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: undefined,
+    operator: 'rejects',
+    diff: 'simple'
+  }
+
+test at tests/artwork.test.mjs:521:13
+✖ artwork 2 (0.021375ms)
+  AssertionError [ERR_ASSERTION]: Missing expected rejection.
+      at async Test.run (node:internal/test_runner/test:1409:7)
+      at async TestContext.<anonymous> (file:///Volumes/eyedisk/develop/cinewright/tests/artwork.test.mjs:521:5)
+      at async Test.run (node:internal/test_runner/test:1409:7)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: undefined,
+    operator: 'rejects',
+    diff: 'simple'
+  }
+
+test at tests/artwork.test.mjs:521:13
+✖ artwork 3 (0.020667ms)
+  AssertionError [ERR_ASSERTION]: Missing expected rejection.
+      at async Test.run (node:internal/test_runner/test:1409:7)
+      at async TestContext.<anonymous> (file:///Volumes/eyedisk/develop/cinewright/tests/artwork.test.mjs:521:5)
+      at async Test.run (node:internal/test_runner/test:1409:7)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: undefined,
+    operator: 'rejects',
+    diff: 'simple'
+  }
+
+test at tests/artwork.test.mjs:521:13
+✖ artwork 4 (0.02025ms)
+  AssertionError [ERR_ASSERTION]: Missing expected rejection.
+      at async Test.run (node:internal/test_runner/test:1409:7)
+      at async TestContext.<anonymous> (file:///Volumes/eyedisk/develop/cinewright/tests/artwork.test.mjs:521:5)
+      at async Test.run (node:internal/test_runner/test:1409:7)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: undefined,
+    operator: 'rejects',
+    diff: 'simple'
+  }
+
+test at tests/artwork.test.mjs:521:13
+✖ artwork 5 (0.019625ms)
+  AssertionError [ERR_ASSERTION]: Missing expected rejection.
+      at async Test.run (node:internal/test_runner/test:1409:7)
+      at async TestContext.<anonymous> (file:///Volumes/eyedisk/develop/cinewright/tests/artwork.test.mjs:521:5)
+      at async Test.run (node:internal/test_runner/test:1409:7)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: undefined,
+    operator: 'rejects',
+    diff: 'simple'
+  }
+
+test at tests/artwork.test.mjs:521:13
+✖ artwork 6 (0.019875ms)
+  AssertionError [ERR_ASSERTION]: Missing expected rejection.
+      at async Test.run (node:internal/test_runner/test:1409:7)
+      at async TestContext.<anonymous> (file:///Volumes/eyedisk/develop/cinewright/tests/artwork.test.mjs:521:5)
+      at async Test.run (node:internal/test_runner/test:1409:7)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: undefined,
+    operator: 'rejects',
+    diff: 'simple'
+  }
+
+test at tests/artwork.test.mjs:521:13
+✖ artwork 7 (0.019833ms)
+  AssertionError [ERR_ASSERTION]: Missing expected rejection.
+      at async Test.run (node:internal/test_runner/test:1409:7)
+      at async TestContext.<anonymous> (file:///Volumes/eyedisk/develop/cinewright/tests/artwork.test.mjs:521:5)
+      at async Test.run (node:internal/test_runner/test:1409:7)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: undefined,
+    operator: 'rejects',
+    diff: 'simple'
+  }
+
+test at tests/artwork.test.mjs:521:13
+✖ artwork 8 (0.019875ms)
+  AssertionError [ERR_ASSERTION]: Missing expected rejection.
+      at async Test.run (node:internal/test_runner/test:1409:7)
+      at async TestContext.<anonymous> (file:///Volumes/eyedisk/develop/cinewright/tests/artwork.test.mjs:521:5)
+      at async Test.run (node:internal/test_runner/test:1409:7)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: undefined,
+    operator: 'rejects',
+    diff: 'simple'
+  }
+
+test at tests/artwork.test.mjs:544:13
+✖ shape 0 (0.025708ms)
+  AssertionError [ERR_ASSERTION]: Missing expected rejection.
+      at async Test.run (node:internal/test_runner/test:1409:7)
+      at async TestContext.<anonymous> (file:///Volumes/eyedisk/develop/cinewright/tests/artwork.test.mjs:544:5)
+      at async Test.run (node:internal/test_runner/test:1409:7)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: undefined,
+    operator: 'rejects',
+    diff: 'simple'
+  }
+
+test at tests/artwork.test.mjs:544:13
+✖ shape 1 (0.019209ms)
+  AssertionError [ERR_ASSERTION]: Missing expected rejection.
+      at async Test.run (node:internal/test_runner/test:1409:7)
+      at async TestContext.<anonymous> (file:///Volumes/eyedisk/develop/cinewright/tests/artwork.test.mjs:544:5)
+      at async Test.run (node:internal/test_runner/test:1409:7)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: undefined,
+    operator: 'rejects',
+    diff: 'simple'
+  }
+
+test at tests/artwork.test.mjs:544:13
+✖ shape 2 (0.019084ms)
+  AssertionError [ERR_ASSERTION]: Missing expected rejection.
+      at async Test.run (node:internal/test_runner/test:1409:7)
+      at async TestContext.<anonymous> (file:///Volumes/eyedisk/develop/cinewright/tests/artwork.test.mjs:544:5)
+      at async Test.run (node:internal/test_runner/test:1409:7)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: undefined,
+    operator: 'rejects',
+    diff: 'simple'
+  }
+
+test at tests/artwork.test.mjs:544:13
+✖ shape 3 (0.019375ms)
+  AssertionError [ERR_ASSERTION]: Missing expected rejection.
+      at async Test.run (node:internal/test_runner/test:1409:7)
+      at async TestContext.<anonymous> (file:///Volumes/eyedisk/develop/cinewright/tests/artwork.test.mjs:544:5)
+      at async Test.run (node:internal/test_runner/test:1409:7)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: undefined,
+    operator: 'rejects',
+    diff: 'simple'
+  }
+
+test at tests/artwork.test.mjs:544:13
+✖ shape 4 (0.029916ms)
+  AssertionError [ERR_ASSERTION]: Missing expected rejection.
+      at async Test.run (node:internal/test_runner/test:1409:7)
+      at async TestContext.<anonymous> (file:///Volumes/eyedisk/develop/cinewright/tests/artwork.test.mjs:544:5)
+      at async Test.run (node:internal/test_runner/test:1409:7)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: undefined,
+    operator: 'rejects',
+    diff: 'simple'
+  }
+
+test at tests/artwork.test.mjs:544:13
+✖ shape 5 (0.0235ms)
+  AssertionError [ERR_ASSERTION]: Missing expected rejection.
+      at async Test.run (node:internal/test_runner/test:1409:7)
+      at async TestContext.<anonymous> (file:///Volumes/eyedisk/develop/cinewright/tests/artwork.test.mjs:544:5)
+      at async Test.run (node:internal/test_runner/test:1409:7)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: undefined,
+    operator: 'rejects',
+    diff: 'simple'
+  }
+
+test at tests/artwork.test.mjs:544:13
+✖ shape 6 (0.019792ms)
+  AssertionError [ERR_ASSERTION]: Missing expected rejection.
+      at async Test.run (node:internal/test_runner/test:1409:7)
+      at async TestContext.<anonymous> (file:///Volumes/eyedisk/develop/cinewright/tests/artwork.test.mjs:544:5)
+      at async Test.run (node:internal/test_runner/test:1409:7)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: undefined,
+    operator: 'rejects',
+    diff: 'simple'
+  }
+
+test at tests/artwork.test.mjs:544:13
+✖ shape 7 (0.020166ms)
+  AssertionError [ERR_ASSERTION]: Missing expected rejection.
+      at async Test.run (node:internal/test_runner/test:1409:7)
+      at async TestContext.<anonymous> (file:///Volumes/eyedisk/develop/cinewright/tests/artwork.test.mjs:544:5)
+      at async Test.run (node:internal/test_runner/test:1409:7)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: undefined,
+    operator: 'rejects',
+    diff: 'simple'
+  }
+
+test at tests/artwork.test.mjs:544:13
+✖ shape 8 (0.022458ms)
+  AssertionError [ERR_ASSERTION]: Missing expected rejection.
+      at async Test.run (node:internal/test_runner/test:1409:7)
+      at async TestContext.<anonymous> (file:///Volumes/eyedisk/develop/cinewright/tests/artwork.test.mjs:544:5)
+      at async Test.run (node:internal/test_runner/test:1409:7)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: undefined,
+    operator: 'rejects',
+    diff: 'simple'
+  }
+
+test at tests/artwork.test.mjs:544:13
+✖ shape 9 (0.0205ms)
+  AssertionError [ERR_ASSERTION]: Missing expected rejection.
+      at async Test.run (node:internal/test_runner/test:1409:7)
+      at async TestContext.<anonymous> (file:///Volumes/eyedisk/develop/cinewright/tests/artwork.test.mjs:544:5)
+      at async Test.run (node:internal/test_runner/test:1409:7)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: undefined,
+    operator: 'rejects',
+    diff: 'simple'
+  }
+
+test at tests/artwork.test.mjs:544:13
+✖ shape 10 (0.019542ms)
+  AssertionError [ERR_ASSERTION]: Missing expected rejection.
+      at async Test.run (node:internal/test_runner/test:1409:7)
+      at async TestContext.<anonymous> (file:///Volumes/eyedisk/develop/cinewright/tests/artwork.test.mjs:544:5)
+      at async Test.run (node:internal/test_runner/test:1409:7)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: undefined,
+    operator: 'rejects',
+    diff: 'simple'
+  }
+
+test at tests/artwork.test.mjs:544:13
+✖ shape 11 (0.01925ms)
+  AssertionError [ERR_ASSERTION]: Missing expected rejection.
+      at async Test.run (node:internal/test_runner/test:1409:7)
+      at async TestContext.<anonymous> (file:///Volumes/eyedisk/develop/cinewright/tests/artwork.test.mjs:544:5)
+      at async Test.run (node:internal/test_runner/test:1409:7)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: undefined,
+    operator: 'rejects',
+    diff: 'simple'
+  }

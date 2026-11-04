@@ -1,0 +1,52 @@
+Stillcuts build records: /Volumes/eyedisk/develop/cinewright/.direction/test-runs/stillcuts-build-PSEzrN
+✔ real stillcuts build preserves valid unchanged input and reports a distinct boundary fixture (105.999625ms)
+✔ real stillcuts build preserves valid touch-equals-fixture-target input and reports a distinct boundary fixture (102.979125ms)
+✔ real stillcuts build preserves valid release-before-fixture-target input and reports a distinct boundary fixture (104.634667ms)
+Stillcuts integration records: /Volumes/eyedisk/develop/cinewright/.direction/test-runs/stillcuts-integration-nLwZJ7
+✖ native pixels, frame order, CLI frames and copied frozen helpers preserve the stillcut contract (7954.550166ms)
+✔ actual Canvas cover clipping preserves alpha, caller graphics state and current path (2659.242625ms)
+ℹ tests 5
+ℹ suites 0
+ℹ pass 4
+ℹ fail 1
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 10841.952459
+
+✖ failing tests:
+
+test at tests/stillcuts.integration.test.mjs:95:1
+✖ native pixels, frame order, CLI frames and copied frozen helpers preserve the stillcut contract (7954.550166ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly deep-equal:
+  + actual - expected
+  ... Skipped lines
+  
+    {
+      exposures: {
+        blend: {
+          frame: 0,
+          value: 'red'
+  ...
+          frame: 0,
+  -       value: undefined
+        },
+        marker: {
+          frame: 0,
+  -       value: undefined
+        },
+        pose: {
+          frame: 0,
+          value: 'crop'
+        }
+  
+      at TestContext.<anonymous> (file:///Volumes/eyedisk/develop/cinewright/tests/stillcuts.integration.test.mjs:132:12)
+      at async Test.run (node:internal/test_runner/test:1409:7)
+      at async startSubtestAfterBootstrap (node:internal/test_runner/harness:387:3) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: { frame: 0, values: {}, exposures: { legacy: [Object], pose: [Object], blend: [Object], marker: [Object] } },
+    expected: { frame: 0, values: {}, exposures: { legacy: [Object], pose: [Object], blend: [Object], marker: [Object] } },
+    operator: 'deepStrictEqual',
+    diff: 'simple'
+  }

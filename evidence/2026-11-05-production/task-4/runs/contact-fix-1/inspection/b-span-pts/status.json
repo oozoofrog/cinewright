@@ -1,0 +1,20 @@
+{
+  "command": [
+    "ffprobe",
+    "-v",
+    "error",
+    "-select_streams",
+    "v:0",
+    "-show_frames",
+    "-show_entries",
+    "frame=best_effort_timestamp_time",
+    "-of",
+    "json",
+    "/Volumes/eyedisk/develop/cinewright/.direction/production/jobs/88c9ab45-8bf1-49fd-95ff-42f376b1cf79/work.mp4"
+  ],
+  "tmpdir": "/Volumes/eyedisk/develop/cinewright/.direction/production/task-4-runs/contact-fix-1/tmp",
+  "started": "2026-11-04T21:29:37.808Z",
+  "exitCode": 0,
+  "signal": null,
+  "finished": "2026-11-04T21:29:37.839Z"
+}

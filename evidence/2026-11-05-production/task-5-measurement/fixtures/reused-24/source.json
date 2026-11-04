@@ -1,0 +1,301 @@
+{
+  "frames": 576,
+  "artworks": {
+    "art-00": {
+      "asset": "assets/art-00.svg",
+      "placement": {
+        "fit": "contain"
+      }
+    },
+    "art-01": {
+      "asset": "assets/art-01.svg",
+      "placement": {
+        "fit": "contain"
+      }
+    },
+    "art-02": {
+      "asset": "assets/art-02.svg",
+      "placement": {
+        "fit": "contain"
+      }
+    },
+    "art-03": {
+      "asset": "assets/art-03.svg",
+      "placement": {
+        "fit": "contain"
+      }
+    }
+  },
+  "boundaries": [
+    {
+      "name": "edge-0",
+      "frame": 0
+    },
+    {
+      "name": "edge-1",
+      "frame": 24
+    },
+    {
+      "name": "edge-2",
+      "frame": 48
+    },
+    {
+      "name": "edge-3",
+      "frame": 72
+    },
+    {
+      "name": "edge-4",
+      "frame": 96
+    },
+    {
+      "name": "edge-5",
+      "frame": 120
+    },
+    {
+      "name": "edge-6",
+      "frame": 144
+    },
+    {
+      "name": "edge-7",
+      "frame": 168
+    },
+    {
+      "name": "edge-8",
+      "frame": 192
+    },
+    {
+      "name": "edge-9",
+      "frame": 216
+    },
+    {
+      "name": "edge-10",
+      "frame": 240
+    },
+    {
+      "name": "edge-11",
+      "frame": 264
+    },
+    {
+      "name": "edge-12",
+      "frame": 288
+    },
+    {
+      "name": "edge-13",
+      "frame": 312
+    },
+    {
+      "name": "edge-14",
+      "frame": 336
+    },
+    {
+      "name": "edge-15",
+      "frame": 360
+    },
+    {
+      "name": "edge-16",
+      "frame": 384
+    },
+    {
+      "name": "edge-17",
+      "frame": 408
+    },
+    {
+      "name": "edge-18",
+      "frame": 432
+    },
+    {
+      "name": "edge-19",
+      "frame": 456
+    },
+    {
+      "name": "edge-20",
+      "frame": 480
+    },
+    {
+      "name": "edge-21",
+      "frame": 504
+    },
+    {
+      "name": "edge-22",
+      "frame": 528
+    },
+    {
+      "name": "edge-23",
+      "frame": 552
+    },
+    {
+      "name": "edge-24",
+      "frame": 576
+    }
+  ],
+  "cuts": [
+    {
+      "name": "cut-0",
+      "from": "edge-0",
+      "to": "edge-1",
+      "every": 1,
+      "artwork": "art-00"
+    },
+    {
+      "name": "cut-1",
+      "from": "edge-1",
+      "to": "edge-2",
+      "every": 1,
+      "artwork": "art-01"
+    },
+    {
+      "name": "cut-2",
+      "from": "edge-2",
+      "to": "edge-3",
+      "every": 1,
+      "artwork": "art-02"
+    },
+    {
+      "name": "cut-3",
+      "from": "edge-3",
+      "to": "edge-4",
+      "every": 1,
+      "artwork": "art-03"
+    },
+    {
+      "name": "cut-4",
+      "from": "edge-4",
+      "to": "edge-5",
+      "every": 1,
+      "artwork": "art-00"
+    },
+    {
+      "name": "cut-5",
+      "from": "edge-5",
+      "to": "edge-6",
+      "every": 1,
+      "artwork": "art-01"
+    },
+    {
+      "name": "cut-6",
+      "from": "edge-6",
+      "to": "edge-7",
+      "every": 1,
+      "artwork": "art-02"
+    },
+    {
+      "name": "cut-7",
+      "from": "edge-7",
+      "to": "edge-8",
+      "every": 1,
+      "artwork": "art-03"
+    },
+    {
+      "name": "cut-8",
+      "from": "edge-8",
+      "to": "edge-9",
+      "every": 1,
+      "artwork": "art-00"
+    },
+    {
+      "name": "cut-9",
+      "from": "edge-9",
+      "to": "edge-10",
+      "every": 1,
+      "artwork": "art-01"
+    },
+    {
+      "name": "cut-10",
+      "from": "edge-10",
+      "to": "edge-11",
+      "every": 1,
+      "artwork": "art-02"
+    },
+    {
+      "name": "cut-11",
+      "from": "edge-11",
+      "to": "edge-12",
+      "every": 1,
+      "artwork": "art-03"
+    },
+    {
+      "name": "cut-12",
+      "from": "edge-12",
+      "to": "edge-13",
+      "every": 1,
+      "artwork": "art-00"
+    },
+    {
+      "name": "cut-13",
+      "from": "edge-13",
+      "to": "edge-14",
+      "every": 1,
+      "artwork": "art-01"
+    },
+    {
+      "name": "cut-14",
+      "from": "edge-14",
+      "to": "edge-15",
+      "every": 1,
+      "artwork": "art-02"
+    },
+    {
+      "name": "cut-15",
+      "from": "edge-15",
+      "to": "edge-16",
+      "every": 1,
+      "artwork": "art-03"
+    },
+    {
+      "name": "cut-16",
+      "from": "edge-16",
+      "to": "edge-17",
+      "every": 1,
+      "artwork": "art-00"
+    },
+    {
+      "name": "cut-17",
+      "from": "edge-17",
+      "to": "edge-18",
+      "every": 1,
+      "artwork": "art-01"
+    },
+    {
+      "name": "cut-18",
+      "from": "edge-18",
+      "to": "edge-19",
+      "every": 1,
+      "artwork": "art-02"
+    },
+    {
+      "name": "cut-19",
+      "from": "edge-19",
+      "to": "edge-20",
+      "every": 1,
+      "artwork": "art-03"
+    },
+    {
+      "name": "cut-20",
+      "from": "edge-20",
+      "to": "edge-21",
+      "every": 1,
+      "artwork": "art-00"
+    },
+    {
+      "name": "cut-21",
+      "from": "edge-21",
+      "to": "edge-22",
+      "every": 1,
+      "artwork": "art-01"
+    },
+    {
+      "name": "cut-22",
+      "from": "edge-22",
+      "to": "edge-23",
+      "every": 1,
+      "artwork": "art-02"
+    },
+    {
+      "name": "cut-23",
+      "from": "edge-23",
+      "to": "edge-24",
+      "every": 1,
+      "artwork": "art-03"
+    }
+  ]
+}

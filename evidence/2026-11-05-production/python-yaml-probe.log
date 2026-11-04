@@ -1,0 +1,15 @@
+Command: python3 -c 'import yaml; print(yaml.__version__)'
+Resolved executable: /opt/homebrew/bin/python3
+Exit: 1
+Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+    import yaml; print(yaml.__version__)
+ModuleNotFoundError: No module named 'yaml'
+
+This is a validator-environment probe, not a project test or module failure. Existing repo evidence noted a system Python with PyYAML; checking that route before considering dependencies.
+
+Recovery probe: /usr/bin/python3 -c 'import sys, yaml; print(sys.executable); print(yaml.__version__)'
+Exit: 0
+/Applications/Xcode.app/Contents/Developer/usr/bin/python3
+6.0.3
+No packages installed. Skill validation itself is pending document implementation.

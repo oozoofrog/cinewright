@@ -1,0 +1,97 @@
+{
+  "exposure": [
+    {
+      "from": 0,
+      "to": 24,
+      "every": 6,
+      "value": "emptyRoom"
+    },
+    {
+      "from": 24,
+      "to": 36,
+      "every": 6,
+      "value": "poised"
+    },
+    {
+      "from": 36,
+      "to": 60,
+      "every": 3,
+      "value": "descending"
+    },
+    {
+      "from": 60,
+      "to": 72,
+      "every": 6,
+      "value": "contact"
+    },
+    {
+      "from": 72,
+      "to": 78,
+      "every": 3,
+      "value": "released"
+    },
+    {
+      "from": 78,
+      "to": 102,
+      "every": 2,
+      "value": "withdrawing"
+    },
+    {
+      "from": 102,
+      "to": 192,
+      "every": 12,
+      "value": "remaining"
+    }
+  ],
+  "points": {
+    "start": 0,
+    "arrive": 24,
+    "lower": 36,
+    "touch": 60,
+    "release": 72,
+    "leave": 78,
+    "quiet": 102
+  },
+  "spans": {
+    "room-hold": [
+      0,
+      24
+    ],
+    "poised-hold": [
+      24,
+      36
+    ],
+    "lowering": [
+      36,
+      60
+    ],
+    "contact-hold": [
+      60,
+      72
+    ],
+    "release-hold": [
+      72,
+      78
+    ],
+    "withdrawal": [
+      78,
+      102
+    ],
+    "room-rest": [
+      102,
+      192
+    ],
+    "action": [
+      24,
+      102
+    ],
+    "contact-review": [
+      36,
+      78
+    ],
+    "ending": [
+      102,
+      192
+    ]
+  }
+}

@@ -1,0 +1,307 @@
+✔ provides only the geometry and prepare entry points without browser globals (1.492209ms)
+✔ places an original-image anchor at its target with one scalar (0.218833ms)
+✔ keeps the same original anchor at its target after moving the crop origin (0.093417ms)
+✔ defaults crop to the whole source and permits an off-canvas target without canvasSize (0.098042ms)
+✔ supports fractional coordinates and anchors outside the source (0.085209ms)
+✔ contain centers a wide image in the default canvas box without clipping or stretching (0.358916ms)
+✔ cover centers a wide image and clips overflow to the default canvas box (0.080666ms)
+▶ fits the cropped dimensions inside an explicit box without requiring canvasSize
+  ✔ contain (0.049958ms)
+  ✔ cover (0.059125ms)
+✔ fits the cropped dimensions inside an explicit box without requiring canvasSize (0.320833ms)
+▶ fits a tall image into an off-canvas box using the other limiting dimension
+  ✔ contain (0.051167ms)
+  ✔ cover (0.029917ms)
+✔ fits a tall image into an off-canvas box using the other limiting dimension (0.205625ms)
+✔ does not mutate input or expose its arrays through placement output (0.161042ms)
+✔ inherited optional crop and canvasSize cannot change anchored placement (0.071291ms)
+✔ inherited fit and box cannot switch anchored placement mode (0.069208ms)
+✔ inherited box or anchored controls cannot change fit placement (0.064416ms)
+▶ rejects invalid root, placement, and missing anchored fields
+  ✔ missing root (0.223667ms)
+  ✔ null root (0.048833ms)
+  ✔ array root (0.028916ms)
+  ✔ text root (0.030208ms)
+  ✔ missing placement (0.044917ms)
+  ✔ placement shape 0 (0.034334ms)
+  ✔ placement shape 1 (0.03475ms)
+  ✔ placement shape 2 (0.024125ms)
+  ✔ missing anchor (0.037ms)
+  ✔ missing at (0.043167ms)
+  ✔ missing scale (0.029792ms)
+✔ rejects invalid root, placement, and missing anchored fields (0.83325ms)
+▶ rejects source sizes that are not two finite positive numbers
+  ✔ size 0 (0.045125ms)
+  ✔ size 1 (0.024958ms)
+  ✔ size 2 (0.099208ms)
+  ✔ size 3 (0.023291ms)
+  ✔ size 4 (0.031833ms)
+  ✔ size 5 (0.022167ms)
+  ✔ size 6 (0.022959ms)
+  ✔ size 7 (0.033333ms)
+  ✔ size 8 (0.021042ms)
+  ✔ size 9 (0.026708ms)
+  ✔ size 10 (0.033583ms)
+✔ rejects source sizes that are not two finite positive numbers (0.575667ms)
+▶ rejects invalid crop shapes, nonfinite coordinates, and crops beyond the source
+  ✔ crop 0 (0.033083ms)
+  ✔ crop 1 (0.023292ms)
+  ✔ crop 2 (0.02125ms)
+  ✔ crop 3 (0.020792ms)
+  ✔ crop 4 (0.021833ms)
+  ✔ crop 5 (0.034417ms)
+  ✔ crop 6 (0.020667ms)
+  ✔ crop 7 (0.026334ms)
+  ✔ crop 8 (0.021791ms)
+  ✔ crop 9 (0.027ms)
+  ✔ crop 10 (0.020583ms)
+  ✔ crop 11 (0.020417ms)
+  ✔ crop 12 (0.32725ms)
+  ✔ crop 13 (0.031791ms)
+  ✔ crop 14 (0.021333ms)
+  ✔ crop 15 (0.02ms)
+  ✔ crop 16 (0.021541ms)
+✔ rejects invalid crop shapes, nonfinite coordinates, and crops beyond the source (0.986167ms)
+▶ rejects anchors and targets that are not finite coordinate pairs
+  ✔ anchor 0 (0.027167ms)
+  ✔ anchor 1 (0.022667ms)
+  ✔ anchor 2 (0.019542ms)
+  ✔ anchor 3 (0.028ms)
+  ✔ anchor 4 (0.02075ms)
+  ✔ anchor 5 (0.019917ms)
+  ✔ anchor 6 (0.01975ms)
+  ✔ anchor 7 (0.019292ms)
+  ✔ anchor 8 (0.045666ms)
+  ✔ at 0 (0.023125ms)
+  ✔ at 1 (0.022875ms)
+  ✔ at 2 (0.0205ms)
+  ✔ at 3 (0.031959ms)
+  ✔ at 4 (0.02125ms)
+  ✔ at 5 (0.022ms)
+  ✔ at 6 (0.02575ms)
+  ✔ at 7 (0.020917ms)
+  ✔ at 8 (0.021416ms)
+✔ rejects anchors and targets that are not finite coordinate pairs (0.720042ms)
+▶ rejects zero, negative, nonfinite, and non-scalar scales
+  ✔ scale 0 (0.028917ms)
+  ✔ scale 1 (0.020959ms)
+  ✔ scale 2 (0.020667ms)
+  ✔ scale 3 (0.022083ms)
+  ✔ scale 4 (0.020291ms)
+  ✔ scale 5 (0.020916ms)
+  ✔ scale 6 (0.022333ms)
+  ✔ scale 7 (0.026667ms)
+  ✔ scale 8 (0.020833ms)
+✔ rejects zero, negative, nonfinite, and non-scalar scales (0.383084ms)
+▶ rejects unknown fit modes and explicit invalid optional controls
+  ✔ fit 0 (0.033084ms)
+  ✔ fit 1 (0.021541ms)
+  ✔ fit 2 (0.02125ms)
+  ✔ fit 3 (0.022458ms)
+  ✔ fit 4 (0.022084ms)
+  ✔ fit 5 (0.022458ms)
+  ✔ explicit undefined box (0.026375ms)
+  ✔ no default scale (0.104208ms)
+✔ rejects unknown fit modes and explicit invalid optional controls (0.806542ms)
+▶ rejects mixing fit and anchored controls even when their own value is undefined
+  ✔ anchor (0.079ms)
+  ✔ at (0.037ms)
+  ✔ scale (0.027208ms)
+  ✔ box without fit (0.039917ms)
+✔ rejects mixing fit and anchored controls even when their own value is undefined (0.319917ms)
+▶ rejects inherited required anchored fields
+  ✔ anchor (0.030333ms)
+  ✔ at (0.023708ms)
+  ✔ scale (0.022292ms)
+✔ rejects inherited required anchored fields (0.157167ms)
+▶ requires canvasSize for the default fit box and validates it whenever supplied
+  ✔ missing default canvas (0.028666ms)
+  ✔ anchored canvas 0 (0.025084ms)
+  ✔ anchored canvas 1 (0.018667ms)
+  ✔ anchored canvas 2 (0.0185ms)
+  ✔ anchored canvas 3 (0.018542ms)
+  ✔ anchored canvas 4 (0.018375ms)
+  ✔ anchored canvas 5 (0.018667ms)
+  ✔ anchored canvas 6 (0.01975ms)
+  ✔ anchored canvas 7 (0.018792ms)
+  ✔ anchored canvas 8 (0.018459ms)
+  ✔ unused explicit-box canvas (0.023958ms)
+✔ requires canvasSize for the default fit box and validates it whenever supplied (0.385167ms)
+▶ rejects fit boxes with invalid shape, coordinates, or dimensions
+  ✔ box 0 (0.027792ms)
+  ✔ box 1 (0.028333ms)
+  ✔ box 2 (0.024834ms)
+  ✔ box 3 (0.026ms)
+  ✔ box 4 (0.020084ms)
+  ✔ box 5 (0.019625ms)
+  ✔ box 6 (0.019709ms)
+  ✔ box 7 (0.019625ms)
+  ✔ box 8 (0.020667ms)
+✔ rejects fit boxes with invalid shape, coordinates, or dimensions (0.335916ms)
+▶ rejects finite inputs whose derived scale or destination is not drawable
+  ✔ unrepresentable result 0 (0.034916ms)
+  ✔ unrepresentable result 1 (0.022083ms)
+  ✔ unrepresentable result 2 (0.024875ms)
+  ✔ unrepresentable result 3 (0.022917ms)
+✔ rejects finite inputs whose derived scale or destination is not drawable (0.19475ms)
+✔ does not impose an arbitrary size limit on representable finite geometry (0.089792ms)
+▶ copies validated indexed crop and box coordinates instead of custom iterator output
+  ✖ crop iterator cannot inject nonfinite or extra source coordinates (0.975417ms)
+  ✖ box iterator cannot replace coordinates or extend the clip rectangle (0.201625ms)
+✖ copies validated indexed crop and box coordinates instead of custom iterator output (1.296042ms)
+✖ reads each input coordinate once and validates the same value used for placement (0.116542ms)
+✔ prepare loads every artwork and draws the selected image using natural dimensions (0.25975ms)
+✔ cover clips with a separate Path2D and restores state after drawing (0.2735ms)
+✔ restores saved state when drawImage throws (0.421041ms)
+✔ prepares cover without Path2D and restores state if its draw-time construction fails (0.1405ms)
+✔ selects own artwork keys including prototype-like and nonenumerable names (0.169458ms)
+▶ rejects unknown or missing values before changing the graphics state
+  ✔ value 0 (0.033083ms)
+  ✔ value 1 (0.015875ms)
+  ✔ value 2 (0.014417ms)
+  ✔ value 3 (0.015958ms)
+  ✔ value 4 (0.012625ms)
+  ✔ value 5 (0.021417ms)
+  ✔ value 6 (0.01775ms)
+  ✔ value 7 (0.012792ms)
+  ✔ value 8 (0.01275ms)
+  ✔ value 9 (0.013333ms)
+  ✔ value 10 (0.012417ms)
+✔ rejects unknown or missing values before changing the graphics state (0.386458ms)
+✔ draw uses prepared geometry consistently across frame order and later config edits (0.081292ms)
+✔ empty artwork dictionaries can prepare but have no implicit draw fallback (0.041583ms)
+✔ preparation ignores inherited optional crop data (0.048375ms)
+▶ image rejection and synchronous loader failure retain artwork ID, asset, and cause
+  ✔ rejection (0.094833ms)
+  ✔ throw (0.02775ms)
+✔ image rejection and synchronous loader failure retain artwork ID, asset, and cause (0.188417ms)
+▶ invalid decoded image dimensions never fall back to displayed dimensions
+  ✔ image 0 (0.036708ms)
+  ✔ image 1 (0.02125ms)
+  ✔ image 2 (0.020667ms)
+  ✔ image 3 (0.0215ms)
+  ✔ image 4 (0.020958ms)
+  ✔ image 5 (0.019292ms)
+✔ invalid decoded image dimensions never fall back to displayed dimensions (0.259ms)
+▶ invalid artwork objects, asset names, crops, and placement carry artwork context
+  ✔ artwork 0 (0.043417ms)
+  ✔ artwork 1 (0.023917ms)
+  ✔ artwork 2 (0.023ms)
+  ✔ artwork 3 (0.024791ms)
+  ✔ artwork 4 (0.019667ms)
+  ✔ artwork 5 (0.021334ms)
+  ✔ artwork 6 (0.020333ms)
+  ✔ artwork 7 (0.021583ms)
+  ✔ artwork 8 (0.022375ms)
+✔ invalid artwork objects, asset names, crops, and placement carry artwork context (0.384958ms)
+▶ rejects invalid preparation API or configuration with field context
+  ✔ shape 0 (0.02625ms)
+  ✔ shape 1 (0.0155ms)
+  ✔ shape 2 (0.017667ms)
+  ✔ shape 3 (0.014625ms)
+  ✔ shape 4 (0.014125ms)
+  ✔ shape 5 (0.014583ms)
+  ✔ shape 6 (0.0165ms)
+  ✔ shape 7 (0.019209ms)
+  ✔ shape 8 (0.020916ms)
+  ✔ shape 9 (0.021792ms)
+  ✔ shape 10 (0.0155ms)
+  ✔ shape 11 (0.017834ms)
+✔ rejects invalid preparation API or configuration with field context (0.410375ms)
+ℹ tests 191
+ℹ suites 0
+ℹ pass 187
+ℹ fail 4
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 122.522125
+
+✖ failing tests:
+
+test at tests/artwork.test.mjs:300:11
+✖ crop iterator cannot inject nonfinite or extra source coordinates (0.975417ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly deep-equal:
+  + actual - expected
+  ... Skipped lines
+  
+    {
+      clip: null,
+      destination: [
+        0,
+        25,
+  ...
+      source: [
+  +     NaN,
+  -     40,
+        20,
+        80,
+        40,
+  +     999
+      ]
+    }
+  
+      at TestContext.<anonymous> (file:///Volumes/eyedisk/develop/cinewright/tests/artwork.test.mjs:303:12)
+      at Test.runInAsyncScope (node:async_hooks:226:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.start (node:internal/test_runner/test:1262:17)
+      at TestContext.test (node:internal/test_runner/test:400:20)
+      at TestContext.<anonymous> (file:///Volumes/eyedisk/develop/cinewright/tests/artwork.test.mjs:300:11)
+      at async Test.run (node:internal/test_runner/test:1409:7)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: { source: [ NaN, 20, 80, 40, 999 ], destination: [ 0, 25, 100, 50 ], scale: 1.25, clip: null },
+    expected: { source: [ 40, 20, 80, 40 ], destination: [ 0, 25, 100, 50 ], scale: 1.25, clip: null },
+    operator: 'deepStrictEqual',
+    diff: 'simple'
+  }
+
+test at tests/artwork.test.mjs:309:11
+✖ box iterator cannot replace coordinates or extend the clip rectangle (0.201625ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly deep-equal:
+  + actual - expected
+  
+    {
+      clip: [
+  +     30,
+  -     10,
+        20,
+        80,
+        100,
+  +     999
+      ],
+      destination: [
+  +     -30,
+  -     -50,
+        20,
+        200,
+        100
+      ],
+      scale: 1,
+  
+      at TestContext.<anonymous> (file:///Volumes/eyedisk/develop/cinewright/tests/artwork.test.mjs:312:12)
+      at Test.runInAsyncScope (node:async_hooks:226:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.start (node:internal/test_runner/test:1262:17)
+      at TestContext.test (node:internal/test_runner/test:400:20)
+      at TestContext.<anonymous> (file:///Volumes/eyedisk/develop/cinewright/tests/artwork.test.mjs:309:11)
+      at async Test.run (node:internal/test_runner/test:1409:7)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: { source: [ 0, 0, 200, 100 ], destination: [ -30, 20, 200, 100 ], scale: 1, clip: [ 30, 20, 80, 100, 999 ] },
+    expected: { source: [ 0, 0, 200, 100 ], destination: [ -50, 20, 200, 100 ], scale: 1, clip: [ 10, 20, 80, 100 ] },
+    operator: 'deepStrictEqual',
+    diff: 'simple'
+  }
+
+test at tests/artwork.test.mjs:320:1
+✖ reads each input coordinate once and validates the same value used for placement (0.116542ms)
+  Error: artworkPlacement: result.scale: expected a finite positive number
+      at fail (file:///Volumes/eyedisk/develop/cinewright/modules/artwork.mjs:2:9)
+      at positive (file:///Volumes/eyedisk/develop/cinewright/modules/artwork.mjs:25:46)
+      at artworkPlacement (file:///Volumes/eyedisk/develop/cinewright/modules/artwork.mjs:86:3)
+      at TestContext.<anonymous> (file:///Volumes/eyedisk/develop/cinewright/tests/artwork.test.mjs:327:20)
+      at async Test.run (node:internal/test_runner/test:1409:7)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7)

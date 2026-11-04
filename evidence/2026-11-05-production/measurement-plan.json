@@ -1,0 +1,74 @@
+{
+  "schema": 1,
+  "task": "Task 5 bounded measurement; declared before execution",
+  "size": [320, 180],
+  "fps": 24,
+  "framesPerCut": 24,
+  "every": 1,
+  "repetitions": 3,
+  "freshNodeWorkerPerRepetition": true,
+  "freshBrowserPerRepetition": true,
+  "caseOrder": ["baseline-4", "reused-24", "unique-24"],
+  "cases": [
+    {
+      "id": "baseline-4",
+      "cuts": 4,
+      "uniqueAssets": 4,
+      "frames": 96,
+      "forward": [0, 23, 24, 47, 48, 71, 72, 95],
+      "reverse": [95, 72, 71, 48, 47, 24, 23, 0],
+      "random": [63, 4, 88, 21, 50, 9, 74, 35]
+    },
+    {
+      "id": "reused-24",
+      "cuts": 24,
+      "uniqueAssets": 4,
+      "frames": 576,
+      "forward": [0, 23, 24, 143, 144, 287, 288, 575],
+      "reverse": [575, 288, 287, 144, 143, 24, 23, 0],
+      "random": [383, 26, 531, 127, 302, 59, 447, 211]
+    },
+    {
+      "id": "unique-24",
+      "cuts": 24,
+      "uniqueAssets": 24,
+      "frames": 576,
+      "forward": [0, 23, 24, 143, 144, 287, 288, 575],
+      "reverse": [575, 288, 287, 144, 143, 24, 23, 0],
+      "random": [383, 26, 531, 127, 302, 59, 447, 211]
+    }
+  ],
+  "fixture": {
+    "source": "Task-specific original synthetic SVG, not a third production example",
+    "assetSize": [64, 36],
+    "shapesPerAsset": 3,
+    "cutAssetSelection": "cut index modulo uniqueAssets",
+    "layer": "one copied modules/artwork.mjs layer, fit contain, compiled cuts",
+    "audio": "existing mixer produces intentional silence once per case"
+  },
+  "timing": {
+    "preparation": "Generate fixture, freeze once per case and prepare silent mix before any measured browser navigation. Record freeze and mix separately.",
+    "navigationToReady": "Node performance.now immediately before page.goto(waitUntil=domcontentloaded), ending when waitForFunction observes window.direction.status().frame===0. Includes navigation, eager imports/assets, first draw and readiness polling/protocol overhead. Excludes freeze, mix, worker/browser launch and page creation.",
+    "navigationToFirstFrameReadback": "Same start; ends after a separate page.evaluate returns frame-0 state and canvas.toDataURL(image/png) to Node. Includes PNG encoding and protocol transfer, excludes disk write/hash/assertion. This proves canvas readback, not physical display presentation.",
+    "seekReadback": "Node performance.now around one awaited page.evaluate: direction.seek(index), canvas.toDataURL(image/png), returned draw state and PNG data URL. Includes pause/draw/audio-currentTime assignment, PNG encoding, serialization and protocol return. Excludes audio seek completion, requestAnimationFrame/display presentation, PNG disk write/hash/assertion and RSS/disk sampling.",
+    "seekGroups": ["forward", "reverse", "random"],
+    "warmup": "No separate warmup. First frame precedes the 24 declared seeks; same group order for every run."
+  },
+  "rss": {
+    "method": "ps pid/ppid/rss/comm snapshot; RSS in KiB (1024 bytes). Only the fresh Node worker and its current Chrome/Chromium descendants, with exact PIDs recorded. The sampler ps process is excluded.",
+    "stages": ["beforeBrowser", "browserLaunched", "firstFrame0", "afterForward", "afterReverse", "afterRandom", "afterBrowserClose"],
+    "limits": "Snapshots, not peak. Browser sum can double-count shared pages. Coordinator Node, ancestor/sibling/unrelated apps, exited/reparented descendants and OS memory are excluded. No global process arguments are retained."
+  },
+  "disk": {
+    "unit": "logical regular-file bytes (lstat.size), no allocated-block claim",
+    "scopes": ["this case fixture", "this case frozen store", "this case retained silent audio", "this run repository-local TMPDIR", "this run readbacks/results/logs"],
+    "stages": ["fixtureGenerated", "afterFreeze", "afterMix", "beforeBrowser", "browserLaunched", "firstFrame0", "afterForward", "afterReverse", "afterRandom", "afterBrowserClose"],
+    "cleanup": "Playwright performs normal browser/profile cleanup on close. Retain remaining repository-local temp files and all evidence. Do not manually erase measurement evidence.",
+    "limits": "No symlink traversal; count symlinks/special files separately. Record vanished files during a non-atomic walk. Browser/OS writes outside inherited repository-local TMPDIR, OS caches/swap and APFS physical allocation are not measured. Root measurement-directory bytes accumulate and are audit-only, not a case comparison."
+  },
+  "execution": {
+    "benchmarkCommand": "TMPDIR=\"$PWD/evidence/2026-11-05-production/task-5-launch-tmp\" node evidence/2026-11-05-production/measure.mjs",
+    "runPolicy": "Exactly three cases by three fresh-browser repetitions. Existing output rendering/playback has stopped. No whole video rendering, optimization, case expansion, number-chasing rerun or broad npm test.",
+    "failurePolicy": "Preserve partial performance.json, per-run result and full stdout/stderr/events. Stop on a failure. Explain cause before any necessary retry; never overwrite an earlier run."
+  }
+}

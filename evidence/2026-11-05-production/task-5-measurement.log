@@ -1,0 +1,23 @@
+{"case":"baseline-4","repetition":1,"navigationToReadyMs":729.0821249999999,"navigationToFirstFrameReadbackMs":1111.40875,"seekMediansMs":{"forward":8.985500000000002,"reverse":1.4268334999999297,"random":1.3781670000000759},"nodeSampledMaximumKiB":149008,"browserSampledMaximumSumKiB":1268736}
+{"case":"baseline-4","repetition":2,"navigationToReadyMs":600.7543749999999,"navigationToFirstFrameReadbackMs":1081.631958,"seekMediansMs":{"forward":4.727374999999938,"reverse":1.4527079999998023,"random":1.5147294999999303},"nodeSampledMaximumKiB":149648,"browserSampledMaximumSumKiB":1265120}
+{"case":"baseline-4","repetition":3,"navigationToReadyMs":904.765333,"navigationToFirstFrameReadbackMs":1249.363458,"seekMediansMs":{"forward":4.375541500000054,"reverse":1.4766664999999648,"random":1.5211874999999964},"nodeSampledMaximumKiB":148000,"browserSampledMaximumSumKiB":1259488}
+{"case":"reused-24","repetition":1,"navigationToReadyMs":844.423791,"navigationToFirstFrameReadbackMs":1108.9748749999999,"seekMediansMs":{"forward":5.065770999999813,"reverse":1.4598130000001674,"random":1.524208499999986},"nodeSampledMaximumKiB":146464,"browserSampledMaximumSumKiB":1279664}
+node:internal/modules/run_main:111
+    triggerUncaughtException(
+    ^
+
+AssertionError [ERR_ASSERTION]: reused-24-r2 failed; full logs are in /Volumes/eyedisk/develop/cinewright/evidence/2026-11-05-production/task-5-measurement/runs/reused-24-r2
+
+1 !== 0
+
+    at coordinator (file:///Volumes/eyedisk/develop/cinewright/evidence/2026-11-05-production/measure.mjs:324:16)
+    at async file:///Volumes/eyedisk/develop/cinewright/evidence/2026-11-05-production/measure.mjs:366:123 {
+  generatedMessage: false,
+  code: 'ERR_ASSERTION',
+  actual: 1,
+  expected: 0,
+  operator: 'strictEqual',
+  diff: 'simple'
+}
+
+Node.js v26.12.1

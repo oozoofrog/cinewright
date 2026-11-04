@@ -1,0 +1,7 @@
+{"case":"unique-24","repetition":2,"stage":"beforeBrowser","nodeKiB":60496,"browserKiB":0,"temporaryBytes":0}
+{"case":"unique-24","repetition":2,"stage":"browserLaunched","nodeKiB":134576,"browserKiB":523136,"temporaryBytes":1433656}
+{"case":"unique-24","repetition":2,"stage":"firstFrame0","nodeKiB":146784,"browserKiB":1248048,"temporaryBytes":6879942}
+{"case":"unique-24","repetition":2,"stage":"afterForward","nodeKiB":147616,"browserKiB":1277392,"temporaryBytes":7259246}
+{"case":"unique-24","repetition":2,"stage":"afterReverse","nodeKiB":150720,"browserKiB":1284736,"temporaryBytes":7259246}
+{"case":"unique-24","repetition":2,"stage":"afterRandom","nodeKiB":157504,"browserKiB":1286096,"temporaryBytes":7259246}
+{"case":"unique-24","repetition":2,"stage":"afterBrowserClose","nodeKiB":163328,"browserKiB":0,"temporaryBytes":0}

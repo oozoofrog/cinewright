@@ -1,0 +1,20 @@
+{
+  "scope": "Source state after author declared entrypoint and direction reference stable, during the qualitative probes. Invocation model/effort are requests, not independent provider attestation.",
+  "files": {
+    "SKILL.md": "eee8c943a040cc645e5279311057f8ebdcc87f6f2f55363d935c22c01b0ed3e8",
+    "references/direction.md": "18b097426a446cf0d17d808bc7251bda30a48b8991936d9dce64faacd95e13c9"
+  },
+  "requestedModel": "gpt-6.1-sol",
+  "requestedReasoning": "high",
+  "probes": [
+    "behavior_unselected",
+    "behavior_delegated",
+    "behavior_action",
+    "behavior_means",
+    "behavior_feedback"
+  ],
+  "limitations": [
+    "One pre-change baseline only; no statistical improvement claim.",
+    "Simulation harness forbids actual production, real user questions and other writes; responses do not prove skill behavior without those controls."
+  ]
+}
