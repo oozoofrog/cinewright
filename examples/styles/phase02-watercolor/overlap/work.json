@@ -1,0 +1,43 @@
+{
+  "version": 1,
+  "title": "overlap",
+  "size": [
+    960,
+    540
+  ],
+  "fps": 24,
+  "frames": 192,
+  "background": "#faf6e9",
+  "points": {
+    "start": 0,
+    "finish": 191
+  },
+  "spans": {
+    "whole": [
+      0,
+      192
+    ]
+  },
+  "audio": [],
+  "layers": [
+    {
+      "id": "wash",
+      "module": "modules/styles/watercolor-physical/index.mjs",
+      "config": {
+        "scene": {
+          "version": 1,
+          "style": "watercolor-physical",
+          "title": "overlap",
+          "size": [
+            960,
+            540
+          ],
+          "fps": 24,
+          "frames": 192,
+          "bake": "assets/watercolor.json",
+          "density": 9
+        }
+      }
+    }
+  ]
+}

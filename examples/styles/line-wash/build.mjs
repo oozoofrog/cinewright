@@ -1,0 +1,4 @@
+import path from 'node:path';import fs from 'node:fs/promises';import {fileURLToPath} from 'node:url';import {materializeStyle} from '../../../scripts/materialize-style.mjs';
+const base=path.dirname(fileURLToPath(import.meta.url));
+export async function build({project,variant='rain',update=false}){if(!['rain','commuter','portrait'].includes(variant))throw Error('unknown line-wash variant');const scene=JSON.parse(await fs.readFile(path.join(base,'../../../recipes/styles/line-wash',variant+'.json'),'utf8'));const assets=Object.fromEntries(['authored-strokes.json','provenance.json'].map(n=>['assets/'+n,path.join(base,'assets',n)]));return materializeStyle({project:path.resolve(project),style:'line-wash',scene,assets,update})}
+if(process.argv[1]===fileURLToPath(import.meta.url))console.log(JSON.stringify(await build({project:process.argv[2],variant:process.argv[3]??'rain'}),null,2));

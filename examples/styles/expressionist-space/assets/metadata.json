@@ -1,0 +1,67 @@
+{
+  "version": 1,
+  "author": "Cinewright / original procedural authorship for this implementation",
+  "license": "CC0-1.0",
+  "source": "author.mjs; no third-party model, texture, animation or film image",
+  "tools": {
+    "node": "v26.12.1",
+    "three": "0.180.0"
+  },
+  "units": "metres",
+  "axis": "+Y up; right-handed",
+  "pivot": "each mesh local origin, grouped actor origin at floor contact",
+  "colorSpace": "GLB has no textures; hatch atlas is generated linear data; material colors authored sRGB",
+  "alpha": "GLB opaque; adapter transparent premultiplied canvas",
+  "rig": "Rigid named node hierarchy, no skinning; no retargeting",
+  "rest": "traveler upright at y=0, coat/case/hat; vessel bottom at y=0",
+  "uv": "Three parametric UV; seams are intentional and may remain visible",
+  "assets": [
+    {
+      "file": "traveler.glb",
+      "sha256": "b7f4974717cf25da98164a24aa3cf29312f2f07a0a1a7a41230d9e733d7decf6",
+      "bytes": 55552,
+      "scale": 1,
+      "clip": {
+        "name": "case-sway",
+        "duration": 2,
+        "authoringFps": 24,
+        "loop": true,
+        "contact": "vessel/boots remain on authored ground; no IK",
+        "motion": "case z rotation, actor translation separately authored"
+      }
+    },
+    {
+      "file": "specimen.glb",
+      "sha256": "b8e140ef78c7d1f05d2342e51d6d6dbdcf828b6eff5e3132313dfb9acf987efc",
+      "bytes": 63944,
+      "scale": 1,
+      "clip": {
+        "name": "seed-rise",
+        "duration": 4,
+        "authoringFps": 24,
+        "loop": true,
+        "contact": "vessel/boots remain on authored ground; no IK",
+        "motion": "suspended seed y translation; vessel static"
+      }
+    }
+  ],
+  "proceduralMaterials": {
+    "hatchAtlas": {
+      "source": "modules/fx3d/material.mjs createHatchAtlas",
+      "width": 256,
+      "height": 64,
+      "sha256": "83cdd5fa6e2506ba4747eca5c3b6634a949905f9c3d96281dc437a8e88ae8933",
+      "license": "CC0-1.0",
+      "anchor": "object UV, 4 nested density tiles",
+      "colorSpace": "linear data",
+      "alpha": "opaque data texture; not an image layer"
+    },
+    "gobo": {
+      "source": "modules/fx3d/light.mjs createLightRig",
+      "width": 64,
+      "height": 64,
+      "license": "CC0-1.0",
+      "anchor": "spot-light projection"
+    }
+  }
+}

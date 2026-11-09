@@ -1,8 +1,11 @@
 {
   "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
   "name": "cinewright",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Create and review animation and music videos with artwork, motion, typography, and sound.",
-  "author": { "name": "oozoofrog", "url": "https://github.com/oozoofrog" },
+  "author": {
+    "name": "oozoofrog",
+    "url": "https://github.com/oozoofrog"
+  },
   "repository": "https://github.com/oozoofrog/cinewright"
 }

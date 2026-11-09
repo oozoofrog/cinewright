@@ -51,7 +51,8 @@ export async function render(snapshot, store, settings, { signal, retryOf, brows
     await update();
     const page = await client.newPage();
     const diagnostics = [];
-    page.on('pageerror', error => diagnostics.push(error.stack ?? String(error)));
+    const errors = [];
+    page.on('pageerror', error => { errors.push(error.stack ?? String(error)); diagnostics.push(error.stack ?? String(error)); });
     page.on('console', message => {
       if (['warning', 'error'].includes(message.type())) diagnostics.push(message.text());
     });
@@ -66,12 +67,14 @@ export async function render(snapshot, store, settings, { signal, retryOf, brows
           const image = document.getElementById('picture').toDataURL();
           return { state, bytes: image.split(',')[1] };
         }, frame);
+        if (errors.length) throw new Error(`Browser page error: ${errors.join('\n')}`);
         await fs.writeFile(path.join(frames, `${String(frame - from).padStart(7, '0')}.png`), Buffer.from(result.bytes, 'base64'));
         if (mode === 'frame') await writeJSON(path.join(dir, 'frame.json'), result.state);
         record.frames++;
         if (record.frames % Math.max(1, work.fps) === 0) await update();
       }
     } finally {
+      await page.evaluate(() => window.direction?.dispose?.()).catch(() => {});
       if (diagnostics.length) await fs.appendFile(log, diagnostics.join('\n') + '\n');
     }
     signal?.throwIfAborted();

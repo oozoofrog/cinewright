@@ -1,0 +1,31 @@
+{
+  "id": "watercolor-physical",
+  "version": "1.0.0",
+  "status": "experimental",
+  "entry": "modules/styles/watercolor-physical/index.mjs",
+  "exports": [
+    "prepare",
+    "validateScene",
+    "collectAssets"
+  ],
+  "dependencies": [],
+  "renderer": "Canvas2D from deterministic CPU grid bake",
+  "input": "versioned grid bake with dry-empty initial state and timed brush events",
+  "output": "manifest v1 Canvas layer",
+  "units": "cell amounts, seconds, integer frames",
+  "deterministic": "fixed step CPU bake; direct frame lookup",
+  "reference": "references/styles/watercolor-physical.md",
+  "support": [
+    "closed-grid conservative water transport",
+    "pigment advection/diffusion and paper deposition",
+    "absorption/evaporation sinks",
+    "source-independent frozen decode"
+  ],
+  "unsupported": [
+    "scientifically complete real paint",
+    "turbulence or multilayer fibre optics",
+    "cross-engine bitwise numeric equality"
+  ],
+  "evidence": "evidence/aesthetic-toolkit-phase02-2026-11-08/watercolor",
+  "maturity": "experimental bounded model"
+}

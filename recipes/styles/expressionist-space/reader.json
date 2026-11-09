@@ -1,0 +1,90 @@
+{
+  "version": 1,
+  "style": "expressionist-space",
+  "title": "Reader \u2014 authored shoulder and rounded boots",
+  "size": [
+    1920,
+    1080
+  ],
+  "fps": 24,
+  "frames": 192,
+  "seed": 17,
+  "background": "#ece4ce",
+  "camera": {
+    "type": "perspective",
+    "position": [
+      4,
+      2.7824999999999998,
+      8
+    ],
+    "target": [
+      0,
+      1.9874999999999998,
+      0
+    ],
+    "fov": 40
+  },
+  "materials": {
+    "body": {
+      "color": "#84a89b",
+      "ink": "#242736",
+      "hatch": 2,
+      "strength": 0.15
+    },
+    "floor": {
+      "color": "#c3b493",
+      "hatch": 4,
+      "strength": 0.08
+    }
+  },
+  "objects": [
+    {
+      "id": "actor",
+      "rig": "assets/reader.rig.json",
+      "motion": "assets/reader.motion.json",
+      "material": "body",
+      "outline": {
+        "width": 0.012,
+        "color": "#263c38"
+      },
+      "time": "exposed",
+      "exposure": {
+        "every": 2
+      }
+    },
+    {
+      "id": "floor",
+      "geometry": {
+        "type": "box",
+        "args": [
+          12,
+          0.1,
+          10
+        ]
+      },
+      "position": [
+        0,
+        -0.1,
+        0
+      ],
+      "material": "floor"
+    }
+  ],
+  "lights": [
+    {
+      "type": "ambient",
+      "color": "#c9d9ed",
+      "intensity": 1.1
+    },
+    {
+      "type": "directional",
+      "color": "#fff0ce",
+      "intensity": 2.5,
+      "position": [
+        3,
+        7,
+        4
+      ]
+    }
+  ]
+}

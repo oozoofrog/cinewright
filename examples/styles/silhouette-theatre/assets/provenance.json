@@ -1,0 +1,25 @@
+{
+  "author": "Cinewright original authored demo geometry",
+  "source": "author.py control curves; no source film images",
+  "license": "CC0-1.0",
+  "original": true,
+  "tools": {
+    "python": "3.15.2",
+    "renderer": "Canvas2D"
+  },
+  "coordinates": "+x right +y down, logical px",
+  "pivot": "hinge-local bones in scene JSON",
+  "bounds": "path control curves; scene plane extent explicit",
+  "colorSpace": "sRGB",
+  "alpha": "SVG straight alpha decoded into premultiplied Canvas",
+  "rig": "parent hinge, rest 0 rad, limits radians; local origin at hinge",
+  "clip": {
+    "fps": 24,
+    "loop": false,
+    "contacts": "authored foot contacts approximate, fox walk stops at frame104"
+  },
+  "files": {
+    "cutouts.json": "ae1857ff5a913357b924cd5714f425ed2fec9f18e35f4d49edd799147fd320ff",
+    "moon.svg": "14204f6605e3c06bd41d65b8e0a5a497935e574269b7fd06dfbf0059e2e36f85"
+  }
+}

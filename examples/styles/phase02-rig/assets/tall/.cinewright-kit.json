@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "generator": "cinewright-owned-files",
+  "files": {
+    "static.json": "ba42d3158cd947c82f609b07e41df1ed24e9c244a72283e92c8b6f039486cd31",
+    "profile.json": "bd7a4fb7003ffffbe2bd6dc4a54055e94c82a97505154cfc62c70bfa01807e38",
+    "character.rig.json": "249fcae741b2be2db5aaf1d045fb112db2d9b1a8bca2aab381223e9cac0aea5a",
+    "character.motion.json": "9a5ff4b23c464ed5eff6dc42750c8099add7a70e0f9ceb77f77f7e814a53d467",
+    "character.glb": "8023d051f3ec9ceb46536c1acb8c2211964fd65e246a518f714a5775e6c8d703",
+    "LICENSE": "8599962a8fd4f90f6071679bc1a07e613bb15a0aab50b6906fb10aa6aa25a7a3"
+  }
+}

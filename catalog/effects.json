@@ -1,0 +1,319 @@
+{
+  "version": 1,
+  "entries": [
+    {
+      "file": "modules/animation/exposure.mjs",
+      "exports": [
+        "poseAt",
+        "sampleExposure"
+      ],
+      "status": "implemented",
+      "renderer": "Canvas2D/pure data",
+      "reference": "references/styles/effects.md",
+      "deterministic": "explicit seed and absolute frame/age; no previous frame buffer",
+      "evidence": "evidence/aesthetic-toolkit-2026-11-08"
+    },
+    {
+      "file": "modules/animation/rig2d.mjs",
+      "exports": [
+        "evaluateRig2D",
+        "prepareRig2D"
+      ],
+      "status": "implemented",
+      "renderer": "Canvas2D/pure data",
+      "reference": "references/styles/effects.md",
+      "deterministic": "explicit seed and absolute frame/age; no previous frame buffer",
+      "evidence": "evidence/aesthetic-toolkit-2026-11-08"
+    },
+    {
+      "file": "modules/animation/shot.mjs",
+      "exports": [
+        "evaluateShot",
+        "projectPlanes"
+      ],
+      "status": "implemented",
+      "renderer": "Canvas2D/pure data",
+      "reference": "references/styles/effects.md",
+      "deterministic": "explicit seed and absolute frame/age; no previous frame buffer",
+      "evidence": "evidence/aesthetic-toolkit-2026-11-08"
+    },
+    {
+      "file": "modules/animation/clip3d.mjs",
+      "exports": [
+        "prepareClip3D"
+      ],
+      "status": "implemented",
+      "renderer": "Three r180",
+      "reference": "references/styles/effects.md",
+      "deterministic": "explicit seed and absolute frame/age; no previous frame buffer",
+      "evidence": "evidence/aesthetic-toolkit-2026-11-08"
+    },
+    {
+      "file": "modules/fx2d/mask.mjs",
+      "exports": [
+        "composeMask",
+        "drawShape",
+        "makePath",
+        "validateShape"
+      ],
+      "status": "implemented",
+      "renderer": "Canvas2D/pure data",
+      "reference": "references/styles/effects.md",
+      "deterministic": "explicit seed and absolute frame/age; no previous frame buffer",
+      "evidence": "evidence/aesthetic-toolkit-2026-11-08"
+    },
+    {
+      "file": "modules/fx2d/transition.mjs",
+      "exports": [
+        "drawTransitionMask",
+        "transitionAt"
+      ],
+      "status": "implemented",
+      "renderer": "Canvas2D/pure data",
+      "reference": "references/styles/effects.md",
+      "deterministic": "explicit seed and absolute frame/age; no previous frame buffer",
+      "evidence": "evidence/aesthetic-toolkit-2026-11-08"
+    },
+    {
+      "file": "modules/fx2d/emitter.mjs",
+      "exports": [
+        "analyticTrail",
+        "evaluateEmitter",
+        "prepareEmitter"
+      ],
+      "status": "implemented",
+      "renderer": "Canvas2D/pure data",
+      "reference": "references/styles/effects.md",
+      "deterministic": "explicit seed and absolute frame/age; no previous frame buffer",
+      "evidence": "evidence/aesthetic-toolkit-2026-11-08"
+    },
+    {
+      "file": "modules/fx2d/stroke.mjs",
+      "exports": [
+        "drawStroke",
+        "prepareStroke",
+        "strokeAt"
+      ],
+      "status": "implemented",
+      "renderer": "Canvas2D/pure data",
+      "reference": "references/styles/effects.md",
+      "deterministic": "explicit seed and absolute frame/age; no previous frame buffer",
+      "evidence": "evidence/aesthetic-toolkit-2026-11-08"
+    },
+    {
+      "file": "modules/fx2d/brush.mjs",
+      "exports": [
+        "brushDabs",
+        "drawDabs",
+        "noise",
+        "paperGrain"
+      ],
+      "status": "implemented",
+      "renderer": "Canvas2D/pure data",
+      "reference": "references/styles/effects.md",
+      "deterministic": "explicit seed and absolute frame/age; no previous frame buffer",
+      "evidence": "evidence/aesthetic-toolkit-2026-11-08"
+    },
+    {
+      "file": "modules/fx2d/wash.mjs",
+      "exports": [
+        "drawWash"
+      ],
+      "status": "implemented",
+      "renderer": "Canvas2D/pure data",
+      "reference": "references/styles/effects.md",
+      "deterministic": "explicit seed and absolute frame/age; no previous frame buffer",
+      "evidence": "evidence/aesthetic-toolkit-2026-11-08"
+    },
+    {
+      "file": "modules/fx2d/hatch.mjs",
+      "exports": [
+        "hatchLines",
+        "stipplePoints"
+      ],
+      "status": "implemented",
+      "renderer": "Canvas2D/pure data",
+      "reference": "references/styles/effects.md",
+      "deterministic": "explicit seed and absolute frame/age; no previous frame buffer",
+      "evidence": "evidence/aesthetic-toolkit-2026-11-08"
+    },
+    {
+      "file": "modules/fx2d/erase.mjs",
+      "exports": [
+        "erasureAt"
+      ],
+      "status": "implemented",
+      "renderer": "Canvas2D/pure data",
+      "reference": "references/styles/effects.md",
+      "deterministic": "explicit seed and absolute frame/age; no previous frame buffer",
+      "evidence": "evidence/aesthetic-toolkit-2026-11-08"
+    },
+    {
+      "file": "modules/fx2d/redraw.mjs",
+      "exports": [
+        "interpolatePoints",
+        "redrawAt"
+      ],
+      "status": "implemented",
+      "renderer": "Canvas2D/pure data",
+      "reference": "references/styles/effects.md",
+      "deterministic": "explicit seed and absolute frame/age; no previous frame buffer",
+      "evidence": "evidence/aesthetic-toolkit-2026-11-08"
+    },
+    {
+      "file": "modules/fx3d/adapter.mjs",
+      "exports": [
+        "createCanvasAdapter"
+      ],
+      "status": "implemented",
+      "renderer": "Three r180/WebGL2",
+      "reference": "references/styles/effects.md",
+      "deterministic": "explicit seed and absolute frame/age; no previous frame buffer",
+      "evidence": "evidence/aesthetic-toolkit-2026-11-08"
+    },
+    {
+      "file": "modules/fx3d/deform.mjs",
+      "exports": [
+        "prepareDeformation"
+      ],
+      "status": "implemented",
+      "renderer": "Three r180/WebGL2",
+      "reference": "references/styles/effects.md",
+      "deterministic": "explicit seed and absolute frame/age; no previous frame buffer",
+      "evidence": "evidence/aesthetic-toolkit-2026-11-08"
+    },
+    {
+      "file": "modules/fx3d/geometry.mjs",
+      "exports": [
+        "createGeometry",
+        "validateGeometry"
+      ],
+      "status": "implemented",
+      "renderer": "Three r180/WebGL2",
+      "reference": "references/styles/effects.md",
+      "deterministic": "explicit seed and absolute frame/age; no previous frame buffer",
+      "evidence": "evidence/aesthetic-toolkit-2026-11-08"
+    },
+    {
+      "file": "modules/fx3d/glb.mjs",
+      "exports": [
+        "inspectGLB",
+        "loadLocalGLB"
+      ],
+      "status": "implemented",
+      "renderer": "Three r180/WebGL2",
+      "reference": "references/styles/effects.md",
+      "deterministic": "explicit seed and absolute frame/age; no previous frame buffer",
+      "evidence": "evidence/aesthetic-toolkit-2026-11-08"
+    },
+    {
+      "file": "modules/fx3d/light.mjs",
+      "exports": [
+        "createLightRig",
+        "createShadowOverlay",
+        "setDepthFog"
+      ],
+      "status": "implemented",
+      "renderer": "Three r180/WebGL2",
+      "reference": "references/styles/effects.md",
+      "deterministic": "explicit seed and absolute frame/age; no previous frame buffer",
+      "evidence": "evidence/aesthetic-toolkit-2026-11-08"
+    },
+    {
+      "file": "modules/fx3d/material.mjs",
+      "exports": [
+        "createHatchAtlas",
+        "createHatchMaterial"
+      ],
+      "status": "implemented",
+      "renderer": "Three r180/WebGL2",
+      "reference": "references/styles/effects.md",
+      "deterministic": "explicit seed and absolute frame/age; no previous frame buffer",
+      "evidence": "evidence/aesthetic-toolkit-2026-11-08"
+    },
+    {
+      "file": "modules/fx3d/outline.mjs",
+      "exports": [
+        "createInternalLines",
+        "createRigidOutline"
+      ],
+      "status": "implemented",
+      "renderer": "Three r180/WebGL2",
+      "reference": "references/styles/effects.md",
+      "deterministic": "explicit seed and absolute frame/age; no previous frame buffer",
+      "evidence": "evidence/aesthetic-toolkit-2026-11-08"
+    },
+    {
+      "file": "modules/fx3d/particles.mjs",
+      "exports": [
+        "createDust",
+        "sampleDust"
+      ],
+      "status": "implemented",
+      "renderer": "Three r180/WebGL2",
+      "reference": "references/styles/effects.md",
+      "deterministic": "explicit seed and absolute frame/age; no previous frame buffer",
+      "evidence": "evidence/aesthetic-toolkit-2026-11-08"
+    },
+    {
+      "file": "modules/animation/auto-rig.mjs",
+      "exports": [
+        "RIG_VERSION",
+        "autoRig",
+        "validateRig",
+        "createRiggedMesh"
+      ],
+      "status": "experimental",
+      "renderer": "Three r180 skinning / CPU inference",
+      "reference": "references/styles/auto-rig.md",
+      "deterministic": "versioned complete local asset; absolute frame queries",
+      "evidence": "evidence/aesthetic-toolkit-phase02-2026-11-08"
+    },
+    {
+      "file": "modules/animation/retarget.mjs",
+      "exports": [
+        "RETARGET_VERSION",
+        "coordinateQuaternion",
+        "validateRetargetRig",
+        "validateSourceMotion",
+        "solveTwoBoneIK",
+        "createRetargeter",
+        "bakeRetarget",
+        "validateRetargetMotion",
+        "createRetargetPlayer",
+        "prepareRetargetPlayback"
+      ],
+      "status": "experimental",
+      "renderer": "CPU pose bake / Three skinning",
+      "reference": "references/styles/retarget.md",
+      "deterministic": "versioned complete local asset; absolute frame queries",
+      "evidence": "evidence/aesthetic-toolkit-phase02-2026-11-08"
+    },
+    {
+      "file": "modules/fx2d/watercolor.mjs",
+      "exports": [
+        "validateInput",
+        "createSolver",
+        "bakeWatercolor",
+        "validateBake",
+        "decodeWatercolor"
+      ],
+      "status": "experimental",
+      "renderer": "CPU grid bake / Canvas2D",
+      "reference": "references/styles/watercolor-physical.md",
+      "deterministic": "versioned complete local asset; absolute frame queries",
+      "evidence": "evidence/aesthetic-toolkit-phase02-2026-11-08"
+    },
+    {
+      "file": "modules/fx3d/skinned-outline.mjs",
+      "exports": [
+        "createSkinnedOutline"
+      ],
+      "status": "experimental",
+      "renderer": "WebGL2",
+      "reference": "references/styles/auto-rig.md",
+      "deterministic": "versioned complete local asset; absolute frame queries",
+      "evidence": "evidence/aesthetic-toolkit-phase02-2026-11-08"
+    }
+  ]
+}

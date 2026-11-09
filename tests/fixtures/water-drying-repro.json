@@ -1,0 +1,52 @@
+{
+  "version": 1,
+  "seed": 5,
+  "width": 9,
+  "height": 7,
+  "frames": 60,
+  "dt": 0.2506466653887182,
+  "stepsPerFrame": 3,
+  "coefficients": {
+    "waterDiffusion": 0.8677987347324267,
+    "pigmentDiffusion": 0.08482564206293586,
+    "absorption": 0.9538442573075465,
+    "evaporation": 3.026037321054972,
+    "deposition": 0.4149989004015849
+  },
+  "colors": [
+    [
+      20,
+      40,
+      180
+    ],
+    [
+      180,
+      30,
+      20
+    ]
+  ],
+  "events": [
+    {
+      "frame": 0,
+      "x": 4,
+      "y": 3,
+      "radius": 1,
+      "water": 10,
+      "pigment": [
+        3,
+        2
+      ]
+    },
+    {
+      "frame": 17,
+      "x": 2,
+      "y": 2,
+      "radius": 2,
+      "water": 7,
+      "pigment": [
+        1,
+        4
+      ]
+    }
+  ]
+}

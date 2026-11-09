@@ -1,0 +1,7 @@
+export function evaluateShot(spec={},frame=0){
+ const keys=spec.keys??[{frame:0,x:0,y:0,zoom:1}];let prev=-Infinity;for(const k of keys){if(!Number.isFinite(k.frame)||k.frame<=prev||![k.x??0,k.y??0,k.zoom??1].every(Number.isFinite)||(k.zoom??1)<=0)throw new Error('shot: ordered keys and positive zoom required');prev=k.frame;}
+ if(!keys.length||!Number.isFinite(frame))throw new Error('shot: keys and finite frame required');const i=keys.findIndex(k=>k.frame>frame),a=keys[Math.max(0,i<0?keys.length-1:i-1)],b=i<0?a:keys[i],p=a===b?0:Math.max(0,(frame-a.frame)/(b.frame-a.frame));return Object.fromEntries(['x','y','zoom'].map(k=>[k,(a[k]??(k==='zoom'?1:0))+((b[k]??(k==='zoom'?1:0))-(a[k]??(k==='zoom'?1:0)))*p]));
+}
+export function projectPlanes(planes,camera,{width,height}){
+ if(![width,height,camera.x,camera.y,camera.zoom].every(Number.isFinite)||width<=0||height<=0||camera.zoom<=0)throw new Error('planes: invalid viewport/camera');return planes.map(p=>{if(!Number.isFinite(p.depth)||p.depth<0||p.depth>1)throw new Error('plane depth must be 0..1');const scale=1+(camera.zoom-1)*p.depth,x=-camera.x*p.depth,y=-camera.y*p.depth;const diagnostics=[];if(p.bounds){const [bx,by,bw,bh]=p.bounds;if(![bx,by,bw,bh].every(Number.isFinite)||bw<=0||bh<=0)throw new Error('plane bounds invalid');if(bx*scale+x>0||by*scale+y>0||(bx+bw)*scale+x<width||(by+bh)*scale+y<height)diagnostics.push('uncovered viewport');}return {...p,transform:[scale,0,0,scale,x,y],diagnostics};});
+}

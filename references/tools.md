@@ -24,6 +24,8 @@ node scripts/direction.mjs sync JOB_ID
 
 [스틸컷 예제](../examples/stillcuts/README.md)는 `node examples/stillcuts/build.mjs`로 생성한다. 복사본의 source를 편집하면 `node <복사본>/rebuild.mjs`를 실행한다. 생성 원본·helper 복사·입출력 계약은 [stillcuts.md](stillcuts.md)에 있다. 검증 기록은 `--store`로 승인된 작업 경로 안에 격리하고, TMPDIR도 같은 작업 경로의 실제 디렉터리로 지정한다.
 
+포즈 채널·저작 보정·접촉 목표가 필요하면 [pose tracks API와 공개 materialization 예제](pose-tracks.md)를 사용한다. `materializeKit({project, modules:['pose-tracks']})`는 `motion` 의존성도 복사하고 기존 소유권 검사를 적용한다.
+
 ## 기록과 재시도
 
 - 기본 저장소는 현재 디렉터리의 `.direction`이다. `--store PATH`로 바꿀 수 있다. 프로젝트 안에 둘 때는 `.direction` 아래를 사용한다.
@@ -34,3 +36,11 @@ node scripts/direction.mjs sync JOB_ID
 - 현재 `observe`는 PCM peak가 0.005 미만이면 다른 재생 조건을 충족해도 실패한다. 따라서 의도한 무음 작품의 보편적 통과 조건으로 쓰지 않는다. 무음 예제에는 기존 `play`·`review`와 범위를 정한 브라우저 재생 관찰을 사용하고 실제로 확인한 항목만 기록한다. 이 검사를 통과하려고 소리를 덧붙이지 않는다.
 - `sync`는 MP4의 디코드한 화면과 오디오를 측정한다. 화면은 작성한 프레임 주변의 평균 휘도 상승을 찾고 컨테이너의 실제 프레임 PTS를 읽는다. 오디오는 지정 범위에서 강한 샘플 피크를 찾는다. 초반과 후반의 차이로 누적 드리프트를 구분한다. 기본 허용 오차는 한 프레임이며 비디오 PTS 간격 오차는 0.1 ms 이하다. 평균 고정 오프셋은 각 사건의 피크 차이 평균이며, 음색의 공격 시간도 이 값에 들어갈 수 있다.
 - `sync`는 선택한 휘도 상승과 고립된 피크의 검사다. 모든 시청각 의미의 동기·대사 명료도·음질로 확대하지 않는다. 로그·파형·캡처는 직접 청취의 근거가 아니다. 직접 화면·소리를 확인할 수 없으면 그 한계를 남긴다.
+
+## 음악과 flash-risk
+
+`music init/analyze/derive/build/remux`와 `flash JOB_ID`의 입력·예제·한계는 [music.md](music.md)를 따른다. 기존 player가 음악 작업의 웹 검토 UI다. `sync`의 probe 기반 검사 범위는 확장하지 않는다.
+
+Phase02 선택 도구: `node scripts/watercolor-bake.mjs INPUT.json OUTPUT.json`, `node scripts/auto-rig.mjs STATIC.json OUTPUT.rig.json PROFILE.json [--glb]`, `node scripts/retarget-bake.mjs SOURCE.rig.json TARGET.rig.json SOURCE.motion.json OUTPUT.motion.json [OPTIONS.json]`. 실제 입력/상한/출처는 [수채](styles/watercolor-physical.md)·[rig](styles/auto-rig.md)·[retarget](styles/retarget.md) 참조. 스타일 빌드는 기존 `direction style build`를 사용하며 새 watercolor-physical와 expressionist-space rig/motion 자산을 local freeze한다.
+
+새 제작과 실제 출력의 수정은 [작법 실행 경로](craft-execution.md)를 따른다. 공개 크레인 예제는 사용자 저작 geometry·키·시간·pose correction을 materialize/freeze/render하고 두 revision을 기존 job으로 비교한다.

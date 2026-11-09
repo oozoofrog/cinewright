@@ -1,0 +1,8 @@
+{
+  "license": "CC0-1.0",
+  "source": "examples/styles/expressionist-space/assets/traveler.glb",
+  "sourceSha256": "b7f4974717cf25da98164a24aa3cf29312f2f07a0a1a7a41230d9e733d7decf6",
+  "sha256": "0938674714d16b65b5c0f6b5bd75dbe78633c45800bfb9793175e3f07df0e6b3",
+  "authoring": "scripts/cinematic-traveler-asset.mjs",
+  "changes": "case offset +0.33m x/+0.09m z; right sleeve position and angle connect to bag while preserving negative space; original case-sway animation retained"
+}

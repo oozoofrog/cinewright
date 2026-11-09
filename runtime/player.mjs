@@ -11,7 +11,7 @@ function fail(error) {
   sound.pause();
 }
 try {
-  const { manifest, draw } = await open(canvas, Number(params.get('scale') ?? 1));
+  const { manifest, draw, dispose } = await open(canvas, Number(params.get('scale') ?? 1));
   const { fps, frames, spans = {}, points = {}, title } = manifest;
   $('title').textContent = title;
   $('revision').textContent = `개정 ${await (await fetch('/revision')).text()} · ${fps} fps · ${frames} 프레임`;
@@ -31,6 +31,7 @@ try {
   }
 
   let playRequest = 0;
+  window.addEventListener("pagehide", () => {pause();dispose();}, {once:true});
   function pause() {
     playRequest++;
     state.playing = false;
@@ -98,7 +99,7 @@ try {
     state.loop = spans[$('loop').value] ?? null;
     if (state.loop) go(state.loop[0]);
   };
-  window.direction = { manifest, seek, play, pause, status: () => ({ ...state, audio: sound.currentTime }) };
+  window.direction = { manifest, seek, play, pause, dispose: () => {pause();dispose();}, status: () => ({ ...state, audio: sound.currentTime }) };
   show(0);
   $('play').disabled = false;
 } catch (error) {

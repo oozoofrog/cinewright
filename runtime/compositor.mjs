@@ -11,9 +11,9 @@ export async function open(canvas, scale = 1) {
   const [width, height] = manifest.size;
   canvas.width = Math.max(2, Math.round(width * scale / 2) * 2);
   canvas.height = Math.max(2, Math.round(height * scale / 2) * 2);
-  const ctx = canvas.getContext('2d');
+  const ctx = canvas.getContext('2d',{willReadFrequently:false});
   const scratch = new OffscreenCanvas(canvas.width, canvas.height);
-  const layerContext = scratch.getContext('2d');
+  const layerContext = scratch.getContext('2d',{willReadFrequently:false});
   const imageCache = new Map();
   const path = name => `/project/${projectPath(name)}`;
   function image(name) {
@@ -57,6 +57,15 @@ export async function open(canvas, scale = 1) {
       return [name, from, to, () => data.value];
     }));
   const modules = [];
+  let disposed = false;
+  function dispose() {
+    if (disposed) return; disposed = true;
+    const errors=[];
+    for (const {module} of [...modules].reverse()) { try { module.dispose?.(); } catch(e) { errors.push(e); } }
+    modules.length=0; imageCache.clear(); scratch.width=2; scratch.height=2;
+    if(errors.length) throw new AggregateError(errors, "Layer disposal failed");
+  }
+  try {
   for (const [index, spec] of manifest.layers.entries()) {
     const mask = spec.mask ? await image(spec.mask) : null;
     let module;
@@ -64,7 +73,7 @@ export async function open(canvas, scale = 1) {
       const loaded = await import(path(spec.module));
       if (typeof loaded.prepare !== 'function') throw new Error(`Missing prepare(): ${spec.module}`);
       module = await loaded.prepare(api, spec.config ?? {});
-      if (!module || typeof module.draw !== 'function') throw new Error(`Missing draw(): ${spec.module}`);
+      if (!module || typeof module.draw !== 'function') { module?.dispose?.(); throw new Error(`Missing draw(): ${spec.module}`); }
     } else {
       const assets = new Map();
       for (const name of new Set([spec.asset, ...((spec.exposure ?? []).map(entry => entry.value))].filter(Boolean))) {
@@ -74,11 +83,13 @@ export async function open(canvas, scale = 1) {
     }
     modules.push({ spec, module, mask, index });
   }
+  } catch(error) { try { dispose(); } catch(cleanup) { throw new AggregateError([error,cleanup], "Preparation and cleanup failed"); } throw error; }
   const drawOrder = [...modules].sort((a, b) => (a.spec.z ?? a.index) - (b.spec.z ?? b.index));
   const scaleX = canvas.width / width;
   const scaleY = canvas.height / height;
 
   function draw(frame) {
+    if(disposed) throw new Error('Compositor disposed');
     integer(frame, 'frame', 0, manifest.frames - 1);
     const bus = exchange(channels, frame);
     for (const [name, from, to, value] of authored) {
@@ -122,5 +133,5 @@ export async function open(canvas, scale = 1) {
       exposures: Object.fromEntries([...active].map(([id, { t }]) => [id, { frame: t.exposed, value: t.value }])),
     };
   }
-  return { manifest, draw };
+  return { manifest, draw, dispose };
 }

@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "style": "watercolor-physical",
+  "title": "wet \u2014 continuous pigment reconstruction",
+  "size": [
+    1920,
+    1080
+  ],
+  "fps": 24,
+  "frames": 192,
+  "seed": 17,
+  "bake": "assets/watercolor.json",
+  "density": 36,
+  "reconstruction": "cubic",
+  "authoring": {
+    "bakeGrid": [
+      96,
+      54
+    ],
+    "sourceGrid": [
+      48,
+      27
+    ],
+    "recipe": "scripts/cinematic-watercolor-compare.mjs",
+    "eventCoordinates": "cell centers mapped by (x+.5)*2-.5",
+    "sameTotalPigment": true,
+    "sameSimulatedTime": true
+  }
+}

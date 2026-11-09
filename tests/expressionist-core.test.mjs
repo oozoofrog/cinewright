@@ -1,0 +1,10 @@
+import test from 'node:test';
+import assert from 'node:assert/strict';
+import {Object3D,AnimationClip,VectorKeyframeTrack} from 'three';
+import {prepareClip3D} from '../modules/animation/clip3d.mjs';
+import {inspectGLB} from '../modules/fx3d/glb.mjs';
+import {collectExpressionistVendor} from '../scripts/style-vendor-expressionist.mjs';
+test('absolute reverse clip seek and disposal',()=>{const root=new Object3D();const clip=new AnimationClip('walk',2,[new VectorKeyframeTrack('.position',[0,2],[0,0,0,4,0,0])]);const p=prepareClip3D(root,clip,{fps:24,loop:true});for(const f of [0,24,47,12,24,0,24]){p.evaluate(f);assert.ok(Math.abs(root.position.x-f/12)<1e-6);}p.dispose();p.dispose();assert.throws(()=>p.evaluate(0),/disposed/);});
+test('held clip and clamped nonloop',()=>{const root=new Object3D();const clip=new AnimationClip('walk',2,[new VectorKeyframeTrack('.position',[0,2],[0,0,0,4,0,0])]);const p=prepareClip3D(root,clip,{loop:false,exposure:{every:2}});p.evaluate(25);assert.equal(root.position.x,2);p.evaluate(100);assert.equal(root.position.x,4);p.evaluate(0);assert.equal(root.position.x,0);p.dispose();});
+test('GLB rejects malformed headers and remote dependencies',()=>{assert.throws(()=>inspectGLB(new ArrayBuffer(20)),/header/);const json=Buffer.from(JSON.stringify({asset:{version:'2.0'},images:[{uri:'https://bad.invalid/a.png'}]}).padEnd(128,' '));const b=Buffer.alloc(20+json.length);b.writeUInt32LE(0x46546c67);b.writeUInt32LE(2,4);b.writeUInt32LE(b.length,8);b.writeUInt32LE(json.length,12);b.writeUInt32LE(0x4e4f534a,16);json.copy(b,20);assert.throws(()=>inspectGLB(b.buffer.slice(b.byteOffset,b.byteOffset+b.length)),/URI/);});
+test('vendor closure pins version and retains MIT license',async()=>{const files=await collectExpressionistVendor();assert.equal(Object.keys(files).length,4);assert.equal(JSON.parse(files['vendor/three/package.json']).version,'0.180.0');assert.match(files['vendor/three/LICENSE'].toString(),/MIT License/);assert.match(files['vendor/three/addons/loaders/GLTFLoader.js'].toString(),/BufferGeometryUtils/);});

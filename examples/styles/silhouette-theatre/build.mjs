@@ -1,0 +1,4 @@
+import path from 'node:path';import fs from 'node:fs/promises';import {fileURLToPath}from 'node:url';import {materializeStyle}from '../../../scripts/materialize-style.mjs';
+const base=path.dirname(fileURLToPath(import.meta.url));
+export async function build({project,variant='forest',update=false}){if(!['forest','harbor','portrait'].includes(variant))throw new Error('Unknown silhouette example');const scene=JSON.parse(await fs.readFile(path.join(base,'../../../recipes/styles/silhouette-theatre',variant+'.json'),'utf8'));const assets=Object.fromEntries(['moon.svg','cutouts.json','provenance.json'].map(n=>['assets/'+n,path.join(base,'assets',n)]));return materializeStyle({project:path.resolve(project),style:'silhouette-theatre',scene,assets,update});}
+if(process.argv[1]===fileURLToPath(import.meta.url))console.log(JSON.stringify(await build({project:process.argv[2],variant:process.argv[3]??'forest'}),null,2));

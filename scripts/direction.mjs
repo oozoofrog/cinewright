@@ -10,11 +10,23 @@ import { host } from './server.mjs';
 import { init } from './scaffold.mjs';
 import { reviewSite, sync } from './review.mjs';
 import { observe } from './observe.mjs';
+import { ingestMusic, analyzeMusic, deriveMusic, remuxSourceAudio } from './music.mjs';
+import { buildMusicBoxProject } from '../examples/music-box-dancer/build.mjs';
+import { screenFlashes } from './flash.mjs';
+import {listStyles,materializeStyle} from './materialize-style.mjs';
 
 const help = `direction <command> [inputs] [options]
 
+  style list                         List style APIs and support status
+  style build STYLE --scene JSON --project NEW [--assets JSON] [--update]
   doctor                             Execute browser and media dependency checks
   init PROJECT [--title TITLE]        Create a new project in an unused directory
+  music init PROJECT FILE            Ingest read-only music, analyze, derive and build
+  music analyze PROJECT              Re-analyze preview PCM (tentative timing)
+  music derive PROJECT               Derive channels; optional --overrides JSON_FILE
+  music build PROJECT                Build --variant theatre|counterpoint
+  music remux PROJECT VIDEO OUTPUT   Verify and stream-copy original eligible AAC
+  flash JOB_ID                       Screen every decoded frame for flash risk
   freeze PROJECT                     Write a content-addressed revision
   play PROJECT_OR_REVISION           Serve the live composited preview
   frame PROJECT_OR_REVISION AT       Extract authored frame number or named cue
@@ -30,6 +42,10 @@ const help = `direction <command> [inputs] [options]
 
 Shared options: --store PATH (default: ./.direction), --port N (play/review), --scale N (0.125–1)
 init options: --title TITLE, --frames N, --fps N
+music options: --fps N (default 24), --variant theatre|counterpoint, --overrides JSON_FILE
+Example: direction music init ./private-song /path/song.mp4 --variant theatre
+Then: preview ./private-song; play ./private-song; render ./private-song
+flash is a bounded reduced-resolution risk screen, NOT safety/WCAG certification.
 Environment: DIRECTION_CHROME, DIRECTION_FFMPEG, DIRECTION_FFPROBE
 Ctrl+C cancels work and retains its job record. Use local trusted project modules.
 `;
@@ -40,6 +56,8 @@ async function main() {
     allowPositionals: true,
     options: {
       help: { type: 'boolean', short: 'h' }, store: { type: 'string' }, port: { type: 'string' },
+      scene: {type:'string'}, project:{type:'string'}, assets:{type:'string'}, update:{type:'boolean'},
+      variant: { type: 'string' }, overrides: { type: 'string' },
       title: { type: 'string' }, frames: { type: 'string' }, fps: { type: 'string' },
       span: { type: 'string' }, from: { type: 'string' }, to: { type: 'string' }, scale: { type: 'string' },
     },
@@ -76,6 +94,12 @@ async function main() {
     if (record.status !== 'completed') process.exitCode = record.status === 'cancelled' ? 130 : 1;
   }
   switch (cmd) {
+    case 'style': {
+      if(input==='list') print(await listStyles());
+      else if(input==='build'){if(!opts.scene||!opts.project||!rest[0])throw new Error('style build STYLE requires --scene JSON --project NEW');print(await materializeStyle({project:path.resolve(opts.project),style:rest[0],scene:JSON.parse(await fs.readFile(opts.scene,'utf8')),assets:opts.assets?JSON.parse(await fs.readFile(opts.assets,'utf8')):{},update:opts.update??false}));}
+      else throw new Error('style requires list or build');
+      break;
+    }
     case 'doctor': {
       const versions = await Promise.all([ffmpeg, ffprobe].map(bin => run(bin, ['-version'], { capture: true })));
       const client = await browser();
@@ -90,6 +114,47 @@ async function main() {
           chromium: client.version(), ...graphics });
         if (!graphics.canvas || !graphics.webgl2) process.exitCode = 1;
       } finally { await client.close(); }
+      break;
+    }
+    case 'music': {
+      const [projectInput, file, output] = rest;
+      if (!projectInput) throw new Error('music requires a subcommand and project');
+      const project = path.resolve(projectInput);
+      const fps = integer(Number(opts.fps ?? 24), 'fps', 1, 120);
+      const build = async () => buildMusicBoxProject({ project,
+        source: JSON.parse(await fs.readFile(path.join(project, 'music/source.json'), 'utf8')),
+        derived: JSON.parse(await fs.readFile(path.join(project, 'music/derived.json'), 'utf8')),
+        variant: opts.variant ?? 'theatre' });
+      if (input === 'init') {
+        if (!file) throw new Error('music init requires PROJECT FILE');
+        if (!['theatre', 'counterpoint'].includes(opts.variant ?? 'theatre')) throw new Error('Unknown music variant');
+        // Never put an ingest over authored/generated work, even if source.json is absent.
+        try { await fs.lstat(project); throw new Error('music init requires an unused project directory'); }
+        catch (error) { if (error.code !== 'ENOENT') throw error; }
+        await ingestMusic({ project, file, fps, signal });
+        await analyzeMusic({ project, signal });
+        await deriveMusic({ project, fps, signal });
+        print(await build());
+      } else if (input === 'analyze') print(await analyzeMusic({ project, signal }));
+      else if (input === 'derive') {
+        const source = JSON.parse(await fs.readFile(path.join(project, 'music/source.json'), 'utf8'));
+        const overrides = opts.overrides ? JSON.parse(await fs.readFile(opts.overrides, 'utf8')) : {};
+        print(await deriveMusic({ project, fps: opts.fps == null ? source.fps : fps, overrides, signal }));
+      } else if (input === 'build') print(await build());
+      else if (input === 'remux') {
+        if (!file || !output) throw new Error('music remux requires PROJECT VIDEO OUTPUT');
+        print(await remuxSourceAudio({ project, video: file, output, signal }));
+      } else throw new Error(`Unknown music subcommand: ${input}`);
+      break;
+    }
+    case 'flash': {
+      requireInput();
+      const job = await findJob(store, input);
+      if (job.status !== 'completed' || job.settings.mode !== 'video') throw new Error('flash requires a completed video job');
+      const directory = await fs.mkdtemp(path.join(path.dirname(job.output), 'flash-'));
+      const checks = await screenFlashes({ file: job.output, report: path.join(directory, 'report.json'), log: path.join(directory, 'execution.log'), signal });
+      print({ ...checks, report: path.join(directory, 'report.json') });
+      if (checks.status !== 'screen-negative') process.exitCode = 1;
       break;
     }
     case 'init':

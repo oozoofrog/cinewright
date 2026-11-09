@@ -1,15 +1,27 @@
 # Cinewright
 
-## 플러그인 설치
+## Plugin installation
 
-Codex와 Claude Code는 같은 `skills/cinewright` 진입점과 실행 도구를 사용한다. Node.js 22 이상, FFmpeg/FFprobe와 Chromium이 필요하다. 플러그인을 설치한 뒤 설치된 플러그인 루트에서 `npm ci`를 실행해 의존성을 준비한다. 플러그인 캐시가 갱신되면 새 설치 위치에서도 의존성을 준비해야 한다.
+Codex and Claude Code use `skills/cinewright/SKILL.md`, which routes to the current root `SKILL.md`. Install only the plugin; remove an older standalone Cinewright skill after verifying the plugin. Node.js 22+, FFmpeg/FFprobe, and Chromium are required.
 
-- **Codex**: 이 저장소의 `.agents/plugins/marketplace.json`은 현재 저장소용 로컬 마켓플레이스를 제공한다. Codex 데스크톱 앱을 다시 시작하고 플러그인 목록에서 Cinewright를 설치한다. 새 채팅에서 `$cinewright`를 사용한다.
-- **Claude Code**: `/plugin marketplace add oozoofrog/cinewright`로 마켓플레이스를 추가하고 `/plugin install cinewright@cinewright-marketplace`로 설치한다. 새 세션에서 `/cinewright:cinewright`를 사용한다.
+For an existing Codex marketplace installation:
 
-설치된 플러그인 루트의 `scripts/direction.mjs`를 절대 경로로 실행한다. 사용자 작업 경로에서 실행하면 기본 `.direction/` 기록이 그 작업 경로에 생성된다.
+```sh
+codex plugin marketplace upgrade cinewright-local
+codex plugin add cinewright@cinewright-local
+```
 
-독립 개발 경로는 `/Volumes/eyedisk/develop/cinewright`다. 이 디렉터리가 Git 저장소 루트다.
+For a new installation, run `codex plugin marketplace add https://github.com/oozoofrog/cinewright.git`, then install Cinewright. Claude Code uses `/plugin marketplace add oozoofrog/cinewright` and `/plugin install cinewright@cinewright-marketplace`.
+
+Run `npm ci` **from the installed plugin root** after each update. Run its `scripts/direction.mjs` by absolute path from your project directory. The default `.direction/` store belongs to the working directory; use `--store` to select another location. Start a new chat to load the refreshed skill instructions.
+
+```sh
+cd <installed-plugin-root>
+npm ci
+node scripts/direction.mjs doctor
+node scripts/direction.mjs init <new-project-path>
+node scripts/direction.mjs freeze <new-project-path> --store <local-store-path>
+```
 
 [SKILL.md](SKILL.md)에서 제작을 시작한다. 작품의 시간, 자산, 개별 표현과 선택적 교환 값을 작성하면 같은 개정본으로 대화형 재생, 프레임 추출, 구간·전체 렌더와 MP4 비교를 할 수 있다.
 
@@ -24,20 +36,6 @@ Codex와 Claude Code는 같은 `skills/cinewright` 진입점과 실행 도구를
 | 인쇄기 · 러프 | [9초 MP4](outputs/press-rough.mp4) | [work.json](examples/press/work.json) |
 | 야간 분류함 | [6초 MP4](outputs/night-sorter.mp4) | [work.json](examples/night-sorter/work.json) |
 | 항구 비교 | [귀환안 18초](outputs/alternatives/harbor-draft.mp4), [해도안 19초](outputs/alternatives/harbor-map-draft.mp4), [착안 러프 18초](outputs/alternatives/harbor-landfall-draft.mp4) | `examples/harbor*` |
-
-## 전역 설치
-
-전역 스킬은 `/Users/oozoofrog/.codex/skills/cinewright`에 설치했다. 개발 저장소와 분리된 복사본이며, 실행 코드·참조 문서·예제·테스트와 잠금 파일 기준 의존성을 포함한다. 개발 소스의 변경은 설치본에 자동으로 반영되지 않는다.
-
-프로젝트 작업 경로에서 전역 도구를 실행하면 `.direction/` 기록도 해당 작업 경로에 저장한다. 다른 기록 경로가 필요하면 `--store`를 지정한다.
-
-```sh
-node /Users/oozoofrog/.codex/skills/cinewright/scripts/direction.mjs doctor
-node /Users/oozoofrog/.codex/skills/cinewright/scripts/direction.mjs init ./my-film
-node /Users/oozoofrog/.codex/skills/cinewright/scripts/direction.mjs preview ./my-film
-```
-
-[설치 및 실행 검증](evidence/global-install/RESULT.md)
 
 ## 실행
 
@@ -67,3 +65,13 @@ node scripts/direction.mjs render examples/harbor-landfall
 `node_modules/`와 `.direction/`은 로컬 실행 데이터다. 새 체크아웃에서는 `npm ci`를 실행하고 예제 경로로 렌더한다. 기존 개정본 해시와 작업 ID를 사용하는 명령은 해당 `.direction/` 기록이 있는 환경에서 실행한다.
 
 이전 제작 기록의 절대 경로는 당시 실행 환경을 가리킨다. 독립 경로 구성과 실행 검증은 [설정 기록](evidence/standalone-setup/RESULT.md)에 있다.
+
+## 로컬 음악 기반 MV
+
+[음악 워크플로](references/music.md): `music init PROJECT FILE --fps 24`로 원본을 보존하고 실제 디코드 길이의 음악 프로젝트를 만든다. `music analyze/derive/build`, 기존 `play/review/preview/render`, `flash JOB_ID`, 검증된 원본 AAC `music remux`를 재사용한다. [Music Box Dancer의 서로 다른 두 안과 재사용 recipe](examples/music-box-dancer/README.md)는 사용자 미디어를 포함하지 않는 원본 Canvas2D 예제다. 분석은 잠정적이며 flash screen은 안전/WCAG 인증이 아니다.
+
+## Reusable aesthetic toolkit
+
+`node scripts/direction.mjs style list` lists versioned style entries and their actual support status. [Style authoring](references/styles/index.md) connects authored scene recipes and local assets to the existing manifest-v1 renderer, with optional resource disposal and generated-file ownership checks. The initial packs are silhouette-theatre, line-wash, and expressionist-space; integrated acceptance evidence is recorded separately from implementation status under `evidence/aesthetic-toolkit-2026-11-08`. No global skill installation or original-media replacement is part of this toolkit work.
+
+Phase02 선택 기능: [물리 수채 bake](references/styles/watercolor-physical.md), [제한된 biped 자동 rig/skin](references/styles/auto-rig.md), [cross-skeleton retarget/contact](references/styles/retarget.md). 기존 스타일 기본 동작을 유지하는 실험 API이며, See [style references](references/styles/index.md) for supported inputs and limitations.

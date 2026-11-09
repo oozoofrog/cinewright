@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1920" height="1080" viewBox="0 0 1920 1080">
+<!-- Original procedural paper theatre: no source imagery, fonts, or external assets. -->
+<defs><linearGradient id="paper" x2="0" y2="1"><stop stop-color="#f4ecda"/><stop offset="1" stop-color="#d9c9ac"/></linearGradient><linearGradient id="fold"><stop stop-color="#263e40"/><stop offset=".6" stop-color="#355756"/><stop offset="1" stop-color="#1e3436"/></linearGradient></defs>
+<path fill="#e9dfca" d="M0 0h1920v1080H0z"/>
+<path fill="url(#paper)" d="M250 150h1420v720H250z"/>
+<path fill="#ded0b6" d="M410 760V430a550 340 0 0 1 1100 0v330h-30V430a520 310 0 0 0-1040 0v330z"/>
+<g fill="none" stroke="#ac9a7c" stroke-width="2"><path d="M300 786h1320M360 180v610M1560 180v610M450 700h1020"/><path d="M720 180v520M1200 180v520" stroke-dasharray="3 14"/></g>
+<path fill="#485c55" d="M270 790h1380l150 210H120z"/>
+<path fill="#364f49" d="M120 1000h1680v80H120z"/>
+<g stroke="#7b8970" stroke-width="2" opacity=".55"><path d="M270 790l-150 210M600 790l-80 210M960 790v210M1320 790l80 210M1650 790l150 210M195 895h1530"/></g>
+<path fill="url(#fold)" d="M0 0h320v1080H0zM1600 0h320v1080h-320z"/>
+<path fill="#b7a47f" d="M284 120h36v820h-36zM1600 120h36v820h-36z"/>
+<path fill="#d6c39c" d="M300 120h20v820h-20zM1600 120h20v820h-20z"/>
+<path fill="#8b4238" d="M180 0h1560v128c-120 0-180 56-260 54s-160-54-240-54-160 54-240 54-160-54-240-54-160 54-240 54-140-54-240-54z"/>
+<path fill="none" stroke="#d3ad70" stroke-width="5" d="M180 125c120 0 160 54 240 54s160-54 240-54 160 54 240 54 160-54 240-54 160 54 240 54 140-54 240-54"/>
+<g fill="#c8af7e"><circle cx="190" cy="245" r="13"/><circle cx="1730" cy="245" r="13"/><path d="M160 270h60v4h-60zM1700 270h60v4h-60z"/></g>
+<g fill="none" stroke="#789087" stroke-width="2"><path d="M75 290v590h130V430H125v370h35V500M1845 290v590h-130V430h80v370h-35V500"/><circle cx="140" cy="940" r="28"/><circle cx="1780" cy="940" r="28"/></g>
+</svg>

@@ -1,0 +1,2 @@
+// Example Canvas drawing consumes both shared number and actual 3D camera projection.
+export async function prepare(api){return {evaluate(t){return {level:t.read('lamp.event','unit'),point:t.read('specimen.screen','canvas')};},draw(g,t,s){const [x,y]=s.point;g.save();g.strokeStyle='#e6c88a';g.fillStyle='#e6c88a';g.globalAlpha=.35+.65*s.level;g.lineWidth=2;g.beginPath();g.arc(x,y,28+12*s.level,0,Math.PI*2);g.moveTo(x+40,y);g.lineTo(x+110,y-48);g.lineTo(x+210,y-48);g.stroke();g.fillRect(x+110,y-55,80*s.level,3);g.restore();}};}

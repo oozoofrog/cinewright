@@ -1,0 +1,19 @@
+{
+  "version": 1,
+  "generator": "cinewright-owned-files",
+  "files": {
+    "work.json": "3b19cecba23c469dc90bc14d0e01e3cd5c953b9bf3e7c195e5702e1a2a41c5dd",
+    "assets/watercolor.json": "b474aeb2218a0054ea9c54aaaa70e64153a9e340dda494c305238671f851272e",
+    "modules/fx2d/watercolor.mjs": "fda2e31514e648a358d180492ef6102ad65139e80f02ec71f057563805cefa43",
+    "modules/styles/watercolor-physical/index.mjs": "d1bab31557721bc1071788bcfcd6f2094acd49a32d14b52607627c00995d6df7",
+    "modules/fx2d/stroke.mjs": "2fc1df6bea032f82b369a88a7b0e70b4acef66ce6c619e6d14b7ad056597b158",
+    "modules/fx2d/brush.mjs": "1e5f89c617800d9e5c23b2d5943b14ee2630b83a333e23227ad7cb8b650fdac3",
+    "modules/fx2d/wash.mjs": "157d0d85a4139dad78d46292b78a93aa40d068e16c792cf5690530c2bbdb3cec",
+    "modules/fx2d/hatch.mjs": "0921337a4a581388090121771d351b632d19798f6bb05491af81fedf879363ee",
+    "modules/fx2d/redraw.mjs": "39e591c3abaf0028122ba5124abb1cebf6391a6d0696d907c4f5c88e1c2fee0d",
+    "modules/fx2d/erase.mjs": "c6fb931e0a9c36c2a0e23eca5142f6a2e109c2e9eab49ee94f9b95de762abbce",
+    "modules/motion.mjs": "fea589f724d62f7cdf9cf39ff82cf635f37becf60cfb9bcb85d3ffa02ed19619",
+    "modules/animation/exposure.mjs": "ed8455c1aed87d78c88b1275b3ba74cc3783f073b6e9f9699d58f5be8ace1ab3",
+    "modules/styles/line-wash/index.mjs": "22a0a9b5d9a2a0b5c1c87c0f0be035ac9bb22a8d98fca25c7152c689887dc6d6"
+  }
+}
