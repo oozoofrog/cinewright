@@ -1,0 +1,144 @@
+{
+  "count": 19,
+  "documents": [
+    "examples/stillcuts/README.md",
+    "references/craft.md",
+    "references/direction.md"
+  ],
+  "changes": [
+    {
+      "document": "references/craft.md",
+      "line": 70,
+      "oldTarget": "../evidence/2026-11-05-production/research-notes.md",
+      "newTarget": "/Volumes/eyedisk/develop/cinewright/evidence/2026-11-05-production/research-notes.md",
+      "labelAndOtherTextUnchanged": true
+    },
+    {
+      "document": "references/direction.md",
+      "line": 52,
+      "oldTarget": "../evidence/2026-11-05-production/BRIEF.md",
+      "newTarget": "/Volumes/eyedisk/develop/cinewright/evidence/2026-11-05-production/BRIEF.md",
+      "labelAndOtherTextUnchanged": true
+    },
+    {
+      "document": "examples/stillcuts/README.md",
+      "line": 3,
+      "oldTarget": "../../evidence/2026-11-05-production/BRIEF.md",
+      "newTarget": "/Volumes/eyedisk/develop/cinewright/evidence/2026-11-05-production/BRIEF.md",
+      "labelAndOtherTextUnchanged": true
+    },
+    {
+      "document": "examples/stillcuts/README.md",
+      "line": 61,
+      "oldTarget": "../../evidence/2026-11-05-production/RESULT.md",
+      "newTarget": "/Volumes/eyedisk/develop/cinewright/evidence/2026-11-05-production/RESULT.md",
+      "labelAndOtherTextUnchanged": true
+    },
+    {
+      "document": "examples/stillcuts/README.md",
+      "line": 61,
+      "oldTarget": "../../evidence/2026-11-05-production/REVIEW.md",
+      "newTarget": "/Volumes/eyedisk/develop/cinewright/evidence/2026-11-05-production/REVIEW.md",
+      "labelAndOtherTextUnchanged": true
+    },
+    {
+      "document": "examples/stillcuts/README.md",
+      "line": 63,
+      "oldTarget": "../../evidence/2026-11-05-production/final-fix-1/preservation.json",
+      "newTarget": "/Volumes/eyedisk/develop/cinewright/evidence/2026-11-05-production/final-fix-1/preservation.json",
+      "labelAndOtherTextUnchanged": true
+    },
+    {
+      "document": "examples/stillcuts/README.md",
+      "line": 67,
+      "oldTarget": "../../.direction/production/jobs/b030aad5-33a8-4a71-9977-994c046e3b50/work.mp4",
+      "newTarget": "/Volumes/eyedisk/develop/cinewright/.direction/production/jobs/b030aad5-33a8-4a71-9977-994c046e3b50/work.mp4",
+      "labelAndOtherTextUnchanged": true
+    },
+    {
+      "document": "examples/stillcuts/README.md",
+      "line": 67,
+      "oldTarget": "../../.direction/production/jobs/a515dfc7-fd57-4f78-aa76-77e336d9d78f/work.mp4",
+      "newTarget": "/Volumes/eyedisk/develop/cinewright/.direction/production/jobs/a515dfc7-fd57-4f78-aa76-77e336d9d78f/work.mp4",
+      "labelAndOtherTextUnchanged": true
+    },
+    {
+      "document": "examples/stillcuts/README.md",
+      "line": 68,
+      "oldTarget": "../../.direction/production/jobs/c5d57e2c-0459-4def-a8c2-b8f49ea5748c/work.mp4",
+      "newTarget": "/Volumes/eyedisk/develop/cinewright/.direction/production/jobs/c5d57e2c-0459-4def-a8c2-b8f49ea5748c/work.mp4",
+      "labelAndOtherTextUnchanged": true
+    },
+    {
+      "document": "examples/stillcuts/README.md",
+      "line": 68,
+      "oldTarget": "../../.direction/production/jobs/88c9ab45-8bf1-49fd-95ff-42f376b1cf79/work.mp4",
+      "newTarget": "/Volumes/eyedisk/develop/cinewright/.direction/production/jobs/88c9ab45-8bf1-49fd-95ff-42f376b1cf79/work.mp4",
+      "labelAndOtherTextUnchanged": true
+    },
+    {
+      "document": "examples/stillcuts/README.md",
+      "line": 79,
+      "oldTarget": "../../evidence/2026-11-05-production/task-4/fix-1-npm-test.log",
+      "newTarget": "/Volumes/eyedisk/develop/cinewright/evidence/2026-11-05-production/task-4/fix-1-npm-test.log",
+      "labelAndOtherTextUnchanged": true
+    },
+    {
+      "document": "examples/stillcuts/README.md",
+      "line": 79,
+      "oldTarget": "../../evidence/2026-11-05-production/task-4/runs/contact-fix-1/inspection/receipt.json",
+      "newTarget": "/Volumes/eyedisk/develop/cinewright/evidence/2026-11-05-production/task-4/runs/contact-fix-1/inspection/receipt.json",
+      "labelAndOtherTextUnchanged": true
+    },
+    {
+      "document": "examples/stillcuts/README.md",
+      "line": 79,
+      "oldTarget": "../../evidence/2026-11-05-production/independent-output-review-fixed.md",
+      "newTarget": "/Volumes/eyedisk/develop/cinewright/evidence/2026-11-05-production/independent-output-review-fixed.md",
+      "labelAndOtherTextUnchanged": true
+    },
+    {
+      "document": "examples/stillcuts/README.md",
+      "line": 81,
+      "oldTarget": "../../evidence/2026-11-05-production/final-fix-1/npm-test.log",
+      "newTarget": "/Volumes/eyedisk/develop/cinewright/evidence/2026-11-05-production/final-fix-1/npm-test.log",
+      "labelAndOtherTextUnchanged": true
+    },
+    {
+      "document": "examples/stillcuts/README.md",
+      "line": 83,
+      "oldTarget": "../../evidence/2026-11-05-production/independent-output-review.md",
+      "newTarget": "/Volumes/eyedisk/develop/cinewright/evidence/2026-11-05-production/independent-output-review.md",
+      "labelAndOtherTextUnchanged": true
+    },
+    {
+      "document": "examples/stillcuts/README.md",
+      "line": 83,
+      "oldTarget": "../../evidence/2026-11-05-production/MEASUREMENT.md",
+      "newTarget": "/Volumes/eyedisk/develop/cinewright/evidence/2026-11-05-production/MEASUREMENT.md",
+      "labelAndOtherTextUnchanged": true
+    },
+    {
+      "document": "examples/stillcuts/README.md",
+      "line": 83,
+      "oldTarget": "../../.superpowers/sdd/2026-11-05-cinewright-production/final-fix-1-re-review.md",
+      "newTarget": "/Volumes/eyedisk/develop/cinewright/.superpowers/sdd/2026-11-05-cinewright-production/final-fix-1-re-review.md",
+      "labelAndOtherTextUnchanged": true
+    },
+    {
+      "document": "examples/stillcuts/README.md",
+      "line": 83,
+      "oldTarget": "../../evidence/2026-11-05-production/primary-final-source-scope.json",
+      "newTarget": "/Volumes/eyedisk/develop/cinewright/evidence/2026-11-05-production/primary-final-source-scope.json",
+      "labelAndOtherTextUnchanged": true
+    },
+    {
+      "document": "examples/stillcuts/README.md",
+      "line": 94,
+      "oldTarget": "../../.superpowers/sdd/2026-11-05-cinewright-production/task-3-report.md",
+      "newTarget": "/Volumes/eyedisk/develop/cinewright/.superpowers/sdd/2026-11-05-cinewright-production/task-3-report.md",
+      "labelAndOtherTextUnchanged": true
+    }
+  ],
+  "semantics": "Only Markdown target substrings changed; labels and all other bytes preserved."
+}

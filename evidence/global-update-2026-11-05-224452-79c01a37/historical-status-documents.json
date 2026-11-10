@@ -1,0 +1,29 @@
+{
+  "documents": [
+    {
+      "path": "evidence/2026-11-05-production/RESULT.md",
+      "inPayload": false,
+      "historicalReceiptSha256": "b1ee74ec2c139cfbee357f1307094f2c1f02bb08ef39f1bce2cb3795635aa476",
+      "currentSha256": "938826e775071104668df6c1383e8c2675a06163e4b994c599f62bdb92b5e1c6",
+      "matchesHistoricalReceipt": false,
+      "action": "Preserve current source; install only if part of the reviewed 45-file payload."
+    },
+    {
+      "path": "evidence/2026-11-05-production/REVIEW.md",
+      "inPayload": false,
+      "historicalReceiptSha256": "b18686526c38e3e509e02123a0a2871caee872cca6f69716d91f3e45975a95c5",
+      "currentSha256": "b18686526c38e3e509e02123a0a2871caee872cca6f69716d91f3e45975a95c5",
+      "matchesHistoricalReceipt": true,
+      "action": "Preserve current source; install only if part of the reviewed 45-file payload."
+    },
+    {
+      "path": "examples/stillcuts/README.md",
+      "inPayload": true,
+      "historicalReceiptSha256": "a927729a43dd428c7634991fe48bd896e3930e9bb3bb1f95ac3a3c566becdc86",
+      "currentSha256": "a927729a43dd428c7634991fe48bd896e3930e9bb3bb1f95ac3a3c566becdc86",
+      "matchesHistoricalReceipt": true,
+      "action": "Preserve current source; install only if part of the reviewed 45-file payload."
+    }
+  ],
+  "reconciliation": "The non-payload RESULT.md at committed HEAD differs from its historical receipt. Preserve it and its current hash unchanged. Do not copy or relabel it. The earlier guard was broader than installation eligibility."
+}

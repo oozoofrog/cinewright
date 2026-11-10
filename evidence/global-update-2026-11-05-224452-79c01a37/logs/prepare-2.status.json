@@ -1,0 +1,8 @@
+{
+  "command": [
+    "python3",
+    "/Volumes/eyedisk/develop/cinewright/evidence/global-update-2026-11-05-224452-79c01a37/prepare.py"
+  ],
+  "cwd": "/Volumes/eyedisk/develop/cinewright",
+  "exitCode": 0
+}

@@ -1,0 +1,11 @@
+{
+  "source": "/Volumes/eyedisk/develop/cinewright",
+  "destination": "/Users/oozoofrog/.codex/skills/cinewright",
+  "evidence": "/Volumes/eyedisk/develop/cinewright/evidence/global-update-2026-11-05-224452-79c01a37",
+  "startedAt": "2026-11-04T22:44:52.051334+00:00",
+  "expectedPriorHead": "5bd6d89763dd500d0fd85903bf8c288775e4ac0e",
+  "actualSourceHead": "27aac0ca22f4a8d211981cd40970d8a511f9927d",
+  "metadataDrift": "Current HEAD 27aac0ca22f4a8d211981cd40970d8a511f9927d and clean main were observed before any install mutation. Parent reconciled this metadata drift because every approved payload byte matches the reviewed receipts. Neither root nor installation agent created the observed commit. Preserve current repository metadata.",
+  "authorization": "Apply the verified Cinewright changes to the existing global installation and validate there. No source implementation edits, dependency reinstall, commit, push, branch, worktree, new chat or publication.",
+  "rollbackExecuted": false
+}

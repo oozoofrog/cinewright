@@ -1,0 +1,65 @@
+{
+  "at": "2026-11-04T22:51:59.662094+00:00",
+  "payloadFilesMatched": 45,
+  "sourcePayloadUnchanged": true,
+  "stageUnchanged": true,
+  "originalFilesUnchanged": 60,
+  "replacementFilesMatched": 4,
+  "backupFilesIntact": 64,
+  "dependenciesUnchanged": true,
+  "dependencyFingerprintSha256": "e5e6416fe8d7c9859858601869085e52639fb5e13fd62c54a4e86218457b9c14",
+  "baseInstalledFiles": 105,
+  "onlyAdditionalInstalledPaths": "/Users/oozoofrog/.codex/skills/cinewright/.direction/test-runs",
+  "validationArtifacts": {
+    "root": "/Users/oozoofrog/.codex/skills/cinewright/.direction/test-runs",
+    "retained": true,
+    "fileCount": 522,
+    "bytes": 69263297,
+    "runs": [
+      {
+        "path": "/Users/oozoofrog/.codex/skills/cinewright/.direction/test-runs/integration-EA7i6v",
+        "fileCount": 254,
+        "bytes": 63575741,
+        "fingerprintSha256": "900f94520d9572eed6e739816ec443dcd7c604ebe3574ce1f24695b02ca599c6"
+      },
+      {
+        "path": "/Users/oozoofrog/.codex/skills/cinewright/.direction/test-runs/stillcuts-build-XDoe3V",
+        "fileCount": 117,
+        "bytes": 520153,
+        "fingerprintSha256": "d0df821631770ae29cce76c24636e7e3380ef0cfe32b4f758218781840ac10ad"
+      },
+      {
+        "path": "/Users/oozoofrog/.codex/skills/cinewright/.direction/test-runs/stillcuts-evidence-GnwCIb",
+        "fileCount": 7,
+        "bytes": 1692,
+        "fingerprintSha256": "c24c78a76a57f746ca41f2b78107bab5dfdd14c3a021189735241f345b6d9fb0"
+      },
+      {
+        "path": "/Users/oozoofrog/.codex/skills/cinewright/.direction/test-runs/stillcuts-integration-4f959O",
+        "fileCount": 144,
+        "bytes": 5165711,
+        "fingerprintSha256": "6d44f906d4225728d5d09e211407129bd58245489fd85246935c8ce62e38f248"
+      }
+    ],
+    "completeEntriesIn": "/Volumes/eyedisk/develop/cinewright/evidence/global-update-2026-11-05-224452-79c01a37/installed-after.json"
+  },
+  "tests": {
+    "tests": 364,
+    "pass": 364,
+    "fail": 0,
+    "cancelled": 0,
+    "skipped": 0,
+    "todo": 0
+  },
+  "sourceHead": "27aac0ca22f4a8d211981cd40970d8a511f9927d",
+  "sourceNonPayloadObservedDrift": [
+    {
+      "path": "README.md",
+      "beforeSha256": "19012fa7d9f7574a47e1eb7670a4a55e8059341ce7557e2cf70335d041569036",
+      "afterSha256": "bef563159bba24e74903d43aaee9c1d27b7e730749a5bb935722637bf823966e",
+      "inPayload": false
+    }
+  ],
+  "installedManifestSha256": "33118e01bf8d14cb9db5b084e63f451c0226caba3c69b60db13ac90d4aeb641a",
+  "payloadManifestSha256": "a4a64452ef38ca68c22cffeb911d246077347a32a5bdfa7f69bd335d1a5eccb7"
+}

@@ -1,0 +1,9 @@
+{
+  "result": "/Volumes/eyedisk/develop/cinewright/evidence/global-update-2026-11-05-224452-79c01a37/RESULT.md",
+  "installation": "/Volumes/eyedisk/develop/cinewright/evidence/global-update-2026-11-05-224452-79c01a37/INSTALLATION.json",
+  "rollback": "/Volumes/eyedisk/develop/cinewright/evidence/global-update-2026-11-05-224452-79c01a37/ROLLBACK.md",
+  "backup": "/Volumes/eyedisk/develop/cinewright/evidence/global-update-2026-11-05-224452-79c01a37/backup/files",
+  "installationSha256": "b3382719a457c4ca19744f2c4e586fd15b21fa6f57f27c3e37549f871b3bbaee",
+  "resultSha256": "28538e42c5e1fed62615d86fd72628b3c1e8963e97af58a766e9f1791f876486",
+  "postVerificationSha256": "cd4c3dc5369bbfaa5da383ad3d1c53bc9db40604906704c64eaa5a3b5054b1de"
+}

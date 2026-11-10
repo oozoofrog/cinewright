@@ -1,0 +1,15 @@
+{
+  "cwd": "/Users/oozoofrog/.codex/skills/cinewright",
+  "node": "/opt/homebrew/bin/node",
+  "nodeRealPath": "/opt/homebrew/Cellar/node/26.12.1_1/bin/node",
+  "npm": "/opt/homebrew/bin/npm",
+  "npmRealPath": "/opt/homebrew/lib/node_modules/npm/bin/npm-cli.js",
+  "environmentOverrides": {
+    "TMPDIR": "/Volumes/eyedisk/develop/cinewright/evidence/global-update-2026-11-05-224452-79c01a37/tmp",
+    "npm_config_cache": "/Volumes/eyedisk/develop/cinewright/evidence/global-update-2026-11-05-224452-79c01a37/tmp/npm-cache",
+    "npm_config_update_notifier": "false",
+    "NODE_COMPILE_CACHE": "/Volumes/eyedisk/develop/cinewright/evidence/global-update-2026-11-05-224452-79c01a37/tmp/node-compile-cache",
+    "PYTHONDONTWRITEBYTECODE": "1"
+  },
+  "testInternalTemporaryPaths": "Existing tests override TMPDIR and retain validation artifacts beneath installed .direction/test-runs. These are authorized validation outputs and will be inventoried."
+}

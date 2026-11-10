@@ -1,0 +1,33 @@
+{
+  "root": "/Users/oozoofrog/.codex/skills/cinewright/.direction/test-runs",
+  "retained": true,
+  "fileCount": 522,
+  "bytes": 69263297,
+  "runs": [
+    {
+      "path": "/Users/oozoofrog/.codex/skills/cinewright/.direction/test-runs/integration-EA7i6v",
+      "fileCount": 254,
+      "bytes": 63575741,
+      "fingerprintSha256": "900f94520d9572eed6e739816ec443dcd7c604ebe3574ce1f24695b02ca599c6"
+    },
+    {
+      "path": "/Users/oozoofrog/.codex/skills/cinewright/.direction/test-runs/stillcuts-build-XDoe3V",
+      "fileCount": 117,
+      "bytes": 520153,
+      "fingerprintSha256": "d0df821631770ae29cce76c24636e7e3380ef0cfe32b4f758218781840ac10ad"
+    },
+    {
+      "path": "/Users/oozoofrog/.codex/skills/cinewright/.direction/test-runs/stillcuts-evidence-GnwCIb",
+      "fileCount": 7,
+      "bytes": 1692,
+      "fingerprintSha256": "c24c78a76a57f746ca41f2b78107bab5dfdd14c3a021189735241f345b6d9fb0"
+    },
+    {
+      "path": "/Users/oozoofrog/.codex/skills/cinewright/.direction/test-runs/stillcuts-integration-4f959O",
+      "fileCount": 144,
+      "bytes": 5165711,
+      "fingerprintSha256": "6d44f906d4225728d5d09e211407129bd58245489fd85246935c8ce62e38f248"
+    }
+  ],
+  "completeEntriesIn": "/Volumes/eyedisk/develop/cinewright/evidence/global-update-2026-11-05-224452-79c01a37/installed-after.json"
+}

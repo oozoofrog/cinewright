@@ -1,0 +1,21 @@
+{
+  "label": "npm-test",
+  "command": [
+    "/opt/homebrew/bin/npm",
+    "test"
+  ],
+  "cwd": "/Users/oozoofrog/.codex/skills/cinewright",
+  "startedAt": "2026-11-04T22:49:41.385897+00:00",
+  "environmentOverrides": {
+    "TMPDIR": "/Volumes/eyedisk/develop/cinewright/evidence/global-update-2026-11-05-224452-79c01a37/tmp",
+    "npm_config_cache": "/Volumes/eyedisk/develop/cinewright/evidence/global-update-2026-11-05-224452-79c01a37/tmp/npm-cache",
+    "npm_config_update_notifier": "false",
+    "NODE_COMPILE_CACHE": "/Volumes/eyedisk/develop/cinewright/evidence/global-update-2026-11-05-224452-79c01a37/tmp/node-compile-cache",
+    "PYTHONDONTWRITEBYTECODE": "1"
+  },
+  "stdout": "/Volumes/eyedisk/develop/cinewright/evidence/global-update-2026-11-05-224452-79c01a37/logs/npm-test.stdout",
+  "stderr": "/Volumes/eyedisk/develop/cinewright/evidence/global-update-2026-11-05-224452-79c01a37/logs/npm-test.stderr",
+  "exitCode": 0,
+  "finishedAt": "2026-11-04T22:50:16.322959+00:00",
+  "seconds": 34.93706220795866
+}

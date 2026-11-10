@@ -1,0 +1,12 @@
+{
+  "command": [
+    "git",
+    "diff",
+    "--",
+    "evidence/2026-11-05-production/RESULT.md",
+    "evidence/2026-11-05-production/REVIEW.md",
+    "examples/stillcuts/README.md"
+  ],
+  "cwd": "/Volumes/eyedisk/develop/cinewright",
+  "exitCode": 0
+}

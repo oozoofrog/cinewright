@@ -1,0 +1,9 @@
+{
+  "command": [
+    "git",
+    "rev-parse",
+    "HEAD"
+  ],
+  "cwd": "/Volumes/eyedisk/develop/cinewright",
+  "exitCode": 0
+}

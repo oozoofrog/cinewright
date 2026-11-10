@@ -1,0 +1,21 @@
+{
+  "at": "2026-11-04T22:49:03.103405+00:00",
+  "status": "INSTALLED_AWAITING_VALIDATION",
+  "payloadFiles": 45,
+  "replacedFiles": 4,
+  "addedFiles": 41,
+  "unchangedOriginalFiles": 60,
+  "baseInstalledFileCount": 105,
+  "lastInstalledFile": "SKILL.md",
+  "helperImportResolvesTo": "/Users/oozoofrog/.codex/skills/cinewright/scripts/revisions.mjs",
+  "sourcePayloadUnchanged": true,
+  "nonPayloadSourceDrift": [
+    {
+      "path": "README.md",
+      "beforeSha256": "19012fa7d9f7574a47e1eb7670a4a55e8059341ce7557e2cf70335d041569036",
+      "afterSha256": "bef563159bba24e74903d43aaee9c1d27b7e730749a5bb935722637bf823966e",
+      "inPayload": false
+    }
+  ],
+  "dependenciesUnchanged": true
+}

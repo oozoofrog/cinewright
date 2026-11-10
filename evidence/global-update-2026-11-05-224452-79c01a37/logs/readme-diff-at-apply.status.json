@@ -1,0 +1,10 @@
+{
+  "command": [
+    "git",
+    "diff",
+    "--",
+    "README.md"
+  ],
+  "cwd": "/Volumes/eyedisk/develop/cinewright",
+  "exitCode": 0
+}

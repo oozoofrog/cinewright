@@ -1,0 +1,20 @@
+[
+  {
+    "path": "evidence/2026-11-05-production/RESULT.md",
+    "expected": "b1ee74ec2c139cfbee357f1307094f2c1f02bb08ef39f1bce2cb3795635aa476",
+    "actual": "938826e775071104668df6c1383e8c2675a06163e4b994c599f62bdb92b5e1c6",
+    "equal": false
+  },
+  {
+    "path": "evidence/2026-11-05-production/REVIEW.md",
+    "expected": "b18686526c38e3e509e02123a0a2871caee872cca6f69716d91f3e45975a95c5",
+    "actual": "b18686526c38e3e509e02123a0a2871caee872cca6f69716d91f3e45975a95c5",
+    "equal": true
+  },
+  {
+    "path": "examples/stillcuts/README.md",
+    "expected": "a927729a43dd428c7634991fe48bd896e3930e9bb3bb1f95ac3a3c566becdc86",
+    "actual": "a927729a43dd428c7634991fe48bd896e3930e9bb3bb1f95ac3a3c566becdc86",
+    "equal": true
+  }
+]

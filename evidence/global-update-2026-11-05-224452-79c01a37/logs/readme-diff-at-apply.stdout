@@ -1,0 +1,19 @@
+diff --git a/README.md b/README.md
+index edec091..a1961e0 100644
+--- a/README.md
++++ b/README.md
+@@ -1,5 +1,14 @@
+ # Cinewright
+ 
++## 플러그인 설치
++
++Codex와 Claude Code는 같은 `skills/cinewright` 진입점과 실행 도구를 사용한다. Node.js 22 이상, FFmpeg/FFprobe와 Chromium이 필요하다. 플러그인을 설치한 뒤 설치된 플러그인 루트에서 `npm ci`를 실행해 의존성을 준비한다. 플러그인 캐시가 갱신되면 새 설치 위치에서도 의존성을 준비해야 한다.
++
++- **Codex**: 이 저장소의 `.agents/plugins/marketplace.json`은 현재 저장소용 로컬 마켓플레이스를 제공한다. Codex 데스크톱 앱을 다시 시작하고 플러그인 목록에서 Cinewright를 설치한다. 새 채팅에서 `$cinewright`를 사용한다.
++- **Claude Code**: `/plugin marketplace add oozoofrog/cinewright`로 마켓플레이스를 추가하고 `/plugin install cinewright@cinewright-marketplace`로 설치한다. 새 세션에서 `/cinewright:cinewright`를 사용한다.
++
++설치된 플러그인 루트의 `scripts/direction.mjs`를 절대 경로로 실행한다. 사용자 작업 경로에서 실행하면 기본 `.direction/` 기록이 그 작업 경로에 생성된다.
++
+ 독립 개발 경로는 `/Volumes/eyedisk/develop/cinewright`다. 이 디렉터리가 Git 저장소 루트다.
+ 
+ [SKILL.md](SKILL.md)에서 제작을 시작한다. 작품의 시간, 자산, 개별 표현과 선택적 교환 값을 작성하면 같은 개정본으로 대화형 재생, 프레임 추출, 구간·전체 렌더와 MP4 비교를 할 수 있다.

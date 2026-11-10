@@ -1,0 +1,16 @@
+--- prepare-attempt-1.py
++++ prepare.py
+@@ -128,8 +128,12 @@
+         assert not p.is_symlink() and stat.S_ISREG(p.lstat().st_mode)
+         assert str(p.resolve())==str(p), f'Unexpected source symlink ancestry: {rel}'
+         assert rel in expected and digest(p)==expected[rel], f'Reviewed source conflict: {rel}'
++    status_docs=[]
+     for rel,sha in r[receipts[3]]['statusDocumentsSha256'].items():
+-        assert digest(S/rel)==sha, f'Status-document conflict: {rel}'
++        actual=digest(S/rel)
++        if rel in payload: assert actual==sha, f'Payload status-document conflict: {rel}'
++        status_docs.append({'path':rel,'inPayload':rel in payload,'historicalReceiptSha256':sha,'currentSha256':actual,'matchesHistoricalReceipt':actual==sha,'action':'Preserve current source; install only if part of the reviewed 45-file payload.'})
++    write_json('historical-status-documents.json',{'documents':status_docs,'reconciliation':'The non-payload RESULT.md at committed HEAD differs from its historical receipt. Preserve it and its current hash unchanged. Do not copy or relabel it. The earlier guard was broader than installation eligibility.'})
+     for item in r[receipts[4]]['files']:
+         assert digest(S/item['path'])==item['currentSha256'], f'Preserved source conflict: {item["path"]}'
+     for rel in ['package.json','package-lock.json']: assert (S/rel).read_bytes()==(D/rel).read_bytes()

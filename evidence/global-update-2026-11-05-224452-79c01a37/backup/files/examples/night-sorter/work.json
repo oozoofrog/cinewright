@@ -1,0 +1,19 @@
+{
+  "version": 1,
+  "title": "야간 분류함",
+  "size": [540, 720],
+  "fps": 24,
+  "frames": 144,
+  "points": {"orient": 18, "sort": 60, "reveal": 114},
+  "spans": {"drift": [0, 18], "register": [18, 60], "index": [60, 114], "reveal": [114, 144]},
+  "layers": [{"id": "cabinet", "module": "motion.mjs"}],
+  "audio": [{
+    "asset": "assets/hits.wav", "sourceIn": 0, "sourceOut": 288000, "at": 0,
+    "provenance": "Forward-test brief, supplied WAV; three authored onsets"
+  }],
+  "probes": [
+    {"label": "orient", "frame": 18, "box": [0.804, 0.119, 0.822, 0.129], "threshold": 20, "audioSearch": 18},
+    {"label": "sort", "frame": 60, "box": [0.804, 0.119, 0.822, 0.129], "threshold": 20, "audioSearch": 18},
+    {"label": "reveal", "frame": 114, "box": [0.804, 0.119, 0.822, 0.129], "threshold": 20, "audioSearch": 18}
+  ]
+}

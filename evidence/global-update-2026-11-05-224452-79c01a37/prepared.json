@@ -1,0 +1,8 @@
+{
+  "at": "2026-11-04T22:47:28.093805+00:00",
+  "status": "BACKED_UP_AND_STAGED",
+  "backupFileCount": 64,
+  "payloadFileCount": 45,
+  "sourcePayloadMatchesReviewedInputs": true,
+  "destinationUnchanged": true
+}

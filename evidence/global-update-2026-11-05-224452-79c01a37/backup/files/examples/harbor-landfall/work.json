@@ -1,0 +1,194 @@
+{
+  "version": 1,
+  "title": "신호의 항구 · 착안",
+  "size": [
+    960,
+    540
+  ],
+  "fps": 24,
+  "frames": 432,
+  "background": "#111921",
+  "points": {
+    "first-light": 18,
+    "second-light": 58,
+    "instrument": 88,
+    "turn-one": 131,
+    "turn-two": 178,
+    "return": 220,
+    "arrival": 402
+  },
+  "spans": {
+    "해안": [
+      0,
+      88
+    ],
+    "방위계": [
+      88,
+      220
+    ],
+    "항로": [
+      220,
+      432
+    ],
+    "연결 검토": [
+      212,
+      260
+    ]
+  },
+  "layers": [
+    {
+      "id": "instrument",
+      "module": "instrument.mjs",
+      "in": 88,
+      "z": 2
+    },
+    {
+      "id": "shore",
+      "module": "shore.mjs",
+      "z": 0,
+      "config": {
+        "variant": "landfall"
+      },
+      "exposure": [
+        {
+          "from": 0,
+          "to": 88,
+          "every": 2,
+          "value": "paper"
+        },
+        {
+          "from": 88,
+          "to": 220,
+          "value": "diagram"
+        },
+        {
+          "from": 220,
+          "to": 432,
+          "every": 2,
+          "value": "paper"
+        }
+      ]
+    },
+    {
+      "id": "folio",
+      "asset": "assets/coast-entry.svg",
+      "out": 72,
+      "z": 1,
+      "opacity": 0.86
+    },
+    {
+      "id": "route-ink",
+      "module": "route-ink.mjs",
+      "in": 220,
+      "z": 1,
+      "config": {
+        "variant": "landfall"
+      },
+      "exposure": [
+        {
+          "from": 220,
+          "to": 432,
+          "every": 3,
+          "value": "waypoints"
+        }
+      ]
+    }
+  ],
+  "channels": {
+    "steering": {
+      "producer": "$data",
+      "consumers": [
+        "instrument"
+      ],
+      "space": "radian",
+      "kind": "number",
+      "from": 88,
+      "to": 432,
+      "mode": "linear",
+      "data": {
+        "keys": [
+          [
+            88,
+            0.37
+          ],
+          [
+            127,
+            0.37
+          ],
+          [
+            131,
+            -0.23
+          ],
+          [
+            160,
+            -0.23
+          ],
+          [
+            178,
+            0.56
+          ],
+          [
+            203,
+            0.21
+          ]
+        ]
+      }
+    },
+    "projection": {
+      "producer": "instrument",
+      "consumers": [
+        "shore"
+      ],
+      "space": "canvas",
+      "kind": "path",
+      "from": 88,
+      "to": 432
+    },
+    "route": {
+      "producer": "shore",
+      "consumers": [
+        "route-ink"
+      ],
+      "space": "canvas",
+      "kind": "path",
+      "from": 220,
+      "to": 432
+    }
+  },
+  "audio": [
+    {
+      "asset": "assets/score.wav",
+      "sourceIn": 9600,
+      "sourceOut": 873600,
+      "at": 6000,
+      "gain": 1,
+      "provenance": "Original authored synthesis, no estimated beat analysis"
+    }
+  ],
+  "probes": [
+    {
+      "label": "첫 등화",
+      "frame": 18,
+      "box": [
+        0.773,
+        0.519,
+        0.782,
+        0.541
+      ],
+      "threshold": 65,
+      "audioSearch": 50
+    },
+    {
+      "label": "마지막 등화",
+      "frame": 402,
+      "box": [
+        0.773,
+        0.519,
+        0.782,
+        0.541
+      ],
+      "threshold": 65,
+      "audioSearch": 50
+    }
+  ]
+}

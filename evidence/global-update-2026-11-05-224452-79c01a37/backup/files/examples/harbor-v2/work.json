@@ -1,0 +1,71 @@
+{
+  "version": 1,
+  "title": "신호의 항구 · 밤의 통로",
+  "size": [
+    1600,
+    900
+  ],
+  "fps": 24,
+  "frames": 576,
+  "points": {
+    "call": 24,
+    "sweep": 168,
+    "passage": 264,
+    "answer": 504
+  },
+  "spans": {
+    "배": [
+      0,
+      168
+    ],
+    "등대": [
+      168,
+      264
+    ],
+    "귀항": [
+      264,
+      576
+    ]
+  },
+  "layers": [
+    {
+      "id": "harbor",
+      "module": "harbor.mjs"
+    }
+  ],
+  "audio": [
+    {
+      "asset": "assets/score.wav",
+      "sourceIn": 0,
+      "sourceOut": 1152000,
+      "at": 0,
+      "provenance": "Authored deterministic ambient score. Sample timing authored, direct listening unverified."
+    }
+  ],
+  "probes": [
+    {
+      "label": "배의 신호",
+      "frame": 24,
+      "box": [
+        0.3866485588015063,
+        0.2971881389447989,
+        0.4046485588015063,
+        0.3231881389447989
+      ],
+      "threshold": 8,
+      "audioSearch": 25
+    },
+    {
+      "label": "부두의 응답",
+      "frame": 504,
+      "box": [
+        0.4214802905977496,
+        0.3933616619179582,
+        0.4394802905977496,
+        0.4193616619179582
+      ],
+      "threshold": 8,
+      "audioSearch": 25
+    }
+  ]
+}

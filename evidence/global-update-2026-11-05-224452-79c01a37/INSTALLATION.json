@@ -1,0 +1,705 @@
+{
+  "status": "GLOBAL_DISK_INSTALLATION_VERIFIED",
+  "completedAt": "2026-11-04T22:53:17.176262+00:00",
+  "sourceRoot": "/Volumes/eyedisk/develop/cinewright",
+  "sourceHeadObserved": "27aac0ca22f4a8d211981cd40970d8a511f9927d",
+  "destination": "/Users/oozoofrog/.codex/skills/cinewright",
+  "evidenceRoot": "/Volumes/eyedisk/develop/cinewright/evidence/global-update-2026-11-05-224452-79c01a37",
+  "scope": {
+    "payloadFiles": 45,
+    "replacedExistingFiles": 4,
+    "addedFiles": 41,
+    "unchangedOriginalFiles": 60,
+    "baseInstalledFiles": 105,
+    "installedFilesAfterValidationExcludingNodeModules": 627,
+    "sourcePayloadUnchanged": true,
+    "sourceWriteScope": "/Volumes/eyedisk/develop/cinewright/evidence/global-update-2026-11-05-224452-79c01a37",
+    "dependencyReinstall": false,
+    "deleteOperationsDuringInstallation": false
+  },
+  "backup": {
+    "path": "/Volumes/eyedisk/develop/cinewright/evidence/global-update-2026-11-05-224452-79c01a37/backup/files",
+    "fileCount": 64,
+    "bytes": 20573970,
+    "independentByteCopies": true,
+    "receipt": "/Volumes/eyedisk/develop/cinewright/evidence/global-update-2026-11-05-224452-79c01a37/backup/receipt.json",
+    "manifest": "/Volumes/eyedisk/develop/cinewright/evidence/global-update-2026-11-05-224452-79c01a37/installed-before.json"
+  },
+  "payload": {
+    "count": 45,
+    "replacedCount": 4,
+    "addedCount": 41,
+    "files": [
+      {
+        "path": "SKILL.md",
+        "action": "replace",
+        "sourceSha256": "882b751142d1eec4db835e08df3eff912086b9d85a2b5785450ce1365848fb25",
+        "installedSha256": "882b751142d1eec4db835e08df3eff912086b9d85a2b5785450ce1365848fb25",
+        "bytes": 7626,
+        "mode": "0o644",
+        "linkTargetsAdapted": false
+      },
+      {
+        "path": "references/craft.md",
+        "action": "add",
+        "sourceSha256": "778a5fe56060355f3e1bafe60a5af4b6e5469e5e872aceaa3c1f651af58a853c",
+        "installedSha256": "4fee50e4d51d86583c66603740861b07f88147a1661c84491933d63a743d3151",
+        "bytes": 11176,
+        "mode": "0o644",
+        "linkTargetsAdapted": true
+      },
+      {
+        "path": "references/direction.md",
+        "action": "replace",
+        "sourceSha256": "a6d89f377710957c7c2d602d62a47fbfc08a8c1ffb5f6991c5e29277b2679500",
+        "installedSha256": "c802fef3fff0529ffbb17f35c41e20da5b81fbf7c8f3d045debdc8d42b01233d",
+        "bytes": 11237,
+        "mode": "0o644",
+        "linkTargetsAdapted": true
+      },
+      {
+        "path": "references/format.md",
+        "action": "replace",
+        "sourceSha256": "0e6b14b032bb0d2f9ed3d587f7c0630569bf9ce8f862248b2473a213364c9286",
+        "installedSha256": "0e6b14b032bb0d2f9ed3d587f7c0630569bf9ce8f862248b2473a213364c9286",
+        "bytes": 8103,
+        "mode": "0o644",
+        "linkTargetsAdapted": false
+      },
+      {
+        "path": "references/stillcuts.md",
+        "action": "add",
+        "sourceSha256": "f9d5e3ee87a212d9d381e061aaa7b7e5ef1d38a6afd690a6478325a0eaaba77b",
+        "installedSha256": "f9d5e3ee87a212d9d381e061aaa7b7e5ef1d38a6afd690a6478325a0eaaba77b",
+        "bytes": 13799,
+        "mode": "0o644",
+        "linkTargetsAdapted": false
+      },
+      {
+        "path": "references/tools.md",
+        "action": "replace",
+        "sourceSha256": "2c6e387b7bdec091a94832b8e64432a314cf71a574c1cd49bdfd0198e4ad31db",
+        "installedSha256": "2c6e387b7bdec091a94832b8e64432a314cf71a574c1cd49bdfd0198e4ad31db",
+        "bytes": 6114,
+        "mode": "0o644",
+        "linkTargetsAdapted": false
+      },
+      {
+        "path": "modules/cuts.mjs",
+        "action": "add",
+        "sourceSha256": "9e4e40e55efd03bb6d53ca214068f6cabc88025d5d3fbf2f161487aa7516e784",
+        "installedSha256": "9e4e40e55efd03bb6d53ca214068f6cabc88025d5d3fbf2f161487aa7516e784",
+        "bytes": 4437,
+        "mode": "0o644",
+        "linkTargetsAdapted": false
+      },
+      {
+        "path": "modules/artwork.mjs",
+        "action": "add",
+        "sourceSha256": "825482b415cfd645e853ac85b6e4dd048130634517bfacea74dc78924992abfd",
+        "installedSha256": "825482b415cfd645e853ac85b6e4dd048130634517bfacea74dc78924992abfd",
+        "bytes": 5768,
+        "mode": "0o644",
+        "linkTargetsAdapted": false
+      },
+      {
+        "path": "examples/stillcuts/README.md",
+        "action": "add",
+        "sourceSha256": "a927729a43dd428c7634991fe48bd896e3930e9bb3bb1f95ac3a3c566becdc86",
+        "installedSha256": "bba547664ef01450a4e551eba26ebf76298116e01606da359c8b636e23ff68ed",
+        "bytes": 13317,
+        "mode": "0o644",
+        "linkTargetsAdapted": true
+      },
+      {
+        "path": "examples/stillcuts/a/assets/hand-atlas.svg",
+        "action": "add",
+        "sourceSha256": "18dc489f6ce3faef4121de31ee6731d06d987e104c6cd53b25da2735c5eef84b",
+        "installedSha256": "18dc489f6ce3faef4121de31ee6731d06d987e104c6cd53b25da2735c5eef84b",
+        "bytes": 783,
+        "mode": "0o644",
+        "linkTargetsAdapted": false
+      },
+      {
+        "path": "examples/stillcuts/a/assets/keys.svg",
+        "action": "add",
+        "sourceSha256": "67f1166d961f7dd39faf6bb5c1f8777da92630d53bb944385c93db0e75152ab4",
+        "installedSha256": "67f1166d961f7dd39faf6bb5c1f8777da92630d53bb944385c93db0e75152ab4",
+        "bytes": 513,
+        "mode": "0o644",
+        "linkTargetsAdapted": false
+      },
+      {
+        "path": "examples/stillcuts/a/assets/room.svg",
+        "action": "add",
+        "sourceSha256": "13e3fca7afc6eaf5f803485ffcbfefbb2cf348e82956ea84ba0748ffd0abbf49",
+        "installedSha256": "13e3fca7afc6eaf5f803485ffcbfefbb2cf348e82956ea84ba0748ffd0abbf49",
+        "bytes": 786,
+        "mode": "0o644",
+        "linkTargetsAdapted": false
+      },
+      {
+        "path": "examples/stillcuts/a/cuts.json",
+        "action": "add",
+        "sourceSha256": "a90a5b411062e6b3d48565badddfc92b41f6ec4e499c0d59d048ffd184cc4e23",
+        "installedSha256": "a90a5b411062e6b3d48565badddfc92b41f6ec4e499c0d59d048ffd184cc4e23",
+        "bytes": 1286,
+        "mode": "0o644",
+        "linkTargetsAdapted": false
+      },
+      {
+        "path": "examples/stillcuts/a/modules/artwork.mjs",
+        "action": "add",
+        "sourceSha256": "825482b415cfd645e853ac85b6e4dd048130634517bfacea74dc78924992abfd",
+        "installedSha256": "825482b415cfd645e853ac85b6e4dd048130634517bfacea74dc78924992abfd",
+        "bytes": 5768,
+        "mode": "0o644",
+        "linkTargetsAdapted": false
+      },
+      {
+        "path": "examples/stillcuts/a/modules/cuts.mjs",
+        "action": "add",
+        "sourceSha256": "9e4e40e55efd03bb6d53ca214068f6cabc88025d5d3fbf2f161487aa7516e784",
+        "installedSha256": "9e4e40e55efd03bb6d53ca214068f6cabc88025d5d3fbf2f161487aa7516e784",
+        "bytes": 4437,
+        "mode": "0o644",
+        "linkTargetsAdapted": false
+      },
+      {
+        "path": "examples/stillcuts/a/rebuild.mjs",
+        "action": "add",
+        "sourceSha256": "97b8c64bfd920a13585ede07449bcb765fbca670fe2878f5874c5ee266bdfa74",
+        "installedSha256": "97b8c64bfd920a13585ede07449bcb765fbca670fe2878f5874c5ee266bdfa74",
+        "bytes": 1734,
+        "mode": "0o644",
+        "linkTargetsAdapted": false
+      },
+      {
+        "path": "examples/stillcuts/a/scene.mjs",
+        "action": "add",
+        "sourceSha256": "7f0057c1aee468e84c08757d444eb46da9e23ce14f77c1fcda0aaba77ef9c1ec",
+        "installedSha256": "7f0057c1aee468e84c08757d444eb46da9e23ce14f77c1fcda0aaba77ef9c1ec",
+        "bytes": 3764,
+        "mode": "0o644",
+        "linkTargetsAdapted": false
+      },
+      {
+        "path": "examples/stillcuts/a/source.json",
+        "action": "add",
+        "sourceSha256": "35ed6a20cde22162835f8e4e74829355bdfcb919cbe356d5fa4b14678bf1ff06",
+        "installedSha256": "35ed6a20cde22162835f8e4e74829355bdfcb919cbe356d5fa4b14678bf1ff06",
+        "bytes": 5266,
+        "mode": "0o644",
+        "linkTargetsAdapted": false
+      },
+      {
+        "path": "examples/stillcuts/a/work.json",
+        "action": "add",
+        "sourceSha256": "c39f856d347fe07e76e20e9eea000164b36ea58e4a406fbad18a0288fb0fb468",
+        "installedSha256": "c39f856d347fe07e76e20e9eea000164b36ea58e4a406fbad18a0288fb0fb468",
+        "bytes": 10361,
+        "mode": "0o644",
+        "linkTargetsAdapted": false
+      },
+      {
+        "path": "examples/stillcuts/assets/hand-atlas.svg",
+        "action": "add",
+        "sourceSha256": "18dc489f6ce3faef4121de31ee6731d06d987e104c6cd53b25da2735c5eef84b",
+        "installedSha256": "18dc489f6ce3faef4121de31ee6731d06d987e104c6cd53b25da2735c5eef84b",
+        "bytes": 783,
+        "mode": "0o644",
+        "linkTargetsAdapted": false
+      },
+      {
+        "path": "examples/stillcuts/assets/keys.svg",
+        "action": "add",
+        "sourceSha256": "67f1166d961f7dd39faf6bb5c1f8777da92630d53bb944385c93db0e75152ab4",
+        "installedSha256": "67f1166d961f7dd39faf6bb5c1f8777da92630d53bb944385c93db0e75152ab4",
+        "bytes": 513,
+        "mode": "0o644",
+        "linkTargetsAdapted": false
+      },
+      {
+        "path": "examples/stillcuts/assets/room.svg",
+        "action": "add",
+        "sourceSha256": "13e3fca7afc6eaf5f803485ffcbfefbb2cf348e82956ea84ba0748ffd0abbf49",
+        "installedSha256": "13e3fca7afc6eaf5f803485ffcbfefbb2cf348e82956ea84ba0748ffd0abbf49",
+        "bytes": 786,
+        "mode": "0o644",
+        "linkTargetsAdapted": false
+      },
+      {
+        "path": "examples/stillcuts/b/assets/hand-atlas.svg",
+        "action": "add",
+        "sourceSha256": "18dc489f6ce3faef4121de31ee6731d06d987e104c6cd53b25da2735c5eef84b",
+        "installedSha256": "18dc489f6ce3faef4121de31ee6731d06d987e104c6cd53b25da2735c5eef84b",
+        "bytes": 783,
+        "mode": "0o644",
+        "linkTargetsAdapted": false
+      },
+      {
+        "path": "examples/stillcuts/b/assets/keys.svg",
+        "action": "add",
+        "sourceSha256": "67f1166d961f7dd39faf6bb5c1f8777da92630d53bb944385c93db0e75152ab4",
+        "installedSha256": "67f1166d961f7dd39faf6bb5c1f8777da92630d53bb944385c93db0e75152ab4",
+        "bytes": 513,
+        "mode": "0o644",
+        "linkTargetsAdapted": false
+      },
+      {
+        "path": "examples/stillcuts/b/assets/room.svg",
+        "action": "add",
+        "sourceSha256": "13e3fca7afc6eaf5f803485ffcbfefbb2cf348e82956ea84ba0748ffd0abbf49",
+        "installedSha256": "13e3fca7afc6eaf5f803485ffcbfefbb2cf348e82956ea84ba0748ffd0abbf49",
+        "bytes": 786,
+        "mode": "0o644",
+        "linkTargetsAdapted": false
+      },
+      {
+        "path": "examples/stillcuts/b/cuts.json",
+        "action": "add",
+        "sourceSha256": "1e2f3ae52e9e112e6501dec0efe9ad3076c13143ffc203758bcb2f054f2b3a40",
+        "installedSha256": "1e2f3ae52e9e112e6501dec0efe9ad3076c13143ffc203758bcb2f054f2b3a40",
+        "bytes": 1285,
+        "mode": "0o644",
+        "linkTargetsAdapted": false
+      },
+      {
+        "path": "examples/stillcuts/b/modules/artwork.mjs",
+        "action": "add",
+        "sourceSha256": "825482b415cfd645e853ac85b6e4dd048130634517bfacea74dc78924992abfd",
+        "installedSha256": "825482b415cfd645e853ac85b6e4dd048130634517bfacea74dc78924992abfd",
+        "bytes": 5768,
+        "mode": "0o644",
+        "linkTargetsAdapted": false
+      },
+      {
+        "path": "examples/stillcuts/b/modules/cuts.mjs",
+        "action": "add",
+        "sourceSha256": "9e4e40e55efd03bb6d53ca214068f6cabc88025d5d3fbf2f161487aa7516e784",
+        "installedSha256": "9e4e40e55efd03bb6d53ca214068f6cabc88025d5d3fbf2f161487aa7516e784",
+        "bytes": 4437,
+        "mode": "0o644",
+        "linkTargetsAdapted": false
+      },
+      {
+        "path": "examples/stillcuts/b/rebuild.mjs",
+        "action": "add",
+        "sourceSha256": "97b8c64bfd920a13585ede07449bcb765fbca670fe2878f5874c5ee266bdfa74",
+        "installedSha256": "97b8c64bfd920a13585ede07449bcb765fbca670fe2878f5874c5ee266bdfa74",
+        "bytes": 1734,
+        "mode": "0o644",
+        "linkTargetsAdapted": false
+      },
+      {
+        "path": "examples/stillcuts/b/scene.mjs",
+        "action": "add",
+        "sourceSha256": "7f0057c1aee468e84c08757d444eb46da9e23ce14f77c1fcda0aaba77ef9c1ec",
+        "installedSha256": "7f0057c1aee468e84c08757d444eb46da9e23ce14f77c1fcda0aaba77ef9c1ec",
+        "bytes": 3764,
+        "mode": "0o644",
+        "linkTargetsAdapted": false
+      },
+      {
+        "path": "examples/stillcuts/b/source.json",
+        "action": "add",
+        "sourceSha256": "381f897f26460899f7c6789a7ae659e953b8fe2e3ce6fe7287bcbe7f626aaa47",
+        "installedSha256": "381f897f26460899f7c6789a7ae659e953b8fe2e3ce6fe7287bcbe7f626aaa47",
+        "bytes": 5280,
+        "mode": "0o644",
+        "linkTargetsAdapted": false
+      },
+      {
+        "path": "examples/stillcuts/b/work.json",
+        "action": "add",
+        "sourceSha256": "6422effa6850109094f0ad8364278197fe42e6b22c6484a1127bb8d863f15602",
+        "installedSha256": "6422effa6850109094f0ad8364278197fe42e6b22c6484a1127bb8d863f15602",
+        "bytes": 10401,
+        "mode": "0o644",
+        "linkTargetsAdapted": false
+      },
+      {
+        "path": "examples/stillcuts/build.mjs",
+        "action": "add",
+        "sourceSha256": "3bba3f7002a5ba892d5fd57ac3e11f170100902dc2ae08d5e41b2f80b7bd19aa",
+        "installedSha256": "3bba3f7002a5ba892d5fd57ac3e11f170100902dc2ae08d5e41b2f80b7bd19aa",
+        "bytes": 2835,
+        "mode": "0o644",
+        "linkTargetsAdapted": false
+      },
+      {
+        "path": "examples/stillcuts/fixtures/boundary-after.json",
+        "action": "add",
+        "sourceSha256": "7cd8513577229387f8c8934622807c270b20e42873dae3733527e62f2326c12c",
+        "installedSha256": "7cd8513577229387f8c8934622807c270b20e42873dae3733527e62f2326c12c",
+        "bytes": 18752,
+        "mode": "0o644",
+        "linkTargetsAdapted": false
+      },
+      {
+        "path": "examples/stillcuts/fixtures/boundary-before.json",
+        "action": "add",
+        "sourceSha256": "5f161f6e4bdd42356cf2299bec4467ece9815851319bf061703ed6819b362da9",
+        "installedSha256": "5f161f6e4bdd42356cf2299bec4467ece9815851319bf061703ed6819b362da9",
+        "bytes": 18752,
+        "mode": "0o644",
+        "linkTargetsAdapted": false
+      },
+      {
+        "path": "examples/stillcuts/fixtures/boundary-input.json",
+        "action": "add",
+        "sourceSha256": "70379d03f0f09198cb60eea5c1a46c5fb164959c66d0c830dc8f4a4110b709c3",
+        "installedSha256": "70379d03f0f09198cb60eea5c1a46c5fb164959c66d0c830dc8f4a4110b709c3",
+        "bytes": 5890,
+        "mode": "0o644",
+        "linkTargetsAdapted": false
+      },
+      {
+        "path": "examples/stillcuts/rebuild.mjs",
+        "action": "add",
+        "sourceSha256": "97b8c64bfd920a13585ede07449bcb765fbca670fe2878f5874c5ee266bdfa74",
+        "installedSha256": "97b8c64bfd920a13585ede07449bcb765fbca670fe2878f5874c5ee266bdfa74",
+        "bytes": 1734,
+        "mode": "0o644",
+        "linkTargetsAdapted": false
+      },
+      {
+        "path": "examples/stillcuts/scene.mjs",
+        "action": "add",
+        "sourceSha256": "7f0057c1aee468e84c08757d444eb46da9e23ce14f77c1fcda0aaba77ef9c1ec",
+        "installedSha256": "7f0057c1aee468e84c08757d444eb46da9e23ce14f77c1fcda0aaba77ef9c1ec",
+        "bytes": 3764,
+        "mode": "0o644",
+        "linkTargetsAdapted": false
+      },
+      {
+        "path": "examples/stillcuts/source.mjs",
+        "action": "add",
+        "sourceSha256": "0aaeefaa1581f0ee7b7f375f95332a9488639b8db3a13a88b3e1d86411027475",
+        "installedSha256": "0aaeefaa1581f0ee7b7f375f95332a9488639b8db3a13a88b3e1d86411027475",
+        "bytes": 4385,
+        "mode": "0o644",
+        "linkTargetsAdapted": false
+      },
+      {
+        "path": "tests/artwork.test.mjs",
+        "action": "add",
+        "sourceSha256": "e762d33b0fa3d640cea4df4c137394c0d328d9a4f124c86b08a7ec921cc3fa45",
+        "installedSha256": "e762d33b0fa3d640cea4df4c137394c0d328d9a4f124c86b08a7ec921cc3fa45",
+        "bytes": 27091,
+        "mode": "0o644",
+        "linkTargetsAdapted": false
+      },
+      {
+        "path": "tests/cuts.test.mjs",
+        "action": "add",
+        "sourceSha256": "ea02afb46c6270f43e7573e3fe9189f96889ace5248b3fb3fb521139f7772b2a",
+        "installedSha256": "ea02afb46c6270f43e7573e3fe9189f96889ace5248b3fb3fb521139f7772b2a",
+        "bytes": 13406,
+        "mode": "0o644",
+        "linkTargetsAdapted": false
+      },
+      {
+        "path": "tests/stillcuts-build.test.mjs",
+        "action": "add",
+        "sourceSha256": "85269fc989a4d60360c7f7eb181e69cf898de5cc5af469febf7a041be3d8e16b",
+        "installedSha256": "85269fc989a4d60360c7f7eb181e69cf898de5cc5af469febf7a041be3d8e16b",
+        "bytes": 7753,
+        "mode": "0o644",
+        "linkTargetsAdapted": false
+      },
+      {
+        "path": "tests/stillcuts-evidence.test.mjs",
+        "action": "add",
+        "sourceSha256": "21f02a928fc2d28394282482e2d82a0bd80ed8a1c80a953916940a4650f27052",
+        "installedSha256": "21f02a928fc2d28394282482e2d82a0bd80ed8a1c80a953916940a4650f27052",
+        "bytes": 5342,
+        "mode": "0o644",
+        "linkTargetsAdapted": false
+      },
+      {
+        "path": "tests/stillcuts.integration.test.mjs",
+        "action": "add",
+        "sourceSha256": "70894aabcb1c55a9c57605edbd7861f83104b34e453c7aac0044e970fe427f81",
+        "installedSha256": "70894aabcb1c55a9c57605edbd7861f83104b34e453c7aac0044e970fe427f81",
+        "bytes": 13576,
+        "mode": "0o644",
+        "linkTargetsAdapted": false
+      },
+      {
+        "path": "evidence/2026-11-05-production/task-4/task4-run.mjs",
+        "action": "add",
+        "sourceSha256": "a570f5170662b9b7ad07f85aa1689caa589e0ae2fd8239364ac9095b904e7a4b",
+        "installedSha256": "a570f5170662b9b7ad07f85aa1689caa589e0ae2fd8239364ac9095b904e7a4b",
+        "bytes": 5048,
+        "mode": "0o644",
+        "linkTargetsAdapted": false
+      }
+    ]
+  },
+  "adaptations": {
+    "count": 19,
+    "documentCount": 3,
+    "receipt": "/Volumes/eyedisk/develop/cinewright/evidence/global-update-2026-11-05-224452-79c01a37/link-adaptations.json",
+    "semantics": "Only Markdown targets for absent historical artifacts were converted to existing absolute source-repository paths. Labels, fragments and other text are preserved. Reusable installed-file links remain relative."
+  },
+  "documentLinks": {
+    "count": 44,
+    "allResolved": true,
+    "fragmentsChecked": true,
+    "receipt": "/Volumes/eyedisk/develop/cinewright/evidence/global-update-2026-11-05-224452-79c01a37/links-installed.json"
+  },
+  "dependencies": {
+    "unchanged": true,
+    "entryCount": 1373,
+    "fileCount": 1235,
+    "symlinkCount": 1,
+    "bytes": 44423308,
+    "fingerprintSha256": "e5e6416fe8d7c9859858601869085e52639fb5e13fd62c54a4e86218457b9c14",
+    "before": "/Volumes/eyedisk/develop/cinewright/evidence/global-update-2026-11-05-224452-79c01a37/dependencies-before.json",
+    "after": "/Volumes/eyedisk/develop/cinewright/evidence/global-update-2026-11-05-224452-79c01a37/dependencies-after.json"
+  },
+  "validation": {
+    "checks": [
+      {
+        "name": "node-version",
+        "command": [
+          "/opt/homebrew/bin/node",
+          "--version"
+        ],
+        "cwd": "/Users/oozoofrog/.codex/skills/cinewright",
+        "exitCode": 0,
+        "seconds": 0.09049837500788271,
+        "stdout": "/Volumes/eyedisk/develop/cinewright/evidence/global-update-2026-11-05-224452-79c01a37/logs/node-version.stdout",
+        "stderr": "/Volumes/eyedisk/develop/cinewright/evidence/global-update-2026-11-05-224452-79c01a37/logs/node-version.stderr",
+        "status": "/Volumes/eyedisk/develop/cinewright/evidence/global-update-2026-11-05-224452-79c01a37/logs/node-version.status.json"
+      },
+      {
+        "name": "npm-version",
+        "command": [
+          "/opt/homebrew/bin/npm",
+          "--version"
+        ],
+        "cwd": "/Users/oozoofrog/.codex/skills/cinewright",
+        "exitCode": 0,
+        "seconds": 0.13845620799111202,
+        "stdout": "/Volumes/eyedisk/develop/cinewright/evidence/global-update-2026-11-05-224452-79c01a37/logs/npm-version.stdout",
+        "stderr": "/Volumes/eyedisk/develop/cinewright/evidence/global-update-2026-11-05-224452-79c01a37/logs/npm-version.stderr",
+        "status": "/Volumes/eyedisk/develop/cinewright/evidence/global-update-2026-11-05-224452-79c01a37/logs/npm-version.status.json"
+      },
+      {
+        "name": "quick-validate",
+        "command": [
+          "/usr/bin/python3",
+          "/Users/oozoofrog/.codex/skills/.system/skill-creator/scripts/quick_validate.py",
+          "/Users/oozoofrog/.codex/skills/cinewright"
+        ],
+        "cwd": "/Users/oozoofrog/.codex/skills/cinewright",
+        "exitCode": 0,
+        "seconds": 0.0681149170268327,
+        "stdout": "/Volumes/eyedisk/develop/cinewright/evidence/global-update-2026-11-05-224452-79c01a37/logs/quick-validate.stdout",
+        "stderr": "/Volumes/eyedisk/develop/cinewright/evidence/global-update-2026-11-05-224452-79c01a37/logs/quick-validate.stderr",
+        "status": "/Volumes/eyedisk/develop/cinewright/evidence/global-update-2026-11-05-224452-79c01a37/logs/quick-validate.status.json"
+      },
+      {
+        "name": "doctor",
+        "command": [
+          "/opt/homebrew/bin/node",
+          "scripts/direction.mjs",
+          "doctor"
+        ],
+        "cwd": "/Users/oozoofrog/.codex/skills/cinewright",
+        "exitCode": 0,
+        "seconds": 2.7725763749913312,
+        "stdout": "/Volumes/eyedisk/develop/cinewright/evidence/global-update-2026-11-05-224452-79c01a37/logs/doctor.stdout",
+        "stderr": "/Volumes/eyedisk/develop/cinewright/evidence/global-update-2026-11-05-224452-79c01a37/logs/doctor.stderr",
+        "status": "/Volumes/eyedisk/develop/cinewright/evidence/global-update-2026-11-05-224452-79c01a37/logs/doctor.status.json"
+      },
+      {
+        "name": "help",
+        "command": [
+          "/opt/homebrew/bin/node",
+          "scripts/direction.mjs",
+          "--help"
+        ],
+        "cwd": "/Users/oozoofrog/.codex/skills/cinewright",
+        "exitCode": 0,
+        "seconds": 0.09950399998342618,
+        "stdout": "/Volumes/eyedisk/develop/cinewright/evidence/global-update-2026-11-05-224452-79c01a37/logs/help.stdout",
+        "stderr": "/Volumes/eyedisk/develop/cinewright/evidence/global-update-2026-11-05-224452-79c01a37/logs/help.stderr",
+        "status": "/Volumes/eyedisk/develop/cinewright/evidence/global-update-2026-11-05-224452-79c01a37/logs/help.status.json"
+      },
+      {
+        "name": "npm-test",
+        "command": [
+          "/opt/homebrew/bin/npm",
+          "test"
+        ],
+        "cwd": "/Users/oozoofrog/.codex/skills/cinewright",
+        "exitCode": 0,
+        "seconds": 34.93706220795866,
+        "stdout": "/Volumes/eyedisk/develop/cinewright/evidence/global-update-2026-11-05-224452-79c01a37/logs/npm-test.stdout",
+        "stderr": "/Volumes/eyedisk/develop/cinewright/evidence/global-update-2026-11-05-224452-79c01a37/logs/npm-test.stderr",
+        "status": "/Volumes/eyedisk/develop/cinewright/evidence/global-update-2026-11-05-224452-79c01a37/logs/npm-test.status.json"
+      }
+    ],
+    "npmTestRuns": 1,
+    "tests": {
+      "tests": 364,
+      "pass": 364,
+      "fail": 0,
+      "cancelled": 0,
+      "skipped": 0,
+      "todo": 0
+    },
+    "doctor": {
+      "node": "v26.12.1",
+      "ffmpeg": "ffmpeg version 9.0.2 Copyright (c) 2000-2026 the FFmpeg developers",
+      "ffprobe": "ffprobe version 9.0.2 Copyright (c) 2007-2026 the FFmpeg developers",
+      "chromium": "156.0.8078.80",
+      "canvas": true,
+      "webgl2": true
+    },
+    "configuration": "/Volumes/eyedisk/develop/cinewright/evidence/global-update-2026-11-05-224452-79c01a37/validation-configuration.json",
+    "artifacts": {
+      "root": "/Users/oozoofrog/.codex/skills/cinewright/.direction/test-runs",
+      "retained": true,
+      "fileCount": 522,
+      "bytes": 69263297,
+      "runs": [
+        {
+          "path": "/Users/oozoofrog/.codex/skills/cinewright/.direction/test-runs/integration-EA7i6v",
+          "fileCount": 254,
+          "bytes": 63575741,
+          "fingerprintSha256": "900f94520d9572eed6e739816ec443dcd7c604ebe3574ce1f24695b02ca599c6"
+        },
+        {
+          "path": "/Users/oozoofrog/.codex/skills/cinewright/.direction/test-runs/stillcuts-build-XDoe3V",
+          "fileCount": 117,
+          "bytes": 520153,
+          "fingerprintSha256": "d0df821631770ae29cce76c24636e7e3380ef0cfe32b4f758218781840ac10ad"
+        },
+        {
+          "path": "/Users/oozoofrog/.codex/skills/cinewright/.direction/test-runs/stillcuts-evidence-GnwCIb",
+          "fileCount": 7,
+          "bytes": 1692,
+          "fingerprintSha256": "c24c78a76a57f746ca41f2b78107bab5dfdd14c3a021189735241f345b6d9fb0"
+        },
+        {
+          "path": "/Users/oozoofrog/.codex/skills/cinewright/.direction/test-runs/stillcuts-integration-4f959O",
+          "fileCount": 144,
+          "bytes": 5165711,
+          "fingerprintSha256": "6d44f906d4225728d5d09e211407129bd58245489fd85246935c8ce62e38f248"
+        }
+      ],
+      "completeEntriesIn": "/Volumes/eyedisk/develop/cinewright/evidence/global-update-2026-11-05-224452-79c01a37/installed-after.json"
+    },
+    "postVerification": "/Volumes/eyedisk/develop/cinewright/evidence/global-update-2026-11-05-224452-79c01a37/post-verification.json"
+  },
+  "independentReadOnlyAudit": {
+    "reportedBy": "parent /root coordination message",
+    "reportedProfile": "sol/high",
+    "result": "PASS",
+    "scope": "All45 approved/staged/live payload hashes and modes; inverse19 link adaptations recover approved bytes in3 documents; targets exist;64-file backup;60 unchanged originals;1373dependency entries; installed regular Task4 support file imports installed revisions.mjs.",
+    "noAdditionalTestExecutionOrWrites": true,
+    "separateFileReceiptSupplied": false
+  },
+  "observedSourceDrift": {
+    "metadata": "Current HEAD 27aac0ca22f4a8d211981cd40970d8a511f9927d and clean main were observed before any install mutation. Parent reconciled this metadata drift because every approved payload byte matches the reviewed receipts. Neither root nor installation agent created the observed commit. Preserve current repository metadata.",
+    "historicalStatusDocuments": {
+      "documents": [
+        {
+          "path": "evidence/2026-11-05-production/RESULT.md",
+          "inPayload": false,
+          "historicalReceiptSha256": "b1ee74ec2c139cfbee357f1307094f2c1f02bb08ef39f1bce2cb3795635aa476",
+          "currentSha256": "938826e775071104668df6c1383e8c2675a06163e4b994c599f62bdb92b5e1c6",
+          "matchesHistoricalReceipt": false,
+          "action": "Preserve current source; install only if part of the reviewed 45-file payload."
+        },
+        {
+          "path": "evidence/2026-11-05-production/REVIEW.md",
+          "inPayload": false,
+          "historicalReceiptSha256": "b18686526c38e3e509e02123a0a2871caee872cca6f69716d91f3e45975a95c5",
+          "currentSha256": "b18686526c38e3e509e02123a0a2871caee872cca6f69716d91f3e45975a95c5",
+          "matchesHistoricalReceipt": true,
+          "action": "Preserve current source; install only if part of the reviewed 45-file payload."
+        },
+        {
+          "path": "examples/stillcuts/README.md",
+          "inPayload": true,
+          "historicalReceiptSha256": "a927729a43dd428c7634991fe48bd896e3930e9bb3bb1f95ac3a3c566becdc86",
+          "currentSha256": "a927729a43dd428c7634991fe48bd896e3930e9bb3bb1f95ac3a3c566becdc86",
+          "matchesHistoricalReceipt": true,
+          "action": "Preserve current source; install only if part of the reviewed 45-file payload."
+        }
+      ],
+      "reconciliation": "The non-payload RESULT.md at committed HEAD differs from its historical receipt. Preserve it and its current hash unchanged. Do not copy or relabel it. The earlier guard was broader than installation eligibility."
+    },
+    "nonPayloadAfterSnapshot": [
+      {
+        "path": "README.md",
+        "beforeSha256": "19012fa7d9f7574a47e1eb7670a4a55e8059341ce7557e2cf70335d041569036",
+        "afterSha256": "bef563159bba24e74903d43aaee9c1d27b7e730749a5bb935722637bf823966e",
+        "inPayload": false
+      }
+    ],
+    "sourceStatusAfterLog": "/Volumes/eyedisk/develop/cinewright/evidence/global-update-2026-11-05-224452-79c01a37/logs/source-status-after.stdout",
+    "guardFailures": [
+      {
+        "stage": "prepare",
+        "exitCode": 1,
+        "log": "/Volumes/eyedisk/develop/cinewright/evidence/global-update-2026-11-05-224452-79c01a37/logs/prepare.stderr",
+        "correction": "/Volumes/eyedisk/develop/cinewright/evidence/global-update-2026-11-05-224452-79c01a37/prepare-guard-correction.diff",
+        "beforeDestinationMutation": true
+      },
+      {
+        "stage": "apply",
+        "exitCode": 1,
+        "log": "/Volumes/eyedisk/develop/cinewright/evidence/global-update-2026-11-05-224452-79c01a37/logs/apply.stderr",
+        "correction": "/Volumes/eyedisk/develop/cinewright/evidence/global-update-2026-11-05-224452-79c01a37/apply-guard-correction.diff",
+        "beforeDestinationMutation": true
+      }
+    ],
+    "meaning": "Both guard failures were broader than the actual installation payload. Narrowed only the gate, preserved the original failed scripts/logs and left all non-payload source edits untouched. The successful application used the same45 reviewed payload bytes."
+  },
+  "rollback": {
+    "executed": false,
+    "guide": "/Volumes/eyedisk/develop/cinewright/evidence/global-update-2026-11-05-224452-79c01a37/ROLLBACK.md",
+    "script": "/Volumes/eyedisk/develop/cinewright/evidence/global-update-2026-11-05-224452-79c01a37/rollback.py",
+    "checkCommand": [
+      "python3",
+      "/Volumes/eyedisk/develop/cinewright/evidence/global-update-2026-11-05-224452-79c01a37/rollback.py"
+    ],
+    "applyCommand": [
+      "python3",
+      "/Volumes/eyedisk/develop/cinewright/evidence/global-update-2026-11-05-224452-79c01a37/rollback.py",
+      "--apply"
+    ],
+    "restores": 4,
+    "removesOnlyExactAddedPayloadFiles": 41,
+    "guard": "Refuse changed paths/hashes before any rollback and recheck each target before mutation. Preserve dependencies, other originals, directories and validation artifacts."
+  },
+  "limits": [
+    "Current disk installation and installed tests are verified. Hot reload or skill adoption in this already running chat was not observed. The updated skill is available on the next turn per the installer guidance; no restart is required by this report.",
+    "No full production media rerender or new performance measurement. No new direct viewing/listening, physical-device, audience-response or user-acceptance claim.",
+    "Historical artifact links depend on the original source repository path remaining present. Installed reusable code/tests have no source-repository import or symlink fallback.",
+    "Counting Star was not modified by this task; its entire ignored tree was not rehashed.",
+    "No commit, push, branch/worktree creation, new chat or publication was performed by this installation task. Concurrent non-payload repository changes were preserved, so whole-source-tree immutability is not claimed."
+  ],
+  "receipts": {
+    "installed-before.json": "d7a24075258d5b33cda1e64054ebf92b557718254b058bd72ea85aa54dcfaf19",
+    "installed-after-apply.json": "84c8d699b72733064524ab72b7771a7cf74aaa84097896ed87ed8f19c25820ae",
+    "installed-after.json": "33118e01bf8d14cb9db5b084e63f451c0226caba3c69b60db13ac90d4aeb641a",
+    "payload.json": "a4a64452ef38ca68c22cffeb911d246077347a32a5bdfa7f69bd335d1a5eccb7",
+    "source-before.json": "af17189dc41bd8f1a446436a9b297759c022ff08ac5176dc120e95b493137247",
+    "source-after.json": "65bb8e16e48997cd0c6287e58b22f8a8dd1b3dba0e8d0180220fffb2cc872d77",
+    "reviewed-inputs.json": "f2677fc8dacc315089e41617579e74f189d02ba10e011b0b98be15c1a17541cf",
+    "link-adaptations.json": "4a1c92bb0c9ca72546a0c45328794819a46e1a0676232e1d18383c49e300526d",
+    "links-installed.json": "4ef9840ba484e1913951f59cd52e3d2235a5aa7b2f312b445194a44a9c8aeca9",
+    "dependencies-before.json": "ccca0dde7cb721f1b88604c7710de18016beff9ee90c3c9703d94afdb6ca2fd3",
+    "dependencies-after.json": "ccca0dde7cb721f1b88604c7710de18016beff9ee90c3c9703d94afdb6ca2fd3",
+    "backup/receipt.json": "b7a17db23d9e1ec167c9f4d9e6ea6818003073715c93c07834e829850b9c8452",
+    "post-verification.json": "cd4c3dc5369bbfaa5da383ad3d1c53bc9db40604906704c64eaa5a3b5054b1de",
+    "rollback.py": "83b5b2b2d60ac3a64152a6816f6259cf8cac38dfb445483f8c8e35a4dc8ae762"
+  }
+}

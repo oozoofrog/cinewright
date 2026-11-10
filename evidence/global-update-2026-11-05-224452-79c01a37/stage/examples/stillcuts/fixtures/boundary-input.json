@@ -1,0 +1,282 @@
+{
+  "edit": {
+    "boundary": "touch",
+    "frame": 66
+  },
+  "source": {
+    "brief": {
+      "provenance": "예제 제작자가 정한 가상 의뢰. 실제 사용자 취향·작품 수락 기록이 아니다.",
+      "request": "집에 돌아와 열쇠를 내려놓는 순간이 좋아요. 하루가 끝났다는 느낌이면 좋겠어요. 지친 걸 과장하지는 않았으면 해요. 손이 열쇠를 탁자에 내려놓고 빠지는 건 보여 주세요.",
+      "purpose": "열쇠를 놓은 뒤 더 서두르지 않아도 되는 시간을 남긴다.",
+      "invariants": [
+        "같은 손·열쇠·탁자",
+        "내려놓는 과정",
+        "접촉 뒤 놓기",
+        "손의 퇴장 뒤 정지한 열쇠",
+        "비과장된 톤"
+      ],
+      "audio": "의도한 무음"
+    },
+    "assets": [
+      "room.svg",
+      "hand-atlas.svg",
+      "keys.svg"
+    ],
+    "manifest": {
+      "version": 1,
+      "size": [
+        640,
+        360
+      ],
+      "fps": 24,
+      "background": "#d9d5c8",
+      "audio": [],
+      "title": "하루를 내려놓는 자리 · A 빈 자리의 시간",
+      "frames": 192
+    },
+    "scene": {
+      "keyAt": [
+        328,
+        264
+      ],
+      "handAt": [
+        328,
+        235
+      ],
+      "lowerOffset": [
+        0,
+        -52
+      ],
+      "exitOffset": [
+        -220,
+        -300
+      ],
+      "loweringSpan": "lowering",
+      "withdrawalSpan": "withdrawal",
+      "light": {
+        "fromX": 174,
+        "toX": 202,
+        "opacity": 0.09
+      }
+    },
+    "cutSpec": {
+      "frames": 192,
+      "boundaries": [
+        {
+          "name": "start",
+          "frame": 0
+        },
+        {
+          "name": "arrive",
+          "frame": 24
+        },
+        {
+          "name": "lower",
+          "frame": 36
+        },
+        {
+          "name": "touch",
+          "frame": 60
+        },
+        {
+          "name": "release",
+          "frame": 72
+        },
+        {
+          "name": "leave",
+          "frame": 78
+        },
+        {
+          "name": "quiet",
+          "frame": 102
+        },
+        {
+          "name": "end",
+          "frame": 192
+        }
+      ],
+      "artworks": {
+        "emptyRoom": {
+          "view": {
+            "scale": 1,
+            "focus": [
+              320,
+              180
+            ],
+            "at": [
+              320,
+              180
+            ]
+          },
+          "hand": null,
+          "keys": false,
+          "motion": "rest"
+        },
+        "poised": {
+          "view": {
+            "scale": 1,
+            "focus": [
+              320,
+              180
+            ],
+            "at": [
+              320,
+              180
+            ]
+          },
+          "hand": "grip",
+          "keys": true,
+          "motion": "poised"
+        },
+        "descending": {
+          "view": {
+            "scale": 1,
+            "focus": [
+              320,
+              180
+            ],
+            "at": [
+              320,
+              180
+            ]
+          },
+          "hand": "grip",
+          "keys": true,
+          "motion": "lower"
+        },
+        "contact": {
+          "view": {
+            "scale": 1,
+            "focus": [
+              320,
+              180
+            ],
+            "at": [
+              320,
+              180
+            ]
+          },
+          "hand": "grip",
+          "keys": true,
+          "motion": "rest"
+        },
+        "released": {
+          "view": {
+            "scale": 1,
+            "focus": [
+              320,
+              180
+            ],
+            "at": [
+              320,
+              180
+            ]
+          },
+          "hand": "open",
+          "keys": true,
+          "motion": "rest"
+        },
+        "withdrawing": {
+          "view": {
+            "scale": 1,
+            "focus": [
+              320,
+              180
+            ],
+            "at": [
+              320,
+              180
+            ]
+          },
+          "hand": "open",
+          "keys": true,
+          "motion": "withdraw"
+        },
+        "remaining": {
+          "view": {
+            "scale": 1,
+            "focus": [
+              320,
+              180
+            ],
+            "at": [
+              320,
+              180
+            ]
+          },
+          "hand": null,
+          "keys": true,
+          "motion": "rest"
+        }
+      },
+      "cuts": [
+        {
+          "name": "room-hold",
+          "from": "start",
+          "to": "arrive",
+          "artwork": "emptyRoom",
+          "every": 6
+        },
+        {
+          "name": "poised-hold",
+          "from": "arrive",
+          "to": "lower",
+          "artwork": "poised",
+          "every": 6
+        },
+        {
+          "name": "lowering",
+          "from": "lower",
+          "to": "touch",
+          "artwork": "descending",
+          "every": 3
+        },
+        {
+          "name": "contact-hold",
+          "from": "touch",
+          "to": "release",
+          "artwork": "contact",
+          "every": 6
+        },
+        {
+          "name": "release-hold",
+          "from": "release",
+          "to": "leave",
+          "artwork": "released",
+          "every": 3
+        },
+        {
+          "name": "withdrawal",
+          "from": "leave",
+          "to": "quiet",
+          "artwork": "withdrawing",
+          "every": 2
+        },
+        {
+          "name": "room-rest",
+          "from": "quiet",
+          "to": "end",
+          "artwork": "remaining",
+          "every": 12
+        }
+      ],
+      "spans": [
+        {
+          "name": "action",
+          "from": "arrive",
+          "to": "quiet"
+        },
+        {
+          "name": "contact-review",
+          "from": "lower",
+          "to": "leave"
+        },
+        {
+          "name": "ending",
+          "from": "quiet",
+          "to": "end"
+        }
+      ]
+    }
+  }
+}

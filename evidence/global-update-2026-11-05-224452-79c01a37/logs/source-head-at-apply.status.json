@@ -1,0 +1,11 @@
+{
+  "command": [
+    "git",
+    "show",
+    "--no-patch",
+    "--format=fuller",
+    "HEAD"
+  ],
+  "cwd": "/Volumes/eyedisk/develop/cinewright",
+  "exitCode": 0
+}

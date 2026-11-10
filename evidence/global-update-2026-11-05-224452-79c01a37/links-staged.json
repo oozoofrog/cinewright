@@ -1,0 +1,315 @@
+{
+  "mode": "staged-overlay",
+  "localLinkCount": 44,
+  "allResolved": true,
+  "links": [
+    {
+      "document": "SKILL.md",
+      "target": "references/direction.md",
+      "resolved": "/Users/oozoofrog/.codex/skills/cinewright/references/direction.md",
+      "exists": true,
+      "fragmentValid": null
+    },
+    {
+      "document": "SKILL.md",
+      "target": "references/craft.md",
+      "resolved": "/Users/oozoofrog/.codex/skills/cinewright/references/craft.md",
+      "exists": true,
+      "fragmentValid": null
+    },
+    {
+      "document": "SKILL.md",
+      "target": "references/stillcuts.md",
+      "resolved": "/Users/oozoofrog/.codex/skills/cinewright/references/stillcuts.md",
+      "exists": true,
+      "fragmentValid": null
+    },
+    {
+      "document": "SKILL.md",
+      "target": "references/format.md",
+      "resolved": "/Users/oozoofrog/.codex/skills/cinewright/references/format.md",
+      "exists": true,
+      "fragmentValid": null
+    },
+    {
+      "document": "SKILL.md",
+      "target": "references/tools.md",
+      "resolved": "/Users/oozoofrog/.codex/skills/cinewright/references/tools.md",
+      "exists": true,
+      "fragmentValid": null
+    },
+    {
+      "document": "SKILL.md",
+      "target": "examples/stillcuts/README.md",
+      "resolved": "/Users/oozoofrog/.codex/skills/cinewright/examples/stillcuts/README.md",
+      "exists": true,
+      "fragmentValid": null
+    },
+    {
+      "document": "references/craft.md",
+      "target": "stillcuts.md",
+      "resolved": "/Users/oozoofrog/.codex/skills/cinewright/references/stillcuts.md",
+      "exists": true,
+      "fragmentValid": null
+    },
+    {
+      "document": "references/craft.md",
+      "target": "/Volumes/eyedisk/develop/cinewright/evidence/2026-11-05-production/research-notes.md",
+      "resolved": "/Volumes/eyedisk/develop/cinewright/evidence/2026-11-05-production/research-notes.md",
+      "exists": true,
+      "fragmentValid": null
+    },
+    {
+      "document": "references/direction.md",
+      "target": "/Volumes/eyedisk/develop/cinewright/evidence/2026-11-05-production/BRIEF.md",
+      "resolved": "/Volumes/eyedisk/develop/cinewright/evidence/2026-11-05-production/BRIEF.md",
+      "exists": true,
+      "fragmentValid": null
+    },
+    {
+      "document": "references/format.md",
+      "target": "stillcuts.md#컷-목록의-정본과-생성물",
+      "resolved": "/Users/oozoofrog/.codex/skills/cinewright/references/stillcuts.md",
+      "exists": true,
+      "fragmentValid": true
+    },
+    {
+      "document": "references/format.md",
+      "target": "stillcuts.md#원화-배치의-정본과-공개-함수",
+      "resolved": "/Users/oozoofrog/.codex/skills/cinewright/references/stillcuts.md",
+      "exists": true,
+      "fragmentValid": true
+    },
+    {
+      "document": "references/stillcuts.md",
+      "target": "direction.md#시퀀스의-판단-사슬",
+      "resolved": "/Users/oozoofrog/.codex/skills/cinewright/references/direction.md",
+      "exists": true,
+      "fragmentValid": true
+    },
+    {
+      "document": "references/stillcuts.md",
+      "target": "../modules/cuts.mjs",
+      "resolved": "/Users/oozoofrog/.codex/skills/cinewright/modules/cuts.mjs",
+      "exists": true,
+      "fragmentValid": null
+    },
+    {
+      "document": "references/stillcuts.md",
+      "target": "../modules/artwork.mjs",
+      "resolved": "/Users/oozoofrog/.codex/skills/cinewright/modules/artwork.mjs",
+      "exists": true,
+      "fragmentValid": null
+    },
+    {
+      "document": "references/stillcuts.md",
+      "target": "../examples/stillcuts/README.md",
+      "resolved": "/Users/oozoofrog/.codex/skills/cinewright/examples/stillcuts/README.md",
+      "exists": true,
+      "fragmentValid": null
+    },
+    {
+      "document": "references/tools.md",
+      "target": "../examples/stillcuts/README.md",
+      "resolved": "/Users/oozoofrog/.codex/skills/cinewright/examples/stillcuts/README.md",
+      "exists": true,
+      "fragmentValid": null
+    },
+    {
+      "document": "references/tools.md",
+      "target": "stillcuts.md",
+      "resolved": "/Users/oozoofrog/.codex/skills/cinewright/references/stillcuts.md",
+      "exists": true,
+      "fragmentValid": null
+    },
+    {
+      "document": "examples/stillcuts/README.md",
+      "target": "/Volumes/eyedisk/develop/cinewright/evidence/2026-11-05-production/BRIEF.md",
+      "resolved": "/Volumes/eyedisk/develop/cinewright/evidence/2026-11-05-production/BRIEF.md",
+      "exists": true,
+      "fragmentValid": null
+    },
+    {
+      "document": "examples/stillcuts/README.md",
+      "target": "a/work.json",
+      "resolved": "/Users/oozoofrog/.codex/skills/cinewright/examples/stillcuts/a/work.json",
+      "exists": true,
+      "fragmentValid": null
+    },
+    {
+      "document": "examples/stillcuts/README.md",
+      "target": "b/work.json",
+      "resolved": "/Users/oozoofrog/.codex/skills/cinewright/examples/stillcuts/b/work.json",
+      "exists": true,
+      "fragmentValid": null
+    },
+    {
+      "document": "examples/stillcuts/README.md",
+      "target": "source.mjs",
+      "resolved": "/Users/oozoofrog/.codex/skills/cinewright/examples/stillcuts/source.mjs",
+      "exists": true,
+      "fragmentValid": null
+    },
+    {
+      "document": "examples/stillcuts/README.md",
+      "target": "scene.mjs",
+      "resolved": "/Users/oozoofrog/.codex/skills/cinewright/examples/stillcuts/scene.mjs",
+      "exists": true,
+      "fragmentValid": null
+    },
+    {
+      "document": "examples/stillcuts/README.md",
+      "target": "rebuild.mjs",
+      "resolved": "/Users/oozoofrog/.codex/skills/cinewright/examples/stillcuts/rebuild.mjs",
+      "exists": true,
+      "fragmentValid": null
+    },
+    {
+      "document": "examples/stillcuts/README.md",
+      "target": "build.mjs",
+      "resolved": "/Users/oozoofrog/.codex/skills/cinewright/examples/stillcuts/build.mjs",
+      "exists": true,
+      "fragmentValid": null
+    },
+    {
+      "document": "examples/stillcuts/README.md",
+      "target": "fixtures/boundary-input.json",
+      "resolved": "/Users/oozoofrog/.codex/skills/cinewright/examples/stillcuts/fixtures/boundary-input.json",
+      "exists": true,
+      "fragmentValid": null
+    },
+    {
+      "document": "examples/stillcuts/README.md",
+      "target": "fixtures/boundary-before.json",
+      "resolved": "/Users/oozoofrog/.codex/skills/cinewright/examples/stillcuts/fixtures/boundary-before.json",
+      "exists": true,
+      "fragmentValid": null
+    },
+    {
+      "document": "examples/stillcuts/README.md",
+      "target": "fixtures/boundary-after.json",
+      "resolved": "/Users/oozoofrog/.codex/skills/cinewright/examples/stillcuts/fixtures/boundary-after.json",
+      "exists": true,
+      "fragmentValid": null
+    },
+    {
+      "document": "examples/stillcuts/README.md",
+      "target": "../../references/stillcuts.md#복사-생성-다시-생성하기",
+      "resolved": "/Users/oozoofrog/.codex/skills/cinewright/references/stillcuts.md",
+      "exists": true,
+      "fragmentValid": true
+    },
+    {
+      "document": "examples/stillcuts/README.md",
+      "target": "/Volumes/eyedisk/develop/cinewright/evidence/2026-11-05-production/RESULT.md",
+      "resolved": "/Volumes/eyedisk/develop/cinewright/evidence/2026-11-05-production/RESULT.md",
+      "exists": true,
+      "fragmentValid": null
+    },
+    {
+      "document": "examples/stillcuts/README.md",
+      "target": "/Volumes/eyedisk/develop/cinewright/evidence/2026-11-05-production/REVIEW.md",
+      "resolved": "/Volumes/eyedisk/develop/cinewright/evidence/2026-11-05-production/REVIEW.md",
+      "exists": true,
+      "fragmentValid": null
+    },
+    {
+      "document": "examples/stillcuts/README.md",
+      "target": "/Volumes/eyedisk/develop/cinewright/evidence/2026-11-05-production/final-fix-1/preservation.json",
+      "resolved": "/Volumes/eyedisk/develop/cinewright/evidence/2026-11-05-production/final-fix-1/preservation.json",
+      "exists": true,
+      "fragmentValid": null
+    },
+    {
+      "document": "examples/stillcuts/README.md",
+      "target": "/Volumes/eyedisk/develop/cinewright/.direction/production/jobs/b030aad5-33a8-4a71-9977-994c046e3b50/work.mp4",
+      "resolved": "/Volumes/eyedisk/develop/cinewright/.direction/production/jobs/b030aad5-33a8-4a71-9977-994c046e3b50/work.mp4",
+      "exists": true,
+      "fragmentValid": null
+    },
+    {
+      "document": "examples/stillcuts/README.md",
+      "target": "/Volumes/eyedisk/develop/cinewright/.direction/production/jobs/a515dfc7-fd57-4f78-aa76-77e336d9d78f/work.mp4",
+      "resolved": "/Volumes/eyedisk/develop/cinewright/.direction/production/jobs/a515dfc7-fd57-4f78-aa76-77e336d9d78f/work.mp4",
+      "exists": true,
+      "fragmentValid": null
+    },
+    {
+      "document": "examples/stillcuts/README.md",
+      "target": "/Volumes/eyedisk/develop/cinewright/.direction/production/jobs/c5d57e2c-0459-4def-a8c2-b8f49ea5748c/work.mp4",
+      "resolved": "/Volumes/eyedisk/develop/cinewright/.direction/production/jobs/c5d57e2c-0459-4def-a8c2-b8f49ea5748c/work.mp4",
+      "exists": true,
+      "fragmentValid": null
+    },
+    {
+      "document": "examples/stillcuts/README.md",
+      "target": "/Volumes/eyedisk/develop/cinewright/.direction/production/jobs/88c9ab45-8bf1-49fd-95ff-42f376b1cf79/work.mp4",
+      "resolved": "/Volumes/eyedisk/develop/cinewright/.direction/production/jobs/88c9ab45-8bf1-49fd-95ff-42f376b1cf79/work.mp4",
+      "exists": true,
+      "fragmentValid": null
+    },
+    {
+      "document": "examples/stillcuts/README.md",
+      "target": "/Volumes/eyedisk/develop/cinewright/evidence/2026-11-05-production/task-4/fix-1-npm-test.log",
+      "resolved": "/Volumes/eyedisk/develop/cinewright/evidence/2026-11-05-production/task-4/fix-1-npm-test.log",
+      "exists": true,
+      "fragmentValid": null
+    },
+    {
+      "document": "examples/stillcuts/README.md",
+      "target": "/Volumes/eyedisk/develop/cinewright/evidence/2026-11-05-production/task-4/runs/contact-fix-1/inspection/receipt.json",
+      "resolved": "/Volumes/eyedisk/develop/cinewright/evidence/2026-11-05-production/task-4/runs/contact-fix-1/inspection/receipt.json",
+      "exists": true,
+      "fragmentValid": null
+    },
+    {
+      "document": "examples/stillcuts/README.md",
+      "target": "/Volumes/eyedisk/develop/cinewright/evidence/2026-11-05-production/independent-output-review-fixed.md",
+      "resolved": "/Volumes/eyedisk/develop/cinewright/evidence/2026-11-05-production/independent-output-review-fixed.md",
+      "exists": true,
+      "fragmentValid": null
+    },
+    {
+      "document": "examples/stillcuts/README.md",
+      "target": "/Volumes/eyedisk/develop/cinewright/evidence/2026-11-05-production/final-fix-1/npm-test.log",
+      "resolved": "/Volumes/eyedisk/develop/cinewright/evidence/2026-11-05-production/final-fix-1/npm-test.log",
+      "exists": true,
+      "fragmentValid": null
+    },
+    {
+      "document": "examples/stillcuts/README.md",
+      "target": "/Volumes/eyedisk/develop/cinewright/evidence/2026-11-05-production/independent-output-review.md",
+      "resolved": "/Volumes/eyedisk/develop/cinewright/evidence/2026-11-05-production/independent-output-review.md",
+      "exists": true,
+      "fragmentValid": null
+    },
+    {
+      "document": "examples/stillcuts/README.md",
+      "target": "/Volumes/eyedisk/develop/cinewright/evidence/2026-11-05-production/MEASUREMENT.md",
+      "resolved": "/Volumes/eyedisk/develop/cinewright/evidence/2026-11-05-production/MEASUREMENT.md",
+      "exists": true,
+      "fragmentValid": null
+    },
+    {
+      "document": "examples/stillcuts/README.md",
+      "target": "/Volumes/eyedisk/develop/cinewright/.superpowers/sdd/2026-11-05-cinewright-production/final-fix-1-re-review.md",
+      "resolved": "/Volumes/eyedisk/develop/cinewright/.superpowers/sdd/2026-11-05-cinewright-production/final-fix-1-re-review.md",
+      "exists": true,
+      "fragmentValid": null
+    },
+    {
+      "document": "examples/stillcuts/README.md",
+      "target": "/Volumes/eyedisk/develop/cinewright/evidence/2026-11-05-production/primary-final-source-scope.json",
+      "resolved": "/Volumes/eyedisk/develop/cinewright/evidence/2026-11-05-production/primary-final-source-scope.json",
+      "exists": true,
+      "fragmentValid": null
+    },
+    {
+      "document": "examples/stillcuts/README.md",
+      "target": "/Volumes/eyedisk/develop/cinewright/.superpowers/sdd/2026-11-05-cinewright-production/task-3-report.md",
+      "resolved": "/Volumes/eyedisk/develop/cinewright/.superpowers/sdd/2026-11-05-cinewright-production/task-3-report.md",
+      "exists": true,
+      "fragmentValid": null
+    }
+  ]
+}

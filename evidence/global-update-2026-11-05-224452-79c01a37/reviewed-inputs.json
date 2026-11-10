@@ -1,0 +1,192 @@
+{
+  "receiptHashes": {
+    ".superpowers/sdd/2026-11-05-cinewright-production/final-review-inputs.json": "067c24b46c58363256cce0c35d28e4dd0193402c1fbeac7c5a0552c63ed93949",
+    ".superpowers/sdd/2026-11-05-cinewright-production/final-fix-1-review-inputs.json": "2a67d34dd2c22a8ba274958f95887e40c08ddcee5fa65dc66bb5433dfc7c285b",
+    "evidence/2026-11-05-production/protected-before.json": "054ec801eec0970bdaca93a2632132d502defc328c479b7d53c0f781dbcaac96",
+    "evidence/2026-11-05-production/primary-final-delivery.json": "434b7fd3a91bb0944fd287b21e7f0fefcacd2a62a2ec0891fe3787c0bea8f6d1",
+    "evidence/2026-11-05-production/preserved-existing-source.json": "4f4fda858f680abc53a5a46e3180d5804501c189e59682b02393f25275560a59",
+    "evidence/2026-11-05-production/final-fix-1/preservation.json": "d2ae839f2e90f365d3613c314399df2bc6c25abc9647c56741bac0a352134674"
+  },
+  "payload": {
+    "SKILL.md": {
+      "sha256": "882b751142d1eec4db835e08df3eff912086b9d85a2b5785450ce1365848fb25",
+      "authority": ".superpowers/sdd/2026-11-05-cinewright-production/final-review-inputs.json"
+    },
+    "references/craft.md": {
+      "sha256": "778a5fe56060355f3e1bafe60a5af4b6e5469e5e872aceaa3c1f651af58a853c",
+      "authority": ".superpowers/sdd/2026-11-05-cinewright-production/final-review-inputs.json"
+    },
+    "references/direction.md": {
+      "sha256": "a6d89f377710957c7c2d602d62a47fbfc08a8c1ffb5f6991c5e29277b2679500",
+      "authority": ".superpowers/sdd/2026-11-05-cinewright-production/final-review-inputs.json"
+    },
+    "references/format.md": {
+      "sha256": "0e6b14b032bb0d2f9ed3d587f7c0630569bf9ce8f862248b2473a213364c9286",
+      "authority": ".superpowers/sdd/2026-11-05-cinewright-production/final-review-inputs.json"
+    },
+    "references/stillcuts.md": {
+      "sha256": "f9d5e3ee87a212d9d381e061aaa7b7e5ef1d38a6afd690a6478325a0eaaba77b",
+      "authority": ".superpowers/sdd/2026-11-05-cinewright-production/final-review-inputs.json"
+    },
+    "references/tools.md": {
+      "sha256": "2c6e387b7bdec091a94832b8e64432a314cf71a574c1cd49bdfd0198e4ad31db",
+      "authority": ".superpowers/sdd/2026-11-05-cinewright-production/final-review-inputs.json"
+    },
+    "modules/cuts.mjs": {
+      "sha256": "9e4e40e55efd03bb6d53ca214068f6cabc88025d5d3fbf2f161487aa7516e784",
+      "authority": "evidence/2026-11-05-production/final-fix-1/preservation.json#ordinarySourceAndHelpers"
+    },
+    "modules/artwork.mjs": {
+      "sha256": "825482b415cfd645e853ac85b6e4dd048130634517bfacea74dc78924992abfd",
+      "authority": "evidence/2026-11-05-production/final-fix-1/preservation.json#ordinarySourceAndHelpers"
+    },
+    "examples/stillcuts/README.md": {
+      "sha256": "a927729a43dd428c7634991fe48bd896e3930e9bb3bb1f95ac3a3c566becdc86",
+      "authority": "evidence/2026-11-05-production/primary-final-delivery.json#statusDocumentsSha256"
+    },
+    "examples/stillcuts/a/assets/hand-atlas.svg": {
+      "sha256": "18dc489f6ce3faef4121de31ee6731d06d987e104c6cd53b25da2735c5eef84b",
+      "authority": "evidence/2026-11-05-production/final-fix-1/preservation.json#generatedInputAndAssetFiles"
+    },
+    "examples/stillcuts/a/assets/keys.svg": {
+      "sha256": "67f1166d961f7dd39faf6bb5c1f8777da92630d53bb944385c93db0e75152ab4",
+      "authority": "evidence/2026-11-05-production/final-fix-1/preservation.json#generatedInputAndAssetFiles"
+    },
+    "examples/stillcuts/a/assets/room.svg": {
+      "sha256": "13e3fca7afc6eaf5f803485ffcbfefbb2cf348e82956ea84ba0748ffd0abbf49",
+      "authority": "evidence/2026-11-05-production/final-fix-1/preservation.json#generatedInputAndAssetFiles"
+    },
+    "examples/stillcuts/a/cuts.json": {
+      "sha256": "a90a5b411062e6b3d48565badddfc92b41f6ec4e499c0d59d048ffd184cc4e23",
+      "authority": "evidence/2026-11-05-production/final-fix-1/preservation.json#generatedInputAndAssetFiles"
+    },
+    "examples/stillcuts/a/modules/artwork.mjs": {
+      "sha256": "825482b415cfd645e853ac85b6e4dd048130634517bfacea74dc78924992abfd",
+      "authority": "evidence/2026-11-05-production/final-fix-1/preservation.json#generatedInputAndAssetFiles"
+    },
+    "examples/stillcuts/a/modules/cuts.mjs": {
+      "sha256": "9e4e40e55efd03bb6d53ca214068f6cabc88025d5d3fbf2f161487aa7516e784",
+      "authority": "evidence/2026-11-05-production/final-fix-1/preservation.json#generatedInputAndAssetFiles"
+    },
+    "examples/stillcuts/a/rebuild.mjs": {
+      "sha256": "97b8c64bfd920a13585ede07449bcb765fbca670fe2878f5874c5ee266bdfa74",
+      "authority": "evidence/2026-11-05-production/final-fix-1/preservation.json#generatedInputAndAssetFiles"
+    },
+    "examples/stillcuts/a/scene.mjs": {
+      "sha256": "7f0057c1aee468e84c08757d444eb46da9e23ce14f77c1fcda0aaba77ef9c1ec",
+      "authority": ".superpowers/sdd/2026-11-05-cinewright-production/final-fix-1-review-inputs.json"
+    },
+    "examples/stillcuts/a/source.json": {
+      "sha256": "35ed6a20cde22162835f8e4e74829355bdfcb919cbe356d5fa4b14678bf1ff06",
+      "authority": "evidence/2026-11-05-production/final-fix-1/preservation.json#generatedInputAndAssetFiles"
+    },
+    "examples/stillcuts/a/work.json": {
+      "sha256": "c39f856d347fe07e76e20e9eea000164b36ea58e4a406fbad18a0288fb0fb468",
+      "authority": "evidence/2026-11-05-production/final-fix-1/preservation.json#generatedInputAndAssetFiles"
+    },
+    "examples/stillcuts/assets/hand-atlas.svg": {
+      "sha256": "18dc489f6ce3faef4121de31ee6731d06d987e104c6cd53b25da2735c5eef84b",
+      "authority": "evidence/2026-11-05-production/final-fix-1/preservation.json#ordinarySourceAndHelpers"
+    },
+    "examples/stillcuts/assets/keys.svg": {
+      "sha256": "67f1166d961f7dd39faf6bb5c1f8777da92630d53bb944385c93db0e75152ab4",
+      "authority": "evidence/2026-11-05-production/final-fix-1/preservation.json#ordinarySourceAndHelpers"
+    },
+    "examples/stillcuts/assets/room.svg": {
+      "sha256": "13e3fca7afc6eaf5f803485ffcbfefbb2cf348e82956ea84ba0748ffd0abbf49",
+      "authority": "evidence/2026-11-05-production/final-fix-1/preservation.json#ordinarySourceAndHelpers"
+    },
+    "examples/stillcuts/b/assets/hand-atlas.svg": {
+      "sha256": "18dc489f6ce3faef4121de31ee6731d06d987e104c6cd53b25da2735c5eef84b",
+      "authority": "evidence/2026-11-05-production/final-fix-1/preservation.json#generatedInputAndAssetFiles"
+    },
+    "examples/stillcuts/b/assets/keys.svg": {
+      "sha256": "67f1166d961f7dd39faf6bb5c1f8777da92630d53bb944385c93db0e75152ab4",
+      "authority": "evidence/2026-11-05-production/final-fix-1/preservation.json#generatedInputAndAssetFiles"
+    },
+    "examples/stillcuts/b/assets/room.svg": {
+      "sha256": "13e3fca7afc6eaf5f803485ffcbfefbb2cf348e82956ea84ba0748ffd0abbf49",
+      "authority": "evidence/2026-11-05-production/final-fix-1/preservation.json#generatedInputAndAssetFiles"
+    },
+    "examples/stillcuts/b/cuts.json": {
+      "sha256": "1e2f3ae52e9e112e6501dec0efe9ad3076c13143ffc203758bcb2f054f2b3a40",
+      "authority": "evidence/2026-11-05-production/final-fix-1/preservation.json#generatedInputAndAssetFiles"
+    },
+    "examples/stillcuts/b/modules/artwork.mjs": {
+      "sha256": "825482b415cfd645e853ac85b6e4dd048130634517bfacea74dc78924992abfd",
+      "authority": "evidence/2026-11-05-production/final-fix-1/preservation.json#generatedInputAndAssetFiles"
+    },
+    "examples/stillcuts/b/modules/cuts.mjs": {
+      "sha256": "9e4e40e55efd03bb6d53ca214068f6cabc88025d5d3fbf2f161487aa7516e784",
+      "authority": "evidence/2026-11-05-production/final-fix-1/preservation.json#generatedInputAndAssetFiles"
+    },
+    "examples/stillcuts/b/rebuild.mjs": {
+      "sha256": "97b8c64bfd920a13585ede07449bcb765fbca670fe2878f5874c5ee266bdfa74",
+      "authority": "evidence/2026-11-05-production/final-fix-1/preservation.json#generatedInputAndAssetFiles"
+    },
+    "examples/stillcuts/b/scene.mjs": {
+      "sha256": "7f0057c1aee468e84c08757d444eb46da9e23ce14f77c1fcda0aaba77ef9c1ec",
+      "authority": ".superpowers/sdd/2026-11-05-cinewright-production/final-fix-1-review-inputs.json"
+    },
+    "examples/stillcuts/b/source.json": {
+      "sha256": "381f897f26460899f7c6789a7ae659e953b8fe2e3ce6fe7287bcbe7f626aaa47",
+      "authority": "evidence/2026-11-05-production/final-fix-1/preservation.json#generatedInputAndAssetFiles"
+    },
+    "examples/stillcuts/b/work.json": {
+      "sha256": "6422effa6850109094f0ad8364278197fe42e6b22c6484a1127bb8d863f15602",
+      "authority": "evidence/2026-11-05-production/final-fix-1/preservation.json#generatedInputAndAssetFiles"
+    },
+    "examples/stillcuts/build.mjs": {
+      "sha256": "3bba3f7002a5ba892d5fd57ac3e11f170100902dc2ae08d5e41b2f80b7bd19aa",
+      "authority": "evidence/2026-11-05-production/final-fix-1/preservation.json#ordinarySourceAndHelpers"
+    },
+    "examples/stillcuts/fixtures/boundary-after.json": {
+      "sha256": "7cd8513577229387f8c8934622807c270b20e42873dae3733527e62f2326c12c",
+      "authority": "evidence/2026-11-05-production/final-fix-1/preservation.json#generatedInputAndAssetFiles"
+    },
+    "examples/stillcuts/fixtures/boundary-before.json": {
+      "sha256": "5f161f6e4bdd42356cf2299bec4467ece9815851319bf061703ed6819b362da9",
+      "authority": "evidence/2026-11-05-production/final-fix-1/preservation.json#generatedInputAndAssetFiles"
+    },
+    "examples/stillcuts/fixtures/boundary-input.json": {
+      "sha256": "70379d03f0f09198cb60eea5c1a46c5fb164959c66d0c830dc8f4a4110b709c3",
+      "authority": "evidence/2026-11-05-production/final-fix-1/preservation.json#generatedInputAndAssetFiles"
+    },
+    "examples/stillcuts/rebuild.mjs": {
+      "sha256": "97b8c64bfd920a13585ede07449bcb765fbca670fe2878f5874c5ee266bdfa74",
+      "authority": "evidence/2026-11-05-production/final-fix-1/preservation.json#ordinarySourceAndHelpers"
+    },
+    "examples/stillcuts/scene.mjs": {
+      "sha256": "7f0057c1aee468e84c08757d444eb46da9e23ce14f77c1fcda0aaba77ef9c1ec",
+      "authority": ".superpowers/sdd/2026-11-05-cinewright-production/final-fix-1-review-inputs.json"
+    },
+    "examples/stillcuts/source.mjs": {
+      "sha256": "0aaeefaa1581f0ee7b7f375f95332a9488639b8db3a13a88b3e1d86411027475",
+      "authority": "evidence/2026-11-05-production/final-fix-1/preservation.json#ordinarySourceAndHelpers"
+    },
+    "tests/artwork.test.mjs": {
+      "sha256": "e762d33b0fa3d640cea4df4c137394c0d328d9a4f124c86b08a7ec921cc3fa45",
+      "authority": ".superpowers/sdd/2026-11-05-cinewright-production/final-review-inputs.json"
+    },
+    "tests/cuts.test.mjs": {
+      "sha256": "ea02afb46c6270f43e7573e3fe9189f96889ace5248b3fb3fb521139f7772b2a",
+      "authority": ".superpowers/sdd/2026-11-05-cinewright-production/final-review-inputs.json"
+    },
+    "tests/stillcuts-build.test.mjs": {
+      "sha256": "85269fc989a4d60360c7f7eb181e69cf898de5cc5af469febf7a041be3d8e16b",
+      "authority": ".superpowers/sdd/2026-11-05-cinewright-production/final-fix-1-review-inputs.json"
+    },
+    "tests/stillcuts-evidence.test.mjs": {
+      "sha256": "21f02a928fc2d28394282482e2d82a0bd80ed8a1c80a953916940a4650f27052",
+      "authority": ".superpowers/sdd/2026-11-05-cinewright-production/final-review-inputs.json"
+    },
+    "tests/stillcuts.integration.test.mjs": {
+      "sha256": "70894aabcb1c55a9c57605edbd7861f83104b34e453c7aac0044e970fe427f81",
+      "authority": ".superpowers/sdd/2026-11-05-cinewright-production/final-review-inputs.json"
+    },
+    "evidence/2026-11-05-production/task-4/task4-run.mjs": {
+      "sha256": "a570f5170662b9b7ad07f85aa1689caa589e0ae2fd8239364ac9095b904e7a4b",
+      "authority": ".superpowers/sdd/2026-11-05-cinewright-production/final-review-inputs.json"
+    }
+  }
+}
