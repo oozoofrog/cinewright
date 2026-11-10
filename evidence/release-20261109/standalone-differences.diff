@@ -1,0 +1,255 @@
+--- /Users/oozoofrog/.codex/skills/cinewright/plugin.json	2026-11-05 07:47:59
++++ plugin.json	2026-11-09 22:29:49
+@@ -1,8 +1,11 @@
+ {
+   "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+   "name": "cinewright",
+-  "version": "1.0.0",
++  "version": "1.1.0",
+   "description": "Create and review animation and music videos with artwork, motion, typography, and sound.",
+-  "author": { "name": "oozoofrog", "url": "https://github.com/oozoofrog" },
++  "author": {
++    "name": "oozoofrog",
++    "url": "https://github.com/oozoofrog"
++  },
+   "repository": "https://github.com/oozoofrog/cinewright"
+ }
+--- /Users/oozoofrog/.codex/skills/cinewright/README.md	2026-11-08 17:25:38
++++ README.md	2026-11-09 22:30:29
+@@ -1,16 +1,28 @@
+ # Cinewright
+ 
+-## 플러그인 설치
++## Plugin installation
+ 
+-Codex와 Claude Code는 같은 `skills/cinewright` 진입점과 실행 도구를 사용한다. Node.js 22 이상, FFmpeg/FFprobe와 Chromium이 필요하다. 플러그인을 설치한 뒤 설치된 플러그인 루트에서 `npm ci`를 실행해 의존성을 준비한다. 플러그인 캐시가 갱신되면 새 설치 위치에서도 의존성을 준비해야 한다.
++Codex and Claude Code use `skills/cinewright/SKILL.md`, which routes to the current root `SKILL.md`. Install only the plugin; remove an older standalone Cinewright skill after verifying the plugin. Node.js 22+, FFmpeg/FFprobe, and Chromium are required.
+ 
+-- **Codex**: 이 저장소의 `.agents/plugins/marketplace.json`은 현재 저장소용 로컬 마켓플레이스를 제공한다. Codex 데스크톱 앱을 다시 시작하고 플러그인 목록에서 Cinewright를 설치한다. 새 채팅에서 `$cinewright`를 사용한다.
+-- **Claude Code**: `/plugin marketplace add oozoofrog/cinewright`로 마켓플레이스를 추가하고 `/plugin install cinewright@cinewright-marketplace`로 설치한다. 새 세션에서 `/cinewright:cinewright`를 사용한다.
++For an existing Codex marketplace installation:
+ 
+-설치된 플러그인 루트의 `scripts/direction.mjs`를 절대 경로로 실행한다. 사용자 작업 경로에서 실행하면 기본 `.direction/` 기록이 그 작업 경로에 생성된다.
++```sh
++codex plugin marketplace upgrade cinewright-local
++codex plugin add cinewright@cinewright-local
++```
+ 
+-독립 개발 경로는 `/Volumes/eyedisk/develop/cinewright`다. 이 디렉터리가 Git 저장소 루트다.
++For a new installation, run `codex plugin marketplace add https://github.com/oozoofrog/cinewright.git`, then install Cinewright. Claude Code uses `/plugin marketplace add oozoofrog/cinewright` and `/plugin install cinewright@cinewright-marketplace`.
+ 
++Run `npm ci` **from the installed plugin root** after each update. Run its `scripts/direction.mjs` by absolute path from your project directory. The default `.direction/` store belongs to the working directory; use `--store` to select another location. Start a new chat to load the refreshed skill instructions.
++
++```sh
++cd <installed-plugin-root>
++npm ci
++node scripts/direction.mjs doctor
++node scripts/direction.mjs init <new-project-path>
++node scripts/direction.mjs freeze <new-project-path> --store <local-store-path>
++```
++
+ [SKILL.md](SKILL.md)에서 제작을 시작한다. 작품의 시간, 자산, 개별 표현과 선택적 교환 값을 작성하면 같은 개정본으로 대화형 재생, 프레임 추출, 구간·전체 렌더와 MP4 비교를 할 수 있다.
+ 
+ 미완성 의뢰는 [제작 전 협의](references/direction.md)에서 목적·필수 행동·대안·위임으로 구체화한다. [여섯 분야의 작법](references/craft.md)은 출처 내용과 애니메이션 적용을 구분한다. [스틸컷 지침](references/stillcuts.md)은 원화 선택·시간·배치와 두 재사용 helper의 계약을 다룬다.
+@@ -25,20 +37,6 @@
+ | 야간 분류함 | [6초 MP4](outputs/night-sorter.mp4) | [work.json](examples/night-sorter/work.json) |
+ | 항구 비교 | [귀환안 18초](outputs/alternatives/harbor-draft.mp4), [해도안 19초](outputs/alternatives/harbor-map-draft.mp4), [착안 러프 18초](outputs/alternatives/harbor-landfall-draft.mp4) | `examples/harbor*` |
+ 
+-## 전역 설치
+-
+-전역 스킬은 `/Users/oozoofrog/.codex/skills/cinewright`에 설치했다. 개발 저장소와 분리된 복사본이며, 실행 코드·참조 문서·예제·테스트와 잠금 파일 기준 의존성을 포함한다. 개발 소스의 변경은 설치본에 자동으로 반영되지 않는다.
+-
+-프로젝트 작업 경로에서 전역 도구를 실행하면 `.direction/` 기록도 해당 작업 경로에 저장한다. 다른 기록 경로가 필요하면 `--store`를 지정한다.
+-
+-```sh
+-node /Users/oozoofrog/.codex/skills/cinewright/scripts/direction.mjs doctor
+-node /Users/oozoofrog/.codex/skills/cinewright/scripts/direction.mjs init ./my-film
+-node /Users/oozoofrog/.codex/skills/cinewright/scripts/direction.mjs preview ./my-film
+-```
+-
+-[설치 및 실행 검증](evidence/global-install/RESULT.md)
+-
+ ## 실행
+ 
+ 이 디렉터리에서 실행한다. Node.js 22 이상, FFmpeg/FFprobe, Chromium이 필요하다. 기존 의존성이 준비되어 있으면 재설치하지 않는다. 준비되지 않은 체크아웃에서만 `npm ci`를 먼저 실행한다.
+@@ -76,4 +74,4 @@
+ 
+ `node scripts/direction.mjs style list` lists versioned style entries and their actual support status. [Style authoring](references/styles/index.md) connects authored scene recipes and local assets to the existing manifest-v1 renderer, with optional resource disposal and generated-file ownership checks. The initial packs are silhouette-theatre, line-wash, and expressionist-space; integrated acceptance evidence is recorded separately from implementation status under `evidence/aesthetic-toolkit-2026-11-08`. No global skill installation or original-media replacement is part of this toolkit work.
+ 
+-Phase02 선택 기능: [물리 수채 bake](references/styles/watercolor-physical.md), [제한된 biped 자동 rig/skin](references/styles/auto-rig.md), [cross-skeleton retarget/contact](references/styles/retarget.md). 기존 스타일 기본 동작을 유지하는 실험 API이며, 실제 명령·입력 범위·영상·검증은 [후속 인계](docs/handoffs/2026-11-08-aesthetic-toolkit-followup-final.md)에 있다.
++Phase02 선택 기능: [물리 수채 bake](references/styles/watercolor-physical.md), [제한된 biped 자동 rig/skin](references/styles/auto-rig.md), [cross-skeleton retarget/contact](references/styles/retarget.md). 기존 스타일 기본 동작을 유지하는 실험 API이며, See [style references](references/styles/index.md) for supported inputs and limitations.
+--- /Users/oozoofrog/.codex/skills/cinewright/package-lock.json	2026-11-04 18:38:49
++++ package-lock.json	2026-11-09 22:29:49
+@@ -1,12 +1,12 @@
+ {
+   "name": "cinewright",
+-  "version": "1.0.0",
++  "version": "1.1.0",
+   "lockfileVersion": 3,
+   "requires": true,
+   "packages": {
+     "": {
+       "name": "cinewright",
+-      "version": "1.0.0",
++      "version": "1.1.0",
+       "dependencies": {
+         "playwright-core": "1.64.1",
+         "three": "0.180.0"
+--- /Users/oozoofrog/.codex/skills/cinewright/package.json	2026-11-08 16:39:53
++++ package.json	2026-11-09 22:29:49
+@@ -1,6 +1,6 @@
+ {
+   "name": "cinewright",
+-  "version": "1.0.0",
++  "version": "1.1.0",
+   "private": true,
+   "type": "module",
+   "engines": {
+--- /Users/oozoofrog/.codex/skills/cinewright/SKILL.md	2026-11-08 16:39:53
++++ SKILL.md	2026-11-09 21:04:06
+@@ -7,8 +7,16 @@
+ 
+ 작법·제작의 비전문성은 삶의 경험, 감상, 취향이나 판단의 부족이 아니다. 완성된 이야기나 기법 이름을 요구하지 않는다. 사용자의 의미와 명시한 행동·스타일·정체성·인과관계를 보존하고, 열린 연출 결정을 구체화한다.
+ 
++## 목표와 판단
++
++품질은 기본 통과 조건이다. 그 위에서 **창조성·예술성·대중성**을 추구한다. 대상과 의도에 맞는 고유한 발상, 형태·움직임·시간·소리의 표현, 의도한 관객이 읽고 느낄 단서로 제작안을 선택한다. 기능 검사 통과와 결함 제거만으로 창작 목표를 달성했다고 판정하지 않는다. 실제 출력에서 표현이 약하면 [작법 실행](references/craft-execution.md#표현-목표에서-제작안-선택까지)의 판단으로 원화·구도·동작·시간 구조를 다시 설계한다. 관객에 대한 기대와 실제 관객 반응은 구분한다.
++
++품질·표현 개선을 위임받은 작업에서는 의도·캐릭터 정체성·필수 행동·명시된 제한을 보존하며 원화·리그·표현 방식을 자율적으로 재설계하고 결과와 근거를 보고한다. 기존 수단을 유지하느라 목적을 약화하지 않는다. 핵심 의도나 필수 행동을 바꾸거나, 비용·외부 게시·설치 등 위임 밖의 행동이 필요하면 해당 결정만 확인한다. 새로운 의뢰의 고정 조건과 권한은 그 의뢰에서 다시 확인한다.
++
+ ## 제작 전 협의
+ 
++**기법 전에 대상부터 판별한다.** 사용자 표현·확정한 방향·자산·원자료에서 대상이 무엇이며 어떤 특징으로 읽혀야 하는지 찾는다. 관찰·출처가 뒷받침한 사실·가설·의도한 양식화를 구분하고, 핵심 특징을 허용할 움직임·변형·구도·소리와 실패 조건으로 연결한다. [대상 이해](references/direction.md#대상-이해)를 먼저 적용하고, 오르골·자동인형 또는 곡명과 대상의 혼동 가능성이 있으면 [조건부 오르골 참고](references/music-box.md)를 읽는다. 동작의 매끄러움과 인체의 사실성만으로 대상의 정체성이 읽힌다고 판정하지 않는다.
++
+ 1. **원문 → 의도.** 사용자의 말과 필수 지시를 그대로 남기고, 해석·가설을 별도로 쓴다. 관객이 무엇을 이해하거나 느끼기를 바라는지 짧게 되짚는다. 구체적인 기억, 떠오르는 이미지, 참고 장면의 좋고 싫었던 점을 활용한다. 핵심 의미나 반드시 보일 사실이 달라지는 항목만 소수의 질문으로 확인한다. 관련 관객·사용 맥락과 고정 제약은 기존 자료에서 먼저 찾는다. 이미 받은 답과 유효한 위임은 재질문하지 않는다.
+ 2. **의도 → 읽을 단서.** 목적과 가시적 행동을 구분한다. “손을 들어 부르려다 망설인다”에서 손이 올라가는 과정이 필수라면 보여 준다. 제시 방식이 열린 경우에만 시선·그림자·반응·전후 상태 같은 대안을 검토한다. 카메라 이동 등이 목적을 위한 수단인지 필수 표현인지 실제로 모호하면 가설로 밝히고, 의미 있는 대체 전에 확인한다. 명확한 지시를 숙련도를 이유로 약화하지 않는다.
+ 3. **단서 → 대안·권장.** 구조가 다른 2–3안을 일상적인 말로 설명한다. 무엇이 보이고 들리는지, 무엇을 생략하는지, 처음 알아차릴 것, 기대가 바뀌는 곳, 끝에 남을 관계와 덜 분명해질 정보를 적는다. 각 안에서 기대하는 감정·서사 효과를 가설로 밝힌다. 의도·취향·연속성·실행 가능성을 근거로 권장안과 이유를 제시한다. 비용이나 승인 범위에 영향을 주는 차이는 알리되 매체·이징·기술 설문을 사용자에게 넘기지 않는다. 선택을 바꿀 기술 불확실성은 허용된 작은 실험으로 확인한다.
+@@ -18,6 +26,8 @@
+ 
+ ## 제작과 검토
+ 
++새 창작 또는 기존 결과의 수정은 [작법 실행: 근거에서 포즈·렌더·수정까지](references/craft-execution.md)를 사용한다. 대상·행동을 유지하며 표현 수단과 자산을 선택하고, 키/breakdown·시간을 저작한 뒤 작은 실제 출력을 진단한다. 공개 크레인 예제는 새 프로젝트의 생성과 경로 수정 모두를 `node examples/crane-clearance/run.mjs ./crane-study`로 실행한다. 입력 변경과 다른 대상의 저작 방법도 해당 reference에 있다.
++
+ 1. 작업 경로, 자산, 권한과 실행 환경을 확인한다. 의존성이 준비되어 있으면 재설치하지 않는다. 준비되지 않은 체크아웃에서만 루트의 `npm ci`를 사용하고 `node scripts/direction.mjs doctor`로 실행을 확인한다. 각 안은 **현재 공통 기능 / 이번 범위의 재사용 모듈·작품 코드 필요 / 환경·성능 확인 필요 / 현재 스펙·승인 범위 밖** 중 하나로 판정한다. 실제 API·자산·추가 작업·불확실성과 짧은 검증을 연결한다. 유효한 입력과 작은 실행 시험을 품질·속도의 보장으로 쓰지 않는다.
+ 2. 핵심 구간마다 **원문·확인한 의도 → 관객이 읽을 것 → 필수 행동·사실 → 화면·소리의 단서 → 구도·생략·매체·시간 → 움직임·상호작용 → 구현·자산 → 관찰·실패 조건**을 연결한다. 이는 제작자 기록이며 사용자 설문이 아니다. [여섯 분야의 작법](references/craft.md)은 장면의 기능을 애니메이션에 옮기는 참고다. 작품마다 필요한 항목만 선택한다.
+ 3. 대표 스틸에서 실루엣·명암·정보 밀도·구도를 본다. 짧은 동작 시험에서 간격·안착·무게·접촉·가림·시선과 매체 간 관계를 본다. 움직임은 대상의 힘·무게·재질에서 정한다. 정지·침묵·hold·stepped exposure·hard cut도 유효하다. 이유 없는 카메라 드리프트, 상시 움직임, 자동 블러나 기법 개수를 목표로 삼지 않는다. [스틸컷과 두 helper](references/stillcuts.md)를 필요에 따라 쓴다.
+--- /Users/oozoofrog/.codex/skills/cinewright/references/craft.md	2026-11-05 05:34:06
++++ references/craft.md	2026-11-09 17:48:16
+@@ -4,6 +4,8 @@
+ 
+ 배우가 몸으로 연기하는 영화·연극·뮤지컬을 그대로 재현할 필요는 없다. 초점 이동, 관계 변화, 기대와 생략을 컷·원화·여백·사물·빛·형태·화면과 소리의 관계로 옮긴다. 배우의 이동이 담당한 초점 전환을 컷 순서나 여백 속 빛으로 만들 수도 있다. 작품에 필요한 인물과 명시된 가시적 행동은 유지한다. 한 작품에 여섯 분야를 모두 넣지 않는다.
+ 
++작법을 고르기 전에 [대상 이해](direction.md#대상-이해)에서 정한 특징과 필수 행동을 확인한다. 구도·크기·재질·빛·여백, 소리와 움직임의 관계가 그 대상을 드러내도록 작법을 선택한다. 인간 배우의 무게 이동이나 옷의 후행을 모든 대상에 그대로 붙이지 않는다. 실제 숏이 선택한 대상으로 읽히는지 별도로 검토하며, 오르골 관련 조건은 [조건부 참고](music-box.md)를 따른다.
++
+ ## 영화 — 보는 순서로 관계를 드러내기
+ 
+ **출처 내용.** Alfred Hitchcock은 《Sabotage》의 식탁 장면에서 손·눈·칼·반응의 편집을 설명한다. 다른 인물의 목소리 동안 한 인물의 화면을 유지하는 방법도 다룬다. 이는 Hitchcock의 방법이며 연속 숏을 금지하는 법칙이 아니다.
+--- /Users/oozoofrog/.codex/skills/cinewright/references/direction.md	2026-11-05 05:54:29
++++ references/direction.md	2026-11-09 17:48:16
+@@ -18,6 +18,16 @@
+ 
+ 의미가 같아 보여도 요구한 행동을 생략하면 다른 작품이 될 수 있다. “손을 들어 상대를 부르려다 망설인다”에서 **손을 올림**, **부르려는 목적**, **망설임**을 나눈다. 손을 올리는 과정이 필수라면 그 움직임을 보존한다. 제시 방식이 열려 있으면 손 일부·시선·그림자·상대 반응 또는 전후 상태로 연결할 수 있다. 바라보기와 이동에도 같은 기준을 쓴다. 명확한 지시는 그대로 수행한다. 수단인지 필수 표현인지 모호한 경우에만 해석을 가설로 밝히고 의미 있는 대체 전에 확인한다.
+ 
++## 대상 이해
++
++움직임·rig·작법을 선택하기 전에 사용자 표현, 확정한 방향, 자산과 원자료에서 **무엇을 표현하는가**를 판별한다. 이름이나 장르만으로 물성·운동 원리·감정을 정하지 않는다. 자료를 먼저 조사하고, 남은 구분이 핵심 해석을 바꿀 때만 질문한다. 기존 자료 사이에 충돌이 있으면 확인한 범위와 미해결 항목을 남긴다. 대상을 재해석한다는 이유로 승인된 행동·캐릭터 정체성·이야기·권한을 바꾸지 않는다.
++
++관련 있는 특징만 고른다. 구조·구동·지지·축·관절·재질·크기, 움직임의 시간 배분·반복, 구도·빛·여백, 다른 대상과의 관계를 본다. 소리의 어택·감쇠·프레이징은 실제 청취 또는 출처가 있을 때만 근거로 쓴다. 직접 관찰, 출처가 뒷받침한 사실, 미확인 가설, 의도한 양식화를 구분한다. 정서·서사 연상은 선택한 가설이며 대상 이름이 보증하는 특성이 아니다.
++
++내부 제작 메모에 필요한 만큼만 **근거 → 대상을 규정하는 특징 → 허용할 움직임·변형·화면/소리 선택 → 실제 관찰한 성공·실패**를 연결한다. 출처 위치와 출력 시각을 붙이고, 출력이 없으면 관찰 대신 미검증으로 남긴다. 긴 필수 양식이나 사용자 설문, 제품 화면의 기능 설명으로 만들지 않는다. 오르골 관련 구분은 [조건부 참고](music-box.md)에 있다. 마리오네트는 확인된 줄·매달림, 종이 컷아웃은 선택한 평면·접합, 태엽 새는 확인된 장치와 허구의 생명성을 출발점으로 삼을 수 있다. 이는 조사할 예이며 모든 대상에 기계 규칙을 적용하라는 뜻이 아니다.
++
++실제 숏에서 **선택한 대상으로 계속 읽히는가**를 별도로 판정한다. 특징을 보여 주는 크기·재질·조명·여백과 행동·소리의 관계를 함께 본다. 매끄러운 움직임이나 해부학적 정합성이 통과해도 대상의 핵심 특징이 사라지면 수정한다. 반대로 대상에 맞는 지지·변형·양식화를 인간 무용수 기준만으로 결함 처리하지 않는다.
++
+ ## 대안과 구현 가능성
+ 
+ 색이나 효과만 바꾼 변형 대신, 정보의 순서·시점·생략·시간 관계가 다른 2–3안을 제시한다. 각 안에는 처음 보거나 들을 것, 기대가 달라지는 사건, 끝에 남을 관계, 생략해 추론할 것, 덜 명확해지는 정보를 넣는다. 각 안에서 기대하는 감정·서사 효과는 가설로 밝히며 실제 관객 반응과 구분한다. 첫 경험의 길이는 작품이 정한다. 모든 작품을 첫 5초의 강한 효과로 시작하지 않는다.
+--- /Users/oozoofrog/.codex/skills/cinewright/references/tools.md	2026-11-08 16:39:53
++++ references/tools.md	2026-11-09 20:52:14
+@@ -24,6 +24,8 @@
+ 
+ [스틸컷 예제](../examples/stillcuts/README.md)는 `node examples/stillcuts/build.mjs`로 생성한다. 복사본의 source를 편집하면 `node <복사본>/rebuild.mjs`를 실행한다. 생성 원본·helper 복사·입출력 계약은 [stillcuts.md](stillcuts.md)에 있다. 검증 기록은 `--store`로 승인된 작업 경로 안에 격리하고, TMPDIR도 같은 작업 경로의 실제 디렉터리로 지정한다.
+ 
++포즈 채널·저작 보정·접촉 목표가 필요하면 [pose tracks API와 공개 materialization 예제](pose-tracks.md)를 사용한다. `materializeKit({project, modules:['pose-tracks']})`는 `motion` 의존성도 복사하고 기존 소유권 검사를 적용한다.
++
+ ## 기록과 재시도
+ 
+ - 기본 저장소는 현재 디렉터리의 `.direction`이다. `--store PATH`로 바꿀 수 있다. 프로젝트 안에 둘 때는 `.direction` 아래를 사용한다.
+@@ -40,3 +42,5 @@
+ `music init/analyze/derive/build/remux`와 `flash JOB_ID`의 입력·예제·한계는 [music.md](music.md)를 따른다. 기존 player가 음악 작업의 웹 검토 UI다. `sync`의 probe 기반 검사 범위는 확장하지 않는다.
+ 
+ Phase02 선택 도구: `node scripts/watercolor-bake.mjs INPUT.json OUTPUT.json`, `node scripts/auto-rig.mjs STATIC.json OUTPUT.rig.json PROFILE.json [--glb]`, `node scripts/retarget-bake.mjs SOURCE.rig.json TARGET.rig.json SOURCE.motion.json OUTPUT.motion.json [OPTIONS.json]`. 실제 입력/상한/출처는 [수채](styles/watercolor-physical.md)·[rig](styles/auto-rig.md)·[retarget](styles/retarget.md) 참조. 스타일 빌드는 기존 `direction style build`를 사용하며 새 watercolor-physical와 expressionist-space rig/motion 자산을 local freeze한다.
++
++새 제작과 실제 출력의 수정은 [작법 실행 경로](craft-execution.md)를 따른다. 공개 크레인 예제는 사용자 저작 geometry·키·시간·pose correction을 materialize/freeze/render하고 두 revision을 기존 job으로 비교한다.
+--- /Users/oozoofrog/.codex/skills/cinewright/tests/phase02-review-fixes.test.mjs	2026-11-08 17:20:48
++++ tests/phase02-review-fixes.test.mjs	2026-11-09 22:30:29
+@@ -1,7 +1,7 @@
+ import test from'node:test';import assert from'node:assert/strict';import fs from'node:fs/promises';import path from'node:path';import os from'node:os';import{createSolver,bakeWatercolor}from'../modules/fx2d/watercolor.mjs';import{autoRig,validateRig}from'../modules/animation/auto-rig.mjs';import{staticBiped}from'../examples/styles/phase02-rig/fixtures.mjs';import{materializeStyle}from'../scripts/materialize-style.mjs';import{fixtureRig,fixtureMotion}from'../examples/styles/phase02-retarget/fixtures.mjs';import{createRetargeter}from'../modules/animation/retarget.mjs';
+ const sum=a=>a.reduce((s,x)=>s+x,0);
+-test('review drying trajectory stays positive/finite and conservative through accepted loss bound',async()=>{const c=JSON.parse(await fs.readFile('evidence/aesthetic-toolkit-phase02-2026-11-08/independent-review/water-drying-repro.json')),solver=createSolver(c);for(let i=0;i<c.frames;i++){const s=solver.advance();for(const a of [s.water,...s.mobile,...s.deposited])assert.ok(a.every(x=>Number.isFinite(x)&&x>=0));assert.ok(Math.abs(sum(s.water)+s.totals.absorbed+s.totals.evaporated-s.totals.waterInput)<1e-10);s.mobile.forEach((a,j)=>assert.ok(Math.abs(sum(a)+sum(s.deposited[j])-s.totals.pigmentInput[j])<1e-10));}assert.equal(bakeWatercolor(c).solver,'grid-transport-3');const tiny={...c,width:2,height:2,frames:100,dt:.1,stepsPerFrame:1,coefficients:{waterDiffusion:0,pigmentDiffusion:0,absorption:4,evaporation:4,deposition:0},events:[{frame:0,x:0,y:0,radius:.1,water:1.5e-323,pigment:[1,2]}]};const small=createSolver(tiny);for(let f=0;f<100;f++){const s=small.advance();assert.ok(s.water.every(x=>x>=0));assert.equal(sum(s.mobile[0]),1);assert.equal(sum(s.mobile[1]),2);}});
++test('review drying trajectory stays positive/finite and conservative through accepted loss bound',async()=>{const c=JSON.parse(await fs.readFile('tests/fixtures/water-drying-repro.json')),solver=createSolver(c);for(let i=0;i<c.frames;i++){const s=solver.advance();for(const a of [s.water,...s.mobile,...s.deposited])assert.ok(a.every(x=>Number.isFinite(x)&&x>=0));assert.ok(Math.abs(sum(s.water)+s.totals.absorbed+s.totals.evaporated-s.totals.waterInput)<1e-10);s.mobile.forEach((a,j)=>assert.ok(Math.abs(sum(a)+sum(s.deposited[j])-s.totals.pigmentInput[j])<1e-10));}assert.equal(bakeWatercolor(c).solver,'grid-transport-3');const tiny={...c,width:2,height:2,frames:100,dt:.1,stepsPerFrame:1,coefficients:{waterDiffusion:0,pigmentDiffusion:0,absorption:4,evaporation:4,deposition:0},events:[{frame:0,x:0,y:0,radius:.1,water:1.5e-323,pigment:[1,2]}]};const small=createSolver(tiny);for(let f=0;f<100;f++){const s=small.advance();assert.ok(s.water.every(x=>x>=0));assert.equal(sum(s.mobile[0]),1);assert.equal(sum(s.mobile[1]),2);}});
+ test('review inverse bind corruption rejected for rig-only new/update preserving bytes',async()=>{const tmp=await fs.realpath(await fs.mkdtemp(path.join(os.tmpdir(),'rig-bind-review-')));try{const a=autoRig(staticBiped(),{profile:'upright-biped'}),source=path.join(tmp,'rig.json'),project=path.join(tmp,'valid'),scene={version:1,style:'expressionist-space',title:'rig only',size:[96,54],fps:24,frames:24,seed:1,camera:{type:'perspective',position:[0,2,7],target:[0,2,0]},materials:{body:{color:'#aabbcc'}},objects:[{id:'a',rig:'assets/rig.json',material:'body'}],lights:[]},assets={'assets/rig.json':source};await fs.writeFile(source,JSON.stringify(a));await materializeStyle({project,style:scene.style,scene,assets});const old=await fs.readFile(path.join(project,'assets/rig.json'));a.inverseBind[0][12]+=1;assert.throws(()=>validateRig(a),/inverse bind/);await fs.writeFile(source,JSON.stringify(a));await assert.rejects(materializeStyle({project:path.join(tmp,'invalid'),style:scene.style,scene,assets}),/inverse bind/);await assert.rejects(materializeStyle({project,style:scene.style,scene,assets,update:true}),/inverse bind/);assert.deepEqual(await fs.readFile(path.join(project,'assets/rig.json')),old);assert.equal((await fs.readdir(tmp)).filter(x=>x==='invalid'||x.startsWith('.style-')).length,0);}finally{await fs.rm(tmp,{recursive:true,force:true});}});
+ test('review contact construction rejects malformed windows/pole/flexion even when contacts disabled',()=>{const s=fixtureRig(),m=fixtureMotion(s);for(const contact of [{windows:{left:[[2,1]],right:[]}},{windows:{left:[[NaN,1]]}},{windows:{left:[[0,4]]}},{windows:{left:[[0]]}},{windows:{wrong:[]}},{windows:{left:[]},pole:[NaN,0,1]},{windows:{left:[],right:[]},minFlexion:2,maxFlexion:1}])assert.throws(()=>createRetargeter(s,s,m,{contact}),/contact/);const r=createRetargeter(s,s,m,{contact:{windows:{left:[],right:[]}}});assert.deepEqual(r.evaluate(1).contacts,[]);r.dispose();});
+-test('recheck threshold donor budget preserves nonnegative water through 320 boundary cases',async()=>{const original=JSON.parse(await fs.readFile('evidence/aesthetic-toolkit-phase02-2026-11-08/independent-recheck/threshold-negative-water.json'));for(let delta=-32;delta<32;delta++)for(const coefficient of [.25,.24999999999999997,.24,.2,0]){const c=structuredClone(original);c.events[0].water=2**-1022+delta*Number.MIN_VALUE;c.coefficients.waterDiffusion=coefficient;const solver=createSolver(c);for(let f=0;f<c.frames;f++){const s=solver.advance();assert.ok(s.water.every(x=>Number.isFinite(x)&&x>=0));assert.ok(Math.abs(sum(s.water)-s.totals.waterInput)<1e-320);for(let j=0;j<s.mobile.length;j++)assert.ok(Math.abs(sum(s.mobile[j])+sum(s.deposited[j])-s.totals.pigmentInput[j])<1e-10);}}});
+-test('recheck zero-coefficient sinks stay exactly zero in both directions across subnormal probes',async()=>{const original=JSON.parse(await fs.readFile('evidence/aesthetic-toolkit-phase02-2026-11-08/independent-recheck/sink-zero-evaporation.json'));for(const reverse of [false,true])for(let multiples=1;multiples<=15;multiples++)for(const rate of [.25,.5,1]){const c=structuredClone(original);c.events[0].water=multiples*Number.MIN_VALUE;c.coefficients.absorption=reverse?0:rate;c.coefficients.evaporation=reverse?rate:0;const s=createSolver(c).advance();assert.equal(reverse?s.totals.absorbed:s.totals.evaporated,0);assert.equal(sum(s.water)+s.totals.absorbed+s.totals.evaporated,s.totals.waterInput);if(multiples===3&&rate===.25)assert.equal(reverse?s.totals.evaporated:s.totals.absorbed,Number.MIN_VALUE);}});
++test('recheck threshold donor budget preserves nonnegative water through 320 boundary cases',async()=>{const original=JSON.parse(await fs.readFile('tests/fixtures/threshold-negative-water.json'));for(let delta=-32;delta<32;delta++)for(const coefficient of [.25,.24999999999999997,.24,.2,0]){const c=structuredClone(original);c.events[0].water=2**-1022+delta*Number.MIN_VALUE;c.coefficients.waterDiffusion=coefficient;const solver=createSolver(c);for(let f=0;f<c.frames;f++){const s=solver.advance();assert.ok(s.water.every(x=>Number.isFinite(x)&&x>=0));assert.ok(Math.abs(sum(s.water)-s.totals.waterInput)<1e-320);for(let j=0;j<s.mobile.length;j++)assert.ok(Math.abs(sum(s.mobile[j])+sum(s.deposited[j])-s.totals.pigmentInput[j])<1e-10);}}});
++test('recheck zero-coefficient sinks stay exactly zero in both directions across subnormal probes',async()=>{const original=JSON.parse(await fs.readFile('tests/fixtures/sink-zero-evaporation.json'));for(const reverse of [false,true])for(let multiples=1;multiples<=15;multiples++)for(const rate of [.25,.5,1]){const c=structuredClone(original);c.events[0].water=multiples*Number.MIN_VALUE;c.coefficients.absorption=reverse?0:rate;c.coefficients.evaporation=reverse?rate:0;const s=createSolver(c).advance();assert.equal(reverse?s.totals.absorbed:s.totals.evaporated,0);assert.equal(sum(s.water)+s.totals.absorbed+s.totals.evaporated,s.totals.waterInput);if(multiples===3&&rate===.25)assert.equal(reverse?s.totals.evaporated:s.totals.absorbed,Number.MIN_VALUE);}});
+--- /Users/oozoofrog/.codex/skills/cinewright/tests/phase02-context.test.mjs	2026-11-08 17:04:08
++++ tests/phase02-context.test.mjs	2026-11-09 22:30:29
+@@ -1,2 +1,2 @@
+ import test from'node:test';import assert from'node:assert/strict';import fs from'node:fs/promises';import os from'node:os';import path from'node:path';import{materializeStyle}from'../scripts/materialize-style.mjs';import{freeze}from'../scripts/revisions.mjs';import{host}from'../scripts/server.mjs';import{browser}from'../scripts/execution.mjs';
+-test('direct watercolor API repeat pixels at 540p/1080p with explicit Canvas readback policies',async()=>{const tmp=await fs.realpath(await fs.mkdtemp(path.join(os.tmpdir(),'phase02-context-')));let client,site;try{const project=path.join(tmp,'project'),scene={version:1,style:'watercolor-physical',title:'context',size:[960,540],frames:192,fps:24,bake:'assets/overlap.json'};await materializeStyle({project,style:scene.style,scene,assets:{'assets/overlap.json':path.resolve('examples/styles/phase02-watercolor/overlap/assets/watercolor.json')}});const snapshot=await freeze(project,path.join(tmp,'store'));site=await host({snapshot});client=await browser();const page=await client.newPage();await page.goto(site.url);await page.waitForFunction(()=>window.direction||window.failure);assert.equal(await page.evaluate(()=>window.failure),undefined);const rows=await page.evaluate(async()=>{window.direction.dispose();const {prepare}=await import('/project/modules/styles/watercolor-physical/index.mjs'),b=await(await fetch('/project/assets/overlap.json')).json(),rows=[];for(const [w,h]of [[960,540],[1920,1080]])for(const mode of [true,false]){const c=document.createElement('canvas');c.width=w;c.height=h;const g=c.getContext('2d',{willReadFrequently:mode}),s={version:1,style:'watercolor-physical',title:'context',size:[w,h],frames:192,fps:24,bake:'assets/overlap.json'},layer=await prepare({width:w,height:h,json:async()=>b},{scene:s}),hashes={};for(const f of [0,7,37,95,191,191,95,37,7,0,191,0]){g.reset();const t={frame:f,exposed:f};layer.draw(g,t,layer.evaluate(t));const data=g.getImageData(0,0,w,h).data,digest=Array.from(new Uint8Array(await crypto.subtle.digest('SHA-256',data))).join();if(hashes[f]&&hashes[f]!==digest)throw Error('context seek differs '+w+'/'+mode+'/'+f);hashes[f]=digest;}rows.push({width:w,height:h,willReadFrequently:g.getContextAttributes().willReadFrequently,comparisons:7});layer.dispose();}return rows;});assert.equal(rows.length,4);assert.deepEqual(rows.map(x=>x.willReadFrequently),[true,false,true,false]);await fs.writeFile('evidence/aesthetic-toolkit-phase02-2026-11-08/coordinator/fix-recheck/context-policy.json',JSON.stringify(rows,null,2));}finally{await client?.close();await site?.close();await fs.rm(tmp,{recursive:true,force:true});}});
++test('direct watercolor API repeat pixels at 540p/1080p with explicit Canvas readback policies',async()=>{const tmp=await fs.realpath(await fs.mkdtemp(path.join(os.tmpdir(),'phase02-context-')));let client,site;try{const project=path.join(tmp,'project'),scene={version:1,style:'watercolor-physical',title:'context',size:[960,540],frames:192,fps:24,bake:'assets/overlap.json'};await materializeStyle({project,style:scene.style,scene,assets:{'assets/overlap.json':path.resolve('examples/styles/phase02-watercolor/overlap/assets/watercolor.json')}});const snapshot=await freeze(project,path.join(tmp,'store'));site=await host({snapshot});client=await browser();const page=await client.newPage();await page.goto(site.url);await page.waitForFunction(()=>window.direction||window.failure);assert.equal(await page.evaluate(()=>window.failure),undefined);const rows=await page.evaluate(async()=>{window.direction.dispose();const {prepare}=await import('/project/modules/styles/watercolor-physical/index.mjs'),b=await(await fetch('/project/assets/overlap.json')).json(),rows=[];for(const [w,h]of [[960,540],[1920,1080]])for(const mode of [true,false]){const c=document.createElement('canvas');c.width=w;c.height=h;const g=c.getContext('2d',{willReadFrequently:mode}),s={version:1,style:'watercolor-physical',title:'context',size:[w,h],frames:192,fps:24,bake:'assets/overlap.json'},layer=await prepare({width:w,height:h,json:async()=>b},{scene:s}),hashes={};for(const f of [0,7,37,95,191,191,95,37,7,0,191,0]){g.reset();const t={frame:f,exposed:f};layer.draw(g,t,layer.evaluate(t));const data=g.getImageData(0,0,w,h).data,digest=Array.from(new Uint8Array(await crypto.subtle.digest('SHA-256',data))).join();if(hashes[f]&&hashes[f]!==digest)throw Error('context seek differs '+w+'/'+mode+'/'+f);hashes[f]=digest;}rows.push({width:w,height:h,willReadFrequently:g.getContextAttributes().willReadFrequently,comparisons:7});layer.dispose();}return rows;});assert.equal(rows.length,4);assert.deepEqual(rows.map(x=>x.willReadFrequently),[true,false,true,false]);await fs.writeFile(path.join(tmp,'context-policy.json'),JSON.stringify(rows,null,2));}finally{await client?.close();await site?.close();await fs.rm(tmp,{recursive:true,force:true});}});
+--- /Users/oozoofrog/.codex/skills/cinewright/tests/watercolor-browser.test.mjs	2026-11-08 16:36:16
++++ tests/watercolor-browser.test.mjs	2026-11-09 22:30:56
+@@ -1,7 +1,7 @@
+ import test from 'node:test';import assert from 'node:assert/strict';import fs from 'node:fs/promises';import path from 'node:path';import {freeze,openRevision} from '../scripts/revisions.mjs';import {host} from '../scripts/server.mjs';import {browser} from '../scripts/execution.mjs';
+ const base='evidence/aesthetic-toolkit-phase02-2026-11-08/watercolor';
+-test('frozen compositor pixel seeks, overlay and matched polygon measurement',async()=>{const lock='.direction/aesthetic-toolkit-phase02-2026-11-08/gpu.lock';await fs.mkdir(lock);let site,client;try{await fs.writeFile(`${lock}/owner`,'watercolor-browser-test');const snapshot=await freeze(path.resolve('examples/styles/phase02-watercolor/wet'),path.resolve('.direction/aesthetic-toolkit-phase02-2026-11-08/watercolor'));site=await host({snapshot});client=await browser();const page=await client.newPage();const urls=[];page.on('request',r=>urls.push(new URL(r.url()).pathname));await page.goto(site.url);await page.waitForFunction(()=>window.direction||window.failure);assert.equal(await page.evaluate(()=>window.failure),undefined);const result=await page.evaluate(async()=>{const d=window.direction,c=document.querySelector('#picture'),g=c.getContext('2d');const pixel=()=>Array.from(g.getImageData(0,0,c.width,c.height).data);const canonical={};for(const f of [0,20,48,96,191]){d.seek(f);canonical[f]=pixel();}for(const f of [191,96,48,20,0,96,191,0,48]){d.seek(f);if(JSON.stringify(pixel())!==JSON.stringify(canonical[f]))throw Error(`pixel seek mismatch ${f}`);}const samples={};for(const f of [0,48,96,191]){d.seek(f);samples[f]=c.toDataURL('image/png').split(',')[1];}
++test('frozen compositor pixel seeks, overlay and matched polygon measurement',async()=>{const lock='.direction/aesthetic-toolkit-phase02-2026-11-08/gpu.lock';await fs.mkdir(path.dirname(lock),{recursive:true});await fs.mkdir(base,{recursive:true});await fs.mkdir(lock);let site,client;try{await fs.writeFile(`${lock}/owner`,'watercolor-browser-test');const snapshot=await freeze(path.resolve('examples/styles/phase02-watercolor/wet'),path.resolve('.direction/aesthetic-toolkit-phase02-2026-11-08/watercolor'));site=await host({snapshot});client=await browser();const page=await client.newPage();const urls=[];page.on('request',r=>urls.push(new URL(r.url()).pathname));await page.goto(site.url);await page.waitForFunction(()=>window.direction||window.failure);assert.equal(await page.evaluate(()=>window.failure),undefined);const result=await page.evaluate(async()=>{const d=window.direction,c=document.querySelector('#picture'),g=c.getContext('2d');const pixel=()=>Array.from(g.getImageData(0,0,c.width,c.height).data);const canonical={};for(const f of [0,20,48,96,191]){d.seek(f);canonical[f]=pixel();}for(const f of [191,96,48,20,0,96,191,0,48]){d.seek(f);if(JSON.stringify(pixel())!==JSON.stringify(canonical[f]))throw Error(`pixel seek mismatch ${f}`);}const samples={};for(const f of [0,48,96,191]){d.seek(f);samples[f]=c.toDataURL('image/png').split(',')[1];}
+  const {prepare,validateScene,collectAssets}=await import('/project/modules/styles/watercolor-physical/index.mjs');const {drawWash}=await import('/project/modules/fx2d/wash.mjs');const b=await (await fetch('/project/assets/watercolor.json')).json();const scene=d.manifest.layers[0].config.scene;const overlay={version:1,style:'line-wash',title:'overlay',size:scene.size,fps:scene.fps,frames:scene.frames,seed:17,washes:[],strokes:[{id:'line',points:[[100,100,1],[800,400,1]],width:5,color:'#151515',from:0,to:10}]};validateScene({...scene,overlay});let rejected=false;try{validateScene({...scene,overlay:{...overlay,frames:3}})}catch{rejected=true}if(!rejected)throw Error('overlay mismatch accepted');const refs=collectAssets({...scene,overlay});const api={width:960,height:540,json:async p=>{if(p!==scene.bake)throw Error('unexpected asset');return b}};const layer=await prepare(api,{scene:{...scene,overlay}});const off=document.createElement('canvas');off.width=960;off.height=540;const ctx=off.getContext('2d');const t={frame:48,exposed:48};layer.draw(ctx,t,layer.evaluate(t));if(off.toDataURL().split(',')[1]===samples[48])throw Error('overlay missing');const overlayPng=off.toDataURL().split(',')[1];layer.dispose();layer.dispose();let disposed=false;try{layer.evaluate(t)}catch{disposed=true}if(!disposed)throw Error('dispose did not reject');
+  const bare=await prepare(api,{scene});const circle=Array.from({length:64},(_,i)=>[400+60*Math.cos(i*Math.PI/32),260+60*Math.sin(i*Math.PI/32)]);const support=()=>{const a=ctx.getImageData(0,0,960,540).data;let n=0;for(let i=0;i<a.length;i+=4)if(Math.abs(a[i]-250)+Math.abs(a[i+1]-246)+Math.abs(a[i+2]-233)>12)n++;return n};const rows=[];for(const f of [48,96,191]){const tt={frame:f,exposed:f};let start=performance.now();for(let k=0;k<12;k++)bare.draw(ctx,tt,bare.evaluate(tt));const physicalMs=(performance.now()-start)/12,physicalSupport=support();ctx.fillStyle='#faf6e9';ctx.fillRect(0,0,960,540);start=performance.now();for(let k=0;k<12;k++){ctx.fillStyle='#faf6e9';ctx.fillRect(0,0,960,540);drawWash(ctx,{points:circle,color:'#2654a2',alpha:.25,edge:.15,layers:2});}const polygonMs=(performance.now()-start)/12,polygonSupport=support();rows.push({frame:f,physicalMs,polygonMs,physicalSupport,polygonSupport});}const polygonPng=off.toDataURL().split(',')[1];bare.dispose();d.dispose();let rejectedAfterDispose=false;try{d.seek(0)}catch{rejectedAfterDispose=true}if(!rejectedAfterDispose)throw Error('compositor dispose');return {samples,overlayPng,polygonPng,refs,rows};});assert.deepEqual(result.refs,[{path:'assets/watercolor.json',kind:'watercolor-bake'}]);assert.ok(urls.every(u=>u==='/'||u==='/revision'||u==='/audio.wav'||u.startsWith('/runtime/')||u.startsWith('/project/')),urls.join('\n'));await fs.mkdir(base,{recursive:true});for(const [f,data] of Object.entries(result.samples))await fs.writeFile(`${base}/wet-frame-${f}.png`,Buffer.from(data,'base64'));await fs.writeFile(`${base}/overlay-frame-48.png`,Buffer.from(result.overlayPng,'base64'));await fs.writeFile(`${base}/polygon-frame.png`,Buffer.from(result.polygonPng,'base64'));await fs.writeFile(`${base}/browser-measurements.json`,JSON.stringify({requests:urls,benchmark:result.rows},null,2));}finally{await client?.close();await site?.close();await fs.unlink(`${lock}/owner`);await fs.rmdir(lock);}});
+-test('second frozen bake: reverse, permutation, end to start and dispose',async()=>{const lock='.direction/aesthetic-toolkit-phase02-2026-11-08/gpu.lock';await fs.mkdir(lock);let site,client;try{await fs.writeFile(`${lock}/owner`,'watercolor-browser-test');const snapshot=await freeze(path.resolve('examples/styles/phase02-watercolor/overlap'),path.resolve('.direction/aesthetic-toolkit-phase02-2026-11-08/watercolor'));site=await host({snapshot});client=await browser();const page=await client.newPage();await page.goto(site.url);await page.waitForFunction(()=>window.direction||window.failure);assert.equal(await page.evaluate(()=>window.failure),undefined);assert.equal(await page.evaluate(()=>{const d=window.direction,c=document.querySelector('#picture');const frames=[0,45,48,96,144,191],pixels={};for(const f of frames){d.seek(f);pixels[f]=c.toDataURL();}for(const f of [191,144,96,48,45,0,191,0,96,45]){d.seek(f);if(c.toDataURL()!==pixels[f])return false;}d.dispose();try{d.seek(0);return false}catch{return true}}),true);}finally{await client?.close();await site?.close();await fs.unlink(`${lock}/owner`);await fs.rmdir(lock);}});
+-test('solver robustness change preserves every original demo pixel',async()=>{const lock='.direction/aesthetic-toolkit-phase02-2026-11-08/gpu.lock';await fs.mkdir(lock);let client,site;try{await fs.writeFile(`${lock}/owner`,'watercolor-browser-test');client=await browser();const store=path.resolve('.direction/aesthetic-toolkit-phase02-2026-11-08/watercolor');const results={};for(const [variant,id] of [['wet','6891d13dbba04628391f14285703f6b455f42a7733207de95bbb934c93a3c1e0'],['overlap','951327cfae243943e788313c94b7f2420088695a65deaac5ba6d6b3f3d749c59']]){const snaps=[await openRevision(store,id),await freeze(path.resolve(`examples/styles/phase02-watercolor/${variant}`),store)];const hashes=[];for(const snapshot of snaps){site=await host({snapshot});const page=await client.newPage();await page.goto(site.url);await page.waitForFunction(()=>window.direction||window.failure);assert.equal(await page.evaluate(()=>window.failure),undefined);hashes.push(await page.evaluate(async()=>{const d=window.direction,c=document.querySelector('#picture'),g=c.getContext('2d'),a=[];for(let f=0;f<192;f++){d.seek(f);const h=await crypto.subtle.digest('SHA-256',g.getImageData(0,0,c.width,c.height).data);a.push(Array.from(new Uint8Array(h),b=>b.toString(16).padStart(2,'0')).join(''));}d.dispose();return a;}));await page.close();await site.close();site=null;}assert.deepEqual(hashes[1],hashes[0]);results[variant]={frames:hashes[0].length,identical:true};}await fs.writeFile(`${base}/original-revision-pixel-comparison.json`,JSON.stringify(results,null,2));}finally{await client?.close();await site?.close();await fs.unlink(`${lock}/owner`);await fs.rmdir(lock);}});
++test('second frozen bake: reverse, permutation, end to start and dispose',async()=>{const lock='.direction/aesthetic-toolkit-phase02-2026-11-08/gpu.lock';await fs.mkdir(path.dirname(lock),{recursive:true});await fs.mkdir(base,{recursive:true});await fs.mkdir(lock);let site,client;try{await fs.writeFile(`${lock}/owner`,'watercolor-browser-test');const snapshot=await freeze(path.resolve('examples/styles/phase02-watercolor/overlap'),path.resolve('.direction/aesthetic-toolkit-phase02-2026-11-08/watercolor'));site=await host({snapshot});client=await browser();const page=await client.newPage();await page.goto(site.url);await page.waitForFunction(()=>window.direction||window.failure);assert.equal(await page.evaluate(()=>window.failure),undefined);assert.equal(await page.evaluate(()=>{const d=window.direction,c=document.querySelector('#picture');const frames=[0,45,48,96,144,191],pixels={};for(const f of frames){d.seek(f);pixels[f]=c.toDataURL();}for(const f of [191,144,96,48,45,0,191,0,96,45]){d.seek(f);if(c.toDataURL()!==pixels[f])return false;}d.dispose();try{d.seek(0);return false}catch{return true}}),true);}finally{await client?.close();await site?.close();await fs.unlink(`${lock}/owner`);await fs.rmdir(lock);}});
++test('solver robustness change preserves every original demo pixel',async t=>{if(!await fs.stat('.direction/aesthetic-toolkit-phase02-2026-11-08/watercolor/revisions/6891d13dbba04628391f14285703f6b455f42a7733207de95bbb934c93a3c1e0').catch(()=>null)){t.skip('Historical private revision unavailable; current frozen seek tests run separately');return;}const lock='.direction/aesthetic-toolkit-phase02-2026-11-08/gpu.lock';await fs.mkdir(path.dirname(lock),{recursive:true});await fs.mkdir(base,{recursive:true});await fs.mkdir(lock);let client,site;try{await fs.writeFile(`${lock}/owner`,'watercolor-browser-test');client=await browser();const store=path.resolve('.direction/aesthetic-toolkit-phase02-2026-11-08/watercolor');const results={};for(const [variant,id] of [['wet','6891d13dbba04628391f14285703f6b455f42a7733207de95bbb934c93a3c1e0'],['overlap','951327cfae243943e788313c94b7f2420088695a65deaac5ba6d6b3f3d749c59']]){const snaps=[await openRevision(store,id),await freeze(path.resolve(`examples/styles/phase02-watercolor/${variant}`),store)];const hashes=[];for(const snapshot of snaps){site=await host({snapshot});const page=await client.newPage();await page.goto(site.url);await page.waitForFunction(()=>window.direction||window.failure);assert.equal(await page.evaluate(()=>window.failure),undefined);hashes.push(await page.evaluate(async()=>{const d=window.direction,c=document.querySelector('#picture'),g=c.getContext('2d'),a=[];for(let f=0;f<192;f++){d.seek(f);const h=await crypto.subtle.digest('SHA-256',g.getImageData(0,0,c.width,c.height).data);a.push(Array.from(new Uint8Array(h),b=>b.toString(16).padStart(2,'0')).join(''));}d.dispose();return a;}));await page.close();await site.close();site=null;}assert.deepEqual(hashes[1],hashes[0]);results[variant]={frames:hashes[0].length,identical:true};}await fs.writeFile(`${base}/original-revision-pixel-comparison.json`,JSON.stringify(results,null,2));}finally{await client?.close();await site?.close();await fs.unlink(`${lock}/owner`);await fs.rmdir(lock);}});
+--- /Users/oozoofrog/.codex/skills/cinewright/tests/watercolor.test.mjs	2026-11-08 16:33:44
++++ tests/watercolor.test.mjs	2026-11-09 22:30:29
+@@ -5,5 +5,5 @@
+ test('determinism, seek, bounds and cancellation',()=>{const a=bakeWatercolor(input()),b=bakeWatercolor(input());validateBake(a);const hash=v=>createHash('sha256').update(JSON.stringify(v)).digest('hex');assert.equal(hash(a),hash(b));const c=input();c.coefficients.absorption=.06;assert.notEqual(hash(a),hash(bakeWatercolor(c)));assert.deepEqual(decodeWatercolor(a,0),decodeWatercolor(b,0));assert.throws(()=>decodeWatercolor(a,-1));const d=input();d.dt=1;d.coefficients.waterDiffusion=1;assert.throws(()=>bakeWatercolor(d),/unstable/);assert.throws(()=>bakeWatercolor(input(),{signal:AbortSignal.abort()}),/cancelled/);});
+ test('frozen style loads only bake; seeks and disposes',async()=>{const bake=bakeWatercolor(input()),scene={version:1,style:'watercolor-physical',size:[640,360],fps:24,frames:12,bake:'assets/water.json'};assert.deepEqual(collectAssets(scene),[{path:'assets/water.json',kind:'watercolor-bake'}]);const p=await prepare({width:640,height:360,json:async path=>{assert.equal(path,scene.bake);return bake;}},{scene});const first=p.evaluate({frame:0});p.evaluate({frame:11});assert.deepEqual(p.evaluate({frame:0}),first);p.dispose();assert.throws(()=>p.evaluate({frame:0}),/disposed/);});
+ test('CLI refuses existing destination and leaves no partial output on invalid input',async()=>{const {mkdtemp,writeFile,readFile,readdir,rm}=await import('node:fs/promises');const {spawnSync}=await import('node:child_process');const dir=await mkdtemp('evidence/aesthetic-toolkit-phase02-2026-11-08/watercolor/cli-');try{const config=`${dir}/input.json`,out=`${dir}/out.json`;await writeFile(config,JSON.stringify(input()));await writeFile(out,'authored');let r=spawnSync(process.execPath,['scripts/watercolor-bake.mjs',config,out]);assert.notEqual(r.status,0);assert.equal(await readFile(out,'utf8'),'authored');await writeFile(config,'{}');r=spawnSync(process.execPath,['scripts/watercolor-bake.mjs',config,`${dir}/missing.json`]);assert.notEqual(r.status,0);assert.deepEqual((await readdir(dir)).sort(),['input.json','out.json']);}finally{await rm(dir,{recursive:true,force:true});}});
+-test('active CLI cancellation and failed publication clean up temporary file',async()=>{const fs=await import('node:fs/promises'),{spawn}=await import('node:child_process');const dir=await fs.mkdtemp('evidence/aesthetic-toolkit-phase02-2026-11-08/watercolor/cli-active-');try{const c=input();Object.assign(c,{width:256,height:256,frames:200,stepsPerFrame:100,budgetBytes:268435456});c.events=[{frame:0,x:128,y:128,radius:5,water:10,pigment:[4,0]}];const config=`${dir}/config.json`;await fs.writeFile(config,JSON.stringify(c));const child=spawn(process.execPath,['scripts/watercolor-bake.mjs',config,`${dir}/cancel.json`],{stdio:'ignore'});await new Promise(r=>setTimeout(r,250));assert.equal(child.exitCode,null,'worker must still be running');const exit=new Promise(r=>child.once('exit',(code,signal)=>r({code,signal})));child.kill('SIGTERM');await exit;assert.deepEqual((await fs.readdir(dir)).sort(),['config.json']);const small=input();await fs.writeFile(config,JSON.stringify(small));await fs.mkdir(`${dir}/destination`);const failed=spawn(process.execPath,['scripts/watercolor-bake.mjs',config,`${dir}/destination`],{stdio:'ignore'});const outcome=await new Promise(r=>failed.once('exit',(code,signal)=>r({code,signal})));assert.notEqual(outcome.code,0);assert.deepEqual((await fs.readdir(dir)).sort(),['config.json','destination']);}finally{await fs.rm(dir,{recursive:true,force:true});}});
++test('active CLI cancellation and failed publication clean up temporary file',async()=>{const fs=await import('node:fs/promises'),{spawn}=await import('node:child_process');const dir=await fs.mkdtemp((await import('node:os')).tmpdir()+'/cine-watercolor-cli-active-');try{const c=input();Object.assign(c,{width:256,height:256,frames:200,stepsPerFrame:100,budgetBytes:268435456});c.events=[{frame:0,x:128,y:128,radius:5,water:10,pigment:[4,0]}];const config=`${dir}/config.json`;await fs.writeFile(config,JSON.stringify(c));const child=spawn(process.execPath,['scripts/watercolor-bake.mjs',config,`${dir}/cancel.json`],{stdio:'ignore'});await new Promise(r=>setTimeout(r,250));assert.equal(child.exitCode,null,'worker must still be running');const exit=new Promise(r=>child.once('exit',(code,signal)=>r({code,signal})));child.kill('SIGTERM');await exit;assert.deepEqual((await fs.readdir(dir)).sort(),['config.json']);const small=input();await fs.writeFile(config,JSON.stringify(small));await fs.mkdir(`${dir}/destination`);const failed=spawn(process.execPath,['scripts/watercolor-bake.mjs',config,`${dir}/destination`],{stdio:'ignore'});const outcome=await new Promise(r=>failed.once('exit',(code,signal)=>r({code,signal})));assert.notEqual(outcome.code,0);assert.deepEqual((await fs.readdir(dir)).sort(),['config.json','destination']);}finally{await fs.rm(dir,{recursive:true,force:true});}});
+ test('extreme dilute water remains finite, positivity at stability boundary',()=>{const c=input();c.width=2;c.height=2;c.frames=30;c.stepsPerFrame=1;c.dt=1;c.coefficients={waterDiffusion:.25,pigmentDiffusion:0,absorption:0,evaporation:0,deposition:0};c.events=[{frame:0,x:0,y:0,radius:.1,water:1e-320,pigment:[1,0]}];const solver=createSolver(c);for(let i=0;i<c.frames;i++){const s=solver.advance();near(sum(s.mobile[0])+sum(s.deposited[0]),1);for(const v of [...s.water,...s.mobile.flat()])assert.ok(Number.isFinite(v)&&v>=0);}});
+--- /Users/oozoofrog/.codex/skills/cinewright/tests/cinematic-implementation.test.mjs	2026-11-08 20:28:50
++++ tests/cinematic-implementation.test.mjs	2026-11-09 22:29:49
+@@ -42,7 +42,7 @@
+  const s=await read('recipes/styles/expressionist-space/station.json'),o=s.objects.find(o=>o.id==='traveler');assert.equal(o.visible,undefined);assert.ok(s.objects.some(o=>o.id==='door-jamb-occluder'));assert.equal(o.exposure.every,1);
+  let last=sampleKeys(o,70).position;for(let f=71;f<=156;f++){const p=sampleKeys(o,f).position;assert.ok(Math.hypot(...p.map((v,i)=>v-last[i]))<.2);last=p;}
+  assert.deepEqual(s.objects.find(o=>o.id==='train-body').visible,[112,192]);
+- const old=await read('evidence/cinematic-animation-implementation-2026-11-08/baseline/recipes/styles/expressionist-space/station.json');assert.deepEqual(s.objects.find(o=>o.id==='early-shadow'),old.objects.find(o=>o.id==='early-shadow'));
++ const old=await read('tests/fixtures/station-before-cinematic.json');assert.deepEqual(s.objects.find(o=>o.id==='early-shadow'),old.objects.find(o=>o.id==='early-shadow'));
+ });
+ 
+ test('public station and designed reader builders package their actual authored assets',async t=>{
+--- /Users/oozoofrog/.codex/skills/cinewright/scripts/materialize-kit.mjs	2026-11-08 16:35:44
++++ scripts/materialize-kit.mjs	2026-11-09 20:41:37
+@@ -5,6 +5,7 @@
+ 
+ const library = fileURLToPath(new URL('../modules/', import.meta.url));
+ const catalog = {
++  'pose-tracks': {file:'animation/pose-tracks.mjs', dependencies:['motion']},
+   exposure: {file:'animation/exposure.mjs', dependencies:[]},
+   rig2d: {file:'animation/rig2d.mjs',dependencies:[]},
+   shot: {file:'animation/shot.mjs',dependencies:[]},
+--- /Users/oozoofrog/.codex/skills/cinewright/examples/music-box-dancer/porcelain/README.md	2026-11-08 00:55:24
++++ examples/music-box-dancer/porcelain/README.md	2026-11-09 22:30:56
+@@ -56,7 +56,7 @@
+   [r180 license](https://github.com/mrdoob/three.js/blob/r180/LICENSE).
+ - Existing Cinewright `examples/harbor-landfall/instrument.mjs` establishes the
+   offscreen WebGL canvas → Canvas2D composition contract used here.
+-- Local Showreel reference: `/Users/oozoofrog/.codex/skills/showreel/`;
++- Local Showreel reference: the locally installed `showreel` skill;
+   `references/engine.md` (WebGL / exact `mixer.setTime` / preserved drawing buffer),
+   `references/techniques.md` (time-based evaluation and geometric rhythm),
+   `assets/engine/engine.js`, `assets/engine/fx.js` (helper/FX architecture).

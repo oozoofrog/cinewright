@@ -1,0 +1,291 @@
+{
+  "version": 1,
+  "styles": [
+    {
+      "id": "silhouette-theatre",
+      "version": "1.0.0",
+      "status": "implemented",
+      "entry": "modules/styles/silhouette-theatre/index.mjs",
+      "exports": [
+        "prepare",
+        "validateScene",
+        "collectAssets"
+      ],
+      "dependencies": [],
+      "renderer": "Canvas2D",
+      "input": "scene v1, SVG/commands/alpha assets, hinge rigs, poses and planes",
+      "output": "manifest v1 Canvas layer",
+      "units": "logical px, radians, integer frames",
+      "deterministic": "absolute frame and independent pose exposure",
+      "limits": {
+        "planes": 16,
+        "objects": 256,
+        "shapes": 512,
+        "bones": 256,
+        "sizeMax": 4096
+      },
+      "unsupported": [
+        "automatic photographic segmentation"
+      ],
+      "examples": [
+        "forest",
+        "harbor",
+        "portrait"
+      ],
+      "evidence": "evidence/aesthetic-toolkit-2026-11-08/A; harbor-closed-reveal supersedes earlier harbor video",
+      "reference": "references/styles/silhouette-theatre.md",
+      "fallback": "explicit alternate 2D style or authored bake; no silent substitution",
+      "compatibility": "manifest v1, optional dispose, existing typed channels",
+      "colorAlpha": "sRGB authored; premultiplied Canvas composition; opaque H264 yuv420p export",
+      "validation": "two independent reviews; reported defects corrected and regression-tested by coordinator; human acceptance separate",
+      "support": [
+        "compound SVG/commands/alpha",
+        "parent hinge rigs and poses",
+        "independent exposure/camera",
+        "multiplane occlusion and coverage diagnosis",
+        "iris/curtain/match mask",
+        "authored shadow/halo/paper-edge"
+      ],
+      "dispose": "owned pixel stage and references, idempotent",
+      "assetValidation": "required alpha images: local header/XML restrictions plus actual Chromium decode before new/update publication",
+      "maturity": "experimental API and limited authored-asset scope"
+    },
+    {
+      "id": "line-wash",
+      "version": "1.0.0",
+      "status": "implemented",
+      "entry": "modules/styles/line-wash/index.mjs",
+      "exports": [
+        "prepare",
+        "validateScene"
+      ],
+      "dependencies": [],
+      "renderer": "Canvas2D",
+      "input": "authored strokes/washes/erasure/redraw scene v1",
+      "output": "manifest v1 Canvas layer",
+      "units": "logical px and integer frames",
+      "deterministic": "absolute stroke age and stable material seed",
+      "unsupported": [
+        "fluid simulation",
+        "physical paper absorption",
+        "automatic rotoscoping"
+      ],
+      "examples": [
+        "rain",
+        "commuter",
+        "portrait"
+      ],
+      "evidence": "evidence/aesthetic-toolkit-2026-11-08/B",
+      "reference": "references/styles/line-wash.md",
+      "fallback": "explicit alternate 2D style or authored bake; no silent substitution",
+      "compatibility": "manifest v1, optional dispose, existing typed channels",
+      "colorAlpha": "sRGB authored; premultiplied Canvas composition; opaque H264 yuv420p export",
+      "validation": "two independent reviews; reported defects corrected and regression-tested by coordinator; human acceptance separate",
+      "support": [
+        "cubic and polyline pressure centerlines",
+        "arc-length reveal",
+        "seeded dabs and fixed paper grain",
+        "polygon glaze and edge approximation",
+        "corresponding point bank and hold/boil",
+        "event erasure residue",
+        "hatch and stipple",
+        "rectangular paper-space erasure mask with residue"
+      ],
+      "limits": {
+        "strokes": 1000,
+        "washes": 256,
+        "cubicSegments": 1024,
+        "flattenDepth": 20,
+        "dabsPerStroke": 10000,
+        "maskedEventsPerStroke": 1,
+        "flattenedPoints": 65536,
+        "preparedScenePoints": 250000,
+        "coordinateMagnitude": 1000000,
+        "widthMax": 4096
+      },
+      "publicEffects": [
+        "stroke",
+        "brush",
+        "wash",
+        "hatch",
+        "erase",
+        "redraw"
+      ],
+      "dispose": "dispose is idempotent; no externally owned resources",
+      "maturity": "experimental API and limited authored-asset scope"
+    },
+    {
+      "id": "expressionist-space",
+      "version": "1.1.0",
+      "status": "implemented",
+      "entry": "modules/styles/expressionist-space/index.mjs",
+      "exports": [
+        "prepare",
+        "validateScene"
+      ],
+      "dependencies": [
+        {
+          "id": "three",
+          "version": "0.180.0",
+          "license": "MIT"
+        }
+      ],
+      "renderer": "WebGL2 to Canvas2D",
+      "input": "authored mesh/UV/light/clip scene v1",
+      "output": "manifest v1 transparent WebGL composite",
+      "units": "world units and integer frames",
+      "deterministic": "rest geometry and absolute clip evaluation",
+      "unsupported": [
+        "compressed GLB",
+        "automatic UV",
+        "arbitrary mesh rigging"
+      ],
+      "examples": [
+        "station",
+        "laboratory",
+        "portrait",
+        "effects"
+      ],
+      "evidence": "evidence/aesthetic-toolkit-2026-11-08/C",
+      "reference": "references/styles/expressionist-space.md",
+      "fallback": "explicit alternate 2D style or authored bake; no silent substitution",
+      "compatibility": "manifest v1, optional dispose, existing typed channels",
+      "colorAlpha": "sRGB authored; premultiplied Canvas composition; opaque H264 yuv420p export",
+      "validation": "two independent reviews; reported defects corrected and regression-tested by coordinator; human acceptance separate",
+      "support": [
+        "UV-anchored four-density atlas and toon ramp",
+        "rigid inverted-hull outline and authored internal lines",
+        "physical shadow maps, spotlight gobo and distinct graphic shadow overlay",
+        "absolute rest deformation",
+        "analytic instanced dust",
+        "camera-depth fog",
+        "orthographic/perspective and independently exposed actor/camera/light",
+        "absolute basic embedded GLB clip loop/weight/timeScale/exposure",
+        "local frozen addon transitive closure plus license",
+        "idempotent cleanup and partial prepare failure cleanup",
+        "local inferred biped rig JSON and source-independent retarget bake",
+        "SkinnedMesh UV hatch and skinned inverted hull outline",
+        "embedded uncompressed GLB skins and absolute clips"
+      ],
+      "limits": {
+        "objects": 256,
+        "materials": 64,
+        "lights": 8,
+        "dust": 4096,
+        "bufferVertices": 50000,
+        "linesPerObject": 128,
+        "pointsPerLine": 4096,
+        "sizeMax": 4096,
+        "unsupported": [
+          "required GLTF extensions",
+          "remote/external dependencies",
+          "compression",
+          "arbitrary mesh rigging",
+          "skinned rest deformation/internal lines",
+          "automatic internal line extraction",
+          "volumetrics",
+          "cross-GPU pixel equality"
+        ],
+        "glbBytes": 16777216
+      },
+      "publicExports": {
+        "modules/styles/expressionist-space/index.mjs": [
+          "prepare",
+          "validateScene",
+          "sampleKeys",
+          "collectAssets"
+        ],
+        "modules/styles/expressionist-space/validate.mjs": [
+          "validateScene",
+          "validateTransform"
+        ],
+        "modules/animation/clip3d.mjs": [
+          "prepareClip3D"
+        ],
+        "modules/fx3d/glb.mjs": [
+          "inspectGLB",
+          "loadLocalGLB"
+        ],
+        "modules/fx3d/adapter.mjs": [
+          "createCanvasAdapter"
+        ],
+        "modules/fx3d/deform.mjs": [
+          "prepareDeformation"
+        ],
+        "modules/fx3d/material.mjs": [
+          "createHatchAtlas",
+          "createHatchMaterial"
+        ],
+        "modules/fx3d/outline.mjs": [
+          "createRigidOutline",
+          "createInternalLines"
+        ],
+        "modules/fx3d/geometry.mjs": [
+          "createGeometry",
+          "validateGeometry"
+        ],
+        "modules/fx3d/light.mjs": [
+          "createLightRig",
+          "createShadowOverlay",
+          "setDepthFog"
+        ],
+        "modules/fx3d/particles.mjs": [
+          "sampleDust",
+          "createDust"
+        ],
+        "scripts/style-vendor-expressionist.mjs": [
+          "collectExpressionistVendor"
+        ],
+        "modules/animation/auto-rig.mjs": [
+          "autoRig",
+          "validateRig",
+          "createRiggedMesh",
+          "RIG_VERSION"
+        ],
+        "modules/animation/retarget.mjs": [
+          "createRetargeter",
+          "bakeRetarget",
+          "createRetargetPlayer",
+          "validateRetargetMotion",
+          "solveTwoBoneIK"
+        ],
+        "modules/fx3d/skinned-outline.mjs": [
+          "createSkinnedOutline"
+        ]
+      },
+      "dispose": "style owns loaded geometry/material/texture, shared atlas and ramps, outline/line resources, instanced mesh, light shadow targets, mixers, renderer/context; standalone helpers own their returned resources except outline geometry and clip root",
+      "maturity": "experimental API and limited authored-asset scope"
+    },
+    {
+      "id": "watercolor-physical",
+      "version": "1.0.0",
+      "status": "experimental",
+      "entry": "modules/styles/watercolor-physical/index.mjs",
+      "exports": [
+        "prepare",
+        "validateScene",
+        "collectAssets"
+      ],
+      "dependencies": [],
+      "renderer": "Canvas2D from deterministic CPU grid bake",
+      "input": "versioned grid bake with dry-empty initial state and timed brush events",
+      "output": "manifest v1 Canvas layer",
+      "units": "cell amounts, seconds, integer frames",
+      "deterministic": "fixed step CPU bake; direct frame lookup",
+      "reference": "references/styles/watercolor-physical.md",
+      "support": [
+        "closed-grid conservative water transport",
+        "pigment advection/diffusion and paper deposition",
+        "absorption/evaporation sinks",
+        "source-independent frozen decode"
+      ],
+      "unsupported": [
+        "scientifically complete real paint",
+        "turbulence or multilayer fibre optics",
+        "cross-engine bitwise numeric equality"
+      ],
+      "evidence": "evidence/aesthetic-toolkit-phase02-2026-11-08/watercolor",
+      "maturity": "experimental bounded model"
+    }
+  ]
+}

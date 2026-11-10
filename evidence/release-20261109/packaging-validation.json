@@ -1,0 +1,13 @@
+{
+  "versions": {
+    "package.json": "1.1.0",
+    "package-lock.json": "1.1.0",
+    "plugin.json": "1.1.0",
+    ".claude-plugin/plugin.json": "1.1.0",
+    ".agents/plugins/marketplace.json": "1.1.0",
+    ".claude-plugin/marketplace.json": "1.1.0"
+  },
+  "entrypoint": "skills/cinewright/SKILL.md -> ../../SKILL.md",
+  "runtimeValidation": "copied npm test and doctor/init/freeze",
+  "staticImportExceptions": "effects2d modules and GLTFLoader vendor are copied by materializers"
+}

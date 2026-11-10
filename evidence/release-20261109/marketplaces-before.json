@@ -1,0 +1,52 @@
+{
+  "marketplaces": [
+    {
+      "name": "personal",
+      "root": "/Users/oozoofrog"
+    },
+    {
+      "name": "openai-primary-runtime",
+      "root": "/Users/oozoofrog/.cache/codex-runtimes/codex-primary-runtime/plugins/openai-primary-runtime",
+      "marketplaceSource": {
+        "sourceType": "local",
+        "source": "/Users/oozoofrog/.cache/codex-runtimes/codex-primary-runtime/plugins/openai-primary-runtime"
+      }
+    },
+    {
+      "name": "openai-bundled",
+      "root": "/Users/oozoofrog/.codex/.tmp/bundled-marketplaces/openai-bundled",
+      "marketplaceSource": {
+        "sourceType": "local",
+        "source": "/Users/oozoofrog/.codex/.tmp/bundled-marketplaces/openai-bundled"
+      }
+    },
+    {
+      "name": "cinewright-local",
+      "root": "/Users/oozoofrog/.codex/.tmp/marketplaces/cinewright-local",
+      "marketplaceSource": {
+        "sourceType": "git",
+        "source": "https://github.com/oozoofrog/cinewright.git"
+      }
+    },
+    {
+      "name": "oozoofrog-plugin",
+      "root": "/Users/oozoofrog/.codex/.tmp/marketplaces/oozoofrog-plugin",
+      "marketplaceSource": {
+        "sourceType": "git",
+        "source": "git@github.com:oozoofrog/oozoofrog-plugin"
+      }
+    },
+    {
+      "name": "ponytail",
+      "root": "/Users/oozoofrog/.codex/.tmp/marketplaces/ponytail",
+      "marketplaceSource": {
+        "sourceType": "git",
+        "source": "https://github.com/DietrichGebert/ponytail.git"
+      }
+    },
+    {
+      "name": "openai-curated",
+      "root": "/Users/oozoofrog/.codex/.tmp/plugins"
+    }
+  ]
+}

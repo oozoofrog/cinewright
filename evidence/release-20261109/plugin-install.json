@@ -1,0 +1,8 @@
+{
+  "pluginId": "cinewright@cinewright-local",
+  "name": "cinewright",
+  "marketplaceName": "cinewright-local",
+  "version": "1.1.0",
+  "installedPath": "/Users/oozoofrog/.codex/plugins/cache/cinewright-local/cinewright/1.1.0",
+  "authPolicy": "ON_INSTALL"
+}

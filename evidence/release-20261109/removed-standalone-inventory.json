@@ -1,0 +1,1414 @@
+[
+  {
+    "path": "plugin.json",
+    "sha256": "d5aae57d3f97f83be961fc47da5958fa3cfae2d246922d92c48e440fce73828c"
+  },
+  {
+    "path": "README.md",
+    "sha256": "275818a362901d8f633533e4d1a1294eb22a55369f02e0b0fb83b3fcfe5751d2"
+  },
+  {
+    "path": "package-lock.json",
+    "sha256": "bed5348ff23d04b1be7db2e6e3fae77bf5b46a7ea8d2b966b5205fce601f3a75"
+  },
+  {
+    "path": "package.json",
+    "sha256": "ad32cc7114607f108a462ee30347044f1b3832ef16f54b9c4cd342f07be210f4"
+  },
+  {
+    "path": "SKILL.md",
+    "sha256": "882979ea3ea8044ddfaab1423d0fde2320f6417094fac53df50d12f729e7a39f"
+  },
+  {
+    "path": "references/music.md",
+    "sha256": "5a7d38ee9e18b3ca50b03ecde9b5a2e850503dfe6e1dd550ecec2482655dbb8c"
+  },
+  {
+    "path": "references/stillcuts.md",
+    "sha256": "f9d5e3ee87a212d9d381e061aaa7b7e5ef1d38a6afd690a6478325a0eaaba77b"
+  },
+  {
+    "path": "references/craft.md",
+    "sha256": "778a5fe56060355f3e1bafe60a5af4b6e5469e5e872aceaa3c1f651af58a853c"
+  },
+  {
+    "path": "references/direction.md",
+    "sha256": "a6d89f377710957c7c2d602d62a47fbfc08a8c1ffb5f6991c5e29277b2679500"
+  },
+  {
+    "path": "references/format.md",
+    "sha256": "0e6b14b032bb0d2f9ed3d587f7c0630569bf9ce8f862248b2473a213364c9286"
+  },
+  {
+    "path": "references/tools.md",
+    "sha256": "c1121cdb35201184a30910bc5361bdb1ccc8aa5727d3092ac63ee3f8e4f62b31"
+  },
+  {
+    "path": "catalog/effects.json",
+    "sha256": "b8b033f4b82359bed7e0910da071101eb9d4635886f54f4f590ac47e028d3e36"
+  },
+  {
+    "path": "catalog/styles.json",
+    "sha256": "a9884cc8be8f60c46e03697c474f67848d2de8d7641acc8ab3965e0ed9e8bf9e"
+  },
+  {
+    "path": "runtime/index.html",
+    "sha256": "fd1163d6b2aa63f8a2612015182e532f37119f460701a663aab85c90e58b7058"
+  },
+  {
+    "path": "runtime/review.html",
+    "sha256": "5fff586a2e74e8546268d78c7261bd1fb7fa5f7d721e6cae7f641d6607bb3c36"
+  },
+  {
+    "path": "runtime/timeline.mjs",
+    "sha256": "a7533564e29a503ca35b690459f40e9db3ee249b21b03ab45f0bc93de61cc1d3"
+  },
+  {
+    "path": "runtime/review-player.mjs",
+    "sha256": "26e83e6388788739339e1e8e20540fed2d176f357eb6dc89ed43ad9d307ebe1f"
+  },
+  {
+    "path": "runtime/player.mjs",
+    "sha256": "69d9538ffa6f1b1a9e93d434226d71473154587de081e1c3b58bc6be68b00736"
+  },
+  {
+    "path": "runtime/compositor.mjs",
+    "sha256": "c637e5bf472f5e281ef0f7b4d9eaf71494e32eb4e73e03927f4d88760719e20c"
+  },
+  {
+    "path": "runtime/style.css",
+    "sha256": "4fa07acdc1151256de06102930edf2ab4763ae26d7226db1a683efac3ca83683"
+  },
+  {
+    "path": "tests/cuts.test.mjs",
+    "sha256": "ea02afb46c6270f43e7573e3fe9189f96889ace5248b3fb3fb521139f7772b2a"
+  },
+  {
+    "path": "tests/retarget-core.test.mjs",
+    "sha256": "d795feac95cc32dfb31d10b57d4ef85b4d999a723c0fda151879e44b25cf9b01"
+  },
+  {
+    "path": "tests/stillcuts-evidence.test.mjs",
+    "sha256": "21f02a928fc2d28394282482e2d82a0bd80ed8a1c80a953916940a4650f27052"
+  },
+  {
+    "path": "tests/stillcuts-build.test.mjs",
+    "sha256": "85269fc989a4d60360c7f7eb181e69cf898de5cc5af469febf7a041be3d8e16b"
+  },
+  {
+    "path": "tests/phase02-review-fixes.test.mjs",
+    "sha256": "766fae3e841ad02b9c486908087604cf6867af7f2d031473cb11081e94bfd25a"
+  },
+  {
+    "path": "tests/phase02-context.test.mjs",
+    "sha256": "807edcdabdc706a3c0b7bd93ca3e49ed4822b8db716be833de5ba0c1e4687346"
+  },
+  {
+    "path": "tests/auto-rig.test.mjs",
+    "sha256": "c067f9f5bdb4a2b6b9917332b2f867322146f966eb530f0e281c418768dcb0bd"
+  },
+  {
+    "path": "tests/retarget-publication.test.mjs",
+    "sha256": "7a813ffb0467c34db852564468c91742db305b96cd349549fc46afd21f0fcbf7"
+  },
+  {
+    "path": "tests/watercolor-browser.test.mjs",
+    "sha256": "5a54614c792ea7a0e9a4e4d10201d68c76addadfee7cccc6b7639f1bb4f60b7a"
+  },
+  {
+    "path": "tests/motion.test.mjs",
+    "sha256": "629bfdc4f9ed9d937d4d37ab433c562c99fa76ac2b1b004a386b9d1bf5aeaa24"
+  },
+  {
+    "path": "tests/silhouette.test.mjs",
+    "sha256": "0e360caded2aa7191481b323e9f87d4778c89f501ed8558009c016dccbd8ac07"
+  },
+  {
+    "path": "tests/line-wash-stroke.test.mjs",
+    "sha256": "b67d5bf3f5b8ead9dccd50b5183bfcd9e10a370c8c5f2d81119bf2beab3e692b"
+  },
+  {
+    "path": "tests/music.test.mjs",
+    "sha256": "077c755ddcebfe138e41d7ead8b1d359339a8307c191d066537ea20134729b54"
+  },
+  {
+    "path": "tests/line-wash-core.test.mjs",
+    "sha256": "77e2c5e4ff4a0cf295178c7561f7b7f7af20504fc36931f577ff9e328dde9fdb"
+  },
+  {
+    "path": "tests/artwork.test.mjs",
+    "sha256": "e762d33b0fa3d640cea4df4c137394c0d328d9a4f124c86b08a7ec921cc3fa45"
+  },
+  {
+    "path": "tests/style-effects-limits.test.mjs",
+    "sha256": "1d4efdf5c3a4d62d636ced324df2de39fc1ebba0194b7203c1cdc5f99dd1f00a"
+  },
+  {
+    "path": "tests/music-box-dancer.test.mjs",
+    "sha256": "0d6c4a3e0bcb7f9bfe09fd62a480b8988335c4edf9bbe3243b94824f2f0a74aa"
+  },
+  {
+    "path": "tests/stillcuts.integration.test.mjs",
+    "sha256": "70894aabcb1c55a9c57605edbd7861f83104b34e453c7aac0044e970fe427f81"
+  },
+  {
+    "path": "tests/auto-rig-browser.test.mjs",
+    "sha256": "7c63f1728a17e372add52a1123e01cce8813800946514001d0c55b3f5a5aeae4"
+  },
+  {
+    "path": "tests/timeline.test.mjs",
+    "sha256": "d995196dbb108ef51a6d96648faa6971c22fd0009cab80fb046719ee0cc64ac2"
+  },
+  {
+    "path": "tests/phase02-materialize.test.mjs",
+    "sha256": "a58f25a91a2a28c44889c8ae8c82ca9904ce2111c9c64add6263049112fc6b5e"
+  },
+  {
+    "path": "tests/watercolor.test.mjs",
+    "sha256": "8149f976d236df24be822d84fce73f1a70c3f9dd0b06f91913c8c3a010b50bf2"
+  },
+  {
+    "path": "tests/integration.test.mjs",
+    "sha256": "17d3708679b483ca69b3d8b6ad357bd73f470280931e9dfa4d4cbc3b86ff7edb"
+  },
+  {
+    "path": "tests/cinematic-implementation.test.mjs",
+    "sha256": "ec6c3d0d23a5b495bcafb99ab7a6b1c1dbccd5b50e9fb5236b677d0357f7becc"
+  },
+  {
+    "path": "tests/porcelain-study.test.mjs",
+    "sha256": "5b61143305f007559a06533a1f0f509b919a4c3344f460444b9a36e6e163bc8a"
+  },
+  {
+    "path": "tests/expressionist-core.test.mjs",
+    "sha256": "836bffd822e2c2b4bc0cfd5a5ca280d2291ce3ae1ecafc0df128e7c7bc49f2bb"
+  },
+  {
+    "path": "tests/style-review-regression.test.mjs",
+    "sha256": "d3a929d4fbde3404774d89eda9b774b6cb5e5f6e52c8f877c5ac8852d58ad470"
+  },
+  {
+    "path": "tests/style-recheck.test.mjs",
+    "sha256": "d22a48b60275a63c5751ae9fe8114c4c1ff69852e4a1ccf9ce37ec91ce2d7247"
+  },
+  {
+    "path": "tests/music-integration.test.mjs",
+    "sha256": "c7d06aecfbd0dd78017a95462f8de2084fda02fa82ef4b668f08174ebb15a7d8"
+  },
+  {
+    "path": "tests/expressionist-package.test.mjs",
+    "sha256": "32b9150b3fe4e3d3b9da1a3b2fdc7f7c60def7f1780e4d39d65140c980f38270"
+  },
+  {
+    "path": "tests/style-lifecycle.test.mjs",
+    "sha256": "b3f64dad07717b57ea9a97c78ba6fc67119a83f591cc1a3afeedf2545c4b9d08"
+  },
+  {
+    "path": "tests/style-common.test.mjs",
+    "sha256": "f4c343203afe42ce442a4352eedfa2adb0cc3172357332a0adecc91f10c3e82b"
+  },
+  {
+    "path": "tests/fx.test.mjs",
+    "sha256": "d0145d90534a880cdbc37d749430061f523aff135ab699bb4666d3946e4e1621"
+  },
+  {
+    "path": "scripts/watercolor-evidence.mjs",
+    "sha256": "ebde0515dc3000e97f2fc2a77f65c0fca6cd3265b465943942d7802974788b8d"
+  },
+  {
+    "path": "scripts/phase02-fullhd-check.mjs",
+    "sha256": "fa73a4caf0ecf48a1661ec8dc15edd75cca6f2fe2367749dd45c2652a4482bc8"
+  },
+  {
+    "path": "scripts/jobs.mjs",
+    "sha256": "4afb025fccba5b975ba96862d69c20f783295c53c516f8ff2fc7ebfdb05c7695"
+  },
+  {
+    "path": "scripts/retarget-bake.mjs",
+    "sha256": "a49a1089c38039ad0641f3a51b4608b6c1d01482a5c3e6e2294eff1f5e38a5be"
+  },
+  {
+    "path": "scripts/revisions.mjs",
+    "sha256": "44fa3baf89eaad1c584ac724723df186877a7cef46f35ced9d398710c747c516"
+  },
+  {
+    "path": "scripts/audio.mjs",
+    "sha256": "bf0f7de2fb731db43bff719e7ad3514ef0c63a171a84ec47e830d02ee650f69c"
+  },
+  {
+    "path": "scripts/watercolor-memory.mjs",
+    "sha256": "eaa077d719956ed248207eaed07ceae16844aa7107d0a1128f981efc4a9167e1"
+  },
+  {
+    "path": "scripts/phase02-rig-evidence.mjs",
+    "sha256": "3354d096eed5f2915b231a9b12f8b9ece475b1c3763b1e99a161af404066e8de"
+  },
+  {
+    "path": "scripts/cinematic-evidence.py",
+    "sha256": "8835badcb048e2d67bf33dbd41d9bb84d6c5cc3b891d16900fa26a921cb10aa0"
+  },
+  {
+    "path": "scripts/style-vendor-expressionist.mjs",
+    "sha256": "de5c81f94e701a1bed5842346e22d0c8659d52298d8450c00cffae6bacb9d5d6"
+  },
+  {
+    "path": "scripts/cinematic-rig-asset.mjs",
+    "sha256": "16335c6427f97b3f9b5dee0ac952215c39a20242507b82b2c8cff6bb254f7381"
+  },
+  {
+    "path": "scripts/cinematic-traveler-asset.mjs",
+    "sha256": "c570bb9444ddbac8099d78fb90fa1e2681c08e79e27080f3f2844544748d55c0"
+  },
+  {
+    "path": "scripts/cinematic-author.py",
+    "sha256": "4e42281fe72b297de5b7c38bfddbd2d07d8305ccafb79a60e918e27379587e47"
+  },
+  {
+    "path": "scripts/style-images.mjs",
+    "sha256": "a2568e1c2b4d818b1adbd9f504928699fab801c82776872686b9ad7a3ee57a80"
+  },
+  {
+    "path": "scripts/flash.mjs",
+    "sha256": "16f951562521b0298f273f32e1019215f8da1d05addb639a5b636502bea5e670"
+  },
+  {
+    "path": "scripts/make_examples.py",
+    "sha256": "ec7c6b43da47595895653745f22d0e16cec46726361dc080a6126b0fe64db627"
+  },
+  {
+    "path": "scripts/cinematic-watercolor-compare.mjs",
+    "sha256": "140da5a0899e60771dbbe24588377d97e8d30e7c79875c0636dec9bad65ed80f"
+  },
+  {
+    "path": "scripts/direction.mjs",
+    "sha256": "da2627532866c6f36582d55a5fc5960f13fd54f6a4be22e3ec4bd1bca7451705"
+  },
+  {
+    "path": "scripts/scaffold.mjs",
+    "sha256": "9a8f7d91c05465fb2b689b20dd1ad14286645c8ccb639802b50a18f9a696865c"
+  },
+  {
+    "path": "scripts/phase02-final-audit.mjs",
+    "sha256": "aa0332246f65359646075f5606c1f3d07af4140bda7feb2eb0b9f46d8bf7a258"
+  },
+  {
+    "path": "scripts/cinematic-rig-check.mjs",
+    "sha256": "aa2b601dbf4663c1e2fc97c953ec017cc412aff44dab8f7a2d50609c2a284334"
+  },
+  {
+    "path": "scripts/materialize-style.mjs",
+    "sha256": "c315a23213eee3847a6dbed2e0939712a5905ec480c34b36045a8134d54b2ea9"
+  },
+  {
+    "path": "scripts/watercolor-examples.mjs",
+    "sha256": "c58e8bc176587a1d8d658ed2478b95ad1a513fbba98597c705b651f01da7e350"
+  },
+  {
+    "path": "scripts/server.mjs",
+    "sha256": "1c10818a1e28fd47dff72a0c13797b1cbbea13fc071859113ebe8e4974835ab2"
+  },
+  {
+    "path": "scripts/cinematic-render.mjs",
+    "sha256": "647624530434074c6354b9aa807115c319d6d69a00792a228e854c1b14f31c55"
+  },
+  {
+    "path": "scripts/watercolor-bake.mjs",
+    "sha256": "d891e61620bb4b6429f684dbf538c2278419bb64c035c8d7bd5895a35440c220"
+  },
+  {
+    "path": "scripts/music.mjs",
+    "sha256": "6e00642be3a13d4429372354c215bb5dc420572ca9ef2926d34fa5ef139412d0"
+  },
+  {
+    "path": "scripts/playback-sheet.py",
+    "sha256": "dd69e28bb67c2716863f2c6cc566a36275ef98f0cad80712d32d192b260b6c95"
+  },
+  {
+    "path": "scripts/execution.mjs",
+    "sha256": "73a005ee1ec131838e0493e225d6fc09bfc7f0407d88e58373798f0a9a03b794"
+  },
+  {
+    "path": "scripts/review.mjs",
+    "sha256": "0914bcd345d6daf4fe2efa62dba7da0f211fbd845955064244610a3b13ee256e"
+  },
+  {
+    "path": "scripts/materialize-kit.mjs",
+    "sha256": "13d5993df7bd7e60d894c2302f6e6ced388286cdecd2217acb036367111ad2e0"
+  },
+  {
+    "path": "scripts/phase02-playback-check.mjs",
+    "sha256": "188f0d358ee20c65fb63163813a3a02e26d8ba2ef274983b76b44d31eb6f3661"
+  },
+  {
+    "path": "scripts/auto-rig.mjs",
+    "sha256": "9fcaf30377b8c680d92e6a57d337c85800ba11792f8f7813499cc9664f41f0c7"
+  },
+  {
+    "path": "scripts/observe.mjs",
+    "sha256": "cd474bdc00a010723b3d72c308fa8a0e65bff80355b40058985f2f5e6fdf7596"
+  },
+  {
+    "path": "scripts/phase02-fullhd.mjs",
+    "sha256": "049e331caf8b64c2e7d749f7b4fd11a8fb3d7b64a3473b78fccf8625d7ad1086"
+  },
+  {
+    "path": "modules/motion.mjs",
+    "sha256": "fea589f724d62f7cdf9cf39ff82cf635f37becf60cfb9bcb85d3ffa02ed19619"
+  },
+  {
+    "path": "modules/artwork.mjs",
+    "sha256": "825482b415cfd645e853ac85b6e4dd048130634517bfacea74dc78924992abfd"
+  },
+  {
+    "path": "modules/cuts.mjs",
+    "sha256": "9e4e40e55efd03bb6d53ca214068f6cabc88025d5d3fbf2f161487aa7516e784"
+  },
+  {
+    "path": "modules/music.mjs",
+    "sha256": "4ad6f4e850841c6be101d0c0e3e4003e2fcd85b231c27c5ce9ae8e47f317b77c"
+  },
+  {
+    "path": "modules/fx3d/glb.mjs",
+    "sha256": "c2032b590c8933ccc24a6faed4eb0e02a595cf68bdf8c3ab8a10e381a7f7ed3b"
+  },
+  {
+    "path": "modules/fx3d/light.mjs",
+    "sha256": "6fdf795ff3bc19be70f3804b088aa744ca3d97df070b20e47685e83757209786"
+  },
+  {
+    "path": "modules/fx3d/outline.mjs",
+    "sha256": "dda72bd5e03193cd6b5245dbf52fcd4a6646c08afd478408853311f2802701bd"
+  },
+  {
+    "path": "modules/fx3d/deform.mjs",
+    "sha256": "23836b65207973de0f18a74ffa04fcd888e5e974f94363b5da86941b42de9544"
+  },
+  {
+    "path": "modules/fx3d/adapter.mjs",
+    "sha256": "796bc116c14a38aae717efa0aeac8040db09c4d8f9335b8d8a6e84b09f0990b1"
+  },
+  {
+    "path": "modules/fx3d/geometry.mjs",
+    "sha256": "8b3e413053cac8b38688d6ebe7e7802192658eaad520763ee71ce3e3e653a7b3"
+  },
+  {
+    "path": "modules/fx3d/particles.mjs",
+    "sha256": "54eb4aacc0fa251871dcf14430981e37b170853a172c77ad1a31d5e09a3a9486"
+  },
+  {
+    "path": "modules/fx3d/material.mjs",
+    "sha256": "810fc554f85e6062888a8971c6d7ab07f72b7ee2e46c6546dff1e099464e9c87"
+  },
+  {
+    "path": "modules/fx3d/skinned-outline.mjs",
+    "sha256": "5fbc53a3d59df58f0c504611df3c2a9f8a3e858948c89a1c1a06df847341fc30"
+  },
+  {
+    "path": "modules/fx/accent.mjs",
+    "sha256": "c99c836971ef82cd44634d1e2002b1b73f175b465501f76b2f3384e2b286d53e"
+  },
+  {
+    "path": "modules/fx/particles.mjs",
+    "sha256": "4ec38bec86fd54c02dfe55fcb71c258ac1847ad45cff25c251c59deace5fb4fb"
+  },
+  {
+    "path": "modules/fx/focus.mjs",
+    "sha256": "c3f19955b2a3b0d618a4a07355d320e6d6338ca21da61b52ccfa6fc95b41e57b"
+  },
+  {
+    "path": "modules/animation/exposure.mjs",
+    "sha256": "ed8455c1aed87d78c88b1275b3ba74cc3783f073b6e9f9699d58f5be8ace1ab3"
+  },
+  {
+    "path": "modules/animation/retarget-stage.mjs",
+    "sha256": "09b4ab3788979f0f6a30dc83d2cbd80dbeb82c936c05febc995ed2e90991a6d8"
+  },
+  {
+    "path": "modules/animation/rig2d.mjs",
+    "sha256": "ec22bdb4b394105c07c318334ae9a73bb5e1dd58de79d12db286248848ffb0a9"
+  },
+  {
+    "path": "modules/animation/retarget.mjs",
+    "sha256": "e53c45921d733951f4a136a189be8574a991fb4fc44505bf49f81b07010ee3b4"
+  },
+  {
+    "path": "modules/animation/shot.mjs",
+    "sha256": "41ad186bdc45e9919d8768841a9d9115c5297a779a679ede2e905cb0e2826ddb"
+  },
+  {
+    "path": "modules/animation/auto-rig.mjs",
+    "sha256": "af698c58badc2c6a88d7959944945cdb628ac8412b4fc234910ea4faf37b21a1"
+  },
+  {
+    "path": "modules/animation/clip3d.mjs",
+    "sha256": "f8087674425114b22aedf34f2d9778c89ab6463b24a1a1f4e9de0356f7565819"
+  },
+  {
+    "path": "modules/fx2d/watercolor.mjs",
+    "sha256": "934d302154a82ca5806a8048cff3eb81c002325ac8c14544e84ff35bae9699b4"
+  },
+  {
+    "path": "modules/fx2d/redraw.mjs",
+    "sha256": "39e591c3abaf0028122ba5124abb1cebf6391a6d0696d907c4f5c88e1c2fee0d"
+  },
+  {
+    "path": "modules/fx2d/wash.mjs",
+    "sha256": "157d0d85a4139dad78d46292b78a93aa40d068e16c792cf5690530c2bbdb3cec"
+  },
+  {
+    "path": "modules/fx2d/transition.mjs",
+    "sha256": "4d3f9306ba4001b79c7f017047e50809a71391e7a367489d48d90bad7c27058a"
+  },
+  {
+    "path": "modules/fx2d/emitter.mjs",
+    "sha256": "372da59b23d2a91a5c567b4441e23b2cc842479e2c86204cf401cb655e96b9e2"
+  },
+  {
+    "path": "modules/fx2d/mask.mjs",
+    "sha256": "ac89d02cfea60aaccdbdc25e69c746c93af0b3f8f46817accf5e878ff99d2f73"
+  },
+  {
+    "path": "modules/fx2d/erase.mjs",
+    "sha256": "c6fb931e0a9c36c2a0e23eca5142f6a2e109c2e9eab49ee94f9b95de762abbce"
+  },
+  {
+    "path": "modules/fx2d/watercolor-reconstruct.mjs",
+    "sha256": "299085a067aa61985bf1408bca309236e34e2b251f07691017611d998d746c79"
+  },
+  {
+    "path": "modules/fx2d/brush.mjs",
+    "sha256": "1e5f89c617800d9e5c23b2d5943b14ee2630b83a333e23227ad7cb8b650fdac3"
+  },
+  {
+    "path": "modules/fx2d/stroke.mjs",
+    "sha256": "2fc1df6bea032f82b369a88a7b0e70b4acef66ce6c619e6d14b7ad056597b158"
+  },
+  {
+    "path": "modules/fx2d/hatch.mjs",
+    "sha256": "0921337a4a581388090121771d351b632d19798f6bb05491af81fedf879363ee"
+  },
+  {
+    "path": "modules/styles/expressionist-space/validate.mjs",
+    "sha256": "695e59e9950197c03baac0f7b89caa8152876c80311a2308e117b2fb841f5aa6"
+  },
+  {
+    "path": "modules/styles/expressionist-space/index.mjs",
+    "sha256": "bccd62abbebdae065e65675962999bc7d049136fe9011a483d292fe936dd8f08"
+  },
+  {
+    "path": "modules/styles/expressionist-space/descriptor.json",
+    "sha256": "34b16ff88b7d8a5045c7b035dca6d973d9ae366a05e4e9fa31e37e8015170bb1"
+  },
+  {
+    "path": "modules/styles/line-wash/index.mjs",
+    "sha256": "77e2f375d3408557e41f4609da4c1ac8694b3c7cad13047c4eb05d6a4cea1616"
+  },
+  {
+    "path": "modules/styles/line-wash/descriptor.json",
+    "sha256": "40dc9651d60b20414cb33ccb7d85df04b99bc6697f8fff3d6d2a0b43b30624d8"
+  },
+  {
+    "path": "modules/styles/watercolor-physical/index.mjs",
+    "sha256": "0a8713b47b1b579980b574f273d63be5e341f6e09d2782ff8da4e33bfec08ce4"
+  },
+  {
+    "path": "modules/styles/watercolor-physical/descriptor.json",
+    "sha256": "d0cb2f77de9fde817ae943b6f1fbcddf9027da746d03fd11e675cee1b8fd0e54"
+  },
+  {
+    "path": "modules/styles/silhouette-theatre/index.mjs",
+    "sha256": "c98389a176139535b592e5ad112ce2bfeed86f878aa73883f47ec245e9f020d0"
+  },
+  {
+    "path": "modules/styles/silhouette-theatre/descriptor.json",
+    "sha256": "81d67d02382c82dbd961491faf0371baf5b6f667455966a3c7414582672d6604"
+  },
+  {
+    "path": "skills/cinewright/SKILL.md",
+    "sha256": "cea2d0785d4ceeb68fe14e6e7323c1ba49eca1c369a250fcd6d1c0f77f68f731"
+  },
+  {
+    "path": "examples/harbor/instrument.mjs",
+    "sha256": "689b3f8fe9baf635e606734854910f3499e36ef3c520a6073c7b95bbc67d38a4"
+  },
+  {
+    "path": "examples/harbor/work.json",
+    "sha256": "334d117ae5fa6c49be124d7714c4375aac81e1e84bf758ea3b7d5285973d0c02"
+  },
+  {
+    "path": "examples/harbor/route-ink.mjs",
+    "sha256": "f92d979d1db0e6f1b275ad6048f2e184859a950a60e8df8e9c2205b0eb30dd8f"
+  },
+  {
+    "path": "examples/harbor/shore.mjs",
+    "sha256": "292b196704666319083fa2f85a3d88ae93547673c5252bc4d0a79958ffc05cff"
+  },
+  {
+    "path": "examples/night-sorter/motion.mjs",
+    "sha256": "921e85cd2c9d631893af81b3fd7df1ad5a52d65bb78bbce759e7a3884e3832b6"
+  },
+  {
+    "path": "examples/night-sorter/work.json",
+    "sha256": "551542053cdfc9983907f4ef648b21fd8ec09a4e063856d019f01c817e6569cc"
+  },
+  {
+    "path": "examples/press/press.mjs",
+    "sha256": "e7375d6fc6859367bdc376683b4d40f5aedbeaa4bd4ee025fccc304ca5293ce0"
+  },
+  {
+    "path": "examples/press/work.json",
+    "sha256": "23d9e643762b86b089ecb34daa8c66ef9c862707ce55b9e3d4cceb3c0272d952"
+  },
+  {
+    "path": "examples/stillcuts/rebuild.mjs",
+    "sha256": "97b8c64bfd920a13585ede07449bcb765fbca670fe2878f5874c5ee266bdfa74"
+  },
+  {
+    "path": "examples/stillcuts/source.mjs",
+    "sha256": "0aaeefaa1581f0ee7b7f375f95332a9488639b8db3a13a88b3e1d86411027475"
+  },
+  {
+    "path": "examples/stillcuts/scene.mjs",
+    "sha256": "7f0057c1aee468e84c08757d444eb46da9e23ce14f77c1fcda0aaba77ef9c1ec"
+  },
+  {
+    "path": "examples/stillcuts/README.md",
+    "sha256": "a927729a43dd428c7634991fe48bd896e3930e9bb3bb1f95ac3a3c566becdc86"
+  },
+  {
+    "path": "examples/stillcuts/build.mjs",
+    "sha256": "3bba3f7002a5ba892d5fd57ac3e11f170100902dc2ae08d5e41b2f80b7bd19aa"
+  },
+  {
+    "path": "examples/music-box-dancer/scene.mjs",
+    "sha256": "ce304b872889d39aeb3fc340b0dea36c58233875d9788ef12f30fa7dd248b0fb"
+  },
+  {
+    "path": "examples/music-box-dancer/README.md",
+    "sha256": "ad79668c9d004471e6780d4c7ef8e0852d1e43cf0bcec64eafcfbe1f2aef8dbb"
+  },
+  {
+    "path": "examples/music-box-dancer/build.mjs",
+    "sha256": "57c0ed4c6c67f81faaf027328f5266239185d80ebeef6a29677c5772e3807f94"
+  },
+  {
+    "path": "examples/music-box-dancer/recipes.mjs",
+    "sha256": "ca41688132bc3254e14450df05c936696a1adb1d04e89b74a196f5172c35febf"
+  },
+  {
+    "path": "examples/styles/validate.mjs",
+    "sha256": "e8703fdb4b1c3b29f987aaad8271df5ec618a5d4b3da9de2dc4471eb786efab6"
+  },
+  {
+    "path": "examples/styles/media-endpoint-check.mjs",
+    "sha256": "21fa0efe5479cfbb0a1e434b653186ebb791669303567e04d2c9fcf268eae363"
+  },
+  {
+    "path": "examples/styles/summarize.mjs",
+    "sha256": "3e6921da905aa3a852797b58d82b27f52e5bc9d65afea77a50aa9cff7ab00027"
+  },
+  {
+    "path": "examples/styles/revalidate.mjs",
+    "sha256": "6c79cf5265fe373b96740c041b4738230d2b72f056330684da51dec9934fd886"
+  },
+  {
+    "path": "examples/styles/revalidate-b.mjs",
+    "sha256": "d1ec1c9caa2e5663292babb8ad35265a33712c582f3a2ae4ef8576929d929105"
+  },
+  {
+    "path": "examples/styles/finish-source-check.mjs",
+    "sha256": "bd70002bb8b730b9736938875fe6d9e6b98137e45a1d169f96eb69704911bddb"
+  },
+  {
+    "path": "examples/styles/final-source-audit.mjs",
+    "sha256": "9e55ddb039ad81355b58cf3b0eb3a9584e9f9707efa6adacb424b3d2895d276a"
+  },
+  {
+    "path": "examples/harbor-v2/sea.mjs",
+    "sha256": "f4b20faa9fa2bedc1bb53a3e8cb720fc6654dff0d440194724086185e781edc5"
+  },
+  {
+    "path": "examples/harbor-v2/coast.mjs",
+    "sha256": "451b982e0a6446a6d1d084f401d743b885c1cc56dd55b46502279f5aefda4bc3"
+  },
+  {
+    "path": "examples/harbor-v2/vessel.mjs",
+    "sha256": "8015d3a240a3c443fdb61c5c471e31dc717189251358a6961a4cb287d8a6235c"
+  },
+  {
+    "path": "examples/harbor-v2/forms.mjs",
+    "sha256": "4e84a03569ef9df064795ffbf19e0a4382db940a63e99fa7ba2793787f594109"
+  },
+  {
+    "path": "examples/harbor-v2/harbor.mjs",
+    "sha256": "59438fda54671299da57edd48fe4543fd0da84d6027f5f67e5c7d1f5741ee878"
+  },
+  {
+    "path": "examples/harbor-v2/work.json",
+    "sha256": "d9631aa90d473144d4375194dbf53d19f7740a943c4c7a13e7b4de5b4de06b3d"
+  },
+  {
+    "path": "examples/harbor-v2/score.py",
+    "sha256": "08a78fa6fdc1337b5115b30ecfe126edfc7f4149459ddd9687779a81c475a30c"
+  },
+  {
+    "path": "examples/harbor-landfall/instrument.mjs",
+    "sha256": "689b3f8fe9baf635e606734854910f3499e36ef3c520a6073c7b95bbc67d38a4"
+  },
+  {
+    "path": "examples/harbor-landfall/work.json",
+    "sha256": "427e7b8b31ce205cd9b80241d94bbf1dddadebb2c2ecb03dcfd77b9b662c591a"
+  },
+  {
+    "path": "examples/harbor-landfall/route-ink.mjs",
+    "sha256": "f92d979d1db0e6f1b275ad6048f2e184859a950a60e8df8e9c2205b0eb30dd8f"
+  },
+  {
+    "path": "examples/harbor-landfall/shore.mjs",
+    "sha256": "292b196704666319083fa2f85a3d88ae93547673c5252bc4d0a79958ffc05cff"
+  },
+  {
+    "path": "examples/harbor-map/instrument.mjs",
+    "sha256": "689b3f8fe9baf635e606734854910f3499e36ef3c520a6073c7b95bbc67d38a4"
+  },
+  {
+    "path": "examples/harbor-map/work.json",
+    "sha256": "0d3fb9c215f0b5a3262694a02c3a504ad2651f45ab33a91c1f71d56c6b1a0d4b"
+  },
+  {
+    "path": "examples/harbor-map/route-ink.mjs",
+    "sha256": "f92d979d1db0e6f1b275ad6048f2e184859a950a60e8df8e9c2205b0eb30dd8f"
+  },
+  {
+    "path": "examples/harbor-map/shore.mjs",
+    "sha256": "06152058993a1427cde1174ca43e21fa6b95f555f4270a4563067d0de8c7827f"
+  },
+  {
+    "path": "examples/harbor-map/assets/shore.jpg",
+    "sha256": "461513d0cd3e16960ebcfc4ddf47202ba6f4a11e03d03a02ecb38796ffe8a27d"
+  },
+  {
+    "path": "examples/harbor-map/assets/coast-entry.svg",
+    "sha256": "a4c5b19a9d554d521a5a60a37e1dab345213f1b76e44d537eeecb398d0f28e96"
+  },
+  {
+    "path": "examples/harbor-map/assets/score.wav",
+    "sha256": "3fb1512d9daeb8097b841703d75135fc440f65f4c7db5086ff47a88799081461"
+  },
+  {
+    "path": "examples/harbor-landfall/assets/shore.jpg",
+    "sha256": "461513d0cd3e16960ebcfc4ddf47202ba6f4a11e03d03a02ecb38796ffe8a27d"
+  },
+  {
+    "path": "examples/harbor-landfall/assets/coast-entry.svg",
+    "sha256": "a4c5b19a9d554d521a5a60a37e1dab345213f1b76e44d537eeecb398d0f28e96"
+  },
+  {
+    "path": "examples/harbor-landfall/assets/score.wav",
+    "sha256": "6e185e264c97a57afef48e96b4ad2d404d62a8ff6edb1b1ead90cbc77bcd9918"
+  },
+  {
+    "path": "examples/harbor-v2/assets/score.wav",
+    "sha256": "a82338d1a77f814ec2e706cd32c067f7421abd270f8448f452596d01bec4031f"
+  },
+  {
+    "path": "examples/harbor-v2/vendor/RoundedBoxGeometry.js",
+    "sha256": "c1b7c9bd2cddff2e3f3a0723f618a3d364a47450e3d25771d21faed88410bec8"
+  },
+  {
+    "path": "examples/harbor-v2/vendor/THREE-LICENSE",
+    "sha256": "bfe119ea4fd413f5f7ca3fcd63adb0c4a073ed39daa2fe7d3e6b769e21272601"
+  },
+  {
+    "path": "examples/styles/phase02-retarget/evidence.mjs",
+    "sha256": "9b33372c9f5b73e1b8cc63877d7153445e48303b3fe3589a26b2b9420ce7c8d7"
+  },
+  {
+    "path": "examples/styles/phase02-retarget/fixtures.mjs",
+    "sha256": "ee63de4fe32241bab88f6ad7fbeb7182e106428d4f93ebcb9be5507a9da9aeed"
+  },
+  {
+    "path": "examples/styles/phase02-retarget/build.mjs",
+    "sha256": "5ce571b71d466a8bcc73e914096f77529425172780649308807d3c88acd181aa"
+  },
+  {
+    "path": "examples/styles/phase02-retarget/audit.mjs",
+    "sha256": "a17b0c059102277364fb57319989ad77600e7d3b4b3f865eab19abaa6f310c08"
+  },
+  {
+    "path": "examples/styles/expressionist-space/browser-probes.mjs",
+    "sha256": "93b6399f17d2544c4cb8c8eed1807a9af9b7791f6ff47fd795902f7c9cdc1b32"
+  },
+  {
+    "path": "examples/styles/expressionist-space/effects.mjs",
+    "sha256": "1c6c7cf0f026f03836b0a0d6ce782f75657895ae4018f8002242c38b37865f2a"
+  },
+  {
+    "path": "examples/styles/expressionist-space/author.mjs",
+    "sha256": "1a72651efb88e33849a9c25bf77ef90ce4e450015266568c49de9d5685d78273"
+  },
+  {
+    "path": "examples/styles/expressionist-space/README.md",
+    "sha256": "3c54c64c28edbaf0f1581d9180a968a5171e2d9771030e734c999d643f55a00a"
+  },
+  {
+    "path": "examples/styles/expressionist-space/verify-package.mjs",
+    "sha256": "afa8768fd9aba8a966ede3146ef6cb7376fc89c77ec5557cc6a23ec54b9f6053"
+  },
+  {
+    "path": "examples/styles/expressionist-space/build.mjs",
+    "sha256": "a2d65509c0cc7a606996c13e68ca7c61c0919fc83a1df23b8f14a0779a229657"
+  },
+  {
+    "path": "examples/styles/expressionist-space/build-mixed.mjs",
+    "sha256": "d3668638501149b223fcf3c2823ce26bd209d2d43b7ff2ae1819aa5892b2c69a"
+  },
+  {
+    "path": "examples/styles/expressionist-space/mixed-overlay.mjs",
+    "sha256": "7fc2ad7543aa3ed3631eddd70bcff6cb794b2a121776a7e80029dbbd988ac419"
+  },
+  {
+    "path": "examples/styles/expressionist-space/summarize-validation.mjs",
+    "sha256": "548125a3e257043f35276d524e1edc3bf12cf2c759749d52c5dd032a89e44c6a"
+  },
+  {
+    "path": "examples/styles/line-wash/author-contact.py",
+    "sha256": "5a0ad952cd1743c6a85ec47ddf71e25af108b12dbdfa7ebe36d5f7a138286c6f"
+  },
+  {
+    "path": "examples/styles/line-wash/build.mjs",
+    "sha256": "44bdb923c6b38b0c34704a44d7274e540b505092fd08abb3f4fcb8387bda1fb3"
+  },
+  {
+    "path": "examples/styles/effects2d/probes.mjs",
+    "sha256": "de6a8fb7e1955b4324f14183929271ccb001f66405056358b633c15ef9ee7d8f"
+  },
+  {
+    "path": "examples/styles/effects2d/scene.mjs",
+    "sha256": "a26a402ffff8f78c4208fa8257ec93547ec22de42e798390338028b3edc6c9fe"
+  },
+  {
+    "path": "examples/styles/effects2d/README.md",
+    "sha256": "6a5f0d86dd59bcda0e13e39622467b50828905cddaea774fff07496f3fb16f37"
+  },
+  {
+    "path": "examples/styles/effects2d/build.mjs",
+    "sha256": "19d184551964c62499ab1561313a508794d26bd4c9afe7ce88257bee9a9f45ca"
+  },
+  {
+    "path": "examples/styles/phase02-rig/fixtures.mjs",
+    "sha256": "d59a8c83e20ee3ec22685cf0e5910105d68e752931e227f6305840ab756b7630"
+  },
+  {
+    "path": "examples/styles/phase02-rig/build.mjs",
+    "sha256": "7e53be742df7aa8bd11b7c259956443bc9fb1c8ba44f18ec78d786645fdb2890"
+  },
+  {
+    "path": "examples/styles/silhouette-theatre/author.py",
+    "sha256": "b2792dd800f6a6e15b67a381600bb47bf15ddf380e3b8f6918f439518885b8fb"
+  },
+  {
+    "path": "examples/styles/silhouette-theatre/README.md",
+    "sha256": "35c1d0d13e8b8756eb7fc3712536945202a082860cc0da83735eea9448a08bf6"
+  },
+  {
+    "path": "examples/styles/silhouette-theatre/build.mjs",
+    "sha256": "dcac0548d4be2790d4df86c6342e0d7d8a23ba815318fac6e5d1d667a34ccfb4"
+  },
+  {
+    "path": "examples/styles/silhouette-theatre/assets/provenance.json",
+    "sha256": "1a09a18c15ce3bbec0c9101a3e168ba1b36c9bd7e57201026df33c55f7e727a2"
+  },
+  {
+    "path": "examples/styles/silhouette-theatre/assets/cutouts.json",
+    "sha256": "ae1857ff5a913357b924cd5714f425ed2fec9f18e35f4d49edd799147fd320ff"
+  },
+  {
+    "path": "examples/styles/silhouette-theatre/assets/moon.svg",
+    "sha256": "14204f6605e3c06bd41d65b8e0a5a497935e574269b7fd06dfbf0059e2e36f85"
+  },
+  {
+    "path": "examples/styles/phase02-rig/assets/reader/LICENSE",
+    "sha256": "418b62b72fe8bf580ebd7deb7f3dbf06ab88fd18bc07f128887e092ebb00ceb8"
+  },
+  {
+    "path": "examples/styles/phase02-rig/assets/reader/reader.motion.json",
+    "sha256": "7c98bb1be4197e707abab1d81a897f5b3e7fec0a65fc44e56be9f3a6a3f37039"
+  },
+  {
+    "path": "examples/styles/phase02-rig/assets/reader/reader.rig.json",
+    "sha256": "65a6f3184331c92d2dfc0608db2a9d31b7977c1e7c213eb4b5d3bc6b60442569"
+  },
+  {
+    "path": "examples/styles/phase02-rig/assets/reader/reader.glb",
+    "sha256": "b60b4a820977ef40141556285f13ed9873b1edbd6ecb95fc9753dce484cde296"
+  },
+  {
+    "path": "examples/styles/phase02-rig/assets/broad/.cinewright-kit.json",
+    "sha256": "2fff437aa4a55cf8f32e10132dc20dac46f0acd246031d19be14e89a080ad39f"
+  },
+  {
+    "path": "examples/styles/phase02-rig/assets/broad/character.glb",
+    "sha256": "6230a3d938f93255b8559a91c82447e9ef08bb295834e2039b28d247d9a725df"
+  },
+  {
+    "path": "examples/styles/phase02-rig/assets/broad/LICENSE",
+    "sha256": "8599962a8fd4f90f6071679bc1a07e613bb15a0aab50b6906fb10aa6aa25a7a3"
+  },
+  {
+    "path": "examples/styles/phase02-rig/assets/broad/static.json",
+    "sha256": "4df5bdba1e0a793e946d3b812c5b90631a5cc6eda4191bd1c5f33d1508f6a673"
+  },
+  {
+    "path": "examples/styles/phase02-rig/assets/broad/character.rig.json",
+    "sha256": "499a33c3e5fad3171ec1f4c549af6ae90ddf84109027436e23f20d28726fdb3f"
+  },
+  {
+    "path": "examples/styles/phase02-rig/assets/broad/character.motion.json",
+    "sha256": "3f45c0febb6f30022d6b04e1b7927f2fb5c5a74958020a29292d6fb2f1275ee3"
+  },
+  {
+    "path": "examples/styles/phase02-rig/assets/broad/profile.json",
+    "sha256": "bd7a4fb7003ffffbe2bd6dc4a54055e94c82a97505154cfc62c70bfa01807e38"
+  },
+  {
+    "path": "examples/styles/phase02-rig/assets/tall/.cinewright-kit.json",
+    "sha256": "bbad087660b777d9e22ae97e9c4430af9ab125f428b4dd6f92f890355e816b36"
+  },
+  {
+    "path": "examples/styles/phase02-rig/assets/tall/character.glb",
+    "sha256": "8023d051f3ec9ceb46536c1acb8c2211964fd65e246a518f714a5775e6c8d703"
+  },
+  {
+    "path": "examples/styles/phase02-rig/assets/tall/LICENSE",
+    "sha256": "8599962a8fd4f90f6071679bc1a07e613bb15a0aab50b6906fb10aa6aa25a7a3"
+  },
+  {
+    "path": "examples/styles/phase02-rig/assets/tall/static.json",
+    "sha256": "ba42d3158cd947c82f609b07e41df1ed24e9c244a72283e92c8b6f039486cd31"
+  },
+  {
+    "path": "examples/styles/phase02-rig/assets/tall/character.rig.json",
+    "sha256": "249fcae741b2be2db5aaf1d045fb112db2d9b1a8bca2aab381223e9cac0aea5a"
+  },
+  {
+    "path": "examples/styles/phase02-rig/assets/tall/character.motion.json",
+    "sha256": "9a5ff4b23c464ed5eff6dc42750c8099add7a70e0f9ceb77f77f7e814a53d467"
+  },
+  {
+    "path": "examples/styles/phase02-rig/assets/tall/profile.json",
+    "sha256": "bd7a4fb7003ffffbe2bd6dc4a54055e94c82a97505154cfc62c70bfa01807e38"
+  },
+  {
+    "path": "examples/styles/phase02-watercolor/wet/.cinewright-kit.json",
+    "sha256": "0683e569bbb2e1ef2a68c2e02907424fb4c5f6939ebbb41edea92622e0ea2ca1"
+  },
+  {
+    "path": "examples/styles/phase02-watercolor/wet/work.json",
+    "sha256": "adb53cc3b559c44051b3a1175336c649b4c6da4c1f00e24e4b207b2711cdb9a2"
+  },
+  {
+    "path": "examples/styles/phase02-watercolor/overlap/.cinewright-kit.json",
+    "sha256": "50dd01780b7e43792e27301f25c17b76cc3ae68473b0248a486792726911ec5b"
+  },
+  {
+    "path": "examples/styles/phase02-watercolor/overlap/work.json",
+    "sha256": "3b19cecba23c469dc90bc14d0e01e3cd5c953b9bf3e7c195e5702e1a2a41c5dd"
+  },
+  {
+    "path": "examples/styles/phase02-watercolor/overlap/modules/motion.mjs",
+    "sha256": "fea589f724d62f7cdf9cf39ff82cf635f37becf60cfb9bcb85d3ffa02ed19619"
+  },
+  {
+    "path": "examples/styles/phase02-watercolor/overlap/assets/watercolor.json",
+    "sha256": "b474aeb2218a0054ea9c54aaaa70e64153a9e340dda494c305238671f851272e"
+  },
+  {
+    "path": "examples/styles/phase02-watercolor/overlap/modules/animation/exposure.mjs",
+    "sha256": "ed8455c1aed87d78c88b1275b3ba74cc3783f073b6e9f9699d58f5be8ace1ab3"
+  },
+  {
+    "path": "examples/styles/phase02-watercolor/overlap/modules/fx2d/watercolor.mjs",
+    "sha256": "fda2e31514e648a358d180492ef6102ad65139e80f02ec71f057563805cefa43"
+  },
+  {
+    "path": "examples/styles/phase02-watercolor/overlap/modules/fx2d/redraw.mjs",
+    "sha256": "39e591c3abaf0028122ba5124abb1cebf6391a6d0696d907c4f5c88e1c2fee0d"
+  },
+  {
+    "path": "examples/styles/phase02-watercolor/overlap/modules/fx2d/wash.mjs",
+    "sha256": "157d0d85a4139dad78d46292b78a93aa40d068e16c792cf5690530c2bbdb3cec"
+  },
+  {
+    "path": "examples/styles/phase02-watercolor/overlap/modules/fx2d/erase.mjs",
+    "sha256": "c6fb931e0a9c36c2a0e23eca5142f6a2e109c2e9eab49ee94f9b95de762abbce"
+  },
+  {
+    "path": "examples/styles/phase02-watercolor/overlap/modules/fx2d/brush.mjs",
+    "sha256": "1e5f89c617800d9e5c23b2d5943b14ee2630b83a333e23227ad7cb8b650fdac3"
+  },
+  {
+    "path": "examples/styles/phase02-watercolor/overlap/modules/fx2d/stroke.mjs",
+    "sha256": "2fc1df6bea032f82b369a88a7b0e70b4acef66ce6c619e6d14b7ad056597b158"
+  },
+  {
+    "path": "examples/styles/phase02-watercolor/overlap/modules/fx2d/hatch.mjs",
+    "sha256": "0921337a4a581388090121771d351b632d19798f6bb05491af81fedf879363ee"
+  },
+  {
+    "path": "examples/styles/phase02-watercolor/overlap/modules/styles/line-wash/index.mjs",
+    "sha256": "22a0a9b5d9a2a0b5c1c87c0f0be035ac9bb22a8d98fca25c7152c689887dc6d6"
+  },
+  {
+    "path": "examples/styles/phase02-watercolor/overlap/modules/styles/watercolor-physical/index.mjs",
+    "sha256": "d1bab31557721bc1071788bcfcd6f2094acd49a32d14b52607627c00995d6df7"
+  },
+  {
+    "path": "examples/styles/phase02-watercolor/wet/modules/motion.mjs",
+    "sha256": "fea589f724d62f7cdf9cf39ff82cf635f37becf60cfb9bcb85d3ffa02ed19619"
+  },
+  {
+    "path": "examples/styles/phase02-watercolor/wet/assets/watercolor.json",
+    "sha256": "c3ddf725dffb459dd79b10dd514ecf8b756d694a4c7d2c8fa180837b1e247976"
+  },
+  {
+    "path": "examples/styles/phase02-watercolor/wet/modules/animation/exposure.mjs",
+    "sha256": "ed8455c1aed87d78c88b1275b3ba74cc3783f073b6e9f9699d58f5be8ace1ab3"
+  },
+  {
+    "path": "examples/styles/phase02-watercolor/wet/modules/fx2d/watercolor.mjs",
+    "sha256": "fda2e31514e648a358d180492ef6102ad65139e80f02ec71f057563805cefa43"
+  },
+  {
+    "path": "examples/styles/phase02-watercolor/wet/modules/fx2d/redraw.mjs",
+    "sha256": "39e591c3abaf0028122ba5124abb1cebf6391a6d0696d907c4f5c88e1c2fee0d"
+  },
+  {
+    "path": "examples/styles/phase02-watercolor/wet/modules/fx2d/wash.mjs",
+    "sha256": "157d0d85a4139dad78d46292b78a93aa40d068e16c792cf5690530c2bbdb3cec"
+  },
+  {
+    "path": "examples/styles/phase02-watercolor/wet/modules/fx2d/erase.mjs",
+    "sha256": "c6fb931e0a9c36c2a0e23eca5142f6a2e109c2e9eab49ee94f9b95de762abbce"
+  },
+  {
+    "path": "examples/styles/phase02-watercolor/wet/modules/fx2d/brush.mjs",
+    "sha256": "1e5f89c617800d9e5c23b2d5943b14ee2630b83a333e23227ad7cb8b650fdac3"
+  },
+  {
+    "path": "examples/styles/phase02-watercolor/wet/modules/fx2d/stroke.mjs",
+    "sha256": "2fc1df6bea032f82b369a88a7b0e70b4acef66ce6c619e6d14b7ad056597b158"
+  },
+  {
+    "path": "examples/styles/phase02-watercolor/wet/modules/fx2d/hatch.mjs",
+    "sha256": "0921337a4a581388090121771d351b632d19798f6bb05491af81fedf879363ee"
+  },
+  {
+    "path": "examples/styles/phase02-watercolor/wet/modules/styles/line-wash/index.mjs",
+    "sha256": "22a0a9b5d9a2a0b5c1c87c0f0be035ac9bb22a8d98fca25c7152c689887dc6d6"
+  },
+  {
+    "path": "examples/styles/phase02-watercolor/wet/modules/styles/watercolor-physical/index.mjs",
+    "sha256": "d1bab31557721bc1071788bcfcd6f2094acd49a32d14b52607627c00995d6df7"
+  },
+  {
+    "path": "examples/styles/line-wash/assets/provenance.json",
+    "sha256": "42a4dbd224965ee612dd30782375ae6794b08858c156494e1bb2a8327cfb518f"
+  },
+  {
+    "path": "examples/styles/line-wash/assets/authored-strokes.json",
+    "sha256": "cf9db189ca770d2180a120bfbcbab4b25750bceda00666cce42f533e55a12643"
+  },
+  {
+    "path": "examples/styles/expressionist-space/assets/traveler-readable.provenance.json",
+    "sha256": "bf82da6ac2f75aa28e03fe1bd3e287c5184ca2442181f6ee76a5d3e74a3b3092"
+  },
+  {
+    "path": "examples/styles/expressionist-space/assets/LICENSE",
+    "sha256": "b7275ae5cbfbfb4cb4a7484c63530b4de3c665dd1accd50b9f2545e7400d8ac9"
+  },
+  {
+    "path": "examples/styles/expressionist-space/assets/metadata.json",
+    "sha256": "b6c1312c2b7d5b5d286c713cd5ff8b0e86aa67c8869729a76d30857f4b21faf5"
+  },
+  {
+    "path": "examples/styles/expressionist-space/assets/specimen.glb",
+    "sha256": "b8e140ef78c7d1f05d2342e51d6d6dbdcf828b6eff5e3132313dfb9acf987efc"
+  },
+  {
+    "path": "examples/styles/expressionist-space/assets/traveler-readable.glb",
+    "sha256": "0938674714d16b65b5c0f6b5bd75dbe78633c45800bfb9793175e3f07df0e6b3"
+  },
+  {
+    "path": "examples/styles/expressionist-space/assets/traveler.glb",
+    "sha256": "b7f4974717cf25da98164a24aa3cf29312f2f07a0a1a7a41230d9e733d7decf6"
+  },
+  {
+    "path": "examples/music-box-dancer/porcelain/choreography.mjs",
+    "sha256": "9426e616fe329880d1df2eb03b840fd9e186a6b88880835c977b5bdc5278034c"
+  },
+  {
+    "path": "examples/music-box-dancer/porcelain/scene.mjs",
+    "sha256": "0845c291e1fed9d66e9f79491e213efd7f794a42bb4034db903250486aaaece4"
+  },
+  {
+    "path": "examples/music-box-dancer/porcelain/README.md",
+    "sha256": "00492c8c3b23e8c8c7c846fe6637137dcdf66718659ea219fd4df1247b95bc59"
+  },
+  {
+    "path": "examples/music-box-dancer/porcelain/materialize.mjs",
+    "sha256": "73d227b68df2d0c8a61d473362162d7c9277fe0e202073a528df6c2ec12ab7d6"
+  },
+  {
+    "path": "examples/music-box-dancer/assets/paper-stage.svg",
+    "sha256": "38be291610c135baf1860e91090dfb4435837f7773e60477cbd4834e0172d9da"
+  },
+  {
+    "path": "examples/stillcuts/a/rebuild.mjs",
+    "sha256": "97b8c64bfd920a13585ede07449bcb765fbca670fe2878f5874c5ee266bdfa74"
+  },
+  {
+    "path": "examples/stillcuts/a/source.json",
+    "sha256": "35ed6a20cde22162835f8e4e74829355bdfcb919cbe356d5fa4b14678bf1ff06"
+  },
+  {
+    "path": "examples/stillcuts/a/scene.mjs",
+    "sha256": "7f0057c1aee468e84c08757d444eb46da9e23ce14f77c1fcda0aaba77ef9c1ec"
+  },
+  {
+    "path": "examples/stillcuts/a/cuts.json",
+    "sha256": "a90a5b411062e6b3d48565badddfc92b41f6ec4e499c0d59d048ffd184cc4e23"
+  },
+  {
+    "path": "examples/stillcuts/a/work.json",
+    "sha256": "c39f856d347fe07e76e20e9eea000164b36ea58e4a406fbad18a0288fb0fb468"
+  },
+  {
+    "path": "examples/stillcuts/fixtures/boundary-before.json",
+    "sha256": "5f161f6e4bdd42356cf2299bec4467ece9815851319bf061703ed6819b362da9"
+  },
+  {
+    "path": "examples/stillcuts/fixtures/boundary-after.json",
+    "sha256": "7cd8513577229387f8c8934622807c270b20e42873dae3733527e62f2326c12c"
+  },
+  {
+    "path": "examples/stillcuts/fixtures/boundary-input.json",
+    "sha256": "70379d03f0f09198cb60eea5c1a46c5fb164959c66d0c830dc8f4a4110b709c3"
+  },
+  {
+    "path": "examples/stillcuts/assets/room.svg",
+    "sha256": "13e3fca7afc6eaf5f803485ffcbfefbb2cf348e82956ea84ba0748ffd0abbf49"
+  },
+  {
+    "path": "examples/stillcuts/assets/hand-atlas.svg",
+    "sha256": "18dc489f6ce3faef4121de31ee6731d06d987e104c6cd53b25da2735c5eef84b"
+  },
+  {
+    "path": "examples/stillcuts/assets/keys.svg",
+    "sha256": "67f1166d961f7dd39faf6bb5c1f8777da92630d53bb944385c93db0e75152ab4"
+  },
+  {
+    "path": "examples/stillcuts/b/rebuild.mjs",
+    "sha256": "97b8c64bfd920a13585ede07449bcb765fbca670fe2878f5874c5ee266bdfa74"
+  },
+  {
+    "path": "examples/stillcuts/b/source.json",
+    "sha256": "381f897f26460899f7c6789a7ae659e953b8fe2e3ce6fe7287bcbe7f626aaa47"
+  },
+  {
+    "path": "examples/stillcuts/b/scene.mjs",
+    "sha256": "7f0057c1aee468e84c08757d444eb46da9e23ce14f77c1fcda0aaba77ef9c1ec"
+  },
+  {
+    "path": "examples/stillcuts/b/cuts.json",
+    "sha256": "1e2f3ae52e9e112e6501dec0efe9ad3076c13143ffc203758bcb2f054f2b3a40"
+  },
+  {
+    "path": "examples/stillcuts/b/work.json",
+    "sha256": "6422effa6850109094f0ad8364278197fe42e6b22c6484a1127bb8d863f15602"
+  },
+  {
+    "path": "examples/stillcuts/b/modules/artwork.mjs",
+    "sha256": "825482b415cfd645e853ac85b6e4dd048130634517bfacea74dc78924992abfd"
+  },
+  {
+    "path": "examples/stillcuts/b/modules/cuts.mjs",
+    "sha256": "9e4e40e55efd03bb6d53ca214068f6cabc88025d5d3fbf2f161487aa7516e784"
+  },
+  {
+    "path": "examples/stillcuts/b/assets/room.svg",
+    "sha256": "13e3fca7afc6eaf5f803485ffcbfefbb2cf348e82956ea84ba0748ffd0abbf49"
+  },
+  {
+    "path": "examples/stillcuts/b/assets/hand-atlas.svg",
+    "sha256": "18dc489f6ce3faef4121de31ee6731d06d987e104c6cd53b25da2735c5eef84b"
+  },
+  {
+    "path": "examples/stillcuts/b/assets/keys.svg",
+    "sha256": "67f1166d961f7dd39faf6bb5c1f8777da92630d53bb944385c93db0e75152ab4"
+  },
+  {
+    "path": "examples/stillcuts/a/modules/artwork.mjs",
+    "sha256": "825482b415cfd645e853ac85b6e4dd048130634517bfacea74dc78924992abfd"
+  },
+  {
+    "path": "examples/stillcuts/a/modules/cuts.mjs",
+    "sha256": "9e4e40e55efd03bb6d53ca214068f6cabc88025d5d3fbf2f161487aa7516e784"
+  },
+  {
+    "path": "examples/stillcuts/a/assets/room.svg",
+    "sha256": "13e3fca7afc6eaf5f803485ffcbfefbb2cf348e82956ea84ba0748ffd0abbf49"
+  },
+  {
+    "path": "examples/stillcuts/a/assets/hand-atlas.svg",
+    "sha256": "18dc489f6ce3faef4121de31ee6731d06d987e104c6cd53b25da2735c5eef84b"
+  },
+  {
+    "path": "examples/stillcuts/a/assets/keys.svg",
+    "sha256": "67f1166d961f7dd39faf6bb5c1f8777da92630d53bb944385c93db0e75152ab4"
+  },
+  {
+    "path": "examples/press/assets/rosette.svg",
+    "sha256": "c9fc7d170f8ef7ace8d9b197674451d320eccf7b201a806a8f5c1f6dd1f8beef"
+  },
+  {
+    "path": "examples/press/assets/score.wav",
+    "sha256": "5a21fd9184b04dfea952fbc0f21e194cf9e7d7c334fc9b23b4fdbf2d29ef6266"
+  },
+  {
+    "path": "examples/night-sorter/assets/hits.wav",
+    "sha256": "00bb186b50cada6f2d98c71c69a22970657164726b69a8caef49283fca82ec8b"
+  },
+  {
+    "path": "examples/harbor/assets/shore.jpg",
+    "sha256": "461513d0cd3e16960ebcfc4ddf47202ba6f4a11e03d03a02ecb38796ffe8a27d"
+  },
+  {
+    "path": "examples/harbor/assets/coast-entry.svg",
+    "sha256": "a4c5b19a9d554d521a5a60a37e1dab345213f1b76e44d537eeecb398d0f28e96"
+  },
+  {
+    "path": "examples/harbor/assets/score.wav",
+    "sha256": "357112fe637e9ee20406a27079971e5d4652264fa2e492e9f593cd91aff9cec3"
+  },
+  {
+    "path": "recipes/styles/expressionist-space/station.json",
+    "sha256": "5bd1069ffce13454cdb29d55824d2ae63e43a57a344dcab0c30bd38e99008a40"
+  },
+  {
+    "path": "recipes/styles/expressionist-space/effects.json",
+    "sha256": "e47b92b72829f3398fdcca9a4a30a5af410fc5884ab986b2e86e2c361f0958a4"
+  },
+  {
+    "path": "recipes/styles/expressionist-space/laboratory.json",
+    "sha256": "de63c742b893e61a6125cc764fd81f8ce635632f18ca4aa48889e25ae9f25fcb"
+  },
+  {
+    "path": "recipes/styles/expressionist-space/reader.json",
+    "sha256": "3412884cade232788a733cb7596750186c20224848f2c6fbcd58bd6b51dec8c2"
+  },
+  {
+    "path": "recipes/styles/expressionist-space/portrait.json",
+    "sha256": "02a2c373c996f4d3696497e99aac638577dc3ab2590341fcf6a02017d2d9653b"
+  },
+  {
+    "path": "recipes/styles/line-wash/rain.json",
+    "sha256": "d667bea5d5ecf9d574b97630c3e96aaa100964a2c10141d7a2f901a71321c705"
+  },
+  {
+    "path": "recipes/styles/line-wash/commuter.json",
+    "sha256": "6050fd64018dad5828bb4c4164dca02bd0362128165d8aeca0a7a2c859cb5494"
+  },
+  {
+    "path": "recipes/styles/line-wash/portrait.json",
+    "sha256": "46b1ed905cc9da9ca3f0b57ee6d626a4ace141a096ff58454ae459cf517da5fc"
+  },
+  {
+    "path": "recipes/styles/watercolor-physical/wet.json",
+    "sha256": "d383ca79ddb3c64e4f618ec12ee8aeae3afe8c8a748648e1a52f844c38705b58"
+  },
+  {
+    "path": "recipes/styles/watercolor-physical/overlap.json",
+    "sha256": "999cb25bf809455e76e6a080f8114a2d5b4c9fb3448eb392e46493a4639ba8d0"
+  },
+  {
+    "path": "recipes/styles/silhouette-theatre/forest.json",
+    "sha256": "4dcc556c5fe6a205643a504f5fef0286ac0b0c622fee542c9dde5510149774f8"
+  },
+  {
+    "path": "recipes/styles/silhouette-theatre/portrait.json",
+    "sha256": "80d1d9a9604a41d5b45a19289b5697bbfae7912ec50f810759b77e61266407de"
+  },
+  {
+    "path": "recipes/styles/silhouette-theatre/harbor.json",
+    "sha256": "5fc9136d1881828e06469ae94b106364e76453342b6866d8f1300a82e33e7c83"
+  },
+  {
+    "path": "docs/handoffs/2026-11-08-phase02-independent-recheck.md",
+    "sha256": "9a8da74c6c5202e361db9896888d8ab7f5e53564d7cef5d27da97ac4d2804e0a"
+  },
+  {
+    "path": "docs/handoffs/2026-11-08-phase02-watercolor.md",
+    "sha256": "3910d88bfa3cc14a7851c5c1f690c9fe5d3bc2a00c84c5285a3f572c25409384"
+  },
+  {
+    "path": "docs/handoffs/2026-11-08-aesthetic-toolkit-final.md",
+    "sha256": "6d81fea4fbabf928e5e8321589a90ad7c232bafaa83e53d7892c0c60f11cb336"
+  },
+  {
+    "path": "docs/handoffs/2026-11-08-phase02-review-closure.md",
+    "sha256": "eb7b88dd380eb0502426395609bc773ecfa8d507d268c34e1e85f1dd3f1bdfae"
+  },
+  {
+    "path": "docs/handoffs/2026-11-08-aesthetic-toolkit-review-fixes.md",
+    "sha256": "71aa36577d5a83a23527f924241b560125f6529cc2802b22a35f717de07c3830"
+  },
+  {
+    "path": "docs/handoffs/2026-11-08-phase02-independent-review.md",
+    "sha256": "4333ca712b718ab2b5f0185368144ca3e0fc6513172f55016cb1f6ff384d5ee7"
+  },
+  {
+    "path": "docs/handoffs/2026-11-08-aesthetic-toolkit-contract.md",
+    "sha256": "b73a973ad87fac6b0e2f3666502e02fbf1cdbf423075e0e90de4239c546ef683"
+  },
+  {
+    "path": "docs/handoffs/music-box-dancer-visual-study.md",
+    "sha256": "318f67b1fe2a0eda65b7ca7f0658437bd42f39f99df40640361242547ef9a913"
+  },
+  {
+    "path": "docs/handoffs/2026-11-08-aesthetic-toolkit-dependencies.md",
+    "sha256": "35600743d20873146239b779799d273807dbf9b7081168248af6a3c839ff4ba7"
+  },
+  {
+    "path": "docs/handoffs/2026-11-08-phase02-retarget.md",
+    "sha256": "6cbefa54f437767ade95f5e1585e0fbb6d4e3d7d1343d0fce0b8325a170003d8"
+  },
+  {
+    "path": "docs/handoffs/music-box-dancer-paused.md",
+    "sha256": "6717b3dd51c40b01899d83cd51c670202a19dac224374934a355e3153f7f9afc"
+  },
+  {
+    "path": "docs/handoffs/2026-11-08-aesthetic-toolkit-execution.md",
+    "sha256": "0a83c1ebab941c608dc1b75f041882db7f6a6443fec99af0a1c9ee5037b33d51"
+  },
+  {
+    "path": "docs/handoffs/2026-11-08-aesthetic-toolkit-followup-execution.md",
+    "sha256": "a504d3aefe63b92ef68df93e54b2d1a502e2a3f08126ccf4644b2d24b2dd5cf5"
+  },
+  {
+    "path": "docs/handoffs/2026-11-08-aesthetic-toolkit-followup-final.md",
+    "sha256": "3c81a459b24d380f1a1d75bbd845b6da6ed7806f25d247e63b4c37fe536a171f"
+  },
+  {
+    "path": "docs/handoffs/2026-11-08-phase02-coordinator.md",
+    "sha256": "8068587f64fa83b2b477e7c098b0135a915eea33e8db909a694ec8f571b743e3"
+  },
+  {
+    "path": "docs/handoffs/2026-11-08-aesthetic-toolkit-recheck-closure.md",
+    "sha256": "9b39c1a8e41d7b4d0b9c9f2ab314358a176859907504843d994a12dca8be7815"
+  },
+  {
+    "path": "docs/reviews/2026-11-08-cinematic-animation/integration-notes.md",
+    "sha256": "e4654323e9782b7cf75be53faf0d18c975e3d471c4b2591d7a756aad90dbc7df"
+  },
+  {
+    "path": "docs/reviews/2026-11-08-cinematic-animation/animation.md",
+    "sha256": "e53376c69d7bd9bea56878f6b22eaa3b3d7721a2967a0089adf8290e0a4db48a"
+  },
+  {
+    "path": "docs/reviews/2026-11-08-cinematic-animation/art-direction.md",
+    "sha256": "4fa0567dfc87c65c4dff29ec5f8e7f2c390664cadc827c6b525cd0bf96db2f50"
+  },
+  {
+    "path": "docs/reviews/2026-11-08-cinematic-animation/README.md",
+    "sha256": "9ff3d2b1e1e88b0c5400a457d22b9d28b4b61ef3fc70f61bca6ff7db99817b13"
+  },
+  {
+    "path": "docs/reviews/2026-11-08-cinematic-animation/cinematography.md",
+    "sha256": "c6378ee456630e2e6cfb67c4c85a35dd6e9464e058f0844718877140fa75641c"
+  },
+  {
+    "path": "docs/superpowers/plans/2026-11-05-cinewright-production.md",
+    "sha256": "3b00d33cac99ade86bf6288efebf7b864947a204dff68b0aa1955a6e88bdd159"
+  },
+  {
+    "path": "docs/implementation/2026-11-08-cinematic-animation/report.md",
+    "sha256": "f6c35badcefe9306c775bb37c086a4a1eb66528c32e1d2b8e97f8373b8e68f68"
+  },
+  {
+    "path": "docs/implementation/2026-11-08-cinematic-animation/art-guide.md",
+    "sha256": "26bb56006feb71581c65b4c7f77b611d8aec440f0a74aaa71a98a30be11dae70"
+  },
+  {
+    "path": "docs/implementation/2026-11-08-cinematic-animation/handoff.md",
+    "sha256": "922da509e6a7323448510bcb5f75eaff2c6470627bf5d233203da071b6cac346"
+  },
+  {
+    "path": "docs/research/2026-11-08-aesthetic-toolkit/integration-notes.md",
+    "sha256": "0fe0762d119c9005c88b87000da37c0ea063128d9eaf36863e6585dc2d9bb787"
+  },
+  {
+    "path": "docs/research/2026-11-08-aesthetic-toolkit/IMPLEMENTATION-PROMPT.md",
+    "sha256": "d10d7af9911662995751538857ba38d21494e8adf3cd4e9dfbc4f54680855b38"
+  },
+  {
+    "path": "docs/research/2026-11-08-aesthetic-toolkit/architecture-and-validation.md",
+    "sha256": "06e2749e0584f59c9aa24a0295b6eb99b397f20258a4298a5219406724121f2e"
+  },
+  {
+    "path": "docs/research/2026-11-08-aesthetic-toolkit/README.md",
+    "sha256": "f57a2913eacdabc7e53bfffbefc550a5c08527fda13473fd64234fd56a823ed2"
+  },
+  {
+    "path": "docs/research/2026-11-08-aesthetic-toolkit/aesthetics.md",
+    "sha256": "8f98c23194186d1a6623b92460592b8d7cd6c45ae1629006d4f5edc2c6546ec9"
+  },
+  {
+    "path": "docs/research/2026-11-08-aesthetic-toolkit/effects-and-runtime.md",
+    "sha256": "16eae41166df4bd3eb1d96e51a20fb384f8524cb02ca78c466e71d5cb2c21a8b"
+  },
+  {
+    "path": "docs/research/aesthetic-toolkit-phase02-2026-11-08/INDEPENDENT-RECHECK-RECEIPT.json",
+    "sha256": "92e0b629527a4fe0b4edb99217ea4699db78000e980f83eb0533db4adba93f83"
+  },
+  {
+    "path": "docs/research/aesthetic-toolkit-phase02-2026-11-08/COMMON-CONTRACT.md",
+    "sha256": "f269efac80e730eb77b44e3e391370a0e938cad71ed5566b4c3fe19a77375446"
+  },
+  {
+    "path": "docs/research/aesthetic-toolkit-phase02-2026-11-08/TEAM-RECEIPTS.json",
+    "sha256": "56706cde40f3f53712f1a5d8465e49afbc4efcb4a52b25cfe38c40687c4c40b8"
+  },
+  {
+    "path": "references/styles/watercolor-physical.md",
+    "sha256": "f8356adc03c1de708b0c2f0a9688bc2109b5167995fe2ea9fb5557f644c90dd5"
+  },
+  {
+    "path": "references/styles/line-wash.md",
+    "sha256": "d6dc09beb4cc1298a328c4ba5dac7440fb7f754401ab9cc30ededc0cea273dc1"
+  },
+  {
+    "path": "references/styles/retarget.md",
+    "sha256": "2c1825d7cc8b13f5dd01d6e1dfa0dc36f9a7a71f0d3323691ae34a9d7112dc35"
+  },
+  {
+    "path": "references/styles/index.md",
+    "sha256": "2182d2defcbfe1f3f620116c9ea1eed2e0c2b340be1eef3a31f9419f2e452fa7"
+  },
+  {
+    "path": "references/styles/expressionist-space.md",
+    "sha256": "68514a5507c1f136731edfd42abb00bd839358539992b8da84d3c4a00e0bc21f"
+  },
+  {
+    "path": "references/styles/effects.md",
+    "sha256": "07d9a003c9374bcb6ceead27dd268045ba0a6e0772456e40cb36e2f3455696ab"
+  },
+  {
+    "path": "references/styles/silhouette-theatre.md",
+    "sha256": "7be9fcdcd8fd55dda4e534575f869deb834acf9890524d1e12150612470daa77"
+  },
+  {
+    "path": "references/styles/auto-rig.md",
+    "sha256": "cf303fb7f08ac0a3cba5dd7ec80e83688ec8a7f2d89e3ffd65f6073d1444f92f"
+  }
+]

@@ -1,0 +1,23 @@
+{
+  "installed": [
+    {
+      "pluginId": "cinewright@cinewright-local",
+      "name": "cinewright",
+      "marketplaceName": "cinewright-local",
+      "version": "1.0.0",
+      "installed": true,
+      "enabled": true,
+      "source": {
+        "source": "local",
+        "path": "/Users/oozoofrog/.codex/.tmp/marketplaces/cinewright-local"
+      },
+      "marketplaceSource": {
+        "sourceType": "git",
+        "source": "https://github.com/oozoofrog/cinewright.git"
+      },
+      "installPolicy": "AVAILABLE",
+      "authPolicy": "ON_INSTALL"
+    }
+  ],
+  "available": []
+}

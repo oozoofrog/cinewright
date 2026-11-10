@@ -1,0 +1,16 @@
+{
+  "node": "v26.12.1",
+  "ffmpeg": "ffmpeg version 9.0.2 Copyright (c) 2000-2026 the FFmpeg developers",
+  "ffprobe": "ffprobe version 9.0.2 Copyright (c) 2007-2026 the FFmpeg developers",
+  "chromium": "157.0.8103.38",
+  "canvas": true,
+  "webgl2": true
+}
+{
+  "project": "/tmp/cinewright-release-smoke-20261109"
+}
+{
+  "revision": "1441806207a132440cc47d7d873b5f843ecb7a4d7b3e7ac670b4ed3a1c2eae0e",
+  "snapshot": "/tmp/cinewright-release-store-20261109/revisions/1441806207a132440cc47d7d873b5f843ecb7a4d7b3e7ac670b4ed3a1c2eae0e",
+  "title": "새 작품"
+}

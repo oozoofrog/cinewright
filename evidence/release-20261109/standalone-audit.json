@@ -1,0 +1,20 @@
+{
+  "missingInSource": [],
+  "differentFromLatestSource": [
+    "plugin.json",
+    "README.md",
+    "package-lock.json",
+    "package.json",
+    "SKILL.md",
+    "references/craft.md",
+    "references/direction.md",
+    "references/tools.md",
+    "tests/phase02-review-fixes.test.mjs",
+    "tests/phase02-context.test.mjs",
+    "tests/watercolor-browser.test.mjs",
+    "tests/watercolor.test.mjs",
+    "tests/cinematic-implementation.test.mjs",
+    "scripts/materialize-kit.mjs",
+    "examples/music-box-dancer/porcelain/README.md"
+  ]
+}
