@@ -1,10 +1,10 @@
 import fs from 'node:fs/promises';
 import path from 'node:path';
-import {materializeStyle} from './materialize-style.mjs';
-import {freeze} from './revisions.mjs';
-import {host} from './server.mjs';
-import {browser,run} from './execution.mjs';
-const root=process.cwd(),ev=path.resolve('evidence/cinematic-animation-implementation-2026-11-08'),base=path.resolve('.direction/cinematic-animation-implementation-2026-11-08');
+import {materializeStyle} from '../../../scripts/materialize-style.mjs';
+import {freeze} from '../../../scripts/revisions.mjs';
+import {host} from '../../../scripts/server.mjs';
+import {browser,run} from '../../../scripts/execution.mjs';
+const root=process.cwd(),ev=path.resolve('evidence/2026-11-08-cinematic-animation-implementation'),base=path.resolve('.direction/cinematic-animation-implementation-2026-11-08');
 const map={S01:['silhouette-theatre','forest'],S02:['silhouette-theatre','harbor'],S03:['line-wash','rain'],S04:['line-wash','commuter'],S05:['expressionist-space','station'],S06:['expressionist-space','laboratory']};
 const args=process.argv.slice(2),mode=args.shift()??'stills',ids=args.length?args:Object.keys(map);
 const keyframes={S01:[24,72,100,126,156,178],S02:[60,88,144,178,191],S03:[24,120,156],S04:[44,72,88,100,126,156],S05:[70,80,87,88,94,104,156,174],S06:[48,120,156],P01:[24,72,144],P02:[24,72,144],P03:[24,54,64,69,120]};

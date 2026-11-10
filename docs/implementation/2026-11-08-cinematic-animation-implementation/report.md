@@ -10,7 +10,7 @@ S04는 양손의 잡기–펼치기–들어 읽기가 서로 다른 포즈가 �
 
 [미술 지침·shot beat](art-guide.md)에 세 미학의 기준을 먼저 고정하고, 기준 포즈를 렌더한 뒤 손/종이, 빛 방향, 어깨 가중치를 보정했다. 대표 기준은 S01 f72/f126, S04 f100/f126/f156, S05 f104/f156/f174, 재질 정물 S06 f120이다.
 
-모든 결과의 루트: `/Volumes/eyedisk/develop/cinewright/evidence/cinematic-animation-implementation-2026-11-08`
+모든 결과의 루트: `/Volumes/eyedisk/develop/cinewright/evidence/2026-11-08-cinematic-animation-implementation`
 
 - `<ID>/1080p24.mp4`: 수정 영상. P03은 `P03-designed/1080p24.mp4`.
 - `<ID>/comparison/before-after-native24.mp4`: 원본과 수정본 각각 1920×1080을 유지한 3840×1080 좌우 비교.

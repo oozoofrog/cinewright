@@ -4,7 +4,7 @@ import {studies} from '../../examples/relation-studies/studies.mjs';
 import {build} from '../../examples/relation-studies/build.mjs';
 import {freeze,checksum} from '../../scripts/revisions.mjs';
 import {render} from '../../scripts/jobs.mjs';
-const root=path.resolve('evidence/code-expression-20261110'),store=path.join(root,'final/store');
+const root=path.resolve('evidence/2026-11-10-code-expression'),store=path.join(root,'final/store');
 const records=[];
 for(const label of ['fold-shadow-fixed','without-traces','without-first-visit']){
  const name=label==='fold-shadow-fixed'?'fold':'cups',source=structuredClone(studies[name]);

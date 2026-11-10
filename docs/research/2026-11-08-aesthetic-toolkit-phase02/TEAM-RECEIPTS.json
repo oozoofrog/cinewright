@@ -23,7 +23,7 @@
       "threadId": "thread:delegated-task:command%3Amcp%3Ab88709ec-8074-49e1-adc4-fdc0404c54cd%3Adelegate-task%3A505c9e10-babc-43f8-97f1-c23b459fec21",
       "link": "<t3-thread://v2/4976b4a8-e1c4-4543-877c-25d62dfa39d1/thread:delegated-task:command%3Amcp%3Ab88709ec-8074-49e1-adc4-fdc0404c54cd%3Adelegate-task%3A505c9e10-babc-43f8-97f1-c23b459fec21>",
       "continuationTaskId": "node:delegated-task:command%3Amcp%3Ab88709ec-8074-49e1-adc4-fdc0404c54cd%3Athread-send%3A640ef6d8-b3ff-495a-a778-f7a635c8f581",
-      "handoff": "docs/handoffs/2026-11-08-phase02-watercolor.md",
+      "handoff": "docs/handoffs/2026-11-08-aesthetic-toolkit-phase02/watercolor.md",
       "status": "completed"
     },
     {
@@ -36,7 +36,7 @@
       "taskId": "node:delegated-task:command%3Amcp%3Ab88709ec-8074-49e1-adc4-fdc0404c54cd%3Adelegate-task%3A1da56e1f-4579-47b3-abda-ef12ff74425a",
       "threadId": "thread:delegated-task:command%3Amcp%3Ab88709ec-8074-49e1-adc4-fdc0404c54cd%3Adelegate-task%3A1da56e1f-4579-47b3-abda-ef12ff74425a",
       "link": "<t3-thread://v2/4976b4a8-e1c4-4543-877c-25d62dfa39d1/thread:delegated-task:command%3Amcp%3Ab88709ec-8074-49e1-adc4-fdc0404c54cd%3Adelegate-task%3A1da56e1f-4579-47b3-abda-ef12ff74425a>",
-      "handoff": "docs/handoffs/2026-11-08-phase02-retarget.md",
+      "handoff": "docs/handoffs/2026-11-08-aesthetic-toolkit-phase02/retarget.md",
       "status": "completed"
     },
     {

@@ -15,7 +15,7 @@
   },
   "producedVideos": 14,
   "currentVideos": 6,
-  "finalV3Seek": "/Volumes/eyedisk/develop/cinewright/evidence/aesthetic-toolkit-phase02-2026-11-08/coordinator/final-v3/seek.json",
+  "finalV3Seek": "/Volumes/eyedisk/develop/cinewright/evidence/2026-11-08-aesthetic-toolkit-phase02/coordinator/final-v3/seek.json",
   "fullhd": [
     {
       "name": "wet",
@@ -650,11 +650,11 @@
       ]
     }
   ],
-  "fullRegressionLog": "/Volumes/eyedisk/develop/cinewright/evidence/aesthetic-toolkit-phase02-2026-11-08/coordinator/final-v3/regression.log",
-  "review": "/Volumes/eyedisk/develop/cinewright/docs/handoffs/2026-11-08-phase02-independent-review.md",
-  "recheck": "/Volumes/eyedisk/develop/cinewright/docs/handoffs/2026-11-08-phase02-independent-recheck.md",
-  "finalNumericalFix": "/Volumes/eyedisk/develop/cinewright/evidence/aesthetic-toolkit-phase02-2026-11-08/coordinator/final-v3/cpu.log",
-  "closure": "/Volumes/eyedisk/develop/cinewright/docs/handoffs/2026-11-08-phase02-review-closure.md",
+  "fullRegressionLog": "/Volumes/eyedisk/develop/cinewright/evidence/2026-11-08-aesthetic-toolkit-phase02/coordinator/final-v3/regression.log",
+  "review": "/Volumes/eyedisk/develop/cinewright/docs/handoffs/2026-11-08-aesthetic-toolkit-phase02/independent-review.md",
+  "recheck": "/Volumes/eyedisk/develop/cinewright/docs/handoffs/2026-11-08-aesthetic-toolkit-phase02/independent-recheck.md",
+  "finalNumericalFix": "/Volumes/eyedisk/develop/cinewright/evidence/2026-11-08-aesthetic-toolkit-phase02/coordinator/final-v3/cpu.log",
+  "closure": "/Volumes/eyedisk/develop/cinewright/docs/handoffs/2026-11-08-aesthetic-toolkit-phase02/review-closure.md",
   "humanContinuousViewing": false,
   "aestheticAcceptance": false
 }

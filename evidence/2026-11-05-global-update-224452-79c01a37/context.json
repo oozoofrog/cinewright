@@ -1,7 +1,7 @@
 {
   "source": "/Volumes/eyedisk/develop/cinewright",
   "destination": "/Users/oozoofrog/.codex/skills/cinewright",
-  "evidence": "/Volumes/eyedisk/develop/cinewright/evidence/global-update-2026-11-05-224452-79c01a37",
+  "evidence": "/Volumes/eyedisk/develop/cinewright/evidence/2026-11-05-global-update-224452-79c01a37",
   "startedAt": "2026-11-04T22:44:52.051334+00:00",
   "expectedPriorHead": "5bd6d89763dd500d0fd85903bf8c288775e4ac0e",
   "actualSourceHead": "27aac0ca22f4a8d211981cd40970d8a511f9927d",

@@ -31,7 +31,7 @@
         "harbor",
         "portrait"
       ],
-      "evidence": "evidence/aesthetic-toolkit-2026-11-08/A",
+      "evidence": "evidence/2026-11-08-aesthetic-toolkit/A",
       "reference": "references/styles/silhouette-theatre.md",
       "fallback": "explicit alternate 2D style or authored bake; no silent substitution",
       "compatibility": "manifest v1, optional dispose, existing typed channels",
@@ -72,7 +72,7 @@
         "commuter",
         "portrait"
       ],
-      "evidence": "evidence/aesthetic-toolkit-2026-11-08/B",
+      "evidence": "evidence/2026-11-08-aesthetic-toolkit/B",
       "reference": "references/styles/line-wash.md",
       "fallback": "explicit alternate 2D style or authored bake; no silent substitution",
       "compatibility": "manifest v1, optional dispose, existing typed channels",
@@ -138,7 +138,7 @@
         "portrait",
         "effects"
       ],
-      "evidence": "evidence/aesthetic-toolkit-2026-11-08/C",
+      "evidence": "evidence/2026-11-08-aesthetic-toolkit/C",
       "reference": "references/styles/expressionist-space.md",
       "fallback": "explicit alternate 2D style or authored bake; no silent substitution",
       "compatibility": "manifest v1, optional dispose, existing typed channels",

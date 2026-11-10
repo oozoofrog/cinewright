@@ -1,7 +1,7 @@
 # 개발 인수인계
 
 작업 루트: `/Volumes/eyedisk/develop/cinewright`
-결과 루트: `evidence/cinematic-animation-implementation-2026-11-08/`
+결과 루트: `evidence/2026-11-08-cinematic-animation-implementation/`
 
 [결과·수락 한계](report.md), [미술 지침·shot beat](art-guide.md)를 함께 읽는다. 커밋·reset·원본 영상 교체는 수행하지 않았다. 최초 git status는 `baseline/git-status.txt`, 수정 전 모듈/recipe/추가 수정 파일은 `baseline/`에 있다. 이 작업 이전부터 있던 미추적 파일 전체를 신규 구현으로 계산하면 안 된다. `changes.json`이 이번 변경만 식별한다.
 
@@ -36,18 +36,18 @@
 
 ```sh
 cd /Volumes/eyedisk/develop/cinewright
-node scripts/cinematic-traveler-asset.mjs
-python3 scripts/cinematic-author.py
-node scripts/cinematic-rig-asset.mjs
-node scripts/cinematic-watercolor-compare.mjs
-node scripts/cinematic-render.mjs stills S01 S02 S03 S04 S05 S06 P01 P02 P03-designed
-node scripts/cinematic-render.mjs video S01 S02 S03 S04 S05 S06 P01 P02 P03-designed
-node scripts/cinematic-render.mjs stills S03-wash S04-wash P03 P03-no-outline P03-flat P03-flat-side P03-designed-flat P03-designed-flat-side P03-designed-inferred P03-designed-inferred-no-outline
-python3 scripts/cinematic-evidence.py
-node scripts/cinematic-rig-check.mjs
+node evidence/2026-11-08-cinematic-animation-implementation/scripts/cinematic-traveler-asset.mjs
+python3 evidence/2026-11-08-cinematic-animation-implementation/scripts/cinematic-author.py
+node evidence/2026-11-08-cinematic-animation-implementation/scripts/cinematic-rig-asset.mjs
+node evidence/2026-11-08-cinematic-animation-implementation/scripts/cinematic-watercolor-compare.mjs
+node evidence/2026-11-08-cinematic-animation-implementation/scripts/cinematic-render.mjs stills S01 S02 S03 S04 S05 S06 P01 P02 P03-designed
+node evidence/2026-11-08-cinematic-animation-implementation/scripts/cinematic-render.mjs video S01 S02 S03 S04 S05 S06 P01 P02 P03-designed
+node evidence/2026-11-08-cinematic-animation-implementation/scripts/cinematic-render.mjs stills S03-wash S04-wash P03 P03-no-outline P03-flat P03-flat-side P03-designed-flat P03-designed-flat-side P03-designed-inferred P03-designed-inferred-no-outline
+python3 evidence/2026-11-08-cinematic-animation-implementation/scripts/cinematic-evidence.py
+node evidence/2026-11-08-cinematic-animation-implementation/scripts/cinematic-rig-check.mjs
 ```
 
-수채 대안: `node scripts/cinematic-render.mjs stills P01-linear P02-linear P01-96 P02-96`. 최종 ID P01/P02는 96×54, `-linear`는 원 48×27의 linear, `-96`은 96×54 cubic을 명시한다. 48×27 cubic은 최종 교체 전에 `P01-48/`, `P02-48/`로 보존되어 있다.
+수채 대안: `node evidence/2026-11-08-cinematic-animation-implementation/scripts/cinematic-render.mjs stills P01-linear P02-linear P01-96 P02-96`. 최종 ID P01/P02는 96×54, `-linear`는 원 48×27의 linear, `-96`은 96×54 cubic을 명시한다. 48×27 cubic은 최종 교체 전에 `P01-48/`, `P02-48/`로 보존되어 있다.
 
 최종 회귀 명령:
 

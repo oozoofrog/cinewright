@@ -1,8 +1,8 @@
 import fs from 'node:fs/promises';
 import {Vector3} from 'three';
-import {createRiggedMesh} from '../modules/animation/auto-rig.mjs';
-import {createRetargetPlayer} from '../modules/animation/retarget.mjs';
-const out='evidence/cinematic-animation-implementation-2026-11-08/validation',rows=[];
+import {createRiggedMesh} from '../../../modules/animation/auto-rig.mjs';
+import {createRetargetPlayer} from '../../../modules/animation/retarget.mjs';
+const out='evidence/2026-11-08-cinematic-animation-implementation/validation',rows=[];
 for(const name of ['original','reader']){
  const base=name==='original'?'examples/styles/phase02-rig/assets/tall/character':'examples/styles/phase02-rig/assets/reader/reader';
  const a=JSON.parse(await fs.readFile(base+'.rig.json')),m=JSON.parse(await fs.readFile(base+'.motion.json')),rig=createRiggedMesh(a),player=createRetargetPlayer(rig,m,{fps:24});let prev,maxStep=0;const frames=[];

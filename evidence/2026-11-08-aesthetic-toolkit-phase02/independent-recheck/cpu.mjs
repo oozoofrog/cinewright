@@ -10,7 +10,7 @@ import {fixtureRig,fixtureMotion} from '../../../examples/styles/phase02-retarge
 import {createRetargeter} from '../../../modules/animation/retarget.mjs';
 const out=path.dirname(new URL(import.meta.url).pathname),base=path.resolve('.direction/aesthetic-toolkit-phase02-2026-11-08/independent-recheck');
 const hash=b=>createHash('sha256').update(b).digest('hex'),sum=a=>a.reduce((a,b)=>a+b,0),report={water:[],negativeInputs:[],legacy:[],rig:[],contact:[],publication:[],defects:[]};
-const original=JSON.parse(await fs.readFile('evidence/aesthetic-toolkit-phase02-2026-11-08/independent-review/water-drying-repro.json'));
+const original=JSON.parse(await fs.readFile('evidence/2026-11-08-aesthetic-toolkit-phase02/independent-review/water-drying-repro.json'));
 function check(c,label){
  const source=JSON.stringify(c),s=W.createSolver(c);let maxBalance=0,min=Infinity,last;
  try{for(let f=0;f<c.frames;f++){

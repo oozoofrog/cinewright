@@ -27,7 +27,7 @@ For a different crane, copy/edit either JSON and pass its path to build.mjs. For
 
 ## Produced outputs and observed correction
 
-Evidence root: `evidence/skill-production-loop-20261109/implementation/verified-demo`.
+Evidence root: `evidence/2026-11-09-skill-production-loop/implementation/verified-demo`.
 
 - First pass revision `d73936b8be740e5e1446017e62309e2ba0cbde2a6a03f93f52ee141784752b1a`, job `0339fcf8-9377-40f7-a5f2-36d81a8c8c4f`.
 - Clearance revision `e3f5775da83aaf3e87c7fdb255c66a46482c6f214e41c5a2a9bb62bba2da02e0`, job `e3f6dcf8-428e-45b7-aa39-7507a133995d`.

@@ -4,11 +4,11 @@
 
 ## 실제 구현
 
-물리 수채는 기존 `wash.mjs` polygon glaze와 별도인 `modules/fx2d/watercolor.mjs`다. 닫힌 격자의 쌍별 물 확산/안료 이류·확산, 종이 흡수·증발 sink, mobile→deposited 침착을 계산한다. 초기 dry-empty, solver 버전, seed, dt/step, 해상도, 계수·brush event가 bake에 들어간다. 완성된 frame 배열을 직접 조회하므로 역순 seek가 과거 재생을 요구하지 않는다. CLI worker는 실행 중 signal 취소와 임시 파일 cleanup을 지원하며, hard-link 게시로 기존 파일을 교체하지 않는다. 실제 물감의 유체역학·광학 전체 재현이 아닌 제한된 수송 모형이다. 방정식·수지·안정성·단위·비용은 [수채 reference](../../references/styles/watercolor-physical.md), 팀 검사/영상은 [수채 인계](2026-11-08-phase02-watercolor.md)에 있다. `watercolor-physical` 새 스타일을 명시적으로 선택하며 `scene.overlay`로 line-wash를 선택 합성한다. line-wash 기본 paper/glaze 동작은 유지했다.
+물리 수채는 기존 `wash.mjs` polygon glaze와 별도인 `modules/fx2d/watercolor.mjs`다. 닫힌 격자의 쌍별 물 확산/안료 이류·확산, 종이 흡수·증발 sink, mobile→deposited 침착을 계산한다. 초기 dry-empty, solver 버전, seed, dt/step, 해상도, 계수·brush event가 bake에 들어간다. 완성된 frame 배열을 직접 조회하므로 역순 seek가 과거 재생을 요구하지 않는다. CLI worker는 실행 중 signal 취소와 임시 파일 cleanup을 지원하며, hard-link 게시로 기존 파일을 교체하지 않는다. 실제 물감의 유체역학·광학 전체 재현이 아닌 제한된 수송 모형이다. 방정식·수지·안정성·단위·비용은 [수채 reference](../../../references/styles/watercolor-physical.md), 팀 검사/영상은 [수채 인계](../2026-11-08-aesthetic-toolkit-phase02/watercolor.md)에 있다. `watercolor-physical` 새 스타일을 명시적으로 선택하며 `scene.overlay`로 line-wash를 선택 합성한다. line-wash 기본 paper/glaze 동작은 유지했다.
 
-자동 rig는 정적 UV 표면의 80개 단면에서 사지/몸통 위치를 측정하는 `autoRig`다. 기존 rig 로더가 아니며 메쉬 이름 분기가 없다. 서로 다른 비율의 연결된 정적 biped 두 개에 같은 코드로 bone hierarchy/rest bind 및 4개 skin indices/weights를 생성했다. 선택 landmark가 있으면 추정값을 덮는 수동 힌트로 출처를 기록한다. 데모 두 개는 힌트 없이 생성됐다. 대상은 기준축이 명시된 대칭 직립 T/낮은 A 포즈이며, 곧은 사지와 분리된 다리가 필요하다. elbow/knee의 중간점 prior와 거리 기반 weight이므로 임의 인체의 해부학 자동 추정·손/얼굴·동물·옷을 지원하지 않는다. Three 실제 SkinnedMesh와 JOINTS_0/WEIGHTS_0·inverseBindMatrices를 갖는 GLB로 저장/재로딩한다. 원본 표면·profile·rig·GLB·motion·CC0 notice는 `examples/styles/phase02-rig/assets/{tall,broad}`다. 자세한 API/실패 진단/연구·라이선스는 [auto-rig reference](../../references/styles/auto-rig.md)에 있다.
+자동 rig는 정적 UV 표면의 80개 단면에서 사지/몸통 위치를 측정하는 `autoRig`다. 기존 rig 로더가 아니며 메쉬 이름 분기가 없다. 서로 다른 비율의 연결된 정적 biped 두 개에 같은 코드로 bone hierarchy/rest bind 및 4개 skin indices/weights를 생성했다. 선택 landmark가 있으면 추정값을 덮는 수동 힌트로 출처를 기록한다. 데모 두 개는 힌트 없이 생성됐다. 대상은 기준축이 명시된 대칭 직립 T/낮은 A 포즈이며, 곧은 사지와 분리된 다리가 필요하다. elbow/knee의 중간점 prior와 거리 기반 weight이므로 임의 인체의 해부학 자동 추정·손/얼굴·동물·옷을 지원하지 않는다. Three 실제 SkinnedMesh와 JOINTS_0/WEIGHTS_0·inverseBindMatrices를 갖는 GLB로 저장/재로딩한다. 원본 표면·profile·rig·GLB·motion·CC0 notice는 `examples/styles/phase02-rig/assets/{tall,broad}`다. 자세한 API/실패 진단/연구·라이선스는 [auto-rig reference](../../../references/styles/auto-rig.md)에 있다.
 
-리타게팅은 `C S(t) S0^-1 C^-1 T0`로 rest world 회전과 좌표축을 보정하고, 부모 역회전으로 local pose를 복원한다. 단위/비율 root scale, semantic/name mapping, root apply/extract/inPlace, loop/weight/timeScale, absolute integer frame sampling과 source 없는 local pose bake를 제공한다. 두 source motion을 비율·bone 이름·rest frame·축이 다른 Reed/Copper에 모두 적용했다. author가 명시한 contact window/연속 접촉에서 발 원점을 ground plane으로 보정하는 bounded analytic two-bone IK가 있다. knee plane/도달 불가/관절 flexion/최대 보정량을 진단하며 발바닥 충돌·수평 foot-lock·접촉 자동 추정·pelvis balance는 지원하지 않는다. [retarget API/출처/한계](../../references/styles/retarget.md), [실제 수치/팀 인계](2026-11-08-phase02-retarget.md)를 함께 읽는다.
+리타게팅은 `C S(t) S0^-1 C^-1 T0`로 rest world 회전과 좌표축을 보정하고, 부모 역회전으로 local pose를 복원한다. 단위/비율 root scale, semantic/name mapping, root apply/extract/inPlace, loop/weight/timeScale, absolute integer frame sampling과 source 없는 local pose bake를 제공한다. 두 source motion을 비율·bone 이름·rest frame·축이 다른 Reed/Copper에 모두 적용했다. author가 명시한 contact window/연속 접촉에서 발 원점을 ground plane으로 보정하는 bounded analytic two-bone IK가 있다. knee plane/도달 불가/관절 flexion/최대 보정량을 진단하며 발바닥 충돌·수평 foot-lock·접촉 자동 추정·pelvis balance는 지원하지 않는다. [retarget API/출처/한계](../../../references/styles/retarget.md), [실제 수치/팀 인계](../2026-11-08-aesthetic-toolkit-phase02/retarget.md)를 함께 읽는다.
 
 expressionist-space 1.1은 명시적 `object.rig`/`motion`/`playback`과 embedded uncompressed GLB skin을 지원한다. UV hatch와 skinning 전 extrusion outline을 실제 deforming mesh에 적용한다. skinned rest deform/저작 rigid 내부선 조합은 진단하며 rigid fallback을 하지 않는다. camera/light/actor exposure는 분리된다. `materializeStyle`은 64MiB JSON 자산 byte ceiling, solver/rig/motion validation 및 rig↔motion rest 호환성을 게시 전에 검사한다. 모듈·자산·기존 GLTFLoader→BufferGeometryUtils closure와 Three r180 MIT notice를 local freeze한다. SkeletonUtils는 실제 r180 소스·전이 import를 검토했으나 채택하지 않았으므로 새 숨은 addon 의존성은 없다. Node ESM, manifest v1, `[from,to)`, 기존 typed channel/prepare/evaluate/draw/dispose 계약을 보존했다.
 
@@ -61,14 +61,14 @@ source motion은 기존 Three AnimationClip을 그대로 받는 형식이 아니
 
 | 내용 | 최신 1080p 영상 | 대표 프레임 |
 | --- | --- | --- |
-| wet-on-wet·흡수 | [영상](/Volumes/eyedisk/develop/cinewright/.direction/aesthetic-toolkit-phase02-2026-11-08/fullhd-v3/store/jobs/2781fec5-694d-4db9-ab44-cafc538ab406/work.mp4) | [frame63](/Volumes/eyedisk/develop/cinewright/evidence/aesthetic-toolkit-phase02-2026-11-08/coordinator/fullhd-v3/wet-video-63.png) |
-| 두 안료 겹침·건조 | [영상](/Volumes/eyedisk/develop/cinewright/.direction/aesthetic-toolkit-phase02-2026-11-08/fullhd-v3/store/jobs/171a8060-5da8-45cd-b4a8-d23250096281/work.mp4) | [frame63](/Volumes/eyedisk/develop/cinewright/evidence/aesthetic-toolkit-phase02-2026-11-08/coordinator/fullhd-v3/overlap-video-63.png) |
-| tall 자동 rig 변형 | [영상](/Volumes/eyedisk/develop/cinewright/.direction/aesthetic-toolkit-phase02-2026-11-08/fullhd/store/jobs/d4f706ac-2b7f-40ec-a1eb-d25ace2fca61/work.mp4) | [frame63](/Volumes/eyedisk/develop/cinewright/evidence/aesthetic-toolkit-phase02-2026-11-08/coordinator/fullhd/tall-video-63.png) |
-| broad 자동 rig 변형 | [영상](/Volumes/eyedisk/develop/cinewright/.direction/aesthetic-toolkit-phase02-2026-11-08/fullhd/store/jobs/298b7180-cd24-4101-a1d2-0f79621eb87f/work.mp4) | [frame63](/Volumes/eyedisk/develop/cinewright/evidence/aesthetic-toolkit-phase02-2026-11-08/coordinator/fullhd/broad-video-63.png) |
-| stride 세 골격 비교 | [영상](/Volumes/eyedisk/develop/cinewright/.direction/aesthetic-toolkit-phase02-2026-11-08/fullhd/store/jobs/a24bb8c5-65d3-4db4-8fa5-66d329016c57/work.mp4) | [frame63](/Volumes/eyedisk/develop/cinewright/evidence/aesthetic-toolkit-phase02-2026-11-08/coordinator/fullhd/stride-video-63.png) |
-| salute 세 골격 비교 | [영상](/Volumes/eyedisk/develop/cinewright/.direction/aesthetic-toolkit-phase02-2026-11-08/fullhd/store/jobs/a1c96d56-d09b-4b45-a448-3c2ecf9951cb/work.mp4) | [frame63](/Volumes/eyedisk/develop/cinewright/evidence/aesthetic-toolkit-phase02-2026-11-08/coordinator/fullhd/salute-video-63.png) |
+| wet-on-wet·흡수 | [영상](/Volumes/eyedisk/develop/cinewright/.direction/aesthetic-toolkit-phase02-2026-11-08/fullhd-v3/store/jobs/2781fec5-694d-4db9-ab44-cafc538ab406/work.mp4) | [frame63](/Volumes/eyedisk/develop/cinewright/evidence/2026-11-08-aesthetic-toolkit-phase02/coordinator/fullhd-v3/wet-video-63.png) |
+| 두 안료 겹침·건조 | [영상](/Volumes/eyedisk/develop/cinewright/.direction/aesthetic-toolkit-phase02-2026-11-08/fullhd-v3/store/jobs/171a8060-5da8-45cd-b4a8-d23250096281/work.mp4) | [frame63](/Volumes/eyedisk/develop/cinewright/evidence/2026-11-08-aesthetic-toolkit-phase02/coordinator/fullhd-v3/overlap-video-63.png) |
+| tall 자동 rig 변형 | [영상](/Volumes/eyedisk/develop/cinewright/.direction/aesthetic-toolkit-phase02-2026-11-08/fullhd/store/jobs/d4f706ac-2b7f-40ec-a1eb-d25ace2fca61/work.mp4) | [frame63](/Volumes/eyedisk/develop/cinewright/evidence/2026-11-08-aesthetic-toolkit-phase02/coordinator/fullhd/tall-video-63.png) |
+| broad 자동 rig 변형 | [영상](/Volumes/eyedisk/develop/cinewright/.direction/aesthetic-toolkit-phase02-2026-11-08/fullhd/store/jobs/298b7180-cd24-4101-a1d2-0f79621eb87f/work.mp4) | [frame63](/Volumes/eyedisk/develop/cinewright/evidence/2026-11-08-aesthetic-toolkit-phase02/coordinator/fullhd/broad-video-63.png) |
+| stride 세 골격 비교 | [영상](/Volumes/eyedisk/develop/cinewright/.direction/aesthetic-toolkit-phase02-2026-11-08/fullhd/store/jobs/a24bb8c5-65d3-4db4-8fa5-66d329016c57/work.mp4) | [frame63](/Volumes/eyedisk/develop/cinewright/evidence/2026-11-08-aesthetic-toolkit-phase02/coordinator/fullhd/stride-video-63.png) |
+| salute 세 골격 비교 | [영상](/Volumes/eyedisk/develop/cinewright/.direction/aesthetic-toolkit-phase02-2026-11-08/fullhd/store/jobs/a1c96d56-d09b-4b45-a448-3c2ecf9951cb/work.mp4) | [frame63](/Volumes/eyedisk/develop/cinewright/evidence/2026-11-08-aesthetic-toolkit-phase02/coordinator/fullhd/salute-video-63.png) |
 
-현재 6개 revision/job/hash/파일·프레임·PTS·flash·전체 길이 native 자동 재생 기록은 `evidence/aesthetic-toolkit-phase02-2026-11-08/coordinator/fullhd-current/`에 모았다. 각 저작 project 경로를 없앤 상태로 public frozen renderer를 실행했다. 모든 frozen module/runtime bytes가 현재 소스와 일치한다. source와 snapshot은 별도로 남겨 재제작할 수 있다.
+현재 6개 revision/job/hash/파일·프레임·PTS·flash·전체 길이 native 자동 재생 기록은 `evidence/2026-11-08-aesthetic-toolkit-phase02/coordinator/fullhd-current/`에 모았다. 각 저작 project 경로를 없앤 상태로 public frozen renderer를 실행했다. 모든 frozen module/runtime bytes가 현재 소스와 일치한다. source와 snapshot은 별도로 남겨 재제작할 수 있다.
 
 ## 검사와 실제 한계
 
@@ -82,13 +82,13 @@ rig는20,280/19,800정점, JSON약2.8MB다. 관측 Node 추정은약34–47ms, �
 
 ## 독립 검토와 수정 이력
 
-[첫 독립 보고서](2026-11-08-phase02-independent-review.md)는 당시 request-changes다. 수채 frame58 실패, rig-only inverse-bind 사전 검증 누락, contact 옵션 검증, Canvas context 정책과 1080p 증거를 총괄이 보완했다. [새 독립 재검토](2026-11-08-phase02-independent-recheck.md)는 원래 주요 지적의 해소와 1080p 6개를 직접 확인했고, P2는 새로 찾지 않았다. 마지막으로 극미량 물의 음수 quantum과 비활성 sink label이라는 P3 두 건을 남겼다.
+[첫 독립 보고서](../2026-11-08-aesthetic-toolkit-phase02/independent-review.md)는 당시 request-changes다. 수채 frame58 실패, rig-only inverse-bind 사전 검증 누락, contact 옵션 검증, Canvas context 정책과 1080p 증거를 총괄이 보완했다. [새 독립 재검토](../2026-11-08-aesthetic-toolkit-phase02/independent-recheck.md)는 원래 주요 지적의 해소와 1080p 6개를 직접 확인했고, P2는 새로 찾지 않았다. 마지막으로 극미량 물의 음수 quantum과 비활성 sink label이라는 P3 두 건을 남겼다.
 
-총괄은 이 작은 지적을 직접 수정해 solver3으로 기록했다. donor budget 방식은 음수 물을 버리는 clamp 없이 수송량을 제한하고, sink 계수 비율을 먼저 계산해 비활성 sink가 정확히0이 되게 한다. 임계값320개와 sink90개, 원래 실패 입력 및80개 drying 궤적을 다시 검사했다. 완성된 v1/v2 bake decode는 유지한다. [구체 수정·재검증](2026-11-08-phase02-review-closure.md)에 각 근거가 있다. 두 독립 보고서는 수정 전 판정으로 보존하며, 마지막 총괄 수정을 제3의 독립 승인으로 표현하지 않는다.
+총괄은 이 작은 지적을 직접 수정해 solver3으로 기록했다. donor budget 방식은 음수 물을 버리는 clamp 없이 수송량을 제한하고, sink 계수 비율을 먼저 계산해 비활성 sink가 정확히0이 되게 한다. 임계값320개와 sink90개, 원래 실패 입력 및80개 drying 궤적을 다시 검사했다. 완성된 v1/v2 bake decode는 유지한다. [구체 수정·재검증](../2026-11-08-aesthetic-toolkit-phase02/review-closure.md)에 각 근거가 있다. 두 독립 보고서는 수정 전 판정으로 보존하며, 마지막 총괄 수정을 제3의 독립 승인으로 표현하지 않는다.
 
 ## 실제 모델·팀과 보존
 
-공용 계약과 파일 소유권은 `docs/research/aesthetic-toolkit-phase02-2026-11-08/COMMON-CONTRACT.md`, 실제 API receipt는 같은 폴더의 `TEAM-RECEIPTS.json` 및 `INDEPENDENT-RECHECK-RECEIPT.json`이다. capabilities에서 지정 provider/model을 확인한 뒤 shared dirty checkout으로 직접 child 동시 최대2를 지켰고 구현 child의 추가 하위 팀은 없었다.
+공용 계약과 파일 소유권은 `docs/research/2026-11-08-aesthetic-toolkit-phase02/COMMON-CONTRACT.md`, 실제 API receipt는 같은 폴더의 `TEAM-RECEIPTS.json` 및 `INDEPENDENT-RECHECK-RECEIPT.json`이다. capabilities에서 지정 provider/model을 확인한 뒤 shared dirty checkout으로 직접 child 동시 최대2를 지켰고 구현 child의 추가 하위 팀은 없었다.
 
 - 총괄·rig·통합: `codex-eyemacworld` / `gpt-6.1-sol`, reasoningEffort `ultra`.
 - 수채: `codex-oozoofrog` / `gpt-6.1-terra`, reasoningEffort `ultra`. <t3-thread://v2/4976b4a8-e1c4-4543-877c-25d62dfa39d1/thread:delegated-task:command%3Amcp%3Ab88709ec-8074-49e1-adc4-fdc0404c54cd%3Adelegate-task%3A505c9e10-babc-43f8-97f1-c23b459fec21>
@@ -100,14 +100,14 @@ rig는20,280/19,800정점, JSON약2.8MB다. 관측 Node 추정은약34–47ms, �
 
 ## 마지막 확인 기록
 
-최종 solver3 상태에서 `npm test` **472/472 통과, 실패0**, 114.3초다. 로그는 [final-v3/regression.log](../../evidence/aesthetic-toolkit-phase02-2026-11-08/coordinator/final-v3/regression.log)다. 마지막 두 P3 수정의 CPU focused 11개와 v3 수채 두 frozen 영상의 역순/반복/end→start 각각9개 pixel 비교, 임계값320개/sink90개와80개 drying 궤적, v3 수채 영상의 전체 native 자동 재생/PTS/flash, 최신6개 frozen source audit를 확인했다. 모든 최신 영상은1920×1080/24fps이며 현재 source 경로 없이 재생된다. 최종 source/미디어/보존 근거는 [final-evidence-index.json](../../evidence/aesthetic-toolkit-phase02-2026-11-08/coordinator/final-evidence-index.json)에 모았다.
+최종 solver3 상태에서 `npm test` **472/472 통과, 실패0**, 114.3초다. 로그는 [final-v3/regression.log](../../../evidence/2026-11-08-aesthetic-toolkit-phase02/coordinator/final-v3/regression.log)다. 마지막 두 P3 수정의 CPU focused 11개와 v3 수채 두 frozen 영상의 역순/반복/end→start 각각9개 pixel 비교, 임계값320개/sink90개와80개 drying 궤적, v3 수채 영상의 전체 native 자동 재생/PTS/flash, 최신6개 frozen source audit를 확인했다. 모든 최신 영상은1920×1080/24fps이며 현재 source 경로 없이 재생된다. 최종 source/미디어/보존 근거는 [final-evidence-index.json](../../../evidence/2026-11-08-aesthetic-toolkit-phase02/coordinator/final-evidence-index.json)에 모았다.
 
 초기 보호13,007파일 변경·누락0, HEAD/index불변이며 스킬 validator도 통과했다. 첫 독립검토와 새 독립재검토의 지적은 모두 구체 수정·직접 재검증했다. 마지막 P3 수정에 대한 제3의 독립 무조건 승인은 없으며 당시 request-changes 보고서를 보존한다. 승인된 제한 입력 범위의 구현 납품은 완료로 판정한다. 사람의 직접 연속 시청·청취·예술/접근성 수락은 별도 미확인이다.
 
 재현 시 기존 결과를 덮지 않는 새 run tag를 쓴다:
 
 ```sh
-node scripts/phase02-fullhd.mjs NEW-RUN-TAG wet overlap tall broad stride salute
-node scripts/phase02-fullhd-check.mjs NEW-RUN-TAG wet overlap tall broad stride salute
+node evidence/2026-11-08-aesthetic-toolkit-phase02/scripts/phase02-fullhd.mjs NEW-RUN-TAG wet overlap tall broad stride salute
+node evidence/2026-11-08-aesthetic-toolkit-phase02/scripts/phase02-fullhd-check.mjs NEW-RUN-TAG wet overlap tall broad stride salute
 ```
 

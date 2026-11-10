@@ -1,5 +1,5 @@
 import fs from 'node:fs/promises';import path from 'node:path';import assert from 'node:assert/strict';import {createHash} from 'node:crypto';import {openRevision} from '../../../scripts/revisions.mjs';
-const root=new URL('./',import.meta.url).pathname,store=path.join(root,'store'),hash=x=>createHash('sha256').update(x).digest('hex');
+const root=new URL('.',import.meta.url).pathname,store=path.join(root,'store'),hash=x=>createHash('sha256').update(x).digest('hex');
 const revs=['68484f6314fa50269f6953a3ba9ee496cc2a1484bafdc38b9d2adb5fa1f5006c','12e8108e288eac934950af77dc6ed2a55e3809d8d2a8eca7d3f7dbdeaa123d0e'];
 const jobs=(await Promise.all((await fs.readdir(path.join(store,'jobs'))).map(async id=>JSON.parse(await fs.readFile(path.join(store,'jobs',id,'job.json')))))).filter(j=>j.status==='completed'&&j.settings.mode==='video');
 const results=[];

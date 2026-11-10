@@ -1,7 +1,7 @@
 {
   "command": [
     "python3",
-    "/Volumes/eyedisk/develop/cinewright/evidence/global-update-2026-11-05-224452-79c01a37/apply.py"
+    "/Volumes/eyedisk/develop/cinewright/evidence/2026-11-05-global-update-224452-79c01a37/apply.py"
   ],
   "cwd": "/Volumes/eyedisk/develop/cinewright",
   "exitCode": 0

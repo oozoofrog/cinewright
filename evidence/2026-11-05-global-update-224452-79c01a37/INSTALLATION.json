@@ -4,7 +4,7 @@
   "sourceRoot": "/Volumes/eyedisk/develop/cinewright",
   "sourceHeadObserved": "27aac0ca22f4a8d211981cd40970d8a511f9927d",
   "destination": "/Users/oozoofrog/.codex/skills/cinewright",
-  "evidenceRoot": "/Volumes/eyedisk/develop/cinewright/evidence/global-update-2026-11-05-224452-79c01a37",
+  "evidenceRoot": "/Volumes/eyedisk/develop/cinewright/evidence/2026-11-05-global-update-224452-79c01a37",
   "scope": {
     "payloadFiles": 45,
     "replacedExistingFiles": 4,
@@ -13,17 +13,17 @@
     "baseInstalledFiles": 105,
     "installedFilesAfterValidationExcludingNodeModules": 627,
     "sourcePayloadUnchanged": true,
-    "sourceWriteScope": "/Volumes/eyedisk/develop/cinewright/evidence/global-update-2026-11-05-224452-79c01a37",
+    "sourceWriteScope": "/Volumes/eyedisk/develop/cinewright/evidence/2026-11-05-global-update-224452-79c01a37",
     "dependencyReinstall": false,
     "deleteOperationsDuringInstallation": false
   },
   "backup": {
-    "path": "/Volumes/eyedisk/develop/cinewright/evidence/global-update-2026-11-05-224452-79c01a37/backup/files",
+    "path": "/Volumes/eyedisk/develop/cinewright/evidence/2026-11-05-global-update-224452-79c01a37/backup/files",
     "fileCount": 64,
     "bytes": 20573970,
     "independentByteCopies": true,
-    "receipt": "/Volumes/eyedisk/develop/cinewright/evidence/global-update-2026-11-05-224452-79c01a37/backup/receipt.json",
-    "manifest": "/Volumes/eyedisk/develop/cinewright/evidence/global-update-2026-11-05-224452-79c01a37/installed-before.json"
+    "receipt": "/Volumes/eyedisk/develop/cinewright/evidence/2026-11-05-global-update-224452-79c01a37/backup/receipt.json",
+    "manifest": "/Volumes/eyedisk/develop/cinewright/evidence/2026-11-05-global-update-224452-79c01a37/installed-before.json"
   },
   "payload": {
     "count": 45,
@@ -440,14 +440,14 @@
   "adaptations": {
     "count": 19,
     "documentCount": 3,
-    "receipt": "/Volumes/eyedisk/develop/cinewright/evidence/global-update-2026-11-05-224452-79c01a37/link-adaptations.json",
+    "receipt": "/Volumes/eyedisk/develop/cinewright/evidence/2026-11-05-global-update-224452-79c01a37/link-adaptations.json",
     "semantics": "Only Markdown targets for absent historical artifacts were converted to existing absolute source-repository paths. Labels, fragments and other text are preserved. Reusable installed-file links remain relative."
   },
   "documentLinks": {
     "count": 44,
     "allResolved": true,
     "fragmentsChecked": true,
-    "receipt": "/Volumes/eyedisk/develop/cinewright/evidence/global-update-2026-11-05-224452-79c01a37/links-installed.json"
+    "receipt": "/Volumes/eyedisk/develop/cinewright/evidence/2026-11-05-global-update-224452-79c01a37/links-installed.json"
   },
   "dependencies": {
     "unchanged": true,
@@ -456,8 +456,8 @@
     "symlinkCount": 1,
     "bytes": 44423308,
     "fingerprintSha256": "e5e6416fe8d7c9859858601869085e52639fb5e13fd62c54a4e86218457b9c14",
-    "before": "/Volumes/eyedisk/develop/cinewright/evidence/global-update-2026-11-05-224452-79c01a37/dependencies-before.json",
-    "after": "/Volumes/eyedisk/develop/cinewright/evidence/global-update-2026-11-05-224452-79c01a37/dependencies-after.json"
+    "before": "/Volumes/eyedisk/develop/cinewright/evidence/2026-11-05-global-update-224452-79c01a37/dependencies-before.json",
+    "after": "/Volumes/eyedisk/develop/cinewright/evidence/2026-11-05-global-update-224452-79c01a37/dependencies-after.json"
   },
   "validation": {
     "checks": [
@@ -470,9 +470,9 @@
         "cwd": "/Users/oozoofrog/.codex/skills/cinewright",
         "exitCode": 0,
         "seconds": 0.09049837500788271,
-        "stdout": "/Volumes/eyedisk/develop/cinewright/evidence/global-update-2026-11-05-224452-79c01a37/logs/node-version.stdout",
-        "stderr": "/Volumes/eyedisk/develop/cinewright/evidence/global-update-2026-11-05-224452-79c01a37/logs/node-version.stderr",
-        "status": "/Volumes/eyedisk/develop/cinewright/evidence/global-update-2026-11-05-224452-79c01a37/logs/node-version.status.json"
+        "stdout": "/Volumes/eyedisk/develop/cinewright/evidence/2026-11-05-global-update-224452-79c01a37/logs/node-version.stdout",
+        "stderr": "/Volumes/eyedisk/develop/cinewright/evidence/2026-11-05-global-update-224452-79c01a37/logs/node-version.stderr",
+        "status": "/Volumes/eyedisk/develop/cinewright/evidence/2026-11-05-global-update-224452-79c01a37/logs/node-version.status.json"
       },
       {
         "name": "npm-version",
@@ -483,9 +483,9 @@
         "cwd": "/Users/oozoofrog/.codex/skills/cinewright",
         "exitCode": 0,
         "seconds": 0.13845620799111202,
-        "stdout": "/Volumes/eyedisk/develop/cinewright/evidence/global-update-2026-11-05-224452-79c01a37/logs/npm-version.stdout",
-        "stderr": "/Volumes/eyedisk/develop/cinewright/evidence/global-update-2026-11-05-224452-79c01a37/logs/npm-version.stderr",
-        "status": "/Volumes/eyedisk/develop/cinewright/evidence/global-update-2026-11-05-224452-79c01a37/logs/npm-version.status.json"
+        "stdout": "/Volumes/eyedisk/develop/cinewright/evidence/2026-11-05-global-update-224452-79c01a37/logs/npm-version.stdout",
+        "stderr": "/Volumes/eyedisk/develop/cinewright/evidence/2026-11-05-global-update-224452-79c01a37/logs/npm-version.stderr",
+        "status": "/Volumes/eyedisk/develop/cinewright/evidence/2026-11-05-global-update-224452-79c01a37/logs/npm-version.status.json"
       },
       {
         "name": "quick-validate",
@@ -497,9 +497,9 @@
         "cwd": "/Users/oozoofrog/.codex/skills/cinewright",
         "exitCode": 0,
         "seconds": 0.0681149170268327,
-        "stdout": "/Volumes/eyedisk/develop/cinewright/evidence/global-update-2026-11-05-224452-79c01a37/logs/quick-validate.stdout",
-        "stderr": "/Volumes/eyedisk/develop/cinewright/evidence/global-update-2026-11-05-224452-79c01a37/logs/quick-validate.stderr",
-        "status": "/Volumes/eyedisk/develop/cinewright/evidence/global-update-2026-11-05-224452-79c01a37/logs/quick-validate.status.json"
+        "stdout": "/Volumes/eyedisk/develop/cinewright/evidence/2026-11-05-global-update-224452-79c01a37/logs/quick-validate.stdout",
+        "stderr": "/Volumes/eyedisk/develop/cinewright/evidence/2026-11-05-global-update-224452-79c01a37/logs/quick-validate.stderr",
+        "status": "/Volumes/eyedisk/develop/cinewright/evidence/2026-11-05-global-update-224452-79c01a37/logs/quick-validate.status.json"
       },
       {
         "name": "doctor",
@@ -511,9 +511,9 @@
         "cwd": "/Users/oozoofrog/.codex/skills/cinewright",
         "exitCode": 0,
         "seconds": 2.7725763749913312,
-        "stdout": "/Volumes/eyedisk/develop/cinewright/evidence/global-update-2026-11-05-224452-79c01a37/logs/doctor.stdout",
-        "stderr": "/Volumes/eyedisk/develop/cinewright/evidence/global-update-2026-11-05-224452-79c01a37/logs/doctor.stderr",
-        "status": "/Volumes/eyedisk/develop/cinewright/evidence/global-update-2026-11-05-224452-79c01a37/logs/doctor.status.json"
+        "stdout": "/Volumes/eyedisk/develop/cinewright/evidence/2026-11-05-global-update-224452-79c01a37/logs/doctor.stdout",
+        "stderr": "/Volumes/eyedisk/develop/cinewright/evidence/2026-11-05-global-update-224452-79c01a37/logs/doctor.stderr",
+        "status": "/Volumes/eyedisk/develop/cinewright/evidence/2026-11-05-global-update-224452-79c01a37/logs/doctor.status.json"
       },
       {
         "name": "help",
@@ -525,9 +525,9 @@
         "cwd": "/Users/oozoofrog/.codex/skills/cinewright",
         "exitCode": 0,
         "seconds": 0.09950399998342618,
-        "stdout": "/Volumes/eyedisk/develop/cinewright/evidence/global-update-2026-11-05-224452-79c01a37/logs/help.stdout",
-        "stderr": "/Volumes/eyedisk/develop/cinewright/evidence/global-update-2026-11-05-224452-79c01a37/logs/help.stderr",
-        "status": "/Volumes/eyedisk/develop/cinewright/evidence/global-update-2026-11-05-224452-79c01a37/logs/help.status.json"
+        "stdout": "/Volumes/eyedisk/develop/cinewright/evidence/2026-11-05-global-update-224452-79c01a37/logs/help.stdout",
+        "stderr": "/Volumes/eyedisk/develop/cinewright/evidence/2026-11-05-global-update-224452-79c01a37/logs/help.stderr",
+        "status": "/Volumes/eyedisk/develop/cinewright/evidence/2026-11-05-global-update-224452-79c01a37/logs/help.status.json"
       },
       {
         "name": "npm-test",
@@ -538,9 +538,9 @@
         "cwd": "/Users/oozoofrog/.codex/skills/cinewright",
         "exitCode": 0,
         "seconds": 34.93706220795866,
-        "stdout": "/Volumes/eyedisk/develop/cinewright/evidence/global-update-2026-11-05-224452-79c01a37/logs/npm-test.stdout",
-        "stderr": "/Volumes/eyedisk/develop/cinewright/evidence/global-update-2026-11-05-224452-79c01a37/logs/npm-test.stderr",
-        "status": "/Volumes/eyedisk/develop/cinewright/evidence/global-update-2026-11-05-224452-79c01a37/logs/npm-test.status.json"
+        "stdout": "/Volumes/eyedisk/develop/cinewright/evidence/2026-11-05-global-update-224452-79c01a37/logs/npm-test.stdout",
+        "stderr": "/Volumes/eyedisk/develop/cinewright/evidence/2026-11-05-global-update-224452-79c01a37/logs/npm-test.stderr",
+        "status": "/Volumes/eyedisk/develop/cinewright/evidence/2026-11-05-global-update-224452-79c01a37/logs/npm-test.status.json"
       }
     ],
     "npmTestRuns": 1,
@@ -560,7 +560,7 @@
       "canvas": true,
       "webgl2": true
     },
-    "configuration": "/Volumes/eyedisk/develop/cinewright/evidence/global-update-2026-11-05-224452-79c01a37/validation-configuration.json",
+    "configuration": "/Volumes/eyedisk/develop/cinewright/evidence/2026-11-05-global-update-224452-79c01a37/validation-configuration.json",
     "artifacts": {
       "root": "/Users/oozoofrog/.codex/skills/cinewright/.direction/test-runs",
       "retained": true,
@@ -592,9 +592,9 @@
           "fingerprintSha256": "6d44f906d4225728d5d09e211407129bd58245489fd85246935c8ce62e38f248"
         }
       ],
-      "completeEntriesIn": "/Volumes/eyedisk/develop/cinewright/evidence/global-update-2026-11-05-224452-79c01a37/installed-after.json"
+      "completeEntriesIn": "/Volumes/eyedisk/develop/cinewright/evidence/2026-11-05-global-update-224452-79c01a37/installed-after.json"
     },
-    "postVerification": "/Volumes/eyedisk/develop/cinewright/evidence/global-update-2026-11-05-224452-79c01a37/post-verification.json"
+    "postVerification": "/Volumes/eyedisk/develop/cinewright/evidence/2026-11-05-global-update-224452-79c01a37/post-verification.json"
   },
   "independentReadOnlyAudit": {
     "reportedBy": "parent /root coordination message",
@@ -643,20 +643,20 @@
         "inPayload": false
       }
     ],
-    "sourceStatusAfterLog": "/Volumes/eyedisk/develop/cinewright/evidence/global-update-2026-11-05-224452-79c01a37/logs/source-status-after.stdout",
+    "sourceStatusAfterLog": "/Volumes/eyedisk/develop/cinewright/evidence/2026-11-05-global-update-224452-79c01a37/logs/source-status-after.stdout",
     "guardFailures": [
       {
         "stage": "prepare",
         "exitCode": 1,
-        "log": "/Volumes/eyedisk/develop/cinewright/evidence/global-update-2026-11-05-224452-79c01a37/logs/prepare.stderr",
-        "correction": "/Volumes/eyedisk/develop/cinewright/evidence/global-update-2026-11-05-224452-79c01a37/prepare-guard-correction.diff",
+        "log": "/Volumes/eyedisk/develop/cinewright/evidence/2026-11-05-global-update-224452-79c01a37/logs/prepare.stderr",
+        "correction": "/Volumes/eyedisk/develop/cinewright/evidence/2026-11-05-global-update-224452-79c01a37/prepare-guard-correction.diff",
         "beforeDestinationMutation": true
       },
       {
         "stage": "apply",
         "exitCode": 1,
-        "log": "/Volumes/eyedisk/develop/cinewright/evidence/global-update-2026-11-05-224452-79c01a37/logs/apply.stderr",
-        "correction": "/Volumes/eyedisk/develop/cinewright/evidence/global-update-2026-11-05-224452-79c01a37/apply-guard-correction.diff",
+        "log": "/Volumes/eyedisk/develop/cinewright/evidence/2026-11-05-global-update-224452-79c01a37/logs/apply.stderr",
+        "correction": "/Volumes/eyedisk/develop/cinewright/evidence/2026-11-05-global-update-224452-79c01a37/apply-guard-correction.diff",
         "beforeDestinationMutation": true
       }
     ],
@@ -664,15 +664,15 @@
   },
   "rollback": {
     "executed": false,
-    "guide": "/Volumes/eyedisk/develop/cinewright/evidence/global-update-2026-11-05-224452-79c01a37/ROLLBACK.md",
-    "script": "/Volumes/eyedisk/develop/cinewright/evidence/global-update-2026-11-05-224452-79c01a37/rollback.py",
+    "guide": "/Volumes/eyedisk/develop/cinewright/evidence/2026-11-05-global-update-224452-79c01a37/ROLLBACK.md",
+    "script": "/Volumes/eyedisk/develop/cinewright/evidence/2026-11-05-global-update-224452-79c01a37/rollback.py",
     "checkCommand": [
       "python3",
-      "/Volumes/eyedisk/develop/cinewright/evidence/global-update-2026-11-05-224452-79c01a37/rollback.py"
+      "/Volumes/eyedisk/develop/cinewright/evidence/2026-11-05-global-update-224452-79c01a37/rollback.py"
     ],
     "applyCommand": [
       "python3",
-      "/Volumes/eyedisk/develop/cinewright/evidence/global-update-2026-11-05-224452-79c01a37/rollback.py",
+      "/Volumes/eyedisk/develop/cinewright/evidence/2026-11-05-global-update-224452-79c01a37/rollback.py",
       "--apply"
     ],
     "restores": 4,

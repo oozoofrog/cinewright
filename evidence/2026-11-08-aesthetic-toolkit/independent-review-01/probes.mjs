@@ -1,5 +1,5 @@
 import fs from 'node:fs/promises';import path from 'node:path';import assert from 'node:assert/strict';import {createHash}from 'node:crypto';import {execFileSync}from 'node:child_process';import {pathToFileURL}from 'node:url';
-const root=process.cwd(),out=path.join(root,'evidence/aesthetic-toolkit-2026-11-08/independent-review-01'),scratch=path.join(root,'.direction/aesthetic-toolkit-2026-11-08/review-01');const checks=[];const hash=b=>createHash('sha256').update(b).digest('hex');
+const root=process.cwd(),out=path.join(root,'evidence/2026-11-08-aesthetic-toolkit/independent-review-01'),scratch=path.join(root,'.direction/aesthetic-toolkit-2026-11-08/review-01');const checks=[];const hash=b=>createHash('sha256').update(b).digest('hex');
 const imp=p=>import(pathToFileURL(path.join(root,p)));const json=async p=>JSON.parse(await fs.readFile(p,'utf8'));
 async function run(name,fn){try{const observed=await fn();checks.push({name,status:'pass',observed});}catch(e){checks.push({name,status:'fail',error:e.stack});}await fs.writeFile(path.join(out,'checks.json'),JSON.stringify({node:process.version,checks},null,2)+'\n');}
 const A=await imp('modules/styles/silhouette-theatre/index.mjs'),B=await imp('modules/styles/line-wash/index.mjs'),C=await imp('modules/styles/expressionist-space/index.mjs');

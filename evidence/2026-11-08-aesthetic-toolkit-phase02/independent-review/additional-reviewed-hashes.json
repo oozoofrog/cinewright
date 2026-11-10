@@ -6,7 +6,7 @@
   "tests/retarget-core.test.mjs": "d795feac95cc32dfb31d10b57d4ef85b4d999a723c0fda151879e44b25cf9b01",
   "tests/retarget-publication.test.mjs": "7a813ffb0467c34db852564468c91742db305b96cd349549fc46afd21f0fcbf7",
   "tests/phase02-materialize.test.mjs": "a58f25a91a2a28c44889c8ae8c82ca9904ce2111c9c64add6263049112fc6b5e",
-  "docs/handoffs/2026-11-08-phase02-watercolor.md": "7efd542fba8ea6ea09a9423aee69f74902a7250e4fcea1cf6ee296e5c7c47dca",
-  "docs/handoffs/2026-11-08-phase02-retarget.md": "6cbefa54f437767ade95f5e1585e0fbb6d4e3d7d1343d0fce0b8325a170003d8",
-  "docs/handoffs/2026-11-08-phase02-coordinator.md": "8068587f64fa83b2b477e7c098b0135a915eea33e8db909a694ec8f571b743e3"
+  "docs/handoffs/2026-11-08-aesthetic-toolkit-phase02/watercolor.md": "7efd542fba8ea6ea09a9423aee69f74902a7250e4fcea1cf6ee296e5c7c47dca",
+  "docs/handoffs/2026-11-08-aesthetic-toolkit-phase02/retarget.md": "6cbefa54f437767ade95f5e1585e0fbb6d4e3d7d1343d0fce0b8325a170003d8",
+  "docs/handoffs/2026-11-08-aesthetic-toolkit-phase02/coordinator.md": "8068587f64fa83b2b477e7c098b0135a915eea33e8db909a694ec8f571b743e3"
 }

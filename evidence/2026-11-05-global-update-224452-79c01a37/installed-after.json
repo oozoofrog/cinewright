@@ -4531,7 +4531,7 @@
       "size": 5766,
       "sha256": "a5ce3d0c02abe63c34a0704439af9500f35e8f3b9c5405e886e1a5001cab3199"
     },
-    "scripts/make_examples.py": {
+    "evidence/2026-11-04-initial-production/scripts/make_examples.py": {
       "mode": "0o644",
       "type": "file",
       "size": 7886,
@@ -4543,7 +4543,7 @@
       "size": 4668,
       "sha256": "cd474bdc00a010723b3d72c308fa8a0e65bff80355b40058985f2f5e6fdf7596"
     },
-    "scripts/playback-sheet.py": {
+    "evidence/2026-11-04-initial-production/scripts/playback-sheet.py": {
       "mode": "0o644",
       "type": "file",
       "size": 864,

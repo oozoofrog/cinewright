@@ -42,12 +42,12 @@
 패키지 루트에서 실행한다. 새 입력으로 만들려면 아래 해시 대신 examples/harbor-v2를 넘긴다.
 
 ```sh
-node evidence/harbor-v2/serve-review.mjs 8198
+node evidence/2026-11-04-harbor-v2/serve-review.mjs 8198
 node scripts/direction.mjs play dd5e77acbe9af9b855222380844d37002837a458dc92256e5a16fded9c78a48b
 node scripts/direction.mjs render dd5e77acbe9af9b855222380844d37002837a458dc92256e5a16fded9c78a48b
 node scripts/direction.mjs review 0003ce2b-b6f5-433c-baf8-8cf524caf560 8d92875a-3b53-4a0b-b32b-2a8b34c643ec
 node scripts/direction.mjs sync 0003ce2b-b6f5-433c-baf8-8cf524caf560
-node evidence/harbor-v2/verify-work.mjs dd5e77acbe9af9b855222380844d37002837a458dc92256e5a16fded9c78a48b
+node evidence/2026-11-04-harbor-v2/verify-work.mjs dd5e77acbe9af9b855222380844d37002837a458dc92256e5a16fded9c78a48b
 ```
 
 [개정본](final-freeze.json) · [최종 작업 기록](final-render.json) · [미리보기 작업 기록](final-preview.json)

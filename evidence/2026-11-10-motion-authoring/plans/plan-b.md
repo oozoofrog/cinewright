@@ -91,10 +91,10 @@
 
 아래 7개 파일만 읽었다. 문서 안의 외부 웹 출처, 묶음 밖 예제·구현 기록·helper 소스·기타 링크 대상은 열지 않았으며 미확인이다. craft.md의 출처 요약을 읽은 것과 원문을 직접 확인한 것은 구분한다.
 
-1. `evidence/motion-authoring-20261110/plans/input-b/SKILL.md`
-2. `evidence/motion-authoring-20261110/plans/input-b/references/craft-execution.md`
-3. `evidence/motion-authoring-20261110/plans/input-b/references/direction.md`
-4. `evidence/motion-authoring-20261110/plans/input-b/references/craft.md`
-5. `evidence/motion-authoring-20261110/plans/input-b/references/music.md`
-6. `evidence/motion-authoring-20261110/plans/input-b/references/format.md`
-7. `evidence/motion-authoring-20261110/plans/input-b/references/pose-tracks.md`
+1. `evidence/2026-11-10-motion-authoring/plans/input-b/SKILL.md`
+2. `evidence/2026-11-10-motion-authoring/plans/input-b/references/craft-execution.md`
+3. `evidence/2026-11-10-motion-authoring/plans/input-b/references/direction.md`
+4. `evidence/2026-11-10-motion-authoring/plans/input-b/references/craft.md`
+5. `evidence/2026-11-10-motion-authoring/plans/input-b/references/music.md`
+6. `evidence/2026-11-10-motion-authoring/plans/input-b/references/format.md`
+7. `evidence/2026-11-10-motion-authoring/plans/input-b/references/pose-tracks.md`

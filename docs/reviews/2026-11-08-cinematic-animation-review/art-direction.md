@@ -8,7 +8,7 @@
 
 이 평가는 **타임스탬프가 있는 추출 프레임/연속 프레임 분석**이다. MP4를 원속도로 연속 감상하는 도구는 사용하지 않았다. FFmpeg 디코딩은 추출 수단이며 모델의 연속 감상이나 인간의 관람을 뜻하지 않는다. 원속도에서 느끼는 정서, 기다림의 체감 길이, 박자와 잔상은 확정하지 않는다. 소리·음악·음질, 사람의 수락, 접근성 인증도 평가하지 않았다.
 
-아래 이미지들을 실제 `view_image`로 열었다. 파일 목록만 확인한 것을 관찰로 세지 않았다. 최초 시각 관찰을 [독립 관찰 메모](/Volumes/eyedisk/develop/cinewright/evidence/cinematic-animation-review-2026-11-08/art-direction/independent-observations.md)에 먼저 고정한 뒤 공개 모듈·recipe·자산 생성 코드 일부를 읽었다. 다른 reviewer의 보고서는 열지 않았으며 구현자의 성공 설명·점수·테스트 통과는 판정 근거에서 제외했다.
+아래 이미지들을 실제 `view_image`로 열었다. 파일 목록만 확인한 것을 관찰로 세지 않았다. 최초 시각 관찰을 [독립 관찰 메모](/Volumes/eyedisk/develop/cinewright/evidence/2026-11-08-cinematic-animation-review/art-direction/independent-observations.md)에 먼저 고정한 뒤 공개 모듈·recipe·자산 생성 코드 일부를 읽었다. 다른 reviewer의 보고서는 열지 않았으며 구현자의 성공 설명·점수·테스트 통과는 판정 근거에서 제외했다.
 
 ### 제공된 시트
 
@@ -16,23 +16,23 @@
 
 | clip / 원본 길이 | 실제 연 overview | 실제 연 상세 sequence |
 |---|---|---|
-| S01 숲 / 8초 | [overview](/Volumes/eyedisk/develop/cinewright/evidence/cinematic-animation-review-2026-11-08/S01/overview.jpg) | [f000–190, 매2frame](/Volumes/eyedisk/develop/cinewright/evidence/cinematic-animation-review-2026-11-08/S01/sequence-12fps.jpg) |
-| S02 항구 / 8초 | [overview](/Volumes/eyedisk/develop/cinewright/evidence/cinematic-animation-review-2026-11-08/S02/overview.jpg) | [f000–190, 매2frame](/Volumes/eyedisk/develop/cinewright/evidence/cinematic-animation-review-2026-11-08/S02/sequence-12fps.jpg) |
-| S03 비·정물 / 8초 | [overview](/Volumes/eyedisk/develop/cinewright/evidence/cinematic-animation-review-2026-11-08/S03/overview.jpg) | [f000–190, 매2frame](/Volumes/eyedisk/develop/cinewright/evidence/cinematic-animation-review-2026-11-08/S03/sequence-12fps.jpg) |
-| S04 통근자 / 8초 | [overview](/Volumes/eyedisk/develop/cinewright/evidence/cinematic-animation-review-2026-11-08/S04/overview.jpg) | [f000–190, 매2frame](/Volumes/eyedisk/develop/cinewright/evidence/cinematic-animation-review-2026-11-08/S04/sequence-12fps.jpg) |
-| S05 역 / 8초 | [overview](/Volumes/eyedisk/develop/cinewright/evidence/cinematic-animation-review-2026-11-08/S05/overview.jpg) | [f000–190, 매2frame](/Volumes/eyedisk/develop/cinewright/evidence/cinematic-animation-review-2026-11-08/S05/sequence-12fps.jpg) |
-| S06 연구실 / 8초 | [overview](/Volumes/eyedisk/develop/cinewright/evidence/cinematic-animation-review-2026-11-08/S06/overview.jpg) | [f000–190, 매2frame](/Volumes/eyedisk/develop/cinewright/evidence/cinematic-animation-review-2026-11-08/S06/sequence-12fps.jpg) |
-| P01 wet / 8초 | [overview](/Volumes/eyedisk/develop/cinewright/evidence/cinematic-animation-review-2026-11-08/P01/overview.jpg) | [f000–190, 매2frame](/Volumes/eyedisk/develop/cinewright/evidence/cinematic-animation-review-2026-11-08/P01/sequence-12fps.jpg) |
-| P02 overlap / 8초 | [overview](/Volumes/eyedisk/develop/cinewright/evidence/cinematic-animation-review-2026-11-08/P02/overview.jpg) | [f000–190, 매2frame](/Volumes/eyedisk/develop/cinewright/evidence/cinematic-animation-review-2026-11-08/P02/sequence-12fps.jpg) |
-| P03 tall / 8초 | [overview](/Volumes/eyedisk/develop/cinewright/evidence/cinematic-animation-review-2026-11-08/P03/overview.jpg) | [f000–190, 매2frame](/Volumes/eyedisk/develop/cinewright/evidence/cinematic-animation-review-2026-11-08/P03/sequence-12fps.jpg) |
-| P04 broad / 8초 | [overview](/Volumes/eyedisk/develop/cinewright/evidence/cinematic-animation-review-2026-11-08/P04/overview.jpg) | 열지 않음 — 동작 세부 판정 제외 |
-| P05 stride / 8초 | [overview](/Volumes/eyedisk/develop/cinewright/evidence/cinematic-animation-review-2026-11-08/P05/overview.jpg) | [f000–190, 매2frame](/Volumes/eyedisk/develop/cinewright/evidence/cinematic-animation-review-2026-11-08/P05/sequence-12fps.jpg) |
-| P06 salute / 9초 | [overview](/Volumes/eyedisk/develop/cinewright/evidence/cinematic-animation-review-2026-11-08/P06/overview.jpg) | 열지 않음 — 미세 cadence 판정 제외 |
-| F01 2D FX / 8초 | [overview](/Volumes/eyedisk/develop/cinewright/evidence/cinematic-animation-review-2026-11-08/F01/overview.jpg) | 열지 않음 |
-| F02 3D FX / 8초 | [overview](/Volumes/eyedisk/develop/cinewright/evidence/cinematic-animation-review-2026-11-08/F02/overview.jpg) | 열지 않음 |
-| F03 mixed / 8초 | [overview](/Volumes/eyedisk/develop/cinewright/evidence/cinematic-animation-review-2026-11-08/F03/overview.jpg) | 열지 않음 |
+| S01 숲 / 8초 | [overview](/Volumes/eyedisk/develop/cinewright/evidence/2026-11-08-cinematic-animation-review/S01/overview.jpg) | [f000–190, 매2frame](/Volumes/eyedisk/develop/cinewright/evidence/2026-11-08-cinematic-animation-review/S01/sequence-12fps.jpg) |
+| S02 항구 / 8초 | [overview](/Volumes/eyedisk/develop/cinewright/evidence/2026-11-08-cinematic-animation-review/S02/overview.jpg) | [f000–190, 매2frame](/Volumes/eyedisk/develop/cinewright/evidence/2026-11-08-cinematic-animation-review/S02/sequence-12fps.jpg) |
+| S03 비·정물 / 8초 | [overview](/Volumes/eyedisk/develop/cinewright/evidence/2026-11-08-cinematic-animation-review/S03/overview.jpg) | [f000–190, 매2frame](/Volumes/eyedisk/develop/cinewright/evidence/2026-11-08-cinematic-animation-review/S03/sequence-12fps.jpg) |
+| S04 통근자 / 8초 | [overview](/Volumes/eyedisk/develop/cinewright/evidence/2026-11-08-cinematic-animation-review/S04/overview.jpg) | [f000–190, 매2frame](/Volumes/eyedisk/develop/cinewright/evidence/2026-11-08-cinematic-animation-review/S04/sequence-12fps.jpg) |
+| S05 역 / 8초 | [overview](/Volumes/eyedisk/develop/cinewright/evidence/2026-11-08-cinematic-animation-review/S05/overview.jpg) | [f000–190, 매2frame](/Volumes/eyedisk/develop/cinewright/evidence/2026-11-08-cinematic-animation-review/S05/sequence-12fps.jpg) |
+| S06 연구실 / 8초 | [overview](/Volumes/eyedisk/develop/cinewright/evidence/2026-11-08-cinematic-animation-review/S06/overview.jpg) | [f000–190, 매2frame](/Volumes/eyedisk/develop/cinewright/evidence/2026-11-08-cinematic-animation-review/S06/sequence-12fps.jpg) |
+| P01 wet / 8초 | [overview](/Volumes/eyedisk/develop/cinewright/evidence/2026-11-08-cinematic-animation-review/P01/overview.jpg) | [f000–190, 매2frame](/Volumes/eyedisk/develop/cinewright/evidence/2026-11-08-cinematic-animation-review/P01/sequence-12fps.jpg) |
+| P02 overlap / 8초 | [overview](/Volumes/eyedisk/develop/cinewright/evidence/2026-11-08-cinematic-animation-review/P02/overview.jpg) | [f000–190, 매2frame](/Volumes/eyedisk/develop/cinewright/evidence/2026-11-08-cinematic-animation-review/P02/sequence-12fps.jpg) |
+| P03 tall / 8초 | [overview](/Volumes/eyedisk/develop/cinewright/evidence/2026-11-08-cinematic-animation-review/P03/overview.jpg) | [f000–190, 매2frame](/Volumes/eyedisk/develop/cinewright/evidence/2026-11-08-cinematic-animation-review/P03/sequence-12fps.jpg) |
+| P04 broad / 8초 | [overview](/Volumes/eyedisk/develop/cinewright/evidence/2026-11-08-cinematic-animation-review/P04/overview.jpg) | 열지 않음 — 동작 세부 판정 제외 |
+| P05 stride / 8초 | [overview](/Volumes/eyedisk/develop/cinewright/evidence/2026-11-08-cinematic-animation-review/P05/overview.jpg) | [f000–190, 매2frame](/Volumes/eyedisk/develop/cinewright/evidence/2026-11-08-cinematic-animation-review/P05/sequence-12fps.jpg) |
+| P06 salute / 9초 | [overview](/Volumes/eyedisk/develop/cinewright/evidence/2026-11-08-cinematic-animation-review/P06/overview.jpg) | 열지 않음 — 미세 cadence 판정 제외 |
+| F01 2D FX / 8초 | [overview](/Volumes/eyedisk/develop/cinewright/evidence/2026-11-08-cinematic-animation-review/F01/overview.jpg) | 열지 않음 |
+| F02 3D FX / 8초 | [overview](/Volumes/eyedisk/develop/cinewright/evidence/2026-11-08-cinematic-animation-review/F02/overview.jpg) | 열지 않음 |
+| F03 mixed / 8초 | [overview](/Volumes/eyedisk/develop/cinewright/evidence/2026-11-08-cinematic-animation-review/F03/overview.jpg) | 열지 않음 |
 
-원본 MP4 절대 경로, duration/fps/frames/hash의 식별 근거는 제공된 [manifest](/Volumes/eyedisk/develop/cinewright/evidence/cinematic-animation-review-2026-11-08/manifest.json)다. 메타데이터와 해시를 별도로 재검증한 것은 아니다. P06은 216 frames, 나머지는 192 frames이며 모두 24fps/1920×1080으로 제공되었다.
+원본 MP4 절대 경로, duration/fps/frames/hash의 식별 근거는 제공된 [manifest](/Volumes/eyedisk/develop/cinewright/evidence/2026-11-08-cinematic-animation-review/manifest.json)다. 메타데이터와 해시를 별도로 재검증한 것은 아니다. P06은 216 frames, 나머지는 192 frames이며 모두 24fps/1920×1080으로 제공되었다.
 
 ### 원본에서 추가 추출하여 실제 연 이미지
 
@@ -40,19 +40,19 @@ frame 번호는 **0-based**, 초는 `frame/24`다. 다음 정지 프레임은 19
 
 | clip | 별도로 연 원해상도 정지화면 | 추가로 연 native24 구간 |
 |---|---|---|
-| S01 | [f126 / 5.250초](/Volumes/eyedisk/develop/cinewright/evidence/cinematic-animation-review-2026-11-08/art-direction/S01/f126.jpg) | [f048–059 / 2.000–2.458초](/Volumes/eyedisk/develop/cinewright/evidence/cinematic-animation-review-2026-11-08/art-direction/S01/native24-f048-059.jpg) |
-| S02 | [f060 / 2.500초](/Volumes/eyedisk/develop/cinewright/evidence/cinematic-animation-review-2026-11-08/art-direction/S02/f060.jpg), [f178 / 7.417초](/Volumes/eyedisk/develop/cinewright/evidence/cinematic-animation-review-2026-11-08/art-direction/S02/f178.jpg) | 없음 |
-| S03 | [f024 / 1.000초](/Volumes/eyedisk/develop/cinewright/evidence/cinematic-animation-review-2026-11-08/art-direction/S03/f024.jpg), [f120 / 5.000초](/Volumes/eyedisk/develop/cinewright/evidence/cinematic-animation-review-2026-11-08/art-direction/S03/f120.jpg) | 없음 |
-| S04 | [f044 / 1.833초](/Volumes/eyedisk/develop/cinewright/evidence/cinematic-animation-review-2026-11-08/art-direction/S04/f044.jpg), [f156 / 6.500초](/Volumes/eyedisk/develop/cinewright/evidence/cinematic-animation-review-2026-11-08/art-direction/S04/f156.jpg) | [f120–131 / 5.000–5.458초](/Volumes/eyedisk/develop/cinewright/evidence/cinematic-animation-review-2026-11-08/art-direction/S04/native24-f120-131.jpg) |
-| S05 | [f024 / 1.000초](/Volumes/eyedisk/develop/cinewright/evidence/cinematic-animation-review-2026-11-08/art-direction/S05/f024.jpg), [f174 / 7.250초](/Volumes/eyedisk/develop/cinewright/evidence/cinematic-animation-review-2026-11-08/art-direction/S05/f174.jpg) | 없음 |
-| S06 | [f120 / 5.000초](/Volumes/eyedisk/develop/cinewright/evidence/cinematic-animation-review-2026-11-08/art-direction/S06/f120.jpg) | [f048–059 / 2.000–2.458초](/Volumes/eyedisk/develop/cinewright/evidence/cinematic-animation-review-2026-11-08/art-direction/S06/native24-f048-059.jpg) |
-| P01 | [f144 / 6.000초](/Volumes/eyedisk/develop/cinewright/evidence/cinematic-animation-review-2026-11-08/art-direction/P01/f144.jpg) | [f024–035 / 1.000–1.458초](/Volumes/eyedisk/develop/cinewright/evidence/cinematic-animation-review-2026-11-08/art-direction/P01/native24-f024-035.jpg) |
-| P02 | [f144 / 6.000초](/Volumes/eyedisk/develop/cinewright/evidence/cinematic-animation-review-2026-11-08/art-direction/P02/f144.jpg) | 없음 |
-| P03 | [f024 / 1.000초](/Volumes/eyedisk/develop/cinewright/evidence/cinematic-animation-review-2026-11-08/art-direction/P03/f024.jpg), [f064 / 2.667초](/Volumes/eyedisk/develop/cinewright/evidence/cinematic-animation-review-2026-11-08/art-direction/P03/f064.jpg) | [f048–059 / 2.000–2.458초](/Volumes/eyedisk/develop/cinewright/evidence/cinematic-animation-review-2026-11-08/art-direction/P03/native24-f048-059.jpg) |
-| P05 | [f018 / 0.750초](/Volumes/eyedisk/develop/cinewright/evidence/cinematic-animation-review-2026-11-08/art-direction/P05/f018.jpg), [f036 / 1.500초](/Volumes/eyedisk/develop/cinewright/evidence/cinematic-animation-review-2026-11-08/art-direction/P05/f036.jpg) | [f024–035 / 1.000–1.458초](/Volumes/eyedisk/develop/cinewright/evidence/cinematic-animation-review-2026-11-08/art-direction/P05/native24-f024-035.jpg) |
-| F01 / F02 / F03 | 각 f126 / 5.250초: [F01](/Volumes/eyedisk/develop/cinewright/evidence/cinematic-animation-review-2026-11-08/art-direction/F01/f126.jpg), [F02](/Volumes/eyedisk/develop/cinewright/evidence/cinematic-animation-review-2026-11-08/art-direction/F02/f126.jpg), [F03](/Volumes/eyedisk/develop/cinewright/evidence/cinematic-animation-review-2026-11-08/art-direction/F03/f126.jpg) | 없음 |
+| S01 | [f126 / 5.250초](/Volumes/eyedisk/develop/cinewright/evidence/2026-11-08-cinematic-animation-review/art-direction/S01/f126.jpg) | [f048–059 / 2.000–2.458초](/Volumes/eyedisk/develop/cinewright/evidence/2026-11-08-cinematic-animation-review/art-direction/S01/native24-f048-059.jpg) |
+| S02 | [f060 / 2.500초](/Volumes/eyedisk/develop/cinewright/evidence/2026-11-08-cinematic-animation-review/art-direction/S02/f060.jpg), [f178 / 7.417초](/Volumes/eyedisk/develop/cinewright/evidence/2026-11-08-cinematic-animation-review/art-direction/S02/f178.jpg) | 없음 |
+| S03 | [f024 / 1.000초](/Volumes/eyedisk/develop/cinewright/evidence/2026-11-08-cinematic-animation-review/art-direction/S03/f024.jpg), [f120 / 5.000초](/Volumes/eyedisk/develop/cinewright/evidence/2026-11-08-cinematic-animation-review/art-direction/S03/f120.jpg) | 없음 |
+| S04 | [f044 / 1.833초](/Volumes/eyedisk/develop/cinewright/evidence/2026-11-08-cinematic-animation-review/art-direction/S04/f044.jpg), [f156 / 6.500초](/Volumes/eyedisk/develop/cinewright/evidence/2026-11-08-cinematic-animation-review/art-direction/S04/f156.jpg) | [f120–131 / 5.000–5.458초](/Volumes/eyedisk/develop/cinewright/evidence/2026-11-08-cinematic-animation-review/art-direction/S04/native24-f120-131.jpg) |
+| S05 | [f024 / 1.000초](/Volumes/eyedisk/develop/cinewright/evidence/2026-11-08-cinematic-animation-review/art-direction/S05/f024.jpg), [f174 / 7.250초](/Volumes/eyedisk/develop/cinewright/evidence/2026-11-08-cinematic-animation-review/art-direction/S05/f174.jpg) | 없음 |
+| S06 | [f120 / 5.000초](/Volumes/eyedisk/develop/cinewright/evidence/2026-11-08-cinematic-animation-review/art-direction/S06/f120.jpg) | [f048–059 / 2.000–2.458초](/Volumes/eyedisk/develop/cinewright/evidence/2026-11-08-cinematic-animation-review/art-direction/S06/native24-f048-059.jpg) |
+| P01 | [f144 / 6.000초](/Volumes/eyedisk/develop/cinewright/evidence/2026-11-08-cinematic-animation-review/art-direction/P01/f144.jpg) | [f024–035 / 1.000–1.458초](/Volumes/eyedisk/develop/cinewright/evidence/2026-11-08-cinematic-animation-review/art-direction/P01/native24-f024-035.jpg) |
+| P02 | [f144 / 6.000초](/Volumes/eyedisk/develop/cinewright/evidence/2026-11-08-cinematic-animation-review/art-direction/P02/f144.jpg) | 없음 |
+| P03 | [f024 / 1.000초](/Volumes/eyedisk/develop/cinewright/evidence/2026-11-08-cinematic-animation-review/art-direction/P03/f024.jpg), [f064 / 2.667초](/Volumes/eyedisk/develop/cinewright/evidence/2026-11-08-cinematic-animation-review/art-direction/P03/f064.jpg) | [f048–059 / 2.000–2.458초](/Volumes/eyedisk/develop/cinewright/evidence/2026-11-08-cinematic-animation-review/art-direction/P03/native24-f048-059.jpg) |
+| P05 | [f018 / 0.750초](/Volumes/eyedisk/develop/cinewright/evidence/2026-11-08-cinematic-animation-review/art-direction/P05/f018.jpg), [f036 / 1.500초](/Volumes/eyedisk/develop/cinewright/evidence/2026-11-08-cinematic-animation-review/art-direction/P05/f036.jpg) | [f024–035 / 1.000–1.458초](/Volumes/eyedisk/develop/cinewright/evidence/2026-11-08-cinematic-animation-review/art-direction/P05/native24-f024-035.jpg) |
+| F01 / F02 / F03 | 각 f126 / 5.250초: [F01](/Volumes/eyedisk/develop/cinewright/evidence/2026-11-08-cinematic-animation-review/art-direction/F01/f126.jpg), [F02](/Volumes/eyedisk/develop/cinewright/evidence/2026-11-08-cinematic-animation-review/art-direction/F02/f126.jpg), [F03](/Volumes/eyedisk/develop/cinewright/evidence/2026-11-08-cinematic-animation-review/art-direction/F03/f126.jpg) | 없음 |
 
-추출 명령과 source frame 목록은 [extraction-manifest.json](/Volumes/eyedisk/develop/cinewright/evidence/cinematic-animation-review-2026-11-08/art-direction/extraction-manifest.json)에 있다. native24를 확인한 구간 밖의 on-ones 미세동작이나 전편의 선 떨림 안정성은 미확인이다.
+추출 명령과 source frame 목록은 [extraction-manifest.json](/Volumes/eyedisk/develop/cinewright/evidence/2026-11-08-cinematic-animation-review/art-direction/extraction-manifest.json)에 있다. native24를 확인한 구간 밖의 on-ones 미세동작이나 전편의 선 떨림 안정성은 미확인이다.
 
 ## 2. 세 미학의 차이와 유지할 장점
 
@@ -70,7 +70,7 @@ frame 번호는 **0-based**, 초는 `frame/24`다. 다음 정지 프레임은 19
 
 ### A1. 동물의 종류는 읽히지만, 길찾기의 선택이 화면에 없다 — 우선 1, (b)+(c)
 
-**증거:** S01 [f048–059 / 2.000–2.458초](/Volumes/eyedisk/develop/cinewright/evidence/cinematic-animation-review-2026-11-08/art-direction/S01/native24-f048-059.jpg), [f126 / 5.250초](/Volumes/eyedisk/develop/cinewright/evidence/cinematic-animation-review-2026-11-08/art-direction/S01/f126.jpg), 전체 12fps 시트.
+**증거:** S01 [f048–059 / 2.000–2.458초](/Volumes/eyedisk/develop/cinewright/evidence/2026-11-08-cinematic-animation-review/art-direction/S01/native24-f048-059.jpg), [f126 / 5.250초](/Volumes/eyedisk/develop/cinewright/evidence/2026-11-08-cinematic-animation-review/art-direction/S01/f126.jpg), 전체 12fps 시트.
 
 **관찰:** 두 동물은 오른쪽을 향해 유사한 간격으로 놓인다. 전경의 상대 위치와 꼬리는 달라지지만, 이 native 구간에서는 발·몸통의 변화보다 그것들이 먼저 읽힌다. 후반 표본에서도 둘의 방향과 관계가 크게 달라지지 않는다.
 
@@ -82,7 +82,7 @@ frame 번호는 **0-based**, 초는 `frame/24`다. 다음 정지 프레임은 19
 
 ### A2. 컷아웃 캐릭터의 관절 덩어리가 개성보다 먼저 보인다 — 우선 2, (a)+(b)
 
-**증거:** S01 [f126 / 5.250초](/Volumes/eyedisk/develop/cinewright/evidence/cinematic-animation-review-2026-11-08/art-direction/S01/f126.jpg).
+**증거:** S01 [f126 / 5.250초](/Volumes/eyedisk/develop/cinewright/evidence/2026-11-08-cinematic-animation-review/art-direction/S01/f126.jpg).
 
 **관찰:** 귀·큰 꼬리는 종을 명확히 만든다. 반면 몸통 밑 두꺼운 다리와 길게 꺾인 발끝은 두 동물 모두 신발 같은 덩어리이고, 몸통/허벅지 경계는 둥근 부품의 접합처럼 보인다.
 
@@ -94,7 +94,7 @@ frame 번호는 **0-based**, 초는 `frame/24`다. 다음 정지 프레임은 19
 
 ### A3. 항구의 실루엣 합침이 도착의 의미를 흐린다 — 우선 1, (c), 필요 시 (a)
 
-**증거:** S02 [f060 / 2.500초](/Volumes/eyedisk/develop/cinewright/evidence/cinematic-animation-review-2026-11-08/art-direction/S02/f060.jpg) → [f178 / 7.417초](/Volumes/eyedisk/develop/cinewright/evidence/cinematic-animation-review-2026-11-08/art-direction/S02/f178.jpg), 전체 12fps 시트.
+**증거:** S02 [f060 / 2.500초](/Volumes/eyedisk/develop/cinewright/evidence/2026-11-08-cinematic-animation-review/art-direction/S02/f060.jpg) → [f178 / 7.417초](/Volumes/eyedisk/develop/cinewright/evidence/2026-11-08-cinematic-animation-review/art-direction/S02/f178.jpg), 전체 12fps 시트.
 
 **관찰:** 돛배가 오른쪽으로 접근하고 빛의 부채꼴 방향이 달라진다. 후반 선체 오른쪽과 등대섬의 바위, 물결이 같은 어두운 면으로 이어진다. 큰 밝은 천체는 등대 꼭대기와 맞닿는다.
 
@@ -108,7 +108,7 @@ frame 번호는 **0-based**, 초는 `frame/24`다. 다음 정지 프레임은 19
 
 ### B1. 워시가 형태와 관계없는 반투명 도형으로 읽힌다 — 우선 1, (a)+(c), 요구 수준에 따라 (d)
 
-**증거:** S03 [f120 / 5.000초](/Volumes/eyedisk/develop/cinewright/evidence/cinematic-animation-review-2026-11-08/art-direction/S03/f120.jpg), S04 [f044 / 1.833초](/Volumes/eyedisk/develop/cinewright/evidence/cinematic-animation-review-2026-11-08/art-direction/S04/f044.jpg) 및 [f156 / 6.500초](/Volumes/eyedisk/develop/cinewright/evidence/cinematic-animation-review-2026-11-08/art-direction/S04/f156.jpg).
+**증거:** S03 [f120 / 5.000초](/Volumes/eyedisk/develop/cinewright/evidence/2026-11-08-cinematic-animation-review/art-direction/S03/f120.jpg), S04 [f044 / 1.833초](/Volumes/eyedisk/develop/cinewright/evidence/2026-11-08-cinematic-animation-review/art-direction/S04/f044.jpg) 및 [f156 / 6.500초](/Volumes/eyedisk/develop/cinewright/evidence/2026-11-08-cinematic-animation-review/art-direction/S04/f156.jpg).
 
 **관찰:** 잎 뒤에 큰 오각형 색면이 남고 잎 끝·잎 배·줄기와 농담의 관계가 약하다. 코트 뒤 워시는 어깨와 옷자락을 따라가지 않는 사각형이다. 물웅덩이도 각진 면과 거의 균일한 농도로 보인다. 단순히 선 밖으로 색이 나간 것이 아니라 **선과 색면이 서로 다른 대상을 그리는 듯한 관계**다.
 
@@ -120,7 +120,7 @@ frame 번호는 **0-based**, 초는 `frame/24`다. 다음 정지 프레임은 19
 
 ### B2. 수채 연구는 변화가 보이지만 물감의 표면 증거가 부족하다 — 우선 1, (d) → (c)+(a)
 
-**증거:** P01 [f024–035 / 1.000–1.458초](/Volumes/eyedisk/develop/cinewright/evidence/cinematic-animation-review-2026-11-08/art-direction/P01/native24-f024-035.jpg), [f144 / 6.000초](/Volumes/eyedisk/develop/cinewright/evidence/cinematic-animation-review-2026-11-08/art-direction/P01/f144.jpg), P02 [f144 / 6.000초](/Volumes/eyedisk/develop/cinewright/evidence/cinematic-animation-review-2026-11-08/art-direction/P02/f144.jpg)와 양쪽 전체 sequence.
+**증거:** P01 [f024–035 / 1.000–1.458초](/Volumes/eyedisk/develop/cinewright/evidence/2026-11-08-cinematic-animation-review/art-direction/P01/native24-f024-035.jpg), [f144 / 6.000초](/Volumes/eyedisk/develop/cinewright/evidence/2026-11-08-cinematic-animation-review/art-direction/P01/f144.jpg), P02 [f144 / 6.000초](/Volumes/eyedisk/develop/cinewright/evidence/2026-11-08-cinematic-animation-review/art-direction/P02/f144.jpg)와 양쪽 전체 sequence.
 
 **관찰:** 원형의 파란 중심이 퍼지고 P02에는 붉은 영역과 중간색 접촉부가 생긴다. 원본 해상도에서도 약 40px 단위의 큰 사각 셀이 보인다. 중심은 균일하고 외곽은 동심 농담으로 희미해진다. 건조 후 국소적으로 농도가 모이거나 종이 결을 따라 경계가 갈라지는 모습은 분명하지 않다.
 
@@ -132,7 +132,7 @@ frame 번호는 **0-based**, 초는 `frame/24`다. 다음 정지 프레임은 19
 
 ### B3. 편지의 펼침은 보이지만 손·시선·소품의 관계가 약하다 — 우선 1, (a)+(b)+(c)
 
-**증거:** S04 [f120–131 / 5.000–5.458초](/Volumes/eyedisk/develop/cinewright/evidence/cinematic-animation-review-2026-11-08/art-direction/S04/native24-f120-131.jpg) → [f156 / 6.500초](/Volumes/eyedisk/develop/cinewright/evidence/cinematic-animation-review-2026-11-08/art-direction/S04/f156.jpg).
+**증거:** S04 [f120–131 / 5.000–5.458초](/Volumes/eyedisk/develop/cinewright/evidence/2026-11-08-cinematic-animation-review/art-direction/S04/native24-f120-131.jpg) → [f156 / 6.500초](/Volumes/eyedisk/develop/cinewright/evidence/2026-11-08-cinematic-animation-review/art-direction/S04/f156.jpg).
 
 **관찰:** 종이의 선이 펼쳐지고 후반에는 가운데 접힌 두 면이 보인다. 손은 작은 마름모/꺾은 선이고 두 팔의 선은 몸통과 종이 근처에서 가까워진다. 얼굴은 종이 쪽을 향하는 고개·시선 변화가 약하다. 걷는 듯한 다리 상태에서 멈춘 상태로 바뀌지만 후반 사건은 주로 종이 외형이 담당한다.
 
@@ -144,7 +144,7 @@ frame 번호는 **0-based**, 초는 `frame/24`다. 다음 정지 프레임은 19
 
 ### B4. 비의 배열과 정물의 등장이 같은 공간의 사건으로 연결되지 않는다 — 우선 2, (a)+(b)+(c)
 
-**증거:** S03 [f024 / 1.000초](/Volumes/eyedisk/develop/cinewright/evidence/cinematic-animation-review-2026-11-08/art-direction/S03/f024.jpg) → [f120 / 5.000초](/Volumes/eyedisk/develop/cinewright/evidence/cinematic-animation-review-2026-11-08/art-direction/S03/f120.jpg), 전체 sequence f000–140.
+**증거:** S03 [f024 / 1.000초](/Volumes/eyedisk/develop/cinewright/evidence/2026-11-08-cinematic-animation-review/art-direction/S03/f024.jpg) → [f120 / 5.000초](/Volumes/eyedisk/develop/cinewright/evidence/2026-11-08-cinematic-animation-review/art-direction/S03/f120.jpg), 전체 sequence f000–140.
 
 **관찰:** 상부 빗줄기는 유사한 길이·각도의 반복 열이다. 비가 옅어진 뒤 하부 물면과 우측 식물의 선·색면이 순차적으로 그려진다. 물면의 짧은 내부선은 보이지만, 빗줄기와 물면의 접촉 사건은 두드러지지 않는다.
 
@@ -158,7 +158,7 @@ frame 번호는 **0-based**, 초는 `frame/24`다. 다음 정지 프레임은 19
 
 ### C1. 해칭이 형태를 돕는 부분보다 화면을 덮는 공통 무늬가 우세하다 — 우선 1, (c)+(a) 우선, 이후 필요한 (d)
 
-**증거:** S05 [f024 / 1.000초](/Volumes/eyedisk/develop/cinewright/evidence/cinematic-animation-review-2026-11-08/art-direction/S05/f024.jpg), S06 [f120 / 5.000초](/Volumes/eyedisk/develop/cinewright/evidence/cinematic-animation-review-2026-11-08/art-direction/S06/f120.jpg), F02 [f126 / 5.250초](/Volumes/eyedisk/develop/cinewright/evidence/cinematic-animation-review-2026-11-08/art-direction/F02/f126.jpg).
+**증거:** S05 [f024 / 1.000초](/Volumes/eyedisk/develop/cinewright/evidence/2026-11-08-cinematic-animation-review/art-direction/S05/f024.jpg), S06 [f120 / 5.000초](/Volumes/eyedisk/develop/cinewright/evidence/2026-11-08-cinematic-animation-review/art-direction/S06/f120.jpg), F02 [f126 / 5.250초](/Volumes/eyedisk/develop/cinewright/evidence/2026-11-08-cinematic-animation-review/art-direction/F02/f126.jpg).
 
 **관찰:** 구에서는 명암에 따라 교차선의 보임이 달라지고 병 몸통에서는 선이 돌아가는 방향이 보인다. 이 부분은 입체 표면을 돕는다. 반면 S06의 잎·화분·벽·바닥, S05의 벽·바닥·열차는 비슷한 대각 교차선으로 덮인다. 밝은 큰 잎에서도 그물망이 잎맥보다 먼저 읽히고 넓은 벽의 선이 사선 그림자와 경쟁한다.
 
@@ -170,7 +170,7 @@ frame 번호는 **0-based**, 초는 `frame/24`다. 다음 정지 프레임은 19
 
 ### C2. 재질 이름과 장소의 시각 단서가 좁다 — 우선 2, (a)+(c); 유리 요구 시에만 (d)
 
-**증거:** S06 [f120 / 5.000초](/Volumes/eyedisk/develop/cinewright/evidence/cinematic-animation-review-2026-11-08/art-direction/S06/f120.jpg), F02 [f126 / 5.250초](/Volumes/eyedisk/develop/cinewright/evidence/cinematic-animation-review-2026-11-08/art-direction/F02/f126.jpg).
+**증거:** S06 [f120 / 5.000초](/Volumes/eyedisk/develop/cinewright/evidence/2026-11-08-cinematic-animation-review/art-direction/S06/f120.jpg), F02 [f126 / 5.250초](/Volumes/eyedisk/develop/cinewright/evidence/2026-11-08-cinematic-animation-review/art-direction/F02/f126.jpg).
 
 **관찰:** 커다란 잎, 화분, 낮은 탁자, 작은 병 모양 물체와 떠 있는 타원체가 있다. 병은 불투명하고 황토/회녹 계열이며 화분·탁자와 비슷한 교차선이다. 연구를 하는 도구나 표본을 구별하는 단서는 약하다.
 
@@ -182,7 +182,7 @@ frame 번호는 **0-based**, 초는 `frame/24`다. 다음 정지 프레임은 19
 
 ### C3. 역의 인물이 건축과 그림자에 묻힌다 — 우선 1, (c)+(a)
 
-**증거:** S05 [f174 / 7.250초](/Volumes/eyedisk/develop/cinewright/evidence/cinematic-animation-review-2026-11-08/art-direction/S05/f174.jpg), 전체 sequence f088–190.
+**증거:** S05 [f174 / 7.250초](/Volumes/eyedisk/develop/cinewright/evidence/2026-11-08-cinematic-animation-review/art-direction/S05/f174.jpg), 전체 sequence f088–190.
 
 **관찰:** 후반 열차의 두 검은 전면창과 밝은 외곽은 열차로 읽힌다. 그 옆 인물은 모자·가방을 가진 작은 검은 덩어리이고 뒤쪽 기둥과 바닥 그림자에 가까운 값이다. 문턱은 장방형 프레임으로 있지만 인물보다 주목성이 높지 않다.
 
@@ -194,7 +194,7 @@ frame 번호는 **0-based**, 초는 `frame/24`다. 다음 정지 프레임은 19
 
 ### C4. 기하학적 무대의 개성은 있으나 장소마다 다른 형태 문법은 약하다 — 우선 2, (a)+(c)
 
-**증거:** S05 [f024](/Volumes/eyedisk/develop/cinewright/evidence/cinematic-animation-review-2026-11-08/art-direction/S05/f024.jpg)와 [f174](/Volumes/eyedisk/develop/cinewright/evidence/cinematic-animation-review-2026-11-08/art-direction/S05/f174.jpg), S06 [f120](/Volumes/eyedisk/develop/cinewright/evidence/cinematic-animation-review-2026-11-08/art-direction/S06/f120.jpg).
+**증거:** S05 [f024](/Volumes/eyedisk/develop/cinewright/evidence/2026-11-08-cinematic-animation-review/art-direction/S05/f024.jpg)와 [f174](/Volumes/eyedisk/develop/cinewright/evidence/2026-11-08-cinematic-animation-review/art-direction/S05/f174.jpg), S06 [f120](/Volumes/eyedisk/develop/cinewright/evidence/2026-11-08-cinematic-animation-review/art-direction/S06/f120.jpg).
 
 **관찰:** 역은 반복 상자 기둥·평판 벤치·직육면체 열차, 연구실은 상자 바닥/벽·평판 탁자·유사한 잎 군집이다. 긴 사선 그림자와 기울어진 배치는 있으나 물체 외곽 자체는 대부분 정규 도형이다. 양쪽 모두 무대 바닥의 절단면이 보인다.
 
@@ -208,7 +208,7 @@ frame 번호는 **0-based**, 초는 `frame/24`다. 다음 정지 프레임은 19
 
 ### D1. 자동 rig 대상은 기능 fixture로 유효하나 영화 캐릭터 자산으로는 부족 — 우선 1, (a), 변형 문제 확인 후 (d)
 
-**증거:** P03 [f024 / 1.000초](/Volumes/eyedisk/develop/cinewright/evidence/cinematic-animation-review-2026-11-08/art-direction/P03/f024.jpg), [f064 / 2.667초](/Volumes/eyedisk/develop/cinewright/evidence/cinematic-animation-review-2026-11-08/art-direction/P03/f064.jpg), [f048–059 native24](/Volumes/eyedisk/develop/cinewright/evidence/cinematic-animation-review-2026-11-08/art-direction/P03/native24-f048-059.jpg), P04 overview.
+**증거:** P03 [f024 / 1.000초](/Volumes/eyedisk/develop/cinewright/evidence/2026-11-08-cinematic-animation-review/art-direction/P03/f024.jpg), [f064 / 2.667초](/Volumes/eyedisk/develop/cinewright/evidence/2026-11-08-cinematic-animation-review/art-direction/P03/f064.jpg), [f048–059 native24](/Volumes/eyedisk/develop/cinewright/evidence/2026-11-08-cinematic-animation-review/art-direction/P03/native24-f048-059.jpg), P04 overview.
 
 **관찰:** P03에서 팔을 올리고 내리는 변화, P04 overview에서 체형과 다리 상태 차이는 보인다. P03 두상은 수평 계단의 돌출이 드러나고 손·발은 사각 끝단이다. f064의 팔 아래/옆구리에는 검은 삼각 쐐기와 접힌 면이 보이며 f048–059에서도 옆구리의 어두운 틈이 생긴다.
 

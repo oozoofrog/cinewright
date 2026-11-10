@@ -8,7 +8,7 @@
 4. **Canvas 결정성 경계**: direct API 호출자가 context를 처음 만들 때 명시적 `willReadFrequently:true/false`를 선택하도록 문서화했다. compositor도 output/scratch에 false를 명시한다. default 자동 backend 전환의 반올림 차이를 무제한 동일 브라우저 결정성으로 주장하지 않는다. 두 명시 모드×540p/1080p에서 public draw의 반복/역순 readback hash 검사를 추가했다. 이전 overlay의 첫 fillRect proxy 설명은 현재 transparentPaper 옵션 설명으로 정리했다.
 5. **1080p 움직이는 증거**: 6개 모두 현재 public 코드로 1920×1080·24fps 영상을 추가했다. 원래 540p 영상은 보존했다. 수채는 v2 재bake, rig는 현재 자동 생성 결과, retarget은 같은 2motion×2대상이다. public materializer/build→freeze→frozen jobs renderer를 사용하고 저작 project 경로를 rename하여 원본 경로 없이 render했다. 모든 fullhd 모듈과 현재 repo bytes가 일치한다(`coordinator/fullhd/source-audit.json`). 6개 PTS/전체 decode flash/대표 frame과 8–9초 전체 native 자동 재생/seek는 `coordinator/fullhd/media.json`에 기록했다.
 
-추가 회귀는 `tests/phase02-review-fixes.test.mjs` 3개와 `tests/phase02-context.test.mjs` 1개다. 수정 직후 집중 CPU 23개가 통과했다. 최종 전체 회귀 결과는 final 인계의 최신 기록을 따른다. 새 로그는 `evidence/aesthetic-toolkit-phase02-2026-11-08/coordinator/fix-recheck/`다. 실제 사람의 연속 시청·청취·미학/접근성 수락은 미확인으로 유지한다.
+추가 회귀는 `tests/phase02-review-fixes.test.mjs` 3개와 `tests/phase02-context.test.mjs` 1개다. 수정 직후 집중 CPU 23개가 통과했다. 최종 전체 회귀 결과는 final 인계의 최신 기록을 따른다. 새 로그는 `evidence/2026-11-08-aesthetic-toolkit-phase02/coordinator/fix-recheck/`다. 실제 사람의 연속 시청·청취·미학/접근성 수락은 미확인으로 유지한다.
 
 ## 두 번째 독립 검토의 P3 두 건 — 총괄 최종 수정
 

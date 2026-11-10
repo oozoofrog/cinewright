@@ -21,7 +21,7 @@
 
 ## 전역 연결 후속 확인 — 복구 보류
 
-**관찰:** 이전 `evidence/global-install/installation.json`은 `/Users/oozoofrog/.codex/skills/cinewright`에 독립 복사본을 설치한 기록이다. 2026-11-09 22:33 KST의 `36ab124`는 README에서 그 전역 설치 안내를 삭제하고, 플러그인 검증 후 오래된 독립 스킬을 제거하고 플러그인만 설치하라고 명시했다. 실제 Codex 설정에서 `cinewright@cinewright-local`은 활성화되어 있으며, 캐시 `cinewright/1.1.0` 디렉터리는 22:33:56에, 전역 skills 디렉터리는 22:34:32에 변경됐다. 두 기존 링크는 여전히 사라진 독립 스킬을 가리킨다. eyemacworld 전용 스킬 경로에는 Cinewright 항목이 없다.
+**관찰:** 이전 `evidence/2026-11-04-global-install/installation.json`은 `/Users/oozoofrog/.codex/skills/cinewright`에 독립 복사본을 설치한 기록이다. 2026-11-09 22:33 KST의 `36ab124`는 README에서 그 전역 설치 안내를 삭제하고, 플러그인 검증 후 오래된 독립 스킬을 제거하고 플러그인만 설치하라고 명시했다. 실제 Codex 설정에서 `cinewright@cinewright-local`은 활성화되어 있으며, 캐시 `cinewright/1.1.0` 디렉터리는 22:33:56에, 전역 skills 디렉터리는 22:34:32에 변경됐다. 두 기존 링크는 여전히 사라진 독립 스킬을 가리킨다. eyemacworld 전용 스킬 경로에는 Cinewright 항목이 없다.
 
 **판단:** 최신의 명시적 제거 지침, 활성 플러그인, 시간상 이어진 디렉터리 변경은 이전 독립 설치의 의도적 제거를 강하게 뒷받침한다. 정확한 삭제 명령이나 행위자는 확인하지 못했다. 사용자가 지정한 예외 조건에 따라 전역 경로와 eyemacworld 경로를 복구하거나 기존 링크를 고치지 않았다. 검토 명령: `git show 36ab124 -- README.md`, `ls -ldT /Users/oozoofrog/.codex/skills /Users/oozoofrog/.codex/plugins/cache/cinewright-local/cinewright/1.1.0`, Codex 설정의 `plugins."cinewright@cinewright-local"` 확인. 쓰기 명령은 이 문서 기록뿐이며 설치·삭제·링크 생성은 없다.
 
@@ -29,7 +29,7 @@
 
 ## 플러그인 배포 준비 — 읽기 전용 조사
 
-**관찰:** `evidence/release-20261109/REPORT.md`의 Removal은 앞서 추론했던 제거를 명시적으로 확인한다. 기존 독립 설치는 플러그인 검증 후 삭제됐다. 기본 Codex 홈 `/Users/oozoofrog/.codex`의 설정에서 `cinewright@cinewright-local`은 활성화되어 있고 1.1.0 캐시가 존재한다. 사용자가 지정한 기본 계정은 eyerama다. `codex-oozoofrog`와 `codex-eyemacworld`의 각각의 설정에는 Cinewright 플러그인 항목이 없고 확인한 별도 캐시에도 이름이 없다. 설정·캐시 검사이며 각 계정의 새 세션에서 실제 스킬 탐색을 실행한 결과는 아니다. 기존의 끊어진 독립 스킬 링크는 그대로다.
+**관찰:** `evidence/2026-11-09-release/REPORT.md`의 Removal은 앞서 추론했던 제거를 명시적으로 확인한다. 기존 독립 설치는 플러그인 검증 후 삭제됐다. 기본 Codex 홈 `/Users/oozoofrog/.codex`의 설정에서 `cinewright@cinewright-local`은 활성화되어 있고 1.1.0 캐시가 존재한다. 사용자가 지정한 기본 계정은 eyerama다. `codex-oozoofrog`와 `codex-eyemacworld`의 각각의 설정에는 Cinewright 플러그인 항목이 없고 확인한 별도 캐시에도 이름이 없다. 설정·캐시 검사이며 각 계정의 새 세션에서 실제 스킬 탐색을 실행한 결과는 아니다. 기존의 끊어진 독립 스킬 링크는 그대로다.
 
 2026-11-10 확인 시 기본 캐시와 저장소의 SHA-256 비교: 루트 `SKILL.md`, `skills/cinewright/SKILL.md`, `references/craft-execution.md`, `craft.md`, `direction.md`, `format.md`, `music.md`, `stillcuts.md`가 다르다. 나머지 확인한 references 11개는 같다. `stillcuts.md`의 미커밋 변경은 기존 사용자 작업이다. 저장소의 새 지침이 캐시에 배포되어 있지 않다는 뜻이며, 캐시를 수정하지 않았다.
 

@@ -42,7 +42,7 @@ node examples/styles/expressionist-space/build.mjs "$PWD/.direction/aesthetic-to
 node examples/styles/expressionist-space/build.mjs "$PWD/.direction/aesthetic-toolkit-2026-11-08/C/effects" effects
 node examples/styles/expressionist-space/build-mixed.mjs "$PWD/.direction/aesthetic-toolkit-2026-11-08/C/mixed"
 node --test tests/expressionist*.test.mjs
-node examples/styles/validate.mjs "$PWD/.direction/aesthetic-toolkit-2026-11-08/C/station" "$PWD/.direction/aesthetic-toolkit-2026-11-08/C/store" "$PWD/evidence/aesthetic-toolkit-2026-11-08/C/station"
+node examples/styles/validate.mjs "$PWD/.direction/aesthetic-toolkit-2026-11-08/C/station" "$PWD/.direction/aesthetic-toolkit-2026-11-08/C/store" "$PWD/evidence/2026-11-08-aesthetic-toolkit/C/station"
 ```
 
 Use an unused build destination; `build.mjs --update` explicitly updates unchanged generated files through coordinator materializer. Run validation likewise for laboratory, effects and mixed (full 540p/1080p jobs); use `--no-video` for a portrait browser/seek check. Validator acquires the common mkdir GPU lock and releases it in `finally`; do not remove another process's lock or poll it. The addon collector returns bytes only and pins installed Three 0.180.0. Frozen project has loader, BufferGeometryUtils and MIT LICENSE; the runtime supplies the pinned core import map. No global install, CDN or compression decoder is needed.
@@ -62,11 +62,11 @@ Assets: `examples/styles/expressionist-space/assets/metadata.json` records sourc
 For explicit alpha/color patches, renderer statistics, repeated resource disposal and a partial missing-clip failure, also run:
 
 ```sh
-node examples/styles/expressionist-space/browser-probes.mjs "$PWD/.direction/aesthetic-toolkit-2026-11-08/C/effects" "$PWD/.direction/aesthetic-toolkit-2026-11-08/C/store" "$PWD/evidence/aesthetic-toolkit-2026-11-08/C/probes"
+node examples/styles/expressionist-space/browser-probes.mjs "$PWD/.direction/aesthetic-toolkit-2026-11-08/C/effects" "$PWD/.direction/aesthetic-toolkit-2026-11-08/C/store" "$PWD/evidence/2026-11-08-aesthetic-toolkit/C/probes"
 ```
 
 The helper asserts sRGB gray 128 (±2), half-alpha composition near 64 over black / 192 over white, clear corners and explicit failure recovery. These are executable checks, not claims that they have run; consult C's handoff.
 
-Actual delivered validation: [C handoff](../../evidence/aesthetic-toolkit-2026-11-08/C/HANDOFF.md) and [summary](../../evidence/aesthetic-toolkit-2026-11-08/C/validation-summary.json) record15 focused tests, five frozen browser checks, eight final videos and final alpha/resource probes. Actual audience responses, user approval, and coordinator independent review remain separate; coordinator review does not establish 관객 수용.
+Actual delivered validation: [C handoff](../../evidence/2026-11-08-aesthetic-toolkit/C/HANDOFF.md) and [summary](../../evidence/2026-11-08-aesthetic-toolkit/C/validation-summary.json) record15 focused tests, five frozen browser checks, eight final videos and final alpha/resource probes. Actual audience responses, user approval, and coordinator independent review remain separate; coordinator review does not establish 관객 수용.
 
 Phase02 objects may use `rig:"assets/character.rig.json"`, optional `motion:"assets/character.motion.json"` and `playback:{loop,weight,timeScale,rootMotion}`. The rig route rejects geometry/asset/clip/deform/internal-lines conflicts. Skinned GLB rejects deform/internal lines during prepare. Public materialization validates rig, motion and their mutual rest compatibility before publication.

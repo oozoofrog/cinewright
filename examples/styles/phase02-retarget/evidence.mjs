@@ -1,6 +1,6 @@
 import fs from 'node:fs/promises';import path from 'node:path';import assert from 'node:assert/strict';import {createHash} from 'node:crypto';
 import {freeze,loadTool} from '../../../scripts/revisions.mjs';import {browser,run,ffprobe} from '../../../scripts/execution.mjs';import {host} from '../../../scripts/server.mjs';import {screenFlashes} from '../../../scripts/flash.mjs';
-const base=path.resolve('.direction/aesthetic-toolkit-phase02-2026-11-08/retarget'),out=path.resolve('evidence/aesthetic-toolkit-phase02-2026-11-08/retarget'),lock=path.resolve('.direction/aesthetic-toolkit-phase02-2026-11-08/gpu.lock'),owner='retarget-'+process.pid;
+const base=path.resolve('.direction/aesthetic-toolkit-phase02-2026-11-08/retarget'),out=path.resolve('evidence/2026-11-08-aesthetic-toolkit-phase02/retarget'),lock=path.resolve('.direction/aesthetic-toolkit-phase02-2026-11-08/gpu.lock'),owner='retarget-'+process.pid;
 await fs.mkdir(out,{recursive:true});try{await fs.mkdir(lock);}catch(e){if(e.code==='EEXIST'){console.log('GPU BUSY: '+await fs.readFile(path.join(lock,'owner'),'utf8').catch(()=>'(owner pending)'));process.exit(3);}throw e;}await fs.writeFile(path.join(lock,'owner'),owner);
 const report={created:new Date().toISOString(),demos:[],continuousHumanViewing:false,aestheticAcceptance:false};
 try{for(const mode of ['stride','salute']){

@@ -321,7 +321,7 @@
   },
   {
     "key": "stride",
-    "file": "evidence/aesthetic-toolkit-phase02-2026-11-08/retarget/stride.mp4",
+    "file": "evidence/2026-11-08-aesthetic-toolkit-phase02/retarget/stride.mp4",
     "sha256": "22b4b1f8c0c796d9e5ecccca09890685be84036d05288479bd8a44b626825711",
     "stream": {
       "width": 960,
@@ -360,7 +360,7 @@
     "maxPtsError": 3.33333333379926e-7,
     "flash": {
       "version": 1,
-      "file": "/Volumes/eyedisk/develop/cinewright/evidence/aesthetic-toolkit-phase02-2026-11-08/retarget/stride.mp4",
+      "file": "/Volumes/eyedisk/develop/cinewright/evidence/2026-11-08-aesthetic-toolkit-phase02/retarget/stride.mp4",
       "fps": 24,
       "resolution": [
         160,
@@ -401,7 +401,7 @@
   },
   {
     "key": "salute",
-    "file": "evidence/aesthetic-toolkit-phase02-2026-11-08/retarget/salute.mp4",
+    "file": "evidence/2026-11-08-aesthetic-toolkit-phase02/retarget/salute.mp4",
     "sha256": "d7e839671fb93ae7c6ce608749c985b68cae032931dda242300a0abe686544f9",
     "stream": {
       "width": 960,
@@ -440,7 +440,7 @@
     "maxPtsError": 3.333333342681044e-7,
     "flash": {
       "version": 1,
-      "file": "/Volumes/eyedisk/develop/cinewright/evidence/aesthetic-toolkit-phase02-2026-11-08/retarget/salute.mp4",
+      "file": "/Volumes/eyedisk/develop/cinewright/evidence/2026-11-08-aesthetic-toolkit-phase02/retarget/salute.mp4",
       "fps": 24,
       "resolution": [
         160,

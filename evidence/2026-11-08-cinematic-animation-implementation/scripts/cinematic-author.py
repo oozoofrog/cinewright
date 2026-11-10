@@ -1,6 +1,6 @@
 """Deterministic scene authoring from preserved work-in-progress baseline. No original media writes."""
 import json,pathlib,math,copy
-root=pathlib.Path(__file__).resolve().parents[1];base=root/'evidence/cinematic-animation-implementation-2026-11-08/baseline'
+root=pathlib.Path(__file__).resolve().parents[3];base=root/'evidence/2026-11-08-cinematic-animation-implementation/baseline'
 def load(style,name):return json.loads((base/f'recipes/styles/{style}/{name}.json').read_text())
 def save(s,name):
  p=root/f'recipes/styles/{s["style"]}/{name}.json';p.write_text(json.dumps(s,indent=2)+'\n')

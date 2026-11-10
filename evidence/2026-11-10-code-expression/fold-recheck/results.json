@@ -1,12 +1,12 @@
 {
-  "store": "/Volumes/eyedisk/develop/cinewright/evidence/code-expression-20261110/final/store",
+  "store": "/Volumes/eyedisk/develop/cinewright/evidence/2026-11-10-code-expression/final/store",
   "results": [
     {
       "name": "fold",
       "revision": "e3f770f2de3d147ccb58bff26b62d473b4f6959903de7e72c9e63b3587aee60a",
       "job": "9c60bad0-993f-4860-a880-e2358f205e4e",
-      "canonicalOutput": "/Volumes/eyedisk/develop/cinewright/evidence/code-expression-20261110/final/store/jobs/9c60bad0-993f-4860-a880-e2358f205e4e/work.mp4",
-      "output": "/Volumes/eyedisk/develop/cinewright/evidence/code-expression-20261110/final/fold.mp4",
+      "canonicalOutput": "/Volumes/eyedisk/develop/cinewright/evidence/2026-11-10-code-expression/final/store/jobs/9c60bad0-993f-4860-a880-e2358f205e4e/work.mp4",
+      "output": "/Volumes/eyedisk/develop/cinewright/evidence/2026-11-10-code-expression/final/fold.mp4",
       "sha256": "fce98178d357cde3a1cb237a3cbc503358c79083e7c61b19f46235d085abb3bd",
       "audio": {
         "rate": 48000,

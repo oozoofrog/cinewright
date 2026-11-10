@@ -1,9 +1,9 @@
 import fs from 'node:fs/promises';
 import {BufferGeometry,Float32BufferAttribute,Quaternion,Vector3} from 'three';
-import {autoRig,validateRig} from '../modules/animation/auto-rig.mjs';
-import {bakeRetarget} from '../modules/animation/retarget.mjs';
-import {exportRigGLB} from './auto-rig.mjs';
-const out='evidence/cinematic-animation-implementation-2026-11-08/assets';await fs.mkdir(out,{recursive:true});
+import {autoRig,validateRig} from '../../../modules/animation/auto-rig.mjs';
+import {bakeRetarget} from '../../../modules/animation/retarget.mjs';
+import {exportRigGLB} from '../../../scripts/auto-rig.mjs';
+const out='evidence/2026-11-08-cinematic-animation-implementation/assets';await fs.mkdir(out,{recursive:true});
 const source=JSON.parse(await fs.readFile('examples/styles/phase02-rig/assets/tall/static.json'));
 // Weld the original connected surface, then author a soft coat, rounded mittens and projecting toes.
 const vertices=[],indices=[],map=new Map();for(let i=0;i<source.positions.length;i+=3){const p=source.positions.slice(i,i+3),key=p.map(v=>v.toFixed(7)).join(',');if(!map.has(key)){map.set(key,vertices.length);vertices.push(p);}indices.push(map.get(key));}

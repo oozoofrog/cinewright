@@ -8,14 +8,14 @@
   "cwd": "/Users/oozoofrog/.codex/skills/cinewright",
   "startedAt": "2026-11-04T22:49:38.513136+00:00",
   "environmentOverrides": {
-    "TMPDIR": "/Volumes/eyedisk/develop/cinewright/evidence/global-update-2026-11-05-224452-79c01a37/tmp",
-    "npm_config_cache": "/Volumes/eyedisk/develop/cinewright/evidence/global-update-2026-11-05-224452-79c01a37/tmp/npm-cache",
+    "TMPDIR": "/Volumes/eyedisk/develop/cinewright/evidence/2026-11-05-global-update-224452-79c01a37/tmp",
+    "npm_config_cache": "/Volumes/eyedisk/develop/cinewright/evidence/2026-11-05-global-update-224452-79c01a37/tmp/npm-cache",
     "npm_config_update_notifier": "false",
-    "NODE_COMPILE_CACHE": "/Volumes/eyedisk/develop/cinewright/evidence/global-update-2026-11-05-224452-79c01a37/tmp/node-compile-cache",
+    "NODE_COMPILE_CACHE": "/Volumes/eyedisk/develop/cinewright/evidence/2026-11-05-global-update-224452-79c01a37/tmp/node-compile-cache",
     "PYTHONDONTWRITEBYTECODE": "1"
   },
-  "stdout": "/Volumes/eyedisk/develop/cinewright/evidence/global-update-2026-11-05-224452-79c01a37/logs/doctor.stdout",
-  "stderr": "/Volumes/eyedisk/develop/cinewright/evidence/global-update-2026-11-05-224452-79c01a37/logs/doctor.stderr",
+  "stdout": "/Volumes/eyedisk/develop/cinewright/evidence/2026-11-05-global-update-224452-79c01a37/logs/doctor.stdout",
+  "stderr": "/Volumes/eyedisk/develop/cinewright/evidence/2026-11-05-global-update-224452-79c01a37/logs/doctor.stderr",
   "exitCode": 0,
   "finishedAt": "2026-11-04T22:49:41.285794+00:00",
   "seconds": 2.7725763749913312

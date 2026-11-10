@@ -24,7 +24,7 @@ Complete C CPU package and actual browser/media validation are delivered in C-ow
 
 All five final projects passed **55 random/reverse/repeated seek image comparisons each**, frozen source-detachment/reload, automated playback through frame191, four repeated compositor lifecycle cycles, zero page/shader errors and zero external requests. Station, laboratory, effects and mixed each completed **both 540p and 1080p**: eight final videos, each192 frames / 24fps /8.000s /yuv420p. Every decoded PTS is `i/24`, first0 and last7.958333. All eight flash screenings are **screen-negative**, not accessibility certification.
 
-Final main artifacts (absolute root `/Volumes/eyedisk/develop/cinewright/evidence/aesthetic-toolkit-2026-11-08/C`):
+Final main artifacts (absolute root `/Volumes/eyedisk/develop/cinewright/evidence/2026-11-08-aesthetic-toolkit/C`):
 
 - `station-final/1080p.mp4`, `station-final/540p.mp4`; exact-job PNGs include frame72 (shadow before actor/train),104 and191.
 - `laboratory-final/1080p.mp4`, `laboratory-final/540p.mp4`; PNGs include0,96,104,191.
@@ -45,12 +45,12 @@ From `/Volumes/eyedisk/develop/cinewright`, use the existing projects in `.direc
 ```sh
 node --test tests/expressionist*.test.mjs
 node examples/styles/expressionist-space/verify-package.mjs
-node examples/styles/expressionist-space/browser-probes.mjs .direction/aesthetic-toolkit-2026-11-08/C/effects .direction/aesthetic-toolkit-2026-11-08/C/store evidence/aesthetic-toolkit-2026-11-08/C/probes-final
-node examples/styles/validate.mjs .direction/aesthetic-toolkit-2026-11-08/C/station .direction/aesthetic-toolkit-2026-11-08/C/store evidence/aesthetic-toolkit-2026-11-08/C/station-final
-node examples/styles/validate.mjs .direction/aesthetic-toolkit-2026-11-08/C/laboratory .direction/aesthetic-toolkit-2026-11-08/C/store evidence/aesthetic-toolkit-2026-11-08/C/laboratory-final
-node examples/styles/validate.mjs .direction/aesthetic-toolkit-2026-11-08/C/effects .direction/aesthetic-toolkit-2026-11-08/C/store evidence/aesthetic-toolkit-2026-11-08/C/effects
-node examples/styles/validate.mjs .direction/aesthetic-toolkit-2026-11-08/C/mixed .direction/aesthetic-toolkit-2026-11-08/C/store evidence/aesthetic-toolkit-2026-11-08/C/mixed
-node examples/styles/validate.mjs .direction/aesthetic-toolkit-2026-11-08/C/portrait .direction/aesthetic-toolkit-2026-11-08/C/store evidence/aesthetic-toolkit-2026-11-08/C/portrait --no-video
+node examples/styles/expressionist-space/browser-probes.mjs .direction/aesthetic-toolkit-2026-11-08/C/effects .direction/aesthetic-toolkit-2026-11-08/C/store evidence/2026-11-08-aesthetic-toolkit/C/probes-final
+node examples/styles/validate.mjs .direction/aesthetic-toolkit-2026-11-08/C/station .direction/aesthetic-toolkit-2026-11-08/C/store evidence/2026-11-08-aesthetic-toolkit/C/station-final
+node examples/styles/validate.mjs .direction/aesthetic-toolkit-2026-11-08/C/laboratory .direction/aesthetic-toolkit-2026-11-08/C/store evidence/2026-11-08-aesthetic-toolkit/C/laboratory-final
+node examples/styles/validate.mjs .direction/aesthetic-toolkit-2026-11-08/C/effects .direction/aesthetic-toolkit-2026-11-08/C/store evidence/2026-11-08-aesthetic-toolkit/C/effects
+node examples/styles/validate.mjs .direction/aesthetic-toolkit-2026-11-08/C/mixed .direction/aesthetic-toolkit-2026-11-08/C/store evidence/2026-11-08-aesthetic-toolkit/C/mixed
+node examples/styles/validate.mjs .direction/aesthetic-toolkit-2026-11-08/C/portrait .direction/aesthetic-toolkit-2026-11-08/C/store evidence/2026-11-08-aesthetic-toolkit/C/portrait --no-video
 node examples/styles/expressionist-space/summarize-validation.mjs
 ```
 

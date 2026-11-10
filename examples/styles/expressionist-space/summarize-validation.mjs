@@ -1,5 +1,5 @@
 import fs from 'node:fs/promises';import path from 'node:path';import assert from 'node:assert/strict';
-const root=path.resolve('evidence/aesthetic-toolkit-2026-11-08/C');const results=[];
+const root=path.resolve('evidence/2026-11-08-aesthetic-toolkit/C');const results=[];
 for(const name of ['station-final','laboratory-final','effects','mixed','portrait']){
  const report=JSON.parse(await fs.readFile(path.join(root,name,'validation.json'),'utf8'));
  assert.equal(report.errors.length,0);assert.equal(report.network.length,0);assert.equal(report.freezeSourceIsolation,true);assert.equal(report.autoplay.completed,true);assert.ok(report.lifecycle.every(x=>x.disposedDrawRejected));

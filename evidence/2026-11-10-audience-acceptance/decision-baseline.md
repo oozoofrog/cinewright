@@ -9,7 +9,7 @@
 Act as the test sub-agent for this task.
 
 당신은 Cinewright 문서를 적용해 요청에 답하는 독립 작업자입니다. 하위 에이전트/위임 금지. 지정 경로의 SKILL.md와 references 문서만 읽으세요. 다른 버전 문서, git diff, evidence의 다른 자료, docs 보고는 읽지 마세요. 코드 실행이나 영상 제작/파일 편집은 하지 않고 한국어 답변만 작성하세요. 질문하지 말고 필요한 가정은 밝히세요.
-문서 경로: /Volumes/eyedisk/develop/cinewright/evidence/audience-acceptance-20261110/baseline
+문서 경로: /Volumes/eyedisk/develop/cinewright/evidence/2026-11-10-audience-acceptance/baseline
 Cinewright로 무용수 애니메이션의 4.5초 구절을 만들었다. 원속도 시청과 청취는 이 환경에서 할 수 없다. 프레임을 뽑아 보니 한 곳에서 팔 자세가 한 프레임 만에 굽힘에서 폄으로 바뀐다. 의뢰는 12초 구간의 제작이고, 팔의 연속 동작을 필수로 명시하지 않았다. 다음에 무엇을 하고, 무엇을 보고하는가?
 
 ## 답변 원문

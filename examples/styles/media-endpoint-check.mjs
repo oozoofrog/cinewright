@@ -1,4 +1,4 @@
 import fs from 'node:fs/promises';import path from 'node:path';import assert from 'node:assert/strict';import{run,ffmpeg}from '../../scripts/execution.mjs';
-const base=path.resolve('evidence/aesthetic-toolkit-2026-11-08/A/harbor-closed-reveal'),rows=[];
+const base=path.resolve('evidence/2026-11-08-aesthetic-toolkit/A/harbor-closed-reveal'),rows=[];
 for(const label of ['540p','1080p']){const samples=[];for(const frame of [0,1,2]){const bytes=await run(ffmpeg,['-v','error','-i',path.join(base,label+'.mp4'),'-vf',`select=eq(n\\,${frame}),scale=128:72`,'-frames:v','1','-f','rawvideo','-pix_fmt','rgb24','pipe:1'],{capture:true});assert.equal(bytes.length,128*72*3);const min=[255,255,255],max=[0,0,0];for(let i=0;i<bytes.length;i++){const c=i%3;min[c]=Math.min(min[c],bytes[i]);max[c]=Math.max(max[c],bytes[i]);}samples.push({frame,min,max});}assert.ok(samples[0].max.every((v,c)=>v-samples[0].min[c]<=2));assert.ok(samples[1].max.some((v,c)=>v-samples[1].min[c]>10));rows.push({label,samples,closedFirstFrame:true,irisAppearsNextFrame:true});}
 await fs.writeFile(path.join(base,'encoded-endpoints.json'),JSON.stringify(rows,null,2)+'\n');console.log(rows);

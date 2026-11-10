@@ -4,7 +4,7 @@ import subprocess
 from PIL import Image, ImageChops, ImageStat
 
 root = Path(__file__).resolve().parents[2]
-evidence = root / 'evidence/harbor-v2'
+evidence = root / 'evidence/2026-11-04-harbor-v2'
 folder = evidence / 'parity'
 folder.mkdir(exist_ok=True)
 results = []

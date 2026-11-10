@@ -1,6 +1,6 @@
 # Independent review 01 대응
 
-Original report: evidence/aesthetic-toolkit-2026-11-08/independent-review-01/report.md. It requested changes; the original evidence/scripts remain unchanged. Coordinator fixes below are implementation claims pending independent recheck, not reviewer approval.
+Original report: evidence/2026-11-08-aesthetic-toolkit/independent-review-01/report.md. It requested changes; the original evidence/scripts remain unchanged. Coordinator fixes below are implementation claims pending independent recheck, not reviewer approval.
 
 | Finding | Implemented correction | Direct regression / output |
 |---|---|---|

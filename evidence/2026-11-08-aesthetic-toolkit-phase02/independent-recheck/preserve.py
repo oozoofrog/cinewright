@@ -1,7 +1,7 @@
 import os, json, hashlib, subprocess, sys
 from pathlib import Path
-out=Path('evidence/aesthetic-toolkit-phase02-2026-11-08/independent-recheck')
-owned=['evidence/aesthetic-toolkit-phase02-2026-11-08/independent-recheck/', '.direction/aesthetic-toolkit-phase02-2026-11-08/independent-recheck/', 'docs/handoffs/2026-11-08-phase02-independent-recheck.md']
+out=Path('evidence/2026-11-08-aesthetic-toolkit-phase02/independent-recheck')
+owned=['evidence/2026-11-08-aesthetic-toolkit-phase02/independent-recheck/', '.direction/aesthetic-toolkit-phase02-2026-11-08/independent-recheck/', 'docs/handoffs/2026-11-08-aesthetic-toolkit-phase02/independent-recheck.md']
 def digest(p):
     h=hashlib.sha256()
     with open(p,'rb') as f:
@@ -11,7 +11,7 @@ def snapshot(paths):
     return {p:digest(p) if Path(p).is_file() else None for p in paths}
 def git(*args): return subprocess.check_output(['git',*args]).decode().strip()
 if sys.argv[1]=='before':
-    paths=set(json.load(open('evidence/aesthetic-toolkit-phase02-2026-11-08/coordinator/baseline.json'))['protected'])
+    paths=set(json.load(open('evidence/2026-11-08-aesthetic-toolkit-phase02/coordinator/baseline.json'))['protected'])
     for folder in ['modules','runtime','scripts','tests','catalog','references','skills','examples','docs','evidence']:
         for base,dirs,files in os.walk(folder):
             for f in files:

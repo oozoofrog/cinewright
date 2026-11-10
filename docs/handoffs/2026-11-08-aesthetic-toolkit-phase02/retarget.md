@@ -51,7 +51,7 @@ Local editable standard manifest packages:
 
 Each contains `work.json`, copied reusable modules, and `assets/{source,reed,copper}.{rig,motion}.json`, plus LICENSE and measured metrics. No authored-source tracks are necessary for replay. Every rig has 17 bones and 2,739 skin vertices; Reed has longer limbs, unrelated names and rotated rest frames; Copper has shorter limbs, a wider body/A arms, unrelated names and Z-up native axes. Both source motions are applied to both targets (four distinct retarget bakes), plus source reference playback.
 
-Videos and reports are in `evidence/aesthetic-toolkit-phase02-2026-11-08/retarget/`:
+Videos and reports are in `evidence/2026-11-08-aesthetic-toolkit-phase02/retarget/`:
 
 | File | Actual video | Frozen revision |
 | --- | --- | --- |

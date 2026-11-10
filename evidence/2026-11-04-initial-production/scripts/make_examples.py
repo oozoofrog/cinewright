@@ -9,7 +9,7 @@ import struct
 import sys
 import wave
 
-ROOT = pathlib.Path(__file__).resolve().parents[1]
+ROOT = pathlib.Path(__file__).resolve().parents[3]
 RATE = 48000
 FPS = 24
 SAMPLES_PER_FRAME = RATE // FPS

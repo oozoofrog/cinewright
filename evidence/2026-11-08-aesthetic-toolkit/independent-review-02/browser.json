@@ -1344,7 +1344,7 @@
       "name": "A current JSON match bridge alpha and reverse pixels",
       "pass": false,
       "error": "AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:\n\n255 !== 0\n",
-      "stack": "AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:\n\n255 !== 0\n\n    at file:///Volumes/eyedisk/develop/cinewright/evidence/aesthetic-toolkit-2026-11-08/independent-review-02/browser.mjs:21:843\n    at async check (file:///Volumes/eyedisk/develop/cinewright/evidence/aesthetic-toolkit-2026-11-08/independent-review-02/browser.mjs:11:48)\n    at async file:///Volumes/eyedisk/develop/cinewright/evidence/aesthetic-toolkit-2026-11-08/independent-review-02/browser.mjs:21:2"
+      "stack": "AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:\n\n255 !== 0\n\n    at file:///Volumes/eyedisk/develop/cinewright/evidence/2026-11-08-aesthetic-toolkit/independent-review-02/browser.mjs:21:843\n    at async check (file:///Volumes/eyedisk/develop/cinewright/evidence/2026-11-08-aesthetic-toolkit/independent-review-02/browser.mjs:11:48)\n    at async file:///Volumes/eyedisk/develop/cinewright/evidence/2026-11-08-aesthetic-toolkit/independent-review-02/browser.mjs:21:2"
     },
     {
       "name": "A current portrait independent seek pixels and final frames",
@@ -1542,7 +1542,7 @@
       "name": "C actual transparent gray composite and GPU resources",
       "pass": false,
       "error": "AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:\n\n1 !== 0\n",
-      "stack": "AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:\n\n1 !== 0\n\n    at file:///Volumes/eyedisk/develop/cinewright/evidence/aesthetic-toolkit-2026-11-08/independent-review-02/browser.mjs:27:1438\n    at async check (file:///Volumes/eyedisk/develop/cinewright/evidence/aesthetic-toolkit-2026-11-08/independent-review-02/browser.mjs:11:48)\n    at async file:///Volumes/eyedisk/develop/cinewright/evidence/aesthetic-toolkit-2026-11-08/independent-review-02/browser.mjs:27:2"
+      "stack": "AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:\n\n1 !== 0\n\n    at file:///Volumes/eyedisk/develop/cinewright/evidence/2026-11-08-aesthetic-toolkit/independent-review-02/browser.mjs:27:1438\n    at async check (file:///Volumes/eyedisk/develop/cinewright/evidence/2026-11-08-aesthetic-toolkit/independent-review-02/browser.mjs:11:48)\n    at async file:///Volumes/eyedisk/develop/cinewright/evidence/2026-11-08-aesthetic-toolkit/independent-review-02/browser.mjs:27:2"
     },
     {
       "name": "C local GLB clip partial failure and repeated prepare dispose",

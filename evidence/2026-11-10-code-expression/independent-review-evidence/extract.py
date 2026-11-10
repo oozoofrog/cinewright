@@ -1,7 +1,7 @@
 from pathlib import Path
 import subprocess,json,hashlib,math
 from PIL import Image,ImageDraw
-root=Path('evidence/code-expression-20261110'); out=root/'independent-review-evidence'
+root=Path('evidence/2026-11-10-code-expression'); out=root/'independent-review-evidence'
 paths=[root/'delivery'/f'{n}.mp4' for n in ('cups','doorway','fold')]+[root/f'{n}.mp4' for n in ('without-traces','without-first-visit')]
 manifest=[]
 for p in paths:

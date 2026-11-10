@@ -1,6 +1,6 @@
 from pathlib import Path
 import hashlib,json,re,subprocess,sys
-root=Path.cwd(); out=root/'evidence/craft-review-20261109/implementation'
+root=Path.cwd(); out=root/'evidence/2026-11-09-craft-review/implementation'
 files=sorted(set([Path('SKILL.md'),Path('skills/cinewright/SKILL.md'),*Path('references').glob('*.md'),*Path('examples/stillcuts').rglob('*'),*Path('modules').glob('*.mjs'),*Path('runtime').glob('*.mjs'),*Path('scripts').glob('*.mjs')]))
 files=[p for p in files if p.is_file()]
 def manifest(name):

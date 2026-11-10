@@ -5,7 +5,7 @@
       "mode": "stride",
       "revision": "2e6f03125d583104b85df3da5df70d09289ba1d476db0bf513f8952fc421dc63",
       "job": "34861c75-0982-48ee-a353-223fb59d2a5b",
-      "file": "/Volumes/eyedisk/develop/cinewright/evidence/aesthetic-toolkit-phase02-2026-11-08/retarget/stride.mp4",
+      "file": "/Volumes/eyedisk/develop/cinewright/evidence/2026-11-08-aesthetic-toolkit-phase02/retarget/stride.mp4",
       "sourceProjectAbsentDuringRender": true,
       "frozenPaths": 30,
       "authoredSourceTrackInPackage": false,
@@ -50,7 +50,7 @@
       },
       "flash": {
         "version": 1,
-        "file": "/Volumes/eyedisk/develop/cinewright/evidence/aesthetic-toolkit-phase02-2026-11-08/retarget/stride.mp4",
+        "file": "/Volumes/eyedisk/develop/cinewright/evidence/2026-11-08-aesthetic-toolkit-phase02/retarget/stride.mp4",
         "fps": 24,
         "resolution": [
           160,
@@ -115,7 +115,7 @@
       "mode": "salute",
       "revision": "a99e8a0c4eab2d2007358f290c034eb85b7eb08df62c389d3be311b9cfc71c98",
       "job": "55de56e8-2e81-44b8-a706-6e91e2c2cdc3",
-      "file": "/Volumes/eyedisk/develop/cinewright/evidence/aesthetic-toolkit-phase02-2026-11-08/retarget/salute.mp4",
+      "file": "/Volumes/eyedisk/develop/cinewright/evidence/2026-11-08-aesthetic-toolkit-phase02/retarget/salute.mp4",
       "sourceProjectAbsentDuringRender": true,
       "frozenPaths": 30,
       "authoredSourceTrackInPackage": false,
@@ -160,7 +160,7 @@
       },
       "flash": {
         "version": 1,
-        "file": "/Volumes/eyedisk/develop/cinewright/evidence/aesthetic-toolkit-phase02-2026-11-08/retarget/salute.mp4",
+        "file": "/Volumes/eyedisk/develop/cinewright/evidence/2026-11-08-aesthetic-toolkit-phase02/retarget/salute.mp4",
         "fps": 24,
         "resolution": [
           160,

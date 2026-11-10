@@ -8,7 +8,7 @@ import { host } from '../../scripts/server.mjs';
 import { mix } from '../../scripts/audio.mjs';
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '../..');
-const evidence = path.join(root, 'evidence/harbor-v2');
+const evidence = path.join(root, 'evidence/2026-11-04-harbor-v2');
 const store = path.join(root, '.direction');
 const snapshot = process.argv[2]
   ? await openRevision(store, process.argv[2])

@@ -1,7 +1,7 @@
 [
   {
     "clip": "S01",
-    "source": "/Volumes/eyedisk/develop/cinewright/evidence/aesthetic-toolkit-2026-11-08/A/forest-v3/1080p.mp4",
+    "source": "/Volumes/eyedisk/develop/cinewright/evidence/2026-11-08-aesthetic-toolkit/A/forest-v3/1080p.mp4",
     "source_sha256_manifest": "f564c338c4e4a8c405a68789c0379d96435f32cc8850d1ce2c62ab21e4ef5a7a",
     "frames_zero_based": [
       0,
@@ -9,13 +9,13 @@
       190
     ],
     "fps": 24,
-    "sheet": "evidence/cinematic-animation-review-2026-11-08/cinematography/S01-composition.jpg",
-    "full_frames": "evidence/cinematic-animation-review-2026-11-08/cinematography/S01-composition",
+    "sheet": "evidence/2026-11-08-cinematic-animation-review/cinematography/S01-composition.jpg",
+    "full_frames": "evidence/2026-11-08-cinematic-animation-review/cinematography/S01-composition",
     "method": "ffmpeg select eq(n); original RGB JPEG frames; sheet resize only, no contrast enhancement"
   },
   {
     "clip": "S02",
-    "source": "/Volumes/eyedisk/develop/cinewright/evidence/aesthetic-toolkit-2026-11-08/A/harbor-closed-reveal/1080p.mp4",
+    "source": "/Volumes/eyedisk/develop/cinewright/evidence/2026-11-08-aesthetic-toolkit/A/harbor-closed-reveal/1080p.mp4",
     "source_sha256_manifest": "ba5025727b95145a13593b81bf615946be9be98eeb4b95a25e5c02e121b2fb98",
     "frames_zero_based": [
       0,
@@ -23,13 +23,13 @@
       190
     ],
     "fps": 24,
-    "sheet": "evidence/cinematic-animation-review-2026-11-08/cinematography/S02-composition.jpg",
-    "full_frames": "evidence/cinematic-animation-review-2026-11-08/cinematography/S02-composition",
+    "sheet": "evidence/2026-11-08-cinematic-animation-review/cinematography/S02-composition.jpg",
+    "full_frames": "evidence/2026-11-08-cinematic-animation-review/cinematography/S02-composition",
     "method": "ffmpeg select eq(n); original RGB JPEG frames; sheet resize only, no contrast enhancement"
   },
   {
     "clip": "S03",
-    "source": "/Volumes/eyedisk/develop/cinewright/evidence/aesthetic-toolkit-2026-11-08/B/rain-reviewed/1080p.mp4",
+    "source": "/Volumes/eyedisk/develop/cinewright/evidence/2026-11-08-aesthetic-toolkit/B/rain-reviewed/1080p.mp4",
     "source_sha256_manifest": "5ce9eb7e307d89dd68c07f890fc053ed8b7c92c1564299344528696abe65909e",
     "frames_zero_based": [
       0,
@@ -37,13 +37,13 @@
       190
     ],
     "fps": 24,
-    "sheet": "evidence/cinematic-animation-review-2026-11-08/cinematography/S03-composition.jpg",
-    "full_frames": "evidence/cinematic-animation-review-2026-11-08/cinematography/S03-composition",
+    "sheet": "evidence/2026-11-08-cinematic-animation-review/cinematography/S03-composition.jpg",
+    "full_frames": "evidence/2026-11-08-cinematic-animation-review/cinematography/S03-composition",
     "method": "ffmpeg select eq(n); original RGB JPEG frames; sheet resize only, no contrast enhancement"
   },
   {
     "clip": "S04",
-    "source": "/Volumes/eyedisk/develop/cinewright/evidence/aesthetic-toolkit-2026-11-08/B/commuter-reviewed/1080p.mp4",
+    "source": "/Volumes/eyedisk/develop/cinewright/evidence/2026-11-08-aesthetic-toolkit/B/commuter-reviewed/1080p.mp4",
     "source_sha256_manifest": "b7b1b0c63a2bc23106b3f61495cb19df4234e20493e25b9911895fedc1bc71b8",
     "frames_zero_based": [
       0,
@@ -51,13 +51,13 @@
       190
     ],
     "fps": 24,
-    "sheet": "evidence/cinematic-animation-review-2026-11-08/cinematography/S04-composition.jpg",
-    "full_frames": "evidence/cinematic-animation-review-2026-11-08/cinematography/S04-composition",
+    "sheet": "evidence/2026-11-08-cinematic-animation-review/cinematography/S04-composition.jpg",
+    "full_frames": "evidence/2026-11-08-cinematic-animation-review/cinematography/S04-composition",
     "method": "ffmpeg select eq(n); original RGB JPEG frames; sheet resize only, no contrast enhancement"
   },
   {
     "clip": "S05",
-    "source": "/Volumes/eyedisk/develop/cinewright/evidence/aesthetic-toolkit-2026-11-08/C/station-final/1080p.mp4",
+    "source": "/Volumes/eyedisk/develop/cinewright/evidence/2026-11-08-aesthetic-toolkit/C/station-final/1080p.mp4",
     "source_sha256_manifest": "5e8a981c16b11c3f640119dd3d4c0f2f1541880c0861906c45c7c41e8bef7769",
     "frames_zero_based": [
       0,
@@ -65,13 +65,13 @@
       190
     ],
     "fps": 24,
-    "sheet": "evidence/cinematic-animation-review-2026-11-08/cinematography/S05-composition.jpg",
-    "full_frames": "evidence/cinematic-animation-review-2026-11-08/cinematography/S05-composition",
+    "sheet": "evidence/2026-11-08-cinematic-animation-review/cinematography/S05-composition.jpg",
+    "full_frames": "evidence/2026-11-08-cinematic-animation-review/cinematography/S05-composition",
     "method": "ffmpeg select eq(n); original RGB JPEG frames; sheet resize only, no contrast enhancement"
   },
   {
     "clip": "S06",
-    "source": "/Volumes/eyedisk/develop/cinewright/evidence/aesthetic-toolkit-2026-11-08/C/laboratory-final/1080p.mp4",
+    "source": "/Volumes/eyedisk/develop/cinewright/evidence/2026-11-08-aesthetic-toolkit/C/laboratory-final/1080p.mp4",
     "source_sha256_manifest": "3e73c7ed08938dfffb544f13a2fd6d3273dea7d2ba8ab6fe3973315fb9081736",
     "frames_zero_based": [
       0,
@@ -79,13 +79,13 @@
       190
     ],
     "fps": 24,
-    "sheet": "evidence/cinematic-animation-review-2026-11-08/cinematography/S06-composition.jpg",
-    "full_frames": "evidence/cinematic-animation-review-2026-11-08/cinematography/S06-composition",
+    "sheet": "evidence/2026-11-08-cinematic-animation-review/cinematography/S06-composition.jpg",
+    "full_frames": "evidence/2026-11-08-cinematic-animation-review/cinematography/S06-composition",
     "method": "ffmpeg select eq(n); original RGB JPEG frames; sheet resize only, no contrast enhancement"
   },
   {
     "clip": "S01",
-    "source": "/Volumes/eyedisk/develop/cinewright/evidence/aesthetic-toolkit-2026-11-08/A/forest-v3/1080p.mp4",
+    "source": "/Volumes/eyedisk/develop/cinewright/evidence/2026-11-08-aesthetic-toolkit/A/forest-v3/1080p.mp4",
     "source_sha256_manifest": "f564c338c4e4a8c405a68789c0379d96435f32cc8850d1ce2c62ab21e4ef5a7a",
     "frames_zero_based": [
       60,
@@ -114,13 +114,13 @@
       83
     ],
     "fps": 24,
-    "sheet": "evidence/cinematic-animation-review-2026-11-08/cinematography/S01-native24-f60-83.jpg",
-    "full_frames": "evidence/cinematic-animation-review-2026-11-08/cinematography/S01-native24-f60-83",
+    "sheet": "evidence/2026-11-08-cinematic-animation-review/cinematography/S01-native24-f60-83.jpg",
+    "full_frames": "evidence/2026-11-08-cinematic-animation-review/cinematography/S01-native24-f60-83",
     "method": "ffmpeg select eq(n); original RGB JPEG frames; sheet resize only, no contrast enhancement"
   },
   {
     "clip": "S04",
-    "source": "/Volumes/eyedisk/develop/cinewright/evidence/aesthetic-toolkit-2026-11-08/B/commuter-reviewed/1080p.mp4",
+    "source": "/Volumes/eyedisk/develop/cinewright/evidence/2026-11-08-aesthetic-toolkit/B/commuter-reviewed/1080p.mp4",
     "source_sha256_manifest": "b7b1b0c63a2bc23106b3f61495cb19df4234e20493e25b9911895fedc1bc71b8",
     "frames_zero_based": [
       112,
@@ -149,13 +149,13 @@
       135
     ],
     "fps": 24,
-    "sheet": "evidence/cinematic-animation-review-2026-11-08/cinematography/S04-native24-f112-135.jpg",
-    "full_frames": "evidence/cinematic-animation-review-2026-11-08/cinematography/S04-native24-f112-135",
+    "sheet": "evidence/2026-11-08-cinematic-animation-review/cinematography/S04-native24-f112-135.jpg",
+    "full_frames": "evidence/2026-11-08-cinematic-animation-review/cinematography/S04-native24-f112-135",
     "method": "ffmpeg select eq(n); original RGB JPEG frames; sheet resize only, no contrast enhancement"
   },
   {
     "clip": "S05",
-    "source": "/Volumes/eyedisk/develop/cinewright/evidence/aesthetic-toolkit-2026-11-08/C/station-final/1080p.mp4",
+    "source": "/Volumes/eyedisk/develop/cinewright/evidence/2026-11-08-aesthetic-toolkit/C/station-final/1080p.mp4",
     "source_sha256_manifest": "5e8a981c16b11c3f640119dd3d4c0f2f1541880c0861906c45c7c41e8bef7769",
     "frames_zero_based": [
       168,
@@ -184,13 +184,13 @@
       191
     ],
     "fps": 24,
-    "sheet": "evidence/cinematic-animation-review-2026-11-08/cinematography/S05-native24-f168-191.jpg",
-    "full_frames": "evidence/cinematic-animation-review-2026-11-08/cinematography/S05-native24-f168-191",
+    "sheet": "evidence/2026-11-08-cinematic-animation-review/cinematography/S05-native24-f168-191.jpg",
+    "full_frames": "evidence/2026-11-08-cinematic-animation-review/cinematography/S05-native24-f168-191",
     "method": "ffmpeg select eq(n); original RGB JPEG frames; sheet resize only, no contrast enhancement"
   },
   {
     "clip": "S06",
-    "source": "/Volumes/eyedisk/develop/cinewright/evidence/aesthetic-toolkit-2026-11-08/C/laboratory-final/1080p.mp4",
+    "source": "/Volumes/eyedisk/develop/cinewright/evidence/2026-11-08-aesthetic-toolkit/C/laboratory-final/1080p.mp4",
     "source_sha256_manifest": "3e73c7ed08938dfffb544f13a2fd6d3273dea7d2ba8ab6fe3973315fb9081736",
     "frames_zero_based": [
       96,
@@ -219,8 +219,8 @@
       119
     ],
     "fps": 24,
-    "sheet": "evidence/cinematic-animation-review-2026-11-08/cinematography/S06-native24-f96-119.jpg",
-    "full_frames": "evidence/cinematic-animation-review-2026-11-08/cinematography/S06-native24-f96-119",
+    "sheet": "evidence/2026-11-08-cinematic-animation-review/cinematography/S06-native24-f96-119.jpg",
+    "full_frames": "evidence/2026-11-08-cinematic-animation-review/cinematography/S06-native24-f96-119",
     "method": "ffmpeg select eq(n); original RGB JPEG frames; sheet resize only, no contrast enhancement"
   },
   {
@@ -231,8 +231,8 @@
       96
     ],
     "fps": 24,
-    "sheet": "evidence/cinematic-animation-review-2026-11-08/cinematography/P02-f096.jpg",
-    "full_frames": "evidence/cinematic-animation-review-2026-11-08/cinematography/P02-f096",
+    "sheet": "evidence/2026-11-08-cinematic-animation-review/cinematography/P02-f096.jpg",
+    "full_frames": "evidence/2026-11-08-cinematic-animation-review/cinematography/P02-f096",
     "method": "ffmpeg select eq(n); original RGB JPEG frames; sheet resize only, no contrast enhancement"
   },
   {
@@ -243,37 +243,37 @@
       96
     ],
     "fps": 24,
-    "sheet": "evidence/cinematic-animation-review-2026-11-08/cinematography/P05-f096.jpg",
-    "full_frames": "evidence/cinematic-animation-review-2026-11-08/cinematography/P05-f096",
+    "sheet": "evidence/2026-11-08-cinematic-animation-review/cinematography/P05-f096.jpg",
+    "full_frames": "evidence/2026-11-08-cinematic-animation-review/cinematography/P05-f096",
     "method": "ffmpeg select eq(n); original RGB JPEG frames; sheet resize only, no contrast enhancement"
   },
   {
     "clip": "F01",
-    "source": "/Volumes/eyedisk/develop/cinewright/evidence/aesthetic-toolkit-2026-11-08/effects2d-closed-reveal/1080p.mp4",
+    "source": "/Volumes/eyedisk/develop/cinewright/evidence/2026-11-08-aesthetic-toolkit/effects2d-closed-reveal/1080p.mp4",
     "source_sha256_manifest": "0b18886917062d4a867112f536b203d252e943d40117aa8218a45b8ab881b8f4",
     "frames_zero_based": [
       96
     ],
     "fps": 24,
-    "sheet": "evidence/cinematic-animation-review-2026-11-08/cinematography/F01-f096.jpg",
-    "full_frames": "evidence/cinematic-animation-review-2026-11-08/cinematography/F01-f096",
+    "sheet": "evidence/2026-11-08-cinematic-animation-review/cinematography/F01-f096.jpg",
+    "full_frames": "evidence/2026-11-08-cinematic-animation-review/cinematography/F01-f096",
     "method": "ffmpeg select eq(n); original RGB JPEG frames; sheet resize only, no contrast enhancement"
   },
   {
     "clip": "F02",
-    "source": "/Volumes/eyedisk/develop/cinewright/evidence/aesthetic-toolkit-2026-11-08/C/effects/1080p.mp4",
+    "source": "/Volumes/eyedisk/develop/cinewright/evidence/2026-11-08-aesthetic-toolkit/C/effects/1080p.mp4",
     "source_sha256_manifest": "2954b928a923325becb3f5e5f2f6f0115ca35ae2123ecb6dc340a16e91abdeed",
     "frames_zero_based": [
       96
     ],
     "fps": 24,
-    "sheet": "evidence/cinematic-animation-review-2026-11-08/cinematography/F02-f096.jpg",
-    "full_frames": "evidence/cinematic-animation-review-2026-11-08/cinematography/F02-f096",
+    "sheet": "evidence/2026-11-08-cinematic-animation-review/cinematography/F02-f096.jpg",
+    "full_frames": "evidence/2026-11-08-cinematic-animation-review/cinematography/F02-f096",
     "method": "ffmpeg select eq(n); original RGB JPEG frames; sheet resize only, no contrast enhancement"
   },
   {
     "clip": "S05",
-    "source": "/Volumes/eyedisk/develop/cinewright/evidence/aesthetic-toolkit-2026-11-08/C/station-final/1080p.mp4",
+    "source": "/Volumes/eyedisk/develop/cinewright/evidence/2026-11-08-aesthetic-toolkit/C/station-final/1080p.mp4",
     "source_sha256_manifest": "5e8a981c16b11c3f640119dd3d4c0f2f1541880c0861906c45c7c41e8bef7769",
     "frames_zero_based": [
       48,
@@ -286,13 +286,13 @@
       156
     ],
     "fps": 24,
-    "sheet": "evidence/cinematic-animation-review-2026-11-08/cinematography/S05-action-beats.jpg",
-    "full_frames": "evidence/cinematic-animation-review-2026-11-08/cinematography/S05-action-beats",
+    "sheet": "evidence/2026-11-08-cinematic-animation-review/cinematography/S05-action-beats.jpg",
+    "full_frames": "evidence/2026-11-08-cinematic-animation-review/cinematography/S05-action-beats",
     "method": "ffmpeg select eq(n); sheet resize only"
   },
   {
     "clip": "S05",
-    "source": "/Volumes/eyedisk/develop/cinewright/evidence/aesthetic-toolkit-2026-11-08/C/station-final/1080p.mp4",
+    "source": "/Volumes/eyedisk/develop/cinewright/evidence/2026-11-08-aesthetic-toolkit/C/station-final/1080p.mp4",
     "frames_zero_based": [
       84,
       85,
@@ -308,8 +308,8 @@
       95
     ],
     "fps": 24,
-    "sheet": "evidence/cinematic-animation-review-2026-11-08/cinematography/S05-native24-f84-95.jpg",
-    "full_frames": "evidence/cinematic-animation-review-2026-11-08/cinematography/S05-native24-f84-95",
+    "sheet": "evidence/2026-11-08-cinematic-animation-review/cinematography/S05-native24-f84-95.jpg",
+    "full_frames": "evidence/2026-11-08-cinematic-animation-review/cinematography/S05-native24-f84-95",
     "method": "ffmpeg select between(n,84,95); sheet resize only"
   }
 ]

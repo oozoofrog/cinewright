@@ -1,7 +1,7 @@
 from pathlib import Path
 r=Path('/Volumes/eyedisk/develop/cinewright')
-e=r/'evidence/cinematic-animation-review-2026-11-08'
-report=r/'docs/reviews/2026-11-08-cinematic-animation/cinematography.md'
+e=r/'evidence/2026-11-08-cinematic-animation-review'
+report=r/'docs/reviews/2026-11-08-cinematic-animation-review/cinematography.md'
 s='''# 영화적 연출·촬영·편집 독립 검토 — 2026-11-08
 
 현재 S 장면은 공간·재질·동작을 보여주는 연출 샘플로 유효하다. 그러나 화면에서 확인되는 움직임과 제목이 약속하는 사건 사이에는 격차가 있다. 특히 S01의 ‘길 찾기’, S02의 ‘등대의 안내’, S04의 ‘편지를 읽는 인물’은 이동·회전·선의 출현보다 약하게 읽힌다. S05에는 **그림자 → 인물 → 열차**라는 정보 순서가 실제로 있으며, 이를 없다고 평가하면 잘못이다. S06은 빛·가림의 정물 연구로 성립하지만 관찰의 중심을 더 명확히 정할 수 있다. 컷 수나 움직임의 양을 늘리는 것이 공통 해법은 아니다.

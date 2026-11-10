@@ -1,6 +1,6 @@
 [
   {
-    "path": "evidence/code-expression-20261110/delivery/cups.mp4",
+    "path": "evidence/2026-11-10-code-expression/delivery/cups.mp4",
     "sha256": "65d23c112652cf8d84d1907d9bccf6eac3e09e76647f9a9aea744f93aa4bf866",
     "decoded_frames": 480,
     "metadata": {
@@ -118,7 +118,7 @@
         }
       ],
       "format": {
-        "filename": "evidence/code-expression-20261110/delivery/cups.mp4",
+        "filename": "evidence/2026-11-10-code-expression/delivery/cups.mp4",
         "nb_streams": 2,
         "nb_programs": 0,
         "nb_stream_groups": 0,
@@ -139,7 +139,7 @@
     }
   },
   {
-    "path": "evidence/code-expression-20261110/delivery/doorway.mp4",
+    "path": "evidence/2026-11-10-code-expression/delivery/doorway.mp4",
     "sha256": "7529e495e08e6ee51fb35060b15cbc702069d78e99d78986309a7a20c310e6d4",
     "decoded_frames": 240,
     "metadata": {
@@ -257,7 +257,7 @@
         }
       ],
       "format": {
-        "filename": "evidence/code-expression-20261110/delivery/doorway.mp4",
+        "filename": "evidence/2026-11-10-code-expression/delivery/doorway.mp4",
         "nb_streams": 2,
         "nb_programs": 0,
         "nb_stream_groups": 0,
@@ -278,7 +278,7 @@
     }
   },
   {
-    "path": "evidence/code-expression-20261110/delivery/fold.mp4",
+    "path": "evidence/2026-11-10-code-expression/delivery/fold.mp4",
     "sha256": "bd1c19e0cef8b3bc470fe80822f354b0fdf5f83fe3ccb6991c4df851a857cc08",
     "decoded_frames": 288,
     "metadata": {
@@ -396,7 +396,7 @@
         }
       ],
       "format": {
-        "filename": "evidence/code-expression-20261110/delivery/fold.mp4",
+        "filename": "evidence/2026-11-10-code-expression/delivery/fold.mp4",
         "nb_streams": 2,
         "nb_programs": 0,
         "nb_stream_groups": 0,
@@ -417,7 +417,7 @@
     }
   },
   {
-    "path": "evidence/code-expression-20261110/without-traces.mp4",
+    "path": "evidence/2026-11-10-code-expression/without-traces.mp4",
     "sha256": "03e7248e0ae946cad65c262f74faef818fd8787f5d58248eed83d2e9d57ee751",
     "decoded_frames": 480,
     "metadata": {
@@ -535,7 +535,7 @@
         }
       ],
       "format": {
-        "filename": "evidence/code-expression-20261110/without-traces.mp4",
+        "filename": "evidence/2026-11-10-code-expression/without-traces.mp4",
         "nb_streams": 2,
         "nb_programs": 0,
         "nb_stream_groups": 0,
@@ -556,7 +556,7 @@
     }
   },
   {
-    "path": "evidence/code-expression-20261110/without-first-visit.mp4",
+    "path": "evidence/2026-11-10-code-expression/without-first-visit.mp4",
     "sha256": "7ea4af31ee4aa5a9868e6cfe42873c7ba86a63ef330435dcaa4298531b10229a",
     "decoded_frames": 480,
     "metadata": {
@@ -674,7 +674,7 @@
         }
       ],
       "format": {
-        "filename": "evidence/code-expression-20261110/without-first-visit.mp4",
+        "filename": "evidence/2026-11-10-code-expression/without-first-visit.mp4",
         "nb_streams": 2,
         "nb_programs": 0,
         "nb_stream_groups": 0,

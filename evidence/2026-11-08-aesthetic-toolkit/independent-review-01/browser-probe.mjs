@@ -1,6 +1,6 @@
 import fs from 'node:fs/promises';import path from 'node:path';import assert from 'node:assert/strict';import {createHash}from 'node:crypto';
 import {freeze,openRevision}from '../../../scripts/revisions.mjs';import {host}from '../../../scripts/server.mjs';import {browser}from '../../../scripts/execution.mjs';
-const out=path.resolve('evidence/aesthetic-toolkit-2026-11-08/independent-review-01'),scratch=path.resolve('.direction/aesthetic-toolkit-2026-11-08/review-01'),lock=path.resolve('.direction/aesthetic-toolkit-gpu.lock');
+const out=path.resolve('evidence/2026-11-08-aesthetic-toolkit/independent-review-01'),scratch=path.resolve('.direction/aesthetic-toolkit-2026-11-08/review-01'),lock=path.resolve('.direction/aesthetic-toolkit-gpu.lock');
 let locked=false,client,site;const report={scope:'direct execution: short independent browser probe',results:[]};
 try{try{await fs.mkdir(lock);locked=true;}catch(e){if(e.code==='EEXIST'){report.status='not run: shared GPU lock busy on one exclusive acquisition attempt';await fs.writeFile(path.join(out,'browser.json'),JSON.stringify(report,null,2));process.exit(0);}throw e;}
 client=await browser();report.browser=client.version();const page=await client.newPage();report.errors=[];page.on('pageerror',e=>report.errors.push(String(e)));

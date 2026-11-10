@@ -1,6 +1,6 @@
 from pathlib import Path
 import json,hashlib,subprocess,array,math,wave
-root=Path('evidence/code-expression-20261110'); out=root/'independent-review-evidence'
+root=Path('evidence/2026-11-10-code-expression'); out=root/'independent-review-evidence'
 sha=lambda p:hashlib.sha256(Path(p).read_bytes()).hexdigest()
 index=json.loads((root/'delivery/results.json').read_text()); report=json.loads((root/'delivery/verification/report.json').read_text())
 checks={'exampleSourceHashes':{},'delivery':[]}

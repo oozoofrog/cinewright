@@ -3,7 +3,7 @@
     "modules/animation/pose-tracks.mjs",
     "tests/pose-tracks.test.mjs",
     "references/pose-tracks.md",
-    "docs/research/2026-11-09-dancer-craft/README.md",
+    "docs/research/2026-11-09-craft-review/README.md",
     ".direction/productions/music-box-dancer-redesign-20261108/intro-16/project/model-v8.mjs",
     ".direction/productions/music-box-dancer-redesign-20261108/intro-16/project/dancer.mjs",
     ".direction/productions/music-box-dancer-redesign-20261108/intro-16/project/return-craft.mjs",
@@ -4398,72 +4398,72 @@
       "kind": "generated-evidence"
     },
     {
-      "path": "docs/research/2026-11-09-dancer-craft/README.md",
+      "path": "docs/research/2026-11-09-craft-review/README.md",
       "sha256": "32d96094d9b0f3140d8b5a04a9844152e197682d4519cdde724f2ffdafac7fc6",
       "kind": "source-or-document"
     },
     {
-      "path": "evidence/dancer-increment-20261109/automatic-playback.log",
+      "path": "evidence/2026-11-09-dancer-increment/automatic-playback.log",
       "sha256": "47f1aa5dcd8d1308426206a41e3ca1dfd9b0b3776e208fb05e62a1b9143e0324",
       "kind": "generated-evidence"
     },
     {
-      "path": "evidence/dancer-increment-20261109/comparison.log",
+      "path": "evidence/2026-11-09-dancer-increment/comparison.log",
       "sha256": "036c064a99077245fbac818f5bd067fccb741666504694f2cf6bc2d74d00cfaf",
       "kind": "generated-evidence"
     },
     {
-      "path": "evidence/dancer-increment-20261109/diagnostics.log",
+      "path": "evidence/2026-11-09-dancer-increment/diagnostics.log",
       "sha256": "be6dd9438061cef7b459b6519d6cd657efafe5d250ab86be5174c1c15d590ef0",
       "kind": "generated-evidence"
     },
     {
-      "path": "evidence/dancer-increment-20261109/final-audit.json",
+      "path": "evidence/2026-11-09-dancer-increment/final-audit.json",
       "sha256": "679ce84cca578230a92c3e9563e229a0ff8cdbd8081622b02cf56f427ac6bd18",
       "kind": "generated-evidence"
     },
     {
-      "path": "evidence/dancer-increment-20261109/focused-tests-final.log",
+      "path": "evidence/2026-11-09-dancer-increment/focused-tests-final.log",
       "sha256": "63f6727510bebdb259a9cf8004a9c0b677ef04b4826e637bac0fc93f195bf870",
       "kind": "generated-evidence"
     },
     {
-      "path": "evidence/dancer-increment-20261109/focused-tests-r2.log",
+      "path": "evidence/2026-11-09-dancer-increment/focused-tests-r2.log",
       "sha256": "6ce43e90f2a3150c7342acdc70cd070efdd8638eddc2dc47a58ce6872e83cdf7",
       "kind": "generated-evidence"
     },
     {
-      "path": "evidence/dancer-increment-20261109/focused-tests.log",
+      "path": "evidence/2026-11-09-dancer-increment/focused-tests.log",
       "sha256": "ecfff82581fb380e44071b38c8dff4d80124eba6113ee972f3639774618becf1",
       "kind": "generated-evidence"
     },
     {
-      "path": "evidence/dancer-increment-20261109/frame-job.log",
+      "path": "evidence/2026-11-09-dancer-increment/frame-job.log",
       "sha256": "9ff1e0fc994f0a6b9557f7356a4c28aa3156ecd1939930c62a9ffebccde41ba0",
       "kind": "generated-evidence"
     },
     {
-      "path": "evidence/dancer-increment-20261109/media-contact-verification.log",
+      "path": "evidence/2026-11-09-dancer-increment/media-contact-verification.log",
       "sha256": "40bbc802104bbf4258bfd74b2f3da2c27fb7c68b57fa635fae67196194012565",
       "kind": "generated-evidence"
     },
     {
-      "path": "evidence/dancer-increment-20261109/render-r2.log",
+      "path": "evidence/2026-11-09-dancer-increment/render-r2.log",
       "sha256": "40db61a326f2db5eae9e4d8287ffa80aac66670c079c521550d0edd2f7382ba3",
       "kind": "generated-evidence"
     },
     {
-      "path": "evidence/dancer-increment-20261109/render.log",
+      "path": "evidence/2026-11-09-dancer-increment/render.log",
       "sha256": "9720e247575d65579b049ca141161a0dd70db99388e21f2dd6906324db0bb631",
       "kind": "generated-evidence"
     },
     {
-      "path": "evidence/dancer-increment-20261109/repository-tests.log",
+      "path": "evidence/2026-11-09-dancer-increment/repository-tests.log",
       "sha256": "1ad06c6c88453d7170fd29e931f6f75359ac4768963259374aa955a6c2de935c",
       "kind": "generated-evidence"
     },
     {
-      "path": "evidence/dancer-increment-20261109/seek.log",
+      "path": "evidence/2026-11-09-dancer-increment/seek.log",
       "sha256": "ca9985057bc30017f17273ad2e4857e49053ac50650845bfdf045851c7d89924",
       "kind": "generated-evidence"
     },

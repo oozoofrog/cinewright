@@ -41,7 +41,7 @@
         "fingerprintSha256": "6d44f906d4225728d5d09e211407129bd58245489fd85246935c8ce62e38f248"
       }
     ],
-    "completeEntriesIn": "/Volumes/eyedisk/develop/cinewright/evidence/global-update-2026-11-05-224452-79c01a37/installed-after.json"
+    "completeEntriesIn": "/Volumes/eyedisk/develop/cinewright/evidence/2026-11-05-global-update-224452-79c01a37/installed-after.json"
   },
   "tests": {
     "tests": 364,

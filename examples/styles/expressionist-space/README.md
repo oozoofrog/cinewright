@@ -10,4 +10,4 @@ Full frozen browser/media checks: `node examples/styles/validate.mjs PROJECT STO
 
 Extra actual color/alpha and resource probes: `node examples/styles/expressionist-space/browser-probes.mjs PROJECT STORE OUTPUT` (use effects project). This checks a known sRGB gray plane with opaque and half alpha on black/white, transparent corners, actual shader compilation, local GLB loading, repeated lifecycle and failed clip preparation followed by valid preparation. Both browser scripts acquire the common GPU lock once and release it in finally. An occupied lock fails fast; coordinator runs them when available.
 
-Evidence is in `evidence/aesthetic-toolkit-2026-11-08/C/`. Read the handoff for what actually ran; commands are not success evidence. No independent review or human aesthetic acceptance is implied.
+Evidence is in `evidence/2026-11-08-aesthetic-toolkit/C/`. Read the handoff for what actually ran; commands are not success evidence. No independent review or human aesthetic acceptance is implied.

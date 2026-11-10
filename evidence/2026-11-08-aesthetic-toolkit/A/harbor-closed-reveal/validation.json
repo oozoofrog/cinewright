@@ -368,7 +368,7 @@
     {
       "id": "82880896-9c92-4574-ad6d-832b15e5ab99",
       "output": "/Volumes/eyedisk/develop/cinewright/.direction/aesthetic-toolkit-2026-11-08/A/store/jobs/82880896-9c92-4574-ad6d-832b15e5ab99/work.mp4",
-      "copy": "/Volumes/eyedisk/develop/cinewright/evidence/aesthetic-toolkit-2026-11-08/A/harbor-closed-reveal/540p.mp4",
+      "copy": "/Volumes/eyedisk/develop/cinewright/evidence/2026-11-08-aesthetic-toolkit/A/harbor-closed-reveal/540p.mp4",
       "revision": "a7188a8b047b3b9e224eb74aaba08e0a71f7e48b8395f5e4f28c7f22fecfbf84",
       "probe": {
         "programs": [],
@@ -392,7 +392,7 @@
       },
       "flash": {
         "version": 1,
-        "file": "/Volumes/eyedisk/develop/cinewright/evidence/aesthetic-toolkit-2026-11-08/A/harbor-closed-reveal/540p.mp4",
+        "file": "/Volumes/eyedisk/develop/cinewright/evidence/2026-11-08-aesthetic-toolkit/A/harbor-closed-reveal/540p.mp4",
         "fps": 24,
         "resolution": [
           160,
@@ -414,7 +414,7 @@
     {
       "id": "3dc0e42c-0058-4e19-a69d-29974a413612",
       "output": "/Volumes/eyedisk/develop/cinewright/.direction/aesthetic-toolkit-2026-11-08/A/store/jobs/3dc0e42c-0058-4e19-a69d-29974a413612/work.mp4",
-      "copy": "/Volumes/eyedisk/develop/cinewright/evidence/aesthetic-toolkit-2026-11-08/A/harbor-closed-reveal/1080p.mp4",
+      "copy": "/Volumes/eyedisk/develop/cinewright/evidence/2026-11-08-aesthetic-toolkit/A/harbor-closed-reveal/1080p.mp4",
       "revision": "a7188a8b047b3b9e224eb74aaba08e0a71f7e48b8395f5e4f28c7f22fecfbf84",
       "probe": {
         "programs": [],
@@ -438,7 +438,7 @@
       },
       "flash": {
         "version": 1,
-        "file": "/Volumes/eyedisk/develop/cinewright/evidence/aesthetic-toolkit-2026-11-08/A/harbor-closed-reveal/1080p.mp4",
+        "file": "/Volumes/eyedisk/develop/cinewright/evidence/2026-11-08-aesthetic-toolkit/A/harbor-closed-reveal/1080p.mp4",
         "fps": 24,
         "resolution": [
           160,

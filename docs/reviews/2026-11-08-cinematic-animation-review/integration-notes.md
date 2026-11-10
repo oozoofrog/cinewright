@@ -1,6 +1,6 @@
 # 종합 검토를 위한 부모 대조 기록
 
-2026-11-08. 이 파일은 보고서 도착 순서에 따른 관찰·원인 대조 기록이다. 최종 판정은 [종합 검토](/Volumes/eyedisk/develop/cinewright/docs/reviews/2026-11-08-cinematic-animation/README.md)에 있다. 프로덕션 코드·자산·기존 영상을 수정하지 않았다.
+2026-11-08. 이 파일은 보고서 도착 순서에 따른 관찰·원인 대조 기록이다. 최종 판정은 [종합 검토](/Volumes/eyedisk/develop/cinewright/docs/reviews/2026-11-08-cinematic-animation-review/README.md)에 있다. 프로덕션 코드·자산·기존 영상을 수정하지 않았다.
 
 ## 동작 보고서의 근거 확인
 

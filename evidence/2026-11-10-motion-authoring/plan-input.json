@@ -17,10 +17,10 @@
         "modules",
         "examples/relation-studies",
         "docs/implementation/2026-11-10-code-expression",
-        "evidence/code-expression-20261110"
+        "evidence/2026-11-10-code-expression"
       ],
       "writes": [
-        "evidence/motion-authoring-20261110"
+        "evidence/2026-11-10-motion-authoring"
       ],
       "checks": [
         {
@@ -38,7 +38,7 @@
         "baseline"
       ],
       "reads": [
-        "evidence/motion-authoring-20261110/baseline",
+        "evidence/2026-11-10-motion-authoring/baseline",
         "modules"
       ],
       "writes": [
@@ -68,12 +68,12 @@
         "documents"
       ],
       "reads": [
-        "evidence/motion-authoring-20261110/baseline",
+        "evidence/2026-11-10-motion-authoring/baseline",
         "SKILL.md",
         "references"
       ],
       "writes": [
-        "evidence/motion-authoring-20261110/plans"
+        "evidence/2026-11-10-motion-authoring/plans"
       ],
       "checks": [
         {
@@ -97,7 +97,7 @@
         "docs/implementation/2026-11-10-motion-authoring"
       ],
       "writes": [
-        "evidence/motion-authoring-20261110",
+        "evidence/2026-11-10-motion-authoring",
         "docs/implementation/2026-11-10-motion-authoring"
       ],
       "checks": [

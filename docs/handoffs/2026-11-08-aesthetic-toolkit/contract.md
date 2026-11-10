@@ -1,12 +1,12 @@
 # Aesthetic toolkit implementation contract v1
 
-Approved scope: IMPLEMENTATION-PROMPT.md in research/2026-11-08-aesthetic-toolkit. Shared checkout; never reset/stash/clean/stage/commit. Baseline: evidence/aesthetic-toolkit-2026-11-08/baseline.json and patches. Existing private productions/media/evidence remain protected.
+Approved scope: IMPLEMENTATION-PROMPT.md in research/2026-11-08-aesthetic-toolkit. Shared checkout; never reset/stash/clean/stage/commit. Baseline: evidence/2026-11-08-aesthetic-toolkit/baseline.json and patches. Existing private productions/media/evidence remain protected.
 
 ## Ownership
 
 - Coordinator A: runtime/**, scripts/direction.mjs, scripts/materialize-style.mjs, scripts/revisions.mjs, scripts/jobs.mjs, catalog/**, modules/animation/{exposure,rig2d,shot}.mjs; modules/fx2d/{mask,transition,emitter}.mjs; modules/styles/silhouette-theatre/**; examples/styles/silhouette-theatre/**; recipes/styles/silhouette-theatre/**; references/styles/{index,silhouette-theatre}.md; root README/SKILL and wrapper; tests/style-common*, tests/silhouette*, final integration/effects/mixed.
-- B only: modules/fx2d/{stroke,brush,wash,hatch,erase,redraw}.mjs and B-specific helpers with `line-wash-` prefix; modules/styles/line-wash/**; examples/styles/line-wash/**; recipes/styles/line-wash/**; references/styles/line-wash.md; tests/line-wash*; evidence/aesthetic-toolkit-2026-11-08/B/**. Do not modify common files.
-- C only: modules/fx3d/**; modules/animation/clip3d.mjs; modules/styles/expressionist-space/**; scripts/style-vendor-expressionist.mjs; examples/styles/expressionist-space/**; recipes/styles/expressionist-space/**; references/styles/expressionist-space.md; tests/expressionist*; evidence/aesthetic-toolkit-2026-11-08/C/**. Do not modify common files.
+- B only: modules/fx2d/{stroke,brush,wash,hatch,erase,redraw}.mjs and B-specific helpers with `line-wash-` prefix; modules/styles/line-wash/**; examples/styles/line-wash/**; recipes/styles/line-wash/**; references/styles/line-wash.md; tests/line-wash*; evidence/2026-11-08-aesthetic-toolkit/B/**. Do not modify common files.
+- C only: modules/fx3d/**; modules/animation/clip3d.mjs; modules/styles/expressionist-space/**; scripts/style-vendor-expressionist.mjs; examples/styles/expressionist-space/**; recipes/styles/expressionist-space/**; references/styles/expressionist-space.md; tests/expressionist*; evidence/2026-11-08-aesthetic-toolkit/C/**. Do not modify common files.
 - B/C report required shared changes to coordinator in result. No further subagents. No top-level threads, PR, upload or global install.
 
 ## Runtime and public modules

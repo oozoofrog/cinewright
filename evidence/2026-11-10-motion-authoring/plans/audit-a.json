@@ -3,12 +3,12 @@
   "model": "gpt-6.1-sol",
   "provider": "codex-eyemacworld",
   "commands": [
-    "$ /bin/zsh -lc 'cat evidence/motion-authoring-20261110/plans/input-a/SKILL.md evidence/motion-authoring-20261110/plans/input-a/references/craft-execution.md evidence/motion-authoring-20261110/plans/input-a/references/direction.md evidence/motion-authoring-20261110/plans/input-a/references/craft.md evidence/motion-authoring-20261110/plans/input-a/references/music.md evidence/motion-authoring-20261110/plans/input-a/references/format.md evidence/motion-authoring-20261110/plans/input-a/references/pose-tracks.md'",
-    "$ /bin/zsh -lc 'cat evidence/motion-authoring-20261110/plans/input-a/references/direction.md'",
-    "$ /bin/zsh -lc 'cat evidence/motion-authoring-20261110/plans/input-a/references/craft-execution.md'",
-    "$ /bin/zsh -lc 'cat evidence/motion-authoring-20261110/plans/input-a/references/craft.md'",
-    "$ /bin/zsh -lc 'cat evidence/motion-authoring-20261110/plans/input-a/references/craft.md'",
-    "$ /bin/zsh -lc \"cat > evidence/motion-authoring-20261110/plans/plan-a.md <<'EOF'"
+    "$ /bin/zsh -lc 'cat evidence/2026-11-10-motion-authoring/plans/input-a/SKILL.md evidence/2026-11-10-motion-authoring/plans/input-a/references/craft-execution.md evidence/2026-11-10-motion-authoring/plans/input-a/references/direction.md evidence/2026-11-10-motion-authoring/plans/input-a/references/craft.md evidence/2026-11-10-motion-authoring/plans/input-a/references/music.md evidence/2026-11-10-motion-authoring/plans/input-a/references/format.md evidence/2026-11-10-motion-authoring/plans/input-a/references/pose-tracks.md'",
+    "$ /bin/zsh -lc 'cat evidence/2026-11-10-motion-authoring/plans/input-a/references/direction.md'",
+    "$ /bin/zsh -lc 'cat evidence/2026-11-10-motion-authoring/plans/input-a/references/craft-execution.md'",
+    "$ /bin/zsh -lc 'cat evidence/2026-11-10-motion-authoring/plans/input-a/references/craft.md'",
+    "$ /bin/zsh -lc 'cat evidence/2026-11-10-motion-authoring/plans/input-a/references/craft.md'",
+    "$ /bin/zsh -lc \"cat > evidence/2026-11-10-motion-authoring/plans/plan-a.md <<'EOF'"
   ],
   "complete": true
 }

@@ -1,4 +1,4 @@
-> **현재 상태 갱신 — 2026-11-08:** 사용자의 “남은 작업을 T3에 위임” 지시로 재개했다. 16–28초의 새 Three.js 도자기 오르골 샘플과 비교·검증을 완료했으며, [최신 구현·검토 인계](music-box-dancer-visual-study.md)를 따른다. 아래 본문은 **2026-11-07 중지 시점의 역사 기록**으로 그대로 보존한다. 전체 곡의 새 표현 확장은 샘플에 대한 사용자 피드백 이후다.
+> **현재 상태 갱신 — 2026-11-08:** 사용자의 “남은 작업을 T3에 위임” 지시로 재개했다. 16–28초의 새 Three.js 도자기 오르골 샘플과 비교·검증을 완료했으며, [최신 구현·검토 인계](../2026-11-08-music-box-dancer-visual-study/README.md)를 따른다. 아래 본문은 **2026-11-07 중지 시점의 역사 기록**으로 그대로 보존한다. 전체 곡의 새 표현 확장은 샘플에 대한 사용자 피드백 이후다.
 
 ---
 
@@ -102,7 +102,7 @@ Cinewright는 이미 준비된 음악을 바탕으로 에이전트가 웹용 JS 
 
 완곡의 revision은 `6ab24650949a5cde698ad10378825bdb432ac7e188230798a07f13895a961bcf`, B는 `07eaaa5bc2b40c5a77c566464f9926ed8980ecdb916d15cb209b38f6d7b1ace2`다. 자세한 job·revision·실행 명령은 아래 기존 인계를 따른다. **기존 명령은 기록이며, 중지 중 실행하라는 지시가 아니다.**
 
-[출력·실행 명령·전체 인계](../../.direction/productions/music-box-dancer-20261106-232634/integration-01/reports/PARENT-ACCEPTANCE.md)
+[출력·실행 명령·전체 인계](../../../.direction/productions/music-box-dancer-20261106-232634/integration-01/reports/PARENT-ACCEPTANCE.md)
 
 ## 5. 지금까지 한 일
 
@@ -162,7 +162,7 @@ Cinewright는 이미 준비된 음악을 바탕으로 에이전트가 웹용 JS 
 
 - 브랜치: `main`. 중지 시 HEAD: `f33ea610613d902cdbc995f08d60f810621a8fc2`.
 - 기존 구현25개 파일은 메인 작업 트리에 있으며 일부 수정·일부 untracked다. 이 중지 문서도 새 untracked 파일이다. 커밋·스테이징·push를 하지 않는다.
-- 기존 `evidence/global-update-2026-11-05-224452-79c01a37/`는 원래 있던 untracked 자료다. 정리 대상으로 오해하지 않는다. 부모 반영 당시388개 파일 내용 불변을 확인했다. 중지 요청 후 새 해시 계산은 하지 않았다.
+- 기존 `evidence/2026-11-05-global-update-224452-79c01a37/`는 원래 있던 untracked 자료다. 정리 대상으로 오해하지 않는다. 부모 반영 당시388개 파일 내용 불변을 확인했다. 중지 요청 후 새 해시 계산은 하지 않았다.
 - 격리 worktree는 `/Volumes/eyedisk/develop/.cinewright-worktrees/music-box-dancer-20261106-232634/{music,visuals,integrated}`에 보존한다. 이 문서 작업에서 삭제·정리하지 않는다.
 - 검토한 통합 tip은 `0f8f8d958ad90acb6b0189305bffed7e26342c1d`다. 이 tip만 적용하면 마지막 섬광 수정만 포함되므로, 전체 구현은 base..tip combined diff로 이해해야 한다. 메인에는 이미 그 전체가 반영돼 있다. 다시 cherry-pick/apply하지 않는다.
 - 두 실제 독립 계정 `codex-eyemacworld`, `codex-oozoofrog`으로 구현·교차 감사를 수행했다. 이번 제작의6개 child는 모두 `gpt-6.1-sol:high`였다. 실제 실행/receipt는 `P/reports/team/actual-routes.json`과 같은 폴더에 보존했다.

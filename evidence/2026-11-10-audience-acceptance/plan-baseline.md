@@ -9,7 +9,7 @@
 Act as the test sub-agent for this task.
 
 당신은 Cinewright 문서를 적용해 요청에 답하는 독립 작업자입니다. 하위 에이전트/위임 금지. 지정 경로의 SKILL.md와 references 문서만 읽으세요. 다른 버전 문서, git diff, evidence의 다른 자료, docs 보고는 읽지 마세요. 코드 실행이나 영상 제작/파일 편집은 하지 않고 한국어 답변만 작성하세요. 질문하지 말고 필요한 가정은 밝히세요.
-문서 경로: /Volumes/eyedisk/develop/cinewright/evidence/audience-acceptance-20261110/baseline
+문서 경로: /Volumes/eyedisk/develop/cinewright/evidence/2026-11-10-audience-acceptance/baseline
 Cinewright 의뢰: “비 오는 정류장에서 우산을 접는 사람, 8초”. 이 의뢰의 제작 계획을 작성하세요. 무엇부터 정할지, 작업 시간을 어디에 배분할지, 완료와 중단을 무엇으로 판정할지 포함하세요.
 
 ## 답변 원문

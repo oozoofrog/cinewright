@@ -1,6 +1,6 @@
 # 야간 분류함 제작 및 재생 검토
 
-6초, 540×720, 24fps, 144프레임. 새 컨텍스트에서 별도 [창작 의뢰](forward-input/BRIEF.md)와 [음원](forward-input/hits.wav)을 받아 패키지의 스킬과 CLI로 제작했다. 앞선 구현 상태와 완료 기준을 복구하는 과정에서 기존 검증 기록도 읽었다. 기존 작품의 모듈을 가져오지 않고 표찰을 그리는 [새 모듈](../examples/night-sorter/motion.mjs)을 추가했다. 스킬의 자동 발견과 완전히 격리된 별도 실행 환경은 검증 범위에 포함되지 않는다.
+6초, 540×720, 24fps, 144프레임. 새 컨텍스트에서 별도 [창작 의뢰](input/BRIEF.md)와 [음원](input/hits.wav)을 받아 패키지의 스킬과 CLI로 제작했다. 앞선 구현 상태와 완료 기준을 복구하는 과정에서 기존 검증 기록도 읽었다. 기존 작품의 모듈을 가져오지 않고 표찰을 그리는 [새 모듈](../../examples/night-sorter/motion.mjs)을 추가했다. 스킬의 자동 발견과 완전히 격리된 별도 실행 환경은 검증 범위에 포함되지 않는다.
 
 ## 재생에서 확인한 변화
 
@@ -12,7 +12,7 @@
 
 - 원본은 48 kHz 스테레오 288,000 샘플이다. 원본과 AAC 인코딩 직전 믹스를 동일한 signed PCM으로 디코드해 바이트 단위로 대조했다. 0초 배치와 무가공 믹스가 일치했다. [PCM 비교](forward-pcm.log)
 - MP4 전체 디코드가 오류 없이 끝났다. 화면 표식은 18·60·114프레임에 표시됐다. 각각의 오디오 피크는 화면 기준 +2.396ms, +4.021ms, +3.208ms였다. 평균 차이는 +3.208ms, 첫 타격에서 마지막 타격까지의 차이는 +0.813ms였다. 허용 오차는 1프레임(41.667ms)이다. 두 스트림의 길이는 6초로 같다. [동기 검사](forward-sync.json) · [스트림](forward-ffprobe.json)
-- [최종 MP4](../outputs/night-sorter.mp4) · [작품 설정](../examples/night-sorter/work.json) · [개정본](forward-freeze.json) · [작업 상태](forward-render.json) · [전체 렌더 로그](forward-execution.log) · [SHA-256](forward-sha256.txt)
+- [최종 MP4](../../outputs/night-sorter.mp4) · [작품 설정](../../examples/night-sorter/work.json) · [개정본](forward-freeze.json) · [작업 상태](forward-render.json) · [전체 렌더 로그](forward-execution.log) · [SHA-256](forward-sha256.txt)
 
 패키지 루트에서 같은 개정본을 재생하거나 다시 출력할 수 있다.
 

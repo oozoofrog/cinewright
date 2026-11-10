@@ -60,52 +60,52 @@
     "afterSha256": "5fc9136d1881828e06469ae94b106364e76453342b6866d8f1300a82e33e7c83"
   },
   {
-    "path": "scripts/cinematic-evidence.py",
+    "path": "evidence/2026-11-08-cinematic-animation-implementation/scripts/cinematic-evidence.py",
     "type": "new",
     "sha256": "8835badcb048e2d67bf33dbd41d9bb84d6c5cc3b891d16900fa26a921cb10aa0"
   },
   {
-    "path": "scripts/cinematic-rig-asset.mjs",
+    "path": "evidence/2026-11-08-cinematic-animation-implementation/scripts/cinematic-rig-asset.mjs",
     "type": "new",
     "sha256": "16335c6427f97b3f9b5dee0ac952215c39a20242507b82b2c8cff6bb254f7381"
   },
   {
-    "path": "scripts/cinematic-traveler-asset.mjs",
+    "path": "evidence/2026-11-08-cinematic-animation-implementation/scripts/cinematic-traveler-asset.mjs",
     "type": "new",
     "sha256": "c570bb9444ddbac8099d78fb90fa1e2681c08e79e27080f3f2844544748d55c0"
   },
   {
-    "path": "scripts/cinematic-author.py",
+    "path": "evidence/2026-11-08-cinematic-animation-implementation/scripts/cinematic-author.py",
     "type": "new",
     "sha256": "4e42281fe72b297de5b7c38bfddbd2d07d8305ccafb79a60e918e27379587e47"
   },
   {
-    "path": "scripts/cinematic-watercolor-compare.mjs",
+    "path": "evidence/2026-11-08-cinematic-animation-implementation/scripts/cinematic-watercolor-compare.mjs",
     "type": "new",
     "sha256": "140da5a0899e60771dbbe24588377d97e8d30e7c79875c0636dec9bad65ed80f"
   },
   {
-    "path": "scripts/cinematic-rig-check.mjs",
+    "path": "evidence/2026-11-08-cinematic-animation-implementation/scripts/cinematic-rig-check.mjs",
     "type": "new",
     "sha256": "aa2b601dbf4663c1e2fc97c953ec017cc412aff44dab8f7a2d50609c2a284334"
   },
   {
-    "path": "scripts/cinematic-render.mjs",
+    "path": "evidence/2026-11-08-cinematic-animation-implementation/scripts/cinematic-render.mjs",
     "type": "new",
     "sha256": "647624530434074c6354b9aa807115c319d6d69a00792a228e854c1b14f31c55"
   },
   {
-    "path": "docs/implementation/2026-11-08-cinematic-animation/report.md",
+    "path": "docs/implementation/2026-11-08-cinematic-animation-implementation/report.md",
     "type": "new",
     "sha256": "f6c35badcefe9306c775bb37c086a4a1eb66528c32e1d2b8e97f8373b8e68f68"
   },
   {
-    "path": "docs/implementation/2026-11-08-cinematic-animation/art-guide.md",
+    "path": "docs/implementation/2026-11-08-cinematic-animation-implementation/art-guide.md",
     "type": "new",
     "sha256": "26bb56006feb71581c65b4c7f77b611d8aec440f0a74aaa71a98a30be11dae70"
   },
   {
-    "path": "docs/implementation/2026-11-08-cinematic-animation/handoff.md",
+    "path": "docs/implementation/2026-11-08-cinematic-animation-implementation/handoff.md",
     "type": "new",
     "sha256": "922da509e6a7323448510bcb5f75eaff2c6470627bf5d233203da071b6cac346"
   },

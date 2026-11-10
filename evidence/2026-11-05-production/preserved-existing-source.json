@@ -309,7 +309,7 @@
       "equal": true
     },
     {
-      "path": "scripts/make_examples.py",
+      "path": "evidence/2026-11-04-initial-production/scripts/make_examples.py",
       "baselineSha256": "ec7c6b43da47595895653745f22d0e16cec46726361dc080a6126b0fe64db627",
       "currentSha256": "ec7c6b43da47595895653745f22d0e16cec46726361dc080a6126b0fe64db627",
       "equal": true
@@ -321,7 +321,7 @@
       "equal": true
     },
     {
-      "path": "scripts/playback-sheet.py",
+      "path": "evidence/2026-11-04-initial-production/scripts/playback-sheet.py",
       "baselineSha256": "dd69e28bb67c2716863f2c6cc566a36275ef98f0cad80712d32d192b260b6c95",
       "currentSha256": "dd69e28bb67c2716863f2c6cc566a36275ef98f0cad80712d32d192b260b6c95",
       "equal": true

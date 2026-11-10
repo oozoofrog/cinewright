@@ -1,13 +1,13 @@
 import fs from 'node:fs/promises';import path from 'node:path';import assert from 'node:assert/strict';import {createHash}from'node:crypto';
 import {openRevision}from'../../../scripts/revisions.mjs';import{host}from'../../../scripts/server.mjs';import{browser,run,ffmpeg,ffprobe}from'../../../scripts/execution.mjs';import{screenFlashes}from'../../../scripts/flash.mjs';
 const out=path.dirname(new URL(import.meta.url).pathname),store=path.resolve('.direction/aesthetic-toolkit-phase02-2026-11-08/fullhd/store'),lock=path.resolve('.direction/aesthetic-toolkit-phase02-2026-11-08/gpu.lock'),owner=`independent-recheck-${process.pid}`,hash=b=>createHash('sha256').update(b).digest('hex');
-const projects=JSON.parse(await fs.readFile('evidence/aesthetic-toolkit-phase02-2026-11-08/coordinator/fullhd/projects.json')),submitted=JSON.parse(await fs.readFile('evidence/aesthetic-toolkit-phase02-2026-11-08/coordinator/fullhd/media.json')),rows=[],closures=[],contexts=[];
+const projects=JSON.parse(await fs.readFile('evidence/2026-11-08-aesthetic-toolkit-phase02/coordinator/fullhd/projects.json')),submitted=JSON.parse(await fs.readFile('evidence/2026-11-08-aesthetic-toolkit-phase02/coordinator/fullhd/media.json')),rows=[],closures=[],contexts=[];
 let client,site,locked=false;
 try{
  await fs.mkdir(lock);locked=true;await fs.writeFile(path.join(lock,'owner'),owner);await fs.writeFile(path.join(out,'gpu-lock.json'),JSON.stringify({owner,acquired:new Date().toISOString()},null,2));
  client=await browser();
  for(const c of projects){
-  const snap=await openRevision(store,c.revision),m=submitted.find(x=>x.name===c.name),job=JSON.parse(await fs.readFile(path.join(store,'jobs',m.job,'job.json'))),receipt=JSON.parse(await fs.readFile(`evidence/aesthetic-toolkit-phase02-2026-11-08/coordinator/fullhd/${c.name}-job.json`));
+  const snap=await openRevision(store,c.revision),m=submitted.find(x=>x.name===c.name),job=JSON.parse(await fs.readFile(path.join(store,'jobs',m.job,'job.json'))),receipt=JSON.parse(await fs.readFile(`evidence/2026-11-08-aesthetic-toolkit-phase02/coordinator/fullhd/${c.name}-job.json`));
   assert.equal(job.status,'completed');assert.equal(job.revision,c.revision);assert.equal(job.output,m.file);assert.equal(job.outputSha256,m.sha256);assert.equal(receipt.outputSha256,job.outputSha256);assert.equal(hash(await fs.readFile(m.file)),m.sha256);assert.equal(snap.manifest.size.join(','),'1920,1080');assert.equal(await fs.stat(c.project).catch(()=>null),null);
   // Independently follow static/literal dynamic imports from shipped runtime and layer entry points.
   const seen=new Set(),imports=[],missing=[],current=[];

@@ -21,7 +21,7 @@
         "automatic photographic segmentation"
       ],
       "examples": "recipes/styles/silhouette-theatre",
-      "evidence": "evidence/aesthetic-toolkit-2026-11-08/A"
+      "evidence": "evidence/2026-11-08-aesthetic-toolkit/A"
     },
     {
       "id": "line-wash",
@@ -43,7 +43,7 @@
         "automatic rotoscoping"
       ],
       "examples": "recipes/styles/line-wash",
-      "evidence": "evidence/aesthetic-toolkit-2026-11-08/B"
+      "evidence": "evidence/2026-11-08-aesthetic-toolkit/B"
     },
     {
       "id": "expressionist-space",
@@ -72,7 +72,7 @@
         "automatic retargeting"
       ],
       "examples": "recipes/styles/expressionist-space",
-      "evidence": "evidence/aesthetic-toolkit-2026-11-08/C"
+      "evidence": "evidence/2026-11-08-aesthetic-toolkit/C"
     }
   ]
 }

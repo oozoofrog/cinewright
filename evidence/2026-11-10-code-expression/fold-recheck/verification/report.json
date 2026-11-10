@@ -33,24 +33,24 @@
         {
           "frame": 0,
           "job": "6cab7573-f197-4f71-a349-0b34d6fe1b43",
-          "output": "/Volumes/eyedisk/develop/cinewright/evidence/code-expression-20261110/final/store/jobs/6cab7573-f197-4f71-a349-0b34d6fe1b43/frame.png"
+          "output": "/Volumes/eyedisk/develop/cinewright/evidence/2026-11-10-code-expression/final/store/jobs/6cab7573-f197-4f71-a349-0b34d6fe1b43/frame.png"
         },
         {
           "frame": 156,
           "job": "fc2db69a-7199-4845-bd57-530d1da53540",
-          "output": "/Volumes/eyedisk/develop/cinewright/evidence/code-expression-20261110/final/store/jobs/fc2db69a-7199-4845-bd57-530d1da53540/frame.png"
+          "output": "/Volumes/eyedisk/develop/cinewright/evidence/2026-11-10-code-expression/final/store/jobs/fc2db69a-7199-4845-bd57-530d1da53540/frame.png"
         },
         {
           "frame": 287,
           "job": "9e5e1e72-6b1a-4c3e-afae-0c75432a975a",
-          "output": "/Volumes/eyedisk/develop/cinewright/evidence/code-expression-20261110/final/store/jobs/9e5e1e72-6b1a-4c3e-afae-0c75432a975a/frame.png"
+          "output": "/Volumes/eyedisk/develop/cinewright/evidence/2026-11-10-code-expression/final/store/jobs/9e5e1e72-6b1a-4c3e-afae-0c75432a975a/frame.png"
         }
       ],
       "segment": {
         "job": "ff40070f-8e07-4075-9834-c09aeaecb7cc",
         "from": 155,
         "to": 203,
-        "output": "/Volumes/eyedisk/develop/cinewright/evidence/code-expression-20261110/final/store/jobs/ff40070f-8e07-4075-9834-c09aeaecb7cc/work.mp4",
+        "output": "/Volumes/eyedisk/develop/cinewright/evidence/2026-11-10-code-expression/final/store/jobs/ff40070f-8e07-4075-9834-c09aeaecb7cc/work.mp4",
         "allFramesMatch": true
       },
       "pcmBitExact": true,

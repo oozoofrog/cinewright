@@ -1,13 +1,13 @@
 {
-  "root": "/Volumes/eyedisk/develop/cinewright/evidence/code-expression-20261110/delivery",
-  "store": "/Volumes/eyedisk/develop/cinewright/evidence/code-expression-20261110/delivery/store",
+  "root": "/Volumes/eyedisk/develop/cinewright/evidence/2026-11-10-code-expression/delivery",
+  "store": "/Volumes/eyedisk/develop/cinewright/evidence/2026-11-10-code-expression/delivery/store",
   "results": [
     {
       "name": "cups",
       "revision": "c5aa4ad8f24dee659526807136d4dd7ffd69b6ef74fb3559c2df831c0231ffd6",
       "job": "c465a0b6-7dc5-4b55-9fe9-469d4e1d7a05",
-      "canonicalOutput": "/Volumes/eyedisk/develop/cinewright/evidence/code-expression-20261110/delivery/store/jobs/c465a0b6-7dc5-4b55-9fe9-469d4e1d7a05/work.mp4",
-      "output": "/Volumes/eyedisk/develop/cinewright/evidence/code-expression-20261110/delivery/cups.mp4",
+      "canonicalOutput": "/Volumes/eyedisk/develop/cinewright/evidence/2026-11-10-code-expression/delivery/store/jobs/c465a0b6-7dc5-4b55-9fe9-469d4e1d7a05/work.mp4",
+      "output": "/Volumes/eyedisk/develop/cinewright/evidence/2026-11-10-code-expression/delivery/cups.mp4",
       "sha256": "65d23c112652cf8d84d1907d9bccf6eac3e09e76647f9a9aea744f93aa4bf866",
       "audio": {
         "rate": 48000,
@@ -19,8 +19,8 @@
       "name": "doorway",
       "revision": "bfc7411768e8a9bf444833c20e3e40791c16363e13c92ab10f41379de45aa9b0",
       "job": "ef9ee569-b93f-47f4-99cf-fceff8c321ae",
-      "canonicalOutput": "/Volumes/eyedisk/develop/cinewright/evidence/code-expression-20261110/delivery/store/jobs/ef9ee569-b93f-47f4-99cf-fceff8c321ae/work.mp4",
-      "output": "/Volumes/eyedisk/develop/cinewright/evidence/code-expression-20261110/delivery/doorway.mp4",
+      "canonicalOutput": "/Volumes/eyedisk/develop/cinewright/evidence/2026-11-10-code-expression/delivery/store/jobs/ef9ee569-b93f-47f4-99cf-fceff8c321ae/work.mp4",
+      "output": "/Volumes/eyedisk/develop/cinewright/evidence/2026-11-10-code-expression/delivery/doorway.mp4",
       "sha256": "7529e495e08e6ee51fb35060b15cbc702069d78e99d78986309a7a20c310e6d4",
       "audio": {
         "rate": 48000,
@@ -32,8 +32,8 @@
       "name": "fold",
       "revision": "517cfa5582aea710236af06ec30937d4488027828dbce4f22b38d18b0c9845f4",
       "job": "0b4094ce-1feb-4e3f-a14e-dc5db1efb58a",
-      "canonicalOutput": "/Volumes/eyedisk/develop/cinewright/evidence/code-expression-20261110/delivery/store/jobs/0b4094ce-1feb-4e3f-a14e-dc5db1efb58a/work.mp4",
-      "output": "/Volumes/eyedisk/develop/cinewright/evidence/code-expression-20261110/delivery/fold.mp4",
+      "canonicalOutput": "/Volumes/eyedisk/develop/cinewright/evidence/2026-11-10-code-expression/delivery/store/jobs/0b4094ce-1feb-4e3f-a14e-dc5db1efb58a/work.mp4",
+      "output": "/Volumes/eyedisk/develop/cinewright/evidence/2026-11-10-code-expression/delivery/fold.mp4",
       "sha256": "bd1c19e0cef8b3bc470fe80822f354b0fdf5f83fe3ccb6991c4df851a857cc08",
       "audio": {
         "rate": 48000,

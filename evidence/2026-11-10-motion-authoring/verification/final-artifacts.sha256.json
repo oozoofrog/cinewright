@@ -12,7 +12,7 @@
   "modules/animation/pose-tracks.mjs": "78d945f8dc6bc613041ed1bd4ac017e57e85ce5d58fe56df2b0b1a7b91e5f37b",
   "modules/animation/exposure.mjs": "ed8455c1aed87d78c88b1275b3ba74cc3783f073b6e9f9699d58f5be8ace1ab3",
   "docs/implementation/2026-11-10-motion-authoring/README.md": "58183e8015ff84b1288ec81e8afed1ceacc409857d430bcfb0121ba503b76195",
-  "evidence/motion-authoring-20261110/plans/plan-a.md": "0bf84c9184d05bdbbc380bcbb9a6957db8527ada07b033d1199986d658096a5e",
-  "evidence/motion-authoring-20261110/plans/plan-b.md": "f49d0a44a4f7b028ab4ede18f955480f24b6dd53b1e5b8ea94432b13f50f2a87",
-  "evidence/motion-authoring-20261110/plans/comparison.md": "3b1a6da22954726747f2de614878c32a40451e2cac4c5e83816abf9f2ce57eae"
+  "evidence/2026-11-10-motion-authoring/plans/plan-a.md": "0bf84c9184d05bdbbc380bcbb9a6957db8527ada07b033d1199986d658096a5e",
+  "evidence/2026-11-10-motion-authoring/plans/plan-b.md": "f49d0a44a4f7b028ab4ede18f955480f24b6dd53b1e5b8ea94432b13f50f2a87",
+  "evidence/2026-11-10-motion-authoring/plans/comparison.md": "3b1a6da22954726747f2de614878c32a40451e2cac4c5e83816abf9f2ce57eae"
 }

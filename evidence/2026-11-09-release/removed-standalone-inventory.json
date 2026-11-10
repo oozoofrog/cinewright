@@ -212,11 +212,11 @@
     "sha256": "d0145d90534a880cdbc37d749430061f523aff135ab699bb4666d3946e4e1621"
   },
   {
-    "path": "scripts/watercolor-evidence.mjs",
+    "path": "evidence/2026-11-08-aesthetic-toolkit-phase02/scripts/watercolor-evidence.mjs",
     "sha256": "ebde0515dc3000e97f2fc2a77f65c0fca6cd3265b465943942d7802974788b8d"
   },
   {
-    "path": "scripts/phase02-fullhd-check.mjs",
+    "path": "evidence/2026-11-08-aesthetic-toolkit-phase02/scripts/phase02-fullhd-check.mjs",
     "sha256": "fa73a4caf0ecf48a1661ec8dc15edd75cca6f2fe2367749dd45c2652a4482bc8"
   },
   {
@@ -240,11 +240,11 @@
     "sha256": "eaa077d719956ed248207eaed07ceae16844aa7107d0a1128f981efc4a9167e1"
   },
   {
-    "path": "scripts/phase02-rig-evidence.mjs",
+    "path": "evidence/2026-11-08-aesthetic-toolkit-phase02/scripts/phase02-rig-evidence.mjs",
     "sha256": "3354d096eed5f2915b231a9b12f8b9ece475b1c3763b1e99a161af404066e8de"
   },
   {
-    "path": "scripts/cinematic-evidence.py",
+    "path": "evidence/2026-11-08-cinematic-animation-implementation/scripts/cinematic-evidence.py",
     "sha256": "8835badcb048e2d67bf33dbd41d9bb84d6c5cc3b891d16900fa26a921cb10aa0"
   },
   {
@@ -252,15 +252,15 @@
     "sha256": "de5c81f94e701a1bed5842346e22d0c8659d52298d8450c00cffae6bacb9d5d6"
   },
   {
-    "path": "scripts/cinematic-rig-asset.mjs",
+    "path": "evidence/2026-11-08-cinematic-animation-implementation/scripts/cinematic-rig-asset.mjs",
     "sha256": "16335c6427f97b3f9b5dee0ac952215c39a20242507b82b2c8cff6bb254f7381"
   },
   {
-    "path": "scripts/cinematic-traveler-asset.mjs",
+    "path": "evidence/2026-11-08-cinematic-animation-implementation/scripts/cinematic-traveler-asset.mjs",
     "sha256": "c570bb9444ddbac8099d78fb90fa1e2681c08e79e27080f3f2844544748d55c0"
   },
   {
-    "path": "scripts/cinematic-author.py",
+    "path": "evidence/2026-11-08-cinematic-animation-implementation/scripts/cinematic-author.py",
     "sha256": "4e42281fe72b297de5b7c38bfddbd2d07d8305ccafb79a60e918e27379587e47"
   },
   {
@@ -272,11 +272,11 @@
     "sha256": "16f951562521b0298f273f32e1019215f8da1d05addb639a5b636502bea5e670"
   },
   {
-    "path": "scripts/make_examples.py",
+    "path": "evidence/2026-11-04-initial-production/scripts/make_examples.py",
     "sha256": "ec7c6b43da47595895653745f22d0e16cec46726361dc080a6126b0fe64db627"
   },
   {
-    "path": "scripts/cinematic-watercolor-compare.mjs",
+    "path": "evidence/2026-11-08-cinematic-animation-implementation/scripts/cinematic-watercolor-compare.mjs",
     "sha256": "140da5a0899e60771dbbe24588377d97e8d30e7c79875c0636dec9bad65ed80f"
   },
   {
@@ -288,11 +288,11 @@
     "sha256": "9a8f7d91c05465fb2b689b20dd1ad14286645c8ccb639802b50a18f9a696865c"
   },
   {
-    "path": "scripts/phase02-final-audit.mjs",
+    "path": "evidence/2026-11-08-aesthetic-toolkit-phase02/scripts/phase02-final-audit.mjs",
     "sha256": "aa0332246f65359646075f5606c1f3d07af4140bda7feb2eb0b9f46d8bf7a258"
   },
   {
-    "path": "scripts/cinematic-rig-check.mjs",
+    "path": "evidence/2026-11-08-cinematic-animation-implementation/scripts/cinematic-rig-check.mjs",
     "sha256": "aa2b601dbf4663c1e2fc97c953ec017cc412aff44dab8f7a2d50609c2a284334"
   },
   {
@@ -308,7 +308,7 @@
     "sha256": "1c10818a1e28fd47dff72a0c13797b1cbbea13fc071859113ebe8e4974835ab2"
   },
   {
-    "path": "scripts/cinematic-render.mjs",
+    "path": "evidence/2026-11-08-cinematic-animation-implementation/scripts/cinematic-render.mjs",
     "sha256": "647624530434074c6354b9aa807115c319d6d69a00792a228e854c1b14f31c55"
   },
   {
@@ -320,7 +320,7 @@
     "sha256": "6e00642be3a13d4429372354c215bb5dc420572ca9ef2926d34fa5ef139412d0"
   },
   {
-    "path": "scripts/playback-sheet.py",
+    "path": "evidence/2026-11-04-initial-production/scripts/playback-sheet.py",
     "sha256": "dd69e28bb67c2716863f2c6cc566a36275ef98f0cad80712d32d192b260b6c95"
   },
   {
@@ -336,7 +336,7 @@
     "sha256": "13d5993df7bd7e60d894c2302f6e6ced388286cdecd2217acb036367111ad2e0"
   },
   {
-    "path": "scripts/phase02-playback-check.mjs",
+    "path": "evidence/2026-11-08-aesthetic-toolkit-phase02/scripts/phase02-playback-check.mjs",
     "sha256": "188f0d358ee20c65fb63163813a3a02e26d8ba2ef274983b76b44d31eb6f3661"
   },
   {
@@ -348,7 +348,7 @@
     "sha256": "cd474bdc00a010723b3d72c308fa8a0e65bff80355b40058985f2f5e6fdf7596"
   },
   {
-    "path": "scripts/phase02-fullhd.mjs",
+    "path": "evidence/2026-11-08-aesthetic-toolkit-phase02/scripts/phase02-fullhd.mjs",
     "sha256": "049e331caf8b64c2e7d749f7b4fd11a8fb3d7b64a3473b78fccf8625d7ad1086"
   },
   {
@@ -1244,103 +1244,103 @@
     "sha256": "5fc9136d1881828e06469ae94b106364e76453342b6866d8f1300a82e33e7c83"
   },
   {
-    "path": "docs/handoffs/2026-11-08-phase02-independent-recheck.md",
+    "path": "docs/handoffs/2026-11-08-aesthetic-toolkit-phase02/independent-recheck.md",
     "sha256": "9a8da74c6c5202e361db9896888d8ab7f5e53564d7cef5d27da97ac4d2804e0a"
   },
   {
-    "path": "docs/handoffs/2026-11-08-phase02-watercolor.md",
+    "path": "docs/handoffs/2026-11-08-aesthetic-toolkit-phase02/watercolor.md",
     "sha256": "3910d88bfa3cc14a7851c5c1f690c9fe5d3bc2a00c84c5285a3f572c25409384"
   },
   {
-    "path": "docs/handoffs/2026-11-08-aesthetic-toolkit-final.md",
+    "path": "docs/handoffs/2026-11-08-aesthetic-toolkit/final.md",
     "sha256": "6d81fea4fbabf928e5e8321589a90ad7c232bafaa83e53d7892c0c60f11cb336"
   },
   {
-    "path": "docs/handoffs/2026-11-08-phase02-review-closure.md",
+    "path": "docs/handoffs/2026-11-08-aesthetic-toolkit-phase02/review-closure.md",
     "sha256": "eb7b88dd380eb0502426395609bc773ecfa8d507d268c34e1e85f1dd3f1bdfae"
   },
   {
-    "path": "docs/handoffs/2026-11-08-aesthetic-toolkit-review-fixes.md",
+    "path": "docs/handoffs/2026-11-08-aesthetic-toolkit/review-fixes.md",
     "sha256": "71aa36577d5a83a23527f924241b560125f6529cc2802b22a35f717de07c3830"
   },
   {
-    "path": "docs/handoffs/2026-11-08-phase02-independent-review.md",
+    "path": "docs/handoffs/2026-11-08-aesthetic-toolkit-phase02/independent-review.md",
     "sha256": "4333ca712b718ab2b5f0185368144ca3e0fc6513172f55016cb1f6ff384d5ee7"
   },
   {
-    "path": "docs/handoffs/2026-11-08-aesthetic-toolkit-contract.md",
+    "path": "docs/handoffs/2026-11-08-aesthetic-toolkit/contract.md",
     "sha256": "b73a973ad87fac6b0e2f3666502e02fbf1cdbf423075e0e90de4239c546ef683"
   },
   {
-    "path": "docs/handoffs/music-box-dancer-visual-study.md",
+    "path": "docs/handoffs/2026-11-08-music-box-dancer-visual-study/README.md",
     "sha256": "318f67b1fe2a0eda65b7ca7f0658437bd42f39f99df40640361242547ef9a913"
   },
   {
-    "path": "docs/handoffs/2026-11-08-aesthetic-toolkit-dependencies.md",
+    "path": "docs/handoffs/2026-11-08-aesthetic-toolkit/dependencies.md",
     "sha256": "35600743d20873146239b779799d273807dbf9b7081168248af6a3c839ff4ba7"
   },
   {
-    "path": "docs/handoffs/2026-11-08-phase02-retarget.md",
+    "path": "docs/handoffs/2026-11-08-aesthetic-toolkit-phase02/retarget.md",
     "sha256": "6cbefa54f437767ade95f5e1585e0fbb6d4e3d7d1343d0fce0b8325a170003d8"
   },
   {
-    "path": "docs/handoffs/music-box-dancer-paused.md",
+    "path": "docs/handoffs/2026-11-07-music-box-dancer-paused/README.md",
     "sha256": "6717b3dd51c40b01899d83cd51c670202a19dac224374934a355e3153f7f9afc"
   },
   {
-    "path": "docs/handoffs/2026-11-08-aesthetic-toolkit-execution.md",
+    "path": "docs/handoffs/2026-11-08-aesthetic-toolkit/execution.md",
     "sha256": "0a83c1ebab941c608dc1b75f041882db7f6a6443fec99af0a1c9ee5037b33d51"
   },
   {
-    "path": "docs/handoffs/2026-11-08-aesthetic-toolkit-followup-execution.md",
+    "path": "docs/handoffs/2026-11-08-aesthetic-toolkit/followup-execution.md",
     "sha256": "a504d3aefe63b92ef68df93e54b2d1a502e2a3f08126ccf4644b2d24b2dd5cf5"
   },
   {
-    "path": "docs/handoffs/2026-11-08-aesthetic-toolkit-followup-final.md",
+    "path": "docs/handoffs/2026-11-08-aesthetic-toolkit/followup-final.md",
     "sha256": "3c81a459b24d380f1a1d75bbd845b6da6ed7806f25d247e63b4c37fe536a171f"
   },
   {
-    "path": "docs/handoffs/2026-11-08-phase02-coordinator.md",
+    "path": "docs/handoffs/2026-11-08-aesthetic-toolkit-phase02/coordinator.md",
     "sha256": "8068587f64fa83b2b477e7c098b0135a915eea33e8db909a694ec8f571b743e3"
   },
   {
-    "path": "docs/handoffs/2026-11-08-aesthetic-toolkit-recheck-closure.md",
+    "path": "docs/handoffs/2026-11-08-aesthetic-toolkit/recheck-closure.md",
     "sha256": "9b39c1a8e41d7b4d0b9c9f2ab314358a176859907504843d994a12dca8be7815"
   },
   {
-    "path": "docs/reviews/2026-11-08-cinematic-animation/integration-notes.md",
+    "path": "docs/reviews/2026-11-08-cinematic-animation-review/integration-notes.md",
     "sha256": "e4654323e9782b7cf75be53faf0d18c975e3d471c4b2591d7a756aad90dbc7df"
   },
   {
-    "path": "docs/reviews/2026-11-08-cinematic-animation/animation.md",
+    "path": "docs/reviews/2026-11-08-cinematic-animation-review/animation.md",
     "sha256": "e53376c69d7bd9bea56878f6b22eaa3b3d7721a2967a0089adf8290e0a4db48a"
   },
   {
-    "path": "docs/reviews/2026-11-08-cinematic-animation/art-direction.md",
+    "path": "docs/reviews/2026-11-08-cinematic-animation-review/art-direction.md",
     "sha256": "4fa0567dfc87c65c4dff29ec5f8e7f2c390664cadc827c6b525cd0bf96db2f50"
   },
   {
-    "path": "docs/reviews/2026-11-08-cinematic-animation/README.md",
+    "path": "docs/reviews/2026-11-08-cinematic-animation-review/README.md",
     "sha256": "9ff3d2b1e1e88b0c5400a457d22b9d28b4b61ef3fc70f61bca6ff7db99817b13"
   },
   {
-    "path": "docs/reviews/2026-11-08-cinematic-animation/cinematography.md",
+    "path": "docs/reviews/2026-11-08-cinematic-animation-review/cinematography.md",
     "sha256": "c6378ee456630e2e6cfb67c4c85a35dd6e9464e058f0844718877140fa75641c"
   },
   {
-    "path": "docs/superpowers/plans/2026-11-05-cinewright-production.md",
+    "path": "docs/plans/2026-11-05-production/README.md",
     "sha256": "3b00d33cac99ade86bf6288efebf7b864947a204dff68b0aa1955a6e88bdd159"
   },
   {
-    "path": "docs/implementation/2026-11-08-cinematic-animation/report.md",
+    "path": "docs/implementation/2026-11-08-cinematic-animation-implementation/report.md",
     "sha256": "f6c35badcefe9306c775bb37c086a4a1eb66528c32e1d2b8e97f8373b8e68f68"
   },
   {
-    "path": "docs/implementation/2026-11-08-cinematic-animation/art-guide.md",
+    "path": "docs/implementation/2026-11-08-cinematic-animation-implementation/art-guide.md",
     "sha256": "26bb56006feb71581c65b4c7f77b611d8aec440f0a74aaa71a98a30be11dae70"
   },
   {
-    "path": "docs/implementation/2026-11-08-cinematic-animation/handoff.md",
+    "path": "docs/implementation/2026-11-08-cinematic-animation-implementation/handoff.md",
     "sha256": "922da509e6a7323448510bcb5f75eaff2c6470627bf5d233203da071b6cac346"
   },
   {
@@ -1368,15 +1368,15 @@
     "sha256": "16eae41166df4bd3eb1d96e51a20fb384f8524cb02ca78c466e71d5cb2c21a8b"
   },
   {
-    "path": "docs/research/aesthetic-toolkit-phase02-2026-11-08/INDEPENDENT-RECHECK-RECEIPT.json",
+    "path": "docs/research/2026-11-08-aesthetic-toolkit-phase02/INDEPENDENT-RECHECK-RECEIPT.json",
     "sha256": "92e0b629527a4fe0b4edb99217ea4699db78000e980f83eb0533db4adba93f83"
   },
   {
-    "path": "docs/research/aesthetic-toolkit-phase02-2026-11-08/COMMON-CONTRACT.md",
+    "path": "docs/research/2026-11-08-aesthetic-toolkit-phase02/COMMON-CONTRACT.md",
     "sha256": "f269efac80e730eb77b44e3e391370a0e938cad71ed5566b4c3fe19a77375446"
   },
   {
-    "path": "docs/research/aesthetic-toolkit-phase02-2026-11-08/TEAM-RECEIPTS.json",
+    "path": "docs/research/2026-11-08-aesthetic-toolkit-phase02/TEAM-RECEIPTS.json",
     "sha256": "56706cde40f3f53712f1a5d8465e49afbc4efcb4a52b25cfe38c40687c4c40b8"
   },
   {

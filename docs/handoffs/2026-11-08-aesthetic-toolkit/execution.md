@@ -1,6 +1,6 @@
 # 미학 툴킷 — T3 다중 팀 실행 기록
 
-> 최신 상태: 초기 구현·통합·검증 및 두 차례 독립 검토 지적 수정 완료. 최종436개 테스트/18개 영상/현재 module118개 byte 대조 통과. [최종 인계](2026-11-08-aesthetic-toolkit-final.md). 아래 최초 승인·팀 정의와 중간 실패 기록은 역사 기록으로 보존한다.
+> 최신 상태: 초기 구현·통합·검증 및 두 차례 독립 검토 지적 수정 완료. 최종436개 테스트/18개 영상/현재 module118개 byte 대조 통과. [최종 인계](final.md). 아래 최초 승인·팀 정의와 중간 실패 기록은 역사 기록으로 보존한다.
 
 
 2026-11-08 KST. 상태: **사용자 실행 승인, T3 총괄 위임 시작. 구현·검증 완료를 뜻하지 않는다.**
@@ -9,7 +9,7 @@
 
 사용자 요청: “작성한 프롬프트로 T3 에 다중 팀구성 작업을 위임해주세요.”
 
-실행 정본은 [미학·2D/3D FX 구현 프롬프트](../research/2026-11-08-aesthetic-toolkit/IMPLEMENTATION-PROMPT.md)다. 이전의 프롬프트 확인 대기 조건은 이번 요청으로 충족됐다. 일상적인 구현·검증·팀 분담에 대한 재승인을 요구하지 않는다.
+실행 정본은 [미학·2D/3D FX 구현 프롬프트](../../research/2026-11-08-aesthetic-toolkit/IMPLEMENTATION-PROMPT.md)다. 이전의 프롬프트 확인 대기 조건은 이번 요청으로 충족됐다. 일상적인 구현·검증·팀 분담에 대한 재승인을 요구하지 않는다.
 
 범위는 A 실루엣 다중평면, B 선·워시 드로잉, C 표현주의 판화 3D/NPR, 공용 2D/3D FX, 자산·rig·motion·recipe, 스킬 references, 최소 여섯 데모와 실제 검증·인계다. 기존 Music Box Dancer 완곡 확장이나 웹 편집기 제작으로 바꾸지 않는다.
 
@@ -39,7 +39,7 @@
 
 ## Coordinator foundation (actual execution)
 
-Baseline freshly executed: npm test, 394 passed/0 failed, log evidence/aesthetic-toolkit-2026-11-08/baseline-npm-test.log. HEAD f33ea610613d902cdbc995f08d60f810621a8fc2 with pre-existing dirty tree; full status/index/hash receipt in evidence/aesthetic-toolkit-2026-11-08/baseline.json. Contract: [implementation contract](2026-11-08-aesthetic-toolkit-contract.md). Common exposure/rig/shot/mask/transition/emitter and staged materializer/CLI/lifecycle implementation started, not acceptance-complete.
+Baseline freshly executed: npm test, 394 passed/0 failed, log evidence/2026-11-08-aesthetic-toolkit/baseline-npm-test.log. HEAD f33ea610613d902cdbc995f08d60f810621a8fc2 with pre-existing dirty tree; full status/index/hash receipt in evidence/2026-11-08-aesthetic-toolkit/baseline.json. Contract: [implementation contract](contract.md). Common exposure/rig/shot/mask/transition/emitter and staged materializer/CLI/lifecycle implementation started, not acceptance-complete.
 
 Capabilities checked once in coordinator thread: CE and CO both support requested sol/terra/astra. Coordinator CE gpt-6.1-sol inherited reasoningEffort ultra/serviceTier default. B requested CO gpt-6.1-terra, C requested CE gpt-6-astra; exact tool receipt follows in evidence/delegations.json. Both share checkout and cannot spawn subagents. Final independent review has not started.
 
@@ -55,7 +55,7 @@ B second task (CO Terra, explicit ultra/default options, receipt in delegations-
 
 ## Independent review and correction
 
-CO sol independent review01 actually executed focused tests, negative probes, new CLI-generated/frozen scene variations, decoded media/PTS/encoded-color and flash checks; it requested changes in11 grouped findings. Browser acquisition was skipped on a busy lock, and C final outputs were incomplete at its snapshot. Original report is retained under independent-review-01. Coordinator has applied the corrections documented in [review fixes](2026-11-08-aesthetic-toolkit-review-fixes.md), including substantive planted/lifted B gait data and pressure subdivision. First whole integrated test run passed423 tests before these fixes. New rendered/equivalence/regression results and a new independent recheck remain separate acceptance steps. Dependency decisions are in [implementation dependency record](2026-11-08-aesthetic-toolkit-dependencies.md).
+CO sol independent review01 actually executed focused tests, negative probes, new CLI-generated/frozen scene variations, decoded media/PTS/encoded-color and flash checks; it requested changes in11 grouped findings. Browser acquisition was skipped on a busy lock, and C final outputs were incomplete at its snapshot. Original report is retained under independent-review-01. Coordinator has applied the corrections documented in [review fixes](review-fixes.md), including substantive planted/lifted B gait data and pressure subdivision. First whole integrated test run passed423 tests before these fixes. New rendered/equivalence/regression results and a new independent recheck remain separate acceptance steps. Dependency decisions are in [implementation dependency record](dependencies.md).
 
 C completion receipt: second CE Astra task delivered fifteen focused tests, five frozen browser validations, eight final videos (station/laboratory/effects/mixed at both sizes), final-revision alpha/color/GLB/shader/resource/failure-recovery probes. No C render remains outstanding. Root then ran whole npm test:423/423 passed before independent corrections. Root reviewed current-source A/C sample PNG equality (no tolerance) against the actual final video revisions and corrected B gait/pressure/asset preflight issues. All known independent R1–R11 implementations and their tests are recorded in the review-fixes document; new independent approval has not yet been claimed.
 

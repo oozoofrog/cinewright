@@ -368,7 +368,7 @@
     {
       "id": "90d93bfe-5f57-4eff-a1e4-e66739fbdbe6",
       "output": "/Volumes/eyedisk/develop/cinewright/.direction/aesthetic-toolkit-2026-11-08/B/store/jobs/90d93bfe-5f57-4eff-a1e4-e66739fbdbe6/work.mp4",
-      "copy": "/Volumes/eyedisk/develop/cinewright/evidence/aesthetic-toolkit-2026-11-08/B/rain-final/540p.mp4",
+      "copy": "/Volumes/eyedisk/develop/cinewright/evidence/2026-11-08-aesthetic-toolkit/B/rain-final/540p.mp4",
       "revision": "2bf1bb8c8a6d95e4ebd89c90f8268cccb926d67a6b64a3553aae44c2fa80c496",
       "probe": {
         "programs": [],
@@ -392,7 +392,7 @@
       },
       "flash": {
         "version": 1,
-        "file": "/Volumes/eyedisk/develop/cinewright/evidence/aesthetic-toolkit-2026-11-08/B/rain-final/540p.mp4",
+        "file": "/Volumes/eyedisk/develop/cinewright/evidence/2026-11-08-aesthetic-toolkit/B/rain-final/540p.mp4",
         "fps": 24,
         "resolution": [
           160,
@@ -414,7 +414,7 @@
     {
       "id": "1344bfc2-f5ef-40f1-bf7e-cd401709a90e",
       "output": "/Volumes/eyedisk/develop/cinewright/.direction/aesthetic-toolkit-2026-11-08/B/store/jobs/1344bfc2-f5ef-40f1-bf7e-cd401709a90e/work.mp4",
-      "copy": "/Volumes/eyedisk/develop/cinewright/evidence/aesthetic-toolkit-2026-11-08/B/rain-final/1080p.mp4",
+      "copy": "/Volumes/eyedisk/develop/cinewright/evidence/2026-11-08-aesthetic-toolkit/B/rain-final/1080p.mp4",
       "revision": "2bf1bb8c8a6d95e4ebd89c90f8268cccb926d67a6b64a3553aae44c2fa80c496",
       "probe": {
         "programs": [],
@@ -438,7 +438,7 @@
       },
       "flash": {
         "version": 1,
-        "file": "/Volumes/eyedisk/develop/cinewright/evidence/aesthetic-toolkit-2026-11-08/B/rain-final/1080p.mp4",
+        "file": "/Volumes/eyedisk/develop/cinewright/evidence/2026-11-08-aesthetic-toolkit/B/rain-final/1080p.mp4",
         "fps": 24,
         "resolution": [
           160,

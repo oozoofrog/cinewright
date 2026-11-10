@@ -18,11 +18,11 @@ FX 분리판과 골격 비교판은 기능 연구로서 유효하다. 모든 연
 
 | 담당 | 실행 설정 | 상세 보고서 |
 |---|---|---|
-| 연출·촬영·편집 | CO / gpt-6-astra / ultra | [촬영·연출](/Volumes/eyedisk/develop/cinewright/docs/reviews/2026-11-08-cinematic-animation/cinematography.md) |
-| 연기·타이밍·접지 | CE / gpt-6.1-terra / ultra | [애니메이션](/Volumes/eyedisk/develop/cinewright/docs/reviews/2026-11-08-cinematic-animation/animation.md) |
-| 미술·재질·스타일 도구 | CO / gpt-6.1-sol / ultra | [미술](/Volumes/eyedisk/develop/cinewright/docs/reviews/2026-11-08-cinematic-animation/art-direction.md) |
+| 연출·촬영·편집 | CO / gpt-6-astra / ultra | [촬영·연출](/Volumes/eyedisk/develop/cinewright/docs/reviews/2026-11-08-cinematic-animation-review/cinematography.md) |
+| 연기·타이밍·접지 | CE / gpt-6.1-terra / ultra | [애니메이션](/Volumes/eyedisk/develop/cinewright/docs/reviews/2026-11-08-cinematic-animation-review/animation.md) |
+| 미술·재질·스타일 도구 | CO / gpt-6.1-sol / ultra | [미술](/Volumes/eyedisk/develop/cinewright/docs/reviews/2026-11-08-cinematic-animation-review/art-direction.md) |
 
-원본 경로·해상도·frame 수·SHA는 [검토 manifest](/Volumes/eyedisk/develop/cinewright/evidence/cinematic-animation-review-2026-11-08/manifest.json)에 있다. 시간은 0-based source frame / 24다. 보고서 작성 후 **원본 MP4 15개 전부가 최초 SHA와 일치**함을 확인했다([보존 확인](/Volumes/eyedisk/develop/cinewright/evidence/cinematic-animation-review-2026-11-08/integrity-after-review.json)). 이는 매체 보존 검사이며 시각 품질 통과를 뜻하지 않는다. 구현·기존 자산·기존 영상은 수정하지 않았고, 이번 검토를 위해 회귀 테스트를 재실행하지 않았다.
+원본 경로·해상도·frame 수·SHA는 [검토 manifest](/Volumes/eyedisk/develop/cinewright/evidence/2026-11-08-cinematic-animation-review/manifest.json)에 있다. 시간은 0-based source frame / 24다. 보고서 작성 후 **원본 MP4 15개 전부가 최초 SHA와 일치**함을 확인했다([보존 확인](/Volumes/eyedisk/develop/cinewright/evidence/2026-11-08-cinematic-animation-review/integrity-after-review.json)). 이는 매체 보존 검사이며 시각 품질 통과를 뜻하지 않는다. 구현·기존 자산·기존 영상은 수정하지 않았고, 이번 검토를 위해 회귀 테스트를 재실행하지 않았다.
 
 ## 다음 수정의 우선순위
 
@@ -30,13 +30,13 @@ FX 분리판과 골격 비교판은 기능 연구로서 유효하다. 모든 연
 
 | 우선 | 대상·관찰 근거 | 해결 위치와 제안 | 재검토 기준 |
 |---|---|---|---|
-| 1 | **S04 편지 행동** — 약 4.67–6.50초. 종이는 펼쳐지지만 손의 쥐기와 머리·시선이 행동을 충분히 설명하지 못한다. [연속 프레임](/Volumes/eyedisk/develop/cinewright/evidence/cinematic-animation-review-2026-11-08/art-direction/S04/native24-f120-131.jpg), [6.50초](/Volumes/eyedisk/develop/cinewright/evidence/cinematic-animation-review-2026-11-08/art-direction/S04/f156.jpg) | **자산·포즈·recipe.** 잡음/펼침 손 외곽, 종이 피벗, 턱·목 방향을 연결한다. 감속과 정지의 체중 전달도 함께 저작한다. | 잡음→펼침→읽기 세 포즈에서 어느 손이 어디를 잡는지, 종이가 어떤 축으로 열리는지 읽힌다. 작은 화면에서도 손·편지·얼굴의 관계가 유지된다. |
-| 1 | **S05 인물 등장·주목성** — f87→88, 3.625→3.667초에 전신이 나타난다. 후반에는 기둥·그림자·해칭에 인물이 묻힌다. [등장 경계](/Volumes/eyedisk/develop/cinewright/evidence/cinematic-animation-review-2026-11-08/cinematography/S05-native24-f84-95.jpg), [7.25초](/Volumes/eyedisk/develop/cinewright/evidence/cinematic-animation-review-2026-11-08/art-direction/S05/f174.jpg) | **recipe·배치·가림.** 걸어나오는 의도라면 문틀 뒤 이동과 순차 노출을 저작한다. 앞선 그림자와 뒤의 열차 접근은 유지한다. 인물 뒤에 깨끗한 명도면과 가방의 여백을 둔다. | native24에서 등장 경로가 이어지고, f104/f156/f174를 25%·흑백으로 보아도 인물·가방이 배경에서 분리된다. 초현실적 순간 출현을 택한다면 그 의도를 별도로 명시한다. |
-| 1 | **P01/P02 수채 출력** — 6초 원해상도에서 약 40px 사각 셀이 먼저 읽힌다. [단일 안료](/Volumes/eyedisk/develop/cinewright/evidence/cinematic-animation-review-2026-11-08/art-direction/P01/f144.jpg), [두 안료](/Volumes/eyedisk/develop/cinewright/evidence/cinematic-animation-review-2026-11-08/art-direction/P02/f144.jpg) | **공용 출력 도구.** 선택 bake의 48×27 셀을 1080p에 직접 확대하는 경로를 개선한다. 재구성·해상도를 먼저 다루고 얇은 색층·침전·경계의 제어를 평가한다. | 같은 사건의 f24/f72/f144를 100%·50%로 비교해 격자가 먼저 보이지 않는다. 단순히 흐린 원이 되지 않고 내부·가장자리 차이가 읽히며 연속 프레임에서 경계가 튀지 않는다. |
-| 1 | **S05/S06 NPR 재질·초점** — 벽·바닥·잎·화분의 비슷한 교차선과 창살 그림자가 경쟁한다. [S06 5초](/Volumes/eyedisk/develop/cinewright/evidence/cinematic-animation-review-2026-11-08/art-direction/S06/f120.jpg) | **recipe·조명·UV 자산 우선.** 배경과 밝은 면의 선 밀도를 낮추고 잎맥·나무결 등 형태의 축을 저작한다. 기존 strength/frequency/tones 이후에도 남는 방향·국소 제어만 도구 보완 후보로 삼는다. | 같은 구도에서 잎·병·탁자·배경의 우선순위가 읽히고, 최소 세 재질이 선 밀도·방향·형태로 구별된다. 해칭이 표면에서 미끄러지는지는 해당 native24 구간으로 확인한다. |
-| 1 | **S01 길찾기·S02 도착** — 숲의 두 동물은 진행/선택 포즈가 비슷하다. 항구 후반에는 선체·바위·파도가 합쳐진다. [S01 5.25초](/Volumes/eyedisk/develop/cinewright/evidence/cinematic-animation-review-2026-11-08/art-direction/S01/f126.jpg), [S02 7.42초](/Volumes/eyedisk/develop/cinewright/evidence/cinematic-animation-review-2026-11-08/art-direction/S02/f178.jpg) | **포즈·자산·recipe.** 선행 동물의 멈춤·살핌과 후행 반응을 구별한다. 등대 빛의 변화와 배의 대응을 연결하고 선체 주변에 수면 틈 또는 명확한 정박 자세를 남긴다. | 진행→살핌→방향 선택이 다른 외곽으로 읽힌다. 항구 종결에서도 항로·선체가 구별되고 빛이 배의 행동과 연결된다. |
-| 2 | **S03/S04 워시 형태** — 잎 뒤 오각형, 코트 뒤 사각 색면의 형태 관계가 약하다. [S03 5초](/Volumes/eyedisk/develop/cinewright/evidence/cinematic-animation-review-2026-11-08/art-direction/S03/f120.jpg), [S04 6.50초](/Volumes/eyedisk/develop/cinewright/evidence/cinematic-animation-review-2026-11-08/art-direction/S04/f156.jpg) | **색면 자산·미학 규칙 우선.** 어디서 선을 넘고 어디에 종이를 남길지 정한다. 움직이는 코트의 워시가 포즈를 따라야 한다면 변형/부착 경로가 공용 도구 후보가 된다. | 선화를 꺼도 잎 덩어리와 코트 방향이 읽힌다. 동작에서 색면이 형태를 따르거나 일관된 어긋남 규칙을 지킨다. 여백을 채우는 것으로 해결하지 않는다. |
-| 2 | **P03 rig의 미술·변형 검증** — 2.25–2.88초 어깨 안쪽의 어두운 삼각형과 블록형 손·발. [연속 프레임](/Volumes/eyedisk/develop/cinewright/evidence/cinematic-animation-review-2026-11-08/animation/P03-f054-069.jpg) | **진단 패스·캐릭터 자산.** 무음영/outline-off/다른 각도로 그림자·겹침·skin 변형을 분리한다. 지원 체형 안에서 손·발·어깨가 설계된 캐릭터 하나로 확인한다. | 극단 두 포즈와 연속 구간에서 의도하지 않은 쐐기·부피 급변이 없다. voxel fixture의 동작 성공과 작품 캐릭터의 품질을 구분해 기록한다. |
+| 1 | **S04 편지 행동** — 약 4.67–6.50초. 종이는 펼쳐지지만 손의 쥐기와 머리·시선이 행동을 충분히 설명하지 못한다. [연속 프레임](/Volumes/eyedisk/develop/cinewright/evidence/2026-11-08-cinematic-animation-review/art-direction/S04/native24-f120-131.jpg), [6.50초](/Volumes/eyedisk/develop/cinewright/evidence/2026-11-08-cinematic-animation-review/art-direction/S04/f156.jpg) | **자산·포즈·recipe.** 잡음/펼침 손 외곽, 종이 피벗, 턱·목 방향을 연결한다. 감속과 정지의 체중 전달도 함께 저작한다. | 잡음→펼침→읽기 세 포즈에서 어느 손이 어디를 잡는지, 종이가 어떤 축으로 열리는지 읽힌다. 작은 화면에서도 손·편지·얼굴의 관계가 유지된다. |
+| 1 | **S05 인물 등장·주목성** — f87→88, 3.625→3.667초에 전신이 나타난다. 후반에는 기둥·그림자·해칭에 인물이 묻힌다. [등장 경계](/Volumes/eyedisk/develop/cinewright/evidence/2026-11-08-cinematic-animation-review/cinematography/S05-native24-f84-95.jpg), [7.25초](/Volumes/eyedisk/develop/cinewright/evidence/2026-11-08-cinematic-animation-review/art-direction/S05/f174.jpg) | **recipe·배치·가림.** 걸어나오는 의도라면 문틀 뒤 이동과 순차 노출을 저작한다. 앞선 그림자와 뒤의 열차 접근은 유지한다. 인물 뒤에 깨끗한 명도면과 가방의 여백을 둔다. | native24에서 등장 경로가 이어지고, f104/f156/f174를 25%·흑백으로 보아도 인물·가방이 배경에서 분리된다. 초현실적 순간 출현을 택한다면 그 의도를 별도로 명시한다. |
+| 1 | **P01/P02 수채 출력** — 6초 원해상도에서 약 40px 사각 셀이 먼저 읽힌다. [단일 안료](/Volumes/eyedisk/develop/cinewright/evidence/2026-11-08-cinematic-animation-review/art-direction/P01/f144.jpg), [두 안료](/Volumes/eyedisk/develop/cinewright/evidence/2026-11-08-cinematic-animation-review/art-direction/P02/f144.jpg) | **공용 출력 도구.** 선택 bake의 48×27 셀을 1080p에 직접 확대하는 경로를 개선한다. 재구성·해상도를 먼저 다루고 얇은 색층·침전·경계의 제어를 평가한다. | 같은 사건의 f24/f72/f144를 100%·50%로 비교해 격자가 먼저 보이지 않는다. 단순히 흐린 원이 되지 않고 내부·가장자리 차이가 읽히며 연속 프레임에서 경계가 튀지 않는다. |
+| 1 | **S05/S06 NPR 재질·초점** — 벽·바닥·잎·화분의 비슷한 교차선과 창살 그림자가 경쟁한다. [S06 5초](/Volumes/eyedisk/develop/cinewright/evidence/2026-11-08-cinematic-animation-review/art-direction/S06/f120.jpg) | **recipe·조명·UV 자산 우선.** 배경과 밝은 면의 선 밀도를 낮추고 잎맥·나무결 등 형태의 축을 저작한다. 기존 strength/frequency/tones 이후에도 남는 방향·국소 제어만 도구 보완 후보로 삼는다. | 같은 구도에서 잎·병·탁자·배경의 우선순위가 읽히고, 최소 세 재질이 선 밀도·방향·형태로 구별된다. 해칭이 표면에서 미끄러지는지는 해당 native24 구간으로 확인한다. |
+| 1 | **S01 길찾기·S02 도착** — 숲의 두 동물은 진행/선택 포즈가 비슷하다. 항구 후반에는 선체·바위·파도가 합쳐진다. [S01 5.25초](/Volumes/eyedisk/develop/cinewright/evidence/2026-11-08-cinematic-animation-review/art-direction/S01/f126.jpg), [S02 7.42초](/Volumes/eyedisk/develop/cinewright/evidence/2026-11-08-cinematic-animation-review/art-direction/S02/f178.jpg) | **포즈·자산·recipe.** 선행 동물의 멈춤·살핌과 후행 반응을 구별한다. 등대 빛의 변화와 배의 대응을 연결하고 선체 주변에 수면 틈 또는 명확한 정박 자세를 남긴다. | 진행→살핌→방향 선택이 다른 외곽으로 읽힌다. 항구 종결에서도 항로·선체가 구별되고 빛이 배의 행동과 연결된다. |
+| 2 | **S03/S04 워시 형태** — 잎 뒤 오각형, 코트 뒤 사각 색면의 형태 관계가 약하다. [S03 5초](/Volumes/eyedisk/develop/cinewright/evidence/2026-11-08-cinematic-animation-review/art-direction/S03/f120.jpg), [S04 6.50초](/Volumes/eyedisk/develop/cinewright/evidence/2026-11-08-cinematic-animation-review/art-direction/S04/f156.jpg) | **색면 자산·미학 규칙 우선.** 어디서 선을 넘고 어디에 종이를 남길지 정한다. 움직이는 코트의 워시가 포즈를 따라야 한다면 변형/부착 경로가 공용 도구 후보가 된다. | 선화를 꺼도 잎 덩어리와 코트 방향이 읽힌다. 동작에서 색면이 형태를 따르거나 일관된 어긋남 규칙을 지킨다. 여백을 채우는 것으로 해결하지 않는다. |
+| 2 | **P03 rig의 미술·변형 검증** — 2.25–2.88초 어깨 안쪽의 어두운 삼각형과 블록형 손·발. [연속 프레임](/Volumes/eyedisk/develop/cinewright/evidence/2026-11-08-cinematic-animation-review/animation/P03-f054-069.jpg) | **진단 패스·캐릭터 자산.** 무음영/outline-off/다른 각도로 그림자·겹침·skin 변형을 분리한다. 지원 체형 안에서 손·발·어깨가 설계된 캐릭터 하나로 확인한다. | 극단 두 포즈와 연속 구간에서 의도하지 않은 쐐기·부피 급변이 없다. voxel fixture의 동작 성공과 작품 캐릭터의 품질을 구분해 기록한다. |
 
 S04와 S01의 행동 전달은 세 검토가 함께 지적했다. S05는 연출 검토의 등장 경계와 미술 검토의 인물/배경 분리가 연결된다. 수채 셀은 미술 검토가 추가로 발견한 출력 문제다. 검토마다 우선순위가 다른 것은 담당 산출물의 차이이며, 다수결 평균 점수로 결론내리지 않았다.
 
@@ -58,8 +58,8 @@ S04와 S01의 행동 전달은 세 검토가 함께 지적했다. S05는 연출 
 
 ## 추적 자료
 
-- [종합 작성자의 관찰·원인 대조](/Volumes/eyedisk/develop/cinewright/docs/reviews/2026-11-08-cinematic-animation/integration-notes.md)
-- [증거 안내와 전체 영상 식별](/Volumes/eyedisk/develop/cinewright/evidence/cinematic-animation-review-2026-11-08/README.md)
+- [종합 작성자의 관찰·원인 대조](/Volumes/eyedisk/develop/cinewright/docs/reviews/2026-11-08-cinematic-animation-review/integration-notes.md)
+- [증거 안내와 전체 영상 식별](/Volumes/eyedisk/develop/cinewright/evidence/2026-11-08-cinematic-animation-review/README.md)
 
 실제 위임 실행:
 

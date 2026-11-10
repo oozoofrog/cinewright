@@ -1,6 +1,6 @@
 # Cinewright 미학·2D/3D FX 라이브러리 구현 프롬프트
 
-**2026-11-08 사용자 실행 승인.** 최신 사용자 요청: “작성한 프롬프트로 T3 에 다중 팀구성 작업을 위임해주세요.” 아래 구현 범위를 T3 다중 팀 작업으로 실행하도록 승인받았다. 최초 검토본의 본문과 말미에 있는 ‘진행 요청 전 실행하지 않는다’는 조건은 이 최신 지시로 충족됐다. [실행·팀 구성 기록](../../handoffs/2026-11-08-aesthetic-toolkit-execution.md)을 따른다. 아래 구현 요구사항은 변경하지 않았다.
+**2026-11-08 사용자 실행 승인.** 최신 사용자 요청: “작성한 프롬프트로 T3 에 다중 팀구성 작업을 위임해주세요.” 아래 구현 범위를 T3 다중 팀 작업으로 실행하도록 승인받았다. 최초 검토본의 본문과 말미에 있는 ‘진행 요청 전 실행하지 않는다’는 조건은 이 최신 지시로 충족됐다. [실행·팀 구성 기록](../../handoffs/2026-11-08-aesthetic-toolkit/execution.md)을 따른다. 아래 구현 요구사항은 변경하지 않았다.
 
 관련 연구: [종합 판단](README.md), [12계열 미학](aesthetics.md), [FX/런타임](effects-and-runtime.md), [구조/검증](architecture-and-validation.md), [부모 보완 조사](integration-notes.md).
 
@@ -16,7 +16,7 @@
 
 ## 1. 시작 상태와 보존할 계약
 
-1. 해당 경로의 AGENTS.md 및 프로젝트 `SKILL.md`, `references/format.md`, 연구 문서 다섯 개, `docs/handoffs/music-box-dancer-visual-study.md`를 먼저 읽는다. 문서가 과거 기록이면 현재 코드와 구분한다.
+1. 해당 경로의 AGENTS.md 및 프로젝트 `SKILL.md`, `references/format.md`, 연구 문서 다섯 개, `docs/handoffs/2026-11-08-music-box-dancer-visual-study/README.md`를 먼저 읽는다. 문서가 과거 기록이면 현재 코드와 구분한다.
 2. Git status·HEAD·index·기존 수정/untracked 목록을 기록한다. main에는 이전 구현과 제작 근거가 미커밋으로 있다. HEAD만으로 현재 기능을 판단하거나 reset/clean/stash·중복 patch·기존 자료 정리를 하지 않는다. 새 작업으로 생긴 변경과 이전 변경을 구분한다.
 3. 기존 `.direction/productions/music-box-dancer-20261106-232634/`와 Downloads의 원본, evidence/global-update 자료, 완곡·샘플·revision을 보존한다. 이번 데모는 새 제작 폴더를 사용한다. 사용자가 제공한 원곡으로 라이브러리를 검증해야 한다고 가정하지 않는다.
 4. Node ESM, manifest v1, 정수 FPS/frame, `[from,to)`, `prepare(api,config) → {evaluate?,draw}`, 기존 asset layer와 typed channel의 동작, `t.frame`/`t.exposed` 구별, 임의/역순 seek, freeze·player·render를 유지한다. 새로운 저작 spec은 기존 manifest를 생성하는 입력으로 두고 필수 런타임 schema 교체를 피한다.

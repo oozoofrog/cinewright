@@ -198,37 +198,37 @@
     {
       "name": "A rejects missing shape before publication (required contract)",
       "status": "fail",
-      "error": "AssertionError [ERR_ASSERTION]: Missing expected exception.\n    at file:///Volumes/eyedisk/develop/cinewright/evidence/aesthetic-toolkit-2026-11-08/independent-review-01/probes.mjs:20:271\n    at run (file:///Volumes/eyedisk/develop/cinewright/evidence/aesthetic-toolkit-2026-11-08/independent-review-01/probes.mjs:4:54)\n    at file:///Volumes/eyedisk/develop/cinewright/evidence/aesthetic-toolkit-2026-11-08/independent-review-01/probes.mjs:20:7"
+      "error": "AssertionError [ERR_ASSERTION]: Missing expected exception.\n    at file:///Volumes/eyedisk/develop/cinewright/evidence/2026-11-08-aesthetic-toolkit/independent-review-01/probes.mjs:20:271\n    at run (file:///Volumes/eyedisk/develop/cinewright/evidence/2026-11-08-aesthetic-toolkit/independent-review-01/probes.mjs:4:54)\n    at file:///Volumes/eyedisk/develop/cinewright/evidence/2026-11-08-aesthetic-toolkit/independent-review-01/probes.mjs:20:7"
     },
     {
       "name": "A rejects invalid object range and reveal before preparation",
       "status": "fail",
-      "error": "AssertionError [ERR_ASSERTION]: Missing expected exception.\n    at file:///Volumes/eyedisk/develop/cinewright/evidence/aesthetic-toolkit-2026-11-08/independent-review-01/probes.mjs:21:265\n    at async run (file:///Volumes/eyedisk/develop/cinewright/evidence/aesthetic-toolkit-2026-11-08/independent-review-01/probes.mjs:4:48)\n    at async file:///Volumes/eyedisk/develop/cinewright/evidence/aesthetic-toolkit-2026-11-08/independent-review-01/probes.mjs:21:1"
+      "error": "AssertionError [ERR_ASSERTION]: Missing expected exception.\n    at file:///Volumes/eyedisk/develop/cinewright/evidence/2026-11-08-aesthetic-toolkit/independent-review-01/probes.mjs:21:265\n    at async run (file:///Volumes/eyedisk/develop/cinewright/evidence/2026-11-08-aesthetic-toolkit/independent-review-01/probes.mjs:4:48)\n    at async file:///Volumes/eyedisk/develop/cinewright/evidence/2026-11-08-aesthetic-toolkit/independent-review-01/probes.mjs:21:1"
     },
     {
       "name": "missing required asset rejected at staged materialization",
       "status": "fail",
-      "error": "AssertionError [ERR_ASSERTION]: Missing expected rejection.\n    at async file:///Volumes/eyedisk/develop/cinewright/evidence/aesthetic-toolkit-2026-11-08/independent-review-01/probes.mjs:22:245\n    at async run (file:///Volumes/eyedisk/develop/cinewright/evidence/aesthetic-toolkit-2026-11-08/independent-review-01/probes.mjs:4:48)\n    at async file:///Volumes/eyedisk/develop/cinewright/evidence/aesthetic-toolkit-2026-11-08/independent-review-01/probes.mjs:22:1"
+      "error": "AssertionError [ERR_ASSERTION]: Missing expected rejection.\n    at async file:///Volumes/eyedisk/develop/cinewright/evidence/2026-11-08-aesthetic-toolkit/independent-review-01/probes.mjs:22:245\n    at async run (file:///Volumes/eyedisk/develop/cinewright/evidence/2026-11-08-aesthetic-toolkit/independent-review-01/probes.mjs:4:48)\n    at async file:///Volumes/eyedisk/develop/cinewright/evidence/2026-11-08-aesthetic-toolkit/independent-review-01/probes.mjs:22:1"
     },
     {
       "name": "B rejects invalid dab spacing before runtime draw",
       "status": "fail",
-      "error": "AssertionError [ERR_ASSERTION]: Missing expected exception.\n    at file:///Volumes/eyedisk/develop/cinewright/evidence/aesthetic-toolkit-2026-11-08/independent-review-01/probes.mjs:23:163\n    at async run (file:///Volumes/eyedisk/develop/cinewright/evidence/aesthetic-toolkit-2026-11-08/independent-review-01/probes.mjs:4:48)\n    at async file:///Volumes/eyedisk/develop/cinewright/evidence/aesthetic-toolkit-2026-11-08/independent-review-01/probes.mjs:23:1"
+      "error": "AssertionError [ERR_ASSERTION]: Missing expected exception.\n    at file:///Volumes/eyedisk/develop/cinewright/evidence/2026-11-08-aesthetic-toolkit/independent-review-01/probes.mjs:23:163\n    at async run (file:///Volumes/eyedisk/develop/cinewright/evidence/2026-11-08-aesthetic-toolkit/independent-review-01/probes.mjs:4:48)\n    at async file:///Volumes/eyedisk/develop/cinewright/evidence/2026-11-08-aesthetic-toolkit/independent-review-01/probes.mjs:23:1"
     },
     {
       "name": "public wash rejects nonfinite alpha",
       "status": "fail",
-      "error": "AssertionError [ERR_ASSERTION]: Missing expected exception.\n    at file:///Volumes/eyedisk/develop/cinewright/evidence/aesthetic-toolkit-2026-11-08/independent-review-01/probes.mjs:24:128\n    at run (file:///Volumes/eyedisk/develop/cinewright/evidence/aesthetic-toolkit-2026-11-08/independent-review-01/probes.mjs:4:54)\n    at file:///Volumes/eyedisk/develop/cinewright/evidence/aesthetic-toolkit-2026-11-08/independent-review-01/probes.mjs:24:7"
+      "error": "AssertionError [ERR_ASSERTION]: Missing expected exception.\n    at file:///Volumes/eyedisk/develop/cinewright/evidence/2026-11-08-aesthetic-toolkit/independent-review-01/probes.mjs:24:128\n    at run (file:///Volumes/eyedisk/develop/cinewright/evidence/2026-11-08-aesthetic-toolkit/independent-review-01/probes.mjs:4:54)\n    at file:///Volumes/eyedisk/develop/cinewright/evidence/2026-11-08-aesthetic-toolkit/independent-review-01/probes.mjs:24:7"
     },
     {
       "name": "transition rejects nonfinite output time and malformed center",
       "status": "fail",
-      "error": "AssertionError [ERR_ASSERTION]: Missing expected exception.\n    at file:///Volumes/eyedisk/develop/cinewright/evidence/aesthetic-toolkit-2026-11-08/independent-review-01/probes.mjs:25:87\n    at run (file:///Volumes/eyedisk/develop/cinewright/evidence/aesthetic-toolkit-2026-11-08/independent-review-01/probes.mjs:4:54)\n    at file:///Volumes/eyedisk/develop/cinewright/evidence/aesthetic-toolkit-2026-11-08/independent-review-01/probes.mjs:25:7"
+      "error": "AssertionError [ERR_ASSERTION]: Missing expected exception.\n    at file:///Volumes/eyedisk/develop/cinewright/evidence/2026-11-08-aesthetic-toolkit/independent-review-01/probes.mjs:25:87\n    at run (file:///Volumes/eyedisk/develop/cinewright/evidence/2026-11-08-aesthetic-toolkit/independent-review-01/probes.mjs:4:54)\n    at file:///Volumes/eyedisk/develop/cinewright/evidence/2026-11-08-aesthetic-toolkit/independent-review-01/probes.mjs:25:7"
     },
     {
       "name": "cubic pressure remains meaningful along geometrically straight cubic",
       "status": "fail",
-      "error": "AssertionError [ERR_ASSERTION]: midpoint pressure 1, flattened points 2\n    at file:///Volumes/eyedisk/develop/cinewright/evidence/aesthetic-toolkit-2026-11-08/independent-review-01/probes.mjs:26:199\n    at run (file:///Volumes/eyedisk/develop/cinewright/evidence/aesthetic-toolkit-2026-11-08/independent-review-01/probes.mjs:4:54)\n    at file:///Volumes/eyedisk/develop/cinewright/evidence/aesthetic-toolkit-2026-11-08/independent-review-01/probes.mjs:26:7"
+      "error": "AssertionError [ERR_ASSERTION]: midpoint pressure 1, flattened points 2\n    at file:///Volumes/eyedisk/develop/cinewright/evidence/2026-11-08-aesthetic-toolkit/independent-review-01/probes.mjs:26:199\n    at run (file:///Volumes/eyedisk/develop/cinewright/evidence/2026-11-08-aesthetic-toolkit/independent-review-01/probes.mjs:4:54)\n    at file:///Volumes/eyedisk/develop/cinewright/evidence/2026-11-08-aesthetic-toolkit/independent-review-01/probes.mjs:26:7"
     },
     {
       "name": "adaptive stroke flattening has effective output budget",
@@ -242,7 +242,7 @@
     {
       "name": "asset provenance exact byte hashes",
       "status": "fail",
-      "error": "AssertionError [ERR_ASSERTION]: [{\"file\":\"examples/styles/silhouette-theatre/assets/provenance.json\",\"expected\":\"0f97ac80940d925b743ea7190d716edec421015143b8194bb47845b08a27ef0b\",\"actual\":\"660d8bdb305432657de1a41a0914c9e0551157cbc5df48eaef3bfd8838caf4af\",\"match\":false}]\n    at file:///Volumes/eyedisk/develop/cinewright/evidence/aesthetic-toolkit-2026-11-08/independent-review-01/probes.mjs:28:1053\n    at async run (file:///Volumes/eyedisk/develop/cinewright/evidence/aesthetic-toolkit-2026-11-08/independent-review-01/probes.mjs:4:48)\n    at async file:///Volumes/eyedisk/develop/cinewright/evidence/aesthetic-toolkit-2026-11-08/independent-review-01/probes.mjs:28:1"
+      "error": "AssertionError [ERR_ASSERTION]: [{\"file\":\"examples/styles/silhouette-theatre/assets/provenance.json\",\"expected\":\"0f97ac80940d925b743ea7190d716edec421015143b8194bb47845b08a27ef0b\",\"actual\":\"660d8bdb305432657de1a41a0914c9e0551157cbc5df48eaef3bfd8838caf4af\",\"match\":false}]\n    at file:///Volumes/eyedisk/develop/cinewright/evidence/2026-11-08-aesthetic-toolkit/independent-review-01/probes.mjs:28:1053\n    at async run (file:///Volumes/eyedisk/develop/cinewright/evidence/2026-11-08-aesthetic-toolkit/independent-review-01/probes.mjs:4:48)\n    at async file:///Volumes/eyedisk/develop/cinewright/evidence/2026-11-08-aesthetic-toolkit/independent-review-01/probes.mjs:28:1"
     },
     {
       "name": "CLI help/list are executable and list all three support entries",
@@ -260,7 +260,7 @@
     {
       "name": "A mismatched pose correspondence rejected by full scene validation",
       "status": "fail",
-      "error": "AssertionError [ERR_ASSERTION]: Missing expected exception.\n    at file:///Volumes/eyedisk/develop/cinewright/evidence/aesthetic-toolkit-2026-11-08/independent-review-01/followup-probes.mjs:10:419\n    at run (file:///Volumes/eyedisk/develop/cinewright/evidence/aesthetic-toolkit-2026-11-08/independent-review-01/followup-probes.mjs:3:80)\n    at file:///Volumes/eyedisk/develop/cinewright/evidence/aesthetic-toolkit-2026-11-08/independent-review-01/followup-probes.mjs:10:7"
+      "error": "AssertionError [ERR_ASSERTION]: Missing expected exception.\n    at file:///Volumes/eyedisk/develop/cinewright/evidence/2026-11-08-aesthetic-toolkit/independent-review-01/followup-probes.mjs:10:419\n    at run (file:///Volumes/eyedisk/develop/cinewright/evidence/2026-11-08-aesthetic-toolkit/independent-review-01/followup-probes.mjs:3:80)\n    at file:///Volumes/eyedisk/develop/cinewright/evidence/2026-11-08-aesthetic-toolkit/independent-review-01/followup-probes.mjs:10:7"
     },
     {
       "name": "B accepted dabSpacing=0 throws during actual draw call (mock context)",
@@ -273,12 +273,12 @@
     {
       "name": "stroke computation rejects finite inputs that overflow derived length",
       "status": "fail",
-      "error": "AssertionError [ERR_ASSERTION]: Missing expected exception.\n    at file:///Volumes/eyedisk/develop/cinewright/evidence/aesthetic-toolkit-2026-11-08/independent-review-01/followup-probes.mjs:12:159\n    at async run (file:///Volumes/eyedisk/develop/cinewright/evidence/aesthetic-toolkit-2026-11-08/independent-review-01/followup-probes.mjs:3:74)\n    at async file:///Volumes/eyedisk/develop/cinewright/evidence/aesthetic-toolkit-2026-11-08/independent-review-01/followup-probes.mjs:12:1"
+      "error": "AssertionError [ERR_ASSERTION]: Missing expected exception.\n    at file:///Volumes/eyedisk/develop/cinewright/evidence/2026-11-08-aesthetic-toolkit/independent-review-01/followup-probes.mjs:12:159\n    at async run (file:///Volumes/eyedisk/develop/cinewright/evidence/2026-11-08-aesthetic-toolkit/independent-review-01/followup-probes.mjs:3:74)\n    at async file:///Volumes/eyedisk/develop/cinewright/evidence/2026-11-08-aesthetic-toolkit/independent-review-01/followup-probes.mjs:12:1"
     },
     {
       "name": "transition center must contain exactly two components",
       "status": "fail",
-      "error": "AssertionError [ERR_ASSERTION]: Missing expected exception.\n    at file:///Volumes/eyedisk/develop/cinewright/evidence/aesthetic-toolkit-2026-11-08/independent-review-01/followup-probes.mjs:13:146\n    at async run (file:///Volumes/eyedisk/develop/cinewright/evidence/aesthetic-toolkit-2026-11-08/independent-review-01/followup-probes.mjs:3:74)\n    at async file:///Volumes/eyedisk/develop/cinewright/evidence/aesthetic-toolkit-2026-11-08/independent-review-01/followup-probes.mjs:13:1"
+      "error": "AssertionError [ERR_ASSERTION]: Missing expected exception.\n    at file:///Volumes/eyedisk/develop/cinewright/evidence/2026-11-08-aesthetic-toolkit/independent-review-01/followup-probes.mjs:13:146\n    at async run (file:///Volumes/eyedisk/develop/cinewright/evidence/2026-11-08-aesthetic-toolkit/independent-review-01/followup-probes.mjs:3:74)\n    at async file:///Volumes/eyedisk/develop/cinewright/evidence/2026-11-08-aesthetic-toolkit/independent-review-01/followup-probes.mjs:13:1"
     },
     {
       "name": "B erasure clock frame boundaries and hold/boil distinctions",
@@ -310,7 +310,7 @@
     {
       "name": "advertised A match reveal can consume authored shape",
       "status": "fail",
-      "error": "Error: match transition requires Path2D\n    at drawTransitionMask (file:///Volumes/eyedisk/develop/cinewright/modules/fx2d/transition.mjs:2:305)\n    at Object.draw (file:///Volumes/eyedisk/develop/cinewright/modules/styles/silhouette-theatre/index.mjs:37:69)\n    at file:///Volumes/eyedisk/develop/cinewright/evidence/aesthetic-toolkit-2026-11-08/independent-review-01/extra-probes.mjs:5:756\n    at async check (file:///Volumes/eyedisk/develop/cinewright/evidence/aesthetic-toolkit-2026-11-08/independent-review-01/extra-probes.mjs:3:78)\n    at async file:///Volumes/eyedisk/develop/cinewright/evidence/aesthetic-toolkit-2026-11-08/independent-review-01/extra-probes.mjs:5:1"
+      "error": "Error: match transition requires Path2D\n    at drawTransitionMask (file:///Volumes/eyedisk/develop/cinewright/modules/fx2d/transition.mjs:2:305)\n    at Object.draw (file:///Volumes/eyedisk/develop/cinewright/modules/styles/silhouette-theatre/index.mjs:37:69)\n    at file:///Volumes/eyedisk/develop/cinewright/evidence/2026-11-08-aesthetic-toolkit/independent-review-01/extra-probes.mjs:5:756\n    at async check (file:///Volumes/eyedisk/develop/cinewright/evidence/2026-11-08-aesthetic-toolkit/independent-review-01/extra-probes.mjs:3:78)\n    at async file:///Volumes/eyedisk/develop/cinewright/evidence/2026-11-08-aesthetic-toolkit/independent-review-01/extra-probes.mjs:5:1"
     },
     {
       "name": "final MP4 vs PNG alpha and sRGB patches at both output sizes",

@@ -2,7 +2,7 @@
 
 사용자의 2026-11-04 개선 지시에 따라 새 영상과 미술·연출 검토를 제작한다. 최신 지시는 방향 선택과 제작을 위임했다. 이 디렉터리의 AGENTS.md에 따라 root가 직접 제작과 자체 검토를 수행한다.
 
-소유 경로는 examples/harbor-v2/, evidence/harbor-v2/, outputs/harbor-v2/다. 최종 검토 뒤 SKILL.md와 references/direction.md에 검증한 판단 방법을 반영한다. 기존 작품 입력과 출력, 이전 검토 문서의 해시를 preserved.json에 기록했다.
+소유 경로는 examples/harbor-v2/, evidence/2026-11-04-harbor-v2/, outputs/harbor-v2/다. 최종 검토 뒤 SKILL.md와 references/direction.md에 검증한 판단 방법을 반영한다. 기존 작품 입력과 출력, 이전 검토 문서의 해시를 preserved.json에 기록했다.
 
 ## 후보 비교
 

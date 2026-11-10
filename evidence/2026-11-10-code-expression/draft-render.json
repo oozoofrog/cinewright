@@ -13,10 +13,10 @@
   "totalFrames": 480,
   "pid": 11281,
   "started": "2026-11-10T00:31:58.778Z",
-  "log": "/Volumes/eyedisk/develop/cinewright/evidence/code-expression-20261110/draft-store/jobs/fe6d9c47-e866-4e85-a2c5-4341c530ee65/execution.log",
+  "log": "/Volumes/eyedisk/develop/cinewright/evidence/2026-11-10-code-expression/draft-store/jobs/fe6d9c47-e866-4e85-a2c5-4341c530ee65/execution.log",
   "ffmpeg": "ffmpeg version 9.0.2 Copyright (c) 2000-2026 the FFmpeg developers",
   "audio": {
-    "file": "/Volumes/eyedisk/develop/cinewright/evidence/code-expression-20261110/draft-store/jobs/fe6d9c47-e866-4e85-a2c5-4341c530ee65/mix.wav",
+    "file": "/Volumes/eyedisk/develop/cinewright/evidence/2026-11-10-code-expression/draft-store/jobs/fe6d9c47-e866-4e85-a2c5-4341c530ee65/mix.wav",
     "rate": 48000,
     "duration": 960000,
     "sources": [
@@ -36,6 +36,6 @@
   },
   "browser": "157.0.8103.38",
   "outputSha256": "71b5f6e887cc2dad47e0827f86a09f27ac228884fa156ad535fece9d5cc58192",
-  "output": "/Volumes/eyedisk/develop/cinewright/evidence/code-expression-20261110/draft-store/jobs/fe6d9c47-e866-4e85-a2c5-4341c530ee65/work.mp4",
+  "output": "/Volumes/eyedisk/develop/cinewright/evidence/2026-11-10-code-expression/draft-store/jobs/fe6d9c47-e866-4e85-a2c5-4341c530ee65/work.mp4",
   "finished": "2026-11-10T00:32:08.524Z"
 }

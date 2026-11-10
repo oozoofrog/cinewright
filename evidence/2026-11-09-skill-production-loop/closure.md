@@ -23,5 +23,5 @@
 - [실행 지침](../../references/craft-execution.md)
 - [구현 보고서](implementation/implementation-report.md)
 - [독립 제작·수정 보고서](independent/report.md)
-- [현재 작품의 대상 판단](../subject-understanding-20261109/actual-production-assessment.md)
+- [현재 작품의 대상 판단](../2026-11-09-subject-understanding/actual-production-assessment.md)
 - [loop 실행 기록](../../.agent-loop/cinewright-gap-closure-20261109/brief.md)

@@ -11,7 +11,7 @@ for (const file of await fs.readdir(path.join(root, folder))) {
 }
 files.set('/outputs/harbor-v2/', path.join(root, folder, 'index.html'));
 files.set('/outputs/harbor-landfall.mp4', path.join(root, 'outputs/harbor-landfall.mp4'));
-for (const file of ['README.md', 'evidence/harbor-v2/REVIEW.md', 'evidence/harbor-v2/STYLE-STORY.md']) {
+for (const file of ['README.md', 'evidence/2026-11-04-harbor-v2/REVIEW.md', 'evidence/2026-11-04-harbor-v2/STYLE-STORY.md']) {
   files.set('/' + file, path.join(root, file));
 }
 const site = await host({ files, port: Number(process.argv[2] ?? 8198) });

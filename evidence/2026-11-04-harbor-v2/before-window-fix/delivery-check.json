@@ -9,8 +9,8 @@
     "examples/harbor-landfall/assets/coast-entry.svg": true,
     "examples/harbor-landfall/assets/score.wav": true,
     "outputs/harbor-landfall.mp4": true,
-    "evidence/RESULTS.md": true,
-    "evidence/WORKING.md": true
+    "evidence/2026-11-04-initial-production/RESULTS.md": true,
+    "evidence/2026-11-04-initial-production/WORKING.md": true
   },
   "pcmIdentical": true,
   "pcmBytes": 4608000,
@@ -33,11 +33,11 @@
     "outputs/harbor-v2/harbor-v2.mp4": "31148f69c9fa4cf94a49290d5c5639d3138d37bf8fd94936ed771ea90535d870",
     "SKILL.md": "8e9109bf7dd34cd80b365a3972f407d137c405ef2eab83cb41e5fa1c606a62f1",
     "references/direction.md": "978dbb19d8b1382acc669b982cec5171f7744c16ebb6e65ad7b932a25f1e6689",
-    "evidence/harbor-v2/REVIEW.md": "8c47da38a52d3a08d756d853c7d10528447eeeafc17b28497add6bbc3c2bde52",
-    "evidence/harbor-v2/STYLE-STORY.md": "2634a6487d114f3631958ac6847297119166f536a93fe9bc3e17273b408f63e7",
-    "evidence/harbor-v2/SKILL-CHANGES.md": "22a2b43d1b25dfdc9690817c3ba607b1c820555fadc4f2c78c0d30f54febceb5",
+    "evidence/2026-11-04-harbor-v2/REVIEW.md": "8c47da38a52d3a08d756d853c7d10528447eeeafc17b28497add6bbc3c2bde52",
+    "evidence/2026-11-04-harbor-v2/STYLE-STORY.md": "2634a6487d114f3631958ac6847297119166f536a93fe9bc3e17273b408f63e7",
+    "evidence/2026-11-04-harbor-v2/SKILL-CHANGES.md": "22a2b43d1b25dfdc9690817c3ba607b1c820555fadc4f2c78c0d30f54febceb5",
     "outputs/harbor-v2/review.js": "db878b2756c411dd73ccb8c5a0b84884e7d1fb36b267f40e4bf6e99ecce4a416",
     "outputs/harbor-v2/style.css": "9544272640f34943059bb09cf31dace932cb21b2e8c19621545d2b8b0a00dbdd",
-    "evidence/harbor-v2/serve-review.mjs": "71b40182954d930fa0d7aac0dc4a13c98e9d2af1b309389127a4867e6cc31263"
+    "evidence/2026-11-04-harbor-v2/serve-review.mjs": "71b40182954d930fa0d7aac0dc4a13c98e9d2af1b309389127a4867e6cc31263"
   }
 }

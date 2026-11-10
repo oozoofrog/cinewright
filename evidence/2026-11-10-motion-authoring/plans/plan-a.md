@@ -78,12 +78,12 @@
 
 실제로 읽은 파일은 다음 일곱 개뿐이다. 경로 기준은 `/Volumes/eyedisk/develop/cinewright/`다.
 
-- `evidence/motion-authoring-20261110/plans/input-a/SKILL.md`
-- `evidence/motion-authoring-20261110/plans/input-a/references/craft-execution.md`
-- `evidence/motion-authoring-20261110/plans/input-a/references/direction.md`
-- `evidence/motion-authoring-20261110/plans/input-a/references/craft.md`
-- `evidence/motion-authoring-20261110/plans/input-a/references/music.md`
-- `evidence/motion-authoring-20261110/plans/input-a/references/format.md`
-- `evidence/motion-authoring-20261110/plans/input-a/references/pose-tracks.md`
+- `evidence/2026-11-10-motion-authoring/plans/input-a/SKILL.md`
+- `evidence/2026-11-10-motion-authoring/plans/input-a/references/craft-execution.md`
+- `evidence/2026-11-10-motion-authoring/plans/input-a/references/direction.md`
+- `evidence/2026-11-10-motion-authoring/plans/input-a/references/craft.md`
+- `evidence/2026-11-10-motion-authoring/plans/input-a/references/music.md`
+- `evidence/2026-11-10-motion-authoring/plans/input-a/references/format.md`
+- `evidence/2026-11-10-motion-authoring/plans/input-a/references/pose-tracks.md`
 
 문서 안의 외부 웹 원문, 묶음 밖 구현 기록·예제·증거·계획 및 다른 작업자의 산출물은 열지 않았다. 따라서 작법 문서가 소개한 외부 출처는 직접 확인하지 않은 참고이며, 예제 실행 결과나 현재 저장소의 구현 상태도 미확인이다. 이 계획의 완료는 제작·감상·품질 검증의 완료를 뜻하지 않는다.

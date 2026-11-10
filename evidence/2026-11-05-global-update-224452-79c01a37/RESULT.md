@@ -2,7 +2,7 @@ Cinewright의 검토된 변경을 전역 설치본 `/Users/oozoofrog/.codex/skil
 
 기존 문서 **4개**를 교체하고 **41개** 파일을 추가했다. 설치 대상 45개 중 코드·데이터·나머지 문서는 검토된 원본과 동일하다. 문서 3개의 과거 자료 링크 **19개**만 원본 저장소의 절대 경로로 바꿨다. 링크 문구와 다른 내용은 유지했다. 직접 연결된 로컬 링크 **44개**와 문서 fragment를 확인했다. [설치 대상과 원본·설치 해시](payload.json) · [링크 변경 명세](link-adaptations.json) · [링크 검사](links-installed.json)
 
-기존 파일 **64개**를 `/Volumes/eyedisk/develop/cinewright/evidence/global-update-2026-11-05-224452-79c01a37/backup/files`에 독립 복사본으로 백업했다. 백업 크기는 **20,573,970바이트**다. 교체 대상 밖의 기존 파일 **60개**와 기존 의존성은 바뀌지 않았다. 의존성은 일반 파일 **1235개**와 symlink **1개**를 포함한 **1373개 항목**의 내용·모드·링크 대상을 대조했다. 의존성 fingerprint는 `e5e6416fe8d7c9859858601869085e52639fb5e13fd62c54a4e86218457b9c14`다. [설치 전 명세](installed-before.json) · [설치 후 명세](installed-after.json) · [백업 명세](backup/receipt.json) · [검증 후 해시 대조](post-verification.json)
+기존 파일 **64개**를 `/Volumes/eyedisk/develop/cinewright/evidence/2026-11-05-global-update-224452-79c01a37/backup/files`에 독립 복사본으로 백업했다. 백업 크기는 **20,573,970바이트**다. 교체 대상 밖의 기존 파일 **60개**와 기존 의존성은 바뀌지 않았다. 의존성은 일반 파일 **1235개**와 symlink **1개**를 포함한 **1373개 항목**의 내용·모드·링크 대상을 대조했다. 의존성 fingerprint는 `e5e6416fe8d7c9859858601869085e52639fb5e13fd62c54a4e86218457b9c14`다. [설치 전 명세](installed-before.json) · [설치 후 명세](installed-after.json) · [백업 명세](backup/receipt.json) · [검증 후 해시 대조](post-verification.json)
 
 작업은 `/Volumes/eyedisk/develop/cinewright`의 검토 해시를 기준으로 수행했다. 실제로 관찰한 HEAD는 `27aac0ca22f4a8d211981cd40970d8a511f9927d`다. 이전 전달 기록의 HEAD 이후 커밋이 존재했지만 설치 대상 45개의 검토 해시는 일치했다. 이 설치 작업은 커밋을 만들지 않았다.
 

@@ -368,7 +368,7 @@
     {
       "id": "aa099429-8446-4059-8646-8e694d819724",
       "output": "/Volumes/eyedisk/develop/cinewright/.direction/aesthetic-toolkit-2026-11-08/A/store/jobs/aa099429-8446-4059-8646-8e694d819724/work.mp4",
-      "copy": "/Volumes/eyedisk/develop/cinewright/evidence/aesthetic-toolkit-2026-11-08/A/forest/540p.mp4",
+      "copy": "/Volumes/eyedisk/develop/cinewright/evidence/2026-11-08-aesthetic-toolkit/A/forest/540p.mp4",
       "revision": "4e7fa4c62850e4be1e293f98098f82e6b20093bdb83a0128903873c87d10ff02",
       "probe": {
         "programs": [],
@@ -392,7 +392,7 @@
       },
       "flash": {
         "version": 1,
-        "file": "/Volumes/eyedisk/develop/cinewright/evidence/aesthetic-toolkit-2026-11-08/A/forest/540p.mp4",
+        "file": "/Volumes/eyedisk/develop/cinewright/evidence/2026-11-08-aesthetic-toolkit/A/forest/540p.mp4",
         "fps": 24,
         "resolution": [
           160,
@@ -414,7 +414,7 @@
     {
       "id": "f74d25d3-5f6e-4fcf-ac0e-b324f3fa1a58",
       "output": "/Volumes/eyedisk/develop/cinewright/.direction/aesthetic-toolkit-2026-11-08/A/store/jobs/f74d25d3-5f6e-4fcf-ac0e-b324f3fa1a58/work.mp4",
-      "copy": "/Volumes/eyedisk/develop/cinewright/evidence/aesthetic-toolkit-2026-11-08/A/forest/1080p.mp4",
+      "copy": "/Volumes/eyedisk/develop/cinewright/evidence/2026-11-08-aesthetic-toolkit/A/forest/1080p.mp4",
       "revision": "4e7fa4c62850e4be1e293f98098f82e6b20093bdb83a0128903873c87d10ff02",
       "probe": {
         "programs": [],
@@ -438,7 +438,7 @@
       },
       "flash": {
         "version": 1,
-        "file": "/Volumes/eyedisk/develop/cinewright/evidence/aesthetic-toolkit-2026-11-08/A/forest/1080p.mp4",
+        "file": "/Volumes/eyedisk/develop/cinewright/evidence/2026-11-08-aesthetic-toolkit/A/forest/1080p.mp4",
         "fps": 24,
         "resolution": [
           160,

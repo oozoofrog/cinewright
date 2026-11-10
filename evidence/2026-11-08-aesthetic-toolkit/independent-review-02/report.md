@@ -8,7 +8,7 @@ Reviewed the recheck brief first, the entire implementation prompt, unchanged in
 
 ### R3 — P2: malformed alpha images still publish and replace a working project
 
-Locations: `scripts/materialize-style.mjs:26`–`:32`, especially PNG check at **line29**, and publication at **line43**. The broader promise at `docs/handoffs/2026-11-08-aesthetic-toolkit-final.md:24` is not established.
+Locations: `scripts/materialize-style.mjs:26`–`:32`, especially PNG check at **line29**, and publication at **line43**. The broader promise at `docs/handoffs/2026-11-08-aesthetic-toolkit/final.md:24` is not established.
 
 The new asset closure correctly rejects missing alpha files and malformed GLB headers/buffer-view bounds. The PNG check, however, accepts only 24 bytes: signature, chunk length/type and positive width/height. This is shorter than a complete IHDR chunk and contains no image data or IEND. It cannot be decoded as a PNG.
 

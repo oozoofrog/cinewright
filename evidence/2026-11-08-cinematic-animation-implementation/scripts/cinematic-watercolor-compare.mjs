@@ -1,7 +1,7 @@
 import fs from 'node:fs/promises';
-import {bakeWatercolor} from '../modules/fx2d/watercolor.mjs';
-import {createReconstruction} from '../modules/fx2d/watercolor-reconstruct.mjs';
-const dir='evidence/cinematic-animation-implementation-2026-11-08/watercolor';await fs.mkdir(dir,{recursive:true});const rows=[];
+import {bakeWatercolor} from '../../../modules/fx2d/watercolor.mjs';
+import {createReconstruction} from '../../../modules/fx2d/watercolor-reconstruct.mjs';
+const dir='evidence/2026-11-08-cinematic-animation-implementation/watercolor';await fs.mkdir(dir,{recursive:true});const rows=[];
 for(const name of ['wet','overlap']){
  const original=JSON.parse(await fs.readFile(`.direction/aesthetic-toolkit-phase02-2026-11-08/fullhd-v3/${name}-bake.json`));
  for(const scale of [1,2]){

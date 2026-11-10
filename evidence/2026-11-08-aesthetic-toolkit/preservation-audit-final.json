@@ -4,7 +4,7 @@
   "baselineFiles": 427,
   "changed": [
     {
-      "path": "docs/handoffs/2026-11-08-aesthetic-toolkit-execution.md",
+      "path": "docs/handoffs/2026-11-08-aesthetic-toolkit/execution.md",
       "allowed": true,
       "before": "c5fec0994dc3d4e158e2bf5ce4ed427c4a1c2f31e451f390115272e3f8e53539",
       "after": "fc63f87699d6b78ec92ba613d8083d6f5537dd13cda7ba3f98b790f2e6c69dd2"

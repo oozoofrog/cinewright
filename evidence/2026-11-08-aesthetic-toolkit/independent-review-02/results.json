@@ -78,5 +78,5 @@
     "No independent flash rerun or full autoplay/performance run",
     "GPU memory and internal corrupt-texture loader failure cleanup uninstrumented"
   ],
-  "report": "evidence/aesthetic-toolkit-2026-11-08/independent-review-02/report.md"
+  "report": "evidence/2026-11-08-aesthetic-toolkit/independent-review-02/report.md"
 }

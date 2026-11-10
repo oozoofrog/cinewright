@@ -2,7 +2,7 @@
 
 2026-11-08 KST. **조사 및 구현 프롬프트 작성 완료 / 사용자 T3 다중 팀 실행 승인.**
 
-실행 정본: [IMPLEMENTATION-PROMPT.md](IMPLEMENTATION-PROMPT.md). 사용자가 “작성한 프롬프트로 T3 에 다중 팀구성 작업을 위임해주세요”라고 지시해 구현 실행을 승인했다. [실행·팀 구성 기록](../../handoffs/2026-11-08-aesthetic-toolkit-execution.md)에서 현재 상태를 관리한다. 아래 연구 내용은 구현의 통과 증거가 아니다.
+실행 정본: [IMPLEMENTATION-PROMPT.md](IMPLEMENTATION-PROMPT.md). 사용자가 “작성한 프롬프트로 T3 에 다중 팀구성 작업을 위임해주세요”라고 지시해 구현 실행을 승인했다. [실행·팀 구성 기록](../../handoffs/2026-11-08-aesthetic-toolkit/execution.md)에서 현재 상태를 관리한다. 아래 연구 내용은 구현의 통과 증거가 아니다.
 
 ## 요청과 연구 범위
 

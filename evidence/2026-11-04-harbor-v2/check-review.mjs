@@ -15,7 +15,7 @@ try {
     const v = document.querySelector('#new');
     return !v.seeking && Math.abs(v.currentTime - 21) < .01;
   });
-  await page.screenshot({ path: 'evidence/harbor-v2/review-desktop.png', fullPage: true });
+  await page.screenshot({ path: 'evidence/2026-11-04-harbor-v2/review-desktop.png', fullPage: true });
   await page.getByRole('button', { name: '처음부터', exact: true }).click();
   await page.waitForFunction(() => !document.querySelector('#new').paused);
   await page.locator('summary').click();
@@ -23,7 +23,7 @@ try {
   assert.equal(await page.locator('#new').evaluate(v => v.paused), true);
   await page.locator('#old').evaluate(v => v.pause());
   await page.setViewportSize({ width: 390, height: 844 });
-  await page.screenshot({ path: 'evidence/harbor-v2/review-mobile.png', fullPage: true });
+  await page.screenshot({ path: 'evidence/2026-11-04-harbor-v2/review-mobile.png', fullPage: true });
   const overflow = await page.evaluate(() => document.documentElement.scrollWidth > innerWidth);
   assert.equal(overflow, false);
   assert.deepEqual(errors, []);

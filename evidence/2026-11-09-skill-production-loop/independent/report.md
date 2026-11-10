@@ -51,7 +51,7 @@ Potential documentation clarification: craft-execution.md says an empty config c
 
 ## Actual execution route
 
-From repository root; B denotes `evidence/skill-production-loop-20261109/independent`. Render/freeze/doctor/frame used `TMPDIR="$PWD/$B/tmp"`; persistent jobs used `--store "$B/store"`.
+From repository root; B denotes `evidence/2026-11-09-skill-production-loop/independent`. Render/freeze/doctor/frame used `TMPDIR="$PWD/$B/tmp"`; persistent jobs used `--store "$B/store"`.
 
 1. Read public root/reference paths listed above; inspected cwd, git status and branch without changing existing work.
 2. `node scripts/direction.mjs doctor` → logs/doctor.log.

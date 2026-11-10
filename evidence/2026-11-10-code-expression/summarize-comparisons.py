@@ -1,6 +1,6 @@
 from PIL import Image,ImageChops,ImageDraw
 import json,os,hashlib
-root='evidence/code-expression-20261110'
+root='evidence/2026-11-10-code-expression'
 read=lambda p:json.load(open(root+'/'+p))
 results=read('delivery/results.json')['results'];comparisons=read('comparisons.json');draft=read('draft-render.json');oldfold=read('fold-r1.json')
 frame=lambda output,f:os.path.dirname(output)+'/frames/'+str(f).zfill(7)+'.png'

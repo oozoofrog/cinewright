@@ -1,7 +1,7 @@
 // CPU-only packaging and freeze evidence. Does not acquire or use the GPU.
 import {createHash}from 'node:crypto';import fs from 'node:fs/promises';import path from 'node:path';import assert from 'node:assert/strict';
 import {buildExpressionist} from './build.mjs';import {buildMixed} from './build-mixed.mjs';import {freeze,openRevision}from '../../../scripts/revisions.mjs';
-const root=path.resolve('.direction/aesthetic-toolkit-2026-11-08/C'),output=path.resolve('evidence/aesthetic-toolkit-2026-11-08/C');const results=[];
+const root=path.resolve('.direction/aesthetic-toolkit-2026-11-08/C'),output=path.resolve('evidence/2026-11-08-aesthetic-toolkit/C');const results=[];
 for(const recipe of ['station','laboratory','portrait','effects','mixed']){
  const project=path.join(root,recipe);if(recipe==='mixed')await buildMixed(project,{update:true});else await buildExpressionist(project,{recipe,update:true});
  const version=JSON.parse(await fs.readFile(path.join(project,'style-version.json'),'utf8'));for(const [name,hash]of Object.entries(version.files))assert.equal(createHash('sha256').update(await fs.readFile(path.join(project,name))).digest('hex'),hash,'provenance hash '+name);

@@ -11,8 +11,8 @@
     "examples/harbor-landfall/assets/coast-entry.svg": true,
     "examples/harbor-landfall/assets/score.wav": true,
     "outputs/harbor-landfall.mp4": true,
-    "evidence/RESULTS.md": true,
-    "evidence/WORKING.md": true
+    "evidence/2026-11-04-initial-production/RESULTS.md": true,
+    "evidence/2026-11-04-initial-production/WORKING.md": true
   },
   "pcmIdentical": true,
   "pcmBytes": 4608000,
@@ -38,8 +38,8 @@
     "SKILL.md": "8e9109bf7dd34cd80b365a3972f407d137c405ef2eab83cb41e5fa1c606a62f1",
     "references/direction.md": "978dbb19d8b1382acc669b982cec5171f7744c16ebb6e65ad7b932a25f1e6689",
     "README.md": "63b93a3f95a38fce88a8bd8a0151b3ec2033ed1401b3e9c8733ff9a9aea7f5d4",
-    "evidence/harbor-v2/REVIEW.md": "ea6367e9ee4cc946eebd9a2af63630ebe0f47c0d88ffddb6b164db980319fd75",
-    "evidence/harbor-v2/STYLE-STORY.md": "2634a6487d114f3631958ac6847297119166f536a93fe9bc3e17273b408f63e7",
-    "evidence/harbor-v2/SKILL-CHANGES.md": "26f20b322f362ba837cdc6af7c70882560b07f3a3dcd1d5638bc93c7bb755cec"
+    "evidence/2026-11-04-harbor-v2/REVIEW.md": "ea6367e9ee4cc946eebd9a2af63630ebe0f47c0d88ffddb6b164db980319fd75",
+    "evidence/2026-11-04-harbor-v2/STYLE-STORY.md": "2634a6487d114f3631958ac6847297119166f536a93fe9bc3e17273b408f63e7",
+    "evidence/2026-11-04-harbor-v2/SKILL-CHANGES.md": "26f20b322f362ba837cdc6af7c70882560b07f3a3dcd1d5638bc93c7bb755cec"
   }
 }

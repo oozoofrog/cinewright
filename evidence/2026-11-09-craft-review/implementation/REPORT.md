@@ -33,7 +33,7 @@ Run from repository root. `verify.py` records exact commands, stdout/stderr and 
 - `node <implementation>/sandbox/examples/stillcuts/build.mjs` — PASS; existing builder run against a local evidence copy, `example-build.log`. A/B and boundary fixture generated without rewriting source examples.
 - `node scripts/direction.mjs freeze <sandbox>/examples/stillcuts/a --store <implementation>/store` — PASS, `freeze.log`.
 - `node scripts/direction.mjs frame REV 108 --store STORE`, then frame 109 — both completed at 640×360; `frame-108.log`, `frame-109.log`, per-job `execution.log` and `frame.png` retained.
-- `node evidence/craft-review-20261109/implementation/check-frames.mjs` — PASS; `openRevision` verifies frozen source, then existing scene evaluator confirms same phase/view, same exposed 102, same stationary key offset, absent hand and changing lightX; `frozen-state-check.log`, `frozen-states.json`.
+- `node evidence/2026-11-09-craft-review/implementation/check-frames.mjs` — PASS; `openRevision` verifies frozen source, then existing scene evaluator confirms same phase/view, same exposed 102, same stationary key offset, absent hand and changing lightX; `frozen-state-check.log`, `frozen-states.json`.
 - FFmpeg decoded both retained PNGs to RGB24 (`ffmpeg -v error -i FRAME -f rawvideo -pix_fmt rgb24 -`). Exact byte comparison: **274 changed pixels**, bounding box **[190,46,294,252]**, entirely within wall-reflection region. All pixels outside that region, including room edges and keys, are identical; `pixel-comparison.json`. Frame 108 was also visually inspected as the held room/keys composition.
 
 Frozen revision: `38b4551aa5c40649d9b461e2205cecf28d908f8045723ecafed612613becac38`.

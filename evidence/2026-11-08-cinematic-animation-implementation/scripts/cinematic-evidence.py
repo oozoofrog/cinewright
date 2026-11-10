@@ -1,8 +1,8 @@
 """Extract immutable-source comparisons. Offline frame analysis, never a realtime-viewing claim."""
 import json,pathlib,hashlib,subprocess,sys
 from PIL import Image,ImageDraw,ImageOps
-R=pathlib.Path(__file__).resolve().parents[1];E=R/'evidence/cinematic-animation-implementation-2026-11-08'
-manifest=json.loads((R/'evidence/cinematic-animation-review-2026-11-08/manifest.json').read_text())
+R=pathlib.Path(__file__).resolve().parents[3];E=R/'evidence/2026-11-08-cinematic-animation-implementation'
+manifest=json.loads((R/'evidence/2026-11-08-cinematic-animation-review/manifest.json').read_text())
 clips={c['id']:c for c in manifest['clips']};ids=sys.argv[1:] or ['S01','S02','S03','S04','S05','S06','P01','P02','P03']
 frames={'S01':[24,72,100,126,156,178],'S02':[60,88,144,178,191],'S03':[24,120,156],'S04':[44,72,88,100,126,156],'S05':[70,80,87,88,94,104,156,174],'S06':[48,120,156],'P01':[24,72,144],'P02':[24,72,144],'P03':[24,54,64,69,120]}
 windows={'S01':[(48,83),(100,143)],'S02':[(64,99),(144,179)],'S03':[(108,131)],'S04':[(56,87),(88,155)],'S05':[(70,105),(144,179)],'S06':[(108,131)],'P01':[(20,35),(60,83),(132,155)],'P02':[(20,35),(60,83),(132,155)],'P03':[(48,71)]}

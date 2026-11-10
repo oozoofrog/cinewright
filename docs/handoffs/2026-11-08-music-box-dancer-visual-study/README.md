@@ -1,6 +1,6 @@
 # Music Box Dancer — 시각 개선 샘플 인계
 
-**2026-11-08 KST. 현재 단계: 재개한 개발 완료, 16–28초 샘플의 사용자 검토 대기.** 사용자의 “남은 작업을 T3에 위임” 지시와 구현 sub-agent의 구체적 범위에 따라 직접 구현했다. 재개 허락을 재질문하지 않았다. 추가 하위 에이전트, commit/push/PR/배포, 외부 업로드는 하지 않았다. [이전 중지 기록](music-box-dancer-paused.md)의 본문은 역사 기록으로 보존했고 현재 인계 링크만 앞에 추가했다.
+**2026-11-08 KST. 현재 단계: 재개한 개발 완료, 16–28초 샘플의 사용자 검토 대기.** 사용자의 “남은 작업을 T3에 위임” 지시와 구현 sub-agent의 구체적 범위에 따라 직접 구현했다. 재개 허락을 재질문하지 않았다. 추가 하위 에이전트, commit/push/PR/배포, 외부 업로드는 하지 않았다. [이전 중지 기록](../2026-11-07-music-box-dancer-paused/README.md)의 본문은 역사 기록으로 보존했고 현재 인계 링크만 앞에 추가했다.
 
 이번 결과는 **기술적으로 재생·비교 가능한 개선 샘플**이다. 사용자 최종 수락이나 전체 곡의 새 표현 완성을 뜻하지 않는다.
 
@@ -8,11 +8,11 @@
 
 모두 로컬 파일이다. 링크의 왼쪽 A는 기존 종이 무대, 오른쪽은 새 도자기 오르골이다. 동일 원곡16–28초이며 비교 영상에는 오디오를 한 번만 넣었다.
 
-- [새 1080p 샘플 — 12초 MP4](../../.direction/productions/music-box-dancer-20261106-232634/visual-quality-02/music-box-dancer-porcelain-16-28s-1080p.mp4)
-- [전/후 동시 비교 — 왼쪽 기존 A / 오른쪽 새 샘플](../../.direction/productions/music-box-dancer-20261106-232634/visual-quality-02/before-after-16-28s.mp4)
-- [원곡22초 전/후 프레임](../../.direction/productions/music-box-dancer-20261106-232634/visual-quality-02/frames/before-after-22s.png)
-- [새 12장 프레임 시트](../../.direction/productions/music-box-dancer-20261106-232634/visual-quality-02/frames/after-contact.png)
-- [다리 확장 — 원곡18.958초](../../.direction/productions/music-box-dancer-20261106-232634/visual-quality-02/frames/after-18.958s.png) · [회전 — 22초](../../.direction/productions/music-box-dancer-20261106-232634/visual-quality-02/frames/after-22s.png) · [마지막 유효 프레임 — 27.958초](../../.direction/productions/music-box-dancer-20261106-232634/visual-quality-02/frames/after-27.958s.png)
+- [새 1080p 샘플 — 12초 MP4](../../../.direction/productions/music-box-dancer-20261106-232634/visual-quality-02/music-box-dancer-porcelain-16-28s-1080p.mp4)
+- [전/후 동시 비교 — 왼쪽 기존 A / 오른쪽 새 샘플](../../../.direction/productions/music-box-dancer-20261106-232634/visual-quality-02/before-after-16-28s.mp4)
+- [원곡22초 전/후 프레임](../../../.direction/productions/music-box-dancer-20261106-232634/visual-quality-02/frames/before-after-22s.png)
+- [새 12장 프레임 시트](../../../.direction/productions/music-box-dancer-20261106-232634/visual-quality-02/frames/after-contact.png)
+- [다리 확장 — 원곡18.958초](../../../.direction/productions/music-box-dancer-20261106-232634/visual-quality-02/frames/after-18.958s.png) · [회전 — 22초](../../../.direction/productions/music-box-dancer-20261106-232634/visual-quality-02/frames/after-22s.png) · [마지막 유효 프레임 — 27.958초](../../../.direction/productions/music-box-dancer-20261106-232634/visual-quality-02/frames/after-27.958s.png)
 
 절대 경로의 공통 생산 폴더 `Q`:
 
@@ -59,7 +59,7 @@
 
 Showreel 설치본의 `engine.js`, `fx.js`, `techniques.md`, `engine.md`, LICENSE를 조사했다. exact-time animation·preserved drawing buffer·시간 함수와 형태 변화로 리듬을 만드는 방식을 참고했다. Showreel 코드는 복사/import하지 않았다. FX의 REEL·DOM/CSS 결합과 seconds timeline을 검토했고, 카탈로그 전체를 완제품 라이브러리로 간주하지 않았다. Three.js는 MIT 고지를 project 및 frozen vendor에 보존했다. 외부 자산/폰트/모델, 원본 영상 프레임·공연자 이미지를 쓰지 않았다.
 
-[자세한 선택·출처·계약 기록](../../.direction/productions/music-box-dancer-20261106-232634/visual-quality-02/reports/SOURCES.md) · [소스 사용 설명과 공식 문서](../../examples/music-box-dancer/porcelain/README.md).
+[자세한 선택·출처·계약 기록](../../../.direction/productions/music-box-dancer-20261106-232634/visual-quality-02/reports/SOURCES.md) · [소스 사용 설명과 공식 문서](../../../examples/music-box-dancer/porcelain/README.md).
 
 ## 계약과 이번 실행의 검증
 
@@ -91,8 +91,8 @@ GPU ReadPixels 성능 경고는 있었지만 shader/page/render 오류는 없었
 
 - 새 `examples/music-box-dancer/porcelain/{scene.mjs,choreography.mjs,materialize.mjs,README.md}`
 - 새 `tests/porcelain-study.test.mjs`
-- 새 `docs/handoffs/music-box-dancer-visual-study.md` (이 문서)
-- 기존 `docs/handoffs/music-box-dancer-paused.md` 상단에 최신 상태·인계 링크 추가. 이전 본문은 바꾸지 않음.
+- 새 `docs/handoffs/2026-11-08-music-box-dancer-visual-study/README.md` (이 문서)
+- 기존 `docs/handoffs/2026-11-07-music-box-dancer-paused/README.md` 상단에 최신 상태·인계 링크 추가. 이전 본문은 바꾸지 않음.
 
 `package.json`/lock/runtime/기존 A/B/음악 처리/섬광 검사 코드는 변경하지 않았다. `.direction/` 아래 private 제작자료·원본 미디어는 Git 추가하지 않았다. commit/stage/stash/reset/clean/push/PR 없음. 생산 폴더는 새 `visual-quality-02`이고 기존 integration 폴더를 덮어쓰지 않았다.
 
