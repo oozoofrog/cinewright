@@ -1,0 +1,134 @@
+{
+  "title": "Held in the fold / 접힌 사이",
+  "module": "fold.mjs",
+  "size": [
+    960,
+    540
+  ],
+  "fps": 24,
+  "frames": 288,
+  "points": {
+    "left": 48,
+    "right": 96,
+    "closed": 156,
+    "reopen": 192,
+    "rest": 240
+  },
+  "spans": {
+    "closing": [
+      48,
+      156
+    ],
+    "held": [
+      156,
+      192
+    ],
+    "opening": [
+      192,
+      240
+    ]
+  },
+  "tracks": {
+    "left": [
+      {
+        "frame": 0,
+        "value": 0,
+        "interpolation": "hold"
+      },
+      {
+        "frame": 48,
+        "value": 0,
+        "interpolation": "smoothstep"
+      },
+      {
+        "frame": 96,
+        "value": 3.141592653589793,
+        "interpolation": "hold"
+      },
+      {
+        "frame": 192,
+        "value": 3.141592653589793,
+        "interpolation": "smoothstep"
+      },
+      {
+        "frame": 240,
+        "value": 0.45,
+        "interpolation": "hold"
+      },
+      {
+        "frame": 287,
+        "value": 0.45,
+        "interpolation": "smoothstep"
+      }
+    ],
+    "right": [
+      {
+        "frame": 0,
+        "value": 0,
+        "interpolation": "hold"
+      },
+      {
+        "frame": 96,
+        "value": 0,
+        "interpolation": "smoothstep"
+      },
+      {
+        "frame": 156,
+        "value": 3.141592653589793,
+        "interpolation": "hold"
+      },
+      {
+        "frame": 202,
+        "value": 3.141592653589793,
+        "interpolation": "smoothstep"
+      },
+      {
+        "frame": 240,
+        "value": 0.45,
+        "interpolation": "hold"
+      },
+      {
+        "frame": 287,
+        "value": 0.45,
+        "interpolation": "smoothstep"
+      }
+    ]
+  },
+  "score": [
+    {
+      "frame": 42,
+      "midi": 60,
+      "length": 2.1,
+      "amp": 0.12,
+      "pan": -0.7
+    },
+    {
+      "frame": 108,
+      "midi": 67,
+      "length": 2.1,
+      "amp": 0.12,
+      "pan": 0.7
+    },
+    {
+      "frame": 162,
+      "midi": 62,
+      "length": 2,
+      "amp": 0.13,
+      "pan": 0
+    },
+    {
+      "frame": 228,
+      "midi": 60,
+      "length": 2.1,
+      "amp": 0.1,
+      "pan": -0.5
+    },
+    {
+      "frame": 236,
+      "midi": 67,
+      "length": 1.8,
+      "amp": 0.09,
+      "pan": 0.5
+    }
+  ]
+}

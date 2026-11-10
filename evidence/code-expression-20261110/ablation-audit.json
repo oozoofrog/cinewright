@@ -1,0 +1,89 @@
+[
+  {
+    "label": "without-traces",
+    "audioSourceIdentical": true,
+    "matchingPositions": 480,
+    "comparisonFrame": 479,
+    "main": {
+      "positions": [
+        [
+          -120,
+          295
+        ],
+        [
+          440,
+          330
+        ]
+      ],
+      "traces": [
+        [
+          310,
+          330
+        ],
+        [
+          440,
+          330
+        ]
+      ]
+    },
+    "variant": {
+      "positions": [
+        [
+          -120,
+          295
+        ],
+        [
+          440,
+          330
+        ]
+      ],
+      "traces": []
+    }
+  },
+  {
+    "label": "without-first-visit",
+    "audioSourceIdentical": true,
+    "matchingPositions": 216,
+    "comparisonFrame": 479,
+    "main": {
+      "positions": [
+        [
+          -120,
+          295
+        ],
+        [
+          440,
+          330
+        ]
+      ],
+      "traces": [
+        [
+          310,
+          330
+        ],
+        [
+          440,
+          330
+        ]
+      ]
+    },
+    "variant": {
+      "positions": [
+        [
+          -120,
+          295
+        ],
+        [
+          440,
+          330
+        ]
+      ],
+      "traces": [
+        [
+          440,
+          330
+        ]
+      ]
+    }
+  }
+]

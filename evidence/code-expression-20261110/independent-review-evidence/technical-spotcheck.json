@@ -1,0 +1,55 @@
+{
+  "exampleSourceHashes": {
+    "LICENSE.txt": true,
+    "README.md": true,
+    "build.mjs": true,
+    "cups.mjs": true,
+    "doorway.mjs": true,
+    "fold.mjs": true,
+    "run.mjs": true,
+    "score.mjs": true,
+    "studies.mjs": true,
+    "verify.mjs": true
+  },
+  "delivery": [
+    {
+      "name": "cups",
+      "indexCanonicalAndFileHashMatch": true,
+      "jobRevisionReportMatch": true,
+      "aacSamplesPerChannel": 960000,
+      "aacPeakNormalized": 0.166748046875,
+      "aacFirstNonzeroSeconds": 1.472,
+      "aacLastNonzeroSeconds": 18.832895833333332,
+      "aacTrailingExactSilenceSeconds": 1.1670833333333333,
+      "aacCorrelationWithProjectPCM": 0.9999948774378393,
+      "aacRmsError": 6.368919363256278e-05,
+      "reportAacCorrelationMatches": true
+    },
+    {
+      "name": "doorway",
+      "indexCanonicalAndFileHashMatch": true,
+      "jobRevisionReportMatch": true,
+      "aacSamplesPerChannel": 480000,
+      "aacPeakNormalized": 0.118682861328125,
+      "aacFirstNonzeroSeconds": 0.8106666666666666,
+      "aacLastNonzeroSeconds": 8.447958333333334,
+      "aacTrailingExactSilenceSeconds": 1.5520208333333334,
+      "aacCorrelationWithProjectPCM": 0.9999944358514745,
+      "aacRmsError": 5.424038974332248e-05,
+      "reportAacCorrelationMatches": true
+    },
+    {
+      "name": "fold",
+      "indexCanonicalAndFileHashMatch": true,
+      "jobRevisionReportMatch": true,
+      "aacSamplesPerChannel": 576000,
+      "aacPeakNormalized": 0.11053466796875,
+      "aacFirstNonzeroSeconds": 1.7453333333333334,
+      "aacLastNonzeroSeconds": 11.668791666666667,
+      "aacTrailingExactSilenceSeconds": 0.3311875,
+      "aacCorrelationWithProjectPCM": 0.9999932278201329,
+      "aacRmsError": 6.55503000045599e-05,
+      "reportAacCorrelationMatches": true
+    }
+  ]
+}

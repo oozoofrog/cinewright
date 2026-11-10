@@ -1,0 +1,47 @@
+{
+  "version": 1,
+  "title": "Held in the fold / 접힌 사이",
+  "size": [
+    960,
+    540
+  ],
+  "fps": 24,
+  "frames": 288,
+  "points": {
+    "left": 48,
+    "right": 96,
+    "closed": 156,
+    "reopen": 192,
+    "rest": 240
+  },
+  "spans": {
+    "closing": [
+      48,
+      156
+    ],
+    "held": [
+      156,
+      192
+    ],
+    "opening": [
+      192,
+      240
+    ]
+  },
+  "layers": [
+    {
+      "id": "scene",
+      "module": "scene.mjs"
+    }
+  ],
+  "audio": [
+    {
+      "asset": "score.wav",
+      "sourceIn": 0,
+      "sourceOut": 576000,
+      "at": 0,
+      "gain": 1,
+      "provenance": "Original additive composition in score.mjs. Authored timings, not music analysis or listening verification."
+    }
+  ]
+}

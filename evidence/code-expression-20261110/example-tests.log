@@ -1,0 +1,37 @@
+✖ authored histories, spatial cut and fold retain their distinct time relations under arbitrary seek (2.741625ms)
+✔ three self-contained projects survive freeze/import and refuse to replace existing author files (184.343375ms)
+ℹ tests 2
+ℹ suites 0
+ℹ pass 1
+ℹ fail 1
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 293.649333
+
+✖ failing tests:
+
+test at tests/relation-studies.test.mjs:14:1
+✖ authored histories, spatial cut and fold retain their distinct time relations under arbitrary seek (2.741625ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly deep-equal:
+  + actual - expected
+  
+    {
+  +   left: 0.4500000000000002,
+  +   right: 0.4500000000000002
+  -   left: 0.45,
+  -   right: 0.45
+    }
+  
+      at TestContext.<anonymous> (file:///Volumes/eyedisk/develop/cinewright/tests/relation-studies.test.mjs:25:44)
+      at Test.runInAsyncScope (node:async_hooks:226:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.start (node:internal/test_runner/test:1262:17)
+      at startSubtestAfterBootstrap (node:internal/test_runner/harness:387:17) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: { left: 0.4500000000000002, right: 0.4500000000000002 },
+    expected: { left: 0.45, right: 0.45 },
+    operator: 'deepStrictEqual',
+    diff: 'simple'
+  }

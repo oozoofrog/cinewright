@@ -1,0 +1,45 @@
+{
+  "root": "/Volumes/eyedisk/develop/cinewright/evidence/code-expression-20261110/final",
+  "store": "/Volumes/eyedisk/develop/cinewright/evidence/code-expression-20261110/final/store",
+  "results": [
+    {
+      "name": "cups",
+      "revision": "c5aa4ad8f24dee659526807136d4dd7ffd69b6ef74fb3559c2df831c0231ffd6",
+      "job": "bd4ed029-b0fd-4cf7-927d-e88f83728058",
+      "canonicalOutput": "/Volumes/eyedisk/develop/cinewright/evidence/code-expression-20261110/final/store/jobs/bd4ed029-b0fd-4cf7-927d-e88f83728058/work.mp4",
+      "output": "/Volumes/eyedisk/develop/cinewright/evidence/code-expression-20261110/final/cups.mp4",
+      "sha256": "65d23c112652cf8d84d1907d9bccf6eac3e09e76647f9a9aea744f93aa4bf866",
+      "audio": {
+        "rate": 48000,
+        "samples": 960000,
+        "peak": 0.1665345195223782
+      }
+    },
+    {
+      "name": "doorway",
+      "revision": "bfc7411768e8a9bf444833c20e3e40791c16363e13c92ab10f41379de45aa9b0",
+      "job": "6ec00285-d584-49d3-a75d-4093c6595642",
+      "canonicalOutput": "/Volumes/eyedisk/develop/cinewright/evidence/code-expression-20261110/final/store/jobs/6ec00285-d584-49d3-a75d-4093c6595642/work.mp4",
+      "output": "/Volumes/eyedisk/develop/cinewright/evidence/code-expression-20261110/final/doorway.mp4",
+      "sha256": "7529e495e08e6ee51fb35060b15cbc702069d78e99d78986309a7a20c310e6d4",
+      "audio": {
+        "rate": 48000,
+        "samples": 480000,
+        "peak": 0.11871098561077766
+      }
+    },
+    {
+      "name": "fold",
+      "revision": "7bc926b1fee89b31c4ecb5dd41492c5f218418ddb8f0d1e100f151d579301e17",
+      "job": "c4e61a5b-b897-4756-b97a-717165bc260f",
+      "canonicalOutput": "/Volumes/eyedisk/develop/cinewright/evidence/code-expression-20261110/final/store/jobs/c4e61a5b-b897-4756-b97a-717165bc260f/work.mp4",
+      "output": "/Volumes/eyedisk/develop/cinewright/evidence/code-expression-20261110/final/fold.mp4",
+      "sha256": "b458a6e4ce32d89214c5798f241dac3fd9b3ae8f5b9990210093f7ee6eba3eb6",
+      "audio": {
+        "rate": 48000,
+        "samples": 576000,
+        "peak": 0.11050925672221443
+      }
+    }
+  ]
+}

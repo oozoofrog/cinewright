@@ -1,0 +1,11 @@
+Permission for this example's newly authored material
+
+The newly authored JavaScript in examples/relation-studies/, its original
+Canvas artwork, additive score, and generated artwork/audio/video may be
+used, copied, modified, and redistributed, including commercially, without
+payment or attribution requirements. They are provided without warranty.
+No external song, recording, photograph, font, or sampled instrument is used.
+
+This permission does not relicense Cinewright's pre-existing modules, runtime,
+tools, Three.js, Playwright, Chromium, FFmpeg, or other dependencies. Their
+respective licenses and notices remain applicable.

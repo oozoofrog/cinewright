@@ -1,0 +1,49 @@
+{
+  "title": "The other side / 건너편",
+  "module": "doorway.mjs",
+  "size": [
+    960,
+    540
+  ],
+  "fps": 24,
+  "frames": 240,
+  "points": {
+    "sliver": 48,
+    "open": 84,
+    "reverse": 120,
+    "empty": 180
+  },
+  "spans": {
+    "outside": [
+      0,
+      120
+    ],
+    "inside": [
+      120,
+      240
+    ]
+  },
+  "score": [
+    {
+      "frame": 20,
+      "midi": 45,
+      "length": 2.2,
+      "amp": 0.14,
+      "pan": -0.7
+    },
+    {
+      "frame": 108,
+      "midi": 64,
+      "length": 3.8,
+      "amp": 0.12,
+      "pan": 0.65
+    },
+    {
+      "frame": 128,
+      "midi": 57,
+      "length": 3.1,
+      "amp": 0.1,
+      "pan": -0.1
+    }
+  ]
+}

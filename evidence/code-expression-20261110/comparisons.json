@@ -1,0 +1,23 @@
+[
+  {
+    "label": "fold-shadow-fixed",
+    "revision": "e3f770f2de3d147ccb58bff26b62d473b4f6959903de7e72c9e63b3587aee60a",
+    "job": "9c60bad0-993f-4860-a880-e2358f205e4e",
+    "output": "/Volumes/eyedisk/develop/cinewright/evidence/code-expression-20261110/final/store/jobs/9c60bad0-993f-4860-a880-e2358f205e4e/work.mp4",
+    "sha256": "fce98178d357cde3a1cb237a3cbc503358c79083e7c61b19f46235d085abb3bd"
+  },
+  {
+    "label": "without-traces",
+    "revision": "0f702c9cd5765e7ca1610e34f15f20c0ccb4add2256162a0ec1ea5bb0b0de18c",
+    "job": "36be1169-ca29-4880-b79b-b161e5e6e802",
+    "output": "/Volumes/eyedisk/develop/cinewright/evidence/code-expression-20261110/final/store/jobs/36be1169-ca29-4880-b79b-b161e5e6e802/work.mp4",
+    "sha256": "03e7248e0ae946cad65c262f74faef818fd8787f5d58248eed83d2e9d57ee751"
+  },
+  {
+    "label": "without-first-visit",
+    "revision": "30a71618e892790aa7a25bc54079b2c131bd3835fe4969c502a6631b6684ee2d",
+    "job": "e7b1d293-a12a-473c-858d-1892b3204ff1",
+    "output": "/Volumes/eyedisk/develop/cinewright/evidence/code-expression-20261110/final/store/jobs/e7b1d293-a12a-473c-858d-1892b3204ff1/work.mp4",
+    "sha256": "7ea4af31ee4aa5a9868e6cfe42873c7ba86a63ef330435dcaa4298531b10229a"
+  }
+]

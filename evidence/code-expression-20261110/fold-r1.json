@@ -1,0 +1,13 @@
+{
+  "name": "fold",
+  "revision": "7bc926b1fee89b31c4ecb5dd41492c5f218418ddb8f0d1e100f151d579301e17",
+  "job": "c4e61a5b-b897-4756-b97a-717165bc260f",
+  "canonicalOutput": "/Volumes/eyedisk/develop/cinewright/evidence/code-expression-20261110/final/store/jobs/c4e61a5b-b897-4756-b97a-717165bc260f/work.mp4",
+  "output": "/Volumes/eyedisk/develop/cinewright/evidence/code-expression-20261110/final/fold.mp4",
+  "sha256": "b458a6e4ce32d89214c5798f241dac3fd9b3ae8f5b9990210093f7ee6eba3eb6",
+  "audio": {
+    "rate": 48000,
+    "samples": 576000,
+    "peak": 0.11050925672221443
+  }
+}

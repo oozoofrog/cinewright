@@ -1,0 +1,208 @@
+{
+  "title": "Two, after / 둘이 지난 자리",
+  "module": "cups.mjs",
+  "size": [
+    960,
+    540
+  ],
+  "fps": 24,
+  "frames": 480,
+  "points": {
+    "approach": 60,
+    "near": 120,
+    "answer": 168,
+    "together": 240,
+    "departure": 264,
+    "absent": 312,
+    "return": 336,
+    "settled": 384
+  },
+  "spans": {
+    "approach": [
+      60,
+      120
+    ],
+    "together": [
+      240,
+      264
+    ],
+    "absence": [
+      264,
+      336
+    ],
+    "inheritance": [
+      336,
+      480
+    ]
+  },
+  "tracks": {
+    "a": [
+      {
+        "frame": 0,
+        "value": [
+          310,
+          330
+        ],
+        "interpolation": "hold"
+      },
+      {
+        "frame": 60,
+        "value": [
+          310,
+          330
+        ],
+        "interpolation": "smoothstep"
+      },
+      {
+        "frame": 120,
+        "value": [
+          440,
+          330
+        ],
+        "interpolation": "hold"
+      },
+      {
+        "frame": 264,
+        "value": [
+          440,
+          330
+        ],
+        "interpolation": "smoothstep"
+      },
+      {
+        "frame": 312,
+        "value": [
+          -120,
+          295
+        ],
+        "interpolation": "hold"
+      },
+      {
+        "frame": 479,
+        "value": [
+          -120,
+          295
+        ],
+        "interpolation": "smoothstep"
+      }
+    ],
+    "b": [
+      {
+        "frame": 0,
+        "value": [
+          650,
+          330
+        ],
+        "interpolation": "hold"
+      },
+      {
+        "frame": 168,
+        "value": [
+          650,
+          330
+        ],
+        "interpolation": "smoothstep"
+      },
+      {
+        "frame": 240,
+        "value": [
+          570,
+          330
+        ],
+        "interpolation": "hold"
+      },
+      {
+        "frame": 336,
+        "value": [
+          570,
+          330
+        ],
+        "interpolation": "smoothstep"
+      },
+      {
+        "frame": 384,
+        "value": [
+          440,
+          330
+        ],
+        "interpolation": "hold"
+      },
+      {
+        "frame": 479,
+        "value": [
+          440,
+          330
+        ],
+        "interpolation": "smoothstep"
+      }
+    ]
+  },
+  "placements": [
+    {
+      "from": 60,
+      "position": [
+        310,
+        330
+      ]
+    },
+    {
+      "from": 264,
+      "position": [
+        440,
+        330
+      ]
+    }
+  ],
+  "traceAlpha": 0.34,
+  "score": [
+    {
+      "frame": 36,
+      "midi": 48,
+      "length": 2.6,
+      "amp": 0.19,
+      "pan": -0.6
+    },
+    {
+      "frame": 60,
+      "midi": 67,
+      "length": 2.1,
+      "amp": 0.13,
+      "pan": -0.4
+    },
+    {
+      "frame": 172,
+      "midi": 62,
+      "length": 2.5,
+      "amp": 0.16,
+      "pan": 0.6
+    },
+    {
+      "frame": 242,
+      "midi": 60,
+      "length": 2.8,
+      "amp": 0.14,
+      "pan": 0
+    },
+    {
+      "frame": 242,
+      "midi": 67,
+      "length": 2.8,
+      "amp": 0.1,
+      "pan": 0.3
+    },
+    {
+      "frame": 330,
+      "midi": 55,
+      "length": 2.4,
+      "amp": 0.12,
+      "pan": 0.3
+    },
+    {
+      "frame": 384,
+      "midi": 62,
+      "length": 2.8,
+      "amp": 0.1,
+      "pan": -0.2
+    }
+  ]
+}

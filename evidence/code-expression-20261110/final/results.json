@@ -1,0 +1,44 @@
+{
+  "store": "/Volumes/eyedisk/develop/cinewright/evidence/code-expression-20261110/final/store",
+  "results": [
+    {
+      "name": "cups",
+      "revision": "c5aa4ad8f24dee659526807136d4dd7ffd69b6ef74fb3559c2df831c0231ffd6",
+      "job": "bd4ed029-b0fd-4cf7-927d-e88f83728058",
+      "canonicalOutput": "/Volumes/eyedisk/develop/cinewright/evidence/code-expression-20261110/final/store/jobs/bd4ed029-b0fd-4cf7-927d-e88f83728058/work.mp4",
+      "output": "/Volumes/eyedisk/develop/cinewright/evidence/code-expression-20261110/final/cups.mp4",
+      "sha256": "65d23c112652cf8d84d1907d9bccf6eac3e09e76647f9a9aea744f93aa4bf866",
+      "audio": {
+        "rate": 48000,
+        "samples": 960000,
+        "peak": 0.1665345195223782
+      }
+    },
+    {
+      "name": "doorway",
+      "revision": "bfc7411768e8a9bf444833c20e3e40791c16363e13c92ab10f41379de45aa9b0",
+      "job": "6ec00285-d584-49d3-a75d-4093c6595642",
+      "canonicalOutput": "/Volumes/eyedisk/develop/cinewright/evidence/code-expression-20261110/final/store/jobs/6ec00285-d584-49d3-a75d-4093c6595642/work.mp4",
+      "output": "/Volumes/eyedisk/develop/cinewright/evidence/code-expression-20261110/final/doorway.mp4",
+      "sha256": "7529e495e08e6ee51fb35060b15cbc702069d78e99d78986309a7a20c310e6d4",
+      "audio": {
+        "rate": 48000,
+        "samples": 480000,
+        "peak": 0.11871098561077766
+      }
+    },
+    {
+      "name": "fold",
+      "revision": "e3f770f2de3d147ccb58bff26b62d473b4f6959903de7e72c9e63b3587aee60a",
+      "job": "9c60bad0-993f-4860-a880-e2358f205e4e",
+      "canonicalOutput": "/Volumes/eyedisk/develop/cinewright/evidence/code-expression-20261110/final/store/jobs/9c60bad0-993f-4860-a880-e2358f205e4e/work.mp4",
+      "output": "/Volumes/eyedisk/develop/cinewright/evidence/code-expression-20261110/final/fold.mp4",
+      "sha256": "fce98178d357cde3a1cb237a3cbc503358c79083e7c61b19f46235d085abb3bd",
+      "audio": {
+        "rate": 48000,
+        "samples": 576000,
+        "peak": 0.11050925672221443
+      }
+    }
+  ]
+}

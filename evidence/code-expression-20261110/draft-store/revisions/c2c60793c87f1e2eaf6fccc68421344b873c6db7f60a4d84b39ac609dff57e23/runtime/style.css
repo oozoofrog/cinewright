@@ -1,0 +1,13 @@
+:root { color-scheme: dark; font: 16px system-ui, sans-serif; }
+body { margin: 0; background: #101218; color: #f1ebdf; }
+main { max-width: 1000px; margin: auto; padding: 1.5rem; }
+h1 { font-weight: 650; font-size: clamp(1.3rem, 3vw, 2rem); }
+canvas, video { display: block; width: 100%; height: auto; background: #0a0c12; }
+section { display: flex; flex-wrap: wrap; align-items: center; gap: .8rem; margin: 1rem 0; }
+button, select { font: inherit; min-height: 36px; border: 1px solid #687485; border-radius: .3rem; padding: .35rem .7rem; background: #222935; color: inherit; }
+label { display: inline-flex; align-items: center; gap: .45rem; }
+output, #revision { font-variant-numeric: tabular-nums; color: #b4c2d1; }
+#error { color: #ffb7a7; }
+a { color: #add9ff; }
+figure { min-width: 0; margin: 0; }
+#films { display: grid; grid-template-columns: repeat(auto-fit,minmax(min(100%,380px),1fr)); align-items: start; gap: 1.25rem; }

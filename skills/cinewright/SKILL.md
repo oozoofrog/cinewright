@@ -10,3 +10,5 @@ description: 원화, 벡터, 절차적 그래픽, 3D, 활자와 소리를 사용
 실행 전 플러그인 루트에 의존성이 없으면 그 디렉터리에서 `npm ci`를 실행한다. Node.js 22 이상, FFmpeg/FFprobe와 Chromium이 필요하다. 설치된 플러그인 루트의 절대 경로로 `scripts/direction.mjs`를 실행하고, 현재 작업 디렉터리는 사용자의 프로젝트에 둔다. 기본 `.direction/` 기록은 현재 작업 디렉터리에 생성된다. 다른 위치가 필요하면 `--store`를 사용한다.
 
 로컬 음악 제작도 상위 SKILL의 `references/music.md` 경로를 따른다. 음악 명령과 기존 브라우저 player를 재사용하며 별도 편집 앱이나 전역 설치 변경을 전제하지 않는다.
+
+제작의 시작 질문과 시간 속 관계에서 코드·출력·검토로 이어지는 순서는 상위 SKILL과 [작법 실행](../../references/craft-execution.md)을 따른다. 공개 관계 연구 예제의 경로는 플러그인 루트의 `examples/relation-studies/`이며 실행 및 출력 검증 상태를 확인하고 사용한다.

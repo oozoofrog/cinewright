@@ -1,0 +1,42 @@
+{
+  "version": 1,
+  "title": "The other side / 건너편",
+  "size": [
+    960,
+    540
+  ],
+  "fps": 24,
+  "frames": 240,
+  "points": {
+    "sliver": 48,
+    "open": 84,
+    "reverse": 120,
+    "empty": 180
+  },
+  "spans": {
+    "outside": [
+      0,
+      120
+    ],
+    "inside": [
+      120,
+      240
+    ]
+  },
+  "layers": [
+    {
+      "id": "scene",
+      "module": "scene.mjs"
+    }
+  ],
+  "audio": [
+    {
+      "asset": "score.wav",
+      "sourceIn": 0,
+      "sourceOut": 480000,
+      "at": 0,
+      "gain": 1,
+      "provenance": "Original additive composition in score.mjs. Authored timings, not music analysis or listening verification."
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+✔ authored histories, spatial cut and fold retain their distinct time relations under arbitrary seek (5.180584ms)
+✔ three self-contained projects survive freeze/import and refuse to replace existing author files (222.461625ms)
+ℹ tests 2
+ℹ suites 0
+ℹ pass 2
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 335.186583

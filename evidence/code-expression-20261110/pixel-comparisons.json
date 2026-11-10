@@ -1,0 +1,54 @@
+[
+  {
+    "comparison": "cups-trace-revision",
+    "frame": 320,
+    "changedBounds": [
+      253,
+      333,
+      496,
+      369
+    ],
+    "changedPixels": 2508,
+    "a": "/Volumes/eyedisk/develop/cinewright/evidence/code-expression-20261110/draft-store/jobs/fe6d9c47-e866-4e85-a2c5-4341c530ee65/frames/0000320.png",
+    "b": "/Volumes/eyedisk/develop/cinewright/evidence/code-expression-20261110/delivery/store/jobs/c465a0b6-7dc5-4b55-9fe9-469d4e1d7a05/frames/0000320.png"
+  },
+  {
+    "comparison": "fold-shadow-revision",
+    "frame": 156,
+    "changedBounds": [
+      260,
+      352,
+      698,
+      380
+    ],
+    "changedPixels": 6168,
+    "a": "/Volumes/eyedisk/develop/cinewright/evidence/code-expression-20261110/final/store/jobs/c4e61a5b-b897-4756-b97a-717165bc260f/frames/0000156.png",
+    "b": "/Volumes/eyedisk/develop/cinewright/evidence/code-expression-20261110/final/store/jobs/9c60bad0-993f-4860-a880-e2358f205e4e/frames/0000156.png"
+  },
+  {
+    "comparison": "without-traces",
+    "frame": 320,
+    "changedBounds": [
+      253,
+      333,
+      493,
+      369
+    ],
+    "changedPixels": 1960,
+    "a": "/Volumes/eyedisk/develop/cinewright/evidence/code-expression-20261110/delivery/store/jobs/c465a0b6-7dc5-4b55-9fe9-469d4e1d7a05/frames/0000320.png",
+    "b": "/Volumes/eyedisk/develop/cinewright/evidence/code-expression-20261110/final/store/jobs/36be1169-ca29-4880-b79b-b161e5e6e802/frames/0000320.png"
+  },
+  {
+    "comparison": "without-first-visit",
+    "frame": 479,
+    "changedBounds": [
+      253,
+      333,
+      363,
+      369
+    ],
+    "changedPixels": 980,
+    "a": "/Volumes/eyedisk/develop/cinewright/evidence/code-expression-20261110/delivery/store/jobs/c465a0b6-7dc5-4b55-9fe9-469d4e1d7a05/frames/0000479.png",
+    "b": "/Volumes/eyedisk/develop/cinewright/evidence/code-expression-20261110/final/store/jobs/e7b1d293-a12a-473c-858d-1892b3204ff1/frames/0000479.png"
+  }
+]
