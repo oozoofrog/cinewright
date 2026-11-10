@@ -1,0 +1,845 @@
+{
+  "schema_version": 1,
+  "title": "Music Box Dancer 후속 작법·동역학 연구 출처장부",
+  "accessed_on": "2026-11-09",
+  "counting_rule": "핵심 자료군24건(T8/A7/B7/D2). 동일 문서의 버전·정책·노출 설명 보조페이지는 related_verified_pages에 포함하며 별도 핵심자료로 중복 집계하지 않음.",
+  "sources": [
+    {
+      "id": "T01",
+      "category": "기술",
+      "title": "Inverse Kinematics (IK)",
+      "authors_or_institution": [
+        "Autodesk"
+      ],
+      "publication_year": null,
+      "version_or_revision": "Maya 2022",
+      "url": "https://help.autodesk.com/cloudhelp/2022/ENU/Maya-CharacterAnimation/files/GUID-07C3BA47-32BB-477B-B6C5-1090E5C9B81C.htm",
+      "doi": null,
+      "accessed_on": "2026-11-09",
+      "access_timezone": "Asia/Seoul",
+      "source_type": "공식 문서",
+      "evidence_level": "도구의 동작 계약; 품질 실험 아님",
+      "access_method": "web search 후 원문 열기",
+      "read_sections_or_pages": [
+        "본문 전체",
+        "Important Notes"
+      ],
+      "supported_claims": [
+        "IK handle 위치에 따라 solver가 chain의 관절 회전을 계산한다.",
+        "완전히 일직선인 chain을 피하라는 주의가 있다."
+      ],
+      "access_limits": "Maya 2022 문서로 개념만 참고. 현재 Cinewright의 solver 구현을 검사한 자료가 아니다.",
+      "license": null,
+      "related_verified_pages": []
+    },
+    {
+      "id": "T02",
+      "category": "기술",
+      "title": "Pose Space Deformation: A Unified Approach to Shape Interpolation and Skeleton-Driven Deformation",
+      "authors_or_institution": [
+        "J. P. Lewis",
+        "Matt Cordner",
+        "Nickson Fong"
+      ],
+      "publication_year": 2000,
+      "version_or_revision": null,
+      "url": "https://scribblethink.org/Work/PSD/PSD.pdf",
+      "doi": null,
+      "accessed_on": "2026-11-09",
+      "access_timezone": "Asia/Seoul",
+      "source_type": "원저자 논문",
+      "evidence_level": "원저자 기술 연구; 이번 작품에서 재현하지 않음",
+      "access_method": "web search 후 원문 열기",
+      "read_sections_or_pages": [
+        "PDF 1–3쪽: Introduction, §2.3.1–2.3.2",
+        "PDF 5–6쪽: §4, §4.1"
+      ],
+      "supported_claims": [
+        "선형 skinning의 collapsing elbow와 shape interpolation의 경로 한계를 설명한다.",
+        "포즈에서 저작한 표면 보정을 local frame 차이로 표현하고 pose space에서 보간한다."
+      ],
+      "access_limits": "8쪽 PDF 중 지정 절을 읽음. 전체 수식 재유도·코드 재현·성능 시험은 하지 않았다. 2D 방향은행 적용은 연구자의 추론.",
+      "license": null,
+      "related_verified_pages": []
+    },
+    {
+      "id": "T03",
+      "category": "기술",
+      "title": "KeyframeTrack",
+      "authors_or_institution": [
+        "three.js contributors"
+      ],
+      "publication_year": null,
+      "version_or_revision": "three.js r180",
+      "url": "https://raw.githubusercontent.com/mrdoob/three.js/r180/docs/api/en/animation/KeyframeTrack.html",
+      "doi": null,
+      "accessed_on": "2026-11-09",
+      "access_timezone": "Asia/Seoul",
+      "source_type": "공식 문서",
+      "evidence_level": "도구의 동작 계약; 품질 실험 아님",
+      "access_method": "web search 후 원문 열기",
+      "read_sections_or_pages": [
+        "시간/값 배열 설명",
+        "Constructor",
+        "createInterpolant / InterpolantFactoryMethod*",
+        "setInterpolation / validate"
+      ],
+      "supported_claims": [
+        "시간과 속성값을 별도 배열에 저장한다.",
+        "linear/cubic/discrete interpolant를 선택하며 기본값은 linear다.",
+        "validate는 최소 구조 검사다."
+      ],
+      "access_limits": "r180 고정 문서 원문. 문서의 validate 통과는 동작·형태 품질 보증이 아니다.",
+      "license": null,
+      "related_verified_pages": []
+    },
+    {
+      "id": "T04",
+      "category": "기술",
+      "title": "Large Steps in Cloth Simulation",
+      "authors_or_institution": [
+        "David Baraff",
+        "Andrew Witkin"
+      ],
+      "publication_year": 1998,
+      "version_or_revision": null,
+      "url": "https://www.cs.cmu.edu/~baraff/papers/sig98.pdf",
+      "doi": "10.1145/280814.280821",
+      "accessed_on": "2026-11-09",
+      "access_timezone": "Asia/Seoul",
+      "source_type": "원저자 논문",
+      "evidence_level": "원저자 기술 연구; 이번 작품에서 재현하지 않음",
+      "access_method": "web search 후 원문 열기",
+      "read_sections_or_pages": [
+        "PDF 1쪽 Abstract / §1",
+        "PDF 2–4쪽 시간 적분과 §4 시작",
+        "PDF 4–6쪽 §4.2–4.5의 stretch/shear/bend/damping 구분"
+      ],
+      "supported_claims": [
+        "천을 삼각형 mesh와 질량·힘·제약으로 모델링한다.",
+        "stiff system의 안정성을 위해 implicit integration을 사용한다.",
+        "늘어남·전단·굽힘·감쇠를 구분한다."
+      ],
+      "access_limits": "12쪽 중 지정 절. 논문의 solver를 구현하거나 현재 치마가 물리 천이라고 검증하지 않았다.",
+      "license": {
+        "scope": "논문 전자 재인쇄본",
+        "terms": "PDF 1쪽은 제목·저작권 고지를 포함한 비상업 복사를 허용. 원 인쇄본 ACM 저작권. 코드·의상·영상 재사용 권한과 별개."
+      },
+      "related_verified_pages": []
+    },
+    {
+      "id": "T05",
+      "category": "기술",
+      "title": "Color Management",
+      "authors_or_institution": [
+        "three.js contributors"
+      ],
+      "publication_year": null,
+      "version_or_revision": "three.js r180",
+      "url": "https://raw.githubusercontent.com/mrdoob/three.js/r180/manual/en/color-management.html",
+      "doi": null,
+      "accessed_on": "2026-11-09",
+      "access_timezone": "Asia/Seoul",
+      "source_type": "공식 문서",
+      "evidence_level": "도구의 동작 계약; 품질 실험 아님",
+      "access_method": "web search 후 원문 열기",
+      "read_sections_or_pages": [
+        "What is a color space?",
+        "Roles of color spaces",
+        "Common mistakes"
+      ],
+      "supported_claims": [
+        "작업 공간 Linear-sRGB와 입력/출력 색공간의 역할을 구분한다.",
+        "색 텍스처와 비색 데이터 텍스처에 서로 다른 colorSpace를 지정한다.",
+        "입출력 변환 오류는 밝기 조절만으로 해결되지 않는다."
+      ],
+      "access_limits": "r180 원문과 현재 공식 페이지를 모두 확인. 현재 2D Canvas 합성에 Three API를 그대로 적용할 수 있다는 뜻이 아니다.",
+      "license": null,
+      "related_verified_pages": [
+        {
+          "title": "Color Management (현재 공식 페이지)",
+          "url": "https://threejs.org/manual/pages/color-management.html",
+          "read": "전체 본문; r180과 주요 색공간 개념 대조"
+        }
+      ]
+    },
+    {
+      "id": "T06",
+      "category": "기술",
+      "title": "Material",
+      "authors_or_institution": [
+        "three.js contributors"
+      ],
+      "publication_year": null,
+      "version_or_revision": "three.js r180",
+      "url": "https://raw.githubusercontent.com/mrdoob/three.js/r180/docs/api/en/materials/Material.html",
+      "doi": null,
+      "accessed_on": "2026-11-09",
+      "access_timezone": "Asia/Seoul",
+      "source_type": "공식 문서",
+      "evidence_level": "도구의 동작 계약; 품질 실험 아님",
+      "access_method": "web search 후 원문 열기",
+      "read_sections_or_pages": [
+        "alphaTest",
+        "alphaToCoverage",
+        "depthWrite",
+        "opacity",
+        "premultipliedAlpha",
+        "transparent"
+      ],
+      "supported_claims": [
+        "alphaTest와 blending은 다른 투명 처리다.",
+        "alphaToCoverage는 MSAA-enabled context를 요구한다.",
+        "premultipliedAlpha와 transparent는 명시적 설정이다."
+      ],
+      "access_limits": "r180 고정 원문. 이 속성들은 WebGL material 계약이며 현재 PNG 테두리 결함의 원인을 특정한 자료가 아니다.",
+      "license": null,
+      "related_verified_pages": []
+    },
+    {
+      "id": "T07",
+      "category": "기술",
+      "title": "How to Use Deformers",
+      "authors_or_institution": [
+        "Toon Boom Animation"
+      ],
+      "publication_year": null,
+      "version_or_revision": "Harmony 25; 두 페이지 footer 2026-03-26 갱신",
+      "url": "https://docs.toonboom.com/help/harmony-25/premium/getting-started/deformation.html",
+      "doi": null,
+      "accessed_on": "2026-11-09",
+      "access_timezone": "Asia/Seoul",
+      "source_type": "공식 문서",
+      "evidence_level": "도구의 동작 계약; 품질 실험 아님",
+      "access_method": "실제 웹검색 + 공식 HTML 직접 HTTP 열기(urllib, 200)",
+      "read_sections_or_pages": [
+        "Bone / Curve / Envelope / Free Form / Shape-Aware Deformer",
+        "Creating Deformers",
+        "보조 페이지: Setting the Exposure Hold 전체"
+      ],
+      "supported_claims": [
+        "deformer별로 관절·윤곽·내부 texture 변형의 역할이 다르다.",
+        "계층의 레이어를 변형영역 밖으로 옮기면 과도하게 왜곡될 수 있다.",
+        "drawing의 2/3프레임 노출과 빠른 동작의 예외를 설명한다."
+      ],
+      "access_limits": "웹 열기 도구는 404를 반환했으나 동일 공식 URL을 Python urllib로 직접 요청해 200 HTML 본문을 읽음. 설치·제품 시험·내장 영상 시청 없음. Setting the Exposure Hold는 별도 제목의 보조페이지이며 related_verified_pages에 기록.",
+      "license": null,
+      "related_verified_pages": [
+        {
+          "title": "Setting the Exposure Hold",
+          "url": "https://docs.toonboom.com/help/harmony-25/essentials/timing/hold-exposure.html",
+          "read": "직접 HTML 요청으로 전체 본문과 갱신일 확인"
+        }
+      ]
+    },
+    {
+      "id": "T08",
+      "category": "기술",
+      "title": "Meander Animation Tool",
+      "authors_or_institution": [
+        "Walt Disney Animation Studios"
+      ],
+      "publication_year": 2017,
+      "version_or_revision": "July 2017, updated September 2019",
+      "url": "https://www.disneyanimation.com/technology/meander-1/",
+      "doi": null,
+      "accessed_on": "2026-11-09",
+      "access_timezone": "Asia/Seoul",
+      "source_type": "공식 문서",
+      "evidence_level": "도구의 동작 계약; 품질 실험 아님",
+      "access_method": "web search 후 원문 열기",
+      "read_sections_or_pages": [
+        "The Science Behind Meander",
+        "Why Use This Approach?",
+        "A More Technical Overview"
+      ],
+      "supported_claims": [
+        "벡터 획의 기하·폭·색·펜 정보를 저장하고 raster 방식으로 렌더한다.",
+        "유사한 drawing 사이 획 보간을 지원하지만 예술적 선택은 시스템이 하지 않는다.",
+        "Paperman에서 획을 3D 캐릭터에 붙여 운반했다."
+      ],
+      "access_limits": "공식 제작 설명과 정지 예시만 확인. Meander 배포·라이선스·Cinewright 연동 가능성은 확인하지 않았다. 내장 영상 미시청.",
+      "license": null,
+      "related_verified_pages": []
+    },
+    {
+      "id": "A01",
+      "category": "예술",
+      "title": "Staging: The 12 Basic Principles of Animation",
+      "authors_or_institution": [
+        "John Nguyen",
+        "Animation Mentor"
+      ],
+      "publication_year": 2017,
+      "version_or_revision": null,
+      "url": "https://www.animationmentor.com/blog/staging-the-12-basic-principles-of-animation/",
+      "doi": null,
+      "accessed_on": "2026-11-09",
+      "access_timezone": "Asia/Seoul",
+      "source_type": "전문 교육",
+      "evidence_level": "교육·제작 경험규칙; 생체역학 실험 아님",
+      "access_method": "web search 후 원문 열기",
+      "read_sections_or_pages": [
+        "Halves and thirds",
+        "Lines of focus",
+        "Screen direction"
+      ],
+      "supported_claims": [
+        "배치·명암·시선 방향 등으로 관객의 주의를 유도한다.",
+        "staging을 연기·타이밍·촬영·배경과 연결한다."
+      ],
+      "access_limits": "2017-06-12 게시. 글과 정지 예시를 읽음. 3분할이 모든 화면의 정답이라는 실험 근거는 아니다.",
+      "license": null,
+      "related_verified_pages": []
+    },
+    {
+      "id": "A02",
+      "category": "예술",
+      "title": "Slow In and Slow Out: The 12 Basic Principles of Animation",
+      "authors_or_institution": [
+        "Kevin Koch",
+        "Animation Mentor"
+      ],
+      "publication_year": 2017,
+      "version_or_revision": null,
+      "url": "https://www.animationmentor.com/blog/slow-in-and-slow-out-the-12-basic-principles-of-animation/",
+      "doi": null,
+      "accessed_on": "2026-11-09",
+      "access_timezone": "Asia/Seoul",
+      "source_type": "전문 교육",
+      "evidence_level": "교육·제작 경험규칙; 생체역학 실험 아님",
+      "access_method": "web search 후 원문 열기",
+      "read_sections_or_pages": [
+        "Maya spacing is generic",
+        "Spacing is not Timing",
+        "Spacing applies to your character, not the Graph Editor curves",
+        "Spacing applies to every part of the body"
+      ],
+      "supported_claims": [
+        "timing은 사건 시점/길이, spacing은 움직임의 진행 방식이다.",
+        "곡선 창보다 화면 속 캐릭터의 실제 간격과 호를 봐야 한다.",
+        "각 부위의 spacing을 동일하게 만들지 않도록 권한다."
+      ],
+      "access_limits": "2017-06-21 게시. 본문 확인, 삽입영상 미시청. 글의 물리 설명은 교육용 요약이며 엄밀한 인체 모델이 아니다.",
+      "license": null,
+      "related_verified_pages": []
+    },
+    {
+      "id": "A03",
+      "category": "예술",
+      "title": "Follow-through and Overlapping Action: The 12 Basic Principles of Animation",
+      "authors_or_institution": [
+        "Drew Adams",
+        "Animation Mentor"
+      ],
+      "publication_year": 2017,
+      "version_or_revision": null,
+      "url": "https://www.animationmentor.com/blog/follow-through-and-overlapping-action-the-12-basic-principles-of-animation/",
+      "doi": null,
+      "accessed_on": "2026-11-09",
+      "access_timezone": "Asia/Seoul",
+      "source_type": "전문 교육",
+      "evidence_level": "교육·제작 경험규칙; 생체역학 실험 아님",
+      "access_method": "web search 후 원문 열기",
+      "read_sections_or_pages": [
+        "What Is Overlap, Drag, and Follow-Through?",
+        "How To Practice Overlapping Action",
+        "Overlapping Action In The Spine",
+        "Additional Overlapping Action"
+      ],
+      "supported_claims": [
+        "후행의 양·타이밍은 재질과 연결 강도, 구동 동작에 따라 달라진다.",
+        "골반·흉곽·머리를 하나의 강체처럼 동시에 움직이는 경직을 지적한다."
+      ],
+      "access_limits": "2017-06-19 게시. 글만 확인. pendulum은 교육적 비유이며 능동적으로 움직이는 인간의 전신 제어와 같지 않다.",
+      "license": null,
+      "related_verified_pages": []
+    },
+    {
+      "id": "A04",
+      "category": "예술",
+      "title": "Tutorial: Building Appealing Character Poses for Animation",
+      "authors_or_institution": [
+        "Animation Mentor",
+        "Anthony Wong (강의자)"
+      ],
+      "publication_year": 2026,
+      "version_or_revision": null,
+      "url": "https://www.animationmentor.com/blog/tutorial-building-appealing-character-poses-for-animation/",
+      "doi": null,
+      "accessed_on": "2026-11-09",
+      "access_timezone": "Asia/Seoul",
+      "source_type": "전문 교육",
+      "evidence_level": "교육·제작 경험규칙; 생체역학 실험 아님",
+      "access_method": "web search 후 원문 열기",
+      "read_sections_or_pages": [
+        "Four Elements to Judge Your Pose",
+        "Managing Complexity and Negative Space",
+        "Line of Action and Contrapposto",
+        "Building for a Camera, Keeping 3D Integrity",
+        "Using Bend Bow Controls Wisely"
+      ],
+      "supported_claims": [
+        "의미·실루엣·action line·counter-pose로 포즈를 검토한다.",
+        "손과 얼굴의 판독, negative space, 시각적 묶음과 초점을 다룬다.",
+        "bend bow는 나쁜 포즈를 구하지 못하며 polish의 도구라고 구분한다."
+      ],
+      "access_limits": "2026-04-07 게시. www URL의 초기 timeout/403 후 non-www 공식 URL의 redirect로 글 본문을 열어 확인. 강의 영상 전체 미시청.",
+      "license": null,
+      "related_verified_pages": []
+    },
+    {
+      "id": "A05",
+      "category": "예술",
+      "title": "Lighting — The Science Behind Pixar",
+      "authors_or_institution": [
+        "Museum of Science, Boston",
+        "Pixar Animation Studios"
+      ],
+      "publication_year": null,
+      "version_or_revision": null,
+      "url": "https://sciencebehindpixar.org/pipeline/lighting",
+      "doi": null,
+      "accessed_on": "2026-11-09",
+      "access_timezone": "Asia/Seoul",
+      "source_type": "공식 교육",
+      "evidence_level": "기관의 교육·평가 기준; 미학의 보편 법칙 아님",
+      "access_method": "web search 후 원문 열기",
+      "read_sections_or_pages": [
+        "Lighting 본문",
+        "Luca 사례 설명",
+        "What does a lighting technical designer do?"
+      ],
+      "supported_claims": [
+        "조명은 주목 위치와 정서를 돕는다.",
+        "최종 조명에서 덜 중요한 부분을 그림자로 물리는 사례를 설명한다."
+      ],
+      "access_limits": "Pixar 공동 개발 전시의 본문과 정지 이미지. 영상 미시청. 3D 조명 사례를 2D 색면 설계에 옮기는 것은 제작적 추론.",
+      "license": null,
+      "related_verified_pages": []
+    },
+    {
+      "id": "A06",
+      "category": "예술",
+      "title": "RAD exams – specifications, rules and regulations",
+      "authors_or_institution": [
+        "Royal Academy of Dance"
+      ],
+      "publication_year": 2025,
+      "version_or_revision": "June 2025 유효판",
+      "url": "https://assets.royalacademyofdance.org/wp-content/uploads/2025/06/RAD-Specifications-012025_9.pdf",
+      "doi": null,
+      "accessed_on": "2026-11-09",
+      "access_timezone": "Asia/Seoul",
+      "source_type": "공식 교육",
+      "evidence_level": "기관의 교육·평가 기준; 미학의 보편 법칙 아님",
+      "access_method": "web search 후 원문 열기",
+      "read_sections_or_pages": [
+        "표지: In place from June 2025",
+        "인쇄 167쪽(PDF 167쪽): Technique / Music 용어 정의",
+        "인쇄 168쪽(PDF 168쪽): Performance 용어 정의"
+      ],
+      "supported_claims": [
+        "timing과 phrasing·dynamics·atmosphere에 대한 responsiveness를 구분한다.",
+        "전신 coordination에 torso·limbs·head·eye focus를 포함한다.",
+        "한두 다리 위 중심 배치와 지지 이동을 평가 용어로 구분한다."
+      ],
+      "access_limits": "209쪽 PDF 중 표지와 167–168쪽만 읽음. 2026년 현재 시험 규정 전체를 검증한 것이 아니며 이번 애니메이션 평가표로 그대로 채점하지 않는다.",
+      "license": null,
+      "related_verified_pages": []
+    },
+    {
+      "id": "A07",
+      "category": "예술",
+      "title": "Dancing Notes: Analyzing Music and Dance in George Balanchine’s Ballets",
+      "authors_or_institution": [
+        "Kara Yoo Leaman",
+        "The George Balanchine Foundation"
+      ],
+      "publication_year": null,
+      "version_or_revision": null,
+      "url": "https://balanchine.org/dancing-notes/",
+      "doi": null,
+      "accessed_on": "2026-11-09",
+      "access_timezone": "Asia/Seoul",
+      "source_type": "공식 교육",
+      "evidence_level": "기관의 교육·평가 기준; 미학의 보편 법칙 아님",
+      "access_method": "web search 후 원문 열기",
+      "read_sections_or_pages": [
+        "소개",
+        "Balanchine & Music: FROM THE MUSICAL SCORE… / … TO THE DANCE",
+        "DANCING NOTES / Analyzing Balanchine’s Musicality"
+      ],
+      "supported_claims": [
+        "음악 패턴을 복제하는 관계와 보완하는 안무 패턴을 함께 설명한다.",
+        "악보 학습·청취와 복수 층위의 음악-움직임 분석을 제시한다."
+      ],
+      "access_limits": "프로젝트 소개 본문과 해설만 읽음. 연결 영상 5편·악보·유료 학술논문 전체는 열람하지 않았다. 특정 스타일 모방 권고가 아니다.",
+      "license": null,
+      "related_verified_pages": []
+    },
+    {
+      "id": "B01",
+      "category": "인체·무용",
+      "title": "Underactuated Robotics — Humanoid Control",
+      "authors_or_institution": [
+        "Russ Tedrake",
+        "MIT"
+      ],
+      "publication_year": null,
+      "version_or_revision": null,
+      "url": "https://underactuated.mit.edu/humanoids.html",
+      "doi": null,
+      "accessed_on": "2026-11-09",
+      "access_timezone": "Asia/Seoul",
+      "source_type": "공식 교육",
+      "evidence_level": "기관의 교육·평가 기준; 미학의 보편 법칙 아님",
+      "access_method": "web search 후 원문 열기",
+      "read_sections_or_pages": [
+        "Center of mass dynamics",
+        "Center of pressure (CoP) and Zero-moment point (ZMP)",
+        "The special case of flat terrain",
+        "ZMP derivation"
+      ],
+      "supported_claims": [
+        "COM dynamics와 접촉력·각운동량의 관계를 설명한다.",
+        "평면 접촉 가정에서 COP는 접촉점 볼록껍질 안에 놓인다.",
+        "COM 위치만으로 동적 균형 전체를 판정할 수 없다."
+      ],
+      "access_limits": "살아 있는 로봇제어 강의자료의 지정 절. 인체 실험·오르골 축 모델·현재 작품의 질량 추정은 아니다. 버전 날짜 미표기.",
+      "license": null,
+      "related_verified_pages": []
+    },
+    {
+      "id": "B02",
+      "category": "인체·무용",
+      "title": "Kinematic Analysis of Postural Stability During Ballet Turns (pirouettes) in Experienced and Novice Dancers",
+      "authors_or_institution": [
+        "Chai-Wei Lin",
+        "Fong-Chin Su",
+        "Cheng-Feng Lin"
+      ],
+      "publication_year": 2019,
+      "version_or_revision": null,
+      "url": "https://www.frontiersin.org/journals/bioengineering-and-biotechnology/articles/10.3389/fbioe.2019.00290/full",
+      "doi": "10.3389/fbioe.2019.00290",
+      "accessed_on": "2026-11-09",
+      "access_timezone": "Asia/Seoul",
+      "source_type": "실험 논문",
+      "evidence_level": "측정 실험; 표본·과제 범위 내",
+      "access_method": "web search 후 원문 열기",
+      "read_sections_or_pages": [
+        "Methods: Participants / Instrumentation / Data Analysis",
+        "Results",
+        "Discussion: Preparatory / Ending Phase",
+        "Limitations"
+      ],
+      "supported_claims": [
+        "숙련/초보 여성 각13명의 pirouette를 비교한다.",
+        "3D motion capture와 힘판으로 COM/COP 관련 지표를 계산한다.",
+        "일부 참가자의 도약으로 힘판 접촉이 사라져 모든 참가자의 단일지지 단계(pre-swing·mid-swing)에 COM-ankle 지표를 적용한다. 기준점은 발목 관절 중심과 중족골 마커 사이 중점이다.",
+        "집단 연령 차이가 있어 숙련 효과만으로 인과를 단정할 수 없다."
+      ],
+      "access_limits": "전체 원문 접근 가능, 지정 절 확인. 정지 이미지·연구 결과를 현재 조형의 힘/압력 측정으로 쓰지 않는다.",
+      "license": {
+        "scope": "논문",
+        "terms": "원문 copyright 항목의 CC BY; 원저자·출처 표기 필요. 참가자 동작 데이터 별도 재배포 허용으로 일반화하지 않음."
+      },
+      "related_verified_pages": [
+        {
+          "title": "동일 논문 PMC 원문",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6823550/",
+          "read": "첫 열기에서 Methods/Results/Discussion 확인; 후속 접속은 recaptcha, 최종 링크는 출판사 본문 사용"
+        }
+      ]
+    },
+    {
+      "id": "B03",
+      "category": "인체·무용",
+      "title": "In vivo assessment of scapulohumeral rhythm during unconstrained overhead reaching in asymptomatic subjects",
+      "authors_or_institution": [
+        "Jonathan P. Braman",
+        "Sean C. Engel",
+        "Robert F. LaPrade",
+        "Paula M. Ludewig"
+      ],
+      "publication_year": 2009,
+      "version_or_revision": null,
+      "url": "https://drrobertlaprademd.com/wp-content/uploads/2015/07/assessment-of-scapulohumeral-rhythm-during-unconstrained-overhead-reaching-2009.pdf",
+      "doi": "10.1016/j.jse.2009.02.001",
+      "accessed_on": "2026-11-09",
+      "access_timezone": "Asia/Seoul",
+      "source_type": "실험 논문",
+      "evidence_level": "측정 실험; 표본·과제 범위 내",
+      "access_method": "web search 후 원문 열기",
+      "read_sections_or_pages": [
+        "PDF 1–3쪽(인쇄 960–962): Abstract / Introduction / Materials and methods",
+        "PDF 6–7쪽(965–966): Discussion / limitations",
+        "전체비율과 구간별 차이: 본문 Abstract 및 첫 PMC 열기의 Scapulohumeral Rhythm 절"
+      ],
+      "supported_claims": [
+        "골 고정 센서로 자유롭게 팔을 올리고 내리는 움직임을 측정했다.",
+        "전체 비율과 구간별 비율, 상승과 하강에 차이가 있다.",
+        "상승2.3/하강2.7은 연구 조건의 평균으로 보편 상수가 아니다."
+      ],
+      "access_limits": "8쪽 저자 제공 PDF 본문. 첫 PMC 원문 열기에서도 결과를 확인했으나 후속 recaptcha로 저자 PDF를 최종 정본으로 삼음. 센서 삽입·가동범위 제한 등 연구 한계. 표 전체의 수치 재분석 없음.",
+      "license": {
+        "scope": "논문 PDF",
+        "terms": "© 2009 Journal of Shoulder and Elbow Surgery Board of Trustees. 무료 열람은 자유 재배포 허용으로 보지 않음."
+      },
+      "related_verified_pages": []
+    },
+    {
+      "id": "B04",
+      "category": "인체·무용",
+      "title": "Anatomy and Physiology 2e — 9.5 Types of Body Movements",
+      "authors_or_institution": [
+        "OpenStax",
+        "Rice University"
+      ],
+      "publication_year": null,
+      "version_or_revision": "2e",
+      "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/9-5-types-of-body-movements",
+      "doi": null,
+      "accessed_on": "2026-11-09",
+      "access_timezone": "Asia/Seoul",
+      "source_type": "공식 교육",
+      "evidence_level": "기관의 교육·평가 기준; 미학의 보편 법칙 아님",
+      "access_method": "web search 후 원문 열기",
+      "read_sections_or_pages": [
+        "Flexion and Extension",
+        "Rotation",
+        "Supination and Pronation",
+        "Dorsiflexion and Plantar Flexion",
+        "Protraction and Retraction",
+        "Opposition and Reposition",
+        "Figures 9.12–9.13 설명"
+      ],
+      "supported_claims": [
+        "전완 회내/회외와 손목 굽힘을 서로 다른 움직임으로 정의한다.",
+        "엄지 opposition과 손가락 관절 운동, 발목 운동을 구분한다.",
+        "목·몸통 회전과 견갑 움직임의 용어를 제공한다."
+      ],
+      "access_limits": "해부학 교육 본문·그림 설명 확인. 무용 실험·손가락 묶음 작화 규칙·특정 캐릭터의 진단 자료가 아니다.",
+      "license": null,
+      "related_verified_pages": []
+    },
+    {
+      "id": "B05",
+      "category": "인체·무용",
+      "title": "Ballet Dictionary",
+      "authors_or_institution": [
+        "American Ballet Theatre"
+      ],
+      "publication_year": null,
+      "version_or_revision": null,
+      "url": "https://www.abt.org/explore/learn/ballet-dictionary/",
+      "doi": null,
+      "accessed_on": "2026-11-09",
+      "access_timezone": "Asia/Seoul",
+      "source_type": "공식 교육",
+      "evidence_level": "기관의 교육·평가 기준; 미학의 보편 법칙 아님",
+      "access_method": "web search 후 원문 열기",
+      "read_sections_or_pages": [
+        "port de bras",
+        "épaulement",
+        "écarté",
+        "plié",
+        "fondu",
+        "relevé"
+      ],
+      "supported_claims": [
+        "port de bras를 자세 사이를 지나가는 팔의 움직임과 연습으로 정의한다.",
+        "부드러운 팔 윤곽, 몸·머리와의 관계, 높은 팔의 하강 경로를 설명한다.",
+        "épaulement에 흉곽·어깨·머리와 다리 방향의 관계를 포함한다."
+      ],
+      "access_limits": "공식 무용단의 용어·양식 규범. 모든 무용 양식 또는 개인의 관절 운동에 적용할 실험 법칙이 아니다. 내장 시연 영상 미시청.",
+      "license": null,
+      "related_verified_pages": []
+    },
+    {
+      "id": "B06",
+      "category": "인체·무용",
+      "title": "Integrating the Shoulder Complex to the Body as a Whole: Practical Applications for the Dancer",
+      "authors_or_institution": [
+        "Lisa Donegan Shoaf",
+        "Judith Steel",
+        "IADMS Dance Educators’ Committee"
+      ],
+      "publication_year": 2018,
+      "version_or_revision": "표지2018; PDF 메타 파일명 REVISED 2021",
+      "url": "https://iadms.azurewebsites.net/media/5785/iadms-resource-paper-shoulder-complex.pdf",
+      "doi": null,
+      "accessed_on": "2026-11-09",
+      "access_timezone": "Asia/Seoul",
+      "source_type": "전문 교육",
+      "evidence_level": "교육·제작 경험규칙; 생체역학 실험 아님",
+      "access_method": "공식 resource-papers 목록의 실제 PDF 링크 열기 + urllib/pdftotext 메모리 열람",
+      "read_sections_or_pages": [
+        "PDF 1–8쪽: Introduction / Anatomy and movements",
+        "PDF 14–18쪽: shoulder joint / integration",
+        "PDF 20–22쪽: overhead movement / summary"
+      ],
+      "supported_claims": [
+        "견갑·쇄골·흉골·상완과 흉곽 위 shoulder girdle을 설명한다.",
+        "어깨 복합체를 몸통·골반·하지와 통합해서 보도록 교육한다.",
+        "overhead에서 견갑을 과도하게 들거나 완전히 고정하는 문제를 함께 설명한다."
+      ],
+      "access_limits": "23쪽 교육자료, 문서 메타 파일명은 REVISED 2021이나 표지 저작연도는2018. 구체적 개정일 미표기. 안내된 신체 연습·치료는 수행/처방하지 않는다.",
+      "license": null,
+      "related_verified_pages": []
+    },
+    {
+      "id": "B07",
+      "category": "인체·무용",
+      "title": "Turnout for Dancers: Hip Anatomy and Factors Affecting Turnout",
+      "authors_or_institution": [
+        "Virginia Wilmerding",
+        "Donna Krasnow",
+        "IADMS Dance Educators’ Committee"
+      ],
+      "publication_year": 2011,
+      "version_or_revision": "2011, revised 2025-06-22",
+      "url": "https://iadms.azurewebsites.net/media/rxngdhap/iadms-resource-paper-turnout-for-dancers-hip-anatomy-and-factors-affecting-turnout.pdf",
+      "doi": null,
+      "accessed_on": "2026-11-09",
+      "access_timezone": "Asia/Seoul",
+      "source_type": "전문 교육",
+      "evidence_level": "교육·제작 경험규칙; 생체역학 실험 아님",
+      "access_method": "공식 목록 링크로 PDF 열기 + urllib/pdftotext 메모리 열람",
+      "read_sections_or_pages": [
+        "PDF 1–2쪽: Introduction / Bones",
+        "PDF 4–7쪽: Factors / Individual variations / Conclusion",
+        "PDF 9쪽: 저작권·재사용 고지"
+      ],
+      "supported_claims": [
+        "외회전의 표현에는 개인의 골격·연부조직 차이가 있다.",
+        "전통적180도 이상형과 해부학적 가능성을 구분한다.",
+        "발 모양만으로 골반·하지 전체의 외회전을 설명할 수 없다."
+      ],
+      "access_limits": "9쪽 교육자료. 표지 개정일2025-06-22 확인. 교육서의 관절 기여율은 개별 리그의 고정 상수로 옮기지 않는다.",
+      "license": {
+        "scope": "교육자료 전체",
+        "terms": "교육 목적으로 전문을 재현할 때 IADMS acknowledgment를 요구하는 고지 확인. 이 자료집은 원문 전체·그림을 복제하지 않음."
+      },
+      "related_verified_pages": []
+    },
+    {
+      "id": "D01",
+      "category": "동작 데이터",
+      "title": "CMU Graphics Lab Motion Capture Database — usage notes",
+      "authors_or_institution": [
+        "Carnegie Mellon University Graphics Lab"
+      ],
+      "publication_year": null,
+      "version_or_revision": null,
+      "url": "https://mocap.cs.cmu.edu/",
+      "doi": null,
+      "accessed_on": "2026-11-09",
+      "access_timezone": "Asia/Seoul",
+      "source_type": "데이터 정책",
+      "evidence_level": "공식 제공 범위·사용조건; 실제 데이터 미검사",
+      "access_method": "실제 웹검색/열기 시도 + 공식 HTML 직접 요청(urllib, 200)",
+      "read_sections_or_pages": [
+        "메인 페이지의 usage/acknowledgments",
+        "toe/hand noise 및 finger/thumb 주의",
+        "motion categories"
+      ],
+      "supported_claims": [
+        "연구와 상업제품 내 포함을 허용하되 데이터 자체의 재판매는 변환본도 금지한다.",
+        "finger/thumb joint의 실제 움직임을 캡처하지 않았으므로 무시하라고 명시한다.",
+        "toe/hand noise와 subject별 calibrated skeleton을 안내한다."
+      ],
+      "access_limits": "웹 열기는 timeout. 공식 메인 HTML 직접200 열람. 기본 TLS 체인검사 실패로 이 공개 페이지 단일 요청만 인증서검사를 생략했다. FAQ·개별 clip·외부 변환본 약관·실제 데이터 미열람.",
+      "license": {
+        "scope": "CMU 원본 motion data; 메인 usage 고지",
+        "commercial_use": "상업 판매 제품 내 포함 허용",
+        "redistribution": "데이터 자체 직접 재판매 금지; 변환형식도 동일. 일반적인 모든 재배포를 허용한다는 문구로 확대하지 않음.",
+        "body_model_scope": "subject별 skeleton 고지. 외부 BVH 변환·AMASS 변환·SMPL 등 다른 제공물의 권리는 이 고지로 해결되지 않음.",
+        "attribution": "논문 발표 시 지정 acknowledgment와 citation 전달을 요청"
+      },
+      "related_verified_pages": []
+    },
+    {
+      "id": "D02",
+      "category": "동작 데이터",
+      "title": "AMASS — Dataset Copyright License for non-commercial scientific research purposes",
+      "authors_or_institution": [
+        "Naureen Mahmood",
+        "Nima Ghorbani",
+        "Nikolaus F. Troje",
+        "Gerard Pons-Moll",
+        "Michael J. Black",
+        "Max Planck Institute for Intelligent Systems"
+      ],
+      "publication_year": 2019,
+      "version_or_revision": "논문 ICCV2019; license page ©2020, 개정일 미표기",
+      "url": "https://amass.is.tue.mpg.de/license.html",
+      "doi": null,
+      "accessed_on": "2026-11-09",
+      "access_timezone": "Asia/Seoul",
+      "source_type": "데이터 정책",
+      "evidence_level": "공식 제공 범위·사용조건; 실제 데이터 미검사",
+      "access_method": "web search 후 원문 열기",
+      "read_sections_or_pages": [
+        "License Grant",
+        "No Distribution",
+        "Publications using the Dataset",
+        "Commercial licensing opportunities",
+        "프로젝트 본문의 Abstract / Download"
+      ],
+      "supported_claims": [
+        "모캡을 공통 body-model parameterization으로 통합한다.",
+        "라이선스는 비상업 과학연구·교육·예술 프로젝트에 한정한다.",
+        "상업 목적과 제3자 제공/배포는 별도 조건이며 등록이 필요하다."
+      ],
+      "access_limits": "프로젝트 소개·공식 라이선스 전문만 확인. 논문 전문·개별 포함 데이터셋·SMPL/SMPL-H 모델 라이선스는 확인하지 않았다. 실제 데이터·모델 미다운로드.",
+      "license": {
+        "scope": "공식 AMASS dataset/software 약관",
+        "commercial_use": "현 약관으로 금지; 별도 상업 라이선스 문의 경로 있음. 문의하지 않음.",
+        "redistribution": "사전 서면 허가 없는 제3자 제공·복제·수정/공유·재판매·양도 등 금지; 개인 보관1사본 예외",
+        "body_model_scope": "SMPL/SMPL-H 등 개별 body model 사용조건 미확인. 실제 모델 파일과 포함 원 데이터셋의 별도 권리 범위를 이 라이선스만으로 확인했다고 하지 않음.",
+        "attribution": "논문 지정 인용 필요; 포함 데이터셋의 인용도 별도 확인"
+      },
+      "related_verified_pages": [
+        {
+          "title": "AMASS project / ICCV2019 citation",
+          "url": "https://amass.is.tue.mpg.de/",
+          "read": "소개·Abstract·Download·서지"
+        }
+      ]
+    }
+  ],
+  "excluded_or_unresolved": [
+    {
+      "title": "Blender 4.5/4.3/2.80 IK·F-Curve·Cloth 공식 매뉴얼",
+      "urls": [
+        "https://docs.blender.org/manual/en/4.5/animation/constraints/tracking/ik_solver.html",
+        "https://docs.blender.org/manual/en/4.5/editors/graph_editor/fcurves/properties.html",
+        "https://docs.blender.org/manual/en/4.5/physics/cloth/settings/cache.html"
+      ],
+      "reason": "검색 후 직접 열기402/403. 공식 projects 소스 경로도403. 스니펫만으로 읽은 자료에 산입하지 않고 Autodesk/three.js/원저자 논문으로 대체."
+    },
+    {
+      "title": "KIT Whole-Body Human Motion Database",
+      "urls": [
+        "https://motion-database.humanoids.kit.edu/faq/"
+      ],
+      "reason": "공식 FAQ 본문은 읽음. 데이터 상업활용·재배포의 명시 라이선스는 이 페이지에서 확인 못함. MMM 소프트웨어 GPL을 데이터 권리로 확대하지 않음. 핵심 데이터 후보는 CMU/AMASS 두 건으로 한정."
+    }
+  ],
+  "self_review": {
+    "reviewed_on": "2026-11-09",
+    "scope": "핵심24건의 ID·정확한 제목·직접URL·요약·확인절을 본문과 장부에 전수 대조. 출판사/저자 원문에서 논문 서지·조건·한계를 표본 재확인.",
+    "checks": [
+      "24개 ID 고유성 및 research-notes의24개 자료카드 일치",
+      "문서 내부 로컬 링크 존재 확인",
+      "Three r180 경로와 현재 페이지를 분리",
+      "Toon Boom 직접 HTML 확인/웹 도구 오류 구분",
+      "IADMS 저작연도와 개정표기 구분",
+      "Dancing Notes 실제 절 제목과 장부 표기를 일치시킴",
+      "CMU 원본·AMASS·body model별 권리 적용범위 구분"
+    ],
+    "remaining": "부모 Astra가 원문 8건의 핵심 주장을 표본 대조하고 B02 설명을 구체화했다(source-verification.md). 나머지 출처의 부모 전수 재검증은 하지 않음. A04/B06은 부모 열기에서 실패. HTTP 접근은 서버·도구별로 달랐으며 URL의 영구 가용성을 보증하지 않음. 실제 시험·영상 원속도 시청/청취 미실행."
+  }
+}

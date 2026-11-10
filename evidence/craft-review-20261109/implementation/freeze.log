@@ -1,0 +1,8 @@
+$ node scripts/direction.mjs freeze /Volumes/eyedisk/develop/cinewright/evidence/craft-review-20261109/implementation/sandbox/examples/stillcuts/a --store /Volumes/eyedisk/develop/cinewright/evidence/craft-review-20261109/implementation/store
+{
+  "revision": "38b4551aa5c40649d9b461e2205cecf28d908f8045723ecafed612613becac38",
+  "snapshot": "/Volumes/eyedisk/develop/cinewright/evidence/craft-review-20261109/implementation/store/revisions/38b4551aa5c40649d9b461e2205cecf28d908f8045723ecafed612613becac38",
+  "title": "하루를 내려놓는 자리 · A 빈 자리의 시간"
+}
+
+EXIT 0

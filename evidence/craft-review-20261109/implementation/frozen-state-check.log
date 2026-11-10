@@ -1,0 +1,65 @@
+{
+  "revision": "38b4551aa5c40649d9b461e2205cecf28d908f8045723ecafed612613becac38",
+  "states": [
+    {
+      "frame": 108,
+      "exposed": 102,
+      "value": "remaining",
+      "phase": {
+        "view": {
+          "scale": 1,
+          "focus": [
+            320,
+            180
+          ],
+          "at": [
+            320,
+            180
+          ]
+        },
+        "hand": null,
+        "keys": true,
+        "motion": "rest"
+      },
+      "keyOffset": [
+        0,
+        0
+      ],
+      "handOffset": [
+        0,
+        0
+      ],
+      "lightX": 189.8324607329843
+    },
+    {
+      "frame": 109,
+      "exposed": 102,
+      "value": "remaining",
+      "phase": {
+        "view": {
+          "scale": 1,
+          "focus": [
+            320,
+            180
+          ],
+          "at": [
+            320,
+            180
+          ]
+        },
+        "hand": null,
+        "keys": true,
+        "motion": "rest"
+      },
+      "keyOffset": [
+        0,
+        0
+      ],
+      "handOffset": [
+        0,
+        0
+      ],
+      "lightX": 189.97905759162305
+    }
+  ]
+}

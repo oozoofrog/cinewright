@@ -1,0 +1,32 @@
+$ node scripts/direction.mjs frame 38b4551aa5c40649d9b461e2205cecf28d908f8045723ecafed612613becac38 109 --store /Volumes/eyedisk/develop/cinewright/evidence/craft-review-20261109/implementation/store
+Job 350532a2-53d2-49c5-8523-955f1498dd4d · /Volumes/eyedisk/develop/cinewright/evidence/craft-review-20261109/implementation/store/jobs/350532a2-53d2-49c5-8523-955f1498dd4d
+{
+  "id": "350532a2-53d2-49c5-8523-955f1498dd4d",
+  "revision": "38b4551aa5c40649d9b461e2205cecf28d908f8045723ecafed612613becac38",
+  "settings": {
+    "mode": "frame",
+    "from": 109,
+    "to": 110,
+    "scale": 1
+  },
+  "status": "completed",
+  "phase": "published",
+  "frames": 1,
+  "totalFrames": 1,
+  "pid": 26351,
+  "started": "2026-11-09T14:51:02.199Z",
+  "log": "/Volumes/eyedisk/develop/cinewright/evidence/craft-review-20261109/implementation/store/jobs/350532a2-53d2-49c5-8523-955f1498dd4d/execution.log",
+  "ffmpeg": "ffmpeg version 9.0.2 Copyright (c) 2000-2026 the FFmpeg developers",
+  "audio": {
+    "file": "/Volumes/eyedisk/develop/cinewright/evidence/craft-review-20261109/implementation/store/jobs/350532a2-53d2-49c5-8523-955f1498dd4d/mix.wav",
+    "rate": 48000,
+    "duration": 384000,
+    "sources": []
+  },
+  "browser": "157.0.8103.38",
+  "outputSha256": "fecc50214c9fde75d9da65637d4204e53c9492577f449bcea2cb9190447cb674",
+  "output": "/Volumes/eyedisk/develop/cinewright/evidence/craft-review-20261109/implementation/store/jobs/350532a2-53d2-49c5-8523-955f1498dd4d/frame.png",
+  "finished": "2026-11-09T14:51:04.363Z"
+}
+
+EXIT 0

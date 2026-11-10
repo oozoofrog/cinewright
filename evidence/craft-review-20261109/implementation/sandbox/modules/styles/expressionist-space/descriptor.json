@@ -1,0 +1,133 @@
+{
+  "id": "expressionist-space",
+  "version": "1.1.0",
+  "status": "implemented",
+  "entry": "modules/styles/expressionist-space/index.mjs",
+  "exports": {
+    "modules/styles/expressionist-space/index.mjs": [
+      "prepare",
+      "validateScene",
+      "sampleKeys",
+      "collectAssets"
+    ],
+    "modules/styles/expressionist-space/validate.mjs": [
+      "validateScene",
+      "validateTransform"
+    ],
+    "modules/animation/clip3d.mjs": [
+      "prepareClip3D"
+    ],
+    "modules/fx3d/glb.mjs": [
+      "inspectGLB",
+      "loadLocalGLB"
+    ],
+    "modules/fx3d/adapter.mjs": [
+      "createCanvasAdapter"
+    ],
+    "modules/fx3d/deform.mjs": [
+      "prepareDeformation"
+    ],
+    "modules/fx3d/material.mjs": [
+      "createHatchAtlas",
+      "createHatchMaterial"
+    ],
+    "modules/fx3d/outline.mjs": [
+      "createRigidOutline",
+      "createInternalLines"
+    ],
+    "modules/fx3d/geometry.mjs": [
+      "createGeometry",
+      "validateGeometry"
+    ],
+    "modules/fx3d/light.mjs": [
+      "createLightRig",
+      "createShadowOverlay",
+      "setDepthFog"
+    ],
+    "modules/fx3d/particles.mjs": [
+      "sampleDust",
+      "createDust"
+    ],
+    "scripts/style-vendor-expressionist.mjs": [
+      "collectExpressionistVendor"
+    ],
+    "modules/animation/auto-rig.mjs": [
+      "autoRig",
+      "validateRig",
+      "createRiggedMesh",
+      "RIG_VERSION"
+    ],
+    "modules/animation/retarget.mjs": [
+      "createRetargeter",
+      "bakeRetarget",
+      "createRetargetPlayer",
+      "validateRetargetMotion",
+      "solveTwoBoneIK"
+    ],
+    "modules/fx3d/skinned-outline.mjs": [
+      "createSkinnedOutline"
+    ]
+  },
+  "dependencies": {
+    "three": "0.180.0"
+  },
+  "renderer": "WebGL2 -> premultiplied transparent Canvas2D, NoToneMapping, sRGB output",
+  "input": "Scene v1; embedded uncompressed GLB rigid/skin, explicit inferred rig JSON and local motion bake",
+  "output": "prepare -> evaluate/draw/dispose/getStats; optional existing number read and projected vec2 write",
+  "units": {
+    "world": "metres +Y up right-handed",
+    "angles": "XYZ radians; camera fov degrees",
+    "time": "integer frames / absolute seconds",
+    "hatch": "repeats per UV span",
+    "outline": "world units",
+    "internalLines": "nominal one output pixel",
+    "projection": "logical canvas pixels top-left"
+  },
+  "support": [
+    "UV-anchored four-density atlas and toon ramp",
+    "rigid inverted-hull outline and authored internal lines",
+    "physical shadow maps, spotlight gobo and distinct graphic shadow overlay",
+    "absolute rest deformation",
+    "analytic instanced dust",
+    "camera-depth fog",
+    "orthographic/perspective and independently exposed actor/camera/light",
+    "absolute basic embedded GLB clip loop/weight/timeScale/exposure",
+    "local frozen addon transitive closure plus license",
+    "idempotent cleanup and partial prepare failure cleanup",
+    "local inferred biped rig JSON and source-independent retarget bake",
+    "SkinnedMesh UV hatch and skinned inverted hull outline",
+    "embedded uncompressed GLB skins and absolute clips"
+  ],
+  "limits": {
+    "objects": 256,
+    "materials": 64,
+    "lights": 8,
+    "dust": 4096,
+    "bufferVertices": 50000,
+    "linesPerObject": 128,
+    "pointsPerLine": 4096,
+    "sizeMax": 4096,
+    "unsupported": [
+      "required GLTF extensions",
+      "remote/external dependencies",
+      "compression",
+      "arbitrary mesh rigging",
+      "skinned rest deformation/internal lines",
+      "automatic internal line extraction",
+      "volumetrics",
+      "cross-GPU pixel equality"
+    ],
+    "glbBytes": 16777216
+  },
+  "cleanup": "style owns loaded geometry/material/texture, shared atlas and ramps, outline/line resources, instanced mesh, light shadow targets, mixers, renderer/context; standalone helpers own their returned resources except outline geometry and clip root",
+  "examples": [
+    "station",
+    "laboratory",
+    "portrait",
+    "effects"
+  ],
+  "mixed": "examples/styles/expressionist-space/build-mixed.mjs",
+  "evidence": "evidence/aesthetic-toolkit-2026-11-08/C",
+  "acceptance": "implemented; coordinator regression, independent review and human aesthetic acceptance separate",
+  "maturity": "experimental API and limited authored-asset scope"
+}

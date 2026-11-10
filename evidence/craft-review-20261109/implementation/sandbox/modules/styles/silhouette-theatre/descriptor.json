@@ -1,0 +1,26 @@
+{
+  "id": "silhouette-theatre",
+  "version": "1.0.0",
+  "status": "implemented",
+  "entry": "modules/styles/silhouette-theatre/index.mjs",
+  "exports": [
+    "validateScene",
+    "prepare",
+    "collectAssets"
+  ],
+  "units": "logical px +Y down, radians, integer frame",
+  "limits": {
+    "planes": 16,
+    "objects": 256,
+    "shapes": 512,
+    "bones": 256
+  },
+  "ownership": "owned stage and paths/image references; idempotent dispose",
+  "evidence": "evidence/aesthetic-toolkit-2026-11-08/A",
+  "unsupported": [
+    "auto segmentation",
+    "anatomy reconstruction",
+    "physical shadow solver"
+  ],
+  "maturity": "experimental API and limited authored-asset scope"
+}

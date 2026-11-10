@@ -1,0 +1,4 @@
+$ /usr/local/bin/python3 /Users/oozoofrog/.codex/skills/.system/skill-creator/scripts/quick_validate.py .
+Skill is valid!
+
+EXIT 0

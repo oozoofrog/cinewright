@@ -1,0 +1,2 @@
+// Ledger is evaluated from scratch; events persist after their half-open transition.
+export function erasureAt(events,frame,id){if(!Array.isArray(events)||!Number.isFinite(frame))throw Error('erase: invalid ledger');let opacity=1;for(const e of events){if(!Number.isFinite(e.from)||!Number.isFinite(e.to)||e.to<=e.from||!Number.isFinite(e.residue)||e.residue<0||e.residue>1||!e.id)throw Error('erase: invalid event');if(e.id===id){let t=Math.max(0,Math.min(1,(frame-e.from)/(e.to-e.from)));opacity*=1-t*(1-e.residue)}}return opacity}

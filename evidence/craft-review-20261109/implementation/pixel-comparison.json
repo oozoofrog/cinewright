@@ -1,0 +1,14 @@
+{
+  "frames": [
+    "/Volumes/eyedisk/develop/cinewright/evidence/craft-review-20261109/implementation/store/jobs/3b002c47-4fb3-473c-8f36-93e1ac57bd97/frame.png",
+    "/Volumes/eyedisk/develop/cinewright/evidence/craft-review-20261109/implementation/store/jobs/350532a2-53d2-49c5-8523-955f1498dd4d/frame.png"
+  ],
+  "changed_pixels": 274,
+  "difference_bbox_xyxy": [
+    190,
+    46,
+    294,
+    252
+  ],
+  "outside_reflection_unchanged": true
+}

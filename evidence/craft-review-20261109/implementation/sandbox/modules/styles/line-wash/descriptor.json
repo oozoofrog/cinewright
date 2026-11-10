@@ -1,0 +1,49 @@
+{
+  "id": "line-wash",
+  "version": "1.0.0",
+  "exports": [
+    "validateScene",
+    "prepare"
+  ],
+  "renderer": "Canvas2D",
+  "units": "paper pixels (+x right, +y down); integer output frames; pressure 0..1",
+  "limits": {
+    "strokes": 1000,
+    "washes": 256,
+    "cubicSegments": 1024,
+    "flattenDepth": 20,
+    "dabsPerStroke": 10000,
+    "maskedEventsPerStroke": 1,
+    "flattenedPoints": 65536,
+    "preparedScenePoints": 250000,
+    "coordinateMagnitude": 1000000,
+    "widthMax": 4096
+  },
+  "dependencies": [
+    "animation/exposure",
+    "fx2d/stroke",
+    "fx2d/brush",
+    "fx2d/wash",
+    "fx2d/hatch",
+    "fx2d/redraw",
+    "fx2d/erase"
+  ],
+  "support": [
+    "cubic and polyline pressure centerlines",
+    "arc-length reveal",
+    "seeded dabs and fixed paper grain",
+    "polygon glaze and edge approximation",
+    "corresponding point bank and hold/boil",
+    "event erasure residue",
+    "hatch and stipple",
+    "rectangular paper-space erasure mask with residue"
+  ],
+  "unsupported": [
+    "fluid simulation",
+    "physical paper absorption",
+    "automatic rotoscoping"
+  ],
+  "cleanup": "dispose is idempotent; no externally owned resources",
+  "status": "implemented",
+  "maturity": "experimental API and limited authored-asset scope"
+}
