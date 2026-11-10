@@ -1,0 +1,21 @@
+{
+  "id": "P03-designed-flat",
+  "mode": "stills",
+  "revision": "d3549d623637e8b4bc7ab9093436b72fcd7a01934f92c274919ec2b56e8dabc3",
+  "project": "/Volumes/eyedisk/develop/cinewright/.direction/cinematic-animation-implementation-2026-11-08/projects/P03-designed-flat-stills-1794137098705",
+  "frames": [
+    24,
+    54,
+    64,
+    69,
+    120
+  ],
+  "width": 1920,
+  "height": 1080,
+  "fps": 24,
+  "elapsedMs": 539.0389590000004,
+  "averageMs": 107.80779180000009,
+  "seekDeterministic": true,
+  "errors": [],
+  "method": "offline canvas seek/capture; not realtime viewing"
+}

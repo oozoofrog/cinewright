@@ -1,0 +1,22 @@
+{
+  "id": "S04-wash",
+  "mode": "stills",
+  "revision": "8861872f0d03bfd83aaf74c586c5d72dc1cba78cd3440271ad2f994d76978c80",
+  "project": "/Volumes/eyedisk/develop/cinewright/.direction/cinematic-animation-implementation-2026-11-08/projects/S04-wash-stills-1794136675406",
+  "frames": [
+    44,
+    72,
+    88,
+    100,
+    126,
+    156
+  ],
+  "width": 1920,
+  "height": 1080,
+  "fps": 24,
+  "elapsedMs": 1076.7469999999994,
+  "averageMs": 179.45783333333324,
+  "seekDeterministic": true,
+  "errors": [],
+  "method": "offline canvas seek/capture; not realtime viewing"
+}

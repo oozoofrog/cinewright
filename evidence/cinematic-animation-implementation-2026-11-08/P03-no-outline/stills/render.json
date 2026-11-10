@@ -1,0 +1,21 @@
+{
+  "id": "P03-no-outline",
+  "mode": "stills",
+  "revision": "626615e962945d5f32528e0a53c4329e7f87eedc092e96386500619e73597557",
+  "project": "/Volumes/eyedisk/develop/cinewright/.direction/cinematic-animation-implementation-2026-11-08/projects/P03-no-outline-stills-1794136615672",
+  "frames": [
+    24,
+    54,
+    64,
+    69,
+    120
+  ],
+  "width": 1920,
+  "height": 1080,
+  "fps": 24,
+  "elapsedMs": 589.200499999999,
+  "averageMs": 117.84009999999981,
+  "seekDeterministic": true,
+  "errors": [],
+  "method": "offline canvas seek/capture; not realtime viewing"
+}

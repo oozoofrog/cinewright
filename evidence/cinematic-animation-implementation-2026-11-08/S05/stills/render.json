@@ -1,0 +1,24 @@
+{
+  "id": "S05",
+  "mode": "stills",
+  "revision": "6806afbc08a327dd91e0e6be78d8c20a7e8f7302b298a92b3f9af5acf62d7b83",
+  "project": "/Volumes/eyedisk/develop/cinewright/.direction/cinematic-animation-implementation-2026-11-08/projects/S05-stills-1794136849804",
+  "frames": [
+    70,
+    80,
+    87,
+    88,
+    94,
+    104,
+    156,
+    174
+  ],
+  "width": 1920,
+  "height": 1080,
+  "fps": 24,
+  "elapsedMs": 1505.885792,
+  "averageMs": 188.235724,
+  "seekDeterministic": true,
+  "errors": [],
+  "method": "offline canvas seek/capture; not realtime viewing"
+}

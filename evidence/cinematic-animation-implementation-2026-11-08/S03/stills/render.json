@@ -1,0 +1,19 @@
+{
+  "id": "S03",
+  "mode": "stills",
+  "revision": "55cf8af5d7d45c106080a93cddff8297022fb4c237ee8a2bd9e855ae0f9b4c8a",
+  "project": "/Volumes/eyedisk/develop/cinewright/.direction/cinematic-animation-implementation-2026-11-08/projects/S03-stills-1794136602514",
+  "frames": [
+    24,
+    120,
+    156
+  ],
+  "width": 1920,
+  "height": 1080,
+  "fps": 24,
+  "elapsedMs": 690.4112920000007,
+  "averageMs": 230.13709733333357,
+  "seekDeterministic": true,
+  "errors": [],
+  "method": "offline canvas seek/capture; not realtime viewing"
+}

@@ -1,0 +1,19 @@
+{
+  "id": "S06",
+  "mode": "stills",
+  "revision": "306b63166aa53ded7b43de98b3403a77ba0af808f7bcdf90d18a349f762e352f",
+  "project": "/Volumes/eyedisk/develop/cinewright/.direction/cinematic-animation-implementation-2026-11-08/projects/S06-stills-1794136609552",
+  "frames": [
+    48,
+    120,
+    156
+  ],
+  "width": 1920,
+  "height": 1080,
+  "fps": 24,
+  "elapsedMs": 464.07824999999866,
+  "averageMs": 154.69274999999956,
+  "seekDeterministic": true,
+  "errors": [],
+  "method": "offline canvas seek/capture; not realtime viewing"
+}

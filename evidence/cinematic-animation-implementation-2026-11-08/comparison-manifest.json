@@ -1,0 +1,244 @@
+{
+  "method": "offline frame extraction/canvas seek, no realtime viewing",
+  "clips": [
+    {
+      "id": "S01",
+      "original": "/Volumes/eyedisk/develop/cinewright/evidence/aesthetic-toolkit-2026-11-08/A/forest-v3/1080p.mp4",
+      "after": "/Volumes/eyedisk/develop/cinewright/evidence/cinematic-animation-implementation-2026-11-08/S01/1080p24.mp4",
+      "metadata": {
+        "width": 1920,
+        "height": 1080,
+        "r_frame_rate": "24/1",
+        "nb_read_frames": "192",
+        "side_data_list": [
+          {}
+        ]
+      },
+      "native24Windows": [
+        [
+          48,
+          83
+        ],
+        [
+          100,
+          143
+        ]
+      ],
+      "comparison": "/Volumes/eyedisk/develop/cinewright/evidence/cinematic-animation-implementation-2026-11-08/S01/comparison",
+      "allBeforeFrames": 192,
+      "allAfterFrames": 192
+    },
+    {
+      "id": "S02",
+      "original": "/Volumes/eyedisk/develop/cinewright/evidence/aesthetic-toolkit-2026-11-08/A/harbor-closed-reveal/1080p.mp4",
+      "after": "/Volumes/eyedisk/develop/cinewright/evidence/cinematic-animation-implementation-2026-11-08/S02/1080p24.mp4",
+      "metadata": {
+        "width": 1920,
+        "height": 1080,
+        "r_frame_rate": "24/1",
+        "nb_read_frames": "192",
+        "side_data_list": [
+          {}
+        ]
+      },
+      "native24Windows": [
+        [
+          64,
+          99
+        ],
+        [
+          144,
+          179
+        ]
+      ],
+      "comparison": "/Volumes/eyedisk/develop/cinewright/evidence/cinematic-animation-implementation-2026-11-08/S02/comparison",
+      "allBeforeFrames": 192,
+      "allAfterFrames": 192
+    },
+    {
+      "id": "S03",
+      "original": "/Volumes/eyedisk/develop/cinewright/evidence/aesthetic-toolkit-2026-11-08/B/rain-reviewed/1080p.mp4",
+      "after": "/Volumes/eyedisk/develop/cinewright/evidence/cinematic-animation-implementation-2026-11-08/S03/1080p24.mp4",
+      "metadata": {
+        "width": 1920,
+        "height": 1080,
+        "r_frame_rate": "24/1",
+        "nb_read_frames": "192",
+        "side_data_list": [
+          {}
+        ]
+      },
+      "native24Windows": [
+        [
+          108,
+          131
+        ]
+      ],
+      "comparison": "/Volumes/eyedisk/develop/cinewright/evidence/cinematic-animation-implementation-2026-11-08/S03/comparison",
+      "allBeforeFrames": 192,
+      "allAfterFrames": 192
+    },
+    {
+      "id": "S04",
+      "original": "/Volumes/eyedisk/develop/cinewright/evidence/aesthetic-toolkit-2026-11-08/B/commuter-reviewed/1080p.mp4",
+      "after": "/Volumes/eyedisk/develop/cinewright/evidence/cinematic-animation-implementation-2026-11-08/S04/1080p24.mp4",
+      "metadata": {
+        "width": 1920,
+        "height": 1080,
+        "r_frame_rate": "24/1",
+        "nb_read_frames": "192",
+        "side_data_list": [
+          {}
+        ]
+      },
+      "native24Windows": [
+        [
+          56,
+          87
+        ],
+        [
+          88,
+          155
+        ]
+      ],
+      "comparison": "/Volumes/eyedisk/develop/cinewright/evidence/cinematic-animation-implementation-2026-11-08/S04/comparison",
+      "allBeforeFrames": 192,
+      "allAfterFrames": 192
+    },
+    {
+      "id": "S05",
+      "original": "/Volumes/eyedisk/develop/cinewright/evidence/aesthetic-toolkit-2026-11-08/C/station-final/1080p.mp4",
+      "after": "/Volumes/eyedisk/develop/cinewright/evidence/cinematic-animation-implementation-2026-11-08/S05/1080p24.mp4",
+      "metadata": {
+        "width": 1920,
+        "height": 1080,
+        "r_frame_rate": "24/1",
+        "nb_read_frames": "192",
+        "side_data_list": [
+          {}
+        ]
+      },
+      "native24Windows": [
+        [
+          70,
+          105
+        ],
+        [
+          144,
+          179
+        ]
+      ],
+      "comparison": "/Volumes/eyedisk/develop/cinewright/evidence/cinematic-animation-implementation-2026-11-08/S05/comparison",
+      "allBeforeFrames": 192,
+      "allAfterFrames": 192
+    },
+    {
+      "id": "S06",
+      "original": "/Volumes/eyedisk/develop/cinewright/evidence/aesthetic-toolkit-2026-11-08/C/laboratory-final/1080p.mp4",
+      "after": "/Volumes/eyedisk/develop/cinewright/evidence/cinematic-animation-implementation-2026-11-08/S06/1080p24.mp4",
+      "metadata": {
+        "width": 1920,
+        "height": 1080,
+        "r_frame_rate": "24/1",
+        "nb_read_frames": "192",
+        "side_data_list": [
+          {}
+        ]
+      },
+      "native24Windows": [
+        [
+          108,
+          131
+        ]
+      ],
+      "comparison": "/Volumes/eyedisk/develop/cinewright/evidence/cinematic-animation-implementation-2026-11-08/S06/comparison",
+      "allBeforeFrames": 192,
+      "allAfterFrames": 192
+    },
+    {
+      "id": "P03",
+      "original": "/Volumes/eyedisk/develop/cinewright/.direction/aesthetic-toolkit-phase02-2026-11-08/fullhd/store/jobs/d4f706ac-2b7f-40ec-a1eb-d25ace2fca61/work.mp4",
+      "after": "/Volumes/eyedisk/develop/cinewright/evidence/cinematic-animation-implementation-2026-11-08/P03-designed/1080p24.mp4",
+      "metadata": {
+        "width": 1920,
+        "height": 1080,
+        "r_frame_rate": "24/1",
+        "nb_read_frames": "192",
+        "side_data_list": [
+          {}
+        ]
+      },
+      "native24Windows": [
+        [
+          48,
+          71
+        ]
+      ],
+      "comparison": "/Volumes/eyedisk/develop/cinewright/evidence/cinematic-animation-implementation-2026-11-08/P03/comparison",
+      "allBeforeFrames": 192,
+      "allAfterFrames": 192
+    },
+    {
+      "id": "P01",
+      "original": "/Volumes/eyedisk/develop/cinewright/.direction/aesthetic-toolkit-phase02-2026-11-08/fullhd-v3/store/jobs/2781fec5-694d-4db9-ab44-cafc538ab406/work.mp4",
+      "after": "/Volumes/eyedisk/develop/cinewright/evidence/cinematic-animation-implementation-2026-11-08/P01/1080p24.mp4",
+      "metadata": {
+        "width": 1920,
+        "height": 1080,
+        "r_frame_rate": "24/1",
+        "nb_read_frames": "192",
+        "side_data_list": [
+          {}
+        ]
+      },
+      "native24Windows": [
+        [
+          20,
+          35
+        ],
+        [
+          60,
+          83
+        ],
+        [
+          132,
+          155
+        ]
+      ],
+      "comparison": "/Volumes/eyedisk/develop/cinewright/evidence/cinematic-animation-implementation-2026-11-08/P01/comparison",
+      "allBeforeFrames": 192,
+      "allAfterFrames": 192
+    },
+    {
+      "id": "P02",
+      "original": "/Volumes/eyedisk/develop/cinewright/.direction/aesthetic-toolkit-phase02-2026-11-08/fullhd-v3/store/jobs/171a8060-5da8-45cd-b4a8-d23250096281/work.mp4",
+      "after": "/Volumes/eyedisk/develop/cinewright/evidence/cinematic-animation-implementation-2026-11-08/P02/1080p24.mp4",
+      "metadata": {
+        "width": 1920,
+        "height": 1080,
+        "r_frame_rate": "24/1",
+        "nb_read_frames": "192",
+        "side_data_list": [
+          {}
+        ]
+      },
+      "native24Windows": [
+        [
+          20,
+          35
+        ],
+        [
+          60,
+          83
+        ],
+        [
+          132,
+          155
+        ]
+      ],
+      "comparison": "/Volumes/eyedisk/develop/cinewright/evidence/cinematic-animation-implementation-2026-11-08/P02/comparison",
+      "allBeforeFrames": 192,
+      "allAfterFrames": 192
+    }
+  ]
+}

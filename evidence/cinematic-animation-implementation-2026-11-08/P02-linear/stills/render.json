@@ -1,0 +1,19 @@
+{
+  "id": "P02-linear",
+  "mode": "stills",
+  "revision": "40ccb9e3c0f85b07676ac038763f55a7abc3a361aff06cccd3909b450f6a2e03",
+  "project": "/Volumes/eyedisk/develop/cinewright/.direction/cinematic-animation-implementation-2026-11-08/projects/P02-linear-stills-1794136679081",
+  "frames": [
+    24,
+    72,
+    144
+  ],
+  "width": 1920,
+  "height": 1080,
+  "fps": 24,
+  "elapsedMs": 372.81416699999863,
+  "averageMs": 124.27138899999954,
+  "seekDeterministic": true,
+  "errors": [],
+  "method": "offline canvas seek/capture; not realtime viewing"
+}

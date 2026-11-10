@@ -1,0 +1,21 @@
+{
+  "id": "P03-designed-flat-side",
+  "mode": "stills",
+  "revision": "44c0befd779e223c093e41171ab1032e1a39c1fdfde0f9c26600f51a47086645",
+  "project": "/Volumes/eyedisk/develop/cinewright/.direction/cinematic-animation-implementation-2026-11-08/projects/P03-designed-flat-side-stills-1794136782501",
+  "frames": [
+    24,
+    54,
+    64,
+    69,
+    120
+  ],
+  "width": 1920,
+  "height": 1080,
+  "fps": 24,
+  "elapsedMs": 505.6946660000003,
+  "averageMs": 101.13893320000007,
+  "seekDeterministic": true,
+  "errors": [],
+  "method": "offline canvas seek/capture; not realtime viewing"
+}

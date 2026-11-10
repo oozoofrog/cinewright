@@ -1,0 +1,30 @@
+[
+  {
+    "name": "wet",
+    "seed": 17,
+    "sameNormalizedEvents": true,
+    "simulatedSecondsPerFrame": 0.2,
+    "pigmentInput": [
+      28,
+      0
+    ],
+    "sourceBakeSha256": "8a0f7a6408293aac39aa57aaf87e202c4518c7f75a1cc649c4f5134e824f7e71",
+    "finalBakeSha256": "b364dcbea853bdc6119cf4424022ee8026ad05d37edf781815e317709f4f0225",
+    "pixelConcentrationIdentical": false,
+    "note": "High-resolution discretization, total event quantities preserved; density9->36 restores optical amount per area."
+  },
+  {
+    "name": "overlap",
+    "seed": 17,
+    "sameNormalizedEvents": true,
+    "simulatedSecondsPerFrame": 0.2,
+    "pigmentInput": [
+      26,
+      26
+    ],
+    "sourceBakeSha256": "e0939ee41f5ddbd16daaf05ff59a7590de7f6204be30b64ac05ff9cb79482b80",
+    "finalBakeSha256": "8c208da7dff62eb4f42f99a14c456a7c6b4616051387a1bf0f8fb223391d96ca",
+    "pixelConcentrationIdentical": false,
+    "note": "High-resolution discretization, total event quantities preserved; density9->36 restores optical amount per area."
+  }
+]

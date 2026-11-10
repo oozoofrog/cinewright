@@ -1,0 +1,14 @@
+{
+  "tests": 56,
+  "passed": 56,
+  "failed": 0,
+  "originalVideoHashesPreserved": 15,
+  "newVideos": 9,
+  "comparisonVideos": 9,
+  "allFrameSequences": {
+    "before": 1728,
+    "after": 1728
+  },
+  "humanRealtimeViewing": false,
+  "aestheticFinalApproval": false
+}

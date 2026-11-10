@@ -1,0 +1,21 @@
+{
+  "id": "P03-designed-inferred-no-outline",
+  "mode": "stills",
+  "revision": "0631f9a5346ff5a11547e2a8c43e9ccfda4d44e39cf2fe5e98849cacbdda7b4c",
+  "project": "/Volumes/eyedisk/develop/cinewright/.direction/cinematic-animation-implementation-2026-11-08/projects/P03-designed-inferred-no-outline-stills-1794137160067",
+  "frames": [
+    24,
+    54,
+    64,
+    69,
+    120
+  ],
+  "width": 1920,
+  "height": 1080,
+  "fps": 24,
+  "elapsedMs": 571.7734160000005,
+  "averageMs": 114.3546832000001,
+  "seekDeterministic": true,
+  "errors": [],
+  "method": "offline canvas seek/capture; not realtime viewing"
+}

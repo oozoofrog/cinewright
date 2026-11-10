@@ -1,0 +1,15 @@
+// Cubic subdivision uses the control-polygon distance to the chord as a conservative flatness bound.
+export function prepareStroke({points,segments,width=1,color='#252c2b',from=0,to=1,tolerance=.5,maxDepth=12}) {
+ if(!Number.isFinite(width)||width<=0||width>4096||!Number.isFinite(tolerance)||tolerance<1e-6||tolerance>64||!Number.isInteger(maxDepth)||maxDepth<1||maxDepth>20||!Number.isFinite(from)||!Number.isFinite(to)||to<=from) throw Error('stroke: invalid width, tolerance, depth or interval');
+ const check=p=>{if(!Array.isArray(p)||p.length!==3||!p.every(Number.isFinite)||Math.abs(p[0])>1e6||Math.abs(p[1])>1e6||p[2]<0||p[2]>1)throw Error('stroke: invalid coordinate or pressure');return [...p]};
+ let out=[];
+ if(segments){if(!Array.isArray(segments)||!segments.length||segments.length>1024)throw Error('stroke: invalid Bezier segments');
+ const mid=(a,b)=>a.map((v,i)=>(v+b[i])/2); const dist=(p,a,b)=>{let dx=b[0]-a[0],dy=b[1]-a[1],d=Math.hypot(dx,dy);let t=d?Math.max(0,Math.min(1,((p[0]-a[0])*dx+(p[1]-a[1])*dy)/(d*d))):0;return Math.hypot(p[0]-a[0]-t*dx,p[1]-a[1]-t*dy)};
+ function flatten(a,b,c,d,depth){if(Math.max(dist(b,a,d),dist(c,a,d))<=tolerance && Math.max(Math.abs(b[2]-(2*a[2]+d[2])/3),Math.abs(c[2]-(a[2]+2*d[2])/3))<=.005){if(out.length>=65536)throw Error('stroke: flattened point budget exceeded (65536)');out.push(d);return}if(depth>=maxDepth)throw Error('stroke: Bezier tolerance exceeds maxDepth');let ab=mid(a,b),bc=mid(b,c),cd=mid(c,d),abc=mid(ab,bc),bcd=mid(bc,cd),m=mid(abc,bcd);flatten(a,ab,abc,m,depth+1);flatten(m,bcd,cd,d,depth+1)}
+ for(const seg of segments){if(!Array.isArray(seg)||seg.length!==4)throw Error('stroke: cubic requires four points');const [a,b,c,d]=seg.map(check);if(out.length&&out.at(-1).some((v,i)=>v!==a[i]))throw Error('stroke: disconnected Bezier segments');if(!out.length)out.push(a);flatten(a,b,c,d,0)}
+ }else{if(!Array.isArray(points)||points.length<2||points.length>10000)throw Error('stroke: invalid points');out=points.map(check)}
+ let length=0;const lengths=[0];for(let i=1;i<out.length;i++){length+=Math.hypot(out[i][0]-out[i-1][0],out[i][1]-out[i-1][1]);lengths.push(length)}
+ if(!Number.isFinite(length))throw Error('stroke: derived length overflow');if(!length)throw Error('stroke: zero-length centerline');return {points:out,width,color,from,to,tolerance,length,lengths};
+}
+export function strokeAt(s,progress){if(!Number.isFinite(progress))throw Error('stroke: invalid progress');let d=Math.max(0,Math.min(1,progress))*s.length,out=[s.points[0].slice()];for(let i=1;i<s.points.length;i++){let a=s.lengths[i-1],b=s.lengths[i];if(b<=d)out.push(s.points[i].slice());else if(b>a&&d>a){let t=(d-a)/(b-a);out.push(s.points[i-1].map((v,j)=>v+(s.points[i][j]-v)*t));break}else if(b>d)break}return out}
+export function drawStroke(g,s,progress=1,color=s.color){const p=strokeAt(s,progress);g.save();g.strokeStyle=color;g.lineCap='round';g.lineJoin='round';for(let i=1;i<p.length;i++){let a=p[i-1],b=p[i];g.lineWidth=s.width*(a[2]+b[2])/2;if(g.lineWidth<=0)continue;g.beginPath();g.moveTo(a[0],a[1]);g.lineTo(b[0],b[1]);g.stroke()}g.restore()}

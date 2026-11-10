@@ -1,0 +1,498 @@
+[
+  {
+    "name": "wet",
+    "scale": 1,
+    "method": "linear",
+    "bakeMs": 48.007958,
+    "bakeBytes": 5261342,
+    "drawMs": 20.629846999999998,
+    "buffersBytes": 4250880,
+    "input": {
+      "version": 1,
+      "seed": 17,
+      "width": 48,
+      "height": 27,
+      "frames": 192,
+      "dt": 0.1,
+      "stepsPerFrame": 2,
+      "coefficients": {
+        "waterDiffusion": 0.35,
+        "pigmentDiffusion": 0.12,
+        "absorption": 0.018,
+        "evaporation": 0.006,
+        "deposition": 0.045
+      },
+      "colors": [
+        [
+          38,
+          84,
+          162
+        ],
+        [
+          196,
+          69,
+          56
+        ]
+      ],
+      "events": [
+        {
+          "frame": 0,
+          "x": 22,
+          "y": 13,
+          "radius": 8,
+          "water": 100,
+          "pigment": [
+            0,
+            0
+          ]
+        },
+        {
+          "frame": 20,
+          "x": 20,
+          "y": 13,
+          "radius": 3,
+          "water": 30,
+          "pigment": [
+            28,
+            0
+          ]
+        }
+      ]
+    },
+    "notes": "Same physical event/time/total pigment; 2x grid uses 4x diffusion rate and substeps, 1/4 dt, 4x optical density. Solver deposition dt*absorption term is not exactly resolution invariant."
+  },
+  {
+    "name": "wet",
+    "scale": 1,
+    "method": "cubic",
+    "bakeMs": 48.007958,
+    "bakeBytes": 5261342,
+    "drawMs": 26.818916666666667,
+    "buffersBytes": 4250880,
+    "input": {
+      "version": 1,
+      "seed": 17,
+      "width": 48,
+      "height": 27,
+      "frames": 192,
+      "dt": 0.1,
+      "stepsPerFrame": 2,
+      "coefficients": {
+        "waterDiffusion": 0.35,
+        "pigmentDiffusion": 0.12,
+        "absorption": 0.018,
+        "evaporation": 0.006,
+        "deposition": 0.045
+      },
+      "colors": [
+        [
+          38,
+          84,
+          162
+        ],
+        [
+          196,
+          69,
+          56
+        ]
+      ],
+      "events": [
+        {
+          "frame": 0,
+          "x": 22,
+          "y": 13,
+          "radius": 8,
+          "water": 100,
+          "pigment": [
+            0,
+            0
+          ]
+        },
+        {
+          "frame": 20,
+          "x": 20,
+          "y": 13,
+          "radius": 3,
+          "water": 30,
+          "pigment": [
+            28,
+            0
+          ]
+        }
+      ]
+    },
+    "notes": "Same physical event/time/total pigment; 2x grid uses 4x diffusion rate and substeps, 1/4 dt, 4x optical density. Solver deposition dt*absorption term is not exactly resolution invariant."
+  },
+  {
+    "name": "wet",
+    "scale": 2,
+    "method": "linear",
+    "bakeMs": 453.4010420000001,
+    "bakeBytes": 21597646,
+    "drawMs": 23.20533333333333,
+    "buffersBytes": 4354560,
+    "input": {
+      "version": 1,
+      "seed": 17,
+      "width": 96,
+      "height": 54,
+      "frames": 192,
+      "dt": 0.025,
+      "stepsPerFrame": 8,
+      "coefficients": {
+        "waterDiffusion": 1.4,
+        "pigmentDiffusion": 0.48,
+        "absorption": 0.018,
+        "evaporation": 0.006,
+        "deposition": 0.045
+      },
+      "colors": [
+        [
+          38,
+          84,
+          162
+        ],
+        [
+          196,
+          69,
+          56
+        ]
+      ],
+      "events": [
+        {
+          "frame": 0,
+          "x": 44.5,
+          "y": 26.5,
+          "radius": 16,
+          "water": 100,
+          "pigment": [
+            0,
+            0
+          ]
+        },
+        {
+          "frame": 20,
+          "x": 40.5,
+          "y": 26.5,
+          "radius": 6,
+          "water": 30,
+          "pigment": [
+            28,
+            0
+          ]
+        }
+      ]
+    },
+    "notes": "Same physical event/time/total pigment; 2x grid uses 4x diffusion rate and substeps, 1/4 dt, 4x optical density. Solver deposition dt*absorption term is not exactly resolution invariant."
+  },
+  {
+    "name": "wet",
+    "scale": 2,
+    "method": "cubic",
+    "bakeMs": 453.4010420000001,
+    "bakeBytes": 21597646,
+    "drawMs": 21.714263666666664,
+    "buffersBytes": 4354560,
+    "input": {
+      "version": 1,
+      "seed": 17,
+      "width": 96,
+      "height": 54,
+      "frames": 192,
+      "dt": 0.025,
+      "stepsPerFrame": 8,
+      "coefficients": {
+        "waterDiffusion": 1.4,
+        "pigmentDiffusion": 0.48,
+        "absorption": 0.018,
+        "evaporation": 0.006,
+        "deposition": 0.045
+      },
+      "colors": [
+        [
+          38,
+          84,
+          162
+        ],
+        [
+          196,
+          69,
+          56
+        ]
+      ],
+      "events": [
+        {
+          "frame": 0,
+          "x": 44.5,
+          "y": 26.5,
+          "radius": 16,
+          "water": 100,
+          "pigment": [
+            0,
+            0
+          ]
+        },
+        {
+          "frame": 20,
+          "x": 40.5,
+          "y": 26.5,
+          "radius": 6,
+          "water": 30,
+          "pigment": [
+            28,
+            0
+          ]
+        }
+      ]
+    },
+    "notes": "Same physical event/time/total pigment; 2x grid uses 4x diffusion rate and substeps, 1/4 dt, 4x optical density. Solver deposition dt*absorption term is not exactly resolution invariant."
+  },
+  {
+    "name": "overlap",
+    "scale": 1,
+    "method": "linear",
+    "bakeMs": 40.58425,
+    "bakeBytes": 9330919,
+    "drawMs": 16.405471999999993,
+    "buffersBytes": 4250880,
+    "input": {
+      "version": 1,
+      "seed": 17,
+      "width": 48,
+      "height": 27,
+      "frames": 192,
+      "dt": 0.1,
+      "stepsPerFrame": 2,
+      "coefficients": {
+        "waterDiffusion": 0.35,
+        "pigmentDiffusion": 0.12,
+        "absorption": 0.018,
+        "evaporation": 0.006,
+        "deposition": 0.045
+      },
+      "colors": [
+        [
+          38,
+          84,
+          162
+        ],
+        [
+          196,
+          69,
+          56
+        ]
+      ],
+      "events": [
+        {
+          "frame": 0,
+          "x": 17,
+          "y": 13,
+          "radius": 4,
+          "water": 60,
+          "pigment": [
+            26,
+            0
+          ]
+        },
+        {
+          "frame": 45,
+          "x": 28,
+          "y": 13,
+          "radius": 4,
+          "water": 60,
+          "pigment": [
+            0,
+            26
+          ]
+        }
+      ]
+    },
+    "notes": "Same physical event/time/total pigment; 2x grid uses 4x diffusion rate and substeps, 1/4 dt, 4x optical density. Solver deposition dt*absorption term is not exactly resolution invariant."
+  },
+  {
+    "name": "overlap",
+    "scale": 1,
+    "method": "cubic",
+    "bakeMs": 40.58425,
+    "bakeBytes": 9330919,
+    "drawMs": 18.566569666666663,
+    "buffersBytes": 4250880,
+    "input": {
+      "version": 1,
+      "seed": 17,
+      "width": 48,
+      "height": 27,
+      "frames": 192,
+      "dt": 0.1,
+      "stepsPerFrame": 2,
+      "coefficients": {
+        "waterDiffusion": 0.35,
+        "pigmentDiffusion": 0.12,
+        "absorption": 0.018,
+        "evaporation": 0.006,
+        "deposition": 0.045
+      },
+      "colors": [
+        [
+          38,
+          84,
+          162
+        ],
+        [
+          196,
+          69,
+          56
+        ]
+      ],
+      "events": [
+        {
+          "frame": 0,
+          "x": 17,
+          "y": 13,
+          "radius": 4,
+          "water": 60,
+          "pigment": [
+            26,
+            0
+          ]
+        },
+        {
+          "frame": 45,
+          "x": 28,
+          "y": 13,
+          "radius": 4,
+          "water": 60,
+          "pigment": [
+            0,
+            26
+          ]
+        }
+      ]
+    },
+    "notes": "Same physical event/time/total pigment; 2x grid uses 4x diffusion rate and substeps, 1/4 dt, 4x optical density. Solver deposition dt*absorption term is not exactly resolution invariant."
+  },
+  {
+    "name": "overlap",
+    "scale": 2,
+    "method": "linear",
+    "bakeMs": 443.17145800000003,
+    "bakeBytes": 38539771,
+    "drawMs": 21.175916666666655,
+    "buffersBytes": 4354560,
+    "input": {
+      "version": 1,
+      "seed": 17,
+      "width": 96,
+      "height": 54,
+      "frames": 192,
+      "dt": 0.025,
+      "stepsPerFrame": 8,
+      "coefficients": {
+        "waterDiffusion": 1.4,
+        "pigmentDiffusion": 0.48,
+        "absorption": 0.018,
+        "evaporation": 0.006,
+        "deposition": 0.045
+      },
+      "colors": [
+        [
+          38,
+          84,
+          162
+        ],
+        [
+          196,
+          69,
+          56
+        ]
+      ],
+      "events": [
+        {
+          "frame": 0,
+          "x": 34.5,
+          "y": 26.5,
+          "radius": 8,
+          "water": 60,
+          "pigment": [
+            26,
+            0
+          ]
+        },
+        {
+          "frame": 45,
+          "x": 56.5,
+          "y": 26.5,
+          "radius": 8,
+          "water": 60,
+          "pigment": [
+            0,
+            26
+          ]
+        }
+      ]
+    },
+    "notes": "Same physical event/time/total pigment; 2x grid uses 4x diffusion rate and substeps, 1/4 dt, 4x optical density. Solver deposition dt*absorption term is not exactly resolution invariant."
+  },
+  {
+    "name": "overlap",
+    "scale": 2,
+    "method": "cubic",
+    "bakeMs": 443.17145800000003,
+    "bakeBytes": 38539771,
+    "drawMs": 23.986124999999976,
+    "buffersBytes": 4354560,
+    "input": {
+      "version": 1,
+      "seed": 17,
+      "width": 96,
+      "height": 54,
+      "frames": 192,
+      "dt": 0.025,
+      "stepsPerFrame": 8,
+      "coefficients": {
+        "waterDiffusion": 1.4,
+        "pigmentDiffusion": 0.48,
+        "absorption": 0.018,
+        "evaporation": 0.006,
+        "deposition": 0.045
+      },
+      "colors": [
+        [
+          38,
+          84,
+          162
+        ],
+        [
+          196,
+          69,
+          56
+        ]
+      ],
+      "events": [
+        {
+          "frame": 0,
+          "x": 34.5,
+          "y": 26.5,
+          "radius": 8,
+          "water": 60,
+          "pigment": [
+            26,
+            0
+          ]
+        },
+        {
+          "frame": 45,
+          "x": 56.5,
+          "y": 26.5,
+          "radius": 8,
+          "water": 60,
+          "pigment": [
+            0,
+            26
+          ]
+        }
+      ]
+    },
+    "notes": "Same physical event/time/total pigment; 2x grid uses 4x diffusion rate and substeps, 1/4 dt, 4x optical density. Solver deposition dt*absorption term is not exactly resolution invariant."
+  }
+]

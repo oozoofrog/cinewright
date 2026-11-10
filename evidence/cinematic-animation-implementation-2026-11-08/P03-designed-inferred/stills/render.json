@@ -1,0 +1,21 @@
+{
+  "id": "P03-designed-inferred",
+  "mode": "stills",
+  "revision": "a355918ba4699940876d0c8a1489d617558e82e505860424a1388c9e2e0a4b17",
+  "project": "/Volumes/eyedisk/develop/cinewright/.direction/cinematic-animation-implementation-2026-11-08/projects/P03-designed-inferred-stills-1794137157269",
+  "frames": [
+    24,
+    54,
+    64,
+    69,
+    120
+  ],
+  "width": 1920,
+  "height": 1080,
+  "fps": 24,
+  "elapsedMs": 784.4810000000002,
+  "averageMs": 156.89620000000005,
+  "seekDeterministic": true,
+  "errors": [],
+  "method": "offline canvas seek/capture; not realtime viewing"
+}

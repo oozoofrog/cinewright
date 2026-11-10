@@ -1,0 +1,1944 @@
+[
+  {
+    "name": "original",
+    "vertices": 20280,
+    "frames": [
+      {
+        "frame": 0,
+        "absoluteSignedVolume": 2.199127897783228,
+        "maxVertexStep": 0
+      },
+      {
+        "frame": 1,
+        "absoluteSignedVolume": 2.199127897783228,
+        "maxVertexStep": 0
+      },
+      {
+        "frame": 2,
+        "absoluteSignedVolume": 2.2069783516517956,
+        "maxVertexStep": 0.15709771034246528
+      },
+      {
+        "frame": 3,
+        "absoluteSignedVolume": 2.2069783516517956,
+        "maxVertexStep": 0
+      },
+      {
+        "frame": 4,
+        "absoluteSignedVolume": 2.214810957937373,
+        "maxVertexStep": 0.15679499103739938
+      },
+      {
+        "frame": 5,
+        "absoluteSignedVolume": 2.214810957937373,
+        "maxVertexStep": 0
+      },
+      {
+        "frame": 6,
+        "absoluteSignedVolume": 2.22262141556015,
+        "maxVertexStep": 0.1570991231222878
+      },
+      {
+        "frame": 7,
+        "absoluteSignedVolume": 2.22262141556015,
+        "maxVertexStep": 0
+      },
+      {
+        "frame": 8,
+        "absoluteSignedVolume": 2.2304022379479216,
+        "maxVertexStep": 0.15728920194596718
+      },
+      {
+        "frame": 9,
+        "absoluteSignedVolume": 2.2304022379479216,
+        "maxVertexStep": 0
+      },
+      {
+        "frame": 10,
+        "absoluteSignedVolume": 2.238142620757622,
+        "maxVertexStep": 0.15736503364567264
+      },
+      {
+        "frame": 11,
+        "absoluteSignedVolume": 2.238142620757622,
+        "maxVertexStep": 0
+      },
+      {
+        "frame": 12,
+        "absoluteSignedVolume": 2.245828372508635,
+        "maxVertexStep": 0.15732654093655846
+      },
+      {
+        "frame": 13,
+        "absoluteSignedVolume": 2.245828372508635,
+        "maxVertexStep": 0
+      },
+      {
+        "frame": 14,
+        "absoluteSignedVolume": 2.2534419097769156,
+        "maxVertexStep": 0.15717376304494662
+      },
+      {
+        "frame": 15,
+        "absoluteSignedVolume": 2.2534419097769156,
+        "maxVertexStep": 0
+      },
+      {
+        "frame": 16,
+        "absoluteSignedVolume": 2.260962317576767,
+        "maxVertexStep": 0.15690685574215787
+      },
+      {
+        "frame": 17,
+        "absoluteSignedVolume": 2.260962317576767,
+        "maxVertexStep": 0
+      },
+      {
+        "frame": 18,
+        "absoluteSignedVolume": 2.268365474523876,
+        "maxVertexStep": 0.15652609147986157
+      },
+      {
+        "frame": 19,
+        "absoluteSignedVolume": 2.268365474523876,
+        "maxVertexStep": 0
+      },
+      {
+        "frame": 20,
+        "absoluteSignedVolume": 2.2756242413450067,
+        "maxVertexStep": 0.1560318596306624
+      },
+      {
+        "frame": 21,
+        "absoluteSignedVolume": 2.2756242413450067,
+        "maxVertexStep": 0
+      },
+      {
+        "frame": 22,
+        "absoluteSignedVolume": 2.282708710291914,
+        "maxVertexStep": 0.15542466684056064
+      },
+      {
+        "frame": 23,
+        "absoluteSignedVolume": 2.282708710291914,
+        "maxVertexStep": 0
+      },
+      {
+        "frame": 24,
+        "absoluteSignedVolume": 2.2895865120448535,
+        "maxVertexStep": 0.1547051375029265
+      },
+      {
+        "frame": 25,
+        "absoluteSignedVolume": 2.2895865120448535,
+        "maxVertexStep": 0
+      },
+      {
+        "frame": 26,
+        "absoluteSignedVolume": 2.2832525135952504,
+        "maxVertexStep": 0.14059637533674144
+      },
+      {
+        "frame": 27,
+        "absoluteSignedVolume": 2.2832525135952504,
+        "maxVertexStep": 0
+      },
+      {
+        "frame": 28,
+        "absoluteSignedVolume": 2.2761541823161098,
+        "maxVertexStep": 0.14074986171411272
+      },
+      {
+        "frame": 29,
+        "absoluteSignedVolume": 2.2761541823161098,
+        "maxVertexStep": 0
+      },
+      {
+        "frame": 30,
+        "absoluteSignedVolume": 2.2683689185875253,
+        "maxVertexStep": 0.14076387602283735
+      },
+      {
+        "frame": 31,
+        "absoluteSignedVolume": 2.2683689185875253,
+        "maxVertexStep": 0
+      },
+      {
+        "frame": 32,
+        "absoluteSignedVolume": 2.2599755510919004,
+        "maxVertexStep": 0.14063839303374576
+      },
+      {
+        "frame": 33,
+        "absoluteSignedVolume": 2.2599755510919004,
+        "maxVertexStep": 0
+      },
+      {
+        "frame": 34,
+        "absoluteSignedVolume": 2.2510532183486673,
+        "maxVertexStep": 0.14037363876768752
+      },
+      {
+        "frame": 35,
+        "absoluteSignedVolume": 2.2510532183486673,
+        "maxVertexStep": 0
+      },
+      {
+        "frame": 36,
+        "absoluteSignedVolume": 2.2416802774822866,
+        "maxVertexStep": 0.14055291909586368
+      },
+      {
+        "frame": 37,
+        "absoluteSignedVolume": 2.2416802774822866,
+        "maxVertexStep": 0
+      },
+      {
+        "frame": 38,
+        "absoluteSignedVolume": 2.231933256251859,
+        "maxVertexStep": 0.14073199258812466
+      },
+      {
+        "frame": 39,
+        "absoluteSignedVolume": 2.231933256251859,
+        "maxVertexStep": 0
+      },
+      {
+        "frame": 40,
+        "absoluteSignedVolume": 2.22188586364549,
+        "maxVertexStep": 0.14077162607626045
+      },
+      {
+        "frame": 41,
+        "absoluteSignedVolume": 2.22188586364549,
+        "maxVertexStep": 0
+      },
+      {
+        "frame": 42,
+        "absoluteSignedVolume": 2.211608073382487,
+        "maxVertexStep": 0.14067174820696302
+      },
+      {
+        "frame": 43,
+        "absoluteSignedVolume": 2.211608073382487,
+        "maxVertexStep": 0
+      },
+      {
+        "frame": 44,
+        "absoluteSignedVolume": 2.2011652934849475,
+        "maxVertexStep": 0.1404325388452217
+      },
+      {
+        "frame": 45,
+        "absoluteSignedVolume": 2.2011652934849475,
+        "maxVertexStep": 0
+      },
+      {
+        "frame": 46,
+        "absoluteSignedVolume": 2.190617633694905,
+        "maxVertexStep": 0.140054429474371
+      },
+      {
+        "frame": 47,
+        "absoluteSignedVolume": 2.190617633694905,
+        "maxVertexStep": 0
+      },
+      {
+        "frame": 48,
+        "absoluteSignedVolume": 2.180019280945096,
+        "maxVertexStep": 0.1395381041653632
+      },
+      {
+        "frame": 49,
+        "absoluteSignedVolume": 2.180019280945096,
+        "maxVertexStep": 0
+      },
+      {
+        "frame": 50,
+        "absoluteSignedVolume": 2.173923147301599,
+        "maxVertexStep": 0.15709771034246547
+      },
+      {
+        "frame": 51,
+        "absoluteSignedVolume": 2.173923147301599,
+        "maxVertexStep": 0
+      },
+      {
+        "frame": 52,
+        "absoluteSignedVolume": 2.1678791326358926,
+        "maxVertexStep": 0.1567949910373992
+      },
+      {
+        "frame": 53,
+        "absoluteSignedVolume": 2.1678791326358926,
+        "maxVertexStep": 0
+      },
+      {
+        "frame": 54,
+        "absoluteSignedVolume": 2.161914011764862,
+        "maxVertexStep": 0.157099123122288
+      },
+      {
+        "frame": 55,
+        "absoluteSignedVolume": 2.161914011764862,
+        "maxVertexStep": 0
+      },
+      {
+        "frame": 56,
+        "absoluteSignedVolume": 2.1560511424386,
+        "maxVertexStep": 0.1572892019459675
+      },
+      {
+        "frame": 57,
+        "absoluteSignedVolume": 2.1560511424386,
+        "maxVertexStep": 0
+      },
+      {
+        "frame": 58,
+        "absoluteSignedVolume": 2.150310267191316,
+        "maxVertexStep": 0.15736503364567206
+      },
+      {
+        "frame": 59,
+        "absoluteSignedVolume": 2.150310267191316,
+        "maxVertexStep": 0
+      },
+      {
+        "frame": 60,
+        "absoluteSignedVolume": 2.1447073790246827,
+        "maxVertexStep": 0.15732654093655862
+      },
+      {
+        "frame": 61,
+        "absoluteSignedVolume": 2.1447073790246827,
+        "maxVertexStep": 0
+      },
+      {
+        "frame": 62,
+        "absoluteSignedVolume": 2.139254652605539,
+        "maxVertexStep": 0.15717376304494657
+      },
+      {
+        "frame": 63,
+        "absoluteSignedVolume": 2.139254652605539,
+        "maxVertexStep": 0
+      },
+      {
+        "frame": 64,
+        "absoluteSignedVolume": 2.1339604416337523,
+        "maxVertexStep": 0.15690685574215799
+      },
+      {
+        "frame": 65,
+        "absoluteSignedVolume": 2.1339604416337523,
+        "maxVertexStep": 0
+      },
+      {
+        "frame": 66,
+        "absoluteSignedVolume": 2.1288293420010422,
+        "maxVertexStep": 0.15652609147986135
+      },
+      {
+        "frame": 67,
+        "absoluteSignedVolume": 2.1288293420010422,
+        "maxVertexStep": 0
+      },
+      {
+        "frame": 68,
+        "absoluteSignedVolume": 2.1238623193327753,
+        "maxVertexStep": 0.15603185963066235
+      },
+      {
+        "frame": 69,
+        "absoluteSignedVolume": 2.1238623193327753,
+        "maxVertexStep": 0
+      },
+      {
+        "frame": 70,
+        "absoluteSignedVolume": 2.119056898498769,
+        "maxVertexStep": 0.15542466684056067
+      },
+      {
+        "frame": 71,
+        "absoluteSignedVolume": 2.119056898498769,
+        "maxVertexStep": 0
+      },
+      {
+        "frame": 72,
+        "absoluteSignedVolume": 2.114407411710047,
+        "maxVertexStep": 0.15470513750292658
+      },
+      {
+        "frame": 73,
+        "absoluteSignedVolume": 2.114407411710047,
+        "maxVertexStep": 0
+      },
+      {
+        "frame": 74,
+        "absoluteSignedVolume": 2.121232954169149,
+        "maxVertexStep": 0.14059624065060028
+      },
+      {
+        "frame": 75,
+        "absoluteSignedVolume": 2.121232954169149,
+        "maxVertexStep": 0
+      },
+      {
+        "frame": 76,
+        "absoluteSignedVolume": 2.1282120201686583,
+        "maxVertexStep": 0.14074972688092885
+      },
+      {
+        "frame": 77,
+        "absoluteSignedVolume": 2.1282120201686583,
+        "maxVertexStep": 0
+      },
+      {
+        "frame": 78,
+        "absoluteSignedVolume": 2.135326597079886,
+        "maxVertexStep": 0.14076374117622248
+      },
+      {
+        "frame": 79,
+        "absoluteSignedVolume": 2.135326597079886,
+        "maxVertexStep": 0
+      },
+      {
+        "frame": 80,
+        "absoluteSignedVolume": 2.1425514364673046,
+        "maxVertexStep": 0.1406382583073347
+      },
+      {
+        "frame": 81,
+        "absoluteSignedVolume": 2.1425514364673046,
+        "maxVertexStep": 0
+      },
+      {
+        "frame": 82,
+        "absoluteSignedVolume": 2.1498541938298823,
+        "maxVertexStep": 0.14037350429489873
+      },
+      {
+        "frame": 83,
+        "absoluteSignedVolume": 2.1498541938298823,
+        "maxVertexStep": 0
+      },
+      {
+        "frame": 84,
+        "absoluteSignedVolume": 2.157195697169402,
+        "maxVertexStep": 0.1405530537405244
+      },
+      {
+        "frame": 85,
+        "absoluteSignedVolume": 2.157195697169402,
+        "maxVertexStep": 0
+      },
+      {
+        "frame": 86,
+        "absoluteSignedVolume": 2.164530340809853,
+        "maxVertexStep": 0.1407321274043283
+      },
+      {
+        "frame": 87,
+        "absoluteSignedVolume": 2.164530340809853,
+        "maxVertexStep": 0
+      },
+      {
+        "frame": 88,
+        "absoluteSignedVolume": 2.171806598920839,
+        "maxVertexStep": 0.14077176093042532
+      },
+      {
+        "frame": 89,
+        "absoluteSignedVolume": 2.171806598920839,
+        "maxVertexStep": 0
+      },
+      {
+        "frame": 90,
+        "absoluteSignedVolume": 2.1789676513191587,
+        "maxVertexStep": 0.14067188296544
+      },
+      {
+        "frame": 91,
+        "absoluteSignedVolume": 2.1789676513191587,
+        "maxVertexStep": 0
+      },
+      {
+        "frame": 92,
+        "absoluteSignedVolume": 2.185952112364469,
+        "maxVertexStep": 0.14043267337453536
+      },
+      {
+        "frame": 93,
+        "absoluteSignedVolume": 2.185952112364469,
+        "maxVertexStep": 0
+      },
+      {
+        "frame": 94,
+        "absoluteSignedVolume": 2.192694852154066,
+        "maxVertexStep": 0.14005456364145866
+      },
+      {
+        "frame": 95,
+        "absoluteSignedVolume": 2.192694852154066,
+        "maxVertexStep": 0
+      },
+      {
+        "frame": 96,
+        "absoluteSignedVolume": 2.199127897783226,
+        "maxVertexStep": 0.1395382378378162
+      },
+      {
+        "frame": 97,
+        "absoluteSignedVolume": 2.199127897783226,
+        "maxVertexStep": 0
+      },
+      {
+        "frame": 98,
+        "absoluteSignedVolume": 2.2069783516517973,
+        "maxVertexStep": 0.15709771034246475
+      },
+      {
+        "frame": 99,
+        "absoluteSignedVolume": 2.2069783516517973,
+        "maxVertexStep": 0
+      },
+      {
+        "frame": 100,
+        "absoluteSignedVolume": 2.2148109579373734,
+        "maxVertexStep": 0.15679499103740063
+      },
+      {
+        "frame": 101,
+        "absoluteSignedVolume": 2.2148109579373734,
+        "maxVertexStep": 0
+      },
+      {
+        "frame": 102,
+        "absoluteSignedVolume": 2.2226214155601496,
+        "maxVertexStep": 0.1570991231222874
+      },
+      {
+        "frame": 103,
+        "absoluteSignedVolume": 2.2226214155601496,
+        "maxVertexStep": 0
+      },
+      {
+        "frame": 104,
+        "absoluteSignedVolume": 2.2304022379479234,
+        "maxVertexStep": 0.15728920194596666
+      },
+      {
+        "frame": 105,
+        "absoluteSignedVolume": 2.2304022379479234,
+        "maxVertexStep": 0
+      },
+      {
+        "frame": 106,
+        "absoluteSignedVolume": 2.238142620757623,
+        "maxVertexStep": 0.15736503364567372
+      },
+      {
+        "frame": 107,
+        "absoluteSignedVolume": 2.238142620757623,
+        "maxVertexStep": 0
+      },
+      {
+        "frame": 108,
+        "absoluteSignedVolume": 2.2458283725086345,
+        "maxVertexStep": 0.1573265409365578
+      },
+      {
+        "frame": 109,
+        "absoluteSignedVolume": 2.2458283725086345,
+        "maxVertexStep": 0
+      },
+      {
+        "frame": 110,
+        "absoluteSignedVolume": 2.253441909776915,
+        "maxVertexStep": 0.15717376304494574
+      },
+      {
+        "frame": 111,
+        "absoluteSignedVolume": 2.253441909776915,
+        "maxVertexStep": 0
+      },
+      {
+        "frame": 112,
+        "absoluteSignedVolume": 2.260962317576768,
+        "maxVertexStep": 0.15690685574215968
+      },
+      {
+        "frame": 113,
+        "absoluteSignedVolume": 2.260962317576768,
+        "maxVertexStep": 0
+      },
+      {
+        "frame": 114,
+        "absoluteSignedVolume": 2.268365474523876,
+        "maxVertexStep": 0.15652609147986074
+      },
+      {
+        "frame": 115,
+        "absoluteSignedVolume": 2.268365474523876,
+        "maxVertexStep": 0
+      },
+      {
+        "frame": 116,
+        "absoluteSignedVolume": 2.275624241345003,
+        "maxVertexStep": 0.1560318596306615
+      },
+      {
+        "frame": 117,
+        "absoluteSignedVolume": 2.275624241345003,
+        "maxVertexStep": 0
+      },
+      {
+        "frame": 118,
+        "absoluteSignedVolume": 2.282708710291915,
+        "maxVertexStep": 0.15542466684056244
+      },
+      {
+        "frame": 119,
+        "absoluteSignedVolume": 2.282708710291915,
+        "maxVertexStep": 0
+      },
+      {
+        "frame": 120,
+        "absoluteSignedVolume": 2.289586512044855,
+        "maxVertexStep": 0.1547051375029257
+      },
+      {
+        "frame": 121,
+        "absoluteSignedVolume": 2.289586512044855,
+        "maxVertexStep": 0
+      },
+      {
+        "frame": 122,
+        "absoluteSignedVolume": 2.2832525135952495,
+        "maxVertexStep": 0.14059637533674094
+      },
+      {
+        "frame": 123,
+        "absoluteSignedVolume": 2.2832525135952495,
+        "maxVertexStep": 0
+      },
+      {
+        "frame": 124,
+        "absoluteSignedVolume": 2.276154182316109,
+        "maxVertexStep": 0.1407498617141142
+      },
+      {
+        "frame": 125,
+        "absoluteSignedVolume": 2.276154182316109,
+        "maxVertexStep": 0
+      },
+      {
+        "frame": 126,
+        "absoluteSignedVolume": 2.2683689185875235,
+        "maxVertexStep": 0.14076387602283655
+      },
+      {
+        "frame": 127,
+        "absoluteSignedVolume": 2.2683689185875235,
+        "maxVertexStep": 0
+      },
+      {
+        "frame": 128,
+        "absoluteSignedVolume": 2.2599755510918986,
+        "maxVertexStep": 0.14063839303374503
+      },
+      {
+        "frame": 129,
+        "absoluteSignedVolume": 2.2599755510918986,
+        "maxVertexStep": 0
+      },
+      {
+        "frame": 130,
+        "absoluteSignedVolume": 2.2510532183486673,
+        "maxVertexStep": 0.14037363876768774
+      },
+      {
+        "frame": 131,
+        "absoluteSignedVolume": 2.2510532183486673,
+        "maxVertexStep": 0
+      },
+      {
+        "frame": 132,
+        "absoluteSignedVolume": 2.241680277482285,
+        "maxVertexStep": 0.14055291909586326
+      },
+      {
+        "frame": 133,
+        "absoluteSignedVolume": 2.241680277482285,
+        "maxVertexStep": 0
+      },
+      {
+        "frame": 134,
+        "absoluteSignedVolume": 2.231933256251858,
+        "maxVertexStep": 0.14073199258812452
+      },
+      {
+        "frame": 135,
+        "absoluteSignedVolume": 2.231933256251858,
+        "maxVertexStep": 0
+      },
+      {
+        "frame": 136,
+        "absoluteSignedVolume": 2.2218858636454892,
+        "maxVertexStep": 0.14077162607626142
+      },
+      {
+        "frame": 137,
+        "absoluteSignedVolume": 2.2218858636454892,
+        "maxVertexStep": 0
+      },
+      {
+        "frame": 138,
+        "absoluteSignedVolume": 2.211608073382487,
+        "maxVertexStep": 0.14067174820696213
+      },
+      {
+        "frame": 139,
+        "absoluteSignedVolume": 2.211608073382487,
+        "maxVertexStep": 0
+      },
+      {
+        "frame": 140,
+        "absoluteSignedVolume": 2.201165293484953,
+        "maxVertexStep": 0.1404325388452208
+      },
+      {
+        "frame": 141,
+        "absoluteSignedVolume": 2.201165293484953,
+        "maxVertexStep": 0
+      },
+      {
+        "frame": 142,
+        "absoluteSignedVolume": 2.1906176336949024,
+        "maxVertexStep": 0.1400544294743719
+      },
+      {
+        "frame": 143,
+        "absoluteSignedVolume": 2.1906176336949024,
+        "maxVertexStep": 0
+      },
+      {
+        "frame": 144,
+        "absoluteSignedVolume": 2.180019280945093,
+        "maxVertexStep": 0.13953810416536355
+      },
+      {
+        "frame": 145,
+        "absoluteSignedVolume": 2.180019280945093,
+        "maxVertexStep": 0
+      },
+      {
+        "frame": 146,
+        "absoluteSignedVolume": 2.173923147301599,
+        "maxVertexStep": 0.15709771034246475
+      },
+      {
+        "frame": 147,
+        "absoluteSignedVolume": 2.173923147301599,
+        "maxVertexStep": 0
+      },
+      {
+        "frame": 148,
+        "absoluteSignedVolume": 2.1678791326358913,
+        "maxVertexStep": 0.15679499103740063
+      },
+      {
+        "frame": 149,
+        "absoluteSignedVolume": 2.1678791326358913,
+        "maxVertexStep": 0
+      },
+      {
+        "frame": 150,
+        "absoluteSignedVolume": 2.1619140117648623,
+        "maxVertexStep": 0.1570991231222874
+      },
+      {
+        "frame": 151,
+        "absoluteSignedVolume": 2.1619140117648623,
+        "maxVertexStep": 0
+      },
+      {
+        "frame": 152,
+        "absoluteSignedVolume": 2.1560511424386015,
+        "maxVertexStep": 0.15728920194596666
+      },
+      {
+        "frame": 153,
+        "absoluteSignedVolume": 2.1560511424386015,
+        "maxVertexStep": 0
+      },
+      {
+        "frame": 154,
+        "absoluteSignedVolume": 2.1503102671913155,
+        "maxVertexStep": 0.1573650336456736
+      },
+      {
+        "frame": 155,
+        "absoluteSignedVolume": 2.1503102671913155,
+        "maxVertexStep": 0
+      },
+      {
+        "frame": 156,
+        "absoluteSignedVolume": 2.144707379024681,
+        "maxVertexStep": 0.15732654093655785
+      },
+      {
+        "frame": 157,
+        "absoluteSignedVolume": 2.144707379024681,
+        "maxVertexStep": 0
+      },
+      {
+        "frame": 158,
+        "absoluteSignedVolume": 2.139254652605539,
+        "maxVertexStep": 0.15717376304494568
+      },
+      {
+        "frame": 159,
+        "absoluteSignedVolume": 2.139254652605539,
+        "maxVertexStep": 0
+      },
+      {
+        "frame": 160,
+        "absoluteSignedVolume": 2.1339604416337523,
+        "maxVertexStep": 0.15690685574215985
+      },
+      {
+        "frame": 161,
+        "absoluteSignedVolume": 2.1339604416337523,
+        "maxVertexStep": 0
+      },
+      {
+        "frame": 162,
+        "absoluteSignedVolume": 2.1288293420010427,
+        "maxVertexStep": 0.15652609147986057
+      },
+      {
+        "frame": 163,
+        "absoluteSignedVolume": 2.1288293420010427,
+        "maxVertexStep": 0
+      },
+      {
+        "frame": 164,
+        "absoluteSignedVolume": 2.1238623193327757,
+        "maxVertexStep": 0.15603185963066138
+      },
+      {
+        "frame": 165,
+        "absoluteSignedVolume": 2.1238623193327757,
+        "maxVertexStep": 0
+      },
+      {
+        "frame": 166,
+        "absoluteSignedVolume": 2.1190568984987705,
+        "maxVertexStep": 0.15542466684056266
+      },
+      {
+        "frame": 167,
+        "absoluteSignedVolume": 2.1190568984987705,
+        "maxVertexStep": 0
+      },
+      {
+        "frame": 168,
+        "absoluteSignedVolume": 2.1144074117100438,
+        "maxVertexStep": 0.1547051375029254
+      },
+      {
+        "frame": 169,
+        "absoluteSignedVolume": 2.1144074117100438,
+        "maxVertexStep": 0
+      },
+      {
+        "frame": 170,
+        "absoluteSignedVolume": 2.121232954169151,
+        "maxVertexStep": 0.14059624065060033
+      },
+      {
+        "frame": 171,
+        "absoluteSignedVolume": 2.121232954169151,
+        "maxVertexStep": 0
+      },
+      {
+        "frame": 172,
+        "absoluteSignedVolume": 2.128212020168661,
+        "maxVertexStep": 0.14074972688092996
+      },
+      {
+        "frame": 173,
+        "absoluteSignedVolume": 2.128212020168661,
+        "maxVertexStep": 0
+      },
+      {
+        "frame": 174,
+        "absoluteSignedVolume": 2.1353265970798874,
+        "maxVertexStep": 0.14076374117622167
+      },
+      {
+        "frame": 175,
+        "absoluteSignedVolume": 2.1353265970798874,
+        "maxVertexStep": 0
+      },
+      {
+        "frame": 176,
+        "absoluteSignedVolume": 2.1425514364673064,
+        "maxVertexStep": 0.14063825830733387
+      },
+      {
+        "frame": 177,
+        "absoluteSignedVolume": 2.1425514364673064,
+        "maxVertexStep": 0
+      },
+      {
+        "frame": 178,
+        "absoluteSignedVolume": 2.1498541938298823,
+        "maxVertexStep": 0.14037350429489925
+      },
+      {
+        "frame": 179,
+        "absoluteSignedVolume": 2.1498541938298823,
+        "maxVertexStep": 0
+      },
+      {
+        "frame": 180,
+        "absoluteSignedVolume": 2.1571956971694033,
+        "maxVertexStep": 0.14055305374052388
+      },
+      {
+        "frame": 181,
+        "absoluteSignedVolume": 2.1571956971694033,
+        "maxVertexStep": 0
+      },
+      {
+        "frame": 182,
+        "absoluteSignedVolume": 2.164530340809852,
+        "maxVertexStep": 0.14073212740432858
+      },
+      {
+        "frame": 183,
+        "absoluteSignedVolume": 2.164530340809852,
+        "maxVertexStep": 0
+      },
+      {
+        "frame": 184,
+        "absoluteSignedVolume": 2.1718065989208406,
+        "maxVertexStep": 0.14077176093042576
+      },
+      {
+        "frame": 185,
+        "absoluteSignedVolume": 2.1718065989208406,
+        "maxVertexStep": 0
+      },
+      {
+        "frame": 186,
+        "absoluteSignedVolume": 2.178967651319159,
+        "maxVertexStep": 0.14067188296544
+      },
+      {
+        "frame": 187,
+        "absoluteSignedVolume": 2.178967651319159,
+        "maxVertexStep": 0
+      },
+      {
+        "frame": 188,
+        "absoluteSignedVolume": 2.185952112364469,
+        "maxVertexStep": 0.1404326733745349
+      },
+      {
+        "frame": 189,
+        "absoluteSignedVolume": 2.185952112364469,
+        "maxVertexStep": 0
+      },
+      {
+        "frame": 190,
+        "absoluteSignedVolume": 2.192694852154065,
+        "maxVertexStep": 0.14005456364145957
+      },
+      {
+        "frame": 191,
+        "absoluteSignedVolume": 2.192694852154065,
+        "maxVertexStep": 0
+      }
+    ],
+    "minVolume": 2.1144074117100438,
+    "maxVolume": 2.289586512044855,
+    "maxRelativeVolumeStep": 0.004838066026124818,
+    "maxVertexStep": 0.15736503364567372,
+    "method": "CPU skinned vertices at native24 with original every=2 exposure; signed mesh volume, not perceptual acceptance"
+  },
+  {
+    "name": "reader",
+    "vertices": 3382,
+    "frames": [
+      {
+        "frame": 0,
+        "absoluteSignedVolume": 1.946380633947461,
+        "maxVertexStep": 0
+      },
+      {
+        "frame": 1,
+        "absoluteSignedVolume": 1.946380633947461,
+        "maxVertexStep": 0
+      },
+      {
+        "frame": 2,
+        "absoluteSignedVolume": 1.9470470338531387,
+        "maxVertexStep": 0.15346871948602542
+      },
+      {
+        "frame": 3,
+        "absoluteSignedVolume": 1.9470470338531387,
+        "maxVertexStep": 0
+      },
+      {
+        "frame": 4,
+        "absoluteSignedVolume": 1.9476672613892128,
+        "maxVertexStep": 0.15352429346541574
+      },
+      {
+        "frame": 5,
+        "absoluteSignedVolume": 1.9476672613892128,
+        "maxVertexStep": 0
+      },
+      {
+        "frame": 6,
+        "absoluteSignedVolume": 1.9482394823261535,
+        "maxVertexStep": 0.15346807952285985
+      },
+      {
+        "frame": 7,
+        "absoluteSignedVolume": 1.9482394823261535,
+        "maxVertexStep": 0
+      },
+      {
+        "frame": 8,
+        "absoluteSignedVolume": 1.9487620337837417,
+        "maxVertexStep": 0.15330013466757353
+      },
+      {
+        "frame": 9,
+        "absoluteSignedVolume": 1.9487620337837417,
+        "maxVertexStep": 0
+      },
+      {
+        "frame": 10,
+        "absoluteSignedVolume": 1.949233429862234,
+        "maxVertexStep": 0.1530206293259016
+      },
+      {
+        "frame": 11,
+        "absoluteSignedVolume": 1.949233429862234,
+        "maxVertexStep": 0
+      },
+      {
+        "frame": 12,
+        "absoluteSignedVolume": 1.949652366598687,
+        "maxVertexStep": 0.15262984748554853
+      },
+      {
+        "frame": 13,
+        "absoluteSignedVolume": 1.949652366598687,
+        "maxVertexStep": 0
+      },
+      {
+        "frame": 14,
+        "absoluteSignedVolume": 1.950017726230322,
+        "maxVertexStep": 0.15212818694028676
+      },
+      {
+        "frame": 15,
+        "absoluteSignedVolume": 1.950017726230322,
+        "maxVertexStep": 0
+      },
+      {
+        "frame": 16,
+        "absoluteSignedVolume": 1.9503285807498556,
+        "maxVertexStep": 0.15162300804029374
+      },
+      {
+        "frame": 17,
+        "absoluteSignedVolume": 1.9503285807498556,
+        "maxVertexStep": 0
+      },
+      {
+        "frame": 18,
+        "absoluteSignedVolume": 1.95058419474036,
+        "maxVertexStep": 0.15103955619800863
+      },
+      {
+        "frame": 19,
+        "absoluteSignedVolume": 1.95058419474036,
+        "maxVertexStep": 0
+      },
+      {
+        "frame": 20,
+        "absoluteSignedVolume": 1.9507840274801558,
+        "maxVertexStep": 0.1503464397890912
+      },
+      {
+        "frame": 21,
+        "absoluteSignedVolume": 1.9507840274801558,
+        "maxVertexStep": 0
+      },
+      {
+        "frame": 22,
+        "absoluteSignedVolume": 1.9509277343109834,
+        "maxVertexStep": 0.14954436736970506
+      },
+      {
+        "frame": 23,
+        "absoluteSignedVolume": 1.9509277343109834,
+        "maxVertexStep": 0
+      },
+      {
+        "frame": 24,
+        "absoluteSignedVolume": 1.9510151672658784,
+        "maxVertexStep": 0.14863416247108416
+      },
+      {
+        "frame": 25,
+        "absoluteSignedVolume": 1.9510151672658784,
+        "maxVertexStep": 0
+      },
+      {
+        "frame": 26,
+        "absoluteSignedVolume": 1.9511743539509554,
+        "maxVertexStep": 0.13592123704918846
+      },
+      {
+        "frame": 27,
+        "absoluteSignedVolume": 1.9511743539509554,
+        "maxVertexStep": 0
+      },
+      {
+        "frame": 28,
+        "absoluteSignedVolume": 1.9512386018178465,
+        "maxVertexStep": 0.13646572047716515
+      },
+      {
+        "frame": 29,
+        "absoluteSignedVolume": 1.9512386018178465,
+        "maxVertexStep": 0
+      },
+      {
+        "frame": 30,
+        "absoluteSignedVolume": 1.9512071094023489,
+        "maxVertexStep": 0.1368752258272175
+      },
+      {
+        "frame": 31,
+        "absoluteSignedVolume": 1.9512071094023489,
+        "maxVertexStep": 0
+      },
+      {
+        "frame": 32,
+        "absoluteSignedVolume": 1.9510794704085948,
+        "maxVertexStep": 0.13714901509730482
+      },
+      {
+        "frame": 33,
+        "absoluteSignedVolume": 1.9510794704085948,
+        "maxVertexStep": 0
+      },
+      {
+        "frame": 34,
+        "absoluteSignedVolume": 1.950855676987053,
+        "maxVertexStep": 0.13728659652855854
+      },
+      {
+        "frame": 35,
+        "absoluteSignedVolume": 1.950855676987053,
+        "maxVertexStep": 0
+      },
+      {
+        "frame": 36,
+        "absoluteSignedVolume": 1.9505361211952332,
+        "maxVertexStep": 0.13728772350471966
+      },
+      {
+        "frame": 37,
+        "absoluteSignedVolume": 1.9505361211952332,
+        "maxVertexStep": 0
+      },
+      {
+        "frame": 38,
+        "absoluteSignedVolume": 1.9501215946302286,
+        "maxVertexStep": 0.13715239400703744
+      },
+      {
+        "frame": 39,
+        "absoluteSignedVolume": 1.9501215946302286,
+        "maxVertexStep": 0
+      },
+      {
+        "frame": 40,
+        "absoluteSignedVolume": 1.9496132862309314,
+        "maxVertexStep": 0.1368808506098219
+      },
+      {
+        "frame": 41,
+        "absoluteSignedVolume": 1.9496132862309314,
+        "maxVertexStep": 0
+      },
+      {
+        "frame": 42,
+        "absoluteSignedVolume": 1.9490127782563522,
+        "maxVertexStep": 0.13647358101654025
+      },
+      {
+        "frame": 43,
+        "absoluteSignedVolume": 1.9490127782563522,
+        "maxVertexStep": 0
+      },
+      {
+        "frame": 44,
+        "absoluteSignedVolume": 1.9483220404553798,
+        "maxVertexStep": 0.13599935860536966
+      },
+      {
+        "frame": 45,
+        "absoluteSignedVolume": 1.9483220404553798,
+        "maxVertexStep": 0
+      },
+      {
+        "frame": 46,
+        "absoluteSignedVolume": 1.9475434224517565,
+        "maxVertexStep": 0.13545939202263327
+      },
+      {
+        "frame": 47,
+        "absoluteSignedVolume": 1.9475434224517565,
+        "maxVertexStep": 0
+      },
+      {
+        "frame": 48,
+        "absoluteSignedVolume": 1.9466796443766325,
+        "maxVertexStep": 0.13478559192481573
+      },
+      {
+        "frame": 49,
+        "absoluteSignedVolume": 1.9466796443766325,
+        "maxVertexStep": 0
+      },
+      {
+        "frame": 50,
+        "absoluteSignedVolume": 1.9465304500312537,
+        "maxVertexStep": 0.15346871765158843
+      },
+      {
+        "frame": 51,
+        "absoluteSignedVolume": 1.9465304500312537,
+        "maxVertexStep": 0
+      },
+      {
+        "frame": 52,
+        "absoluteSignedVolume": 1.946335195636028,
+        "maxVertexStep": 0.15352429347066776
+      },
+      {
+        "frame": 53,
+        "absoluteSignedVolume": 1.946335195636028,
+        "maxVertexStep": 0
+      },
+      {
+        "frame": 54,
+        "absoluteSignedVolume": 1.9460942094679126,
+        "maxVertexStep": 0.15346808136779574
+      },
+      {
+        "frame": 55,
+        "absoluteSignedVolume": 1.9460942094679126,
+        "maxVertexStep": 0
+      },
+      {
+        "frame": 56,
+        "absoluteSignedVolume": 1.9458079887511832,
+        "maxVertexStep": 0.15330013835032216
+      },
+      {
+        "frame": 57,
+        "absoluteSignedVolume": 1.9458079887511832,
+        "maxVertexStep": 0
+      },
+      {
+        "frame": 58,
+        "absoluteSignedVolume": 1.9454771994071542,
+        "maxVertexStep": 0.15302063484272263
+      },
+      {
+        "frame": 59,
+        "absoluteSignedVolume": 1.9454771994071542,
+        "maxVertexStep": 0
+      },
+      {
+        "frame": 60,
+        "absoluteSignedVolume": 1.9451026751381009,
+        "maxVertexStep": 0.15262985483083438
+      },
+      {
+        "frame": 61,
+        "absoluteSignedVolume": 1.9451026751381009,
+        "maxVertexStep": 0
+      },
+      {
+        "frame": 62,
+        "absoluteSignedVolume": 1.9446854158441542,
+        "maxVertexStep": 0.15212819610655073
+      },
+      {
+        "frame": 63,
+        "absoluteSignedVolume": 1.9446854158441542,
+        "maxVertexStep": 0
+      },
+      {
+        "frame": 64,
+        "absoluteSignedVolume": 1.9442265853748861,
+        "maxVertexStep": 0.1516230232847734
+      },
+      {
+        "frame": 65,
+        "absoluteSignedVolume": 1.9442265853748861,
+        "maxVertexStep": 0
+      },
+      {
+        "frame": 66,
+        "absoluteSignedVolume": 1.9437275086198817,
+        "maxVertexStep": 0.15103957324634582
+      },
+      {
+        "frame": 67,
+        "absoluteSignedVolume": 1.9437275086198817,
+        "maxVertexStep": 0
+      },
+      {
+        "frame": 68,
+        "absoluteSignedVolume": 1.943189667945333,
+        "maxVertexStep": 0.15034645862805585
+      },
+      {
+        "frame": 69,
+        "absoluteSignedVolume": 1.943189667945333,
+        "maxVertexStep": 0
+      },
+      {
+        "frame": 70,
+        "absoluteSignedVolume": 1.9426146989864794,
+        "maxVertexStep": 0.14954438798421996
+      },
+      {
+        "frame": 71,
+        "absoluteSignedVolume": 1.9426146989864794,
+        "maxVertexStep": 0
+      },
+      {
+        "frame": 72,
+        "absoluteSignedVolume": 1.9420043858083555,
+        "maxVertexStep": 0.14863418484422108
+      },
+      {
+        "frame": 73,
+        "absoluteSignedVolume": 1.9420043858083555,
+        "maxVertexStep": 0
+      },
+      {
+        "frame": 74,
+        "absoluteSignedVolume": 1.942810438720171,
+        "maxVertexStep": 0.13628100533552934
+      },
+      {
+        "frame": 75,
+        "absoluteSignedVolume": 1.942810438720171,
+        "maxVertexStep": 0
+      },
+      {
+        "frame": 76,
+        "absoluteSignedVolume": 1.9435420843588052,
+        "maxVertexStep": 0.13674028017745754
+      },
+      {
+        "frame": 77,
+        "absoluteSignedVolume": 1.9435420843588052,
+        "maxVertexStep": 0
+      },
+      {
+        "frame": 78,
+        "absoluteSignedVolume": 1.9441967650738952,
+        "maxVertexStep": 0.13706408180557275
+      },
+      {
+        "frame": 79,
+        "absoluteSignedVolume": 1.9441967650738952,
+        "maxVertexStep": 0
+      },
+      {
+        "frame": 80,
+        "absoluteSignedVolume": 1.9447722715466151,
+        "maxVertexStep": 0.13725182800422472
+      },
+      {
+        "frame": 81,
+        "absoluteSignedVolume": 1.9447722715466151,
+        "maxVertexStep": 0
+      },
+      {
+        "frame": 82,
+        "absoluteSignedVolume": 1.9452667508062864,
+        "maxVertexStep": 0.13730318203952369
+      },
+      {
+        "frame": 83,
+        "absoluteSignedVolume": 1.9452667508062864,
+        "maxVertexStep": 0
+      },
+      {
+        "frame": 84,
+        "absoluteSignedVolume": 1.9456787125346486,
+        "maxVertexStep": 0.13721805191234313
+      },
+      {
+        "frame": 85,
+        "absoluteSignedVolume": 1.9456787125346486,
+        "maxVertexStep": 0
+      },
+      {
+        "frame": 86,
+        "absoluteSignedVolume": 1.9460070336338327,
+        "maxVertexStep": 0.1369965901557036
+      },
+      {
+        "frame": 87,
+        "absoluteSignedVolume": 1.9460070336338327,
+        "maxVertexStep": 0
+      },
+      {
+        "frame": 88,
+        "absoluteSignedVolume": 1.946250961042588,
+        "maxVertexStep": 0.13663919417104706
+      },
+      {
+        "frame": 89,
+        "absoluteSignedVolume": 1.946250961042588,
+        "maxVertexStep": 0
+      },
+      {
+        "frame": 90,
+        "absoluteSignedVolume": 1.94641011279389,
+        "maxVertexStep": 0.13614650711253426
+      },
+      {
+        "frame": 91,
+        "absoluteSignedVolume": 1.94641011279389,
+        "maxVertexStep": 0
+      },
+      {
+        "frame": 92,
+        "absoluteSignedVolume": 1.9464844773154435,
+        "maxVertexStep": 0.1355194193433592
+      },
+      {
+        "frame": 93,
+        "absoluteSignedVolume": 1.9464844773154435,
+        "maxVertexStep": 0
+      },
+      {
+        "frame": 94,
+        "absoluteSignedVolume": 1.9464744109833498,
+        "maxVertexStep": 0.1347763182380708
+      },
+      {
+        "frame": 95,
+        "absoluteSignedVolume": 1.9464744109833498,
+        "maxVertexStep": 0
+      },
+      {
+        "frame": 96,
+        "absoluteSignedVolume": 1.9463806339474592,
+        "maxVertexStep": 0.13402173051152516
+      },
+      {
+        "frame": 97,
+        "absoluteSignedVolume": 1.9463806339474592,
+        "maxVertexStep": 0
+      },
+      {
+        "frame": 98,
+        "absoluteSignedVolume": 1.9470470338531374,
+        "maxVertexStep": 0.15346871948602492
+      },
+      {
+        "frame": 99,
+        "absoluteSignedVolume": 1.9470470338531374,
+        "maxVertexStep": 0
+      },
+      {
+        "frame": 100,
+        "absoluteSignedVolume": 1.9476672613892114,
+        "maxVertexStep": 0.15352429346541685
+      },
+      {
+        "frame": 101,
+        "absoluteSignedVolume": 1.9476672613892114,
+        "maxVertexStep": 0
+      },
+      {
+        "frame": 102,
+        "absoluteSignedVolume": 1.948239482326155,
+        "maxVertexStep": 0.15346807952285935
+      },
+      {
+        "frame": 103,
+        "absoluteSignedVolume": 1.948239482326155,
+        "maxVertexStep": 0
+      },
+      {
+        "frame": 104,
+        "absoluteSignedVolume": 1.9487620337837404,
+        "maxVertexStep": 0.15330013466757295
+      },
+      {
+        "frame": 105,
+        "absoluteSignedVolume": 1.9487620337837404,
+        "maxVertexStep": 0
+      },
+      {
+        "frame": 106,
+        "absoluteSignedVolume": 1.9492334298622347,
+        "maxVertexStep": 0.15302062932590266
+      },
+      {
+        "frame": 107,
+        "absoluteSignedVolume": 1.9492334298622347,
+        "maxVertexStep": 0
+      },
+      {
+        "frame": 108,
+        "absoluteSignedVolume": 1.949652366598686,
+        "maxVertexStep": 0.15262984748554792
+      },
+      {
+        "frame": 109,
+        "absoluteSignedVolume": 1.949652366598686,
+        "maxVertexStep": 0
+      },
+      {
+        "frame": 110,
+        "absoluteSignedVolume": 1.9500177262303207,
+        "maxVertexStep": 0.15212818694028596
+      },
+      {
+        "frame": 111,
+        "absoluteSignedVolume": 1.9500177262303207,
+        "maxVertexStep": 0
+      },
+      {
+        "frame": 112,
+        "absoluteSignedVolume": 1.9503285807498554,
+        "maxVertexStep": 0.15162300804029555
+      },
+      {
+        "frame": 113,
+        "absoluteSignedVolume": 1.9503285807498554,
+        "maxVertexStep": 0
+      },
+      {
+        "frame": 114,
+        "absoluteSignedVolume": 1.9505841947403602,
+        "maxVertexStep": 0.15103955619800777
+      },
+      {
+        "frame": 115,
+        "absoluteSignedVolume": 1.9505841947403602,
+        "maxVertexStep": 0
+      },
+      {
+        "frame": 116,
+        "absoluteSignedVolume": 1.9507840274801573,
+        "maxVertexStep": 0.15034643978909001
+      },
+      {
+        "frame": 117,
+        "absoluteSignedVolume": 1.9507840274801573,
+        "maxVertexStep": 0
+      },
+      {
+        "frame": 118,
+        "absoluteSignedVolume": 1.9509277343109839,
+        "maxVertexStep": 0.14954436736970705
+      },
+      {
+        "frame": 119,
+        "absoluteSignedVolume": 1.9509277343109839,
+        "maxVertexStep": 0
+      },
+      {
+        "frame": 120,
+        "absoluteSignedVolume": 1.9510151672658789,
+        "maxVertexStep": 0.14863416247108324
+      },
+      {
+        "frame": 121,
+        "absoluteSignedVolume": 1.9510151672658789,
+        "maxVertexStep": 0
+      },
+      {
+        "frame": 122,
+        "absoluteSignedVolume": 1.951174353950955,
+        "maxVertexStep": 0.13592123704918832
+      },
+      {
+        "frame": 123,
+        "absoluteSignedVolume": 1.951174353950955,
+        "maxVertexStep": 0
+      },
+      {
+        "frame": 124,
+        "absoluteSignedVolume": 1.9512386018178483,
+        "maxVertexStep": 0.13646572047716535
+      },
+      {
+        "frame": 125,
+        "absoluteSignedVolume": 1.9512386018178483,
+        "maxVertexStep": 0
+      },
+      {
+        "frame": 126,
+        "absoluteSignedVolume": 1.951207109402352,
+        "maxVertexStep": 0.13687522582721728
+      },
+      {
+        "frame": 127,
+        "absoluteSignedVolume": 1.951207109402352,
+        "maxVertexStep": 0
+      },
+      {
+        "frame": 128,
+        "absoluteSignedVolume": 1.9510794704085972,
+        "maxVertexStep": 0.13714901509730404
+      },
+      {
+        "frame": 129,
+        "absoluteSignedVolume": 1.9510794704085972,
+        "maxVertexStep": 0
+      },
+      {
+        "frame": 130,
+        "absoluteSignedVolume": 1.9508556769870518,
+        "maxVertexStep": 0.13728659652855912
+      },
+      {
+        "frame": 131,
+        "absoluteSignedVolume": 1.9508556769870518,
+        "maxVertexStep": 0
+      },
+      {
+        "frame": 132,
+        "absoluteSignedVolume": 1.9505361211952317,
+        "maxVertexStep": 0.13728772350471952
+      },
+      {
+        "frame": 133,
+        "absoluteSignedVolume": 1.9505361211952317,
+        "maxVertexStep": 0
+      },
+      {
+        "frame": 134,
+        "absoluteSignedVolume": 1.9501215946302317,
+        "maxVertexStep": 0.13715239400703744
+      },
+      {
+        "frame": 135,
+        "absoluteSignedVolume": 1.9501215946302317,
+        "maxVertexStep": 0
+      },
+      {
+        "frame": 136,
+        "absoluteSignedVolume": 1.9496132862309279,
+        "maxVertexStep": 0.1368808506098219
+      },
+      {
+        "frame": 137,
+        "absoluteSignedVolume": 1.9496132862309279,
+        "maxVertexStep": 0
+      },
+      {
+        "frame": 138,
+        "absoluteSignedVolume": 1.9490127782563547,
+        "maxVertexStep": 0.13647358101653984
+      },
+      {
+        "frame": 139,
+        "absoluteSignedVolume": 1.9490127782563547,
+        "maxVertexStep": 0
+      },
+      {
+        "frame": 140,
+        "absoluteSignedVolume": 1.9483220404553772,
+        "maxVertexStep": 0.13599935860536919
+      },
+      {
+        "frame": 141,
+        "absoluteSignedVolume": 1.9483220404553772,
+        "maxVertexStep": 0
+      },
+      {
+        "frame": 142,
+        "absoluteSignedVolume": 1.9475434224517527,
+        "maxVertexStep": 0.1354593920226342
+      },
+      {
+        "frame": 143,
+        "absoluteSignedVolume": 1.9475434224517527,
+        "maxVertexStep": 0
+      },
+      {
+        "frame": 144,
+        "absoluteSignedVolume": 1.9466796443766308,
+        "maxVertexStep": 0.13478559192481615
+      },
+      {
+        "frame": 145,
+        "absoluteSignedVolume": 1.9466796443766308,
+        "maxVertexStep": 0
+      },
+      {
+        "frame": 146,
+        "absoluteSignedVolume": 1.9465304500312537,
+        "maxVertexStep": 0.15346871765158804
+      },
+      {
+        "frame": 147,
+        "absoluteSignedVolume": 1.9465304500312537,
+        "maxVertexStep": 0
+      },
+      {
+        "frame": 148,
+        "absoluteSignedVolume": 1.9463351956360255,
+        "maxVertexStep": 0.15352429347066907
+      },
+      {
+        "frame": 149,
+        "absoluteSignedVolume": 1.9463351956360255,
+        "maxVertexStep": 0
+      },
+      {
+        "frame": 150,
+        "absoluteSignedVolume": 1.9460942094679137,
+        "maxVertexStep": 0.15346808136779502
+      },
+      {
+        "frame": 151,
+        "absoluteSignedVolume": 1.9460942094679137,
+        "maxVertexStep": 0
+      },
+      {
+        "frame": 152,
+        "absoluteSignedVolume": 1.9458079887511806,
+        "maxVertexStep": 0.15330013835032144
+      },
+      {
+        "frame": 153,
+        "absoluteSignedVolume": 1.9458079887511806,
+        "maxVertexStep": 0
+      },
+      {
+        "frame": 154,
+        "absoluteSignedVolume": 1.9454771994071534,
+        "maxVertexStep": 0.1530206348427242
+      },
+      {
+        "frame": 155,
+        "absoluteSignedVolume": 1.9454771994071534,
+        "maxVertexStep": 0
+      },
+      {
+        "frame": 156,
+        "absoluteSignedVolume": 1.9451026751381013,
+        "maxVertexStep": 0.15262985483083352
+      },
+      {
+        "frame": 157,
+        "absoluteSignedVolume": 1.9451026751381013,
+        "maxVertexStep": 0
+      },
+      {
+        "frame": 158,
+        "absoluteSignedVolume": 1.9446854158441547,
+        "maxVertexStep": 0.15212819610655007
+      },
+      {
+        "frame": 159,
+        "absoluteSignedVolume": 1.9446854158441547,
+        "maxVertexStep": 0
+      },
+      {
+        "frame": 160,
+        "absoluteSignedVolume": 1.9442265853748864,
+        "maxVertexStep": 0.1516230232847751
+      },
+      {
+        "frame": 161,
+        "absoluteSignedVolume": 1.9442265853748864,
+        "maxVertexStep": 0
+      },
+      {
+        "frame": 162,
+        "absoluteSignedVolume": 1.9437275086198802,
+        "maxVertexStep": 0.15103957324634518
+      },
+      {
+        "frame": 163,
+        "absoluteSignedVolume": 1.9437275086198802,
+        "maxVertexStep": 0
+      },
+      {
+        "frame": 164,
+        "absoluteSignedVolume": 1.9431896679453318,
+        "maxVertexStep": 0.15034645862805496
+      },
+      {
+        "frame": 165,
+        "absoluteSignedVolume": 1.9431896679453318,
+        "maxVertexStep": 0
+      },
+      {
+        "frame": 166,
+        "absoluteSignedVolume": 1.9426146989864794,
+        "maxVertexStep": 0.14954438798422173
+      },
+      {
+        "frame": 167,
+        "absoluteSignedVolume": 1.9426146989864794,
+        "maxVertexStep": 0
+      },
+      {
+        "frame": 168,
+        "absoluteSignedVolume": 1.9420043858083562,
+        "maxVertexStep": 0.14863418484422
+      },
+      {
+        "frame": 169,
+        "absoluteSignedVolume": 1.9420043858083562,
+        "maxVertexStep": 0
+      },
+      {
+        "frame": 170,
+        "absoluteSignedVolume": 1.9428104387201737,
+        "maxVertexStep": 0.13628100533552825
+      },
+      {
+        "frame": 171,
+        "absoluteSignedVolume": 1.9428104387201737,
+        "maxVertexStep": 0
+      },
+      {
+        "frame": 172,
+        "absoluteSignedVolume": 1.943542084358805,
+        "maxVertexStep": 0.136740280177458
+      },
+      {
+        "frame": 173,
+        "absoluteSignedVolume": 1.943542084358805,
+        "maxVertexStep": 0
+      },
+      {
+        "frame": 174,
+        "absoluteSignedVolume": 1.944196765073894,
+        "maxVertexStep": 0.1370640818055731
+      },
+      {
+        "frame": 175,
+        "absoluteSignedVolume": 1.944196765073894,
+        "maxVertexStep": 0
+      },
+      {
+        "frame": 176,
+        "absoluteSignedVolume": 1.9447722715466185,
+        "maxVertexStep": 0.13725182800422434
+      },
+      {
+        "frame": 177,
+        "absoluteSignedVolume": 1.9447722715466185,
+        "maxVertexStep": 0
+      },
+      {
+        "frame": 178,
+        "absoluteSignedVolume": 1.9452667508062862,
+        "maxVertexStep": 0.1373031820395245
+      },
+      {
+        "frame": 179,
+        "absoluteSignedVolume": 1.9452667508062862,
+        "maxVertexStep": 0
+      },
+      {
+        "frame": 180,
+        "absoluteSignedVolume": 1.9456787125346457,
+        "maxVertexStep": 0.1372180519123426
+      },
+      {
+        "frame": 181,
+        "absoluteSignedVolume": 1.9456787125346457,
+        "maxVertexStep": 0
+      },
+      {
+        "frame": 182,
+        "absoluteSignedVolume": 1.9460070336338307,
+        "maxVertexStep": 0.13699659015570317
+      },
+      {
+        "frame": 183,
+        "absoluteSignedVolume": 1.9460070336338307,
+        "maxVertexStep": 0
+      },
+      {
+        "frame": 184,
+        "absoluteSignedVolume": 1.9462509610425882,
+        "maxVertexStep": 0.13663919417104883
+      },
+      {
+        "frame": 185,
+        "absoluteSignedVolume": 1.9462509610425882,
+        "maxVertexStep": 0
+      },
+      {
+        "frame": 186,
+        "absoluteSignedVolume": 1.9464101127938904,
+        "maxVertexStep": 0.1361465071125329
+      },
+      {
+        "frame": 187,
+        "absoluteSignedVolume": 1.9464101127938904,
+        "maxVertexStep": 0
+      },
+      {
+        "frame": 188,
+        "absoluteSignedVolume": 1.9464844773154455,
+        "maxVertexStep": 0.13551941934335876
+      },
+      {
+        "frame": 189,
+        "absoluteSignedVolume": 1.9464844773154455,
+        "maxVertexStep": 0
+      },
+      {
+        "frame": 190,
+        "absoluteSignedVolume": 1.9464744109833514,
+        "maxVertexStep": 0.13477631823807218
+      },
+      {
+        "frame": 191,
+        "absoluteSignedVolume": 1.9464744109833514,
+        "maxVertexStep": 0
+      }
+    ],
+    "minVolume": 1.9420043858083555,
+    "maxVolume": 1.9512386018178483,
+    "maxRelativeVolumeStep": 0.0004435218569024442,
+    "maxVertexStep": 0.15352429347066907,
+    "method": "CPU skinned vertices at native24 with original every=2 exposure; signed mesh volume, not perceptual acceptance"
+  }
+]

@@ -1,0 +1,19 @@
+{
+  "id": "P02",
+  "mode": "stills",
+  "revision": "e464b246b19086e0a7b8d79c6a045563c01ccec4df9154ba0b2268e453951c51",
+  "project": "/Volumes/eyedisk/develop/cinewright/.direction/cinematic-animation-implementation-2026-11-08/projects/P02-stills-1794137267297",
+  "frames": [
+    24,
+    72,
+    144
+  ],
+  "width": 1920,
+  "height": 1080,
+  "fps": 24,
+  "elapsedMs": 464.55916600000046,
+  "averageMs": 154.8530553333335,
+  "seekDeterministic": true,
+  "errors": [],
+  "method": "offline canvas seek/capture; not realtime viewing"
+}

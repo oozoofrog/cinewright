@@ -1,0 +1,24 @@
+✔ reconstruction preserves flat concentrations, layer order and deterministic paper, without square plateaus (8.229875ms)
+✔ commuter continuous grips stay on the SAME paper corners, pose read lifts paper, feet remain planted (565.377916ms)
+✔ wash bank rejects topology/time failures and draws corresponding shapes on reverse seeks (49.657541ms)
+✔ traveler is continuously transformed behind opaque jamb and train/shadow cues retain timing (1.271083ms)
+✔ public station and designed reader builders package their actual authored assets (40.134166ms)
+✔ three authored scene grammars validate without mutation (4.483416ms)
+✔ scene rejects malformed mesh UV, missing material, key mismatch and invalid gobo (2.158084ms)
+✔ absolute deformation restores rest across random/reverse queries (3.242416ms)
+✔ UV atlas contains nested density, shader uses UV and keeps color/fog stages (1.970916ms)
+✔ instanced dust is analytic seed/id/age and does not retain last frame (0.947834ms)
+✔ clip negative timeScale, looping boundary and weight keep absolute semantics (1.03425ms)
+✔ embedded original assets include UV and matching animation (0.996ms)
+✔ capability failure is explicit and never silently paints fallback (0.144333ms)
+✔ shot keys clamp and interpolate world transforms independently (0.11825ms)
+✔ actual r180 GLTFLoader parses original embedded UV meshes and animation in Node (6.392583ms)
+✔ public geometry/lighting helpers reject allocation expansion and invalid graphic shadows (0.574ms)
+ℹ tests 16
+ℹ suites 0
+ℹ pass 16
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 788.578

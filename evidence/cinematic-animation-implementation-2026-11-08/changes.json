@@ -1,0 +1,167 @@
+[
+  {
+    "path": "tests/line-wash-core.test.mjs",
+    "type": "modified-existing-worktree-file",
+    "beforeSha256": "9c26b080c0ec7c4c213907821f5b90441cbd44a9701e77a024f9ed8c011a4417",
+    "afterSha256": "77e2c5e4ff4a0cf295178c7561f7b7f7af20504fc36931f577ff9e328dde9fdb"
+  },
+  {
+    "path": "modules/styles/line-wash/index.mjs",
+    "type": "modified-existing-worktree-file",
+    "beforeSha256": "7d633c75fb75497011e5e918ecf63df5a364ec7d02b3911b93623b7f2b617cd0",
+    "afterSha256": "77e2f375d3408557e41f4609da4c1ac8694b3c7cad13047c4eb05d6a4cea1616"
+  },
+  {
+    "path": "modules/styles/watercolor-physical/index.mjs",
+    "type": "modified-existing-worktree-file",
+    "beforeSha256": "4abae25c205329d8e41bd7818fb066a9cc1fbc9e7b179609f5b81b0e1219ccdf",
+    "afterSha256": "0a8713b47b1b579980b574f273d63be5e341f6e09d2782ff8da4e33bfec08ce4"
+  },
+  {
+    "path": "examples/styles/expressionist-space/build.mjs",
+    "type": "modified-existing-worktree-file",
+    "beforeSha256": "87b1e0cbf00096eff59be8256c529d2865be366928bba51377f2b01c488bf82e",
+    "afterSha256": "a2d65509c0cc7a606996c13e68ca7c61c0919fc83a1df23b8f14a0779a229657"
+  },
+  {
+    "path": "recipes/styles/expressionist-space/station.json",
+    "type": "modified-existing-worktree-file",
+    "beforeSha256": "144f29b2ac650faac1e025973e282322f41df6dca39b57cc3be53347e04f3381",
+    "afterSha256": "5bd1069ffce13454cdb29d55824d2ae63e43a57a344dcab0c30bd38e99008a40"
+  },
+  {
+    "path": "recipes/styles/expressionist-space/laboratory.json",
+    "type": "modified-existing-worktree-file",
+    "beforeSha256": "dde651d2d511ba8ea17f5d8d6e339a48f4ba7edbf26e582acb7ac3883db30ee7",
+    "afterSha256": "de63c742b893e61a6125cc764fd81f8ce635632f18ca4aa48889e25ae9f25fcb"
+  },
+  {
+    "path": "recipes/styles/line-wash/rain.json",
+    "type": "modified-existing-worktree-file",
+    "beforeSha256": "6fc1be1db9b89265236c5f828a044477e3e3957ca2bca61f086bda3cbdf249ed",
+    "afterSha256": "d667bea5d5ecf9d574b97630c3e96aaa100964a2c10141d7a2f901a71321c705"
+  },
+  {
+    "path": "recipes/styles/line-wash/commuter.json",
+    "type": "modified-existing-worktree-file",
+    "beforeSha256": "83da0b294a31ab7915e74ca1fa5da84f867136d005f70e5b2193d62b0109158c",
+    "afterSha256": "6050fd64018dad5828bb4c4164dca02bd0362128165d8aeca0a7a2c859cb5494"
+  },
+  {
+    "path": "recipes/styles/silhouette-theatre/forest.json",
+    "type": "modified-existing-worktree-file",
+    "beforeSha256": "5c593a28e43a4d510f8e140a24b71b0a0e56dfb4cf5e17e8b4db9e2e9cb0deee",
+    "afterSha256": "4dcc556c5fe6a205643a504f5fef0286ac0b0c622fee542c9dde5510149774f8"
+  },
+  {
+    "path": "recipes/styles/silhouette-theatre/harbor.json",
+    "type": "modified-existing-worktree-file",
+    "beforeSha256": "e2608e30c1b713a2da668dedb3c56cf171c1a86bc3dfc2f4789498a43ca0070b",
+    "afterSha256": "5fc9136d1881828e06469ae94b106364e76453342b6866d8f1300a82e33e7c83"
+  },
+  {
+    "path": "scripts/cinematic-evidence.py",
+    "type": "new",
+    "sha256": "8835badcb048e2d67bf33dbd41d9bb84d6c5cc3b891d16900fa26a921cb10aa0"
+  },
+  {
+    "path": "scripts/cinematic-rig-asset.mjs",
+    "type": "new",
+    "sha256": "16335c6427f97b3f9b5dee0ac952215c39a20242507b82b2c8cff6bb254f7381"
+  },
+  {
+    "path": "scripts/cinematic-traveler-asset.mjs",
+    "type": "new",
+    "sha256": "c570bb9444ddbac8099d78fb90fa1e2681c08e79e27080f3f2844544748d55c0"
+  },
+  {
+    "path": "scripts/cinematic-author.py",
+    "type": "new",
+    "sha256": "4e42281fe72b297de5b7c38bfddbd2d07d8305ccafb79a60e918e27379587e47"
+  },
+  {
+    "path": "scripts/cinematic-watercolor-compare.mjs",
+    "type": "new",
+    "sha256": "140da5a0899e60771dbbe24588377d97e8d30e7c79875c0636dec9bad65ed80f"
+  },
+  {
+    "path": "scripts/cinematic-rig-check.mjs",
+    "type": "new",
+    "sha256": "aa2b601dbf4663c1e2fc97c953ec017cc412aff44dab8f7a2d50609c2a284334"
+  },
+  {
+    "path": "scripts/cinematic-render.mjs",
+    "type": "new",
+    "sha256": "647624530434074c6354b9aa807115c319d6d69a00792a228e854c1b14f31c55"
+  },
+  {
+    "path": "docs/implementation/2026-11-08-cinematic-animation/report.md",
+    "type": "new",
+    "sha256": "f6c35badcefe9306c775bb37c086a4a1eb66528c32e1d2b8e97f8373b8e68f68"
+  },
+  {
+    "path": "docs/implementation/2026-11-08-cinematic-animation/art-guide.md",
+    "type": "new",
+    "sha256": "26bb56006feb71581c65b4c7f77b611d8aec440f0a74aaa71a98a30be11dae70"
+  },
+  {
+    "path": "docs/implementation/2026-11-08-cinematic-animation/handoff.md",
+    "type": "new",
+    "sha256": "922da509e6a7323448510bcb5f75eaff2c6470627bf5d233203da071b6cac346"
+  },
+  {
+    "path": "recipes/styles/watercolor-physical/wet.json",
+    "type": "new",
+    "sha256": "d383ca79ddb3c64e4f618ec12ee8aeae3afe8c8a748648e1a52f844c38705b58"
+  },
+  {
+    "path": "recipes/styles/watercolor-physical/overlap.json",
+    "type": "new",
+    "sha256": "999cb25bf809455e76e6a080f8114a2d5b4c9fb3448eb392e46493a4639ba8d0"
+  },
+  {
+    "path": "recipes/styles/expressionist-space/reader.json",
+    "type": "new",
+    "sha256": "3412884cade232788a733cb7596750186c20224848f2c6fbcd58bd6b51dec8c2"
+  },
+  {
+    "path": "modules/fx2d/watercolor-reconstruct.mjs",
+    "type": "new",
+    "sha256": "299085a067aa61985bf1408bca309236e34e2b251f07691017611d998d746c79"
+  },
+  {
+    "path": "tests/cinematic-implementation.test.mjs",
+    "type": "new",
+    "sha256": "ec6c3d0d23a5b495bcafb99ab7a6b1c1dbccd5b50e9fb5236b677d0357f7becc"
+  },
+  {
+    "path": "examples/styles/phase02-rig/assets/reader/LICENSE",
+    "type": "new",
+    "sha256": "418b62b72fe8bf580ebd7deb7f3dbf06ab88fd18bc07f128887e092ebb00ceb8"
+  },
+  {
+    "path": "examples/styles/phase02-rig/assets/reader/reader.motion.json",
+    "type": "new",
+    "sha256": "7c98bb1be4197e707abab1d81a897f5b3e7fec0a65fc44e56be9f3a6a3f37039"
+  },
+  {
+    "path": "examples/styles/phase02-rig/assets/reader/reader.rig.json",
+    "type": "new",
+    "sha256": "65a6f3184331c92d2dfc0608db2a9d31b7977c1e7c213eb4b5d3bc6b60442569"
+  },
+  {
+    "path": "examples/styles/phase02-rig/assets/reader/reader.glb",
+    "type": "new",
+    "sha256": "b60b4a820977ef40141556285f13ed9873b1edbd6ecb95fc9753dce484cde296"
+  },
+  {
+    "path": "examples/styles/expressionist-space/assets/traveler-readable.provenance.json",
+    "type": "new",
+    "sha256": "bf82da6ac2f75aa28e03fe1bd3e287c5184ca2442181f6ee76a5d3e74a3b3092"
+  },
+  {
+    "path": "examples/styles/expressionist-space/assets/traveler-readable.glb",
+    "type": "new",
+    "sha256": "0938674714d16b65b5c0f6b5bd75dbe78633c45800bfb9793175e3f07df0e6b3"
+  }
+]
