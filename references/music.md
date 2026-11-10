@@ -26,7 +26,7 @@ node scripts/direction.mjs music remux ./private-song FULL_VIDEO.mp4 ./new-final
 - `music/derived.json`: 원래 seconds와 프레임 양자화 오차를 함께 가진 `events.onsets/beats`, **`tracks.energy = [[frame,value],…]`** (low/mid/high도 동일), `[from,to)` sections, `manifest.points/spans/channels`. `music.*` 채널은 `$data` producer, 기본 `['scene']` consumers다. 분석 JSON은 derive로 덮어쓰지 않는다. 기본 `music.full`은 단지 원본 범위이며 곡 구조가 아니다.
 - manual.json 예: `{"beats":[{"seconds":0.5,"strength":1}],"sections":[{"name":"opening","from":0,"to":240}]}`. 지정 배열이 후보를 교체하며 빈 배열은 의도적으로 제거한다. 구간은 현재 fps의 정수 프레임이다. `derive` 뒤 기존 work.json을 쓰려면 `music build`를 다시 실행한다. fps 변경은 source/derived timing을 일치시키는 새 ingest로 한다.
 
-A/B는 동일 canonical 데이터·오디오를 두 **서로 다른** private 프로젝트 디렉터리에 복사해 두 variant로 build한다. 비교 구간과 fps·크기·원본 샘플 범위를 동일하게 유지하고 선택 근거를 기록한다. 전체 초안 이후 대표 프레임·컷 전후·마지막 유효 프레임을 실제로 보고 최종 렌더한다. 추론/저작한 시각 phase를 청취로 확인한 음악 구조라 부르지 않는다.
+A/B는 동일 canonical 데이터·오디오를 두 **서로 다른** private 프로젝트 디렉터리에 복사해 두 variant로 build한다. 비교 구간과 fps·크기·원본 샘플 범위를 동일하게 유지하고 선택 근거를 기록한다. 전체 초안을 제작하고 가능한 출력을 원속도로 보고 들으며 최종 렌더한다. 형태·경계·합성 회귀를 확인할 필요가 있으면 대표 프레임·컷 전후·마지막 유효 프레임을 살핀다. 직접 보거나 들을 수 없는 시간 경험은 미검증으로 남기고 확인 지점을 인계하며 합의 범위를 계속 제작한다. 추론/저작한 시각 phase를 청취로 확인한 음악 구조라 부르지 않는다.
 
 ## 보존과 위험 검사
 
@@ -34,6 +34,6 @@ Preview/mixer는 48kHz stereo PCM을 사용하므로 44.1k 원본의 리샘플�
 
 `flash JOB_ID`는 완료된 영상 작업의 모든 디코드 프레임을 160×90으로 스트리밍 검사하고 작업 아래 고유 `flash-*/report.json`, `execution.log`를 남긴다. 1초 내 큰 면적의 반대 방향 휘도/포화 red 변화가 반복되면 `risk-detected`와 exit 1이다. 결과의 정확한 threshold와 coverage를 읽는다. `screen-negative`는 **안전 판정이 아니다**. 축소로 놓치는 국소 패턴·공간 주파수·시야각·디스플레이 휘도·개인 민감성은 미검증이며 WCAG 인증이 아니다. 인간 접근성 검토를 대신하지 않는다.
 
-`sync`의 의미는 바뀌지 않는다. 작성한 휘도 probe와 고립된 오디오 피크만 측정하며 일반 음악의 음악적 동기·직접 청취·음질이나 flash 안전 검사를 뜻하지 않는다. 자동 재생·샘플 이미지·모델 판단·직접 청취·독립 검토·관객 반응·사용자 수락을 구분한다. 로컬 전체 출력이 있어도 독립 검토는 별도 게이트다.
+`sync`의 의미는 바뀌지 않는다. 작성한 휘도 probe와 고립된 오디오 피크만 측정하며 일반 음악의 음악적 동기·직접 청취·음질이나 flash 안전 검사를 뜻하지 않는다. 자동 재생·샘플 이미지·모델 판단·직접 청취·독립 검토·관객 반응·사용자 수락을 구분한다. 로컬 전체 출력이 있어도 독립 검토를 했다고 간주하지 않는다. 허용된 검토 수단이 없으면 독립 검토를 미검증으로 남기고 루트의 완료 판단에 따라 인계한다.
 
 공개 서비스: `scripts/music.mjs`의 named-object `ingestMusic`, `analyzeMusic`, `deriveMusic`, `remuxSourceAudio`; 브라우저 stateless helper는 `modules/music.mjs`. motion/focus/accent/particles는 `scripts/materialize-kit.mjs`로 의존성까지 프로젝트 안에 복사한다. freeze한 프로젝트는 toolkit 외부 import 없이 재생한다. 원본 입력은 읽기 전용이며 원본 비디오 프레임/공연자 이미지는 이 예제에서 사용하지 않는다.

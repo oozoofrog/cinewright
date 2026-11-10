@@ -1,0 +1,218 @@
+검사 대상: 현재 문서 22개(루트, references 전체, 플러그인 진입점, 보고 초안, 최종 inventory, 캐시 비교 보고).
+상대 링크/앵커 190개 검사. 외부 URL 21개는 요청 범위가 상대 링크이므로 네트워크 검사 제외.
+오류 0개.
+코드 블록과 과거 기준선/최초 inventory 사본은 현재 문서의 활성 링크가 아닌 자료로 제외.
+일회성 /tmp 스크립트: fenced code 제외 후 inline/reference/HTML 링크를 경로와 GitHub식 제목 앵커에 대조. 저장소 테스트 추가 없음.
+
+SKILL.md: 상대 링크/앵커 15개
+SKILL.md -> references/craft-execution.md#표현-목표에서-제작안-선택까지
+SKILL.md -> references/direction.md#대상-이해
+SKILL.md -> references/music-box.md
+SKILL.md -> references/direction.md
+SKILL.md -> references/craft-execution.md
+SKILL.md -> references/craft.md
+SKILL.md -> references/stillcuts.md
+SKILL.md -> references/format.md
+SKILL.md -> references/tools.md
+SKILL.md -> examples/stillcuts/README.md
+SKILL.md -> references/music.md
+SKILL.md -> references/styles/index.md
+SKILL.md -> references/styles/watercolor-physical.md
+SKILL.md -> references/styles/auto-rig.md
+SKILL.md -> references/styles/retarget.md
+references/craft-execution.md: 상대 링크/앵커 11개
+references/craft-execution.md -> ../SKILL.md#목표와-판단
+references/craft-execution.md -> direction.md#대상-이해
+references/craft-execution.md -> format.md
+references/craft-execution.md -> stillcuts.md#고정-구도와-독립적인-환경-시간
+references/craft-execution.md -> format.md
+references/craft-execution.md -> pose-tracks.md
+references/craft-execution.md -> ../examples/relation-studies/README.md
+references/craft-execution.md -> ../docs/implementation/2026-11-10-code-expression/implementation.md
+references/craft-execution.md -> ../docs/implementation/2026-11-10-code-expression/README.md
+references/craft-execution.md -> tools.md
+references/craft-execution.md -> ../SKILL.md#제작과-검토
+references/craft.md: 상대 링크/앵커 5개
+references/craft.md -> craft-execution.md
+references/craft.md -> direction.md#대상-이해
+references/craft.md -> music-box.md
+references/craft.md -> stillcuts.md
+references/craft.md -> ../evidence/2026-11-05-production/research-notes.md
+references/direction.md: 상대 링크/앵커 2개
+references/direction.md -> music-box.md
+references/direction.md -> ../evidence/2026-11-05-production/BRIEF.md
+references/format.md: 상대 링크/앵커 2개
+references/format.md -> stillcuts.md#컷-목록의-정본과-생성물
+references/format.md -> stillcuts.md#원화-배치의-정본과-공개-함수
+references/music-box.md: 상대 링크/앵커 0개
+references/music.md: 상대 링크/앵커 2개
+references/music.md -> craft-execution.md#공개-관계-연구-대표와-두-변주
+references/music.md -> ../examples/music-box-dancer/README.md
+references/pose-tracks.md: 상대 링크/앵커 1개
+references/pose-tracks.md -> craft-execution.md
+references/stillcuts.md: 상대 링크/앵커 7개
+references/stillcuts.md -> direction.md#시퀀스의-판단-사슬
+references/stillcuts.md -> craft.md#구도를-유지하거나-바꾸는-선택
+references/stillcuts.md -> ../modules/cuts.mjs
+references/stillcuts.md -> ../modules/artwork.mjs
+references/stillcuts.md -> ../examples/stillcuts/README.md
+references/stillcuts.md -> format.md
+references/stillcuts.md -> ../examples/stillcuts/README.md
+references/styles/auto-rig.md: 상대 링크/앵커 1개
+references/styles/auto-rig.md -> retarget.md
+references/styles/effects.md: 상대 링크/앵커 0개
+references/styles/expressionist-space.md: 상대 링크/앵커 5개
+references/styles/expressionist-space.md -> auto-rig.md
+references/styles/expressionist-space.md -> retarget.md
+references/styles/expressionist-space.md -> ../../SKILL.md#제작과-검토
+references/styles/expressionist-space.md -> ../../evidence/aesthetic-toolkit-2026-11-08/C/HANDOFF.md
+references/styles/expressionist-space.md -> ../../evidence/aesthetic-toolkit-2026-11-08/C/validation-summary.json
+references/styles/index.md: 상대 링크/앵커 8개
+references/styles/index.md -> silhouette-theatre.md
+references/styles/index.md -> line-wash.md
+references/styles/index.md -> expressionist-space.md
+references/styles/index.md -> ../../SKILL.md#제작과-검토
+references/styles/index.md -> watercolor-physical.md
+references/styles/index.md -> auto-rig.md
+references/styles/index.md -> retarget.md
+references/styles/index.md -> effects.md
+references/styles/line-wash.md: 상대 링크/앵커 1개
+references/styles/line-wash.md -> ../../SKILL.md#제작과-검토
+references/styles/retarget.md: 상대 링크/앵커 0개
+references/styles/silhouette-theatre.md: 상대 링크/앵커 1개
+references/styles/silhouette-theatre.md -> ../../SKILL.md#제작과-검토
+references/styles/watercolor-physical.md: 상대 링크/앵커 0개
+references/tools.md: 상대 링크/앵커 8개
+references/tools.md -> ../examples/stillcuts/README.md
+references/tools.md -> stillcuts.md
+references/tools.md -> pose-tracks.md
+references/tools.md -> music.md
+references/tools.md -> styles/watercolor-physical.md
+references/tools.md -> styles/auto-rig.md
+references/tools.md -> styles/retarget.md
+references/tools.md -> craft-execution.md
+skills/cinewright/SKILL.md: 상대 링크/앵커 2개
+skills/cinewright/SKILL.md -> ../../SKILL.md
+skills/cinewright/SKILL.md -> ../../references/craft-execution.md
+docs/implementation/2026-11-10-audience-acceptance/README.md: 상대 링크/앵커 31개
+docs/implementation/2026-11-10-audience-acceptance/README.md -> ../../../SKILL.md#목표와-판단
+docs/implementation/2026-11-10-audience-acceptance/README.md -> ../../../evidence/audience-acceptance-20261110/inventory.md#s01
+docs/implementation/2026-11-10-audience-acceptance/README.md -> ../../../evidence/audience-acceptance-20261110/inventory.md#s09
+docs/implementation/2026-11-10-audience-acceptance/README.md -> ../../../evidence/audience-acceptance-20261110/inventory.md#전문-기능-문서와-유지-범위
+docs/implementation/2026-11-10-audience-acceptance/README.md -> ../../../evidence/audience-acceptance-20261110/inventory.md#c05
+docs/implementation/2026-11-10-audience-acceptance/README.md -> ../../../evidence/audience-acceptance-20261110/inventory.md#s19
+docs/implementation/2026-11-10-audience-acceptance/README.md -> ../../../evidence/audience-acceptance-20261110/inventory.md#d14
+docs/implementation/2026-11-10-audience-acceptance/README.md -> ../../../SKILL.md
+docs/implementation/2026-11-10-audience-acceptance/README.md -> ../../../skills/cinewright/SKILL.md
+docs/implementation/2026-11-10-audience-acceptance/README.md -> ../../../references/craft-execution.md
+docs/implementation/2026-11-10-audience-acceptance/README.md -> ../../../references/direction.md
+docs/implementation/2026-11-10-audience-acceptance/README.md -> ../../../references/craft.md
+docs/implementation/2026-11-10-audience-acceptance/README.md -> ../../../references/stillcuts.md
+docs/implementation/2026-11-10-audience-acceptance/README.md -> ../../../references/music-box.md
+docs/implementation/2026-11-10-audience-acceptance/README.md -> ../../../references/music.md
+docs/implementation/2026-11-10-audience-acceptance/README.md -> ../../../references/styles/index.md
+docs/implementation/2026-11-10-audience-acceptance/README.md -> ../../../references/styles/line-wash.md
+docs/implementation/2026-11-10-audience-acceptance/README.md -> ../../../references/styles/silhouette-theatre.md
+docs/implementation/2026-11-10-audience-acceptance/README.md -> ../../../references/styles/expressionist-space.md
+docs/implementation/2026-11-10-audience-acceptance/README.md -> ../../../evidence/audience-acceptance-20261110/baseline/
+docs/implementation/2026-11-10-audience-acceptance/README.md -> ../../../evidence/audience-acceptance-20261110/supplement-start/
+docs/implementation/2026-11-10-audience-acceptance/README.md -> ../../../evidence/audience-acceptance-20261110/inventory-initial.md
+docs/implementation/2026-11-10-audience-acceptance/README.md -> ../../../evidence/audience-acceptance-20261110/inventory.md
+docs/implementation/2026-11-10-audience-acceptance/README.md -> ../../../evidence/audience-acceptance-20261110/baseline-to-current.patch
+docs/implementation/2026-11-10-audience-acceptance/README.md -> ../../../evidence/audience-acceptance-20261110/current-sha256.txt
+docs/implementation/2026-11-10-audience-acceptance/README.md -> ../../../evidence/audience-acceptance-20261110/link-check.txt
+docs/implementation/2026-11-10-audience-acceptance/README.md -> ../../../evidence/audience-acceptance-20261110/node-tests.log
+docs/implementation/2026-11-10-audience-acceptance/README.md -> ../../../evidence/audience-acceptance-20261110/test-scratch-cleanup.txt
+docs/implementation/2026-11-10-audience-acceptance/README.md -> ../../../evidence/audience-acceptance-20261110/document-validation.txt
+docs/implementation/2026-11-10-audience-acceptance/README.md -> ../../../evidence/audience-acceptance-20261110/quick-validate.log
+docs/implementation/2026-11-10-audience-acceptance/README.md -> ../../../evidence/audience-acceptance-20261110/cache-sha256.md
+evidence/audience-acceptance-20261110/inventory.md: 상대 링크/앵커 88개
+evidence/audience-acceptance-20261110/inventory.md -> inventory-initial.md
+evidence/audience-acceptance-20261110/inventory.md -> baseline/
+evidence/audience-acceptance-20261110/inventory.md -> supplement-start/
+evidence/audience-acceptance-20261110/inventory.md -> #s01
+evidence/audience-acceptance-20261110/inventory.md -> #s02
+evidence/audience-acceptance-20261110/inventory.md -> #s03
+evidence/audience-acceptance-20261110/inventory.md -> #s04
+evidence/audience-acceptance-20261110/inventory.md -> #s05
+evidence/audience-acceptance-20261110/inventory.md -> #s06
+evidence/audience-acceptance-20261110/inventory.md -> #s07
+evidence/audience-acceptance-20261110/inventory.md -> #s08
+evidence/audience-acceptance-20261110/inventory.md -> #s09
+evidence/audience-acceptance-20261110/inventory.md -> #s10
+evidence/audience-acceptance-20261110/inventory.md -> #s11
+evidence/audience-acceptance-20261110/inventory.md -> #s20
+evidence/audience-acceptance-20261110/inventory.md -> #s12
+evidence/audience-acceptance-20261110/inventory.md -> #s13
+evidence/audience-acceptance-20261110/inventory.md -> #s14
+evidence/audience-acceptance-20261110/inventory.md -> #s15
+evidence/audience-acceptance-20261110/inventory.md -> #s16
+evidence/audience-acceptance-20261110/inventory.md -> #s17
+evidence/audience-acceptance-20261110/inventory.md -> #s18
+evidence/audience-acceptance-20261110/inventory.md -> #s19
+evidence/audience-acceptance-20261110/inventory.md -> #s20
+evidence/audience-acceptance-20261110/inventory.md -> #c01
+evidence/audience-acceptance-20261110/inventory.md -> #c02
+evidence/audience-acceptance-20261110/inventory.md -> #c03
+evidence/audience-acceptance-20261110/inventory.md -> #c04
+evidence/audience-acceptance-20261110/inventory.md -> #c05
+evidence/audience-acceptance-20261110/inventory.md -> #s11
+evidence/audience-acceptance-20261110/inventory.md -> #c16
+evidence/audience-acceptance-20261110/inventory.md -> #c06
+evidence/audience-acceptance-20261110/inventory.md -> #c07
+evidence/audience-acceptance-20261110/inventory.md -> #c18
+evidence/audience-acceptance-20261110/inventory.md -> #c19
+evidence/audience-acceptance-20261110/inventory.md -> #c20
+evidence/audience-acceptance-20261110/inventory.md -> #c08
+evidence/audience-acceptance-20261110/inventory.md -> #c09
+evidence/audience-acceptance-20261110/inventory.md -> #c10
+evidence/audience-acceptance-20261110/inventory.md -> #c11
+evidence/audience-acceptance-20261110/inventory.md -> #c12
+evidence/audience-acceptance-20261110/inventory.md -> #c13
+evidence/audience-acceptance-20261110/inventory.md -> #c14
+evidence/audience-acceptance-20261110/inventory.md -> #c15
+evidence/audience-acceptance-20261110/inventory.md -> #c16
+evidence/audience-acceptance-20261110/inventory.md -> #c17
+evidence/audience-acceptance-20261110/inventory.md -> #g01
+evidence/audience-acceptance-20261110/inventory.md -> #g01
+evidence/audience-acceptance-20261110/inventory.md -> #d02
+evidence/audience-acceptance-20261110/inventory.md -> #d03
+evidence/audience-acceptance-20261110/inventory.md -> #d04
+evidence/audience-acceptance-20261110/inventory.md -> #d06
+evidence/audience-acceptance-20261110/inventory.md -> #d07
+evidence/audience-acceptance-20261110/inventory.md -> #d08
+evidence/audience-acceptance-20261110/inventory.md -> #d09
+evidence/audience-acceptance-20261110/inventory.md -> #d10
+evidence/audience-acceptance-20261110/inventory.md -> #d11
+evidence/audience-acceptance-20261110/inventory.md -> #d12
+evidence/audience-acceptance-20261110/inventory.md -> #d13
+evidence/audience-acceptance-20261110/inventory.md -> #s19
+evidence/audience-acceptance-20261110/inventory.md -> #d14
+evidence/audience-acceptance-20261110/inventory.md -> #m01
+evidence/audience-acceptance-20261110/inventory.md -> #m04
+evidence/audience-acceptance-20261110/inventory.md -> #m05
+evidence/audience-acceptance-20261110/inventory.md -> #m06
+evidence/audience-acceptance-20261110/inventory.md -> #m07
+evidence/audience-acceptance-20261110/inventory.md -> #m08
+evidence/audience-acceptance-20261110/inventory.md -> #m02
+evidence/audience-acceptance-20261110/inventory.md -> #m03
+evidence/audience-acceptance-20261110/inventory.md -> #n01
+evidence/audience-acceptance-20261110/inventory.md -> #t01
+evidence/audience-acceptance-20261110/inventory.md -> #t02
+evidence/audience-acceptance-20261110/inventory.md -> #t03
+evidence/audience-acceptance-20261110/inventory.md -> #t04
+evidence/audience-acceptance-20261110/inventory.md -> #t07
+evidence/audience-acceptance-20261110/inventory.md -> #t08
+evidence/audience-acceptance-20261110/inventory.md -> #t09
+evidence/audience-acceptance-20261110/inventory.md -> #t10
+evidence/audience-acceptance-20261110/inventory.md -> #t05
+evidence/audience-acceptance-20261110/inventory.md -> #t06
+evidence/audience-acceptance-20261110/inventory.md -> #e01
+evidence/audience-acceptance-20261110/inventory.md -> #e02
+evidence/audience-acceptance-20261110/inventory.md -> #i01
+evidence/audience-acceptance-20261110/inventory.md -> #l01
+evidence/audience-acceptance-20261110/inventory.md -> #l02
+evidence/audience-acceptance-20261110/inventory.md -> #h01
+evidence/audience-acceptance-20261110/inventory.md -> #h02
+evidence/audience-acceptance-20261110/inventory.md -> #p01
+evidence/audience-acceptance-20261110/cache-sha256.md: 상대 링크/앵커 0개

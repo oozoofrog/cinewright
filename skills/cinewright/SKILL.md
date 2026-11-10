@@ -11,4 +11,4 @@ description: 원화, 벡터, 절차적 그래픽, 3D, 활자와 소리를 사용
 
 로컬 음악 제작도 상위 SKILL의 `references/music.md` 경로를 따른다. 음악 명령과 기존 브라우저 player를 재사용하며 별도 편집 앱이나 전역 설치 변경을 전제하지 않는다.
 
-제작의 시작 질문과 시간 속 관계에서 코드·출력·검토로 이어지는 순서는 상위 SKILL과 [작법 실행](../../references/craft-execution.md)을 따른다. 공개 관계 연구 예제의 경로는 플러그인 루트의 `examples/relation-studies/`이며 실행 및 출력 검증 상태를 확인하고 사용한다.
+제작의 출발점과 작품에 필요한 저작·출력·검토 방법은 상위 SKILL과 [작법 실행](../../references/craft-execution.md)을 따른다. 공개 관계 연구 예제의 경로는 플러그인 루트의 `examples/relation-studies/`이며 실행 및 출력 검증 상태를 확인하고 사용한다.

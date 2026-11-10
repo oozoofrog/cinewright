@@ -1,0 +1,49 @@
+# Public effects and animation API 1.0
+
+The machine-readable export map is `catalog/effects.json`. Import files by their repo-relative paths. Pure evaluators return new numeric/JSON data; Canvas draws into the caller's logical context. Three factories return owned resources and disposal handles, with exceptions below. No wall clock, random cursor, previous framebuffer, hidden physics or texture channel is required. Absolute 2D ages are frames, clip/dust/deformation ages seconds where specified. Reference usage can be read in examples/styles/effects2d/scene.mjs and expressionist-space/effects.mjs.
+
+## Time, rig, shot and Canvas effects
+
+| File/export | Inputs → output, defaults and bounds | Ownership and failure |
+|---|---|---|
+| animation/exposure `sampleExposure` | integer frame + every1/from0 or ordered half-open track → held frame/value or null in gap | no resources; rejects overlapping, reversed or noninteger exposure |
+| animation/exposure `poseAt` | ordered `{frame,pose}` and frame, mode linear/hold → bone-angle map in radians | no mutation; matching numeric pose keys required for interpolation |
+| animation/rig2d `prepareRig2D`, `evaluateRig2D` | 1..256 id/parent/pivot/rest/limits bones + pose → parent-concatenated 2D matrices/pivots; rest0rad | own copied spec; reject cycles/missing parents/unknown pose bones/nonfinite input; clamp authored limits |
+| animation/shot `evaluateShot`, `projectPlanes` | x/y/zoom keys and output frame → continuous camera; depth0..1 planes and viewport → affine transforms/coverage diagnostics | no resources; zoom positive, finite nonempty keys; coverage diagnosis needs authored bounds |
+| fx2d/mask `validateShape`, `makePath`, `drawShape` | SVG path or M/L/C/Q/Z commands, fillRule evenodd default/nonzero → Path2D/fill; max100k string/20k commands | browser Path2D only in makePath/draw; pure validation rejects malformed arity/arc flags/nonfinite coordinates; caller context saved |
+| fx2d/mask `composeMask` | mask callback, reveal/erase mode, opacity0..1 default1 → destination-in/out composition | caller owns layer/offscreen; mask callback supplies complete current alpha, no history |
+| fx2d/transition `transitionAt`, `drawTransitionMask` | from<to frame span, iris/curtain/match, center, radius1200px → progress-clamped alpha geometry | caller owns match Path2D and destination; max extent governed by canvas4096; no temporal buffer |
+| fx2d/stroke `prepareStroke`, `strokeAt`, `drawStroke` | points/cubic segments `[x,y,pressure0..1]`, width1px, tolerance0.5px, depth12 (max20), reveal0..1 → flattened arc-length stroke/current partial points | immutable input; max10k polyline points/1024 cubics; rejects zero length, disconnected cubics, tolerance depth failure; no disposal |
+| fx2d/brush `brushDabs`, `drawDabs`, `paperGrain` | prepared stroke + seed/id, spacing8px/jitter0.3 → stable dabs; max10k; grain step18px/alpha0.07 fixed paper extent | Canvas caller chooses material coordinates; excessive grain cells>100k fail; no changing grain seed per draw |
+| fx2d/wash `drawWash` | polygon≥3 points, sRGB color, alpha0.25, edge0.15, layers2 (1..16) → translucent glaze plus edge stroke | no buffers; fill/path caller context restored; approximation rather than wet pigment/fluid |
+| fx2d/hatch `hatchLines`, `stipplePoints` | bounds/tone0..1/direction rad/spacing12px or count100 seed, paper/object/screen anchor → lines (cap2000) or points (max10k) | anchor identifies caller coordinate transform; caller clips hatch to object/bounds; rejects invalid bounds/spacing/tone/count |
+| fx2d/redraw `interpolatePoints`, `redrawAt` | corresponding `[x,y,p]` banks, ordered frames, every2, hold/linear, boil0..20px → absolute redraw points | authored correspondence required; boil0 preserves pose line; no topology inference or automatic rotoscoping |
+| fx2d/erase `erasureAt` | id-targeted from/to/residue0..1 event ledger + frame → multiplicative opacity | reconstruction from events, not buffer history; style's optional rectangular mask: at most one masked event per stroke |
+| fx2d/emitter `prepareEmitter`, `evaluateEmitter` | seed17, count80 (0..2000), birth frame0..192/lifetime48, origin/velocity/spread/gravity vec2 → id/age/position/alpha | pure analytic trajectories; count/lifetime/span/finite vectors validated; no particle solver |
+| fx2d/emitter `analyticTrail` | independent evaluator, absolute frame, samples6 (1..32), step2, decay0.65 → weighted states | evaluates each sample directly; caller composites, no feedback buffer |
+
+## Three r180 effects
+
+These use exact installed Three0.180.0 MIT. The frozen runtime supplies local core; materializeStyle supplies the allowlisted GLTFLoader→BufferGeometryUtils addon closure and LICENSE inside the project. No CDN/decoder path. Set sRGB only on authored color; atlas/ramp/gobo data textures remain non-color. Lighting operates in Three linear space and adapter converts once to display sRGB with NoToneMapping; premultiplied WebGL Canvas→Canvas2D is explicit. Final video is opaque H.264 yuv420p with AAC transport, not transparent MP4.
+
+| File/export | Inputs → output, defaults/bounds | Ownership and failure |
+|---|---|---|
+| animation/clip3d `prepareClip3D` | rigid root + clip, fps24/loop true/weight1/timeScale1/exposure every1 → absolute evaluation in seconds | owns mixer/actions; root geometry/material caller-owned; events/fades not an evaluation contract; dispose stops/uncaches |
+| fx3d/glb `inspectGLB`, `loadLocalGLB` | embedded uncompressed glTF2 binary under assets/*.glb → validated JSON/loaded scene+clips | loader owns no durable renderer; caller disposes scene geometry/material/textures; rejects external dependent URIs, required extensions and compression |
+| fx3d/adapter `createCanvasAdapter` | logical/pixel size16..4096 and optional browser canvas → transparent WebGL2 render/composite/stats | owns renderer/context, dispose idempotent; caller owns scene, camera and mesh resources; missing WebGL2 fails explicitly |
+| fx3d/material `createHatchAtlas`, `createHatchMaterial` | tile64 (16..256), ordered2..8 tones, hatch5 repeats/UV span (0..32), strength0.62 → toon+UV hatch material | atlas is a four-density local data texture; factory owns material/ramp and internally created atlas only; shared atlas belongs to caller; no automatic UV/direction field |
+| fx3d/outline `createRigidOutline`, `createInternalLines` | rigid mesh + world-width0.025 (0..0.2] or authored2..4096 vec3 line points → hull/line object | hull shares caller geometry, owns material; internal line owns geometry/material; missing interior edges, gaps and intersections are limitations |
+| fx3d/geometry `createGeometry` | validated box/sphere/cylinder/torus/lathe/leaf/UV buffer descriptor → geometry | caller disposes; style max50k buffer vertices and subdivision bounds; UV must be provided for hatch surfaces |
+| fx3d/light `createLightRig` | scene + 0..8 ambient/directional/spot specs, intensity0..100, shadowSize256..2048, optional spotlight gobo → lights | owns lights/targets/shadow maps/gobo textures; caller owns scene. Gobo is a light map; graphic shadow is a separate overlay |
+| fx3d/light `createShadowOverlay` | convex3..128 local-XY vec2 points, opacity0.8 → graphic mesh | owns geometry/material, caller adds/removes object; not a predicted shadow or general decal projector; rejects concave/zero-area input |
+| fx3d/light `setDepthFog` | color, near8/far35 world camera-depth distances → scene Fog | no owned GPU resource; far>near≥0; not a volume simulation or custom exported depth channel |
+| fx3d/deform `prepareDeformation` | owned geometry rest positions, amplitude0.1 (abs≤10), frequency1/phase0 → absolute sine deformation at seconds | retains rest copy, mutates owned geometry and recalculates normals/bounds; caller disposes geometry; no cloth/physics |
+| fx3d/particles `sampleDust`, `createDust` | id/seconds or count100 (0..4096), seed17, bounds[8,5,12], life8s/speed0.2 → analytic instanced dust | createDust validates spec and owns instance mesh/geometry/material; dispose caller; sampleDust is the low-level evaluator for that validated spec; no accumulated dynamics |
+
+Memory is bounded by explicit counts and final pixel dimensions; GPU memory itself may be unavailable to Chromium and is reported unmeasured. Warm-up p50/p95 in validation.json includes draw submission and Canvas composite, not a universal real-time guarantee. software WebGL2 measurements include renderer string and machine metadata in the final handoff.
+
+Review hardening: stroke subdivision preserves pressure as well as geometry (pressure error≤0.005; aggregate cap65536 flattened points), finite derived length required. `validateGeometry` is exported beside `createGeometry`; native primitive subdivisions are type-specific positive integers, preventing zero-subdivision NaN buffers. Materialization rejects scene-referenced `assets/...` paths absent from the supplied local asset map before staging/publishing.
+
+The line-wash preparation tier accepts at most250000 flattened+bank points across one scene; recommended authored scenes use much less. Low-level width≤4096px, coordinate magnitude≤1e6px and tolerance1e-6..64px are hard rejection bounds, not a recommendation to combine all maxima. `style-effects-limits.test.mjs` directly exercises exact/over aggregate budget and maximum counts without GPU rendering them. C embedded GLB budget is16MiB; chunk/header/buffer-view bounds and no-external-dependency rules are checked before publication, while actual image/shader decoding remains browser-validated.
+
+A closed transition clears the viewport explicitly at progress≤0. Always supply logical `{width,height}` to `drawTransitionMask`, including iris and match, so destination-in receives a truly empty stage at zero. Degenerate zero-radius/singular-scale fills do not reliably clear Canvas destinations; actual raster regression covers this endpoint and reverse seeks.

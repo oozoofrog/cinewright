@@ -1,0 +1,39 @@
+ M SKILL.md
+ M references/craft-execution.md
+ M references/craft.md
+ M references/direction.md
+ M references/format.md
+ M references/music-box.md
+ M references/music.md
+ M references/stillcuts.md
+ M skills/cinewright/SKILL.md
+?? .agent-loop/
+?? docs/
+?? evidence/aesthetic-toolkit-2026-11-08/
+?? evidence/aesthetic-toolkit-phase02-2026-11-08/
+?? evidence/audience-acceptance-20261110/
+?? evidence/cinematic-animation-implementation-2026-11-08/
+?? evidence/cinematic-animation-review-2026-11-08/
+?? evidence/code-expression-20261110/
+?? evidence/craft-review-20261109/
+?? evidence/dancer-increment-20261109/
+?? evidence/gap-closure-20261109/
+?? evidence/global-update-2026-11-05-224452-79c01a37/
+?? evidence/motion-authoring-20261110/
+?? evidence/skill-production-loop-20261109/
+?? evidence/subject-understanding-20261109/
+?? examples/relation-studies/
+?? scripts/cinematic-author.py
+?? scripts/cinematic-evidence.py
+?? scripts/cinematic-render.mjs
+?? scripts/cinematic-rig-asset.mjs
+?? scripts/cinematic-rig-check.mjs
+?? scripts/cinematic-watercolor-compare.mjs
+?? scripts/phase02-final-audit.mjs
+?? scripts/phase02-fullhd-check.mjs
+?? scripts/phase02-fullhd.mjs
+?? scripts/phase02-playback-check.mjs
+?? scripts/phase02-rig-evidence.mjs
+?? scripts/watercolor-evidence.mjs
+?? scripts/watercolor-memory.mjs
+?? tests/relation-studies.test.mjs

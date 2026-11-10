@@ -1,0 +1,12 @@
+원본 테스트 파일의 바이트가 같은 임시 사본. 검사 대상 SKILL/진입점/manifest는 최종 작업본 복사. imports는 원본 읽기. 테스트 scratch는 /var/folders/tf/wn7gzzvd6l7f7_ttdx84ps880000gn/T/cinewright-doc-check-a5qr1rpf/.direction (저장소 밖).
+✔ plugin skill entrypoint stays rooted and music guidance does not widen sync claims (16.9445ms)
+ℹ tests 1
+ℹ suites 0
+ℹ pass 1
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 2639.979208
+
+exit 0

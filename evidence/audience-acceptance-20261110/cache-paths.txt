@@ -1,0 +1,2 @@
+/Users/oozoofrog/.codex/plugins/cache/cinewright-local/cinewright/1.1.0
+발견: rg --files로 .codex/plugins/cache 및 T3 계정 경로의 SKILL.md/plugin.json을 읽기 전용 검색.
