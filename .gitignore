@@ -38,6 +38,13 @@ evidence/**/*.s16
 evidence/**/*.pcm
 evidence/**/*.bin
 
+# Report-embedded representative images only; verify each is <=500KB before staging.
+!evidence/*/figures/**/*.png
+!evidence/*/figures/**/*.jpg
+!evidence/*/figures/**/*.jpeg
+!evidence/*/figures/**/*.webp
+!evidence/*/figures/**/*.gif
+
 # Large text retained locally; exact files only, never a blanket JSON/log ignore.
 /evidence/2026-11-08-aesthetic-toolkit-phase02/coordinator/baseline.json
 /evidence/2026-11-08-aesthetic-toolkit-phase02/independent-recheck/hashes-after.json

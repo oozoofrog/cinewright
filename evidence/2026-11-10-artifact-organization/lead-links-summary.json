@@ -1,0 +1,24 @@
+{
+  "scope": "all repository Markdown except .git/node_modules/.direction/.agent-loop; archived evidence Markdown included; code samples excluded; external web links not fetched",
+  "markdown_files": 284,
+  "links_by_syntax": {
+    "inline": 2111,
+    "undefined-reference": 2
+  },
+  "local_links": 1818,
+  "external_links_skipped": 295,
+  "broken_count": 434,
+  "broken_by_reason": {
+    "missing-path": 254,
+    "missing-local-direction": 178,
+    "undefined-reference": 2
+  },
+  "broken_by_syntax": {
+    "inline": 432,
+    "undefined-reference": 2
+  },
+  "introduced_count": 0,
+  "baseline_broken_count": 434,
+  "checker_sha256": "c77ea67588cbddf79989733a79d1964508618c8903e9473c685822af9002c614",
+  "full_current_result": "/Volumes/eyedisk/cinewright-artifact-quarantine-sauealit/organization-work/astra-links-after.json"
+}

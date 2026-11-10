@@ -1,0 +1,55 @@
+{
+  "audited_head": "6faf5686ed15190b84c9cdffb3375f85fdb2be0d",
+  "original_final_hashes_rechecked": 14994,
+  "mismatches": [],
+  "unique_mapping": true,
+  "skill_reconstruction_and_final_path_only": 15,
+  "pure_rename_commits": {
+    "41bb19a": 1569,
+    "83e0f1d": 37,
+    "482ec1d": 2
+  },
+  "product_code_unchanged": true,
+  "test_raw_logs_verified": [
+    {
+      "phase": "before",
+      "counts": {
+        "tests": 489,
+        "pass": 468,
+        "fail": 21,
+        "skipped": 0
+      }
+    },
+    {
+      "phase": "after",
+      "counts": {
+        "tests": 489,
+        "pass": 468,
+        "fail": 21,
+        "skipped": 0
+      }
+    }
+  ],
+  "tracked_before": {
+    "files": 1539,
+    "committed_head_bytes": 143426238,
+    "working_tree_bytes": 143458509
+  },
+  "tracked_after": {
+    "files": 2951,
+    "bytes": 154495433
+  },
+  "retained_media": 428,
+  "new_media": [],
+  "limitations": [
+    "Original first temporary manifest unavailable; audit is against replacement snapshot.",
+    "21 browser-related tests fail under deliberately unavailable Chromium.",
+    "22 small store texts were newly tracked contrary to intended local-only policy; cannot remove under no-untracking instruction."
+  ],
+  "first_two_revision_baselines_verified": true,
+  "review_verdict": "Organization implemented; full acceptance not claimed because the original temporary baseline is unavailable and 22 newly tracked store texts conflict with the requested local-only scope.",
+  "lead_corrections": [
+    "Add actual figures image negation patterns to .gitignore; <=500KB remains a per-file staging check.",
+    "Link the known organization report and independent review in work index."
+  ]
+}

@@ -45,3 +45,7 @@ Markdown 검사는 저장소의 모든 `.md`를 대상으로 하고 `.git`, `nod
 - 시스템 볼륨 격리의 안정적 복사본: `/Volumes/eyedisk/cinewright-artifact-quarantine-sauealit/organization-work/internal-quarantine-preserved`
 
 [격리 요약](quarantine-summary.json)에 모든 이동된 바이트의 보존 확인과 경로를 적었다. 다른 볼륨으로 copy+delete하는 동작은 하지 않았다. 이 작업에 쓴 검증 도구는 저장소 밖에 두었고 의존성이나 상시 인프라를 추가하지 않았다. 리드는 실제 브라우저 검증의 한계, 사라진 최초 임시 명세의 출처 한계, store 텍스트 22개와 늦게 발견한 콘텐츠의 커밋 순서 예외를 검토해야 한다. 최종 독립 검토와 사용자 수락을 대신 완료했다고 표시하지 않는다.
+
+## 리드 검토 결과
+
+Astra가 구현 HEAD의 파일 해시·개정 복원·순수 이동·기존 미디어 보존·테스트 원문을 직접 확인했다. [독립 검토 기록](lead-review.md)에 보완 사항과 충족하지 못한 조건을 구분했다. 이 검토는 구현 완료를 확인하되 전체 요청의 무조건적 수락을 뜻하지 않는다.
