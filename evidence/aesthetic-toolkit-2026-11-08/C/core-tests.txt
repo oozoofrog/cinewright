@@ -1,0 +1,12 @@
+✔ absolute reverse clip seek and disposal (1.30625ms)
+✔ held clip and clamped nonloop (0.207083ms)
+✔ GLB rejects malformed headers and remote dependencies (0.16475ms)
+✔ vendor closure pins version and retains MIT license (2.382ms)
+ℹ tests 4
+ℹ suites 0
+ℹ pass 4
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 108.07475

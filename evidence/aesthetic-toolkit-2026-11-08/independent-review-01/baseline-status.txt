@@ -1,0 +1,42 @@
+ M README.md
+ M SKILL.md
+ M references/tools.md
+ M runtime/compositor.mjs
+ M runtime/player.mjs
+ M scripts/direction.mjs
+ M scripts/jobs.mjs
+ M skills/cinewright/SKILL.md
+?? catalog/
+?? docs/
+?? evidence/aesthetic-toolkit-2026-11-08/
+?? evidence/global-update-2026-11-05-224452-79c01a37/
+?? examples/music-box-dancer/
+?? examples/styles/
+?? modules/animation/
+?? modules/fx/
+?? modules/fx2d/
+?? modules/fx3d/
+?? modules/motion.mjs
+?? modules/music.mjs
+?? modules/styles/
+?? recipes/
+?? references/music.md
+?? references/styles/
+?? scripts/flash.mjs
+?? scripts/materialize-kit.mjs
+?? scripts/materialize-style.mjs
+?? scripts/music.mjs
+?? scripts/style-vendor-expressionist.mjs
+?? tests/expressionist-core.test.mjs
+?? tests/expressionist-package.test.mjs
+?? tests/fx.test.mjs
+?? tests/line-wash-core.test.mjs
+?? tests/line-wash-stroke.test.mjs
+?? tests/motion.test.mjs
+?? tests/music-box-dancer.test.mjs
+?? tests/music-integration.test.mjs
+?? tests/music.test.mjs
+?? tests/porcelain-study.test.mjs
+?? tests/silhouette.test.mjs
+?? tests/style-common.test.mjs
+?? tests/style-lifecycle.test.mjs

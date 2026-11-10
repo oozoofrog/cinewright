@@ -1,0 +1,31 @@
+✔ absolute reverse clip seek and disposal (1.799125ms)
+✔ held clip and clamped nonloop (0.236166ms)
+✔ GLB rejects malformed headers and remote dependencies (0.184375ms)
+✔ vendor closure pins version and retains MIT license (3.362584ms)
+✔ three authored scene grammars validate without mutation (4.285167ms)
+✔ scene rejects malformed mesh UV, missing material, key mismatch and invalid gobo (2.366583ms)
+✔ absolute deformation restores rest across random/reverse queries (3.666084ms)
+✔ UV atlas contains nested density, shader uses UV and keeps color/fog stages (1.986292ms)
+✔ instanced dust is analytic seed/id/age and does not retain last frame (0.955ms)
+✔ clip negative timeScale, looping boundary and weight keep absolute semantics (1.015167ms)
+✔ embedded original assets include UV and matching animation (1.171459ms)
+✔ capability failure is explicit and never silently paints fallback (0.139209ms)
+✔ shot keys clamp and interpolate world transforms independently (0.125166ms)
+✔ actual r180 GLTFLoader parses original embedded UV meshes and animation in Node (6.334584ms)
+✔ public geometry/lighting helpers reject allocation expansion and invalid graphic shadows (0.621959ms)
+✔ replaceable forest, harbor and portrait compile to manifest v1 without changing authored input (58.483083ms)
+✔ bad scene fails before publishing; preserve input, reject cycles and excess objects (2.196416ms)
+✔ scene preflight rejects missing shapes, ranges, mismatched poses, malformed reveal and missing assets without publication (8.281ms)
+✔ straight cubic retains nonlinear pressure, finite derived length and bounded flatten allocation (29.77475ms)
+✔ public wash/transition and B dab validation reject nonfinite or malformed inputs (0.844583ms)
+✔ geometry factory and C scene reject zero/fractional subdivisions before Three allocates NaN buffers (1.405917ms)
+✔ provenance has no circular self hash and matches all authored silhouette bytes (1.189291ms)
+✔ authored commuter contact holds planted shoes fixed while swing feet lift and ankle lines match (19.349708ms)
+ℹ tests 23
+ℹ suites 0
+ℹ pass 23
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 184.485666

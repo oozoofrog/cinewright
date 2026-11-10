@@ -1,0 +1,363 @@
+{
+  "project": "/Volumes/eyedisk/develop/cinewright/.direction/aesthetic-toolkit-2026-11-08/B/portrait",
+  "revision": "53c73868cdb82949b0347cc5ad15ed540b271ab4cb975139df52878446c2bbe6",
+  "browser": "157.0.8103.38",
+  "size": [
+    1080,
+    1920
+  ],
+  "frames": 192,
+  "fps": 24,
+  "errors": [],
+  "warnings": [
+    "[.WebGL-0x13400588a00]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels"
+  ],
+  "network": [],
+  "notes": [
+    "same software WebGL2 environment, no cross-GPU pixel guarantee",
+    "autoplay is automated; human continuous viewing/listening/accessibility/acceptance unverified"
+  ],
+  "prepareMs": 748.5878749999974,
+  "seek": {
+    "checks": 55,
+    "canonical": {
+      "0": {
+        "state": {
+          "frame": 0,
+          "values": {},
+          "exposures": {
+            "style": {
+              "frame": 0
+            }
+          }
+        },
+        "hash": "6a7ebbe1cd7256d0cbdf020b392814cd56ff304d83abcfa33ad30fa9d814e482"
+      },
+      "1": {
+        "state": {
+          "frame": 1,
+          "values": {},
+          "exposures": {
+            "style": {
+              "frame": 1
+            }
+          }
+        },
+        "hash": "a0caad4d1c331c2fefdfbda26a13be7094091d4763d1446c285675152bfc1c02"
+      },
+      "2": {
+        "state": {
+          "frame": 2,
+          "values": {},
+          "exposures": {
+            "style": {
+              "frame": 2
+            }
+          }
+        },
+        "hash": "52a127983754adbe2c86a1e96979dcb56f72891f1b219e1cbd789bf36547393e"
+      },
+      "23": {
+        "state": {
+          "frame": 23,
+          "values": {},
+          "exposures": {
+            "style": {
+              "frame": 23
+            }
+          }
+        },
+        "hash": "4175e3e0ce247b07adc7d5df1a4cde560a2485b20eb93812314786e84c62688b"
+      },
+      "24": {
+        "state": {
+          "frame": 24,
+          "values": {},
+          "exposures": {
+            "style": {
+              "frame": 24
+            }
+          }
+        },
+        "hash": "4175e3e0ce247b07adc7d5df1a4cde560a2485b20eb93812314786e84c62688b"
+      },
+      "25": {
+        "state": {
+          "frame": 25,
+          "values": {},
+          "exposures": {
+            "style": {
+              "frame": 25
+            }
+          }
+        },
+        "hash": "4175e3e0ce247b07adc7d5df1a4cde560a2485b20eb93812314786e84c62688b"
+      },
+      "47": {
+        "state": {
+          "frame": 47,
+          "values": {},
+          "exposures": {
+            "style": {
+              "frame": 47
+            }
+          }
+        },
+        "hash": "07177bdaf84ccc8b7b1ff9b95401cb9ef2639adf1f6e82a264561427d500d3a3"
+      },
+      "48": {
+        "state": {
+          "frame": 48,
+          "values": {},
+          "exposures": {
+            "style": {
+              "frame": 48
+            }
+          }
+        },
+        "hash": "6447e3f70036dc9b8208307b09cacc9a4030a3fc00a3b3b165cf49a846392a26"
+      },
+      "49": {
+        "state": {
+          "frame": 49,
+          "values": {},
+          "exposures": {
+            "style": {
+              "frame": 49
+            }
+          }
+        },
+        "hash": "3e725e4ff5152bc2c48b5218857fb03fa7c4db4416617bef963df8fe90100295"
+      },
+      "71": {
+        "state": {
+          "frame": 71,
+          "values": {},
+          "exposures": {
+            "style": {
+              "frame": 71
+            }
+          }
+        },
+        "hash": "c8a9bec7c640327036ed290e15b8ac9f4d663315e66baddb92372a4276552003"
+      },
+      "72": {
+        "state": {
+          "frame": 72,
+          "values": {},
+          "exposures": {
+            "style": {
+              "frame": 72
+            }
+          }
+        },
+        "hash": "489259e28905ccba12a0d3c6f03eca74b3db956d5cb741b2a6e85c9bd7b6c2a0"
+      },
+      "73": {
+        "state": {
+          "frame": 73,
+          "values": {},
+          "exposures": {
+            "style": {
+              "frame": 73
+            }
+          }
+        },
+        "hash": "29cb90073915f07696bb69db4ea77ef4984642ef101f2589d04b42f043520028"
+      },
+      "95": {
+        "state": {
+          "frame": 95,
+          "values": {},
+          "exposures": {
+            "style": {
+              "frame": 95
+            }
+          }
+        },
+        "hash": "e6262cc393cd7b2859ee9a3ef5efe0afe1f7c8385da5c198332c9574705f16d0"
+      },
+      "96": {
+        "state": {
+          "frame": 96,
+          "values": {},
+          "exposures": {
+            "style": {
+              "frame": 96
+            }
+          }
+        },
+        "hash": "9f20531b32e144f8e65a5a2f06150f1edd95a808ff232fbb7447f090bcd2a6e6"
+      },
+      "97": {
+        "state": {
+          "frame": 97,
+          "values": {},
+          "exposures": {
+            "style": {
+              "frame": 97
+            }
+          }
+        },
+        "hash": "34010ec8ca820ca3ba485e8a93d20f67f63050bbac5bec56bbca271a5dfbab2c"
+      },
+      "103": {
+        "state": {
+          "frame": 103,
+          "values": {},
+          "exposures": {
+            "style": {
+              "frame": 103
+            }
+          }
+        },
+        "hash": "ef5c266a4f43b4e88884e136c41d5ea40eb3add85df13094a62144ce2b798142"
+      },
+      "104": {
+        "state": {
+          "frame": 104,
+          "values": {},
+          "exposures": {
+            "style": {
+              "frame": 104
+            }
+          }
+        },
+        "hash": "79991ac7575ae6aa1a2f71a8d3197fa0e322ae9f4960df01b12e0d47df11bf48"
+      },
+      "105": {
+        "state": {
+          "frame": 105,
+          "values": {},
+          "exposures": {
+            "style": {
+              "frame": 105
+            }
+          }
+        },
+        "hash": "ba77dcee318b92d86754fa62f312d88268d0cebed485e3554bd0a5196e28872e"
+      },
+      "127": {
+        "state": {
+          "frame": 127,
+          "values": {},
+          "exposures": {
+            "style": {
+              "frame": 127
+            }
+          }
+        },
+        "hash": "c2b71b58580435e2a01542f928a86bf2fa28b85c463b3f1f827fa4977b4af244"
+      },
+      "128": {
+        "state": {
+          "frame": 128,
+          "values": {},
+          "exposures": {
+            "style": {
+              "frame": 128
+            }
+          }
+        },
+        "hash": "31f5b8ea49cb72759dd837e99194fdadbfd2ce3026de37c557aca09571dae79e"
+      },
+      "129": {
+        "state": {
+          "frame": 129,
+          "values": {},
+          "exposures": {
+            "style": {
+              "frame": 129
+            }
+          }
+        },
+        "hash": "857a3c709715db45863df082df8d8289691c30296e63c1fa1c7194308e32043f"
+      },
+      "143": {
+        "state": {
+          "frame": 143,
+          "values": {},
+          "exposures": {
+            "style": {
+              "frame": 143
+            }
+          }
+        },
+        "hash": "840ce5bff242a31cf4bac48aaf8eb28531db58f61d223a3fc19916bab9865998"
+      },
+      "144": {
+        "state": {
+          "frame": 144,
+          "values": {},
+          "exposures": {
+            "style": {
+              "frame": 144
+            }
+          }
+        },
+        "hash": "3ef1585f93da4e56f964983698875712ba9595c6c4e71c1d6c54410db90259ee"
+      },
+      "145": {
+        "state": {
+          "frame": 145,
+          "values": {},
+          "exposures": {
+            "style": {
+              "frame": 145
+            }
+          }
+        },
+        "hash": "c18f442d33389bfcafa756608b808660e2e40569d7ffcec2715de9dd3a77dcb7"
+      },
+      "190": {
+        "state": {
+          "frame": 190,
+          "values": {},
+          "exposures": {
+            "style": {
+              "frame": 190
+            }
+          }
+        },
+        "hash": "9ef9ac46be94d4901782f0f05edc314bfb2f939594c6da30553e4798ebb1a6ff"
+      },
+      "191": {
+        "state": {
+          "frame": 191,
+          "values": {},
+          "exposures": {
+            "style": {
+              "frame": 191
+            }
+          }
+        },
+        "hash": "9ef9ac46be94d4901782f0f05edc314bfb2f939594c6da30553e4798ebb1a6ff"
+      }
+    }
+  },
+  "performance": {
+    "samples": 60,
+    "p50Ms": 1.1999999284744263,
+    "p95Ms": 1.5,
+    "jsHeapBytes": 6919882,
+    "renderer": "WebKit WebGL",
+    "gpuMemoryBytes": null,
+    "note": "synchronous draw submission incl canvas composite; GPU memory unavailable"
+  },
+  "freezeSourceIsolation": true,
+  "lifecycle": [
+    {
+      "disposedDrawRejected": true
+    },
+    {
+      "disposedDrawRejected": true
+    },
+    {
+      "disposedDrawRejected": true
+    },
+    {
+      "disposedDrawRejected": true
+    }
+  ],
+  "jobs": []
+}

@@ -1,0 +1,21 @@
+✔ cubic approximation, bounded failure, invalid data and immutability (1.079417ms)
+✔ redraw correspondence, exposure, erasure boundaries and seeded dabs (1.038125ms)
+✔ authored scenes validate and reverse seek is independent (11.201292ms)
+✔ scene rejects bad bank pressure, masks and material (1.766416ms)
+✔ arc-length reveal and input immutability (1.196292ms)
+✔ rejects invalid pressure and zero length (0.211208ms)
+✔ replaceable forest, harbor and portrait compile to manifest v1 without changing authored input (48.810875ms)
+✔ bad scene fails before publishing; preserve input, reject cycles and excess objects (2.411375ms)
+✔ half-open irregular exposure preserves frame/value, hold versus interpolation (0.841125ms)
+✔ hierarchy, clamps, input immutability, cycles and parent errors (0.319041ms)
+✔ continuous camera coexists with held pose and coverage diagnoses edges (0.158875ms)
+✔ absolute emitter and independent trail survive arbitrary sampling (0.31825ms)
+✔ SVG and command validation rejects truncated curves, arc flags and nonfinite coordinates before publishing (0.332209ms)
+ℹ tests 13
+ℹ suites 0
+ℹ pass 13
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 176.435416

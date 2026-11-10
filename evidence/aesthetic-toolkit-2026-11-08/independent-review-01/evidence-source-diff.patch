@@ -1,0 +1,112 @@
+--- A/forest-v3:frozen/modules/animation/exposure.mjs
++++ checkout/modules/animation/exposure.mjs
+@@ -1,8 +1,9 @@
+ /** Frame-domain exposure. Half-open entries, absolute output time. */
+-export function sampleExposure(frame, {every=1,from=0,track}={}) {
++export function sampleExposure(frame, options={}) {
++  const {every=1,from=0,track}=options;
+   if (!Number.isSafeInteger(frame)||!Number.isSafeInteger(from)||!Number.isSafeInteger(every)||every<1) throw new Error('exposure: integer frame/from and positive every required');
+   if(track){let end=-Infinity;for(const e of track){if(!Number.isSafeInteger(e.from)||!Number.isSafeInteger(e.to)||e.from<end||e.to<=e.from||!Number.isSafeInteger(e.every??1)||(e.every??1)<1)throw new Error('exposure: ordered half-open track required');end=e.to;}const e=track.find(e=>e.from<=frame&&frame<e.to);return e?sampleExposure(frame,e):null;}
+-  return {frame:from+Math.floor((frame-from)/every)*every,...(arguments[1] && Object.hasOwn(arguments[1],'value')?{value:arguments[1].value}:{})};
++  return {frame:from+Math.floor((frame-from)/every)*every,...(Object.hasOwn(options,'value')?{value:options.value}:{})};
+ }
+ export function poseAt(keys,frame,{mode='linear'}={}){
+   if(!['linear','hold'].includes(mode)||!Number.isFinite(frame)||!Array.isArray(keys)||!keys.length)throw new Error('poseAt: keys/time/mode invalid');
+--- A/forest-v3:frozen/modules/fx2d/mask.mjs
++++ checkout/modules/fx2d/mask.mjs
+@@ -1,6 +1,16 @@
+ /** SVG/commands are local 2D coordinates. Holes use explicit evenodd/nonzero winding. */
+-export function makePath(shape){
+- if(!shape||!['evenodd','nonzero'].includes(shape.fillRule??'evenodd'))throw new Error('shape: fillRule must be evenodd or nonzero');const input=shape.path??shape.commands;if(typeof input==='string'){if(!input.trim()||input.length>100000||!/^[Mm]/.test(input.trim())||/[^MmLlHhVvCcSsQqTtAaZz0-9eE.,+\-\s]/.test(input))throw new Error('shape: invalid SVG path');return new Path2D(input);}if(!Array.isArray(input)||input.length>20000)throw new Error('shape: SVG string or command array required');const p=new Path2D(),arity={M:2,L:2,C:6,Q:4,Z:0},fn={M:'moveTo',L:'lineTo',C:'bezierCurveTo',Q:'quadraticCurveTo',Z:'closePath'};for(const [op,...v]of input){if(!(op in arity)||v.length!==arity[op]||!v.every(Number.isFinite))throw new Error('shape: invalid path command');p[fn[op]](...v);}return p;
++const arity={M:2,L:2,H:1,V:1,C:6,S:4,Q:4,T:2,A:7,Z:0};
++export function validateShape(shape){
++ if(!shape||!['evenodd','nonzero'].includes(shape.fillRule??'evenodd'))throw new Error('shape: fillRule must be evenodd or nonzero');const input=shape.path??shape.commands;
++ if(typeof input==='string'){
++  if(!input.trim()||input.length>100000)throw new Error('shape: empty or excessive SVG path');
++  const pattern=/[MmLlHhVvCcSsQqTtAaZz]|[-+]?(?:\d*\.\d+|\d+\.?\d*)(?:[eE][-+]?\d+)?/g;
++  if(input.replace(pattern,'').replace(/[\s,]/g,''))throw new Error('shape: invalid SVG token');const tokens=input.match(pattern)??[];if(!/^[Mm]$/.test(tokens[0]))throw new Error('shape: SVG must begin with moveto');
++  for(let i=0;i<tokens.length;){const op=tokens[i++].toUpperCase();if(!(op in arity))throw new Error('shape: SVG command required');const values=[];while(i<tokens.length&&!/^[a-zA-Z]$/.test(tokens[i]))values.push(Number(tokens[i++]));const n=arity[op];if((n===0?values.length!==0:values.length===0||values.length%n)||values.some(v=>!Number.isFinite(v)||Math.abs(v)>1e6))throw new Error('shape: invalid SVG command arity/range');if(op==='A')for(let j=0;j<values.length;j+=7)if(values[j]<0||values[j+1]<0||![0,1].includes(values[j+3])||![0,1].includes(values[j+4]))throw new Error('shape: invalid arc radii/flags');}
++ }else{
++  if(!Array.isArray(input)||!input.length||input.length>20000||input[0]?.[0]!=='M')throw new Error('shape: commands must begin with M');for(const command of input){if(!Array.isArray(command))throw new Error('shape: command array required');const [op,...v]=command;if(!['M','L','C','Q','Z'].includes(op)||v.length!==arity[op]||!v.every(Number.isFinite))throw new Error('shape: invalid path command');}
++ }return true;
+ }
++export function makePath(shape){validateShape(shape);const input=shape.path??shape.commands;if(typeof input==='string')return new Path2D(input);const p=new Path2D(),fn={M:'moveTo',L:'lineTo',C:'bezierCurveTo',Q:'quadraticCurveTo',Z:'closePath'};for(const [op,...v]of input)p[fn[op]](...v);return p;}
+ export function drawShape(g,shape,path=makePath(shape)){g.save();g.fillStyle=shape.fill??'#12131b';g.fill(path,shape.fillRule??'evenodd');g.restore();}
+ export function composeMask(g,drawMask,{mode='reveal',opacity=1}={}){if(!['reveal','erase'].includes(mode)||!Number.isFinite(opacity)||opacity<0||opacity>1)throw new Error('mask: invalid mode/opacity');g.save();g.globalAlpha=opacity;g.globalCompositeOperation=mode==='erase'?'destination-out':'destination-in';drawMask(g);g.restore();}
+--- A/forest-v3:frozen/modules/styles/silhouette-theatre/index.mjs
++++ checkout/modules/styles/silhouette-theatre/index.mjs
+@@ -1,7 +1,7 @@
+ import {sampleExposure,poseAt} from '../../animation/exposure.mjs';
+ import {prepareRig2D,evaluateRig2D} from '../../animation/rig2d.mjs';
+ import {evaluateShot,projectPlanes} from '../../animation/shot.mjs';
+-import {makePath} from '../../fx2d/mask.mjs';
++import {makePath,validateShape} from '../../fx2d/mask.mjs';
+ import {transitionAt,drawTransitionMask} from '../../fx2d/transition.mjs';
+ import {seeded} from '../../motion.mjs';
+ const finite=Number.isFinite;
+@@ -11,7 +11,7 @@
+  if(!Array.isArray(s.planes)||!s.planes.length||s.planes.length>16||!s.shapes||typeof s.shapes!=='object'||Object.keys(s.shapes).length>512)throw new Error('silhouette: 1..16 planes and <=512 shapes required');
+  const ids=new Set();let count=0;
+  for(const p of s.planes){if(!finite(p.depth)||p.depth<0||p.depth>1||!Array.isArray(p.objects))throw new Error('silhouette: plane depth/objects invalid');for(const o of p.objects){if(!o.id||ids.has(o.id)||++count>256)throw new Error('silhouette: unique ids; max 256 objects');ids.add(o.id);if(!['shape','puppet','shadow','halo','alpha'].includes(o.type))throw new Error(`silhouette: unknown object type ${o.type}`);if(o.shape&&!s.shapes[o.shape])throw new Error(`silhouette: unknown shape ${o.shape}`);if(o.type==='puppet'){const r=prepareRig2D(o.rig);if(!o.poses?.length)throw new Error('silhouette: puppet requires pose bank');for(const b of o.rig.bones)if(b.shape&&!s.shapes[b.shape])throw new Error('silhouette: bone shape missing');for(const k of o.poses)evaluateRig2D(r,k.pose);poseAt(o.poses,0,{mode:o.poseMode??'linear'});}if(o.type==='alpha'&&(!o.asset||!vec(o.bounds,4)))throw new Error('silhouette: alpha asset and bounds required');for(const k of o.keys??[]){if(!Number.isInteger(k.frame)||Object.values(k).some(v=>!finite(v)))throw new Error('silhouette: finite ordered transform keys required');}for(let i=1;i<(o.keys?.length??0);i++)if(o.keys[i].frame<=o.keys[i-1].frame)throw new Error('silhouette: transform key order');if(!Number.isInteger(o.every??2)||(o.every??2)<1)throw new Error('silhouette: exposure every >=1');}}
+- for(const shape of Object.values(s.shapes)){if(!['evenodd','nonzero'].includes(shape.fillRule??'evenodd'))throw new Error('silhouette: invalid winding');if(typeof shape.path!=='string'&&!Array.isArray(shape.commands))throw new Error('silhouette: path data required');}
++ for(const shape of Object.values(s.shapes))validateShape(shape);
+  evaluateShot(s.camera,0);return true;
+ }
+ function transformAt(keys,frame){const defaults={x:0,y:0,rotation:0,scale:1,scaleX:1,scaleY:1,opacity:1};if(!keys?.length)return defaults;const i=keys.findIndex(k=>k.frame>frame),a=keys[Math.max(0,i<0?keys.length-1:i-1)],b=i<0?a:keys[i],p=a===b?0:Math.max(0,(frame-a.frame)/(b.frame-a.frame));return Object.fromEntries(Object.entries(defaults).map(([k,v])=>[k,(a[k]??v)+((b[k]??v)-(a[k]??v))*p]));}
+--- effects2d:frozen/modules/animation/exposure.mjs
++++ checkout/modules/animation/exposure.mjs
+@@ -1,8 +1,9 @@
+ /** Frame-domain exposure. Half-open entries, absolute output time. */
+-export function sampleExposure(frame, {every=1,from=0,track}={}) {
++export function sampleExposure(frame, options={}) {
++  const {every=1,from=0,track}=options;
+   if (!Number.isSafeInteger(frame)||!Number.isSafeInteger(from)||!Number.isSafeInteger(every)||every<1) throw new Error('exposure: integer frame/from and positive every required');
+   if(track){let end=-Infinity;for(const e of track){if(!Number.isSafeInteger(e.from)||!Number.isSafeInteger(e.to)||e.from<end||e.to<=e.from||!Number.isSafeInteger(e.every??1)||(e.every??1)<1)throw new Error('exposure: ordered half-open track required');end=e.to;}const e=track.find(e=>e.from<=frame&&frame<e.to);return e?sampleExposure(frame,e):null;}
+-  return {frame:from+Math.floor((frame-from)/every)*every,...(arguments[1] && Object.hasOwn(arguments[1],'value')?{value:arguments[1].value}:{})};
++  return {frame:from+Math.floor((frame-from)/every)*every,...(Object.hasOwn(options,'value')?{value:options.value}:{})};
+ }
+ export function poseAt(keys,frame,{mode='linear'}={}){
+   if(!['linear','hold'].includes(mode)||!Number.isFinite(frame)||!Array.isArray(keys)||!keys.length)throw new Error('poseAt: keys/time/mode invalid');
+--- effects2d:frozen/modules/fx2d/emitter.mjs
++++ checkout/modules/fx2d/emitter.mjs
+@@ -1,4 +1,4 @@
+ import { seeded } from '../motion.mjs';
+-export function prepareEmitter({seed=17,count=80,from=0,to=192,lifetime=48,origin=[0,0],velocity=[0,-2],spread=[50,1],gravity=[0,0.02]}={}){if(!Number.isSafeInteger(count)||count<0||count>2000||![from,to,lifetime,...origin,...velocity,...spread,...gravity,seed].every(Number.isFinite)||to<=from||lifetime<=0)throw new Error('emitter: invalid parameters (count 0..2000)');return {seed,count,from,to,lifetime,origin:[...origin],velocity:[...velocity],spread:[...spread],gravity:[...gravity]};}
++export function prepareEmitter({seed=17,count=80,from=0,to=192,lifetime=48,origin=[0,0],velocity=[0,-2],spread=[50,1],gravity=[0,0.02]}={}){if(!Number.isSafeInteger(seed)||![origin,velocity,spread,gravity].every(v=>Array.isArray(v)&&v.length===2)||!Number.isSafeInteger(count)||count<0||count>2000||![from,to,lifetime,...origin,...velocity,...spread,...gravity,seed].every(Number.isFinite)||to<=from||lifetime<=0)throw new Error('emitter: invalid parameters (count 0..2000)');return {seed,count,from,to,lifetime,origin:[...origin],velocity:[...velocity],spread:[...spread],gravity:[...gravity]};}
+ export function evaluateEmitter(e,frame){return Array.from({length:e.count},(_,id)=>{const birth=e.from+(e.to-e.from)*seeded(e.seed,id*3),age=frame-birth;if(age<0||age>=e.lifetime)return null;const vx=e.velocity[0]+(seeded(e.seed,id*3+1)-0.5)*e.spread[1],vy=e.velocity[1]+(seeded(e.seed,id*3+2)-0.5)*e.spread[1];return {id,age,x:e.origin[0]+(seeded(e.seed,id+900)-0.5)*e.spread[0]+vx*age+e.gravity[0]*age*age/2,y:e.origin[1]+vy*age+e.gravity[1]*age*age/2,alpha:Math.sin(Math.PI*age/e.lifetime)};}).filter(Boolean);}
+ export function analyticTrail(evaluate,frame,{samples=6,step=2,decay=0.65}={}){if(!Number.isInteger(samples)||samples<1||samples>32||!Number.isFinite(step)||step<0||!Number.isFinite(decay)||decay<0||decay>1)throw new Error('trail: invalid samples/step/decay');return Array.from({length:samples},(_,i)=>({state:evaluate(frame-i*step),alpha:decay**i})).reverse();}
+--- effects2d:frozen/modules/fx2d/mask.mjs
++++ checkout/modules/fx2d/mask.mjs
+@@ -1,6 +1,16 @@
+ /** SVG/commands are local 2D coordinates. Holes use explicit evenodd/nonzero winding. */
+-export function makePath(shape){
+- if(!shape||!['evenodd','nonzero'].includes(shape.fillRule??'evenodd'))throw new Error('shape: fillRule must be evenodd or nonzero');const input=shape.path??shape.commands;if(typeof input==='string'){if(!input.trim()||input.length>100000||!/^[Mm]/.test(input.trim())||/[^MmLlHhVvCcSsQqTtAaZz0-9eE.,+\-\s]/.test(input))throw new Error('shape: invalid SVG path');return new Path2D(input);}if(!Array.isArray(input)||input.length>20000)throw new Error('shape: SVG string or command array required');const p=new Path2D(),arity={M:2,L:2,C:6,Q:4,Z:0},fn={M:'moveTo',L:'lineTo',C:'bezierCurveTo',Q:'quadraticCurveTo',Z:'closePath'};for(const [op,...v]of input){if(!(op in arity)||v.length!==arity[op]||!v.every(Number.isFinite))throw new Error('shape: invalid path command');p[fn[op]](...v);}return p;
++const arity={M:2,L:2,H:1,V:1,C:6,S:4,Q:4,T:2,A:7,Z:0};
++export function validateShape(shape){
++ if(!shape||!['evenodd','nonzero'].includes(shape.fillRule??'evenodd'))throw new Error('shape: fillRule must be evenodd or nonzero');const input=shape.path??shape.commands;
++ if(typeof input==='string'){
++  if(!input.trim()||input.length>100000)throw new Error('shape: empty or excessive SVG path');
++  const pattern=/[MmLlHhVvCcSsQqTtAaZz]|[-+]?(?:\d*\.\d+|\d+\.?\d*)(?:[eE][-+]?\d+)?/g;
++  if(input.replace(pattern,'').replace(/[\s,]/g,''))throw new Error('shape: invalid SVG token');const tokens=input.match(pattern)??[];if(!/^[Mm]$/.test(tokens[0]))throw new Error('shape: SVG must begin with moveto');
++  for(let i=0;i<tokens.length;){const op=tokens[i++].toUpperCase();if(!(op in arity))throw new Error('shape: SVG command required');const values=[];while(i<tokens.length&&!/^[a-zA-Z]$/.test(tokens[i]))values.push(Number(tokens[i++]));const n=arity[op];if((n===0?values.length!==0:values.length===0||values.length%n)||values.some(v=>!Number.isFinite(v)||Math.abs(v)>1e6))throw new Error('shape: invalid SVG command arity/range');if(op==='A')for(let j=0;j<values.length;j+=7)if(values[j]<0||values[j+1]<0||![0,1].includes(values[j+3])||![0,1].includes(values[j+4]))throw new Error('shape: invalid arc radii/flags');}
++ }else{
++  if(!Array.isArray(input)||!input.length||input.length>20000||input[0]?.[0]!=='M')throw new Error('shape: commands must begin with M');for(const command of input){if(!Array.isArray(command))throw new Error('shape: command array required');const [op,...v]=command;if(!['M','L','C','Q','Z'].includes(op)||v.length!==arity[op]||!v.every(Number.isFinite))throw new Error('shape: invalid path command');}
++ }return true;
+ }
++export function makePath(shape){validateShape(shape);const input=shape.path??shape.commands;if(typeof input==='string')return new Path2D(input);const p=new Path2D(),fn={M:'moveTo',L:'lineTo',C:'bezierCurveTo',Q:'quadraticCurveTo',Z:'closePath'};for(const [op,...v]of input)p[fn[op]](...v);return p;}
+ export function drawShape(g,shape,path=makePath(shape)){g.save();g.fillStyle=shape.fill??'#12131b';g.fill(path,shape.fillRule??'evenodd');g.restore();}
+ export function composeMask(g,drawMask,{mode='reveal',opacity=1}={}){if(!['reveal','erase'].includes(mode)||!Number.isFinite(opacity)||opacity<0||opacity>1)throw new Error('mask: invalid mode/opacity');g.save();g.globalAlpha=opacity;g.globalCompositeOperation=mode==='erase'?'destination-out':'destination-in';drawMask(g);g.restore();}
+--- B/rain-final:frozen/modules/animation/exposure.mjs
++++ checkout/modules/animation/exposure.mjs
+@@ -1,8 +1,9 @@
+ /** Frame-domain exposure. Half-open entries, absolute output time. */
+-export function sampleExposure(frame, {every=1,from=0,track}={}) {
++export function sampleExposure(frame, options={}) {
++  const {every=1,from=0,track}=options;
+   if (!Number.isSafeInteger(frame)||!Number.isSafeInteger(from)||!Number.isSafeInteger(every)||every<1) throw new Error('exposure: integer frame/from and positive every required');
+   if(track){let end=-Infinity;for(const e of track){if(!Number.isSafeInteger(e.from)||!Number.isSafeInteger(e.to)||e.from<end||e.to<=e.from||!Number.isSafeInteger(e.every??1)||(e.every??1)<1)throw new Error('exposure: ordered half-open track required');end=e.to;}const e=track.find(e=>e.from<=frame&&frame<e.to);return e?sampleExposure(frame,e):null;}
+-  return {frame:from+Math.floor((frame-from)/every)*every,...(arguments[1] && Object.hasOwn(arguments[1],'value')?{value:arguments[1].value}:{})};
++  return {frame:from+Math.floor((frame-from)/every)*every,...(Object.hasOwn(options,'value')?{value:options.value}:{})};
+ }
+ export function poseAt(keys,frame,{mode='linear'}={}){
+   if(!['linear','hold'].includes(mode)||!Number.isFinite(frame)||!Array.isArray(keys)||!keys.length)throw new Error('poseAt: keys/time/mode invalid');

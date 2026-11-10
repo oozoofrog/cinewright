@@ -1,0 +1,17 @@
+{
+  "total": 24,
+  "passes": 13,
+  "failures": [
+    "A rejects missing shape before publication (required contract)",
+    "A rejects invalid object range and reveal before preparation",
+    "missing required asset rejected at staged materialization",
+    "B rejects invalid dab spacing before runtime draw",
+    "public wash rejects nonfinite alpha",
+    "transition rejects nonfinite output time and malformed center",
+    "cubic pressure remains meaningful along geometrically straight cubic",
+    "asset provenance exact byte hashes",
+    "A mismatched pose correspondence rejected by full scene validation",
+    "stroke computation rejects finite inputs that overflow derived length",
+    "transition center must contain exactly two components"
+  ]
+}

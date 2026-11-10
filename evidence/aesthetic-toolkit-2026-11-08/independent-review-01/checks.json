@@ -1,0 +1,497 @@
+{
+  "node": "v26.12.1",
+  "checks": [
+    {
+      "name": "all recipes validate without mutation",
+      "status": "pass",
+      "observed": {
+        "recipes": 10
+      }
+    },
+    {
+      "name": "catalog export names are real",
+      "status": "pass",
+      "observed": {
+        "exports": 43,
+        "note": "Initial reviewer harness used wrong catalog key; corrected from effects to entries and actually re-executed."
+      }
+    },
+    {
+      "name": "half-open irregular exposure and rig failure isolation",
+      "status": "pass",
+      "observed": "checked endpoints, gap, clamped hinge, immutable source, cycle"
+    },
+    {
+      "name": "new A/B/C variations through documented CLI and frozen local closure",
+      "status": "pass",
+      "observed": [
+        {
+          "name": "A",
+          "style": "silhouette-theatre",
+          "project": "/Volumes/eyedisk/develop/cinewright/.direction/aesthetic-toolkit-2026-11-08/review-01/A-project",
+          "revision": "531a2749cde43b4bffa83678ecb1a39a8ddb0a49e8b9fcf26b35dbb6d5c31a36",
+          "files": 30
+        },
+        {
+          "name": "B",
+          "style": "line-wash",
+          "project": "/Volumes/eyedisk/develop/cinewright/.direction/aesthetic-toolkit-2026-11-08/review-01/B-project",
+          "revision": "1990ccc7268b2d1b47c7e83104456496e7395d313ab130e3f2ec2e65262ad242",
+          "files": 30
+        },
+        {
+          "name": "C",
+          "style": "expressionist-space",
+          "project": "/Volumes/eyedisk/develop/cinewright/.direction/aesthetic-toolkit-2026-11-08/review-01/C-project",
+          "revision": "c30becf02620ef159910b77a992c2f8be87c2d4157644fefc001697c2ca67f7d",
+          "files": 40
+        }
+      ]
+    },
+    {
+      "name": "new/update authored-file protection and failed update publication",
+      "status": "pass",
+      "observed": "unknown file retained; generated author edit rejects with original manifest/bytes intact"
+    },
+    {
+      "name": "frozen source assets and modules isolated after alteration",
+      "status": "pass",
+      "observed": {
+        "revision": "c30becf02620ef159910b77a992c2f8be87c2d4157644fefc001697c2ca67f7d",
+        "assetHash": "b8e140ef78c7d1f05d2342e51d6d6dbdcf828b6eff5e3132313dfb9acf987efc"
+      }
+    },
+    {
+      "name": "clip reverse/loop/nonloop/negative/weighted rest invariance",
+      "status": "pass",
+      "observed": [
+        {
+          "loop": false,
+          "timeScale": -1,
+          "weight": 0,
+          "at24": [
+            10,
+            0,
+            0
+          ]
+        },
+        {
+          "loop": false,
+          "timeScale": -1,
+          "weight": 0.5,
+          "at24": [
+            5,
+            0,
+            0
+          ]
+        },
+        {
+          "loop": false,
+          "timeScale": -1,
+          "weight": 1,
+          "at24": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "loop": false,
+          "timeScale": 1,
+          "weight": 0,
+          "at24": [
+            10,
+            0,
+            0
+          ]
+        },
+        {
+          "loop": false,
+          "timeScale": 1,
+          "weight": 0.5,
+          "at24": [
+            6,
+            0,
+            0
+          ]
+        },
+        {
+          "loop": false,
+          "timeScale": 1,
+          "weight": 1,
+          "at24": [
+            2,
+            0,
+            0
+          ]
+        },
+        {
+          "loop": true,
+          "timeScale": -1,
+          "weight": 0,
+          "at24": [
+            10,
+            0,
+            0
+          ]
+        },
+        {
+          "loop": true,
+          "timeScale": -1,
+          "weight": 0.5,
+          "at24": [
+            6,
+            0,
+            0
+          ]
+        },
+        {
+          "loop": true,
+          "timeScale": -1,
+          "weight": 1,
+          "at24": [
+            2,
+            0,
+            0
+          ]
+        },
+        {
+          "loop": true,
+          "timeScale": 1,
+          "weight": 0,
+          "at24": [
+            10,
+            0,
+            0
+          ]
+        },
+        {
+          "loop": true,
+          "timeScale": 1,
+          "weight": 0.5,
+          "at24": [
+            6,
+            0,
+            0
+          ]
+        },
+        {
+          "loop": true,
+          "timeScale": 1,
+          "weight": 1,
+          "at24": [
+            2,
+            0,
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "name": "B actual scene evaluate nonsequential image-independent state",
+      "status": "pass",
+      "observed": {
+        "canonicalFrames": 192,
+        "randomChecks": 192
+      }
+    },
+    {
+      "name": "A rejects missing shape before publication (required contract)",
+      "status": "fail",
+      "error": "AssertionError [ERR_ASSERTION]: Missing expected exception.\n    at file:///Volumes/eyedisk/develop/cinewright/evidence/aesthetic-toolkit-2026-11-08/independent-review-01/probes.mjs:20:271\n    at run (file:///Volumes/eyedisk/develop/cinewright/evidence/aesthetic-toolkit-2026-11-08/independent-review-01/probes.mjs:4:54)\n    at file:///Volumes/eyedisk/develop/cinewright/evidence/aesthetic-toolkit-2026-11-08/independent-review-01/probes.mjs:20:7"
+    },
+    {
+      "name": "A rejects invalid object range and reveal before preparation",
+      "status": "fail",
+      "error": "AssertionError [ERR_ASSERTION]: Missing expected exception.\n    at file:///Volumes/eyedisk/develop/cinewright/evidence/aesthetic-toolkit-2026-11-08/independent-review-01/probes.mjs:21:265\n    at async run (file:///Volumes/eyedisk/develop/cinewright/evidence/aesthetic-toolkit-2026-11-08/independent-review-01/probes.mjs:4:48)\n    at async file:///Volumes/eyedisk/develop/cinewright/evidence/aesthetic-toolkit-2026-11-08/independent-review-01/probes.mjs:21:1"
+    },
+    {
+      "name": "missing required asset rejected at staged materialization",
+      "status": "fail",
+      "error": "AssertionError [ERR_ASSERTION]: Missing expected rejection.\n    at async file:///Volumes/eyedisk/develop/cinewright/evidence/aesthetic-toolkit-2026-11-08/independent-review-01/probes.mjs:22:245\n    at async run (file:///Volumes/eyedisk/develop/cinewright/evidence/aesthetic-toolkit-2026-11-08/independent-review-01/probes.mjs:4:48)\n    at async file:///Volumes/eyedisk/develop/cinewright/evidence/aesthetic-toolkit-2026-11-08/independent-review-01/probes.mjs:22:1"
+    },
+    {
+      "name": "B rejects invalid dab spacing before runtime draw",
+      "status": "fail",
+      "error": "AssertionError [ERR_ASSERTION]: Missing expected exception.\n    at file:///Volumes/eyedisk/develop/cinewright/evidence/aesthetic-toolkit-2026-11-08/independent-review-01/probes.mjs:23:163\n    at async run (file:///Volumes/eyedisk/develop/cinewright/evidence/aesthetic-toolkit-2026-11-08/independent-review-01/probes.mjs:4:48)\n    at async file:///Volumes/eyedisk/develop/cinewright/evidence/aesthetic-toolkit-2026-11-08/independent-review-01/probes.mjs:23:1"
+    },
+    {
+      "name": "public wash rejects nonfinite alpha",
+      "status": "fail",
+      "error": "AssertionError [ERR_ASSERTION]: Missing expected exception.\n    at file:///Volumes/eyedisk/develop/cinewright/evidence/aesthetic-toolkit-2026-11-08/independent-review-01/probes.mjs:24:128\n    at run (file:///Volumes/eyedisk/develop/cinewright/evidence/aesthetic-toolkit-2026-11-08/independent-review-01/probes.mjs:4:54)\n    at file:///Volumes/eyedisk/develop/cinewright/evidence/aesthetic-toolkit-2026-11-08/independent-review-01/probes.mjs:24:7"
+    },
+    {
+      "name": "transition rejects nonfinite output time and malformed center",
+      "status": "fail",
+      "error": "AssertionError [ERR_ASSERTION]: Missing expected exception.\n    at file:///Volumes/eyedisk/develop/cinewright/evidence/aesthetic-toolkit-2026-11-08/independent-review-01/probes.mjs:25:87\n    at run (file:///Volumes/eyedisk/develop/cinewright/evidence/aesthetic-toolkit-2026-11-08/independent-review-01/probes.mjs:4:54)\n    at file:///Volumes/eyedisk/develop/cinewright/evidence/aesthetic-toolkit-2026-11-08/independent-review-01/probes.mjs:25:7"
+    },
+    {
+      "name": "cubic pressure remains meaningful along geometrically straight cubic",
+      "status": "fail",
+      "error": "AssertionError [ERR_ASSERTION]: midpoint pressure 1, flattened points 2\n    at file:///Volumes/eyedisk/develop/cinewright/evidence/aesthetic-toolkit-2026-11-08/independent-review-01/probes.mjs:26:199\n    at run (file:///Volumes/eyedisk/develop/cinewright/evidence/aesthetic-toolkit-2026-11-08/independent-review-01/probes.mjs:4:54)\n    at file:///Volumes/eyedisk/develop/cinewright/evidence/aesthetic-toolkit-2026-11-08/independent-review-01/probes.mjs:26:7"
+    },
+    {
+      "name": "adaptive stroke flattening has effective output budget",
+      "status": "pass",
+      "observed": {
+        "pointsOneSegment": 16385,
+        "documentedSegments": 1024,
+        "note": "No aggregate flattened-point cap in prepareStroke; upper allocation inferred, not stress-tested"
+      }
+    },
+    {
+      "name": "asset provenance exact byte hashes",
+      "status": "fail",
+      "error": "AssertionError [ERR_ASSERTION]: [{\"file\":\"examples/styles/silhouette-theatre/assets/provenance.json\",\"expected\":\"0f97ac80940d925b743ea7190d716edec421015143b8194bb47845b08a27ef0b\",\"actual\":\"660d8bdb305432657de1a41a0914c9e0551157cbc5df48eaef3bfd8838caf4af\",\"match\":false}]\n    at file:///Volumes/eyedisk/develop/cinewright/evidence/aesthetic-toolkit-2026-11-08/independent-review-01/probes.mjs:28:1053\n    at async run (file:///Volumes/eyedisk/develop/cinewright/evidence/aesthetic-toolkit-2026-11-08/independent-review-01/probes.mjs:4:48)\n    at async file:///Volumes/eyedisk/develop/cinewright/evidence/aesthetic-toolkit-2026-11-08/independent-review-01/probes.mjs:28:1"
+    },
+    {
+      "name": "CLI help/list are executable and list all three support entries",
+      "status": "pass",
+      "observed": "exact documented calls executed"
+    },
+    {
+      "name": "A accepted missing-shape scene throws during actual draw call (mock context, no raster claim)",
+      "status": "pass",
+      "observed": {
+        "accepted": true,
+        "drawError": "TypeError: Cannot read properties of undefined (reading 'fill')"
+      }
+    },
+    {
+      "name": "A mismatched pose correspondence rejected by full scene validation",
+      "status": "fail",
+      "error": "AssertionError [ERR_ASSERTION]: Missing expected exception.\n    at file:///Volumes/eyedisk/develop/cinewright/evidence/aesthetic-toolkit-2026-11-08/independent-review-01/followup-probes.mjs:10:419\n    at run (file:///Volumes/eyedisk/develop/cinewright/evidence/aesthetic-toolkit-2026-11-08/independent-review-01/followup-probes.mjs:3:80)\n    at file:///Volumes/eyedisk/develop/cinewright/evidence/aesthetic-toolkit-2026-11-08/independent-review-01/followup-probes.mjs:10:7"
+    },
+    {
+      "name": "B accepted dabSpacing=0 throws during actual draw call (mock context)",
+      "status": "pass",
+      "observed": {
+        "accepted": true,
+        "drawError": "Error: brush: invalid spacing/jitter"
+      }
+    },
+    {
+      "name": "stroke computation rejects finite inputs that overflow derived length",
+      "status": "fail",
+      "error": "AssertionError [ERR_ASSERTION]: Missing expected exception.\n    at file:///Volumes/eyedisk/develop/cinewright/evidence/aesthetic-toolkit-2026-11-08/independent-review-01/followup-probes.mjs:12:159\n    at async run (file:///Volumes/eyedisk/develop/cinewright/evidence/aesthetic-toolkit-2026-11-08/independent-review-01/followup-probes.mjs:3:74)\n    at async file:///Volumes/eyedisk/develop/cinewright/evidence/aesthetic-toolkit-2026-11-08/independent-review-01/followup-probes.mjs:12:1"
+    },
+    {
+      "name": "transition center must contain exactly two components",
+      "status": "fail",
+      "error": "AssertionError [ERR_ASSERTION]: Missing expected exception.\n    at file:///Volumes/eyedisk/develop/cinewright/evidence/aesthetic-toolkit-2026-11-08/independent-review-01/followup-probes.mjs:13:146\n    at async run (file:///Volumes/eyedisk/develop/cinewright/evidence/aesthetic-toolkit-2026-11-08/independent-review-01/followup-probes.mjs:3:74)\n    at async file:///Volumes/eyedisk/develop/cinewright/evidence/aesthetic-toolkit-2026-11-08/independent-review-01/followup-probes.mjs:13:1"
+    },
+    {
+      "name": "B erasure clock frame boundaries and hold/boil distinctions",
+      "status": "pass",
+      "observed": "boundaries and deterministic line hold/boil observed"
+    },
+    {
+      "name": "commuter shoe contact trajectories directly evaluated for every frame",
+      "status": "pass",
+      "observed": [
+        {
+          "id": "shoeleft",
+          "frames": 73,
+          "allCorrespondingYConstant": true,
+          "xTravel0to72": 108,
+          "xTravel46to72": 70.05555555555554,
+          "soleY": 845
+        },
+        {
+          "id": "shoeright",
+          "frames": 73,
+          "allCorrespondingYConstant": true,
+          "xTravel0to72": 172,
+          "xTravel46to72": 38.27777777777783,
+          "soleY": 843
+        }
+      ]
+    },
+    {
+      "name": "advertised A match reveal can consume authored shape",
+      "status": "fail",
+      "error": "Error: match transition requires Path2D\n    at drawTransitionMask (file:///Volumes/eyedisk/develop/cinewright/modules/fx2d/transition.mjs:2:305)\n    at Object.draw (file:///Volumes/eyedisk/develop/cinewright/modules/styles/silhouette-theatre/index.mjs:37:69)\n    at file:///Volumes/eyedisk/develop/cinewright/evidence/aesthetic-toolkit-2026-11-08/independent-review-01/extra-probes.mjs:5:756\n    at async check (file:///Volumes/eyedisk/develop/cinewright/evidence/aesthetic-toolkit-2026-11-08/independent-review-01/extra-probes.mjs:3:78)\n    at async file:///Volumes/eyedisk/develop/cinewright/evidence/aesthetic-toolkit-2026-11-08/independent-review-01/extra-probes.mjs:5:1"
+    },
+    {
+      "name": "final MP4 vs PNG alpha and sRGB patches at both output sizes",
+      "status": "pass",
+      "observed": [
+        {
+          "tag": "1080p",
+          "label": "red-black",
+          "expected": [
+            128,
+            0,
+            0
+          ],
+          "actual": [
+            126,
+            0,
+            0
+          ]
+        },
+        {
+          "tag": "1080p",
+          "label": "red-white",
+          "expected": [
+            255,
+            127,
+            127
+          ],
+          "actual": [
+            254,
+            127,
+            126
+          ]
+        },
+        {
+          "tag": "1080p",
+          "label": "gray",
+          "expected": [
+            128,
+            128,
+            128
+          ],
+          "actual": [
+            126,
+            126,
+            126
+          ]
+        },
+        {
+          "tag": "540p",
+          "label": "red-black",
+          "expected": [
+            128,
+            0,
+            0
+          ],
+          "actual": [
+            126,
+            0,
+            0
+          ]
+        },
+        {
+          "tag": "540p",
+          "label": "red-white",
+          "expected": [
+            255,
+            127,
+            127
+          ],
+          "actual": [
+            254,
+            127,
+            126
+          ]
+        },
+        {
+          "tag": "540p",
+          "label": "gray",
+          "expected": [
+            128,
+            128,
+            128
+          ],
+          "actual": [
+            126,
+            126,
+            126
+          ]
+        }
+      ]
+    },
+    {
+      "name": "C zero box subdivision rejected before creating nonfinite mesh",
+      "status": "fail",
+      "observed": {
+        "sceneAccepted": true,
+        "nonfinitePosition": 8,
+        "nonfiniteUV": 8,
+        "vertices": 16
+      }
+    },
+    {
+      "name": "production-size independent A/B/C authored variations CLI materialize/freeze/source isolation",
+      "status": "pass",
+      "observed": [
+        {
+          "tag": "A",
+          "style": "silhouette-theatre",
+          "project": "/Volumes/eyedisk/develop/cinewright/.direction/aesthetic-toolkit-2026-11-08/review-01/forward-A",
+          "scene": "/Volumes/eyedisk/develop/cinewright/.direction/aesthetic-toolkit-2026-11-08/review-01/forward-A-scene.json",
+          "assets": "/Volumes/eyedisk/develop/cinewright/.direction/aesthetic-toolkit-2026-11-08/review-01/forward-A-assets.json",
+          "store": "/Volumes/eyedisk/develop/cinewright/.direction/aesthetic-toolkit-2026-11-08/review-01/forward-store",
+          "revision": "e77791ee28a2e2341cb026a01c64c5847d6bcc6080a75082940b9dd9ab7ae6b7",
+          "files": 30,
+          "sourceIsolation": true,
+          "browser": "not run: single permitted lock attempt busy",
+          "command": [
+            "/opt/homebrew/Cellar/node/26.12.1_1/bin/node",
+            "scripts/direction.mjs",
+            "style",
+            "build",
+            "silhouette-theatre",
+            "--scene",
+            "/Volumes/eyedisk/develop/cinewright/.direction/aesthetic-toolkit-2026-11-08/review-01/forward-A-scene.json",
+            "--assets",
+            "/Volumes/eyedisk/develop/cinewright/.direction/aesthetic-toolkit-2026-11-08/review-01/forward-A-assets.json",
+            "--project",
+            "/Volumes/eyedisk/develop/cinewright/.direction/aesthetic-toolkit-2026-11-08/review-01/forward-A"
+          ]
+        },
+        {
+          "tag": "B",
+          "style": "line-wash",
+          "project": "/Volumes/eyedisk/develop/cinewright/.direction/aesthetic-toolkit-2026-11-08/review-01/forward-B",
+          "scene": "/Volumes/eyedisk/develop/cinewright/.direction/aesthetic-toolkit-2026-11-08/review-01/forward-B-scene.json",
+          "assets": "/Volumes/eyedisk/develop/cinewright/.direction/aesthetic-toolkit-2026-11-08/review-01/forward-B-assets.json",
+          "store": "/Volumes/eyedisk/develop/cinewright/.direction/aesthetic-toolkit-2026-11-08/review-01/forward-store",
+          "revision": "b5465ae8eadff0b801d4d4d3ba13ba6c3381bf1741c8fc3a57e2b3aae36211f2",
+          "files": 30,
+          "sourceIsolation": true,
+          "browser": "not run: single permitted lock attempt busy",
+          "command": [
+            "/opt/homebrew/Cellar/node/26.12.1_1/bin/node",
+            "scripts/direction.mjs",
+            "style",
+            "build",
+            "line-wash",
+            "--scene",
+            "/Volumes/eyedisk/develop/cinewright/.direction/aesthetic-toolkit-2026-11-08/review-01/forward-B-scene.json",
+            "--assets",
+            "/Volumes/eyedisk/develop/cinewright/.direction/aesthetic-toolkit-2026-11-08/review-01/forward-B-assets.json",
+            "--project",
+            "/Volumes/eyedisk/develop/cinewright/.direction/aesthetic-toolkit-2026-11-08/review-01/forward-B"
+          ]
+        },
+        {
+          "tag": "C",
+          "style": "expressionist-space",
+          "project": "/Volumes/eyedisk/develop/cinewright/.direction/aesthetic-toolkit-2026-11-08/review-01/forward-C",
+          "scene": "/Volumes/eyedisk/develop/cinewright/.direction/aesthetic-toolkit-2026-11-08/review-01/forward-C-scene.json",
+          "assets": "/Volumes/eyedisk/develop/cinewright/.direction/aesthetic-toolkit-2026-11-08/review-01/forward-C-assets.json",
+          "store": "/Volumes/eyedisk/develop/cinewright/.direction/aesthetic-toolkit-2026-11-08/review-01/forward-store",
+          "revision": "d7f3e0454f2c9db31e33235cc2251e8aa42d6eaf8b5e162c8b24d5884689c4ae",
+          "files": 40,
+          "sourceIsolation": true,
+          "browser": "not run: single permitted lock attempt busy",
+          "command": [
+            "/opt/homebrew/Cellar/node/26.12.1_1/bin/node",
+            "scripts/direction.mjs",
+            "style",
+            "build",
+            "expressionist-space",
+            "--scene",
+            "/Volumes/eyedisk/develop/cinewright/.direction/aesthetic-toolkit-2026-11-08/review-01/forward-C-scene.json",
+            "--assets",
+            "/Volumes/eyedisk/develop/cinewright/.direction/aesthetic-toolkit-2026-11-08/review-01/forward-C-assets.json",
+            "--project",
+            "/Volumes/eyedisk/develop/cinewright/.direction/aesthetic-toolkit-2026-11-08/review-01/forward-C"
+          ]
+        }
+      ]
+    }
+  ]
+}

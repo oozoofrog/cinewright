@@ -1,0 +1,53 @@
+[
+  {
+    "name": "C two embedded GLB exact payload hashes and byte counts",
+    "pass": true,
+    "detail": [
+      {
+        "file": "traveler.glb",
+        "bytes": 55552,
+        "sha256": "b7f4974717cf25da98164a24aa3cf29312f2f07a0a1a7a41230d9e733d7decf6"
+      },
+      {
+        "file": "specimen.glb",
+        "bytes": 63944,
+        "sha256": "b8e140ef78c7d1f05d2342e51d6d6dbdcf828b6eff5e3132313dfb9acf987efc"
+      }
+    ]
+  },
+  {
+    "name": "C GLB header and bufferView bounds preflight",
+    "pass": true,
+    "detail": {
+      "positive": true,
+      "badHeaderRejected": true,
+      "badBufferViewRejected": true
+    }
+  },
+  {
+    "name": "R3 missing image update rejects without replacing prior bytes",
+    "pass": true,
+    "detail": {
+      "preserved": true
+    }
+  },
+  {
+    "name": "R3 malformed GLB update rejects without replacing prior bytes",
+    "pass": true,
+    "detail": {
+      "preserved": true
+    }
+  },
+  {
+    "name": "actual harbor MP4 endpoint frames independently decoded both sizes",
+    "pass": true,
+    "detail": {
+      "frames": [
+        0,
+        1,
+        2
+      ],
+      "outputs": 2
+    }
+  }
+]

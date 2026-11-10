@@ -1,0 +1,2 @@
+
+["ffmpeg","-hide_banner","-loglevel","warning","-y","-f","lavfi","-i","anullsrc=r=48000:cl=stereo","-filter_complex","[0:a]atrim=end_sample=384000[base];[base]amix=inputs=1:duration=first:normalize=0[out]","-map","[out]","-c:a","pcm_s16le","/Volumes/eyedisk/develop/cinewright/evidence/aesthetic-toolkit-2026-11-08/effects2d/mix.wav"]

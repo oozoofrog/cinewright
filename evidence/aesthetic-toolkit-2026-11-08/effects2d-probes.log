@@ -1,0 +1,14 @@
+node:internal/fs/promises:1719
+  return await PromisePrototypeThen(
+         ^
+
+Error: EEXIST: file already exists, mkdir '/Volumes/eyedisk/develop/cinewright/.direction/aesthetic-toolkit-gpu.lock'
+    at async Object.mkdir (node:internal/fs/promises:1719:10)
+    at async file:///Volumes/eyedisk/develop/cinewright/examples/styles/effects2d/probes.mjs:2:174 {
+  errno: -17,
+  code: 'EEXIST',
+  syscall: 'mkdir',
+  path: '/Volumes/eyedisk/develop/cinewright/.direction/aesthetic-toolkit-gpu.lock'
+}
+
+Node.js v26.12.1

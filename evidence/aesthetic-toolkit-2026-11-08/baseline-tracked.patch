@@ -1,0 +1,160 @@
+diff --git a/README.md b/README.md
+index a1961e0..95fc5c0 100644
+--- a/README.md
++++ b/README.md
+@@ -67,3 +67,7 @@ node scripts/direction.mjs render examples/harbor-landfall
+ `node_modules/`와 `.direction/`은 로컬 실행 데이터다. 새 체크아웃에서는 `npm ci`를 실행하고 예제 경로로 렌더한다. 기존 개정본 해시와 작업 ID를 사용하는 명령은 해당 `.direction/` 기록이 있는 환경에서 실행한다.
+ 
+ 이전 제작 기록의 절대 경로는 당시 실행 환경을 가리킨다. 독립 경로 구성과 실행 검증은 [설정 기록](evidence/standalone-setup/RESULT.md)에 있다.
++
++## 로컬 음악 기반 MV
++
++[음악 워크플로](references/music.md): `music init PROJECT FILE --fps 24`로 원본을 보존하고 실제 디코드 길이의 음악 프로젝트를 만든다. `music analyze/derive/build`, 기존 `play/review/preview/render`, `flash JOB_ID`, 검증된 원본 AAC `music remux`를 재사용한다. [Music Box Dancer의 서로 다른 두 안과 재사용 recipe](examples/music-box-dancer/README.md)는 사용자 미디어를 포함하지 않는 원본 Canvas2D 예제다. 분석은 잠정적이며 flash screen은 안전/WCAG 인증이 아니다.
+diff --git a/SKILL.md b/SKILL.md
+index 342759a..2f0133c 100644
+--- a/SKILL.md
++++ b/SKILL.md
+@@ -28,3 +28,7 @@ description: 원화, 벡터, 절차적 그래픽, 3D, 활자와 소리를 사용
+ 8. 완료 전 제작 판단에 참여하지 않은 검토자에게 원래 요청·확정 조건·필수 행동·의도한 정지와 실제 출력을 준다. 설득용 해설과 자체 점수를 먼저 주지 않는다. 허용된 독립 검토 수단이 없으면 미검증으로 남긴다. 기술 증거, 자동 재생, 제작자 판단, 독립 검토, 실제 관객 반응, 사용자 수락을 각각 기록한다. 검토자의 “유지”는 관객 반응이나 수락이 아니다. 필수 결함의 수정·재검증을 마치고 남은 불확실성과 실행 명령·revision·작업 ID·로그·출력을 전달한다.
+ 
+ [도구 사용과 복구](references/tools.md) · [작은 두 예제](examples/stillcuts/README.md)
++
++## 로컬 음악 기반 MV
++
++기존 위임 범위 안에서 실제 음원을 사용하는 제작은 [음악 ingest·분석·두 시각안·보존과 flash-risk 검사](references/music.md)를 따른다. `music init/analyze/derive/build/remux`와 기존 `play/review`를 재사용한다. 잠정 beat·저작한 phase는 직접 청취나 확정한 곡 구조가 아니며, `flash`의 screen-negative도 안전 인증이 아니다. 사용자 원본·전체 private 출력은 커밋하지 않는다.
+diff --git a/references/tools.md b/references/tools.md
+index cde8fdc..1fce6ed 100644
+--- a/references/tools.md
++++ b/references/tools.md
+@@ -34,3 +34,7 @@ node scripts/direction.mjs sync JOB_ID
+ - 현재 `observe`는 PCM peak가 0.005 미만이면 다른 재생 조건을 충족해도 실패한다. 따라서 의도한 무음 작품의 보편적 통과 조건으로 쓰지 않는다. 무음 예제에는 기존 `play`·`review`와 범위를 정한 브라우저 재생 관찰을 사용하고 실제로 확인한 항목만 기록한다. 이 검사를 통과하려고 소리를 덧붙이지 않는다.
+ - `sync`는 MP4의 디코드한 화면과 오디오를 측정한다. 화면은 작성한 프레임 주변의 평균 휘도 상승을 찾고 컨테이너의 실제 프레임 PTS를 읽는다. 오디오는 지정 범위에서 강한 샘플 피크를 찾는다. 초반과 후반의 차이로 누적 드리프트를 구분한다. 기본 허용 오차는 한 프레임이며 비디오 PTS 간격 오차는 0.1 ms 이하다. 평균 고정 오프셋은 각 사건의 피크 차이 평균이며, 음색의 공격 시간도 이 값에 들어갈 수 있다.
+ - `sync`는 선택한 휘도 상승과 고립된 피크의 검사다. 모든 시청각 의미의 동기·대사 명료도·음질로 확대하지 않는다. 로그·파형·캡처는 직접 청취의 근거가 아니다. 직접 화면·소리를 확인할 수 없으면 그 한계를 남긴다.
++
++## 음악과 flash-risk
++
++`music init/analyze/derive/build/remux`와 `flash JOB_ID`의 입력·예제·한계는 [music.md](music.md)를 따른다. 기존 player가 음악 작업의 웹 검토 UI다. `sync`의 probe 기반 검사 범위는 확장하지 않는다.
+diff --git a/scripts/direction.mjs b/scripts/direction.mjs
+index ea2b362..36c8289 100644
+--- a/scripts/direction.mjs
++++ b/scripts/direction.mjs
+@@ -10,11 +10,20 @@ import { host } from './server.mjs';
+ import { init } from './scaffold.mjs';
+ import { reviewSite, sync } from './review.mjs';
+ import { observe } from './observe.mjs';
++import { ingestMusic, analyzeMusic, deriveMusic, remuxSourceAudio } from './music.mjs';
++import { buildMusicBoxProject } from '../examples/music-box-dancer/build.mjs';
++import { screenFlashes } from './flash.mjs';
+ 
+ const help = `direction <command> [inputs] [options]
+ 
+   doctor                             Execute browser and media dependency checks
+   init PROJECT [--title TITLE]        Create a new project in an unused directory
++  music init PROJECT FILE            Ingest read-only music, analyze, derive and build
++  music analyze PROJECT              Re-analyze preview PCM (tentative timing)
++  music derive PROJECT               Derive channels; optional --overrides JSON_FILE
++  music build PROJECT                Build --variant theatre|counterpoint
++  music remux PROJECT VIDEO OUTPUT   Verify and stream-copy original eligible AAC
++  flash JOB_ID                       Screen every decoded frame for flash risk
+   freeze PROJECT                     Write a content-addressed revision
+   play PROJECT_OR_REVISION           Serve the live composited preview
+   frame PROJECT_OR_REVISION AT       Extract authored frame number or named cue
+@@ -30,6 +39,10 @@ const help = `direction <command> [inputs] [options]
+ 
+ Shared options: --store PATH (default: ./.direction), --port N (play/review), --scale N (0.125–1)
+ init options: --title TITLE, --frames N, --fps N
++music options: --fps N (default 24), --variant theatre|counterpoint, --overrides JSON_FILE
++Example: direction music init ./private-song /path/song.mp4 --variant theatre
++Then: preview ./private-song; play ./private-song; render ./private-song
++flash is a bounded reduced-resolution risk screen, NOT safety/WCAG certification.
+ Environment: DIRECTION_CHROME, DIRECTION_FFMPEG, DIRECTION_FFPROBE
+ Ctrl+C cancels work and retains its job record. Use local trusted project modules.
+ `;
+@@ -40,6 +53,7 @@ async function main() {
+     allowPositionals: true,
+     options: {
+       help: { type: 'boolean', short: 'h' }, store: { type: 'string' }, port: { type: 'string' },
++      variant: { type: 'string' }, overrides: { type: 'string' },
+       title: { type: 'string' }, frames: { type: 'string' }, fps: { type: 'string' },
+       span: { type: 'string' }, from: { type: 'string' }, to: { type: 'string' }, scale: { type: 'string' },
+     },
+@@ -92,6 +106,47 @@ async function main() {
+       } finally { await client.close(); }
+       break;
+     }
++    case 'music': {
++      const [projectInput, file, output] = rest;
++      if (!projectInput) throw new Error('music requires a subcommand and project');
++      const project = path.resolve(projectInput);
++      const fps = integer(Number(opts.fps ?? 24), 'fps', 1, 120);
++      const build = async () => buildMusicBoxProject({ project,
++        source: JSON.parse(await fs.readFile(path.join(project, 'music/source.json'), 'utf8')),
++        derived: JSON.parse(await fs.readFile(path.join(project, 'music/derived.json'), 'utf8')),
++        variant: opts.variant ?? 'theatre' });
++      if (input === 'init') {
++        if (!file) throw new Error('music init requires PROJECT FILE');
++        if (!['theatre', 'counterpoint'].includes(opts.variant ?? 'theatre')) throw new Error('Unknown music variant');
++        // Never put an ingest over authored/generated work, even if source.json is absent.
++        try { await fs.lstat(project); throw new Error('music init requires an unused project directory'); }
++        catch (error) { if (error.code !== 'ENOENT') throw error; }
++        await ingestMusic({ project, file, fps, signal });
++        await analyzeMusic({ project, signal });
++        await deriveMusic({ project, fps, signal });
++        print(await build());
++      } else if (input === 'analyze') print(await analyzeMusic({ project, signal }));
++      else if (input === 'derive') {
++        const source = JSON.parse(await fs.readFile(path.join(project, 'music/source.json'), 'utf8'));
++        const overrides = opts.overrides ? JSON.parse(await fs.readFile(opts.overrides, 'utf8')) : {};
++        print(await deriveMusic({ project, fps: opts.fps == null ? source.fps : fps, overrides, signal }));
++      } else if (input === 'build') print(await build());
++      else if (input === 'remux') {
++        if (!file || !output) throw new Error('music remux requires PROJECT VIDEO OUTPUT');
++        print(await remuxSourceAudio({ project, video: file, output, signal }));
++      } else throw new Error(`Unknown music subcommand: ${input}`);
++      break;
++    }
++    case 'flash': {
++      requireInput();
++      const job = await findJob(store, input);
++      if (job.status !== 'completed' || job.settings.mode !== 'video') throw new Error('flash requires a completed video job');
++      const directory = await fs.mkdtemp(path.join(path.dirname(job.output), 'flash-'));
++      const checks = await screenFlashes({ file: job.output, report: path.join(directory, 'report.json'), log: path.join(directory, 'execution.log'), signal });
++      print({ ...checks, report: path.join(directory, 'report.json') });
++      if (checks.status !== 'screen-negative') process.exitCode = 1;
++      break;
++    }
+     case 'init':
+       requireInput();
+       await init(path.resolve(input), { title: opts.title, fps: integer(Number(opts.fps ?? 24), 'fps', 1, 120),
+diff --git a/scripts/jobs.mjs b/scripts/jobs.mjs
+index d16aefc..36ff698 100644
+--- a/scripts/jobs.mjs
++++ b/scripts/jobs.mjs
+@@ -51,7 +51,8 @@ export async function render(snapshot, store, settings, { signal, retryOf, brows
+     await update();
+     const page = await client.newPage();
+     const diagnostics = [];
+-    page.on('pageerror', error => diagnostics.push(error.stack ?? String(error)));
++    const errors = [];
++    page.on('pageerror', error => { errors.push(error.stack ?? String(error)); diagnostics.push(error.stack ?? String(error)); });
+     page.on('console', message => {
+       if (['warning', 'error'].includes(message.type())) diagnostics.push(message.text());
+     });
+@@ -66,6 +67,7 @@ export async function render(snapshot, store, settings, { signal, retryOf, brows
+           const image = document.getElementById('picture').toDataURL();
+           return { state, bytes: image.split(',')[1] };
+         }, frame);
++        if (errors.length) throw new Error(`Browser page error: ${errors.join('\n')}`);
+         await fs.writeFile(path.join(frames, `${String(frame - from).padStart(7, '0')}.png`), Buffer.from(result.bytes, 'base64'));
+         if (mode === 'frame') await writeJSON(path.join(dir, 'frame.json'), result.state);
+         record.frames++;
+diff --git a/skills/cinewright/SKILL.md b/skills/cinewright/SKILL.md
+index 27e155b..e0fcbe3 100644
+--- a/skills/cinewright/SKILL.md
++++ b/skills/cinewright/SKILL.md
+@@ -8,3 +8,5 @@ description: 원화, 벡터, 절차적 그래픽, 3D, 활자와 소리를 사용
+ 이 파일의 두 단계 상위 디렉터리가 설치된 플러그인 루트다. 그곳의 [SKILL.md](../../SKILL.md)를 읽고 해당 파일의 지침을 따른다. 지침에 있는 `references/`, `examples/`, `scripts/` 경로는 플러그인 루트를 기준으로 해석한다.
+ 
+ 실행 전 플러그인 루트에 의존성이 없으면 그 디렉터리에서 `npm ci`를 실행한다. Node.js 22 이상, FFmpeg/FFprobe와 Chromium이 필요하다. 설치된 플러그인 루트의 절대 경로로 `scripts/direction.mjs`를 실행하고, 현재 작업 디렉터리는 사용자의 프로젝트에 둔다. 기본 `.direction/` 기록은 현재 작업 디렉터리에 생성된다. 다른 위치가 필요하면 `--store`를 사용한다.
++
++로컬 음악 제작도 상위 SKILL의 `references/music.md` 경로를 따른다. 음악 명령과 기존 브라우저 player를 재사용하며 별도 편집 앱이나 전역 설치 변경을 전제하지 않는다.

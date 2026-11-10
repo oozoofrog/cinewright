@@ -1,0 +1,477 @@
+{
+  "demonstrationCount": 6,
+  "effectAndMixedCount": 3,
+  "totalVideos": 18,
+  "each": {
+    "fps": 24,
+    "frames": 192,
+    "durationSeconds": 8,
+    "preview": [
+      960,
+      540
+    ],
+    "export": [
+      1920,
+      1080
+    ]
+  },
+  "tests": {
+    "total": 436,
+    "passed": 436,
+    "failed": 0,
+    "log": "/Volumes/eyedisk/develop/cinewright/evidence/aesthetic-toolkit-2026-11-08/final-closed-reveal-npm-test.log"
+  },
+  "rows": [
+    {
+      "name": "forest",
+      "validation": "/Volumes/eyedisk/develop/cinewright/evidence/aesthetic-toolkit-2026-11-08/A/forest-v3/validation.json",
+      "revision": "4902acf35ff00602da1a6a768d1031de0ae2b0f78e182efe5f7905e794a00acd",
+      "seek": 55,
+      "freeze": true,
+      "autoplay": {
+        "completed": true,
+        "lastFrame": 191,
+        "muted": true
+      },
+      "performance": {
+        "samples": 60,
+        "p50Ms": 0.10000002384185791,
+        "p95Ms": 0.19999992847442627,
+        "jsHeapBytes": 9671440,
+        "renderer": "WebKit WebGL",
+        "gpuMemoryBytes": null,
+        "note": "synchronous draw submission incl canvas composite; GPU memory unavailable"
+      },
+      "videos": [
+        {
+          "job": "fa701004-a731-4ed9-83e6-e595995fa84d",
+          "file": "/Volumes/eyedisk/develop/cinewright/evidence/aesthetic-toolkit-2026-11-08/A/forest-v3/540p.mp4",
+          "renderOutput": "/Volumes/eyedisk/develop/cinewright/.direction/aesthetic-toolkit-2026-11-08/A/store/jobs/fa701004-a731-4ed9-83e6-e595995fa84d/work.mp4",
+          "revision": "4902acf35ff00602da1a6a768d1031de0ae2b0f78e182efe5f7905e794a00acd",
+          "frames": 192,
+          "flash": "screen-negative"
+        },
+        {
+          "job": "c88bb6de-b44a-462a-ba01-ae76a491d411",
+          "file": "/Volumes/eyedisk/develop/cinewright/evidence/aesthetic-toolkit-2026-11-08/A/forest-v3/1080p.mp4",
+          "renderOutput": "/Volumes/eyedisk/develop/cinewright/.direction/aesthetic-toolkit-2026-11-08/A/store/jobs/c88bb6de-b44a-462a-ba01-ae76a491d411/work.mp4",
+          "revision": "4902acf35ff00602da1a6a768d1031de0ae2b0f78e182efe5f7905e794a00acd",
+          "frames": 192,
+          "flash": "screen-negative"
+        }
+      ],
+      "frame1080": "/Volumes/eyedisk/develop/cinewright/evidence/aesthetic-toolkit-2026-11-08/A/forest-v3/frame-104-1080p.png"
+    },
+    {
+      "name": "harbor",
+      "validation": "/Volumes/eyedisk/develop/cinewright/evidence/aesthetic-toolkit-2026-11-08/A/harbor-closed-reveal/validation.json",
+      "revision": "a7188a8b047b3b9e224eb74aaba08e0a71f7e48b8395f5e4f28c7f22fecfbf84",
+      "seek": 55,
+      "freeze": true,
+      "autoplay": {
+        "completed": true,
+        "lastFrame": 191,
+        "muted": true
+      },
+      "performance": {
+        "samples": 60,
+        "p50Ms": 0.09999990463256836,
+        "p95Ms": 0.20000004768371582,
+        "jsHeapBytes": 6334680,
+        "renderer": "WebKit WebGL",
+        "gpuMemoryBytes": null,
+        "note": "synchronous draw submission incl canvas composite; GPU memory unavailable"
+      },
+      "videos": [
+        {
+          "job": "82880896-9c92-4574-ad6d-832b15e5ab99",
+          "file": "/Volumes/eyedisk/develop/cinewright/evidence/aesthetic-toolkit-2026-11-08/A/harbor-closed-reveal/540p.mp4",
+          "renderOutput": "/Volumes/eyedisk/develop/cinewright/.direction/aesthetic-toolkit-2026-11-08/A/store/jobs/82880896-9c92-4574-ad6d-832b15e5ab99/work.mp4",
+          "revision": "a7188a8b047b3b9e224eb74aaba08e0a71f7e48b8395f5e4f28c7f22fecfbf84",
+          "frames": 192,
+          "flash": "screen-negative"
+        },
+        {
+          "job": "3dc0e42c-0058-4e19-a69d-29974a413612",
+          "file": "/Volumes/eyedisk/develop/cinewright/evidence/aesthetic-toolkit-2026-11-08/A/harbor-closed-reveal/1080p.mp4",
+          "renderOutput": "/Volumes/eyedisk/develop/cinewright/.direction/aesthetic-toolkit-2026-11-08/A/store/jobs/3dc0e42c-0058-4e19-a69d-29974a413612/work.mp4",
+          "revision": "a7188a8b047b3b9e224eb74aaba08e0a71f7e48b8395f5e4f28c7f22fecfbf84",
+          "frames": 192,
+          "flash": "screen-negative"
+        }
+      ],
+      "frame1080": "/Volumes/eyedisk/develop/cinewright/evidence/aesthetic-toolkit-2026-11-08/A/harbor-closed-reveal/frame-104-1080p.png"
+    },
+    {
+      "name": "rain",
+      "validation": "/Volumes/eyedisk/develop/cinewright/evidence/aesthetic-toolkit-2026-11-08/B/rain-reviewed/validation.json",
+      "revision": "91d577eff0eac9957b69a864bc0335558022d2e03e5a71707158cb384c9629dd",
+      "seek": 55,
+      "freeze": true,
+      "autoplay": {
+        "completed": true,
+        "lastFrame": 191,
+        "muted": true
+      },
+      "performance": {
+        "samples": 60,
+        "p50Ms": 1.100000023841858,
+        "p95Ms": 1.3000000715255737,
+        "jsHeapBytes": 6207507,
+        "renderer": "WebKit WebGL",
+        "gpuMemoryBytes": null,
+        "note": "synchronous draw submission incl canvas composite; GPU memory unavailable"
+      },
+      "videos": [
+        {
+          "job": "705543fb-8a18-4d0b-9659-602df8be3580",
+          "file": "/Volumes/eyedisk/develop/cinewright/evidence/aesthetic-toolkit-2026-11-08/B/rain-reviewed/540p.mp4",
+          "renderOutput": "/Volumes/eyedisk/develop/cinewright/.direction/aesthetic-toolkit-2026-11-08/B/store/jobs/705543fb-8a18-4d0b-9659-602df8be3580/work.mp4",
+          "revision": "91d577eff0eac9957b69a864bc0335558022d2e03e5a71707158cb384c9629dd",
+          "frames": 192,
+          "flash": "screen-negative"
+        },
+        {
+          "job": "46cc7b2f-908c-461f-84d8-188fdb1440a3",
+          "file": "/Volumes/eyedisk/develop/cinewright/evidence/aesthetic-toolkit-2026-11-08/B/rain-reviewed/1080p.mp4",
+          "renderOutput": "/Volumes/eyedisk/develop/cinewright/.direction/aesthetic-toolkit-2026-11-08/B/store/jobs/46cc7b2f-908c-461f-84d8-188fdb1440a3/work.mp4",
+          "revision": "91d577eff0eac9957b69a864bc0335558022d2e03e5a71707158cb384c9629dd",
+          "frames": 192,
+          "flash": "screen-negative"
+        }
+      ],
+      "frame1080": "/Volumes/eyedisk/develop/cinewright/evidence/aesthetic-toolkit-2026-11-08/B/rain-reviewed/frame-104-1080p.png"
+    },
+    {
+      "name": "commuter",
+      "validation": "/Volumes/eyedisk/develop/cinewright/evidence/aesthetic-toolkit-2026-11-08/B/commuter-reviewed/validation.json",
+      "revision": "f8acc0cf467917c1e86a4e6aba91508efcd7ebe7efd53911e5cc913f377a25cf",
+      "seek": 55,
+      "freeze": true,
+      "autoplay": {
+        "completed": true,
+        "lastFrame": 191,
+        "muted": true
+      },
+      "performance": {
+        "samples": 60,
+        "p50Ms": 1.2999999523162842,
+        "p95Ms": 1.7000000476837158,
+        "jsHeapBytes": 7847577,
+        "renderer": "WebKit WebGL",
+        "gpuMemoryBytes": null,
+        "note": "synchronous draw submission incl canvas composite; GPU memory unavailable"
+      },
+      "videos": [
+        {
+          "job": "e51984a9-172f-496a-990e-08c23267fbed",
+          "file": "/Volumes/eyedisk/develop/cinewright/evidence/aesthetic-toolkit-2026-11-08/B/commuter-reviewed/540p.mp4",
+          "renderOutput": "/Volumes/eyedisk/develop/cinewright/.direction/aesthetic-toolkit-2026-11-08/B/store/jobs/e51984a9-172f-496a-990e-08c23267fbed/work.mp4",
+          "revision": "f8acc0cf467917c1e86a4e6aba91508efcd7ebe7efd53911e5cc913f377a25cf",
+          "frames": 192,
+          "flash": "screen-negative"
+        },
+        {
+          "job": "67c78f81-ddc7-48f6-ae9e-eeed47a03a48",
+          "file": "/Volumes/eyedisk/develop/cinewright/evidence/aesthetic-toolkit-2026-11-08/B/commuter-reviewed/1080p.mp4",
+          "renderOutput": "/Volumes/eyedisk/develop/cinewright/.direction/aesthetic-toolkit-2026-11-08/B/store/jobs/67c78f81-ddc7-48f6-ae9e-eeed47a03a48/work.mp4",
+          "revision": "f8acc0cf467917c1e86a4e6aba91508efcd7ebe7efd53911e5cc913f377a25cf",
+          "frames": 192,
+          "flash": "screen-negative"
+        }
+      ],
+      "frame1080": "/Volumes/eyedisk/develop/cinewright/evidence/aesthetic-toolkit-2026-11-08/B/commuter-reviewed/frame-104-1080p.png"
+    },
+    {
+      "name": "station",
+      "validation": "/Volumes/eyedisk/develop/cinewright/evidence/aesthetic-toolkit-2026-11-08/C/station-final/validation.json",
+      "revision": "1b5fa6a053b8968045ded0817d6f8e922929b65c54bc62da8e9871943774a87e",
+      "seek": 55,
+      "freeze": true,
+      "autoplay": {
+        "completed": true,
+        "lastFrame": 191,
+        "muted": true
+      },
+      "performance": {
+        "samples": 60,
+        "p50Ms": 0.20000004768371582,
+        "p95Ms": 30.700000047683716,
+        "jsHeapBytes": 34818217,
+        "renderer": "WebKit WebGL",
+        "gpuMemoryBytes": null,
+        "note": "synchronous draw submission incl canvas composite; GPU memory unavailable"
+      },
+      "videos": [
+        {
+          "job": "d32460c0-1603-453f-bc1c-e72c43545bd2",
+          "file": "/Volumes/eyedisk/develop/cinewright/evidence/aesthetic-toolkit-2026-11-08/C/station-final/540p.mp4",
+          "renderOutput": "/Volumes/eyedisk/develop/cinewright/.direction/aesthetic-toolkit-2026-11-08/C/store/jobs/d32460c0-1603-453f-bc1c-e72c43545bd2/work.mp4",
+          "revision": "1b5fa6a053b8968045ded0817d6f8e922929b65c54bc62da8e9871943774a87e",
+          "frames": 192,
+          "flash": "screen-negative"
+        },
+        {
+          "job": "0b0415b8-dc23-4530-a830-fb2e63f1cc1f",
+          "file": "/Volumes/eyedisk/develop/cinewright/evidence/aesthetic-toolkit-2026-11-08/C/station-final/1080p.mp4",
+          "renderOutput": "/Volumes/eyedisk/develop/cinewright/.direction/aesthetic-toolkit-2026-11-08/C/store/jobs/0b0415b8-dc23-4530-a830-fb2e63f1cc1f/work.mp4",
+          "revision": "1b5fa6a053b8968045ded0817d6f8e922929b65c54bc62da8e9871943774a87e",
+          "frames": 192,
+          "flash": "screen-negative"
+        }
+      ],
+      "frame1080": "/Volumes/eyedisk/develop/cinewright/evidence/aesthetic-toolkit-2026-11-08/C/station-final/frame-104-1080p.png"
+    },
+    {
+      "name": "laboratory",
+      "validation": "/Volumes/eyedisk/develop/cinewright/evidence/aesthetic-toolkit-2026-11-08/C/laboratory-final/validation.json",
+      "revision": "baf83d6cbc78b8510a20946123a4a6c10df3b34e575606db16dacf7821c37355",
+      "seek": 55,
+      "freeze": true,
+      "autoplay": {
+        "completed": true,
+        "lastFrame": 191,
+        "muted": true
+      },
+      "performance": {
+        "samples": 60,
+        "p50Ms": 0.2999999523162842,
+        "p95Ms": 23.300000071525574,
+        "jsHeapBytes": 40663087,
+        "renderer": "WebKit WebGL",
+        "gpuMemoryBytes": null,
+        "note": "synchronous draw submission incl canvas composite; GPU memory unavailable"
+      },
+      "videos": [
+        {
+          "job": "92589638-22cd-4261-80ed-acfb02bba97b",
+          "file": "/Volumes/eyedisk/develop/cinewright/evidence/aesthetic-toolkit-2026-11-08/C/laboratory-final/540p.mp4",
+          "renderOutput": "/Volumes/eyedisk/develop/cinewright/.direction/aesthetic-toolkit-2026-11-08/C/store/jobs/92589638-22cd-4261-80ed-acfb02bba97b/work.mp4",
+          "revision": "baf83d6cbc78b8510a20946123a4a6c10df3b34e575606db16dacf7821c37355",
+          "frames": 192,
+          "flash": "screen-negative"
+        },
+        {
+          "job": "b573f5f6-8bc8-4611-8916-4307930f7f7d",
+          "file": "/Volumes/eyedisk/develop/cinewright/evidence/aesthetic-toolkit-2026-11-08/C/laboratory-final/1080p.mp4",
+          "renderOutput": "/Volumes/eyedisk/develop/cinewright/.direction/aesthetic-toolkit-2026-11-08/C/store/jobs/b573f5f6-8bc8-4611-8916-4307930f7f7d/work.mp4",
+          "revision": "baf83d6cbc78b8510a20946123a4a6c10df3b34e575606db16dacf7821c37355",
+          "frames": 192,
+          "flash": "screen-negative"
+        }
+      ],
+      "frame1080": "/Volumes/eyedisk/develop/cinewright/evidence/aesthetic-toolkit-2026-11-08/C/laboratory-final/frame-104-1080p.png"
+    },
+    {
+      "name": "effects2d",
+      "validation": "/Volumes/eyedisk/develop/cinewright/evidence/aesthetic-toolkit-2026-11-08/effects2d-closed-reveal/validation.json",
+      "revision": "0237173635f4e5db7d4b72ba1271f524d3593d5cd6d5145c97471d24972c4d02",
+      "seek": 55,
+      "freeze": true,
+      "autoplay": {
+        "completed": true,
+        "lastFrame": 191,
+        "muted": true
+      },
+      "performance": {
+        "samples": 60,
+        "p50Ms": 0.5,
+        "p95Ms": 0.5,
+        "jsHeapBytes": 6814712,
+        "renderer": "WebKit WebGL",
+        "gpuMemoryBytes": null,
+        "note": "synchronous draw submission incl canvas composite; GPU memory unavailable"
+      },
+      "videos": [
+        {
+          "job": "993bd57e-52e5-4667-811c-fa0d8cd7ba72",
+          "file": "/Volumes/eyedisk/develop/cinewright/evidence/aesthetic-toolkit-2026-11-08/effects2d-closed-reveal/540p.mp4",
+          "renderOutput": "/Volumes/eyedisk/develop/cinewright/.direction/aesthetic-toolkit-2026-11-08/effects-store/jobs/993bd57e-52e5-4667-811c-fa0d8cd7ba72/work.mp4",
+          "revision": "0237173635f4e5db7d4b72ba1271f524d3593d5cd6d5145c97471d24972c4d02",
+          "frames": 192,
+          "flash": "screen-negative"
+        },
+        {
+          "job": "ab646beb-e447-4027-9485-fdeb564cee8a",
+          "file": "/Volumes/eyedisk/develop/cinewright/evidence/aesthetic-toolkit-2026-11-08/effects2d-closed-reveal/1080p.mp4",
+          "renderOutput": "/Volumes/eyedisk/develop/cinewright/.direction/aesthetic-toolkit-2026-11-08/effects-store/jobs/ab646beb-e447-4027-9485-fdeb564cee8a/work.mp4",
+          "revision": "0237173635f4e5db7d4b72ba1271f524d3593d5cd6d5145c97471d24972c4d02",
+          "frames": 192,
+          "flash": "screen-negative"
+        }
+      ],
+      "frame1080": "/Volumes/eyedisk/develop/cinewright/evidence/aesthetic-toolkit-2026-11-08/effects2d-closed-reveal/frame-104-1080p.png"
+    },
+    {
+      "name": "effects3d",
+      "validation": "/Volumes/eyedisk/develop/cinewright/evidence/aesthetic-toolkit-2026-11-08/C/effects/validation.json",
+      "revision": "a70ba38039dc538de1cd4a1cc5784b2f530d0cfe4849b0ee4622a08b34d5630b",
+      "seek": 55,
+      "freeze": true,
+      "autoplay": {
+        "completed": true,
+        "lastFrame": 191,
+        "muted": true
+      },
+      "performance": {
+        "samples": 60,
+        "p50Ms": 0.10000002384185791,
+        "p95Ms": 0.20000004768371582,
+        "jsHeapBytes": 15073894,
+        "renderer": "WebKit WebGL",
+        "gpuMemoryBytes": null,
+        "note": "synchronous draw submission incl canvas composite; GPU memory unavailable"
+      },
+      "videos": [
+        {
+          "job": "248ae22c-8d18-4fd7-9a7d-6d8a755fc36b",
+          "file": "/Volumes/eyedisk/develop/cinewright/evidence/aesthetic-toolkit-2026-11-08/C/effects/540p.mp4",
+          "renderOutput": "/Volumes/eyedisk/develop/cinewright/.direction/aesthetic-toolkit-2026-11-08/C/store/jobs/248ae22c-8d18-4fd7-9a7d-6d8a755fc36b/work.mp4",
+          "revision": "a70ba38039dc538de1cd4a1cc5784b2f530d0cfe4849b0ee4622a08b34d5630b",
+          "frames": 192,
+          "flash": "screen-negative"
+        },
+        {
+          "job": "f964f351-d89c-4189-b3e2-646603c73326",
+          "file": "/Volumes/eyedisk/develop/cinewright/evidence/aesthetic-toolkit-2026-11-08/C/effects/1080p.mp4",
+          "renderOutput": "/Volumes/eyedisk/develop/cinewright/.direction/aesthetic-toolkit-2026-11-08/C/store/jobs/f964f351-d89c-4189-b3e2-646603c73326/work.mp4",
+          "revision": "a70ba38039dc538de1cd4a1cc5784b2f530d0cfe4849b0ee4622a08b34d5630b",
+          "frames": 192,
+          "flash": "screen-negative"
+        }
+      ],
+      "frame1080": "/Volumes/eyedisk/develop/cinewright/evidence/aesthetic-toolkit-2026-11-08/C/effects/frame-104-1080p.png"
+    },
+    {
+      "name": "mixed",
+      "validation": "/Volumes/eyedisk/develop/cinewright/evidence/aesthetic-toolkit-2026-11-08/C/mixed/validation.json",
+      "revision": "38c4cdf30e16778b862b9ce6a9782d090dfdacb09b3b87823a850cff5a69b73a",
+      "seek": 55,
+      "freeze": true,
+      "autoplay": {
+        "completed": true,
+        "lastFrame": 191,
+        "muted": true
+      },
+      "performance": {
+        "samples": 60,
+        "p50Ms": 0.2999999523162842,
+        "p95Ms": 23,
+        "jsHeapBytes": 41277938,
+        "renderer": "WebKit WebGL",
+        "gpuMemoryBytes": null,
+        "note": "synchronous draw submission incl canvas composite; GPU memory unavailable"
+      },
+      "videos": [
+        {
+          "job": "580806bd-fa27-4ed9-8f18-7b224366688c",
+          "file": "/Volumes/eyedisk/develop/cinewright/evidence/aesthetic-toolkit-2026-11-08/C/mixed/540p.mp4",
+          "renderOutput": "/Volumes/eyedisk/develop/cinewright/.direction/aesthetic-toolkit-2026-11-08/C/store/jobs/580806bd-fa27-4ed9-8f18-7b224366688c/work.mp4",
+          "revision": "38c4cdf30e16778b862b9ce6a9782d090dfdacb09b3b87823a850cff5a69b73a",
+          "frames": 192,
+          "flash": "screen-negative"
+        },
+        {
+          "job": "4b14f3b5-80b1-4597-8a17-75b1a0ea9616",
+          "file": "/Volumes/eyedisk/develop/cinewright/evidence/aesthetic-toolkit-2026-11-08/C/mixed/1080p.mp4",
+          "renderOutput": "/Volumes/eyedisk/develop/cinewright/.direction/aesthetic-toolkit-2026-11-08/C/store/jobs/4b14f3b5-80b1-4597-8a17-75b1a0ea9616/work.mp4",
+          "revision": "38c4cdf30e16778b862b9ce6a9782d090dfdacb09b3b87823a850cff5a69b73a",
+          "frames": 192,
+          "flash": "screen-negative"
+        }
+      ],
+      "frame1080": "/Volumes/eyedisk/develop/cinewright/evidence/aesthetic-toolkit-2026-11-08/C/mixed/frame-104-1080p.png"
+    }
+  ],
+  "currentSourceEquivalence": [
+    {
+      "scene": "A/forest",
+      "revision": "b6a2519893b864678c79c9597536f9b474ab29fe03e6774c9e626b708fea5930",
+      "prior": "A/forest-v3",
+      "samePixelsAsVideoRevision": true,
+      "checks": 55,
+      "errors": []
+    },
+    {
+      "scene": "A/harbor",
+      "revision": "bd35f06f86e0622b1a880345b759dfbee954101f35d3928beb2a60c515864bfb",
+      "prior": "A/harbor",
+      "samePixelsAsVideoRevision": true,
+      "checks": 55,
+      "errors": []
+    },
+    {
+      "scene": "A/portrait",
+      "revision": "c201856f3451d3c480a83077544e78e6e34a1d9171cd59d5c26feb79d45574aa",
+      "prior": null,
+      "samePixelsAsVideoRevision": false,
+      "checks": 55,
+      "errors": []
+    },
+    {
+      "scene": "C/station",
+      "revision": "7755a23178e430f5d4a68c6e4e1c94677dd035e110374291a7921312494c2f2d",
+      "prior": "C/station-final",
+      "samePixelsAsVideoRevision": true,
+      "checks": 55,
+      "errors": []
+    },
+    {
+      "scene": "C/laboratory",
+      "revision": "9272a46920d2572a2efaf938267fb6067586f2408ba15b8788b97e44d0fb3704",
+      "prior": "C/laboratory-final",
+      "samePixelsAsVideoRevision": true,
+      "checks": 55,
+      "errors": []
+    },
+    {
+      "scene": "C/effects",
+      "revision": "b5bb252650442d9e46353ff97211afe6d5eab02a5f813cb51929bf72154d0709",
+      "prior": "C/effects",
+      "samePixelsAsVideoRevision": true,
+      "checks": 55,
+      "errors": []
+    },
+    {
+      "scene": "C/mixed",
+      "revision": "3b3ad6e0139ad4e94438c378714c31187bf164b77f715d1ecb41295b2202e2be",
+      "prior": "C/mixed",
+      "samePixelsAsVideoRevision": true,
+      "checks": 55,
+      "errors": []
+    },
+    {
+      "scene": "C/portrait",
+      "revision": "ae66989b0e1c828ace31bcb2562596eaddd90bb024aefaf2740122cbb349ac48",
+      "prior": "C/portrait",
+      "samePixelsAsVideoRevision": true,
+      "checks": 55,
+      "errors": []
+    }
+  ],
+  "limitations": [
+    "same-machine/browser sampled pixels, not cross-GPU equality",
+    "autoplay is automated, not human continuous viewing",
+    "human aesthetic acceptance/listening/accessibility unverified",
+    "synchronous frame submission timings; full GPU execution and GPU memory unmeasured"
+  ],
+  "latestSourceAudit": "/Volumes/eyedisk/develop/cinewright/evidence/aesthetic-toolkit-2026-11-08/final-source-audit.json",
+  "postRecheckSource": "/Volumes/eyedisk/develop/cinewright/evidence/aesthetic-toolkit-2026-11-08/post-recheck-source/summary.json",
+  "endpointProof": "/Volumes/eyedisk/develop/cinewright/evidence/aesthetic-toolkit-2026-11-08/A/harbor-closed-reveal/encoded-endpoints.json",
+  "independentReviews": [
+    {
+      "report": "/Volumes/eyedisk/develop/cinewright/evidence/aesthetic-toolkit-2026-11-08/independent-review-01/report.md",
+      "snapshotVerdict": "request changes",
+      "coordinatorCorrections": "11 findings addressed"
+    },
+    {
+      "report": "/Volumes/eyedisk/develop/cinewright/evidence/aesthetic-toolkit-2026-11-08/independent-review-02/report.md",
+      "snapshotVerdict": "request changes",
+      "directBrowserComparisons": 210,
+      "coordinatorCorrections": "remaining PNG and zero-progress defects fixed; actual browser regressions and affected videos repeated"
+    }
+  ],
+  "requiredImplementationComplete": true,
+  "independentApprovalAfterLastTwoCorrections": false,
+  "humanAcceptanceVerified": false
+}

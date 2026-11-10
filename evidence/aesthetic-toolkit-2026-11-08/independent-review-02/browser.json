@@ -1,0 +1,1923 @@
+{
+  "started": "2026-11-08T04:11:49.361Z",
+  "directExecution": true,
+  "projects": [
+    {
+      "name": "A-browser",
+      "revision": "f1fbc46e1dba612d4978405fc48b2ba969bcad608e84bbcc1bb22cf6da05cb80",
+      "errors": [],
+      "external": [],
+      "warnings": [
+        "Canvas2D: Multiple readback operations using getImageData are faster with the willReadFrequently attribute set to true. See: https://html.spec.whatwg.org/multipage/canvas.html#concept-canvas-will-read-frequently"
+      ],
+      "seek": {
+        "canonicalFrames": 10,
+        "orderComparisons": 24,
+        "canonical": {
+          "0": {
+            "state": {
+              "frame": 0,
+              "values": {},
+              "exposures": {
+                "style": {
+                  "frame": 0
+                }
+              }
+            },
+            "hash": "a4ff181aa39f43c93969607db12400f93bf1b8c2d47a8aacec93535c87f0e537"
+          },
+          "1": {
+            "state": {
+              "frame": 1,
+              "values": {},
+              "exposures": {
+                "style": {
+                  "frame": 1
+                }
+              }
+            },
+            "hash": "1e5fd7fb4518a52dca9dd8d34493e58078fb6f120d5b85fbb792ebdda06bff09"
+          },
+          "2": {
+            "state": {
+              "frame": 2,
+              "values": {},
+              "exposures": {
+                "style": {
+                  "frame": 2
+                }
+              }
+            },
+            "hash": "4eb24b70d0ab9593e01b5ca2d542e99f96e073224f19c8aaa51906c01c199cfd"
+          },
+          "11": {
+            "state": {
+              "frame": 11,
+              "values": {},
+              "exposures": {
+                "style": {
+                  "frame": 11
+                }
+              }
+            },
+            "hash": "901f7b284e709b45d657ccdc627ac06014812ca88f9ae7e3dc7d8b4b7de41e1c"
+          },
+          "12": {
+            "state": {
+              "frame": 12,
+              "values": {},
+              "exposures": {
+                "style": {
+                  "frame": 12
+                }
+              }
+            },
+            "hash": "6bc4d25bb22612cadcad4839b93ebe832040b11ae333a9e3bde42a2563b23a70"
+          },
+          "13": {
+            "state": {
+              "frame": 13,
+              "values": {},
+              "exposures": {
+                "style": {
+                  "frame": 13
+                }
+              }
+            },
+            "hash": "b5b965a15be5d291a960bfb12f8274a713924c2914660c25b253e714ccceb102"
+          },
+          "23": {
+            "state": {
+              "frame": 23,
+              "values": {},
+              "exposures": {
+                "style": {
+                  "frame": 23
+                }
+              }
+            },
+            "hash": "6d7f0611685250c5bb9426690511cac3479a20b6eb966e2cbfa6e9fe65d6230f"
+          },
+          "24": {
+            "state": {
+              "frame": 24,
+              "values": {},
+              "exposures": {
+                "style": {
+                  "frame": 24
+                }
+              }
+            },
+            "hash": "1103715ab77a3158fbe283be8f958a0c62f55f5fd3822115a7614b96e8c99cd7"
+          },
+          "25": {
+            "state": {
+              "frame": 25,
+              "values": {},
+              "exposures": {
+                "style": {
+                  "frame": 25
+                }
+              }
+            },
+            "hash": "1103715ab77a3158fbe283be8f958a0c62f55f5fd3822115a7614b96e8c99cd7"
+          },
+          "47": {
+            "state": {
+              "frame": 47,
+              "values": {},
+              "exposures": {
+                "style": {
+                  "frame": 47
+                }
+              }
+            },
+            "hash": "1103715ab77a3158fbe283be8f958a0c62f55f5fd3822115a7614b96e8c99cd7"
+          }
+        }
+      }
+    },
+    {
+      "name": "A-portrait",
+      "revision": "c201856f3451d3c480a83077544e78e6e34a1d9171cd59d5c26feb79d45574aa",
+      "errors": [],
+      "external": [],
+      "warnings": [],
+      "seek": {
+        "canonicalFrames": 10,
+        "orderComparisons": 24,
+        "canonical": {
+          "0": {
+            "state": {
+              "frame": 0,
+              "values": {},
+              "exposures": {
+                "style": {
+                  "frame": 0
+                }
+              }
+            },
+            "hash": "fb6c0eaa6b7481aaac7f8fd93f4d35a64a0d5336915d370f35e451fa9a392359"
+          },
+          "1": {
+            "state": {
+              "frame": 1,
+              "values": {},
+              "exposures": {
+                "style": {
+                  "frame": 1
+                }
+              }
+            },
+            "hash": "411290524f3995606c97eca1e648c04b14dde34491701566f30e529dc897e191"
+          },
+          "23": {
+            "state": {
+              "frame": 23,
+              "values": {},
+              "exposures": {
+                "style": {
+                  "frame": 23
+                }
+              }
+            },
+            "hash": "979d810f279a5788cc54234cbd0fe904336e740adbba4bc0a9f13b183b6843e9"
+          },
+          "24": {
+            "state": {
+              "frame": 24,
+              "values": {},
+              "exposures": {
+                "style": {
+                  "frame": 24
+                }
+              }
+            },
+            "hash": "c20271f2fdc12ca96e37f6bfb350d52f1bd182264b622e0de2d14df295adf50f"
+          },
+          "25": {
+            "state": {
+              "frame": 25,
+              "values": {},
+              "exposures": {
+                "style": {
+                  "frame": 25
+                }
+              }
+            },
+            "hash": "7ee92af7af349bf91f159b43c8baac190e9e4269cbf4b923536a0443112f74b6"
+          },
+          "95": {
+            "state": {
+              "frame": 95,
+              "values": {},
+              "exposures": {
+                "style": {
+                  "frame": 95
+                }
+              }
+            },
+            "hash": "fe0d4f1d2ae086e2cba397e13d80fd514e69c4238dc3d8cb45dbe5ccec1d3a5c"
+          },
+          "96": {
+            "state": {
+              "frame": 96,
+              "values": {},
+              "exposures": {
+                "style": {
+                  "frame": 96
+                }
+              }
+            },
+            "hash": "5f76ae4a0b8010b16f3ad1edb6021f3bc7d993b311186d7ebc750d1424e17c7b"
+          },
+          "97": {
+            "state": {
+              "frame": 97,
+              "values": {},
+              "exposures": {
+                "style": {
+                  "frame": 97
+                }
+              }
+            },
+            "hash": "acad710a06916a5677dbcd97fee984bc0af713b3e166d8c8ad01182dd681e28d"
+          },
+          "190": {
+            "state": {
+              "frame": 190,
+              "values": {},
+              "exposures": {
+                "style": {
+                  "frame": 190
+                }
+              }
+            },
+            "hash": "d15d74406c95a021311e330897b07ce9047e36afbe5777c7daf6c96e83aee477"
+          },
+          "191": {
+            "state": {
+              "frame": 191,
+              "values": {},
+              "exposures": {
+                "style": {
+                  "frame": 191
+                }
+              }
+            },
+            "hash": "dfbb490d5a15bde9cc9642067eff501a08f1b81be2fe5e805b00381eea1517d8"
+          }
+        }
+      }
+    },
+    {
+      "name": "B-study",
+      "revision": "89dd42f546b05f478c44ca185c79d74aab58c5c4a1668d14be0817d8ce493212",
+      "errors": [],
+      "external": [],
+      "warnings": [
+        "Canvas2D: Multiple readback operations using getImageData are faster with the willReadFrequently attribute set to true. See: https://html.spec.whatwg.org/multipage/canvas.html#concept-canvas-will-read-frequently"
+      ],
+      "seek": {
+        "canonicalFrames": 11,
+        "orderComparisons": 26,
+        "canonical": {
+          "0": {
+            "state": {
+              "frame": 0,
+              "values": {},
+              "exposures": {
+                "style": {
+                  "frame": 0
+                }
+              }
+            },
+            "hash": "4732e99f54104ad865a1fff93169e7ab83c06682281d38a8faadd182842a0fd5"
+          },
+          "1": {
+            "state": {
+              "frame": 1,
+              "values": {},
+              "exposures": {
+                "style": {
+                  "frame": 1
+                }
+              }
+            },
+            "hash": "e4c47682c0942fc4d08847960b754d4c3416071b238e5574f815a23c61dbea89"
+          },
+          "2": {
+            "state": {
+              "frame": 2,
+              "values": {},
+              "exposures": {
+                "style": {
+                  "frame": 2
+                }
+              }
+            },
+            "hash": "e4c47682c0942fc4d08847960b754d4c3416071b238e5574f815a23c61dbea89"
+          },
+          "3": {
+            "state": {
+              "frame": 3,
+              "values": {},
+              "exposures": {
+                "style": {
+                  "frame": 3
+                }
+              }
+            },
+            "hash": "e4c47682c0942fc4d08847960b754d4c3416071b238e5574f815a23c61dbea89"
+          },
+          "11": {
+            "state": {
+              "frame": 11,
+              "values": {},
+              "exposures": {
+                "style": {
+                  "frame": 11
+                }
+              }
+            },
+            "hash": "e4c47682c0942fc4d08847960b754d4c3416071b238e5574f815a23c61dbea89"
+          },
+          "12": {
+            "state": {
+              "frame": 12,
+              "values": {},
+              "exposures": {
+                "style": {
+                  "frame": 12
+                }
+              }
+            },
+            "hash": "e4c47682c0942fc4d08847960b754d4c3416071b238e5574f815a23c61dbea89"
+          },
+          "13": {
+            "state": {
+              "frame": 13,
+              "values": {},
+              "exposures": {
+                "style": {
+                  "frame": 13
+                }
+              }
+            },
+            "hash": "67711ac35c1234b2e100e2b1c66f2dc2b33ff9d21b47d71ffdc79ba79d1e7027"
+          },
+          "23": {
+            "state": {
+              "frame": 23,
+              "values": {},
+              "exposures": {
+                "style": {
+                  "frame": 23
+                }
+              }
+            },
+            "hash": "23da9838016d151da4d617bc8056f05c4582ad4524f80dc3dbe337224236d558"
+          },
+          "24": {
+            "state": {
+              "frame": 24,
+              "values": {},
+              "exposures": {
+                "style": {
+                  "frame": 24
+                }
+              }
+            },
+            "hash": "baa1ab9352cc7974c9249e3c610d40bf68d80aa4a422a6e42ca20f190baf6c73"
+          },
+          "25": {
+            "state": {
+              "frame": 25,
+              "values": {},
+              "exposures": {
+                "style": {
+                  "frame": 25
+                }
+              }
+            },
+            "hash": "baa1ab9352cc7974c9249e3c610d40bf68d80aa4a422a6e42ca20f190baf6c73"
+          },
+          "47": {
+            "state": {
+              "frame": 47,
+              "values": {},
+              "exposures": {
+                "style": {
+                  "frame": 47
+                }
+              }
+            },
+            "hash": "baa1ab9352cc7974c9249e3c610d40bf68d80aa4a422a6e42ca20f190baf6c73"
+          }
+        }
+      }
+    },
+    {
+      "name": "B-commuter",
+      "revision": "b01e17fb88c9ce6c6f57e826e005e9ed1fe899c35dee81ca8b84772632e5c786",
+      "errors": [],
+      "external": [],
+      "warnings": [],
+      "seek": {
+        "canonicalFrames": 33,
+        "orderComparisons": 70,
+        "canonical": {
+          "0": {
+            "state": {
+              "frame": 0,
+              "values": {},
+              "exposures": {
+                "style": {
+                  "frame": 0
+                }
+              }
+            },
+            "hash": "9b1ae09700cbb2436507cba7f84d5697b1c1d228b9a0715875b66e974ea99670"
+          },
+          "1": {
+            "state": {
+              "frame": 1,
+              "values": {},
+              "exposures": {
+                "style": {
+                  "frame": 1
+                }
+              }
+            },
+            "hash": "d83b23db4b7d1e4ef1bcd9418a518bc650707b970d8514cc4de1fe7dce1e7f8c"
+          },
+          "2": {
+            "state": {
+              "frame": 2,
+              "values": {},
+              "exposures": {
+                "style": {
+                  "frame": 2
+                }
+              }
+            },
+            "hash": "e0b9edbc91157972ed51e6cba8e19deb33ab20b3a21549cbbcb4dc0be8770aed"
+          },
+          "8": {
+            "state": {
+              "frame": 8,
+              "values": {},
+              "exposures": {
+                "style": {
+                  "frame": 8
+                }
+              }
+            },
+            "hash": "f87e16f4d6c4e81ac8a884844efe1fca97e16826bb151419b6639a047c217d3e"
+          },
+          "14": {
+            "state": {
+              "frame": 14,
+              "values": {},
+              "exposures": {
+                "style": {
+                  "frame": 14
+                }
+              }
+            },
+            "hash": "0c382a5f1160e75cee198cc7bcfa4c8e29438f6c31f87fa6bfb72105a0201d77"
+          },
+          "15": {
+            "state": {
+              "frame": 15,
+              "values": {},
+              "exposures": {
+                "style": {
+                  "frame": 15
+                }
+              }
+            },
+            "hash": "82439e97805e4f7b73c90116ceea755766edad63f67bf28a41b52182c2876521"
+          },
+          "16": {
+            "state": {
+              "frame": 16,
+              "values": {},
+              "exposures": {
+                "style": {
+                  "frame": 16
+                }
+              }
+            },
+            "hash": "447a7da7a351d69bdb3ad6bd4253fae1a29a171d40747c11592a3105ab0b4db5"
+          },
+          "17": {
+            "state": {
+              "frame": 17,
+              "values": {},
+              "exposures": {
+                "style": {
+                  "frame": 17
+                }
+              }
+            },
+            "hash": "7eb1a0be76fc8fdff63a0de82c604d36628bf1697842587ab3a0fd0d91050beb"
+          },
+          "24": {
+            "state": {
+              "frame": 24,
+              "values": {},
+              "exposures": {
+                "style": {
+                  "frame": 24
+                }
+              }
+            },
+            "hash": "1c910f4d36d37be66df4aee6bfa8725dfa9c16f3272b6ff76d8e3492bcfedb9e"
+          },
+          "34": {
+            "state": {
+              "frame": 34,
+              "values": {},
+              "exposures": {
+                "style": {
+                  "frame": 34
+                }
+              }
+            },
+            "hash": "e713aad6472fea4f2a92cdf85042422ab058cd088271f141b3db45902990d794"
+          },
+          "35": {
+            "state": {
+              "frame": 35,
+              "values": {},
+              "exposures": {
+                "style": {
+                  "frame": 35
+                }
+              }
+            },
+            "hash": "2540d2fdbde372a07deea3ceeb56a8073f578ea7adff9790367585c243652d48"
+          },
+          "36": {
+            "state": {
+              "frame": 36,
+              "values": {},
+              "exposures": {
+                "style": {
+                  "frame": 36
+                }
+              }
+            },
+            "hash": "08ecd5b68cb34641758e2043d1b0248f4411e4d4f8efc8812b19e1b7b58e682a"
+          },
+          "37": {
+            "state": {
+              "frame": 37,
+              "values": {},
+              "exposures": {
+                "style": {
+                  "frame": 37
+                }
+              }
+            },
+            "hash": "abd6dbdbb08ce664dc52c916507e5c98ca1b8f9e0aca9d49beb716bdefd8fd65"
+          },
+          "46": {
+            "state": {
+              "frame": 46,
+              "values": {},
+              "exposures": {
+                "style": {
+                  "frame": 46
+                }
+              }
+            },
+            "hash": "bc7bf216669f11ce9b30aeaae0e04c6ac64e4334e665e3b7cad6adf454d29250"
+          },
+          "54": {
+            "state": {
+              "frame": 54,
+              "values": {},
+              "exposures": {
+                "style": {
+                  "frame": 54
+                }
+              }
+            },
+            "hash": "e1f9e0e34661304b821139a835ca6d98e075ea00f374bcaab268e9d4c2f30ca6"
+          },
+          "55": {
+            "state": {
+              "frame": 55,
+              "values": {},
+              "exposures": {
+                "style": {
+                  "frame": 55
+                }
+              }
+            },
+            "hash": "8f18be28dd071d083e4b5dbdd0c6f84807ca5a5292baba906bf9ef19a846cdb3"
+          },
+          "56": {
+            "state": {
+              "frame": 56,
+              "values": {},
+              "exposures": {
+                "style": {
+                  "frame": 56
+                }
+              }
+            },
+            "hash": "7c7f22db70ffbbf2c708203c2ce024d4b9837e09f19c1a34ece2ecbdfd4e44a4"
+          },
+          "57": {
+            "state": {
+              "frame": 57,
+              "values": {},
+              "exposures": {
+                "style": {
+                  "frame": 57
+                }
+              }
+            },
+            "hash": "73459ccdb6b179954add982868b2dcb94da13c4e4450103026a554870834d341"
+          },
+          "64": {
+            "state": {
+              "frame": 64,
+              "values": {},
+              "exposures": {
+                "style": {
+                  "frame": 64
+                }
+              }
+            },
+            "hash": "659e30c2a53e3c90767d8b942bb9ccb16f872e8f2e70dd336a5d2c867755c44c"
+          },
+          "70": {
+            "state": {
+              "frame": 70,
+              "values": {},
+              "exposures": {
+                "style": {
+                  "frame": 70
+                }
+              }
+            },
+            "hash": "971f893f7777578a36f0b52631e1fed033d5112a944988bcc1a34b26fe1b4aaa"
+          },
+          "71": {
+            "state": {
+              "frame": 71,
+              "values": {},
+              "exposures": {
+                "style": {
+                  "frame": 71
+                }
+              }
+            },
+            "hash": "971f893f7777578a36f0b52631e1fed033d5112a944988bcc1a34b26fe1b4aaa"
+          },
+          "72": {
+            "state": {
+              "frame": 72,
+              "values": {},
+              "exposures": {
+                "style": {
+                  "frame": 72
+                }
+              }
+            },
+            "hash": "2a1547978df302457c2a1bc3e3de6fdd96e4ac05b120a0df8e9255ddfc860bea"
+          },
+          "73": {
+            "state": {
+              "frame": 73,
+              "values": {},
+              "exposures": {
+                "style": {
+                  "frame": 73
+                }
+              }
+            },
+            "hash": "2a1547978df302457c2a1bc3e3de6fdd96e4ac05b120a0df8e9255ddfc860bea"
+          },
+          "95": {
+            "state": {
+              "frame": 95,
+              "values": {},
+              "exposures": {
+                "style": {
+                  "frame": 95
+                }
+              }
+            },
+            "hash": "f8d0cde50a954cc25a6f08b4b9c0495e3542c3843eef3ba8027a8c93d9909194"
+          },
+          "96": {
+            "state": {
+              "frame": 96,
+              "values": {},
+              "exposures": {
+                "style": {
+                  "frame": 96
+                }
+              }
+            },
+            "hash": "ad679d04374fbb7485f54c18cfc53081f124f8832135e0eabebf133efaadd864"
+          },
+          "110": {
+            "state": {
+              "frame": 110,
+              "values": {},
+              "exposures": {
+                "style": {
+                  "frame": 110
+                }
+              }
+            },
+            "hash": "bfcc880a4742354d7dcfba81af06fcef925af0c736c6081f67d93e770e3db649"
+          },
+          "111": {
+            "state": {
+              "frame": 111,
+              "values": {},
+              "exposures": {
+                "style": {
+                  "frame": 111
+                }
+              }
+            },
+            "hash": "b512f96bb10a7b8ec8434337c35e1478ceaede300f917ac1d53cb41b9616d885"
+          },
+          "131": {
+            "state": {
+              "frame": 131,
+              "values": {},
+              "exposures": {
+                "style": {
+                  "frame": 131
+                }
+              }
+            },
+            "hash": "5f9cd037b32261fd8f7f4ae8f8c553d970aee36fe2f2ac791f303c618b6b0f9f"
+          },
+          "132": {
+            "state": {
+              "frame": 132,
+              "values": {},
+              "exposures": {
+                "style": {
+                  "frame": 132
+                }
+              }
+            },
+            "hash": "b36d961845be1a101daf7a25a24ab405cf75dbc4ea54acb5a8f0327b21541800"
+          },
+          "133": {
+            "state": {
+              "frame": 133,
+              "values": {},
+              "exposures": {
+                "style": {
+                  "frame": 133
+                }
+              }
+            },
+            "hash": "95bd1ca01605fe08df52555b3a699f4c5b0cfacb0aa8ca7068582238801716e1"
+          },
+          "144": {
+            "state": {
+              "frame": 144,
+              "values": {},
+              "exposures": {
+                "style": {
+                  "frame": 144
+                }
+              }
+            },
+            "hash": "def3213cbd40ed188d06fef9eb14baffd570f68c5355ada6884b8a528050a715"
+          },
+          "145": {
+            "state": {
+              "frame": 145,
+              "values": {},
+              "exposures": {
+                "style": {
+                  "frame": 145
+                }
+              }
+            },
+            "hash": "f0523bf44b2679ad66b2cf270b29392b14c06fcbdead8dbaa3adeea2ca8cc89e"
+          },
+          "191": {
+            "state": {
+              "frame": 191,
+              "values": {},
+              "exposures": {
+                "style": {
+                  "frame": 191
+                }
+              }
+            },
+            "hash": "a43f9758877e2d61532f3c7d68473d1928d47da5ed4fdcf3f0e81809380903e9"
+          }
+        }
+      }
+    },
+    {
+      "name": "C-study",
+      "revision": "c1021be26276e05690d8d2e1f8d2c0f19d10836ff2ed468631dfdcc24b82bf43",
+      "errors": [],
+      "external": [],
+      "warnings": [
+        "[.WebGL-0x12400587200]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels",
+        "[.WebGL-0x12400587200]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels",
+        "[.WebGL-0x12400587200]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels",
+        "[.WebGL-0x12400587200]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels (this message will no longer repeat)",
+        "Canvas2D: Multiple readback operations using getImageData are faster with the willReadFrequently attribute set to true. See: https://html.spec.whatwg.org/multipage/canvas.html#concept-canvas-will-read-frequently"
+      ],
+      "seek": {
+        "canonicalFrames": 16,
+        "orderComparisons": 36,
+        "canonical": {
+          "0": {
+            "state": {
+              "frame": 0,
+              "values": {},
+              "exposures": {
+                "style": {
+                  "frame": 0
+                }
+              }
+            },
+            "hash": "42585d1a07178b9cf19e43972c012c3c20f5b7dc81dfcd6a62d5cc920c78c7be"
+          },
+          "1": {
+            "state": {
+              "frame": 1,
+              "values": {},
+              "exposures": {
+                "style": {
+                  "frame": 1
+                }
+              }
+            },
+            "hash": "151b2ecad69f11e42921c793d7ed038d82161f45a3c68ecd5bfa03dd1ba05c54"
+          },
+          "23": {
+            "state": {
+              "frame": 23,
+              "values": {},
+              "exposures": {
+                "style": {
+                  "frame": 23
+                }
+              }
+            },
+            "hash": "6bfd2a3364a2c3cae61fafdec499e00d1ec8268304d936c3f1ac6d61202ea6b7"
+          },
+          "24": {
+            "state": {
+              "frame": 24,
+              "values": {},
+              "exposures": {
+                "style": {
+                  "frame": 24
+                }
+              }
+            },
+            "hash": "3b24a7dbfe473c89963423ad9dc210bfc3aa09503c331831a69d270088eafb38"
+          },
+          "25": {
+            "state": {
+              "frame": 25,
+              "values": {},
+              "exposures": {
+                "style": {
+                  "frame": 25
+                }
+              }
+            },
+            "hash": "99eaf65e0de5991d0632ada5408e6bbe75591ab12de8a43f1981f33ff30b9cd4"
+          },
+          "71": {
+            "state": {
+              "frame": 71,
+              "values": {},
+              "exposures": {
+                "style": {
+                  "frame": 71
+                }
+              }
+            },
+            "hash": "bd9c3f5e1082108f2ef38c821ec5339cb64874701c202a1719cd9c034a0a793a"
+          },
+          "72": {
+            "state": {
+              "frame": 72,
+              "values": {},
+              "exposures": {
+                "style": {
+                  "frame": 72
+                }
+              }
+            },
+            "hash": "06dae770099728433d157a57884f09a74b3db0576c9ce605858ca9e206a76d5f"
+          },
+          "73": {
+            "state": {
+              "frame": 73,
+              "values": {},
+              "exposures": {
+                "style": {
+                  "frame": 73
+                }
+              }
+            },
+            "hash": "0ae52cc4bd049167f251474ef89b63d1caa11b4be17b2643bd1b0179bd027aa9"
+          },
+          "95": {
+            "state": {
+              "frame": 95,
+              "values": {},
+              "exposures": {
+                "style": {
+                  "frame": 95
+                }
+              }
+            },
+            "hash": "a378c29addd94e4e06ecbfd4b92ba22fc534b49acfa7e593be3785f9d90cc91d"
+          },
+          "96": {
+            "state": {
+              "frame": 96,
+              "values": {},
+              "exposures": {
+                "style": {
+                  "frame": 96
+                }
+              }
+            },
+            "hash": "7bf1f4d94d4d9ab6a04474a97e3ca8723692e1e1daf47e1ed14e44318644f4a1"
+          },
+          "97": {
+            "state": {
+              "frame": 97,
+              "values": {},
+              "exposures": {
+                "style": {
+                  "frame": 97
+                }
+              }
+            },
+            "hash": "25a6d1b4a070dfe187aa76946fc4c79e4f4a1e56d0cb27b587befff0296b1551"
+          },
+          "143": {
+            "state": {
+              "frame": 143,
+              "values": {},
+              "exposures": {
+                "style": {
+                  "frame": 143
+                }
+              }
+            },
+            "hash": "e3aa539edc7f26ec408a1bc7c91dd0fec5dc987a5d6bf1a6e26322ba1c79f59d"
+          },
+          "144": {
+            "state": {
+              "frame": 144,
+              "values": {},
+              "exposures": {
+                "style": {
+                  "frame": 144
+                }
+              }
+            },
+            "hash": "5dc48edff33cb136bb7f3de0fbbc3cbb590f78434d3eb9a16c14a60bdd324217"
+          },
+          "145": {
+            "state": {
+              "frame": 145,
+              "values": {},
+              "exposures": {
+                "style": {
+                  "frame": 145
+                }
+              }
+            },
+            "hash": "6b0545d3e3efa949711a1f08867024bd7ae2304cee82a6c37c8aefd45d5725b0"
+          },
+          "190": {
+            "state": {
+              "frame": 190,
+              "values": {},
+              "exposures": {
+                "style": {
+                  "frame": 190
+                }
+              }
+            },
+            "hash": "8c55404490f2333d27cc93337290740fa96ee877fb94e0916d71e97e795ab1a6"
+          },
+          "191": {
+            "state": {
+              "frame": 191,
+              "values": {},
+              "exposures": {
+                "style": {
+                  "frame": 191
+                }
+              }
+            },
+            "hash": "616463e2813a2e38a0143704e51b38a202e7643dfd3ee86c85040ae3cddbffb6"
+          }
+        }
+      }
+    },
+    {
+      "name": "C-mixed",
+      "revision": "3b3ad6e0139ad4e94438c378714c31187bf164b77f715d1ecb41295b2202e2be",
+      "errors": [],
+      "external": [],
+      "warnings": [],
+      "seek": {
+        "canonicalFrames": 13,
+        "orderComparisons": 30,
+        "canonical": {
+          "0": {
+            "state": {
+              "frame": 0,
+              "values": {
+                "lamp.event": 0.3,
+                "specimen.screen": [
+                  1162.926120608242,
+                  690.7360152663837
+                ]
+              },
+              "exposures": {
+                "style": {
+                  "frame": 0
+                },
+                "annotation": {
+                  "frame": 0
+                }
+              }
+            },
+            "hash": "27087f10365902f6d4bea600af58ef2ef5cb7218a556333b078d2d54174213bf"
+          },
+          "1": {
+            "state": {
+              "frame": 1,
+              "values": {
+                "lamp.event": 0.3,
+                "specimen.screen": [
+                  1163.0009678064364,
+                  690.7406726074846
+                ]
+              },
+              "exposures": {
+                "style": {
+                  "frame": 1
+                },
+                "annotation": {
+                  "frame": 1
+                }
+              }
+            },
+            "hash": "a0a541b8e3902589564acb4403950bf30b0c1ce9f169f71c6b67bc81ad144d14"
+          },
+          "47": {
+            "state": {
+              "frame": 47,
+              "values": {
+                "lamp.event": 0.3,
+                "specimen.screen": [
+                  1166.4223021751318,
+                  690.9609906499328
+                ]
+              },
+              "exposures": {
+                "style": {
+                  "frame": 47
+                },
+                "annotation": {
+                  "frame": 47
+                }
+              }
+            },
+            "hash": "906444f57d2bcefc3a8d9a8c0b82aa8758c8e93e0427accfe6c7b38169932e4d"
+          },
+          "48": {
+            "state": {
+              "frame": 48,
+              "values": {
+                "lamp.event": 0.3,
+                "specimen.screen": [
+                  1166.496194662456,
+                  690.9659280032126
+                ]
+              },
+              "exposures": {
+                "style": {
+                  "frame": 48
+                },
+                "annotation": {
+                  "frame": 48
+                }
+              }
+            },
+            "hash": "f71b5702e4c72625b6cab8098b8d4a9db4cda5802ffb2d004d701f7a60850557"
+          },
+          "49": {
+            "state": {
+              "frame": 49,
+              "values": {
+                "lamp.event": 0.3145833333333333,
+                "specimen.screen": [
+                  1166.570065947018,
+                  690.9708723154181
+                ]
+              },
+              "exposures": {
+                "style": {
+                  "frame": 49
+                },
+                "annotation": {
+                  "frame": 49
+                }
+              }
+            },
+            "hash": "6bae31a423a4de7d5ced0363eb9c1e3702b73b806112dd183bf39bd6d6a72362"
+          },
+          "95": {
+            "state": {
+              "frame": 95,
+              "values": {
+                "lamp.event": 0.9854166666666666,
+                "specimen.screen": [
+                  1169.9445909663802,
+                  691.2065596110943
+                ]
+              },
+              "exposures": {
+                "style": {
+                  "frame": 95
+                },
+                "annotation": {
+                  "frame": 95
+                }
+              }
+            },
+            "hash": "b2fbc5eda164aa7050806e7a0c6e67e275cdce0355a3418aa9f590596d4567a5"
+          },
+          "96": {
+            "state": {
+              "frame": 96,
+              "values": {
+                "lamp.event": 1,
+                "specimen.screen": [
+                  1170.0174244601221,
+                  691.2118783967219
+                ]
+              },
+              "exposures": {
+                "style": {
+                  "frame": 96
+                },
+                "annotation": {
+                  "frame": 96
+                }
+              }
+            },
+            "hash": "1bc3fc852b2ed6c86fcfe256df6a9d66f24e49a76b991dda4763934855dccd3b"
+          },
+          "97": {
+            "state": {
+              "frame": 97,
+              "values": {
+                "lamp.event": 1,
+                "specimen.screen": [
+                  1170.0902350022284,
+                  691.2172061611334
+                ]
+              },
+              "exposures": {
+                "style": {
+                  "frame": 97
+                },
+                "annotation": {
+                  "frame": 97
+                }
+              }
+            },
+            "hash": "c58be16bcc99c2e15e3f27e58606bad8a66a3b326b2367a99c23c8ca049cc829"
+          },
+          "143": {
+            "state": {
+              "frame": 143,
+              "values": {
+                "lamp.event": 1,
+                "specimen.screen": [
+                  1173.414090793756,
+                  691.472720169618
+                ]
+              },
+              "exposures": {
+                "style": {
+                  "frame": 143
+                },
+                "annotation": {
+                  "frame": 143
+                }
+              }
+            },
+            "hash": "c7e13b9176c11069989914df16a12e5be32e0e2c086629b36d8dc5bc569619da"
+          },
+          "144": {
+            "state": {
+              "frame": 144,
+              "values": {
+                "lamp.event": 1,
+                "specimen.screen": [
+                  1173.4857823744967,
+                  691.4785176030663
+                ]
+              },
+              "exposures": {
+                "style": {
+                  "frame": 144
+                },
+                "annotation": {
+                  "frame": 144
+                }
+              }
+            },
+            "hash": "57e234a12bc59a1ca45849925aa454e86cdd013956b36fb1d9b761c1e64db881"
+          },
+          "145": {
+            "state": {
+              "frame": 145,
+              "values": {
+                "lamp.event": 0.9893617021276596,
+                "specimen.screen": [
+                  1173.5574492999738,
+                  691.4843260439599
+                ]
+              },
+              "exposures": {
+                "style": {
+                  "frame": 145
+                },
+                "annotation": {
+                  "frame": 145
+                }
+              }
+            },
+            "hash": "4cda29569b58481d2cfa1af29be687c0d4d4c7f561d4f6a560e140a35402c260"
+          },
+          "190": {
+            "state": {
+              "frame": 190,
+              "values": {
+                "lamp.event": 0.5106382978723405,
+                "specimen.screen": [
+                  1176.7563804504778,
+                  691.75778315787
+                ]
+              },
+              "exposures": {
+                "style": {
+                  "frame": 190
+                },
+                "annotation": {
+                  "frame": 190
+                }
+              }
+            },
+            "hash": "a3dce70810ec5e48c52adbbd911ff70e12c5c8020dbd01bd4ed2b7d4385a88de"
+          },
+          "191": {
+            "state": {
+              "frame": 191,
+              "values": {
+                "lamp.event": 0.5,
+                "specimen.screen": [
+                  1176.8268758557588,
+                  691.7641435586996
+                ]
+              },
+              "exposures": {
+                "style": {
+                  "frame": 191
+                },
+                "annotation": {
+                  "frame": 191
+                }
+              }
+            },
+            "hash": "177c52fffbcb87532b52a9988d35a00b1940a42f51700d9913e84b632962add8"
+          }
+        }
+      }
+    },
+    {
+      "name": "C-study",
+      "revision": "c1021be26276e05690d8d2e1f8d2c0f19d10836ff2ed468631dfdcc24b82bf43",
+      "errors": [],
+      "external": [],
+      "warnings": []
+    },
+    {
+      "name": "truncated-new",
+      "revision": "14566ded6117d052cae16dfaa0dfb9b0e433f68b6515e1b8702521b0fff7434e",
+      "errors": [],
+      "external": [],
+      "warnings": [],
+      "failure": "Error: Image decode failed: assets/truncated.png"
+    }
+  ],
+  "checks": [
+    {
+      "name": "A current JSON match bridge alpha and reverse pixels",
+      "pass": false,
+      "error": "AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:\n\n255 !== 0\n",
+      "stack": "AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:\n\n255 !== 0\n\n    at file:///Volumes/eyedisk/develop/cinewright/evidence/aesthetic-toolkit-2026-11-08/independent-review-02/browser.mjs:21:843\n    at async check (file:///Volumes/eyedisk/develop/cinewright/evidence/aesthetic-toolkit-2026-11-08/independent-review-02/browser.mjs:11:48)\n    at async file:///Volumes/eyedisk/develop/cinewright/evidence/aesthetic-toolkit-2026-11-08/independent-review-02/browser.mjs:21:2"
+    },
+    {
+      "name": "A current portrait independent seek pixels and final frames",
+      "pass": true,
+      "detail": {
+        "errors": []
+      }
+    },
+    {
+      "name": "B pressure hold redraw erasure and order independent pixels",
+      "pass": true,
+      "detail": {
+        "heldSame": true,
+        "heldChanged": true,
+        "twosSame": true,
+        "before": [
+          37,
+          44,
+          43,
+          255
+        ],
+        "after": [
+          255,
+          255,
+          255,
+          255
+        ],
+        "outside": [
+          37,
+          44,
+          43,
+          255
+        ],
+        "widthNear": 14,
+        "widthMiddle": 6
+      }
+    },
+    {
+      "name": "B explicit boil differs between exposures and holds within",
+      "pass": true,
+      "detail": [
+        [
+          128,
+          63,
+          246,
+          205,
+          105,
+          40,
+          210,
+          17,
+          194,
+          227,
+          9,
+          84,
+          71,
+          43,
+          158,
+          136,
+          139,
+          235,
+          58,
+          205,
+          50,
+          196,
+          106,
+          90,
+          146,
+          193,
+          169,
+          5,
+          2,
+          78,
+          195,
+          142
+        ],
+        [
+          128,
+          63,
+          246,
+          205,
+          105,
+          40,
+          210,
+          17,
+          194,
+          227,
+          9,
+          84,
+          71,
+          43,
+          158,
+          136,
+          139,
+          235,
+          58,
+          205,
+          50,
+          196,
+          106,
+          90,
+          146,
+          193,
+          169,
+          5,
+          2,
+          78,
+          195,
+          142
+        ],
+        [
+          141,
+          99,
+          54,
+          116,
+          73,
+          49,
+          41,
+          71,
+          213,
+          76,
+          186,
+          116,
+          31,
+          89,
+          112,
+          41,
+          127,
+          222,
+          132,
+          166,
+          39,
+          21,
+          149,
+          145,
+          45,
+          198,
+          227,
+          115,
+          235,
+          36,
+          88,
+          162
+        ],
+        [
+          128,
+          63,
+          246,
+          205,
+          105,
+          40,
+          210,
+          17,
+          194,
+          227,
+          9,
+          84,
+          71,
+          43,
+          158,
+          136,
+          139,
+          235,
+          58,
+          205,
+          50,
+          196,
+          106,
+          90,
+          146,
+          193,
+          169,
+          5,
+          2,
+          78,
+          195,
+          142
+        ]
+      ]
+    },
+    {
+      "name": "B actual current commuter contact sequence random reverse PNG",
+      "pass": true,
+      "detail": {
+        "errors": []
+      }
+    },
+    {
+      "name": "C current local GLB actual shader and seek PNG",
+      "pass": true,
+      "detail": {
+        "errors": []
+      }
+    },
+    {
+      "name": "C actual transparent gray composite and GPU resources",
+      "pass": false,
+      "error": "AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:\n\n1 !== 0\n",
+      "stack": "AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:\n\n1 !== 0\n\n    at file:///Volumes/eyedisk/develop/cinewright/evidence/aesthetic-toolkit-2026-11-08/independent-review-02/browser.mjs:27:1438\n    at async check (file:///Volumes/eyedisk/develop/cinewright/evidence/aesthetic-toolkit-2026-11-08/independent-review-02/browser.mjs:11:48)\n    at async file:///Volumes/eyedisk/develop/cinewright/evidence/aesthetic-toolkit-2026-11-08/independent-review-02/browser.mjs:27:2"
+    },
+    {
+      "name": "C local GLB clip partial failure and repeated prepare dispose",
+      "pass": true,
+      "detail": {
+        "cycles": [
+          {
+            "before": {
+              "disposed": false,
+              "calls": 108,
+              "triangles": 8672,
+              "geometries": 100,
+              "textures": 9,
+              "objects": 32,
+              "clips": 1
+            },
+            "after": {
+              "disposed": true,
+              "calls": 108,
+              "triangles": 8672,
+              "geometries": 0,
+              "textures": 0,
+              "objects": 32,
+              "clips": 1
+            },
+            "rejected": true
+          },
+          {
+            "before": {
+              "disposed": false,
+              "calls": 108,
+              "triangles": 8672,
+              "geometries": 100,
+              "textures": 9,
+              "objects": 32,
+              "clips": 1
+            },
+            "after": {
+              "disposed": true,
+              "calls": 108,
+              "triangles": 8672,
+              "geometries": 0,
+              "textures": 0,
+              "objects": 32,
+              "clips": 1
+            },
+            "rejected": true
+          }
+        ],
+        "failure": "Error: GLB clip not found: assets/specimen.glb",
+        "recovered": {
+          "disposed": false,
+          "calls": 108,
+          "triangles": 8672,
+          "geometries": 100,
+          "textures": 9,
+          "objects": 32,
+          "clips": 1
+        }
+      }
+    },
+    {
+      "name": "C mixed typed scalar and projected vec2 actual downstream pixels",
+      "pass": true,
+      "detail": {
+        "samples": [
+          {
+            "frame": 0,
+            "values": {
+              "lamp.event": 0.3,
+              "specimen.screen": [
+                1162.926120608242,
+                690.7360152663837
+              ]
+            }
+          },
+          {
+            "frame": 48,
+            "values": {
+              "lamp.event": 0.3,
+              "specimen.screen": [
+                1166.496194662456,
+                690.9659280032126
+              ]
+            }
+          },
+          {
+            "frame": 96,
+            "values": {
+              "lamp.event": 1,
+              "specimen.screen": [
+                1170.0174244601221,
+                691.2118783967219
+              ]
+            }
+          },
+          {
+            "frame": 144,
+            "values": {
+              "lamp.event": 1,
+              "specimen.screen": [
+                1173.4857823744967,
+                691.4785176030663
+              ]
+            }
+          },
+          {
+            "frame": 191,
+            "values": {
+              "lamp.event": 0.5,
+              "specimen.screen": [
+                1176.8268758557588,
+                691.7641435586996
+              ]
+            }
+          }
+        ],
+        "proof": [
+          {
+            "level": 0,
+            "point": [
+              195.00290407668703,
+              115.20197973278698
+            ],
+            "base": [
+              198,
+              55,
+              98,
+              33,
+              219,
+              83,
+              165,
+              21,
+              24,
+              13,
+              159,
+              91,
+              130,
+              122,
+              201,
+              118,
+              140,
+              37,
+              3,
+              230,
+              166,
+              51,
+              216,
+              173,
+              174,
+              93,
+              9,
+              91,
+              132,
+              112,
+              71,
+              206
+            ],
+            "combined": [
+              204,
+              86,
+              192,
+              93,
+              48,
+              113,
+              89,
+              209,
+              254,
+              9,
+              21,
+              133,
+              221,
+              76,
+              217,
+              243,
+              104,
+              247,
+              64,
+              235,
+              224,
+              127,
+              219,
+              21,
+              21,
+              144,
+              191,
+              202,
+              171,
+              221,
+              228,
+              242
+            ]
+          },
+          {
+            "level": 1,
+            "point": [
+              195.00290407668703,
+              115.20197973278698
+            ],
+            "base": [
+              95,
+              106,
+              53,
+              199,
+              176,
+              127,
+              56,
+              218,
+              78,
+              61,
+              26,
+              99,
+              60,
+              247,
+              94,
+              75,
+              255,
+              45,
+              130,
+              144,
+              90,
+              28,
+              134,
+              104,
+              94,
+              19,
+              206,
+              74,
+              82,
+              76,
+              26,
+              157
+            ],
+            "combined": [
+              40,
+              110,
+              65,
+              76,
+              17,
+              202,
+              84,
+              96,
+              124,
+              198,
+              166,
+              243,
+              216,
+              74,
+              160,
+              39,
+              234,
+              45,
+              135,
+              194,
+              75,
+              244,
+              119,
+              142,
+              16,
+              231,
+              85,
+              95,
+              187,
+              96,
+              26,
+              59
+            ]
+          },
+          {
+            "level": 0,
+            "point": [
+              195.00290407668703,
+              115.20197973278698
+            ],
+            "base": [
+              198,
+              55,
+              98,
+              33,
+              219,
+              83,
+              165,
+              21,
+              24,
+              13,
+              159,
+              91,
+              130,
+              122,
+              201,
+              118,
+              140,
+              37,
+              3,
+              230,
+              166,
+              51,
+              216,
+              173,
+              174,
+              93,
+              9,
+              91,
+              132,
+              112,
+              71,
+              206
+            ],
+            "combined": [
+              204,
+              86,
+              192,
+              93,
+              48,
+              113,
+              89,
+              209,
+              254,
+              9,
+              21,
+              133,
+              221,
+              76,
+              217,
+              243,
+              104,
+              247,
+              64,
+              235,
+              224,
+              127,
+              219,
+              21,
+              21,
+              144,
+              191,
+              202,
+              171,
+              221,
+              228,
+              242
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "frozen C remains independent of authored source and original GLB",
+      "pass": true,
+      "detail": {
+        "samePng": true
+      }
+    },
+    {
+      "name": "R3 published truncated PNG actually fails browser preparation",
+      "pass": true,
+      "detail": {
+        "failure": "Error: Image decode failed: assets/truncated.png",
+        "published": true
+      }
+    }
+  ],
+  "notes": [
+    "Chrome SwiftShader direct Playwright; no preview/UI tools",
+    "No human continuous viewing/listening/accessibility or aesthetic acceptance",
+    "Only own scratch sources modified for freeze isolation"
+  ],
+  "browser": "157.0.8103.38",
+  "lockReleased": true,
+  "finished": "2026-11-08T04:12:29.486Z",
+  "counts": {
+    "checks": 11,
+    "passed": 9,
+    "failed": 2,
+    "projects": 8,
+    "pngComparisons": 210
+  }
+}

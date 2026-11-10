@@ -1,0 +1,66 @@
+[
+  {
+    "scene": "A/forest",
+    "revision": "b6a2519893b864678c79c9597536f9b474ab29fe03e6774c9e626b708fea5930",
+    "prior": "A/forest-v3",
+    "samePixelsAsVideoRevision": true,
+    "checks": 55,
+    "errors": []
+  },
+  {
+    "scene": "A/harbor",
+    "revision": "bd35f06f86e0622b1a880345b759dfbee954101f35d3928beb2a60c515864bfb",
+    "prior": "A/harbor",
+    "samePixelsAsVideoRevision": true,
+    "checks": 55,
+    "errors": []
+  },
+  {
+    "scene": "A/portrait",
+    "revision": "c201856f3451d3c480a83077544e78e6e34a1d9171cd59d5c26feb79d45574aa",
+    "prior": null,
+    "samePixelsAsVideoRevision": false,
+    "checks": 55,
+    "errors": []
+  },
+  {
+    "scene": "C/station",
+    "revision": "6fa4b2978d26e2c2e13de4b103bde74a28dbbb41a61d31f3613ce65fb167cc33",
+    "prior": "C/station-final",
+    "samePixelsAsVideoRevision": true,
+    "checks": 55,
+    "errors": []
+  },
+  {
+    "scene": "C/laboratory",
+    "revision": "cfb37840c23f4f6b3d69571e4772d7c4dd4ecdb11dd4cc181d1afe44ed8d1175",
+    "prior": "C/laboratory-final",
+    "samePixelsAsVideoRevision": true,
+    "checks": 55,
+    "errors": []
+  },
+  {
+    "scene": "C/effects",
+    "revision": "8b583b1c6c15fd6e5baca292e99e6c87ce9a5eefb31b349f104d529bcfc0e0da",
+    "prior": "C/effects",
+    "samePixelsAsVideoRevision": true,
+    "checks": 55,
+    "errors": []
+  },
+  {
+    "scene": "C/mixed",
+    "revision": "964dab5558ab1ca4c0b00d1588318f993ffde0de19f2ae1eecc852b283a9fb98",
+    "prior": "C/mixed",
+    "samePixelsAsVideoRevision": true,
+    "checks": 55,
+    "errors": []
+  },
+  {
+    "scene": "C/portrait",
+    "revision": "444449dc53000433935c6f8135e5ff84a3a9187cec0d749d67fed3af3d92b931",
+    "prior": "C/portrait",
+    "samePixelsAsVideoRevision": true,
+    "checks": 55,
+    "errors": []
+  }
+]

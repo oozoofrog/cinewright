@@ -1,0 +1,547 @@
+{
+  "purpose": "Targeted follow-up: preserve raw initial failures, measure alpha endpoints, correct caller-resource ownership assertion",
+  "checks": [
+    {
+      "name": "C transparent gray pixels and counters after caller-owned disposal",
+      "pass": true
+    },
+    {
+      "name": "match alpha endpoint should be empty at progress0",
+      "pass": false,
+      "error": "AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:\n\n255 !== 0\n"
+    },
+    {
+      "name": "iris alpha endpoint should be empty at progress0",
+      "pass": false,
+      "error": "AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:\n\n255 !== 0\n"
+    },
+    {
+      "name": "curtain alpha endpoint should be empty at progress0",
+      "pass": true
+    },
+    {
+      "name": "no unexpected browser errors",
+      "pass": true
+    }
+  ],
+  "browser": "157.0.8103.38",
+  "composite": {
+    "opaque": [
+      128,
+      128,
+      128,
+      255
+    ],
+    "clear": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "alpha": [
+      128,
+      128,
+      128,
+      128
+    ],
+    "black": [
+      64,
+      64,
+      64,
+      255
+    ],
+    "white": [
+      191,
+      191,
+      191,
+      255
+    ],
+    "before": {
+      "disposed": false,
+      "calls": 1,
+      "triangles": 2,
+      "geometries": 1,
+      "textures": 0
+    },
+    "afterCallerDisposal": {
+      "disposed": false,
+      "calls": 1,
+      "triangles": 2,
+      "geometries": 0,
+      "textures": 0
+    },
+    "afterAdapter": {
+      "disposed": true,
+      "calls": 1,
+      "triangles": 2,
+      "geometries": 0,
+      "textures": 0
+    }
+  },
+  "transitions": [
+    {
+      "kind": "match",
+      "frame": -1,
+      "center": [
+        51,
+        102,
+        153,
+        255
+      ],
+      "near": [
+        51,
+        102,
+        153,
+        255
+      ],
+      "corner": [
+        51,
+        102,
+        153,
+        255
+      ]
+    },
+    {
+      "kind": "match",
+      "frame": 0,
+      "center": [
+        17,
+        34,
+        51,
+        255
+      ],
+      "near": [
+        17,
+        34,
+        51,
+        255
+      ],
+      "corner": [
+        51,
+        102,
+        153,
+        255
+      ]
+    },
+    {
+      "kind": "match",
+      "frame": 1,
+      "center": [
+        17,
+        34,
+        51,
+        255
+      ],
+      "near": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "corner": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "kind": "match",
+      "frame": 12,
+      "center": [
+        17,
+        34,
+        51,
+        255
+      ],
+      "near": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "corner": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "kind": "match",
+      "frame": 24,
+      "center": [
+        17,
+        34,
+        51,
+        255
+      ],
+      "near": [
+        17,
+        34,
+        51,
+        255
+      ],
+      "corner": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "kind": "match",
+      "frame": 25,
+      "center": [
+        17,
+        34,
+        51,
+        255
+      ],
+      "near": [
+        17,
+        34,
+        51,
+        255
+      ],
+      "corner": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "kind": "match",
+      "frame": 0,
+      "center": [
+        17,
+        34,
+        51,
+        255
+      ],
+      "near": [
+        17,
+        34,
+        51,
+        255
+      ],
+      "corner": [
+        51,
+        102,
+        153,
+        255
+      ]
+    },
+    {
+      "kind": "iris",
+      "frame": -1,
+      "center": [
+        51,
+        102,
+        153,
+        255
+      ],
+      "near": [
+        51,
+        102,
+        153,
+        255
+      ],
+      "corner": [
+        51,
+        102,
+        153,
+        255
+      ]
+    },
+    {
+      "kind": "iris",
+      "frame": 0,
+      "center": [
+        17,
+        34,
+        51,
+        255
+      ],
+      "near": [
+        17,
+        34,
+        51,
+        255
+      ],
+      "corner": [
+        51,
+        102,
+        153,
+        255
+      ]
+    },
+    {
+      "kind": "iris",
+      "frame": 1,
+      "center": [
+        17,
+        34,
+        51,
+        255
+      ],
+      "near": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "corner": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "kind": "iris",
+      "frame": 12,
+      "center": [
+        17,
+        34,
+        51,
+        255
+      ],
+      "near": [
+        17,
+        34,
+        51,
+        255
+      ],
+      "corner": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "kind": "iris",
+      "frame": 24,
+      "center": [
+        17,
+        34,
+        51,
+        255
+      ],
+      "near": [
+        17,
+        34,
+        51,
+        255
+      ],
+      "corner": [
+        51,
+        102,
+        153,
+        255
+      ]
+    },
+    {
+      "kind": "iris",
+      "frame": 25,
+      "center": [
+        17,
+        34,
+        51,
+        255
+      ],
+      "near": [
+        17,
+        34,
+        51,
+        255
+      ],
+      "corner": [
+        51,
+        102,
+        153,
+        255
+      ]
+    },
+    {
+      "kind": "iris",
+      "frame": 0,
+      "center": [
+        17,
+        34,
+        51,
+        255
+      ],
+      "near": [
+        17,
+        34,
+        51,
+        255
+      ],
+      "corner": [
+        51,
+        102,
+        153,
+        255
+      ]
+    },
+    {
+      "kind": "curtain",
+      "frame": -1,
+      "center": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "near": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "corner": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "kind": "curtain",
+      "frame": 0,
+      "center": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "near": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "corner": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "kind": "curtain",
+      "frame": 1,
+      "center": [
+        17,
+        34,
+        51,
+        255
+      ],
+      "near": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "corner": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "kind": "curtain",
+      "frame": 12,
+      "center": [
+        17,
+        34,
+        51,
+        255
+      ],
+      "near": [
+        17,
+        34,
+        51,
+        255
+      ],
+      "corner": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "kind": "curtain",
+      "frame": 24,
+      "center": [
+        17,
+        34,
+        51,
+        255
+      ],
+      "near": [
+        17,
+        34,
+        51,
+        255
+      ],
+      "corner": [
+        51,
+        102,
+        153,
+        255
+      ]
+    },
+    {
+      "kind": "curtain",
+      "frame": 25,
+      "center": [
+        17,
+        34,
+        51,
+        255
+      ],
+      "near": [
+        17,
+        34,
+        51,
+        255
+      ],
+      "corner": [
+        51,
+        102,
+        153,
+        255
+      ]
+    },
+    {
+      "kind": "curtain",
+      "frame": 0,
+      "center": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "near": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "corner": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  "errors": [],
+  "lockReleased": true
+}

@@ -1,0 +1,42 @@
+✔ absolute reverse clip seek and disposal (1.47275ms)
+✔ held clip and clamped nonloop (0.231166ms)
+✔ GLB rejects malformed headers and remote dependencies (0.196291ms)
+✔ vendor closure pins version and retains MIT license (4.312917ms)
+✔ three authored scene grammars validate without mutation (5.428375ms)
+✔ scene rejects malformed mesh UV, missing material, key mismatch and invalid gobo (2.193333ms)
+✔ absolute deformation restores rest across random/reverse queries (3.376833ms)
+✔ UV atlas contains nested density, shader uses UV and keeps color/fog stages (2.990459ms)
+✔ instanced dust is analytic seed/id/age and does not retain last frame (0.931625ms)
+✔ clip negative timeScale, looping boundary and weight keep absolute semantics (1.130833ms)
+✔ embedded original assets include UV and matching animation (1.089875ms)
+✔ capability failure is explicit and never silently paints fallback (0.20025ms)
+✔ shot keys clamp and interpolate world transforms independently (0.131875ms)
+✔ actual r180 GLTFLoader parses original embedded UV meshes and animation in Node (6.733709ms)
+✔ public geometry/lighting helpers reject allocation expansion and invalid graphic shadows (0.690667ms)
+✔ cubic approximation, bounded failure, invalid data and immutability (1.71525ms)
+✔ redraw correspondence, exposure, erasure boundaries and seeded dabs (1.281333ms)
+✔ authored scenes validate and reverse seek is independent (15.192625ms)
+✔ scene rejects bad bank pressure, masks and material (2.298458ms)
+✔ arc-length reveal and input immutability (1.058375ms)
+✔ rejects invalid pressure and zero length (0.136667ms)
+✔ replaceable forest, harbor and portrait compile to manifest v1 without changing authored input (71.988041ms)
+✔ bad scene fails before publishing; preserve input, reject cycles and excess objects (2.748292ms)
+✔ half-open irregular exposure preserves frame/value, hold versus interpolation (1.441333ms)
+✔ hierarchy, clamps, input immutability, cycles and parent errors (0.4415ms)
+✔ continuous camera coexists with held pose and coverage diagnoses edges (0.170833ms)
+✔ absolute emitter and independent trail survive arbitrary sampling (0.333417ms)
+✔ SVG and command validation rejects truncated curves, arc flags and nonfinite coordinates before publishing (0.334709ms)
+✔ scene preflight rejects missing shapes, ranges, mismatched poses, malformed reveal and missing assets without publication (9.68325ms)
+✔ straight cubic retains nonlinear pressure, finite derived length and bounded flatten allocation (31.08125ms)
+✔ public wash/transition and B dab validation reject nonfinite or malformed inputs (1.084458ms)
+✔ geometry factory and C scene reject zero/fractional subdivisions before Three allocates NaN buffers (1.7995ms)
+✔ provenance has no circular self hash and matches all authored silhouette bytes (0.871083ms)
+✔ authored commuter contact holds planted shoes fixed while swing feet lift and ankle lines match (19.045292ms)
+ℹ tests 34
+ℹ suites 0
+ℹ pass 34
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 211.166292

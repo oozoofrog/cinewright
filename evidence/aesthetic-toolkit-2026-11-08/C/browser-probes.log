@@ -1,0 +1,109 @@
+{
+  "opaque": [
+    128,
+    128,
+    128,
+    255
+  ],
+  "clear": [
+    0,
+    0,
+    0,
+    0
+  ],
+  "alpha": [
+    128,
+    128,
+    128,
+    128
+  ],
+  "black": [
+    64,
+    64,
+    64,
+    255
+  ],
+  "white": [
+    191,
+    191,
+    191,
+    255
+  ],
+  "stats": {
+    "disposed": false,
+    "calls": 1,
+    "triangles": 2,
+    "geometries": 1,
+    "textures": 0
+  },
+  "disposedStats": {
+    "disposed": true,
+    "calls": 1,
+    "triangles": 2,
+    "geometries": 0,
+    "textures": 0
+  },
+  "cycles": [
+    {
+      "before": {
+        "disposed": false,
+        "calls": 10,
+        "triangles": 5400,
+        "geometries": 8,
+        "textures": 7,
+        "objects": 4,
+        "clips": 1
+      },
+      "after": {
+        "disposed": true,
+        "calls": 10,
+        "triangles": 5400,
+        "geometries": 0,
+        "textures": 0,
+        "objects": 4,
+        "clips": 1
+      }
+    },
+    {
+      "before": {
+        "disposed": false,
+        "calls": 10,
+        "triangles": 5400,
+        "geometries": 8,
+        "textures": 7,
+        "objects": 4,
+        "clips": 1
+      },
+      "after": {
+        "disposed": true,
+        "calls": 10,
+        "triangles": 5400,
+        "geometries": 0,
+        "textures": 0,
+        "objects": 4,
+        "clips": 1
+      }
+    },
+    {
+      "before": {
+        "disposed": false,
+        "calls": 10,
+        "triangles": 5400,
+        "geometries": 8,
+        "textures": 7,
+        "objects": 4,
+        "clips": 1
+      },
+      "after": {
+        "disposed": true,
+        "calls": 10,
+        "triangles": 5400,
+        "geometries": 0,
+        "textures": 0,
+        "objects": 4,
+        "clips": 1
+      }
+    }
+  ],
+  "partialFailure": "Error: GLB clip not found: assets/specimen.glb"
+}

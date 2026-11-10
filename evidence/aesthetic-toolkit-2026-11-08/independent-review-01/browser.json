@@ -1,0 +1,5 @@
+{
+  "scope": "direct execution: short independent browser probe",
+  "results": [],
+  "status": "not run: shared GPU lock busy on one exclusive acquisition attempt"
+}

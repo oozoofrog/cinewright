@@ -1,0 +1,17 @@
+✔ 2D default/empty/maximum particle, trail and hatch counts stay bounded and fail above limits (12.2935ms)
+✔ all transition types clamp half-open boundaries and reject invalid time/centers (0.30375ms)
+✔ 3D atlas/material/dust/light maxima are actual bounded allocations with cleanup (13.241833ms)
+✔ scene preflight rejects missing shapes, ranges, mismatched poses, malformed reveal and missing assets without publication (10.344167ms)
+✔ straight cubic retains nonlinear pressure, finite derived length and bounded flatten allocation (31.484ms)
+✔ public wash/transition and B dab validation reject nonfinite or malformed inputs (0.747833ms)
+✔ geometry factory and C scene reject zero/fractional subdivisions before Three allocates NaN buffers (1.846ms)
+✔ provenance has no circular self hash and matches all authored silhouette bytes (1.125125ms)
+✔ authored commuter contact holds planted shoes fixed while swing feet lift and ankle lines match (19.872125ms)
+ℹ tests 9
+ℹ suites 0
+ℹ pass 9
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 192.410042

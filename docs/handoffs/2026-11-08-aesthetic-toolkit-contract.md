@@ -1,0 +1,36 @@
+# Aesthetic toolkit implementation contract v1
+
+Approved scope: IMPLEMENTATION-PROMPT.md in research/2026-11-08-aesthetic-toolkit. Shared checkout; never reset/stash/clean/stage/commit. Baseline: evidence/aesthetic-toolkit-2026-11-08/baseline.json and patches. Existing private productions/media/evidence remain protected.
+
+## Ownership
+
+- Coordinator A: runtime/**, scripts/direction.mjs, scripts/materialize-style.mjs, scripts/revisions.mjs, scripts/jobs.mjs, catalog/**, modules/animation/{exposure,rig2d,shot}.mjs; modules/fx2d/{mask,transition,emitter}.mjs; modules/styles/silhouette-theatre/**; examples/styles/silhouette-theatre/**; recipes/styles/silhouette-theatre/**; references/styles/{index,silhouette-theatre}.md; root README/SKILL and wrapper; tests/style-common*, tests/silhouette*, final integration/effects/mixed.
+- B only: modules/fx2d/{stroke,brush,wash,hatch,erase,redraw}.mjs and B-specific helpers with `line-wash-` prefix; modules/styles/line-wash/**; examples/styles/line-wash/**; recipes/styles/line-wash/**; references/styles/line-wash.md; tests/line-wash*; evidence/aesthetic-toolkit-2026-11-08/B/**. Do not modify common files.
+- C only: modules/fx3d/**; modules/animation/clip3d.mjs; modules/styles/expressionist-space/**; scripts/style-vendor-expressionist.mjs; examples/styles/expressionist-space/**; recipes/styles/expressionist-space/**; references/styles/expressionist-space.md; tests/expressionist*; evidence/aesthetic-toolkit-2026-11-08/C/**. Do not modify common files.
+- B/C report required shared changes to coordinator in result. No further subagents. No top-level threads, PR, upload or global install.
+
+## Runtime and public modules
+
+Node ESM/browser native ESM. Style entry `modules/styles/STYLE/index.mjs` exports `prepare(api,config)` and `validateScene(scene)` (synchronous validation, throws actionable errors; no mutation). `config.scene` contains JSON serializable authored scene; optional `config.sceneFile` loads via api.json. `prepare` returns `{evaluate(t),draw(g,t,state),dispose()}`; optional diagnostics/getStats are welcome. Disposal idempotent, owning only own resources; partial prepare failure cleans own resources. Compositor coordinator will call dispose on close and partial prepare failure. No automatic channel type additions.
+
+api width/height logical canvas pixels; pixelWidth/pixelHeight output pixels; fps/frames; path(relative) returns frozen-local `/project/...`; image/json loads local assets. t.frame output integer frame, t.exposed held frame; t.seconds output seconds; t.read/write typed channels. Use explicit per-component exposure, camera/light usually frame; never accumulate history. Coordinates in JSON: declared via scene coordinateSystem/units or style docs. 2D authored pixels +y down; world +y up C adapter. Angles radians. `[from,to)`; reject nonfinite/range/excess counts. Public fx helpers independent of demo IDs.
+
+Each scene: `{version:1,style:ID,title,size:[1920,1080],fps:24,frames:192,seed:17,...style fields}`. Can use 144–240 frames. All pose/stroke/mesh/clip/shot data replaceable; no demo name switches in public renderer. At least two independently authored scene JSON files per style in recipes/styles/STYLE, plus local small assets in examples/styles/STYLE/assets with provenance/hash/license/axis/alpha/rig metadata. Use 8 seconds (192 frames) by default.
+
+Common exposure API: `sampleExposure(frame, {every:2,from:0,track?:[{from,to,every,value}]}) -> {frame,value}|null`; `poseAt(keys,frame,{mode:'linear'|'hold'})` keys `[{frame,pose:{boneId:angle}}]`. Rig `prepareRig2D({bones:[{id,parent?,pivot:[x,y],rest:angle?,limits:[min,max]?}]})`, `evaluateRig2D(rig,pose)` -> bone keyed `{matrix:[a,b,c,d,e,f],angle,pivot}`. Shot `evaluateShot(spec,frame)` camera keys `[{frame,x,y,zoom}]`; `projectPlanes(planes,camera,viewport)` arrays plane id/depth (0..1), bounds [x,y,w,h], diagnostics.
+
+A-owned mask supports `makePath({path:SVGString|commands,fillRule:'evenodd'|'nonzero'})`, `drawShape(g,shape)` and mask composition. B may use own typed centerline representation; public pressure and path errors must be tested.
+
+## Materialize and packaging
+
+Coordinator provides `materializeStyle({project,style,scene,assets,seed,update:false})`. Scene validates through public validateScene; output manifest v1 with a single style layer config `{scene}`; modules dependency tree copied preserving repo-relative paths. assets accepts object `{ 'assets/name.ext': absoluteLocalSourceFile }` (regular files, no URLs/symlinks). JSON references use project-relative assets paths. The materializer copies style-specific assets from passed map, never imports examples automatically. Registry indexes exact exports and dependency/version/limits/evidence. Generated ownership ledger `.cinewright-style.json`; new projects staged, validated then renamed. update stages a complete copy then validates ledger and atomically exchanges project directory with rollback backup (see materializer implementation). Unknown/user-edited files preserved; no claims of multi-file transactional writeOwnedFiles.
+
+All imports relative within modules except bare `three` (runtime frozen importmap r180). C helper `export async function collectExpressionistVendor()` -> object of generated project relative paths -> Buffer, including only allowed r180 addon transitive closure and license; addon imports rewritten to relative local core or bare `three`. C modules import vendor addon via relative path such as `../../../vendor/three/addons/loaders/GLTFLoader.js` from modules/fx3d; keep consistent. project vendor has package metadata pinned. Core bare three from frozen /vendor/three/ remains r180. GLB must be local uncompressed; reject unsupported required extensions and outside URLs explicitly. Modules/assets/atlas/GLB included in frozen project.
+
+## Validation/resources
+
+Baseline npm test runs coordinator before B/C. B/C run own node tests, small render/seek/perf check with lifecycle cleanup, no whole npm test. Heavy render is coordinator after B/C; B/C create reproducible build script and optionally use exclusive directory lock `.direction/aesthetic-toolkit-gpu.lock` (mkdir atomic, rmdir finally) before GPU activity. Never leave server/browser/background processes. No long polling/waits on other team. If lock busy complete CPU work and return render instructions rather than waiting indefinitely.
+
+B/C provide two scenes, build helper calling materializeStyle and passing assets; actual 540p+1080p render commands and representative frame IDs, own tests and guide with supported/unsupported/limits/alpha/color/dispose. Coordinator runs integrated full rendering and independent CO sol review, then fixes/revalidates. Report real run versions/timing, never reuse past 394 tests. Human continuous viewing/listening/accessibility/user aesthetic acceptance remain unverified unless actually performed.
+
+Node validation import: keep style index top-level Node-loadable. Load browser-only addon imports dynamically inside prepare. `collectExpressionistVendor` may be called before browser preparation; no repo vendor destination needs to be written by C. Helpers may use dynamic addon import with literal relative paths that materializer skips under vendor/. Baseline npm test is running in coordinator process; no other team is active yet.

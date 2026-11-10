@@ -1,0 +1,66 @@
+{
+  "B": {
+    "taskId": "node:delegated-task:command%3Amcp%3Aef424b4a-7981-4c38-9a39-dc7075c3cef5%3Adelegate-task%3Ae7879841-7be3-436c-a8f2-2e93e2fb69ac",
+    "childThreadId": "thread:delegated-task:command%3Amcp%3Aef424b4a-7981-4c38-9a39-dc7075c3cef5%3Adelegate-task%3Ae7879841-7be3-436c-a8f2-2e93e2fb69ac",
+    "link": "<t3-thread://v2/4976b4a8-e1c4-4543-877c-25d62dfa39d1/thread:delegated-task:command%3Amcp%3Aef424b4a-7981-4c38-9a39-dc7075c3cef5%3Adelegate-task%3Ae7879841-7be3-436c-a8f2-2e93e2fb69ac>",
+    "childRunId": "run:thread:thread%3Adelegated-task%3Acommand%253Amcp%253Aef424b4a-7981-4c38-9a39-dc7075c3cef5%253Adelegate-task%253Ae7879841-7be3-436c-a8f2-2e93e2fb69ac:ordinal:1",
+    "childNodeId": "node:delegated-task:command%3Amcp%3Aef424b4a-7981-4c38-9a39-dc7075c3cef5%3Adelegate-task%3Ae7879841-7be3-436c-a8f2-2e93e2fb69ac",
+    "status": "running",
+    "workState": "working",
+    "hasPendingChildRuns": false,
+    "latestTerminalRunId": null,
+    "latestTerminalStatus": null,
+    "latestTerminalSummary": null,
+    "latestTerminalResultContextTransferId": null,
+    "providerInstanceId": "codex-oozoofrog",
+    "model": "gpt-6.1-terra",
+    "options": [
+      {
+        "id": "reasoningEffort",
+        "value": "ultra"
+      },
+      {
+        "id": "serviceTier",
+        "value": "default"
+      }
+    ],
+    "summary": null,
+    "resultContextTransferId": null,
+    "hasPendingQuestion": false,
+    "pendingApproval": null,
+    "waitTimedOut": false,
+    "next": "Completion wakes this thread, so end your turn. Do not wait on it or poll it."
+  },
+  "C": {
+    "taskId": "node:delegated-task:command%3Amcp%3Aef424b4a-7981-4c38-9a39-dc7075c3cef5%3Adelegate-task%3A2e522c59-e585-462c-a2cb-d09cc0c0d0b2",
+    "childThreadId": "thread:delegated-task:command%3Amcp%3Aef424b4a-7981-4c38-9a39-dc7075c3cef5%3Adelegate-task%3A2e522c59-e585-462c-a2cb-d09cc0c0d0b2",
+    "link": "<t3-thread://v2/4976b4a8-e1c4-4543-877c-25d62dfa39d1/thread:delegated-task:command%3Amcp%3Aef424b4a-7981-4c38-9a39-dc7075c3cef5%3Adelegate-task%3A2e522c59-e585-462c-a2cb-d09cc0c0d0b2>",
+    "childRunId": "run:thread:thread%3Adelegated-task%3Acommand%253Amcp%253Aef424b4a-7981-4c38-9a39-dc7075c3cef5%253Adelegate-task%253A2e522c59-e585-462c-a2cb-d09cc0c0d0b2:ordinal:1",
+    "childNodeId": "node:delegated-task:command%3Amcp%3Aef424b4a-7981-4c38-9a39-dc7075c3cef5%3Adelegate-task%3A2e522c59-e585-462c-a2cb-d09cc0c0d0b2",
+    "status": "running",
+    "workState": "working",
+    "hasPendingChildRuns": false,
+    "latestTerminalRunId": null,
+    "latestTerminalStatus": null,
+    "latestTerminalSummary": null,
+    "latestTerminalResultContextTransferId": null,
+    "providerInstanceId": "codex-eyemacworld",
+    "model": "gpt-6-astra",
+    "options": [
+      {
+        "id": "reasoningEffort",
+        "value": "ultra"
+      },
+      {
+        "id": "serviceTier",
+        "value": "default"
+      }
+    ],
+    "summary": null,
+    "resultContextTransferId": null,
+    "hasPendingQuestion": false,
+    "pendingApproval": null,
+    "waitTimedOut": false,
+    "next": "Completion wakes this thread, so end your turn. Do not wait on it or poll it."
+  }
+}

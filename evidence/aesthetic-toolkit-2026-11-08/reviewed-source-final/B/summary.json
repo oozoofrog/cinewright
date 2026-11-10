@@ -1,0 +1,23 @@
+[
+  {
+    "scene": "B/rain",
+    "revision": "91d577eff0eac9957b69a864bc0335558022d2e03e5a71707158cb384c9629dd",
+    "prior": "rain-reviewed",
+    "checks": 55,
+    "samePixelsAsVideoRevision": true
+  },
+  {
+    "scene": "B/commuter",
+    "revision": "b01e17fb88c9ce6c6f57e826e005e9ed1fe899c35dee81ca8b84772632e5c786",
+    "prior": "commuter-reviewed",
+    "checks": 55,
+    "samePixelsAsVideoRevision": true
+  },
+  {
+    "scene": "B/portrait",
+    "revision": "53c73868cdb82949b0347cc5ad15ed540b271ab4cb975139df52878446c2bbe6",
+    "prior": null,
+    "checks": 55,
+    "samePixelsAsVideoRevision": false
+  }
+]

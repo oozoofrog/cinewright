@@ -1,0 +1,26 @@
+node:internal/modules/run_main:111
+    triggerUncaughtException(
+    ^
+
+AssertionError [ERR_ASSERTION]: Expected values to be strictly deep-equal:
++ actual - expected
+
+  [
+    255,
++   128,
++   128,
+-   127,
+-   127,
+    255
+  ]
+
+    at file:///Volumes/eyedisk/develop/cinewright/examples/styles/effects2d/probes.mjs:3:1885 {
+  generatedMessage: true,
+  code: 'ERR_ASSERTION',
+  actual: [ 255, 128, 128, 255 ],
+  expected: [ 255, 127, 127, 255 ],
+  operator: 'deepStrictEqual',
+  diff: 'simple'
+}
+
+Node.js v26.12.1

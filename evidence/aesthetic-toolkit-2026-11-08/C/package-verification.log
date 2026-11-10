@@ -1,0 +1,67 @@
+[
+  {
+    "recipe": "station",
+    "project": "/Volumes/eyedisk/develop/cinewright/.direction/aesthetic-toolkit-2026-11-08/C/station",
+    "revision": "1b5fa6a053b8968045ded0817d6f8e922929b65c54bc62da8e9871943774a87e",
+    "files": 40,
+    "frames": 192,
+    "size": [
+      1920,
+      1080
+    ],
+    "frozenAssetIsolation": true,
+    "localLoaderPath": "project/vendor/three/addons/loaders/GLTFLoader.js"
+  },
+  {
+    "recipe": "laboratory",
+    "project": "/Volumes/eyedisk/develop/cinewright/.direction/aesthetic-toolkit-2026-11-08/C/laboratory",
+    "revision": "baf83d6cbc78b8510a20946123a4a6c10df3b34e575606db16dacf7821c37355",
+    "files": 40,
+    "frames": 192,
+    "size": [
+      1920,
+      1080
+    ],
+    "frozenAssetIsolation": true,
+    "localLoaderPath": "project/vendor/three/addons/loaders/GLTFLoader.js"
+  },
+  {
+    "recipe": "portrait",
+    "project": "/Volumes/eyedisk/develop/cinewright/.direction/aesthetic-toolkit-2026-11-08/C/portrait",
+    "revision": "534af250fc37626eae5cc72b731e5acbb6df364c3cd492619a11615dc02ed76e",
+    "files": 40,
+    "frames": 192,
+    "size": [
+      1080,
+      1920
+    ],
+    "frozenAssetIsolation": true,
+    "localLoaderPath": "project/vendor/three/addons/loaders/GLTFLoader.js"
+  },
+  {
+    "recipe": "effects",
+    "project": "/Volumes/eyedisk/develop/cinewright/.direction/aesthetic-toolkit-2026-11-08/C/effects",
+    "revision": "a70ba38039dc538de1cd4a1cc5784b2f530d0cfe4849b0ee4622a08b34d5630b",
+    "files": 40,
+    "frames": 192,
+    "size": [
+      1920,
+      1080
+    ],
+    "frozenAssetIsolation": true,
+    "localLoaderPath": "project/vendor/three/addons/loaders/GLTFLoader.js"
+  },
+  {
+    "recipe": "mixed",
+    "project": "/Volumes/eyedisk/develop/cinewright/.direction/aesthetic-toolkit-2026-11-08/C/mixed",
+    "revision": "38c4cdf30e16778b862b9ce6a9782d090dfdacb09b3b87823a850cff5a69b73a",
+    "files": 41,
+    "frames": 192,
+    "size": [
+      1920,
+      1080
+    ],
+    "frozenAssetIsolation": true,
+    "localLoaderPath": "project/vendor/three/addons/loaders/GLTFLoader.js"
+  }
+]

@@ -1,0 +1,15 @@
+✔ replaceable forest, harbor and portrait compile to manifest v1 without changing authored input (85.354875ms)
+✔ bad scene fails before publishing; preserve input, reject cycles and excess objects (2.4735ms)
+✔ half-open irregular exposure preserves frame/value, hold versus interpolation (0.775833ms)
+✔ hierarchy, clamps, input immutability, cycles and parent errors (0.401292ms)
+✔ continuous camera coexists with held pose and coverage diagnoses edges (0.185ms)
+✔ absolute emitter and independent trail survive arbitrary sampling (0.347875ms)
+✔ SVG and command validation rejects truncated curves, arc flags and nonfinite coordinates before publishing (0.336417ms)
+ℹ tests 7
+ℹ suites 0
+ℹ pass 7
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 194.194833

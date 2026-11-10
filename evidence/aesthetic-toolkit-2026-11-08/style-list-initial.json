@@ -1,0 +1,78 @@
+{
+  "version": 1,
+  "styles": [
+    {
+      "id": "silhouette-theatre",
+      "version": "1.0.0",
+      "status": "experimental",
+      "entry": "modules/styles/silhouette-theatre/index.mjs",
+      "exports": [
+        "prepare",
+        "validateScene"
+      ],
+      "dependencies": [],
+      "renderer": "Canvas2D",
+      "input": "scene v1, SVG/commands/alpha assets, hinge rigs, poses and planes",
+      "output": "manifest v1 Canvas layer",
+      "units": "logical px, radians, integer frames",
+      "deterministic": "absolute frame and independent pose exposure",
+      "limits": "256 bones, 256 objects, 4096px max",
+      "unsupported": [
+        "automatic photographic segmentation"
+      ],
+      "examples": "recipes/styles/silhouette-theatre",
+      "evidence": "evidence/aesthetic-toolkit-2026-11-08/A"
+    },
+    {
+      "id": "line-wash",
+      "version": "1.0.0",
+      "status": "experimental",
+      "entry": "modules/styles/line-wash/index.mjs",
+      "exports": [
+        "prepare",
+        "validateScene"
+      ],
+      "dependencies": [],
+      "renderer": "Canvas2D",
+      "input": "authored strokes/washes/erasure/redraw scene v1",
+      "output": "manifest v1 Canvas layer",
+      "units": "logical px and integer frames",
+      "deterministic": "absolute stroke age and stable material seed",
+      "unsupported": [
+        "fluid simulation",
+        "automatic rotoscoping"
+      ],
+      "examples": "recipes/styles/line-wash",
+      "evidence": "evidence/aesthetic-toolkit-2026-11-08/B"
+    },
+    {
+      "id": "expressionist-space",
+      "version": "1.0.0",
+      "status": "experimental",
+      "entry": "modules/styles/expressionist-space/index.mjs",
+      "exports": [
+        "prepare",
+        "validateScene"
+      ],
+      "dependencies": [
+        {
+          "id": "three",
+          "version": "0.180.0",
+          "license": "MIT"
+        }
+      ],
+      "renderer": "WebGL2 to Canvas2D",
+      "input": "authored mesh/UV/light/clip scene v1",
+      "output": "manifest v1 transparent WebGL composite",
+      "units": "world units and integer frames",
+      "deterministic": "rest geometry and absolute clip evaluation",
+      "unsupported": [
+        "compressed GLB",
+        "automatic UV",
+        "automatic retargeting"
+      ],
+      "examples": "recipes/styles/expressionist-space",
+      "evidence": "evidence/aesthetic-toolkit-2026-11-08/C"
+    }
+  ]
+}

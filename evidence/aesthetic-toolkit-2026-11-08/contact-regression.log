@@ -1,0 +1,20 @@
+✔ cubic approximation, bounded failure, invalid data and immutability (1.418375ms)
+✔ redraw correspondence, exposure, erasure boundaries and seeded dabs (0.626041ms)
+✔ authored scenes validate and reverse seek is independent (12.579667ms)
+✔ scene rejects bad bank pressure, masks and material (1.9135ms)
+✔ arc-length reveal and input immutability (1.133041ms)
+✔ rejects invalid pressure and zero length (0.151ms)
+✔ scene preflight rejects missing shapes, ranges, mismatched poses, malformed reveal and missing assets without publication (8.968583ms)
+✔ straight cubic retains nonlinear pressure, finite derived length and bounded flatten allocation (31.224542ms)
+✔ public wash/transition and B dab validation reject nonfinite or malformed inputs (0.678458ms)
+✔ geometry factory and C scene reject zero/fractional subdivisions before Three allocates NaN buffers (1.67175ms)
+✔ provenance has no circular self hash and matches all authored silhouette bytes (1.485042ms)
+✔ authored commuter contact holds planted shoes fixed while swing feet lift and ankle lines match (19.313375ms)
+ℹ tests 12
+ℹ suites 0
+ℹ pass 12
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 210.922084

@@ -1,0 +1,205 @@
+[
+  {
+    "name": "catalog actual style and common effect exports",
+    "pass": true,
+    "detail": {
+      "entries": 24,
+      "exports": 51
+    }
+  },
+  {
+    "name": "root skill wrapper and all local Markdown links in style references/handoff",
+    "pass": true,
+    "detail": {
+      "files": 8,
+      "localLinks": 28
+    }
+  },
+  {
+    "name": "B provenance exact sha and pinned interpreter",
+    "pass": true,
+    "detail": {
+      "B": "Python 3.15.2 stdlib",
+      "A": "3.15.2"
+    }
+  },
+  {
+    "name": "C provenance exact local GLB payloads",
+    "pass": true,
+    "detail": {
+      "version": 1,
+      "author": "Cinewright / original procedural authorship for this implementation",
+      "license": "CC0-1.0",
+      "source": "author.mjs; no third-party model, texture, animation or film image",
+      "tools": {
+        "node": "v26.12.1",
+        "three": "0.180.0"
+      },
+      "units": "metres",
+      "axis": "+Y up; right-handed",
+      "pivot": "each mesh local origin, grouped actor origin at floor contact",
+      "colorSpace": "GLB has no textures; hatch atlas is generated linear data; material colors authored sRGB",
+      "alpha": "GLB opaque; adapter transparent premultiplied canvas",
+      "rig": "Rigid named node hierarchy, no skinning; no retargeting",
+      "rest": "traveler upright at y=0, coat/case/hat; vessel bottom at y=0",
+      "uv": "Three parametric UV; seams are intentional and may remain visible",
+      "assets": [
+        {
+          "file": "traveler.glb",
+          "sha256": "b7f4974717cf25da98164a24aa3cf29312f2f07a0a1a7a41230d9e733d7decf6",
+          "bytes": 55552,
+          "scale": 1,
+          "clip": {
+            "name": "case-sway",
+            "duration": 2,
+            "authoringFps": 24,
+            "loop": true,
+            "contact": "vessel/boots remain on authored ground; no IK",
+            "motion": "case z rotation, actor translation separately authored"
+          }
+        },
+        {
+          "file": "specimen.glb",
+          "sha256": "b8e140ef78c7d1f05d2342e51d6d6dbdcf828b6eff5e3132313dfb9acf987efc",
+          "bytes": 63944,
+          "scale": 1,
+          "clip": {
+            "name": "seed-rise",
+            "duration": 4,
+            "authoringFps": 24,
+            "loop": true,
+            "contact": "vessel/boots remain on authored ground; no IK",
+            "motion": "suspended seed y translation; vessel static"
+          }
+        }
+      ],
+      "proceduralMaterials": {
+        "hatchAtlas": {
+          "source": "modules/fx3d/material.mjs createHatchAtlas",
+          "width": 256,
+          "height": 64,
+          "sha256": "83cdd5fa6e2506ba4747eca5c3b6634a949905f9c3d96281dc437a8e88ae8933",
+          "license": "CC0-1.0",
+          "anchor": "object UV, 4 nested density tiles",
+          "colorSpace": "linear data",
+          "alpha": "opaque data texture; not an image layer"
+        },
+        "gobo": {
+          "source": "modules/fx3d/light.mjs createLightRig",
+          "width": 64,
+          "height": 64,
+          "license": "CC0-1.0",
+          "anchor": "spot-light projection"
+        }
+      }
+    }
+  },
+  {
+    "name": "CLI help list build and freeze actually execute",
+    "pass": true,
+    "detail": {
+      "commands": 4
+    }
+  },
+  {
+    "name": "R3 update precise pre/post proof with header-only PNG",
+    "pass": false,
+    "error": "AssertionError [ERR_ASSERTION]: malformed image update was accepted\n\ntrue !== false\n"
+  },
+  {
+    "name": "current code exactly matches reviewed source snapshots",
+    "pass": true,
+    "detail": [
+      {
+        "scene": "A/forest",
+        "modulesChecked": 7,
+        "coordinatorPixelsEqual": true
+      },
+      {
+        "scene": "A/harbor",
+        "modulesChecked": 7,
+        "coordinatorPixelsEqual": true
+      },
+      {
+        "scene": "A/portrait",
+        "modulesChecked": 7,
+        "coordinatorPixelsEqual": false
+      },
+      {
+        "scene": "C/station",
+        "modulesChecked": 12,
+        "coordinatorPixelsEqual": true
+      },
+      {
+        "scene": "C/laboratory",
+        "modulesChecked": 12,
+        "coordinatorPixelsEqual": true
+      },
+      {
+        "scene": "C/effects",
+        "modulesChecked": 12,
+        "coordinatorPixelsEqual": true
+      },
+      {
+        "scene": "C/mixed",
+        "modulesChecked": 12,
+        "coordinatorPixelsEqual": true
+      },
+      {
+        "scene": "C/portrait",
+        "modulesChecked": 12,
+        "coordinatorPixelsEqual": true
+      },
+      {
+        "scene": "B/rain",
+        "modulesChecked": 8,
+        "coordinatorPixelsEqual": true
+      },
+      {
+        "scene": "B/commuter",
+        "modulesChecked": 8,
+        "coordinatorPixelsEqual": true
+      },
+      {
+        "scene": "B/portrait",
+        "modulesChecked": 8,
+        "coordinatorPixelsEqual": false
+      }
+    ]
+  },
+  {
+    "name": "own current B commuter and A portrait PNGs equal saved current-source evidence",
+    "pass": true,
+    "detail": [
+      {
+        "own": "B-commuter-96.png",
+        "prior": "B/commuter-reviewed/frame-96-540p.png",
+        "sha256": "ad679d04374fbb7485f54c18cfc53081f124f8832135e0eabebf133efaadd864"
+      },
+      {
+        "own": "B-commuter-191.png",
+        "prior": "B/commuter-reviewed/frame-191-540p.png",
+        "sha256": "a43f9758877e2d61532f3c7d68473d1928d47da5ed4fdcf3f0e81809380903e9"
+      },
+      {
+        "own": "A-portrait-96.png",
+        "prior": "reviewed-source-final/A/portrait/frame-96-540p.png",
+        "sha256": "5f76ae4a0b8010b16f3ad1edb6021f3bc7d993b311186d7ebc750d1424e17c7b"
+      },
+      {
+        "own": "A-portrait-191.png",
+        "prior": "reviewed-source-final/A/portrait/frame-191-540p.png",
+        "sha256": "dfbb490d5a15bde9cc9642067eff501a08f1b81be2fe5e805b00381eea1517d8"
+      }
+    ]
+  },
+  {
+    "name": "coordinator whole suite and final video/flash receipts audited separately",
+    "pass": true,
+    "detail": {
+      "sourceLogOnly": true,
+      "tests": 434,
+      "videos": 18
+    }
+  }
+]

@@ -1,0 +1,99 @@
+{
+  "project": "/Volumes/eyedisk/develop/cinewright/.direction/aesthetic-toolkit-2026-11-08/C/station",
+  "style": "expressionist-space",
+  "version": "1.0.0",
+  "files": [
+    {
+      "file": "modules/styles/expressionist-space/index.mjs",
+      "sha256": "18f2258d819632431eb3039ad7ca158ba7fa4484d5a07c8b2124f53e9410b685"
+    },
+    {
+      "file": "modules/animation/exposure.mjs",
+      "sha256": "2f782b9b86c680c7d204e1664d4cb8c7c15400774c839d139f0b7b8d25836796"
+    },
+    {
+      "file": "modules/animation/clip3d.mjs",
+      "sha256": "f8087674425114b22aedf34f2d9778c89ab6463b24a1a1f4e9de0356f7565819"
+    },
+    {
+      "file": "modules/fx3d/adapter.mjs",
+      "sha256": "796bc116c14a38aae717efa0aeac8040db09c4d8f9335b8d8a6e84b09f0990b1"
+    },
+    {
+      "file": "modules/fx3d/material.mjs",
+      "sha256": "519e96f462bbc30e4b2cd89d515e600ed4b3c2cb9845f8de2c9bdd6de01e22d5"
+    },
+    {
+      "file": "modules/fx3d/outline.mjs",
+      "sha256": "dda72bd5e03193cd6b5245dbf52fcd4a6646c08afd478408853311f2802701bd"
+    },
+    {
+      "file": "modules/fx3d/geometry.mjs",
+      "sha256": "a70b3fd6aab9343a4e79e06098bcfb1c3ff2e96dda171a3254880ee94f74ebd7"
+    },
+    {
+      "file": "modules/fx3d/light.mjs",
+      "sha256": "ce3e24c0461542de0b03862e64ed02385072ad23772d10c7a4e406fe7299e691"
+    },
+    {
+      "file": "modules/fx3d/particles.mjs",
+      "sha256": "54eb4aacc0fa251871dcf14430981e37b170853a172c77ad1a31d5e09a3a9486"
+    },
+    {
+      "file": "modules/fx3d/deform.mjs",
+      "sha256": "23836b65207973de0f18a74ffa04fcd888e5e974f94363b5da86941b42de9544"
+    },
+    {
+      "file": "modules/fx3d/glb.mjs",
+      "sha256": "02106bdaa2c02b3c1e87e3ef334f8273ef26bcff2b2e48dcb78edd7220c6f201"
+    },
+    {
+      "file": "modules/styles/expressionist-space/validate.mjs",
+      "sha256": "f5718b10aae9457991f7c09126f6de8754d8c4bebc0081198697440a8c0da6ea"
+    },
+    {
+      "file": "vendor/three/addons/loaders/GLTFLoader.js",
+      "sha256": "67ac5551fdafa6e349bd80c8f8e5e39c136d6b2fb1ad647db9abb21dc86f9e4a"
+    },
+    {
+      "file": "vendor/three/addons/utils/BufferGeometryUtils.js",
+      "sha256": "fda7e946b8e0b5ab39b779206589e7a1079a22eb24efb89d7223e03fdfb1f751"
+    },
+    {
+      "file": "vendor/three/LICENSE",
+      "sha256": "bfe119ea4fd413f5f7ca3fcd63adb0c4a073ed39daa2fe7d3e6b769e21272601"
+    },
+    {
+      "file": "vendor/three/package.json",
+      "sha256": "5197b7644d3a95c16e757d3494a719debbd8fbd0702dedf2c8a1d598a519f9e4"
+    },
+    {
+      "file": "assets/traveler.glb",
+      "sha256": "b7f4974717cf25da98164a24aa3cf29312f2f07a0a1a7a41230d9e733d7decf6"
+    },
+    {
+      "file": "assets/specimen.glb",
+      "sha256": "b8e140ef78c7d1f05d2342e51d6d6dbdcf828b6eff5e3132313dfb9acf987efc"
+    },
+    {
+      "file": "assets/metadata.json",
+      "sha256": "2ce58df8bd448a39f83c6d1da4480ee2e187360e1e2cb8b5bcd1cad32b1b9ba7"
+    },
+    {
+      "file": "assets/LICENSE",
+      "sha256": "b7275ae5cbfbfb4cb4a7484c63530b4de3c665dd1accd50b9f2545e7400d8ac9"
+    },
+    {
+      "file": "work.json",
+      "sha256": "8a63cc1352f4ac7bba481a94da5b2d1258de99e5373dc884d330d4c45dbac018"
+    },
+    {
+      "file": "style-scene.json",
+      "sha256": "8142a9d14ecbd909fc683ebb9cdf050d844b0f1dc737378aff6cc5839aafe009"
+    },
+    {
+      "file": "style-version.json",
+      "sha256": "7441608b7f9d703f1a049dbaffcbfd84f5fe475e6aebd4d2ce6a3f385d380699"
+    }
+  ]
+}

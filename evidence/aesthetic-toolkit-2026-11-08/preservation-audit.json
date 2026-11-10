@@ -1,0 +1,44 @@
+{
+  "headUnchanged": true,
+  "indexUnchanged": true,
+  "baselineFiles": 427,
+  "changed": [
+    {
+      "path": "docs/handoffs/2026-11-08-aesthetic-toolkit-execution.md",
+      "allowed": true,
+      "before": "c5fec0994dc3d4e158e2bf5ce4ed427c4a1c2f31e451f390115272e3f8e53539",
+      "after": "d63e812c20882094a5c43fbcbf187902e2e07eecd4088b0452338b3d723e9384"
+    },
+    {
+      "path": "scripts/materialize-kit.mjs",
+      "allowed": true,
+      "before": "3474870f3de324ab9a90bfaf8f1a01cbdbc2f24bc0c1994c4636dc28f42450e3",
+      "after": "54859a302fb4f477010344899b9ed2f07360037c20c7e3819e8a171207d5ea36"
+    },
+    {
+      "path": "README.md",
+      "allowed": true,
+      "before": "f7f541fd8ac2d809045bd90b6073aea8fecc8090b5a5725b607ffe9a1eb8f0a4",
+      "after": "1721790983a03fbd975e5c154c40acfe6b00f6f9c35886453b3ff0b00c0eefaa"
+    },
+    {
+      "path": "SKILL.md",
+      "allowed": true,
+      "before": "a75cf2d9e60bdaee07c61c8fb537856bc9519a6a27a05f48e870b6d10c4e9b78",
+      "after": "0c662a47dd2dde2cc946ecba035e8fc5c63885b9533d54bb158f8365dd0b8bf5"
+    },
+    {
+      "path": "scripts/direction.mjs",
+      "allowed": true,
+      "before": "870933b80485160633088b5b67ecd46470953cf38bb0103c802522226e31d42e",
+      "after": "da2627532866c6f36582d55a5fc5960f13fd54f6a4be22e3ec4bd1bca7451705"
+    },
+    {
+      "path": "scripts/jobs.mjs",
+      "allowed": true,
+      "before": "1a6b39840491ecf2001e6209fa0d54bf35f02556cc3c114e65f961af22f67b04",
+      "after": "4afb025fccba5b975ba96862d69c20f783295c53c516f8ff2fc7ebfdb05c7695"
+    }
+  ],
+  "unexpected": []
+}

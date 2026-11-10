@@ -1,0 +1,182 @@
+[
+  {
+    "name": "R2 reject missingShape",
+    "pass": true
+  },
+  {
+    "name": "R2 reject missingShadow",
+    "pass": true
+  },
+  {
+    "name": "R2 reject reversed",
+    "pass": true
+  },
+  {
+    "name": "R2 reject poseMismatch",
+    "pass": true
+  },
+  {
+    "name": "R2 reject clock",
+    "pass": true
+  },
+  {
+    "name": "R2 reject halo",
+    "pass": true
+  },
+  {
+    "name": "R2 reject alpha",
+    "pass": true
+  },
+  {
+    "name": "R2 reject opacity",
+    "pass": true
+  },
+  {
+    "name": "R2 reject reveal",
+    "pass": true
+  },
+  {
+    "name": "R4 nonlinear straight cubic pressure across arc reveal",
+    "pass": true,
+    "detail": {
+      "points": 17,
+      "maxError": 0.002925000000000011
+    }
+  },
+  {
+    "name": "R5 reject coordinates",
+    "pass": true
+  },
+  {
+    "name": "R5 reject width",
+    "pass": true
+  },
+  {
+    "name": "R5 reject tolerance",
+    "pass": true
+  },
+  {
+    "name": "R5 reject washNaN",
+    "pass": true
+  },
+  {
+    "name": "R5 reject washEdge",
+    "pass": true
+  },
+  {
+    "name": "R5 reject dabZero",
+    "pass": true
+  },
+  {
+    "name": "R5 reject fractionalSpan",
+    "pass": true
+  },
+  {
+    "name": "R6 near and over flattened budget",
+    "pass": true,
+    "detail": {
+      "near": 49153,
+      "cap": 65536
+    }
+  },
+  {
+    "name": "R6 exact aggregate budget and bank contribution",
+    "pass": true
+  },
+  {
+    "name": "R7 reject {\"type\":\"box\",\"args\":[1,1,1,0,1,1]}",
+    "pass": true
+  },
+  {
+    "name": "R7 reject {\"type\":\"sphere\",\"args\":[1,2,2]}",
+    "pass": true
+  },
+  {
+    "name": "R7 reject {\"type\":\"cylinder\",\"args\":[1,0,1,2]}",
+    "pass": true
+  },
+  {
+    "name": "R7 reject {\"type\":\"torus\",\"args\":[1,0.2,3.5]}",
+    "pass": true
+  },
+  {
+    "name": "R7 reject {\"type\":\"lathe\",\"points\":[[0,0],[1,1]],\"segments\":0}",
+    "pass": true
+  },
+  {
+    "name": "R7 generated finite primitives",
+    "pass": true,
+    "detail": {
+      "vertices": 467
+    }
+  },
+  {
+    "name": "R10 boundaries and invalid frame/vec2",
+    "pass": true
+  },
+  {
+    "name": "R1 every stance, ankles, swing and stop",
+    "pass": true,
+    "detail": {
+      "frames": 192,
+      "ankleAssertions": 768,
+      "stanceFrames": 312
+    }
+  },
+  {
+    "name": "R11 actual payload hashes and interpreter pins",
+    "pass": true,
+    "detail": {
+      "silhouette-theatre": {
+        "python": "3.15.2",
+        "renderer": "Canvas2D"
+      },
+      "line-wash": "Python 3.15.2 stdlib"
+    }
+  },
+  {
+    "name": "R3 missing alpha no new project",
+    "pass": true
+  },
+  {
+    "name": "R3 malformed GLB no new project",
+    "pass": true
+  },
+  {
+    "name": "R8 forward match project and freeze",
+    "pass": true,
+    "detail": {
+      "revision": "4bf06e422028f4f8953972b3c4ce37ec06d1858626e37979b07e1aa7d6c752d9"
+    }
+  },
+  {
+    "name": "forward B corresponding redraw and masked erasure project",
+    "pass": true,
+    "detail": {
+      "project": "B-study"
+    }
+  },
+  {
+    "name": "forward C current local GLB and orthographic camera",
+    "pass": true,
+    "detail": {
+      "project": "C-study"
+    }
+  },
+  {
+    "name": "generated ownership preserves authored bytes",
+    "pass": true
+  },
+  {
+    "name": "R3 truncated PNG must reject before new publication",
+    "pass": false,
+    "error": "AssertionError [ERR_ASSERTION]: Missing expected rejection.",
+    "stack": "AssertionError [ERR_ASSERTION]: Missing expected rejection.\n    at async file:///Volumes/eyedisk/develop/cinewright/evidence/aesthetic-toolkit-2026-11-08/independent-review-02/cpu.mjs:43:77\n    at async check (file:///Volumes/eyedisk/develop/cinewright/evidence/aesthetic-toolkit-2026-11-08/independent-review-02/cpu.mjs:18:48)\n    at async file:///Volumes/eyedisk/develop/cinewright/evidence/aesthetic-toolkit-2026-11-08/independent-review-02/cpu.mjs:43:1"
+  },
+  {
+    "name": "R3 malformed image update preserves original project",
+    "pass": false,
+    "error": "AssertionError [ERR_ASSERTION]: Missing expected rejection.",
+    "stack": "AssertionError [ERR_ASSERTION]: Missing expected rejection.\n    at async file:///Volumes/eyedisk/develop/cinewright/evidence/aesthetic-toolkit-2026-11-08/independent-review-02/cpu.mjs:44:175\n    at async check (file:///Volumes/eyedisk/develop/cinewright/evidence/aesthetic-toolkit-2026-11-08/independent-review-02/cpu.mjs:18:48)\n    at async file:///Volumes/eyedisk/develop/cinewright/evidence/aesthetic-toolkit-2026-11-08/independent-review-02/cpu.mjs:44:1"
+  }
+]

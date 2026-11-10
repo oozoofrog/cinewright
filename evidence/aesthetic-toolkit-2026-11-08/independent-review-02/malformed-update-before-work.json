@@ -1,0 +1,96 @@
+{
+  "version": 1,
+  "title": "updated",
+  "size": [
+    320,
+    180
+  ],
+  "fps": 24,
+  "frames": 48,
+  "background": "#ffffff",
+  "points": {
+    "start": 0,
+    "finish": 47
+  },
+  "spans": {
+    "whole": [
+      0,
+      48
+    ]
+  },
+  "audio": [],
+  "layers": [
+    {
+      "id": "style",
+      "module": "modules/styles/silhouette-theatre/index.mjs",
+      "config": {
+        "scene": {
+          "version": 1,
+          "style": "silhouette-theatre",
+          "title": "updated",
+          "size": [
+            320,
+            180
+          ],
+          "fps": 24,
+          "frames": 48,
+          "seed": 99,
+          "background": "#ffffff",
+          "backdrop": [
+            [
+              0,
+              "#336699"
+            ],
+            [
+              1,
+              "#336699"
+            ]
+          ],
+          "shapes": {
+            "aperture": {
+              "path": "M-70 -50 L70 -50 L70 50 L-70 50 Z"
+            },
+            "mark": {
+              "path": "M10 10 L310 10 L310 170 L10 170 Z",
+              "fill": "#112233",
+              "edge": false
+            }
+          },
+          "planes": [
+            {
+              "id": "stage",
+              "depth": 0,
+              "objects": [
+                {
+                  "id": "mark",
+                  "type": "shape",
+                  "shape": "mark"
+                }
+              ]
+            }
+          ],
+          "camera": {
+            "keys": [
+              {
+                "frame": 0,
+                "x": 0,
+                "y": 0,
+                "zoom": 1
+              }
+            ]
+          },
+          "reveal": {
+            "kind": "match",
+            "from": 0,
+            "to": 24,
+            "center": [
+              160,
+              90
+            ],
+            "shape": "aperture"
+          }
+        }
+      }
+    }
+  ]
+}

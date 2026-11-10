@@ -1,0 +1,48 @@
+✔ absolute reverse clip seek and disposal (1.707209ms)
+✔ held clip and clamped nonloop (0.26625ms)
+✔ GLB rejects malformed headers and remote dependencies (0.592709ms)
+✔ vendor closure pins version and retains MIT license (5.062042ms)
+✔ three authored scene grammars validate without mutation (6.748292ms)
+✔ scene rejects malformed mesh UV, missing material, key mismatch and invalid gobo (2.69275ms)
+✔ absolute deformation restores rest across random/reverse queries (2.854083ms)
+✔ UV atlas contains nested density, shader uses UV and keeps color/fog stages (3.193084ms)
+✔ instanced dust is analytic seed/id/age and does not retain last frame (1.0875ms)
+✔ clip negative timeScale, looping boundary and weight keep absolute semantics (1.452ms)
+✔ embedded original assets include UV and matching animation (2.268417ms)
+✔ capability failure is explicit and never silently paints fallback (0.214666ms)
+✔ shot keys clamp and interpolate world transforms independently (0.13925ms)
+✔ actual r180 GLTFLoader parses original embedded UV meshes and animation in Node (6.030084ms)
+✔ public geometry/lighting helpers reject allocation expansion and invalid graphic shadows (0.611083ms)
+✔ cubic approximation, bounded failure, invalid data and immutability (1.4615ms)
+✔ redraw correspondence, exposure, erasure boundaries and seeded dabs (2.6845ms)
+✔ authored scenes validate and reverse seek is independent (17.612542ms)
+✔ scene rejects bad bank pressure, masks and material (3.219833ms)
+✔ arc-length reveal and input immutability (0.749208ms)
+✔ rejects invalid pressure and zero length (0.120458ms)
+✔ replaceable forest, harbor and portrait compile to manifest v1 without changing authored input (89.801792ms)
+✔ bad scene fails before publishing; preserve input, reject cycles and excess objects (2.75875ms)
+✔ half-open irregular exposure preserves frame/value, hold versus interpolation (1.649708ms)
+✔ hierarchy, clamps, input immutability, cycles and parent errors (0.698125ms)
+✔ continuous camera coexists with held pose and coverage diagnoses edges (0.262ms)
+✔ absolute emitter and independent trail survive arbitrary sampling (0.400167ms)
+✔ SVG and command validation rejects truncated curves, arc flags and nonfinite coordinates before publishing (0.360458ms)
+✔ 2D default/empty/maximum particle, trail and hatch counts stay bounded and fail above limits (14.120583ms)
+✔ all transition types clamp half-open boundaries and reject invalid time/centers (0.146625ms)
+✔ 3D atlas/material/dust/light maxima are actual bounded allocations with cleanup (12.438291ms)
+✔ line-wash aggregate preparation accepts its exact point budget then rejects additional marks (17.565333ms)
+✔ compositor disposes prior layers on partial prepare failure and explicit shutdown is idempotent (2711.816584ms)
+✔ scene preflight rejects missing shapes, ranges, mismatched poses, malformed reveal and missing assets without publication (11.505083ms)
+✔ straight cubic retains nonlinear pressure, finite derived length and bounded flatten allocation (35.696292ms)
+✔ public wash/transition and B dab validation reject nonfinite or malformed inputs (0.732334ms)
+✔ geometry factory and C scene reject zero/fractional subdivisions before Three allocates NaN buffers (1.393875ms)
+✔ provenance has no circular self hash and matches all authored silhouette bytes (1.147375ms)
+✔ authored commuter contact holds planted shoes fixed while swing feet lift and ankle lines match (19.744875ms)
+✔ staged generation rejects malformed embedded GLB before publishing or replacing prior bytes (5.996958ms)
+ℹ tests 40
+ℹ suites 0
+ℹ pass 40
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 2883.34775

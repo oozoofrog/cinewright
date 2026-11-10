@@ -1,0 +1,698 @@
+{
+  "project": "/Volumes/eyedisk/develop/cinewright/.direction/aesthetic-toolkit-2026-11-08/C/mixed",
+  "revision": "38c4cdf30e16778b862b9ce6a9782d090dfdacb09b3b87823a850cff5a69b73a",
+  "browser": "157.0.8103.38",
+  "size": [
+    1920,
+    1080
+  ],
+  "frames": 192,
+  "fps": 24,
+  "errors": [],
+  "warnings": [
+    "[.WebGL-0x11400583000]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels",
+    "[.WebGL-0x11400583000]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels",
+    "[.WebGL-0x11400583000]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels",
+    "[.WebGL-0x11400583000]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels (this message will no longer repeat)"
+  ],
+  "network": [],
+  "notes": [
+    "same software WebGL2 environment, no cross-GPU pixel guarantee",
+    "autoplay is automated; human continuous viewing/listening/accessibility/acceptance unverified"
+  ],
+  "prepareMs": 1638.735542,
+  "seek": {
+    "checks": 55,
+    "canonical": {
+      "0": {
+        "state": {
+          "frame": 0,
+          "values": {
+            "lamp.event": 0.3,
+            "specimen.screen": [
+              1162.926120608242,
+              690.7360152663837
+            ]
+          },
+          "exposures": {
+            "style": {
+              "frame": 0
+            },
+            "annotation": {
+              "frame": 0
+            }
+          }
+        },
+        "hash": "e3fefd767c831d7ebaf66e0333916638d9754cb653767a4f3f4925d204b200b9"
+      },
+      "1": {
+        "state": {
+          "frame": 1,
+          "values": {
+            "lamp.event": 0.3,
+            "specimen.screen": [
+              1163.0009678064364,
+              690.7406726074846
+            ]
+          },
+          "exposures": {
+            "style": {
+              "frame": 1
+            },
+            "annotation": {
+              "frame": 1
+            }
+          }
+        },
+        "hash": "981bd265a87eff128be48e3b7c8991665599053a9c72207c72354b6eb9d4f877"
+      },
+      "2": {
+        "state": {
+          "frame": 2,
+          "values": {
+            "lamp.event": 0.3,
+            "specimen.screen": [
+              1163.0757955492386,
+              690.7453349512855
+            ]
+          },
+          "exposures": {
+            "style": {
+              "frame": 2
+            },
+            "annotation": {
+              "frame": 2
+            }
+          }
+        },
+        "hash": "fdfd8735151aa6f1aa44a6e56198bfcb885c4486105ae3be1499b97ff7cfd28c"
+      },
+      "23": {
+        "state": {
+          "frame": 23,
+          "values": {
+            "lamp.event": 0.3,
+            "specimen.screen": [
+              1164.6426176871644,
+              690.8444730931036
+            ]
+          },
+          "exposures": {
+            "style": {
+              "frame": 23
+            },
+            "annotation": {
+              "frame": 23
+            }
+          }
+        },
+        "hash": "b262aa79465efe0fc6e5513bdda955169b9dd4c5781b5d03f4d9c6ed2f5181b1"
+      },
+      "24": {
+        "state": {
+          "frame": 24,
+          "values": {
+            "lamp.event": 0.3,
+            "specimen.screen": [
+              1164.717007951148,
+              690.8492559746512
+            ]
+          },
+          "exposures": {
+            "style": {
+              "frame": 24
+            },
+            "annotation": {
+              "frame": 24
+            }
+          }
+        },
+        "hash": "6f7ed337958e6d5610013565aad9c030f80d68f2388b66dd02c8af0c8225ac56"
+      },
+      "25": {
+        "state": {
+          "frame": 25,
+          "values": {
+            "lamp.event": 0.3,
+            "specimen.screen": [
+              1164.7913779008832,
+              690.8540448127512
+            ]
+          },
+          "exposures": {
+            "style": {
+              "frame": 25
+            },
+            "annotation": {
+              "frame": 25
+            }
+          }
+        },
+        "hash": "0de13b9411849a3f4eac6cf01e7132de7a3f196a88cf469a87a437e1bae33ba2"
+      },
+      "47": {
+        "state": {
+          "frame": 47,
+          "values": {
+            "lamp.event": 0.3,
+            "specimen.screen": [
+              1166.4223021751318,
+              690.9609906499328
+            ]
+          },
+          "exposures": {
+            "style": {
+              "frame": 47
+            },
+            "annotation": {
+              "frame": 47
+            }
+          }
+        },
+        "hash": "ee648a2091718f4a37a10ee665871d16d37630394948aff2dc7bfe47a2657266"
+      },
+      "48": {
+        "state": {
+          "frame": 48,
+          "values": {
+            "lamp.event": 0.3,
+            "specimen.screen": [
+              1166.496194662456,
+              690.9659280032126
+            ]
+          },
+          "exposures": {
+            "style": {
+              "frame": 48
+            },
+            "annotation": {
+              "frame": 48
+            }
+          }
+        },
+        "hash": "a4573b92d1edb37d0dd57383b008baf4a06cc4720229defec13e318f6e976f13"
+      },
+      "49": {
+        "state": {
+          "frame": 49,
+          "values": {
+            "lamp.event": 0.3145833333333333,
+            "specimen.screen": [
+              1166.570065947018,
+              690.9708723154181
+            ]
+          },
+          "exposures": {
+            "style": {
+              "frame": 49
+            },
+            "annotation": {
+              "frame": 49
+            }
+          }
+        },
+        "hash": "cb173156c447e1180da49c1a22afd960499be0fad61577175130afc26e52c762"
+      },
+      "71": {
+        "state": {
+          "frame": 71,
+          "values": {
+            "lamp.event": 0.6354166666666666,
+            "specimen.screen": [
+              1168.1897955266118,
+              691.0814926912183
+            ]
+          },
+          "exposures": {
+            "style": {
+              "frame": 71
+            },
+            "annotation": {
+              "frame": 71
+            }
+          }
+        },
+        "hash": "6ce8151551d60f58ab8c0ae80082c54ad31479e7cc11df704c1970c2a2b2f924"
+      },
+      "72": {
+        "state": {
+          "frame": 72,
+          "values": {
+            "lamp.event": 0.6499999999999999,
+            "specimen.screen": [
+              1168.2631690140845,
+              691.0866086408099
+            ]
+          },
+          "exposures": {
+            "style": {
+              "frame": 72
+            },
+            "annotation": {
+              "frame": 72
+            }
+          }
+        },
+        "hash": "51e4c4d8ff913e18a7025d630a62cd6365b9f6bc0fe562887528132f40a53472"
+      },
+      "73": {
+        "state": {
+          "frame": 73,
+          "values": {
+            "lamp.event": 0.6645833333333333,
+            "specimen.screen": [
+              1168.3365204192787,
+              691.0917325572942
+            ]
+          },
+          "exposures": {
+            "style": {
+              "frame": 73
+            },
+            "annotation": {
+              "frame": 73
+            }
+          }
+        },
+        "hash": "fd3bfb21e7be0752a997de2efc1dc9bafac60b9ac89d28d18bd0f998a4c98583"
+      },
+      "95": {
+        "state": {
+          "frame": 95,
+          "values": {
+            "lamp.event": 0.9854166666666666,
+            "specimen.screen": [
+              1169.9445909663802,
+              691.2065596110943
+            ]
+          },
+          "exposures": {
+            "style": {
+              "frame": 95
+            },
+            "annotation": {
+              "frame": 95
+            }
+          }
+        },
+        "hash": "02cb7bfac2ce4490b24f6278c41a3d93a0b6a5c477e3332a1793eccbe1293fc3"
+      },
+      "96": {
+        "state": {
+          "frame": 96,
+          "values": {
+            "lamp.event": 1,
+            "specimen.screen": [
+              1170.0174244601221,
+              691.2118783967219
+            ]
+          },
+          "exposures": {
+            "style": {
+              "frame": 96
+            },
+            "annotation": {
+              "frame": 96
+            }
+          }
+        },
+        "hash": "5f2282473f8d2efd41583415bf58120fd346606e74a0f42b057a29dcdfb63247"
+      },
+      "97": {
+        "state": {
+          "frame": 97,
+          "values": {
+            "lamp.event": 1,
+            "specimen.screen": [
+              1170.0902350022284,
+              691.2172061611334
+            ]
+          },
+          "exposures": {
+            "style": {
+              "frame": 97
+            },
+            "annotation": {
+              "frame": 97
+            }
+          }
+        },
+        "hash": "2421a17612e31be008bee19159c4020189ab6d13730db2498c501b4944dca58b"
+      },
+      "103": {
+        "state": {
+          "frame": 103,
+          "values": {
+            "lamp.event": 1,
+            "specimen.screen": [
+              1170.526614256708,
+              691.2493636667526
+            ]
+          },
+          "exposures": {
+            "style": {
+              "frame": 103
+            },
+            "annotation": {
+              "frame": 103
+            }
+          }
+        },
+        "hash": "1a1f2e6c02a583c3e05109c0b03f8909f50c813f5e966b8d42472e84e74ec709"
+      },
+      "104": {
+        "state": {
+          "frame": 104,
+          "values": {
+            "lamp.event": 1,
+            "specimen.screen": [
+              1170.5992631308775,
+              691.2547554650687
+            ]
+          },
+          "exposures": {
+            "style": {
+              "frame": 104
+            },
+            "annotation": {
+              "frame": 104
+            }
+          }
+        },
+        "hash": "2625ed73ca21ddca45e87c78b35e461b41b1e2e1f4f43f5b4f74443dfff1c6d1"
+      },
+      "105": {
+        "state": {
+          "frame": 105,
+          "values": {
+            "lamp.event": 1,
+            "specimen.screen": [
+              1170.6718887660834,
+              691.2601565800425
+            ]
+          },
+          "exposures": {
+            "style": {
+              "frame": 105
+            },
+            "annotation": {
+              "frame": 105
+            }
+          }
+        },
+        "hash": "030c3691aa79407213d723b389aace056d3a81a09cbe2d3c650b45a182d23953"
+      },
+      "127": {
+        "state": {
+          "frame": 127,
+          "values": {
+            "lamp.event": 1,
+            "specimen.screen": [
+              1172.2637009921677,
+              691.3814237578079
+            ]
+          },
+          "exposures": {
+            "style": {
+              "frame": 127
+            },
+            "annotation": {
+              "frame": 127
+            }
+          }
+        },
+        "hash": "13443e500662cdbd4da151a03e8e899584bd096c0116029292a76440a48fd674"
+      },
+      "128": {
+        "state": {
+          "frame": 128,
+          "values": {
+            "lamp.event": 1,
+            "specimen.screen": [
+              1172.3357822855198,
+              691.3870508205746
+            ]
+          },
+          "exposures": {
+            "style": {
+              "frame": 128
+            },
+            "annotation": {
+              "frame": 128
+            }
+          }
+        },
+        "hash": "45666ac95108a8de1a8e723b295d7fe7294670301db849099d77b690e4bc6634"
+      },
+      "129": {
+        "state": {
+          "frame": 129,
+          "values": {
+            "lamp.event": 1,
+            "specimen.screen": [
+              1172.4078394858923,
+              691.3926882144489
+            ]
+          },
+          "exposures": {
+            "style": {
+              "frame": 129
+            },
+            "annotation": {
+              "frame": 129
+            }
+          }
+        },
+        "hash": "56cbbace95f505f6e120e96ee99a5ec282a24672f44aba8cb5cacbb638ac8f53"
+      },
+      "143": {
+        "state": {
+          "frame": 143,
+          "values": {
+            "lamp.event": 1,
+            "specimen.screen": [
+              1173.414090793756,
+              691.472720169618
+            ]
+          },
+          "exposures": {
+            "style": {
+              "frame": 143
+            },
+            "annotation": {
+              "frame": 143
+            }
+          }
+        },
+        "hash": "269ae1881b565f394404dabeffe242aad2effb7220079bdca86789b09a3c700f"
+      },
+      "144": {
+        "state": {
+          "frame": 144,
+          "values": {
+            "lamp.event": 1,
+            "specimen.screen": [
+              1173.4857823744967,
+              691.4785176030663
+            ]
+          },
+          "exposures": {
+            "style": {
+              "frame": 144
+            },
+            "annotation": {
+              "frame": 144
+            }
+          }
+        },
+        "hash": "9f91d9b56c644742f20a7992f6921e0aa7757c25df3d0c2f3cb142b761a177b6"
+      },
+      "145": {
+        "state": {
+          "frame": 145,
+          "values": {
+            "lamp.event": 0.9893617021276596,
+            "specimen.screen": [
+              1173.5574492999738,
+              691.4843260439599
+            ]
+          },
+          "exposures": {
+            "style": {
+              "frame": 145
+            },
+            "annotation": {
+              "frame": 145
+            }
+          }
+        },
+        "hash": "458e61f26f4571add65f38bbd8c92a6605e9c809623c80230f0c96e9c33ec076"
+      },
+      "190": {
+        "state": {
+          "frame": 190,
+          "values": {
+            "lamp.event": 0.5106382978723405,
+            "specimen.screen": [
+              1176.7563804504778,
+              691.75778315787
+            ]
+          },
+          "exposures": {
+            "style": {
+              "frame": 190
+            },
+            "annotation": {
+              "frame": 190
+            }
+          }
+        },
+        "hash": "ae98c29ed66d36432df53600e5258610f98d2df3cf0383bff09a4a2c169509dd"
+      },
+      "191": {
+        "state": {
+          "frame": 191,
+          "values": {
+            "lamp.event": 0.5,
+            "specimen.screen": [
+              1176.8268758557588,
+              691.7641435586996
+            ]
+          },
+          "exposures": {
+            "style": {
+              "frame": 191
+            },
+            "annotation": {
+              "frame": 191
+            }
+          }
+        },
+        "hash": "a2ef68aa7890dadb986f73376db5f1bfc4c370d482981f5f2b98eb3889673419"
+      }
+    }
+  },
+  "performance": {
+    "samples": 60,
+    "p50Ms": 0.2999999523162842,
+    "p95Ms": 23,
+    "jsHeapBytes": 41277938,
+    "renderer": "WebKit WebGL",
+    "gpuMemoryBytes": null,
+    "note": "synchronous draw submission incl canvas composite; GPU memory unavailable"
+  },
+  "freezeSourceIsolation": true,
+  "autoplay": {
+    "completed": true,
+    "lastFrame": 191,
+    "muted": true
+  },
+  "lifecycle": [
+    {
+      "disposedDrawRejected": true
+    },
+    {
+      "disposedDrawRejected": true
+    },
+    {
+      "disposedDrawRejected": true
+    },
+    {
+      "disposedDrawRejected": true
+    }
+  ],
+  "jobs": [
+    {
+      "id": "580806bd-fa27-4ed9-8f18-7b224366688c",
+      "output": "/Volumes/eyedisk/develop/cinewright/.direction/aesthetic-toolkit-2026-11-08/C/store/jobs/580806bd-fa27-4ed9-8f18-7b224366688c/work.mp4",
+      "copy": "/Volumes/eyedisk/develop/cinewright/evidence/aesthetic-toolkit-2026-11-08/C/mixed/540p.mp4",
+      "revision": "38c4cdf30e16778b862b9ce6a9782d090dfdacb09b3b87823a850cff5a69b73a",
+      "probe": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "width": 960,
+            "height": 540,
+            "pix_fmt": "yuv420p",
+            "r_frame_rate": "24/1",
+            "duration": "8.000000",
+            "nb_read_frames": "192"
+          }
+        ]
+      },
+      "pts": {
+        "count": 192,
+        "first": 0,
+        "last": 7.958333,
+        "monotone": true
+      },
+      "flash": {
+        "version": 1,
+        "file": "/Volumes/eyedisk/develop/cinewright/evidence/aesthetic-toolkit-2026-11-08/C/mixed/540p.mp4",
+        "fps": 24,
+        "resolution": [
+          160,
+          90
+        ],
+        "frames": 192,
+        "maxTransitionsInOneSecond": 0,
+        "flaggedWindows": 0,
+        "examples": [],
+        "status": "screen-negative",
+        "scope": "Every decoded CFR frame at 160x90; >=25% same-direction area, linear luminance delta >=0.10 (peak >=0.20) or saturated-red delta >=0.20; >=6 alternating transitions in a rolling second flags risk (both polarities retained for simultaneous opposing regions, at most one count per decoded transition).",
+        "limitations": [
+          "Not WCAG certification, medical advice, or a guarantee of safety.",
+          "Downscaling can miss small/local patterns; no spatial-frequency, visual-angle or display-luminance model.",
+          "Screen-negative is not safe; human accessibility review remains required."
+        ]
+      }
+    },
+    {
+      "id": "4b14f3b5-80b1-4597-8a17-75b1a0ea9616",
+      "output": "/Volumes/eyedisk/develop/cinewright/.direction/aesthetic-toolkit-2026-11-08/C/store/jobs/4b14f3b5-80b1-4597-8a17-75b1a0ea9616/work.mp4",
+      "copy": "/Volumes/eyedisk/develop/cinewright/evidence/aesthetic-toolkit-2026-11-08/C/mixed/1080p.mp4",
+      "revision": "38c4cdf30e16778b862b9ce6a9782d090dfdacb09b3b87823a850cff5a69b73a",
+      "probe": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "width": 1920,
+            "height": 1080,
+            "pix_fmt": "yuv420p",
+            "r_frame_rate": "24/1",
+            "duration": "8.000000",
+            "nb_read_frames": "192"
+          }
+        ]
+      },
+      "pts": {
+        "count": 192,
+        "first": 0,
+        "last": 7.958333,
+        "monotone": true
+      },
+      "flash": {
+        "version": 1,
+        "file": "/Volumes/eyedisk/develop/cinewright/evidence/aesthetic-toolkit-2026-11-08/C/mixed/1080p.mp4",
+        "fps": 24,
+        "resolution": [
+          160,
+          90
+        ],
+        "frames": 192,
+        "maxTransitionsInOneSecond": 0,
+        "flaggedWindows": 0,
+        "examples": [],
+        "status": "screen-negative",
+        "scope": "Every decoded CFR frame at 160x90; >=25% same-direction area, linear luminance delta >=0.10 (peak >=0.20) or saturated-red delta >=0.20; >=6 alternating transitions in a rolling second flags risk (both polarities retained for simultaneous opposing regions, at most one count per decoded transition).",
+        "limitations": [
+          "Not WCAG certification, medical advice, or a guarantee of safety.",
+          "Downscaling can miss small/local patterns; no spatial-frequency, visual-angle or display-luminance model.",
+          "Screen-negative is not safe; human accessibility review remains required."
+        ]
+      }
+    }
+  ]
+}

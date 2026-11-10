@@ -1,0 +1,59 @@
+{
+  "project": "/Volumes/eyedisk/develop/cinewright/.direction/aesthetic-toolkit-2026-11-08/review-01/forward-A",
+  "style": "silhouette-theatre",
+  "version": "1.0.0",
+  "files": [
+    {
+      "file": "modules/styles/silhouette-theatre/index.mjs",
+      "sha256": "be813188130d8293efd4af77e288ba4ecf96726dc44c5c344a52e5614ab58402"
+    },
+    {
+      "file": "modules/animation/exposure.mjs",
+      "sha256": "ed8455c1aed87d78c88b1275b3ba74cc3783f073b6e9f9699d58f5be8ace1ab3"
+    },
+    {
+      "file": "modules/animation/rig2d.mjs",
+      "sha256": "ec22bdb4b394105c07c318334ae9a73bb5e1dd58de79d12db286248848ffb0a9"
+    },
+    {
+      "file": "modules/animation/shot.mjs",
+      "sha256": "41ad186bdc45e9919d8768841a9d9115c5297a779a679ede2e905cb0e2826ddb"
+    },
+    {
+      "file": "modules/fx2d/mask.mjs",
+      "sha256": "ac89d02cfea60aaccdbdc25e69c746c93af0b3f8f46817accf5e878ff99d2f73"
+    },
+    {
+      "file": "modules/fx2d/transition.mjs",
+      "sha256": "a289fa4bd10ba07a45b5d4981d158050c63cc8143ae74bdf9bef9bdc8a3ba25e"
+    },
+    {
+      "file": "modules/motion.mjs",
+      "sha256": "fea589f724d62f7cdf9cf39ff82cf635f37becf60cfb9bcb85d3ffa02ed19619"
+    },
+    {
+      "file": "assets/cutouts.json",
+      "sha256": "ae1857ff5a913357b924cd5714f425ed2fec9f18e35f4d49edd799147fd320ff"
+    },
+    {
+      "file": "assets/moon.svg",
+      "sha256": "14204f6605e3c06bd41d65b8e0a5a497935e574269b7fd06dfbf0059e2e36f85"
+    },
+    {
+      "file": "assets/provenance.json",
+      "sha256": "a38c2b8ee9dcdf5fc9439d26bdeb3eea2866572ed46a692d81a3946a377fffc6"
+    },
+    {
+      "file": "work.json",
+      "sha256": "fe44349e45f201220cc720ce744bf0225a8eca0cce1b3aad0aa0fc0e9c7e8092"
+    },
+    {
+      "file": "style-scene.json",
+      "sha256": "f8671f9aa8455af57b74e20e282a1d296afdfbba144e7776360c0b88885024d9"
+    },
+    {
+      "file": "style-version.json",
+      "sha256": "817fe9cc7eafad771116595016f332187dc8569b66f0f0b423156a98e134c16e"
+    }
+  ]
+}

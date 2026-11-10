@@ -1,0 +1,1223 @@
+{
+  "kind": "existing source logs audited; ffprobe and flash independently executed as identified",
+  "outputs": [
+    {
+      "name": "A/forest-v3",
+      "logAudit": {
+        "revision": "4902acf35ff00602da1a6a768d1031de0ae2b0f78e182efe5f7905e794a00acd",
+        "size": [
+          1920,
+          1080
+        ],
+        "frames": 192,
+        "fps": 24,
+        "errors": [],
+        "warnings": [
+          "[.WebGL-0x11400588a00]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels"
+        ],
+        "external": [],
+        "seekChecks": 55,
+        "freezeSourceIsolation": true,
+        "autoplay": {
+          "completed": true,
+          "lastFrame": 191,
+          "muted": true
+        },
+        "lifecycle": [
+          {
+            "disposedDrawRejected": true
+          },
+          {
+            "disposedDrawRejected": true
+          },
+          {
+            "disposedDrawRejected": true
+          },
+          {
+            "disposedDrawRejected": true
+          }
+        ],
+        "performance": {
+          "samples": 60,
+          "p50Ms": 0.10000002384185791,
+          "p95Ms": 0.19999992847442627,
+          "jsHeapBytes": 9671440,
+          "renderer": "WebKit WebGL",
+          "gpuMemoryBytes": null,
+          "note": "synchronous draw submission incl canvas composite; GPU memory unavailable"
+        },
+        "jobs": [
+          {
+            "id": "fa701004-a731-4ed9-83e6-e595995fa84d",
+            "flash": "screen-negative",
+            "probe": {
+              "programs": [],
+              "stream_groups": [],
+              "streams": [
+                {
+                  "width": 960,
+                  "height": 540,
+                  "pix_fmt": "yuv420p",
+                  "r_frame_rate": "24/1",
+                  "duration": "8.000000",
+                  "nb_read_frames": "192"
+                }
+              ]
+            },
+            "pts": {
+              "count": 192,
+              "first": 0,
+              "last": 7.958333,
+              "monotone": true
+            }
+          },
+          {
+            "id": "c88bb6de-b44a-462a-ba01-ae76a491d411",
+            "flash": "screen-negative",
+            "probe": {
+              "programs": [],
+              "stream_groups": [],
+              "streams": [
+                {
+                  "width": 1920,
+                  "height": 1080,
+                  "pix_fmt": "yuv420p",
+                  "r_frame_rate": "24/1",
+                  "duration": "8.000000",
+                  "nb_read_frames": "192"
+                }
+              ]
+            },
+            "pts": {
+              "count": 192,
+              "first": 0,
+              "last": 7.958333,
+              "monotone": true
+            }
+          }
+        ]
+      },
+      "directMedia": [
+        {
+          "scale": "540p",
+          "streams": [
+            {
+              "width": 960,
+              "height": 540,
+              "pix_fmt": "yuv420p",
+              "r_frame_rate": "24/1",
+              "duration": "8.000000",
+              "nb_read_frames": "192"
+            }
+          ],
+          "ptsCount": 192,
+          "ptsCorrect": true,
+          "first": 0,
+          "last": 7.958333,
+          "independentFlash": "screen-negative"
+        },
+        {
+          "scale": "1080p",
+          "streams": [
+            {
+              "width": 1920,
+              "height": 1080,
+              "pix_fmt": "yuv420p",
+              "r_frame_rate": "24/1",
+              "duration": "8.000000",
+              "nb_read_frames": "192"
+            }
+          ],
+          "ptsCount": 192,
+          "ptsCorrect": true,
+          "first": 0,
+          "last": 7.958333,
+          "independentFlash": "screen-negative"
+        }
+      ],
+      "sourceDiffs": [
+        "modules/animation/exposure.mjs",
+        "modules/fx2d/mask.mjs",
+        "modules/styles/silhouette-theatre/index.mjs"
+      ],
+      "checkedFrozenSource": "/Volumes/eyedisk/develop/cinewright/.direction/aesthetic-toolkit-2026-11-08/A/store/revisions/4902acf35ff00602da1a6a768d1031de0ae2b0f78e182efe5f7905e794a00acd"
+    },
+    {
+      "name": "A/harbor",
+      "logAudit": {
+        "revision": "e704f3ce5f41dc7eb2e8e06b19d19c829b2556d7e7c6a9e0517e249fe4759585",
+        "size": [
+          1920,
+          1080
+        ],
+        "frames": 192,
+        "fps": 24,
+        "errors": [],
+        "warnings": [
+          "[.WebGL-0x12400585a00]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels"
+        ],
+        "external": [],
+        "seekChecks": 55,
+        "freezeSourceIsolation": true,
+        "autoplay": {
+          "completed": true,
+          "lastFrame": 191,
+          "muted": true
+        },
+        "lifecycle": [
+          {
+            "disposedDrawRejected": true
+          },
+          {
+            "disposedDrawRejected": true
+          },
+          {
+            "disposedDrawRejected": true
+          },
+          {
+            "disposedDrawRejected": true
+          }
+        ],
+        "performance": {
+          "samples": 60,
+          "p50Ms": 0.09999990463256836,
+          "p95Ms": 0.19999992847442627,
+          "jsHeapBytes": 6951113,
+          "renderer": "WebKit WebGL",
+          "gpuMemoryBytes": null,
+          "note": "synchronous draw submission incl canvas composite; GPU memory unavailable"
+        },
+        "jobs": [
+          {
+            "id": "fc7bffc3-75c0-4e93-9fb2-8b37c16a53c8",
+            "flash": "screen-negative",
+            "probe": {
+              "programs": [],
+              "stream_groups": [],
+              "streams": [
+                {
+                  "width": 960,
+                  "height": 540,
+                  "pix_fmt": "yuv420p",
+                  "r_frame_rate": "24/1",
+                  "duration": "8.000000",
+                  "nb_read_frames": "192"
+                }
+              ]
+            },
+            "pts": {
+              "count": 192,
+              "first": 0,
+              "last": 7.958333,
+              "monotone": true
+            }
+          },
+          {
+            "id": "5d9f391e-8e21-483e-9d59-0e3609b9a9b2",
+            "flash": "screen-negative",
+            "probe": {
+              "programs": [],
+              "stream_groups": [],
+              "streams": [
+                {
+                  "width": 1920,
+                  "height": 1080,
+                  "pix_fmt": "yuv420p",
+                  "r_frame_rate": "24/1",
+                  "duration": "8.000000",
+                  "nb_read_frames": "192"
+                }
+              ]
+            },
+            "pts": {
+              "count": 192,
+              "first": 0,
+              "last": 7.958333,
+              "monotone": true
+            }
+          }
+        ]
+      },
+      "directMedia": [
+        {
+          "scale": "540p",
+          "streams": [
+            {
+              "width": 960,
+              "height": 540,
+              "pix_fmt": "yuv420p",
+              "r_frame_rate": "24/1",
+              "duration": "8.000000",
+              "nb_read_frames": "192"
+            }
+          ],
+          "ptsCount": 192,
+          "ptsCorrect": true,
+          "first": 0,
+          "last": 7.958333,
+          "independentFlash": "screen-negative"
+        },
+        {
+          "scale": "1080p",
+          "streams": [
+            {
+              "width": 1920,
+              "height": 1080,
+              "pix_fmt": "yuv420p",
+              "r_frame_rate": "24/1",
+              "duration": "8.000000",
+              "nb_read_frames": "192"
+            }
+          ],
+          "ptsCount": 192,
+          "ptsCorrect": true,
+          "first": 0,
+          "last": 7.958333,
+          "independentFlash": "screen-negative"
+        }
+      ],
+      "sourceDiffs": [
+        "modules/animation/exposure.mjs",
+        "modules/fx2d/mask.mjs",
+        "modules/styles/silhouette-theatre/index.mjs"
+      ],
+      "checkedFrozenSource": "/Volumes/eyedisk/develop/cinewright/.direction/aesthetic-toolkit-2026-11-08/A/store/revisions/e704f3ce5f41dc7eb2e8e06b19d19c829b2556d7e7c6a9e0517e249fe4759585"
+    },
+    {
+      "name": "A/portrait-v2",
+      "logAudit": {
+        "revision": "011cd35e9e6401ed5333956f538da20d2864869ce0ad0ad19bbda40598a8b947",
+        "size": [
+          1080,
+          1920
+        ],
+        "frames": 192,
+        "fps": 24,
+        "errors": [],
+        "warnings": [
+          "[.WebGL-0x11c00593200]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels"
+        ],
+        "external": [],
+        "seekChecks": 55,
+        "freezeSourceIsolation": true,
+        "lifecycle": [
+          {
+            "disposedDrawRejected": true
+          },
+          {
+            "disposedDrawRejected": true
+          },
+          {
+            "disposedDrawRejected": true
+          },
+          {
+            "disposedDrawRejected": true
+          }
+        ],
+        "performance": {
+          "samples": 60,
+          "p50Ms": 0.10000002384185791,
+          "p95Ms": 0.20000004768371582,
+          "jsHeapBytes": 9423503,
+          "renderer": "WebKit WebGL",
+          "gpuMemoryBytes": null,
+          "note": "synchronous draw submission incl canvas composite; GPU memory unavailable"
+        },
+        "jobs": []
+      },
+      "directMedia": [],
+      "sourceDiffs": [
+        "modules/animation/exposure.mjs",
+        "modules/fx2d/mask.mjs",
+        "modules/styles/silhouette-theatre/index.mjs"
+      ],
+      "checkedFrozenSource": "/Volumes/eyedisk/develop/cinewright/.direction/aesthetic-toolkit-2026-11-08/A/store/revisions/011cd35e9e6401ed5333956f538da20d2864869ce0ad0ad19bbda40598a8b947"
+    },
+    {
+      "name": "B/rain-final",
+      "logAudit": {
+        "revision": "2bf1bb8c8a6d95e4ebd89c90f8268cccb926d67a6b64a3553aae44c2fa80c496",
+        "size": [
+          1920,
+          1080
+        ],
+        "frames": 192,
+        "fps": 24,
+        "errors": [],
+        "warnings": [
+          "[.WebGL-0x13400586000]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels"
+        ],
+        "external": [],
+        "seekChecks": 55,
+        "freezeSourceIsolation": true,
+        "autoplay": {
+          "completed": true,
+          "lastFrame": 191,
+          "muted": true
+        },
+        "lifecycle": [
+          {
+            "disposedDrawRejected": true
+          },
+          {
+            "disposedDrawRejected": true
+          },
+          {
+            "disposedDrawRejected": true
+          },
+          {
+            "disposedDrawRejected": true
+          }
+        ],
+        "performance": {
+          "samples": 60,
+          "p50Ms": 1.100000023841858,
+          "p95Ms": 1.2000000476837158,
+          "jsHeapBytes": 6791334,
+          "renderer": "WebKit WebGL",
+          "gpuMemoryBytes": null,
+          "note": "synchronous draw submission incl canvas composite; GPU memory unavailable"
+        },
+        "jobs": [
+          {
+            "id": "90d93bfe-5f57-4eff-a1e4-e66739fbdbe6",
+            "flash": "screen-negative",
+            "probe": {
+              "programs": [],
+              "stream_groups": [],
+              "streams": [
+                {
+                  "width": 960,
+                  "height": 540,
+                  "pix_fmt": "yuv420p",
+                  "r_frame_rate": "24/1",
+                  "duration": "8.000000",
+                  "nb_read_frames": "192"
+                }
+              ]
+            },
+            "pts": {
+              "count": 192,
+              "first": 0,
+              "last": 7.958333,
+              "monotone": true
+            }
+          },
+          {
+            "id": "1344bfc2-f5ef-40f1-bf7e-cd401709a90e",
+            "flash": "screen-negative",
+            "probe": {
+              "programs": [],
+              "stream_groups": [],
+              "streams": [
+                {
+                  "width": 1920,
+                  "height": 1080,
+                  "pix_fmt": "yuv420p",
+                  "r_frame_rate": "24/1",
+                  "duration": "8.000000",
+                  "nb_read_frames": "192"
+                }
+              ]
+            },
+            "pts": {
+              "count": 192,
+              "first": 0,
+              "last": 7.958333,
+              "monotone": true
+            }
+          }
+        ]
+      },
+      "directMedia": [
+        {
+          "scale": "540p",
+          "streams": [
+            {
+              "width": 960,
+              "height": 540,
+              "pix_fmt": "yuv420p",
+              "r_frame_rate": "24/1",
+              "duration": "8.000000",
+              "nb_read_frames": "192"
+            }
+          ],
+          "ptsCount": 192,
+          "ptsCorrect": true,
+          "first": 0,
+          "last": 7.958333,
+          "independentFlash": "screen-negative"
+        },
+        {
+          "scale": "1080p",
+          "streams": [
+            {
+              "width": 1920,
+              "height": 1080,
+              "pix_fmt": "yuv420p",
+              "r_frame_rate": "24/1",
+              "duration": "8.000000",
+              "nb_read_frames": "192"
+            }
+          ],
+          "ptsCount": 192,
+          "ptsCorrect": true,
+          "first": 0,
+          "last": 7.958333,
+          "independentFlash": "screen-negative"
+        }
+      ],
+      "sourceDiffs": [
+        "modules/animation/exposure.mjs"
+      ],
+      "checkedFrozenSource": "/Volumes/eyedisk/develop/cinewright/.direction/aesthetic-toolkit-2026-11-08/B/store/revisions/2bf1bb8c8a6d95e4ebd89c90f8268cccb926d67a6b64a3553aae44c2fa80c496"
+    },
+    {
+      "name": "B/commuter-final",
+      "logAudit": {
+        "revision": "77e85f51ae1766c8d7b5f2bffc9b1a3d1a313e56456e1c973ac6a3cf23492002",
+        "size": [
+          1920,
+          1080
+        ],
+        "frames": 192,
+        "fps": 24,
+        "errors": [],
+        "warnings": [
+          "[.WebGL-0x13400592c00]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels"
+        ],
+        "external": [],
+        "seekChecks": 55,
+        "freezeSourceIsolation": true,
+        "autoplay": {
+          "completed": true,
+          "lastFrame": 191,
+          "muted": true
+        },
+        "lifecycle": [
+          {
+            "disposedDrawRejected": true
+          },
+          {
+            "disposedDrawRejected": true
+          },
+          {
+            "disposedDrawRejected": true
+          },
+          {
+            "disposedDrawRejected": true
+          }
+        ],
+        "performance": {
+          "samples": 60,
+          "p50Ms": 1.2000000476837158,
+          "p95Ms": 1.399999976158142,
+          "jsHeapBytes": 8113052,
+          "renderer": "WebKit WebGL",
+          "gpuMemoryBytes": null,
+          "note": "synchronous draw submission incl canvas composite; GPU memory unavailable"
+        },
+        "jobs": [
+          {
+            "id": "f30d17d7-6853-4f1b-8ff1-bd4021203190",
+            "flash": "screen-negative",
+            "probe": {
+              "programs": [],
+              "stream_groups": [],
+              "streams": [
+                {
+                  "width": 960,
+                  "height": 540,
+                  "pix_fmt": "yuv420p",
+                  "r_frame_rate": "24/1",
+                  "duration": "8.000000",
+                  "nb_read_frames": "192"
+                }
+              ]
+            },
+            "pts": {
+              "count": 192,
+              "first": 0,
+              "last": 7.958333,
+              "monotone": true
+            }
+          },
+          {
+            "id": "9478bfb6-2da2-479c-9a0b-ab7ca453f918",
+            "flash": "screen-negative",
+            "probe": {
+              "programs": [],
+              "stream_groups": [],
+              "streams": [
+                {
+                  "width": 1920,
+                  "height": 1080,
+                  "pix_fmt": "yuv420p",
+                  "r_frame_rate": "24/1",
+                  "duration": "8.000000",
+                  "nb_read_frames": "192"
+                }
+              ]
+            },
+            "pts": {
+              "count": 192,
+              "first": 0,
+              "last": 7.958333,
+              "monotone": true
+            }
+          }
+        ]
+      },
+      "directMedia": [
+        {
+          "scale": "540p",
+          "streams": [
+            {
+              "width": 960,
+              "height": 540,
+              "pix_fmt": "yuv420p",
+              "r_frame_rate": "24/1",
+              "duration": "8.000000",
+              "nb_read_frames": "192"
+            }
+          ],
+          "ptsCount": 192,
+          "ptsCorrect": true,
+          "first": 0,
+          "last": 7.958333,
+          "independentFlash": "screen-negative"
+        },
+        {
+          "scale": "1080p",
+          "streams": [
+            {
+              "width": 1920,
+              "height": 1080,
+              "pix_fmt": "yuv420p",
+              "r_frame_rate": "24/1",
+              "duration": "8.000000",
+              "nb_read_frames": "192"
+            }
+          ],
+          "ptsCount": 192,
+          "ptsCorrect": true,
+          "first": 0,
+          "last": 7.958333,
+          "independentFlash": "screen-negative"
+        }
+      ],
+      "sourceDiffs": [
+        "modules/animation/exposure.mjs"
+      ],
+      "checkedFrozenSource": "/Volumes/eyedisk/develop/cinewright/.direction/aesthetic-toolkit-2026-11-08/B/store/revisions/77e85f51ae1766c8d7b5f2bffc9b1a3d1a313e56456e1c973ac6a3cf23492002"
+    },
+    {
+      "name": "B/portrait",
+      "logAudit": {
+        "revision": "98278e224c61c3a2f4a76daf7c363497032d6a9cb45e73902259fcbdc820fab5",
+        "size": [
+          1080,
+          1920
+        ],
+        "frames": 192,
+        "fps": 24,
+        "errors": [],
+        "warnings": [
+          "[.WebGL-0x10400587200]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels"
+        ],
+        "external": [],
+        "seekChecks": 55,
+        "freezeSourceIsolation": true,
+        "lifecycle": [
+          {
+            "disposedDrawRejected": true
+          },
+          {
+            "disposedDrawRejected": true
+          },
+          {
+            "disposedDrawRejected": true
+          },
+          {
+            "disposedDrawRejected": true
+          }
+        ],
+        "performance": {
+          "samples": 60,
+          "p50Ms": 1.100000023841858,
+          "p95Ms": 1.3000000715255737,
+          "jsHeapBytes": 7932525,
+          "renderer": "WebKit WebGL",
+          "gpuMemoryBytes": null,
+          "note": "synchronous draw submission incl canvas composite; GPU memory unavailable"
+        },
+        "jobs": []
+      },
+      "directMedia": [],
+      "sourceDiffs": [
+        "modules/animation/exposure.mjs"
+      ],
+      "checkedFrozenSource": "/Volumes/eyedisk/develop/cinewright/.direction/aesthetic-toolkit-2026-11-08/B/store/revisions/98278e224c61c3a2f4a76daf7c363497032d6a9cb45e73902259fcbdc820fab5"
+    },
+    {
+      "name": "effects2d",
+      "logAudit": {
+        "revision": "e812ef53206cb6f28b9ff5235abe0c6171fd2773e4193cfaa786d2c2873f49fb",
+        "size": [
+          1920,
+          1080
+        ],
+        "frames": 192,
+        "fps": 24,
+        "errors": [],
+        "warnings": [
+          "[.WebGL-0x1340058d800]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels"
+        ],
+        "external": [],
+        "seekChecks": 55,
+        "freezeSourceIsolation": true,
+        "autoplay": {
+          "completed": true,
+          "lastFrame": 191,
+          "muted": true
+        },
+        "lifecycle": [
+          {
+            "disposedDrawRejected": true
+          },
+          {
+            "disposedDrawRejected": true
+          },
+          {
+            "disposedDrawRejected": true
+          },
+          {
+            "disposedDrawRejected": true
+          }
+        ],
+        "performance": {
+          "samples": 60,
+          "p50Ms": 0.5,
+          "p95Ms": 0.6000000238418579,
+          "jsHeapBytes": 8065368,
+          "renderer": "WebKit WebGL",
+          "gpuMemoryBytes": null,
+          "note": "synchronous draw submission incl canvas composite; GPU memory unavailable"
+        },
+        "jobs": [
+          {
+            "id": "83373df4-2c08-42d4-9821-7a967c2a9ffc",
+            "flash": "screen-negative",
+            "probe": {
+              "programs": [],
+              "stream_groups": [],
+              "streams": [
+                {
+                  "width": 960,
+                  "height": 540,
+                  "pix_fmt": "yuv420p",
+                  "r_frame_rate": "24/1",
+                  "duration": "8.000000",
+                  "nb_read_frames": "192"
+                }
+              ]
+            },
+            "pts": {
+              "count": 192,
+              "first": 0,
+              "last": 7.958333,
+              "monotone": true
+            }
+          },
+          {
+            "id": "104b2ad6-3a28-4e97-b967-feca20c30506",
+            "flash": "screen-negative",
+            "probe": {
+              "programs": [],
+              "stream_groups": [],
+              "streams": [
+                {
+                  "width": 1920,
+                  "height": 1080,
+                  "pix_fmt": "yuv420p",
+                  "r_frame_rate": "24/1",
+                  "duration": "8.000000",
+                  "nb_read_frames": "192"
+                }
+              ]
+            },
+            "pts": {
+              "count": 192,
+              "first": 0,
+              "last": 7.958333,
+              "monotone": true
+            }
+          }
+        ]
+      },
+      "directMedia": [
+        {
+          "scale": "540p",
+          "streams": [
+            {
+              "width": 960,
+              "height": 540,
+              "pix_fmt": "yuv420p",
+              "r_frame_rate": "24/1",
+              "duration": "8.000000",
+              "nb_read_frames": "192"
+            }
+          ],
+          "ptsCount": 192,
+          "ptsCorrect": true,
+          "first": 0,
+          "last": 7.958333,
+          "independentFlash": "screen-negative"
+        },
+        {
+          "scale": "1080p",
+          "streams": [
+            {
+              "width": 1920,
+              "height": 1080,
+              "pix_fmt": "yuv420p",
+              "r_frame_rate": "24/1",
+              "duration": "8.000000",
+              "nb_read_frames": "192"
+            }
+          ],
+          "ptsCount": 192,
+          "ptsCorrect": true,
+          "first": 0,
+          "last": 7.958333,
+          "independentFlash": "screen-negative"
+        }
+      ],
+      "sourceDiffs": [
+        "modules/animation/exposure.mjs",
+        "modules/effects2d.mjs: missing current source",
+        "modules/fx2d/emitter.mjs",
+        "modules/fx2d/mask.mjs"
+      ],
+      "checkedFrozenSource": "/Volumes/eyedisk/develop/cinewright/.direction/aesthetic-toolkit-2026-11-08/effects-store/revisions/e812ef53206cb6f28b9ff5235abe0c6171fd2773e4193cfaa786d2c2873f49fb"
+    },
+    {
+      "name": "C/station",
+      "logAudit": {
+        "revision": "09a246b2096f4085c504efc702cbbbdc4f82ea90b8203a04f785fb77042cc468",
+        "size": [
+          1920,
+          1080
+        ],
+        "frames": 192,
+        "fps": 24,
+        "errors": [],
+        "warnings": [
+          "[.WebGL-0x1140058c600]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels",
+          "[.WebGL-0x1140058c600]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels",
+          "[.WebGL-0x1140058c600]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels",
+          "[.WebGL-0x1140058c600]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels (this message will no longer repeat)"
+        ],
+        "external": [],
+        "seekChecks": 55,
+        "freezeSourceIsolation": true,
+        "autoplay": {
+          "completed": true,
+          "lastFrame": 191,
+          "muted": true
+        },
+        "lifecycle": [
+          {
+            "disposedDrawRejected": true
+          },
+          {
+            "disposedDrawRejected": true
+          },
+          {
+            "disposedDrawRejected": true
+          },
+          {
+            "disposedDrawRejected": true
+          }
+        ],
+        "performance": {
+          "samples": 60,
+          "p50Ms": 0.20000004768371582,
+          "p95Ms": 31.799999952316284,
+          "jsHeapBytes": 32843298,
+          "renderer": "WebKit WebGL",
+          "gpuMemoryBytes": null,
+          "note": "synchronous draw submission incl canvas composite; GPU memory unavailable"
+        },
+        "jobs": [
+          {
+            "id": "dada4119-d1c9-477c-914b-b3ab2f054550",
+            "flash": "screen-negative",
+            "probe": {
+              "programs": [],
+              "stream_groups": [],
+              "streams": [
+                {
+                  "width": 960,
+                  "height": 540,
+                  "pix_fmt": "yuv420p",
+                  "r_frame_rate": "24/1",
+                  "duration": "8.000000",
+                  "nb_read_frames": "192"
+                }
+              ]
+            },
+            "pts": {
+              "count": 192,
+              "first": 0,
+              "last": 7.958333,
+              "monotone": true
+            }
+          },
+          {
+            "id": "5bcb1f28-759b-4f9d-9e7b-49b99e135e53",
+            "flash": "screen-negative",
+            "probe": {
+              "programs": [],
+              "stream_groups": [],
+              "streams": [
+                {
+                  "width": 1920,
+                  "height": 1080,
+                  "pix_fmt": "yuv420p",
+                  "r_frame_rate": "24/1",
+                  "duration": "8.000000",
+                  "nb_read_frames": "192"
+                }
+              ]
+            },
+            "pts": {
+              "count": 192,
+              "first": 0,
+              "last": 7.958333,
+              "monotone": true
+            }
+          }
+        ]
+      },
+      "directMedia": [
+        {
+          "scale": "540p",
+          "streams": [
+            {
+              "width": 960,
+              "height": 540,
+              "pix_fmt": "yuv420p",
+              "r_frame_rate": "24/1",
+              "duration": "8.000000",
+              "nb_read_frames": "192"
+            }
+          ],
+          "ptsCount": 192,
+          "ptsCorrect": true,
+          "first": 0,
+          "last": 7.958333
+        },
+        {
+          "scale": "1080p",
+          "streams": [
+            {
+              "width": 1920,
+              "height": 1080,
+              "pix_fmt": "yuv420p",
+              "r_frame_rate": "24/1",
+              "duration": "8.000000",
+              "nb_read_frames": "192"
+            }
+          ],
+          "ptsCount": 192,
+          "ptsCorrect": true,
+          "first": 0,
+          "last": 7.958333
+        }
+      ],
+      "sourceDiffs": [
+        "modules/animation/exposure.mjs"
+      ],
+      "checkedFrozenSource": "/Volumes/eyedisk/develop/cinewright/.direction/aesthetic-toolkit-2026-11-08/C/store/revisions/09a246b2096f4085c504efc702cbbbdc4f82ea90b8203a04f785fb77042cc468"
+    },
+    {
+      "name": "C/laboratory",
+      "logAudit": {
+        "revision": "7051460266ddd25c1ea58ca486caf0bafd5b0b9a4897a5476dd2836923fc2b48",
+        "size": [
+          1920,
+          1080
+        ],
+        "frames": 192,
+        "fps": 24,
+        "errors": [],
+        "warnings": [
+          "[.WebGL-0x1040058b400]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels",
+          "[.WebGL-0x1040058b400]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels",
+          "[.WebGL-0x1040058b400]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels",
+          "[.WebGL-0x1040058b400]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels (this message will no longer repeat)"
+        ],
+        "external": [],
+        "seekChecks": 55,
+        "freezeSourceIsolation": true,
+        "autoplay": {
+          "completed": true,
+          "lastFrame": 191,
+          "muted": true
+        },
+        "lifecycle": [
+          {
+            "disposedDrawRejected": true
+          },
+          {
+            "disposedDrawRejected": true
+          },
+          {
+            "disposedDrawRejected": true
+          },
+          {
+            "disposedDrawRejected": true
+          }
+        ],
+        "performance": {
+          "samples": 60,
+          "p50Ms": 0.2999999523162842,
+          "p95Ms": 21.899999976158142,
+          "jsHeapBytes": 40484537,
+          "renderer": "WebKit WebGL",
+          "gpuMemoryBytes": null,
+          "note": "synchronous draw submission incl canvas composite; GPU memory unavailable"
+        },
+        "jobs": [
+          {
+            "id": "1768cc1b-a5fe-4f57-b366-698fd54c42ce",
+            "flash": "screen-negative",
+            "probe": {
+              "programs": [],
+              "stream_groups": [],
+              "streams": [
+                {
+                  "width": 960,
+                  "height": 540,
+                  "pix_fmt": "yuv420p",
+                  "r_frame_rate": "24/1",
+                  "duration": "8.000000",
+                  "nb_read_frames": "192"
+                }
+              ]
+            },
+            "pts": {
+              "count": 192,
+              "first": 0,
+              "last": 7.958333,
+              "monotone": true
+            }
+          },
+          {
+            "id": "f6bed846-2bc0-4ff8-91a8-8858b2c22a29",
+            "flash": "screen-negative",
+            "probe": {
+              "programs": [],
+              "stream_groups": [],
+              "streams": [
+                {
+                  "width": 1920,
+                  "height": 1080,
+                  "pix_fmt": "yuv420p",
+                  "r_frame_rate": "24/1",
+                  "duration": "8.000000",
+                  "nb_read_frames": "192"
+                }
+              ]
+            },
+            "pts": {
+              "count": 192,
+              "first": 0,
+              "last": 7.958333,
+              "monotone": true
+            }
+          }
+        ]
+      },
+      "directMedia": [
+        {
+          "scale": "540p",
+          "streams": [
+            {
+              "width": 960,
+              "height": 540,
+              "pix_fmt": "yuv420p",
+              "r_frame_rate": "24/1",
+              "duration": "8.000000",
+              "nb_read_frames": "192"
+            }
+          ],
+          "ptsCount": 192,
+          "ptsCorrect": true,
+          "first": 0,
+          "last": 7.958333
+        },
+        {
+          "scale": "1080p",
+          "streams": [
+            {
+              "width": 1920,
+              "height": 1080,
+              "pix_fmt": "yuv420p",
+              "r_frame_rate": "24/1",
+              "duration": "8.000000",
+              "nb_read_frames": "192"
+            }
+          ],
+          "ptsCount": 192,
+          "ptsCorrect": true,
+          "first": 0,
+          "last": 7.958333
+        }
+      ],
+      "sourceDiffs": [
+        "modules/animation/exposure.mjs"
+      ],
+      "checkedFrozenSource": "/Volumes/eyedisk/develop/cinewright/.direction/aesthetic-toolkit-2026-11-08/C/store/revisions/7051460266ddd25c1ea58ca486caf0bafd5b0b9a4897a5476dd2836923fc2b48"
+    },
+    {
+      "name": "C/effects",
+      "logAudit": {
+        "revision": "a70ba38039dc538de1cd4a1cc5784b2f530d0cfe4849b0ee4622a08b34d5630b",
+        "size": [
+          1920,
+          1080
+        ],
+        "frames": 192,
+        "fps": 24,
+        "errors": [],
+        "warnings": [
+          "[.WebGL-0x12c00583000]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels",
+          "[.WebGL-0x12c00583000]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels",
+          "[.WebGL-0x12c00583000]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels",
+          "[.WebGL-0x12c00583000]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels (this message will no longer repeat)"
+        ],
+        "external": [],
+        "seekChecks": 55,
+        "freezeSourceIsolation": true,
+        "autoplay": {
+          "completed": true,
+          "lastFrame": 191,
+          "muted": true
+        },
+        "lifecycle": [
+          {
+            "disposedDrawRejected": true
+          },
+          {
+            "disposedDrawRejected": true
+          },
+          {
+            "disposedDrawRejected": true
+          },
+          {
+            "disposedDrawRejected": true
+          }
+        ],
+        "performance": {
+          "samples": 60,
+          "p50Ms": 0.10000002384185791,
+          "p95Ms": 0.20000004768371582,
+          "jsHeapBytes": 15073894,
+          "renderer": "WebKit WebGL",
+          "gpuMemoryBytes": null,
+          "note": "synchronous draw submission incl canvas composite; GPU memory unavailable"
+        },
+        "jobs": [
+          {
+            "id": "248ae22c-8d18-4fd7-9a7d-6d8a755fc36b",
+            "flash": "screen-negative",
+            "probe": {
+              "programs": [],
+              "stream_groups": [],
+              "streams": [
+                {
+                  "width": 960,
+                  "height": 540,
+                  "pix_fmt": "yuv420p",
+                  "r_frame_rate": "24/1",
+                  "duration": "8.000000",
+                  "nb_read_frames": "192"
+                }
+              ]
+            },
+            "pts": {
+              "count": 192,
+              "first": 0,
+              "last": 7.958333,
+              "monotone": true
+            }
+          },
+          {
+            "id": "f964f351-d89c-4189-b3e2-646603c73326",
+            "flash": "screen-negative",
+            "probe": {
+              "programs": [],
+              "stream_groups": [],
+              "streams": [
+                {
+                  "width": 1920,
+                  "height": 1080,
+                  "pix_fmt": "yuv420p",
+                  "r_frame_rate": "24/1",
+                  "duration": "8.000000",
+                  "nb_read_frames": "192"
+                }
+              ]
+            },
+            "pts": {
+              "count": 192,
+              "first": 0,
+              "last": 7.958333,
+              "monotone": true
+            }
+          }
+        ]
+      },
+      "directMedia": [
+        {
+          "scale": "540p",
+          "streams": [
+            {
+              "width": 960,
+              "height": 540,
+              "pix_fmt": "yuv420p",
+              "r_frame_rate": "24/1",
+              "duration": "8.000000",
+              "nb_read_frames": "192"
+            }
+          ],
+          "ptsCount": 192,
+          "ptsCorrect": true,
+          "first": 0,
+          "last": 7.958333
+        },
+        {
+          "scale": "1080p",
+          "streams": [
+            {
+              "width": 1920,
+              "height": 1080,
+              "pix_fmt": "yuv420p",
+              "r_frame_rate": "24/1",
+              "duration": "8.000000",
+              "nb_read_frames": "192"
+            }
+          ],
+          "ptsCount": 192,
+          "ptsCorrect": true,
+          "first": 0,
+          "last": 7.958333
+        }
+      ],
+      "sourceDiffs": [],
+      "checkedFrozenSource": "/Volumes/eyedisk/develop/cinewright/.direction/aesthetic-toolkit-2026-11-08/C/store/revisions/a70ba38039dc538de1cd4a1cc5784b2f530d0cfe4849b0ee4622a08b34d5630b"
+    }
+  ]
+}

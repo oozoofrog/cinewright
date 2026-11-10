@@ -1,0 +1,49 @@
+{
+  "revision": "e812ef53206cb6f28b9ff5235abe0c6171fd2773e4193cfaa786d2c2873f49fb",
+  "browser": "157.0.8103.38",
+  "samples": {
+    "black": [
+      128,
+      0,
+      0,
+      255
+    ],
+    "white": [
+      255,
+      128,
+      128,
+      255
+    ],
+    "glaze": [
+      255,
+      0,
+      0,
+      192
+    ],
+    "evenoddHole": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "edge": [
+      255,
+      0,
+      0,
+      255
+    ],
+    "nonzeroCenter": [
+      0,
+      0,
+      0,
+      255
+    ],
+    "erased": [
+      0,
+      0,
+      0,
+      127
+    ]
+  },
+  "repeatedInkEqual": true
+}

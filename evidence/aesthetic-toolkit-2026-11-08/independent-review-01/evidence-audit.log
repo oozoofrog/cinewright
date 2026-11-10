@@ -1,0 +1,382 @@
+[
+  {
+    "name": "A/forest-v3",
+    "seek": 55,
+    "media": [
+      {
+        "scale": "540p",
+        "streams": [
+          {
+            "width": 960,
+            "height": 540,
+            "pix_fmt": "yuv420p",
+            "r_frame_rate": "24/1",
+            "duration": "8.000000",
+            "nb_read_frames": "192"
+          }
+        ],
+        "ptsCount": 192,
+        "ptsCorrect": true,
+        "first": 0,
+        "last": 7.958333,
+        "independentFlash": "screen-negative"
+      },
+      {
+        "scale": "1080p",
+        "streams": [
+          {
+            "width": 1920,
+            "height": 1080,
+            "pix_fmt": "yuv420p",
+            "r_frame_rate": "24/1",
+            "duration": "8.000000",
+            "nb_read_frames": "192"
+          }
+        ],
+        "ptsCount": 192,
+        "ptsCorrect": true,
+        "first": 0,
+        "last": 7.958333
+      }
+    ],
+    "sourceDiffs": [
+      "modules/animation/exposure.mjs",
+      "modules/fx2d/mask.mjs",
+      "modules/styles/silhouette-theatre/index.mjs"
+    ]
+  },
+  {
+    "name": "A/harbor",
+    "seek": 55,
+    "media": [
+      {
+        "scale": "540p",
+        "streams": [
+          {
+            "width": 960,
+            "height": 540,
+            "pix_fmt": "yuv420p",
+            "r_frame_rate": "24/1",
+            "duration": "8.000000",
+            "nb_read_frames": "192"
+          }
+        ],
+        "ptsCount": 192,
+        "ptsCorrect": true,
+        "first": 0,
+        "last": 7.958333,
+        "independentFlash": "screen-negative"
+      },
+      {
+        "scale": "1080p",
+        "streams": [
+          {
+            "width": 1920,
+            "height": 1080,
+            "pix_fmt": "yuv420p",
+            "r_frame_rate": "24/1",
+            "duration": "8.000000",
+            "nb_read_frames": "192"
+          }
+        ],
+        "ptsCount": 192,
+        "ptsCorrect": true,
+        "first": 0,
+        "last": 7.958333
+      }
+    ],
+    "sourceDiffs": [
+      "modules/animation/exposure.mjs",
+      "modules/fx2d/mask.mjs",
+      "modules/styles/silhouette-theatre/index.mjs"
+    ]
+  },
+  {
+    "name": "A/portrait-v2",
+    "seek": 55,
+    "media": [],
+    "sourceDiffs": [
+      "modules/animation/exposure.mjs",
+      "modules/fx2d/mask.mjs",
+      "modules/styles/silhouette-theatre/index.mjs"
+    ]
+  },
+  {
+    "name": "B/rain-final",
+    "seek": 55,
+    "media": [
+      {
+        "scale": "540p",
+        "streams": [
+          {
+            "width": 960,
+            "height": 540,
+            "pix_fmt": "yuv420p",
+            "r_frame_rate": "24/1",
+            "duration": "8.000000",
+            "nb_read_frames": "192"
+          }
+        ],
+        "ptsCount": 192,
+        "ptsCorrect": true,
+        "first": 0,
+        "last": 7.958333,
+        "independentFlash": "screen-negative"
+      },
+      {
+        "scale": "1080p",
+        "streams": [
+          {
+            "width": 1920,
+            "height": 1080,
+            "pix_fmt": "yuv420p",
+            "r_frame_rate": "24/1",
+            "duration": "8.000000",
+            "nb_read_frames": "192"
+          }
+        ],
+        "ptsCount": 192,
+        "ptsCorrect": true,
+        "first": 0,
+        "last": 7.958333
+      }
+    ],
+    "sourceDiffs": [
+      "modules/animation/exposure.mjs"
+    ]
+  },
+  {
+    "name": "B/commuter-final",
+    "seek": 55,
+    "media": [
+      {
+        "scale": "540p",
+        "streams": [
+          {
+            "width": 960,
+            "height": 540,
+            "pix_fmt": "yuv420p",
+            "r_frame_rate": "24/1",
+            "duration": "8.000000",
+            "nb_read_frames": "192"
+          }
+        ],
+        "ptsCount": 192,
+        "ptsCorrect": true,
+        "first": 0,
+        "last": 7.958333,
+        "independentFlash": "screen-negative"
+      },
+      {
+        "scale": "1080p",
+        "streams": [
+          {
+            "width": 1920,
+            "height": 1080,
+            "pix_fmt": "yuv420p",
+            "r_frame_rate": "24/1",
+            "duration": "8.000000",
+            "nb_read_frames": "192"
+          }
+        ],
+        "ptsCount": 192,
+        "ptsCorrect": true,
+        "first": 0,
+        "last": 7.958333
+      }
+    ],
+    "sourceDiffs": [
+      "modules/animation/exposure.mjs"
+    ]
+  },
+  {
+    "name": "B/portrait",
+    "seek": 55,
+    "media": [],
+    "sourceDiffs": [
+      "modules/animation/exposure.mjs"
+    ]
+  },
+  {
+    "name": "effects2d",
+    "seek": 55,
+    "media": [
+      {
+        "scale": "540p",
+        "streams": [
+          {
+            "width": 960,
+            "height": 540,
+            "pix_fmt": "yuv420p",
+            "r_frame_rate": "24/1",
+            "duration": "8.000000",
+            "nb_read_frames": "192"
+          }
+        ],
+        "ptsCount": 192,
+        "ptsCorrect": true,
+        "first": 0,
+        "last": 7.958333,
+        "independentFlash": "screen-negative"
+      },
+      {
+        "scale": "1080p",
+        "streams": [
+          {
+            "width": 1920,
+            "height": 1080,
+            "pix_fmt": "yuv420p",
+            "r_frame_rate": "24/1",
+            "duration": "8.000000",
+            "nb_read_frames": "192"
+          }
+        ],
+        "ptsCount": 192,
+        "ptsCorrect": true,
+        "first": 0,
+        "last": 7.958333
+      }
+    ],
+    "sourceDiffs": [
+      "modules/animation/exposure.mjs",
+      "modules/effects2d.mjs: missing current source",
+      "modules/fx2d/emitter.mjs",
+      "modules/fx2d/mask.mjs"
+    ]
+  },
+  {
+    "name": "C/station",
+    "seek": 55,
+    "media": [
+      {
+        "scale": "540p",
+        "streams": [
+          {
+            "width": 960,
+            "height": 540,
+            "pix_fmt": "yuv420p",
+            "r_frame_rate": "24/1",
+            "duration": "8.000000",
+            "nb_read_frames": "192"
+          }
+        ],
+        "ptsCount": 192,
+        "ptsCorrect": true,
+        "first": 0,
+        "last": 7.958333
+      },
+      {
+        "scale": "1080p",
+        "streams": [
+          {
+            "width": 1920,
+            "height": 1080,
+            "pix_fmt": "yuv420p",
+            "r_frame_rate": "24/1",
+            "duration": "8.000000",
+            "nb_read_frames": "192"
+          }
+        ],
+        "ptsCount": 192,
+        "ptsCorrect": true,
+        "first": 0,
+        "last": 7.958333
+      }
+    ],
+    "sourceDiffs": [
+      "modules/animation/exposure.mjs"
+    ]
+  },
+  {
+    "name": "C/laboratory",
+    "seek": 55,
+    "media": [
+      {
+        "scale": "540p",
+        "streams": [
+          {
+            "width": 960,
+            "height": 540,
+            "pix_fmt": "yuv420p",
+            "r_frame_rate": "24/1",
+            "duration": "8.000000",
+            "nb_read_frames": "192"
+          }
+        ],
+        "ptsCount": 192,
+        "ptsCorrect": true,
+        "first": 0,
+        "last": 7.958333
+      },
+      {
+        "scale": "1080p",
+        "streams": [
+          {
+            "width": 1920,
+            "height": 1080,
+            "pix_fmt": "yuv420p",
+            "r_frame_rate": "24/1",
+            "duration": "8.000000",
+            "nb_read_frames": "192"
+          }
+        ],
+        "ptsCount": 192,
+        "ptsCorrect": true,
+        "first": 0,
+        "last": 7.958333
+      }
+    ],
+    "sourceDiffs": [
+      "modules/animation/exposure.mjs"
+    ]
+  },
+  {
+    "name": "C/effects",
+    "seek": 55,
+    "media": [
+      {
+        "scale": "540p",
+        "streams": [
+          {
+            "width": 960,
+            "height": 540,
+            "pix_fmt": "yuv420p",
+            "r_frame_rate": "24/1",
+            "duration": "8.000000",
+            "nb_read_frames": "192"
+          }
+        ],
+        "ptsCount": 192,
+        "ptsCorrect": true,
+        "first": 0,
+        "last": 7.958333
+      },
+      {
+        "scale": "1080p",
+        "streams": [
+          {
+            "width": 1920,
+            "height": 1080,
+            "pix_fmt": "yuv420p",
+            "r_frame_rate": "24/1",
+            "duration": "8.000000",
+            "nb_read_frames": "192"
+          }
+        ],
+        "ptsCount": 192,
+        "ptsCorrect": true,
+        "first": 0,
+        "last": 7.958333
+      }
+    ],
+    "sourceDiffs": []
+  },
+  {
+    "name": "C/mixed",
+    "validation": "missing at read snapshot"
+  },
+  {
+    "name": "C/portrait",
+    "validation": "missing at read snapshot"
+  }
+]

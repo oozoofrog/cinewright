@@ -1,0 +1,14 @@
+[
+  {
+    label: '540p',
+    samples: [ [Object], [Object], [Object] ],
+    closedFirstFrame: true,
+    irisAppearsNextFrame: true
+  },
+  {
+    label: '1080p',
+    samples: [ [Object], [Object], [Object] ],
+    closedFirstFrame: true,
+    irisAppearsNextFrame: true
+  }
+]

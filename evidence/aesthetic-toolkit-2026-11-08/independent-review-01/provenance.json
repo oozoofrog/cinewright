@@ -1,0 +1,40 @@
+[
+  {
+    "file": "examples/styles/silhouette-theatre/assets/provenance.json",
+    "expected": "0f97ac80940d925b743ea7190d716edec421015143b8194bb47845b08a27ef0b",
+    "actual": "660d8bdb305432657de1a41a0914c9e0551157cbc5df48eaef3bfd8838caf4af",
+    "match": false
+  },
+  {
+    "file": "examples/styles/silhouette-theatre/assets/cutouts.json",
+    "expected": "ae1857ff5a913357b924cd5714f425ed2fec9f18e35f4d49edd799147fd320ff",
+    "actual": "ae1857ff5a913357b924cd5714f425ed2fec9f18e35f4d49edd799147fd320ff",
+    "match": true
+  },
+  {
+    "file": "examples/styles/silhouette-theatre/assets/moon.svg",
+    "expected": "14204f6605e3c06bd41d65b8e0a5a497935e574269b7fd06dfbf0059e2e36f85",
+    "actual": "14204f6605e3c06bd41d65b8e0a5a497935e574269b7fd06dfbf0059e2e36f85",
+    "match": true
+  },
+  {
+    "file": "examples/styles/line-wash/assets/authored-strokes.json",
+    "expected": "91c4ab18491d1fa39e668617bf3d93468ecf9a416ee8bdc20cd0bad24d549ad4",
+    "actual": "91c4ab18491d1fa39e668617bf3d93468ecf9a416ee8bdc20cd0bad24d549ad4",
+    "match": true
+  },
+  {
+    "file": "examples/styles/expressionist-space/assets/traveler.glb",
+    "expected": "b7f4974717cf25da98164a24aa3cf29312f2f07a0a1a7a41230d9e733d7decf6",
+    "actual": "b7f4974717cf25da98164a24aa3cf29312f2f07a0a1a7a41230d9e733d7decf6",
+    "match": true,
+    "bytes": 55552
+  },
+  {
+    "file": "examples/styles/expressionist-space/assets/specimen.glb",
+    "expected": "b8e140ef78c7d1f05d2342e51d6d6dbdcf828b6eff5e3132313dfb9acf987efc",
+    "actual": "b8e140ef78c7d1f05d2342e51d6d6dbdcf828b6eff5e3132313dfb9acf987efc",
+    "match": true,
+    "bytes": 63944
+  }
+]

@@ -1,0 +1,12 @@
+{
+  samples: {
+    black: [ 128, 0, 0, 255 ],
+    white: [ 255, 128, 128, 255 ],
+    glaze: [ 255, 0, 0, 192 ],
+    evenoddHole: [ 0, 0, 0, 0 ],
+    edge: [ 255, 0, 0, 255 ],
+    nonzeroCenter: [ 0, 0, 0, 255 ],
+    erased: [ 0, 0, 0, 127 ]
+  },
+  repeatedInkEqual: true
+}

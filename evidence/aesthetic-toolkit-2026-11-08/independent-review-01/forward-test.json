@@ -1,0 +1,77 @@
+[
+  {
+    "tag": "A",
+    "style": "silhouette-theatre",
+    "project": "/Volumes/eyedisk/develop/cinewright/.direction/aesthetic-toolkit-2026-11-08/review-01/forward-A",
+    "scene": "/Volumes/eyedisk/develop/cinewright/.direction/aesthetic-toolkit-2026-11-08/review-01/forward-A-scene.json",
+    "assets": "/Volumes/eyedisk/develop/cinewright/.direction/aesthetic-toolkit-2026-11-08/review-01/forward-A-assets.json",
+    "store": "/Volumes/eyedisk/develop/cinewright/.direction/aesthetic-toolkit-2026-11-08/review-01/forward-store",
+    "revision": "e77791ee28a2e2341cb026a01c64c5847d6bcc6080a75082940b9dd9ab7ae6b7",
+    "files": 30,
+    "sourceIsolation": true,
+    "browser": "not run: single permitted lock attempt busy",
+    "command": [
+      "/opt/homebrew/Cellar/node/26.12.1_1/bin/node",
+      "scripts/direction.mjs",
+      "style",
+      "build",
+      "silhouette-theatre",
+      "--scene",
+      "/Volumes/eyedisk/develop/cinewright/.direction/aesthetic-toolkit-2026-11-08/review-01/forward-A-scene.json",
+      "--assets",
+      "/Volumes/eyedisk/develop/cinewright/.direction/aesthetic-toolkit-2026-11-08/review-01/forward-A-assets.json",
+      "--project",
+      "/Volumes/eyedisk/develop/cinewright/.direction/aesthetic-toolkit-2026-11-08/review-01/forward-A"
+    ]
+  },
+  {
+    "tag": "B",
+    "style": "line-wash",
+    "project": "/Volumes/eyedisk/develop/cinewright/.direction/aesthetic-toolkit-2026-11-08/review-01/forward-B",
+    "scene": "/Volumes/eyedisk/develop/cinewright/.direction/aesthetic-toolkit-2026-11-08/review-01/forward-B-scene.json",
+    "assets": "/Volumes/eyedisk/develop/cinewright/.direction/aesthetic-toolkit-2026-11-08/review-01/forward-B-assets.json",
+    "store": "/Volumes/eyedisk/develop/cinewright/.direction/aesthetic-toolkit-2026-11-08/review-01/forward-store",
+    "revision": "b5465ae8eadff0b801d4d4d3ba13ba6c3381bf1741c8fc3a57e2b3aae36211f2",
+    "files": 30,
+    "sourceIsolation": true,
+    "browser": "not run: single permitted lock attempt busy",
+    "command": [
+      "/opt/homebrew/Cellar/node/26.12.1_1/bin/node",
+      "scripts/direction.mjs",
+      "style",
+      "build",
+      "line-wash",
+      "--scene",
+      "/Volumes/eyedisk/develop/cinewright/.direction/aesthetic-toolkit-2026-11-08/review-01/forward-B-scene.json",
+      "--assets",
+      "/Volumes/eyedisk/develop/cinewright/.direction/aesthetic-toolkit-2026-11-08/review-01/forward-B-assets.json",
+      "--project",
+      "/Volumes/eyedisk/develop/cinewright/.direction/aesthetic-toolkit-2026-11-08/review-01/forward-B"
+    ]
+  },
+  {
+    "tag": "C",
+    "style": "expressionist-space",
+    "project": "/Volumes/eyedisk/develop/cinewright/.direction/aesthetic-toolkit-2026-11-08/review-01/forward-C",
+    "scene": "/Volumes/eyedisk/develop/cinewright/.direction/aesthetic-toolkit-2026-11-08/review-01/forward-C-scene.json",
+    "assets": "/Volumes/eyedisk/develop/cinewright/.direction/aesthetic-toolkit-2026-11-08/review-01/forward-C-assets.json",
+    "store": "/Volumes/eyedisk/develop/cinewright/.direction/aesthetic-toolkit-2026-11-08/review-01/forward-store",
+    "revision": "d7f3e0454f2c9db31e33235cc2251e8aa42d6eaf8b5e162c8b24d5884689c4ae",
+    "files": 40,
+    "sourceIsolation": true,
+    "browser": "not run: single permitted lock attempt busy",
+    "command": [
+      "/opt/homebrew/Cellar/node/26.12.1_1/bin/node",
+      "scripts/direction.mjs",
+      "style",
+      "build",
+      "expressionist-space",
+      "--scene",
+      "/Volumes/eyedisk/develop/cinewright/.direction/aesthetic-toolkit-2026-11-08/review-01/forward-C-scene.json",
+      "--assets",
+      "/Volumes/eyedisk/develop/cinewright/.direction/aesthetic-toolkit-2026-11-08/review-01/forward-C-assets.json",
+      "--project",
+      "/Volumes/eyedisk/develop/cinewright/.direction/aesthetic-toolkit-2026-11-08/review-01/forward-C"
+    ]
+  }
+]

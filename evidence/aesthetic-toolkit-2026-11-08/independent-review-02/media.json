@@ -1,0 +1,326 @@
+[
+  {
+    "name": "forest",
+    "file": "/Volumes/eyedisk/develop/cinewright/evidence/aesthetic-toolkit-2026-11-08/A/forest-v3/540p.mp4",
+    "pass": true,
+    "probe": {
+      "width": 960,
+      "height": 540,
+      "pix_fmt": "yuv420p",
+      "r_frame_rate": "24/1",
+      "duration": "8.000000",
+      "nb_read_frames": "192"
+    },
+    "pts": {
+      "count": 192,
+      "last": 7.958333
+    },
+    "extracted": "/Volumes/eyedisk/develop/cinewright/evidence/aesthetic-toolkit-2026-11-08/independent-review-02/forest-540p-sheet.png"
+  },
+  {
+    "name": "forest",
+    "file": "/Volumes/eyedisk/develop/cinewright/evidence/aesthetic-toolkit-2026-11-08/A/forest-v3/1080p.mp4",
+    "pass": true,
+    "probe": {
+      "width": 1920,
+      "height": 1080,
+      "pix_fmt": "yuv420p",
+      "r_frame_rate": "24/1",
+      "duration": "8.000000",
+      "nb_read_frames": "192"
+    },
+    "pts": {
+      "count": 192,
+      "last": 7.958333
+    },
+    "extracted": "/Volumes/eyedisk/develop/cinewright/evidence/aesthetic-toolkit-2026-11-08/independent-review-02/forest-1080p-104.png"
+  },
+  {
+    "name": "harbor",
+    "file": "/Volumes/eyedisk/develop/cinewright/evidence/aesthetic-toolkit-2026-11-08/A/harbor/540p.mp4",
+    "pass": true,
+    "probe": {
+      "width": 960,
+      "height": 540,
+      "pix_fmt": "yuv420p",
+      "r_frame_rate": "24/1",
+      "duration": "8.000000",
+      "nb_read_frames": "192"
+    },
+    "pts": {
+      "count": 192,
+      "last": 7.958333
+    },
+    "extracted": "/Volumes/eyedisk/develop/cinewright/evidence/aesthetic-toolkit-2026-11-08/independent-review-02/harbor-540p-sheet.png"
+  },
+  {
+    "name": "harbor",
+    "file": "/Volumes/eyedisk/develop/cinewright/evidence/aesthetic-toolkit-2026-11-08/A/harbor/1080p.mp4",
+    "pass": true,
+    "probe": {
+      "width": 1920,
+      "height": 1080,
+      "pix_fmt": "yuv420p",
+      "r_frame_rate": "24/1",
+      "duration": "8.000000",
+      "nb_read_frames": "192"
+    },
+    "pts": {
+      "count": 192,
+      "last": 7.958333
+    },
+    "extracted": "/Volumes/eyedisk/develop/cinewright/evidence/aesthetic-toolkit-2026-11-08/independent-review-02/harbor-1080p-104.png"
+  },
+  {
+    "name": "rain",
+    "file": "/Volumes/eyedisk/develop/cinewright/evidence/aesthetic-toolkit-2026-11-08/B/rain-reviewed/540p.mp4",
+    "pass": true,
+    "probe": {
+      "width": 960,
+      "height": 540,
+      "pix_fmt": "yuv420p",
+      "r_frame_rate": "24/1",
+      "duration": "8.000000",
+      "nb_read_frames": "192"
+    },
+    "pts": {
+      "count": 192,
+      "last": 7.958333
+    },
+    "extracted": "/Volumes/eyedisk/develop/cinewright/evidence/aesthetic-toolkit-2026-11-08/independent-review-02/rain-540p-sheet.png"
+  },
+  {
+    "name": "rain",
+    "file": "/Volumes/eyedisk/develop/cinewright/evidence/aesthetic-toolkit-2026-11-08/B/rain-reviewed/1080p.mp4",
+    "pass": true,
+    "probe": {
+      "width": 1920,
+      "height": 1080,
+      "pix_fmt": "yuv420p",
+      "r_frame_rate": "24/1",
+      "duration": "8.000000",
+      "nb_read_frames": "192"
+    },
+    "pts": {
+      "count": 192,
+      "last": 7.958333
+    },
+    "extracted": "/Volumes/eyedisk/develop/cinewright/evidence/aesthetic-toolkit-2026-11-08/independent-review-02/rain-1080p-104.png"
+  },
+  {
+    "name": "commuter",
+    "file": "/Volumes/eyedisk/develop/cinewright/evidence/aesthetic-toolkit-2026-11-08/B/commuter-reviewed/540p.mp4",
+    "pass": true,
+    "probe": {
+      "width": 960,
+      "height": 540,
+      "pix_fmt": "yuv420p",
+      "r_frame_rate": "24/1",
+      "duration": "8.000000",
+      "nb_read_frames": "192"
+    },
+    "pts": {
+      "count": 192,
+      "last": 7.958333
+    },
+    "extracted": "/Volumes/eyedisk/develop/cinewright/evidence/aesthetic-toolkit-2026-11-08/independent-review-02/commuter-540p-sheet.png"
+  },
+  {
+    "name": "commuter",
+    "file": "/Volumes/eyedisk/develop/cinewright/evidence/aesthetic-toolkit-2026-11-08/B/commuter-reviewed/1080p.mp4",
+    "pass": true,
+    "probe": {
+      "width": 1920,
+      "height": 1080,
+      "pix_fmt": "yuv420p",
+      "r_frame_rate": "24/1",
+      "duration": "8.000000",
+      "nb_read_frames": "192"
+    },
+    "pts": {
+      "count": 192,
+      "last": 7.958333
+    },
+    "extracted": "/Volumes/eyedisk/develop/cinewright/evidence/aesthetic-toolkit-2026-11-08/independent-review-02/commuter-1080p-104.png"
+  },
+  {
+    "name": "station",
+    "file": "/Volumes/eyedisk/develop/cinewright/evidence/aesthetic-toolkit-2026-11-08/C/station-final/540p.mp4",
+    "pass": true,
+    "probe": {
+      "width": 960,
+      "height": 540,
+      "pix_fmt": "yuv420p",
+      "r_frame_rate": "24/1",
+      "duration": "8.000000",
+      "nb_read_frames": "192"
+    },
+    "pts": {
+      "count": 192,
+      "last": 7.958333
+    },
+    "extracted": "/Volumes/eyedisk/develop/cinewright/evidence/aesthetic-toolkit-2026-11-08/independent-review-02/station-540p-sheet.png"
+  },
+  {
+    "name": "station",
+    "file": "/Volumes/eyedisk/develop/cinewright/evidence/aesthetic-toolkit-2026-11-08/C/station-final/1080p.mp4",
+    "pass": true,
+    "probe": {
+      "width": 1920,
+      "height": 1080,
+      "pix_fmt": "yuv420p",
+      "r_frame_rate": "24/1",
+      "duration": "8.000000",
+      "nb_read_frames": "192"
+    },
+    "pts": {
+      "count": 192,
+      "last": 7.958333
+    },
+    "extracted": "/Volumes/eyedisk/develop/cinewright/evidence/aesthetic-toolkit-2026-11-08/independent-review-02/station-1080p-104.png"
+  },
+  {
+    "name": "laboratory",
+    "file": "/Volumes/eyedisk/develop/cinewright/evidence/aesthetic-toolkit-2026-11-08/C/laboratory-final/540p.mp4",
+    "pass": true,
+    "probe": {
+      "width": 960,
+      "height": 540,
+      "pix_fmt": "yuv420p",
+      "r_frame_rate": "24/1",
+      "duration": "8.000000",
+      "nb_read_frames": "192"
+    },
+    "pts": {
+      "count": 192,
+      "last": 7.958333
+    },
+    "extracted": "/Volumes/eyedisk/develop/cinewright/evidence/aesthetic-toolkit-2026-11-08/independent-review-02/laboratory-540p-sheet.png"
+  },
+  {
+    "name": "laboratory",
+    "file": "/Volumes/eyedisk/develop/cinewright/evidence/aesthetic-toolkit-2026-11-08/C/laboratory-final/1080p.mp4",
+    "pass": true,
+    "probe": {
+      "width": 1920,
+      "height": 1080,
+      "pix_fmt": "yuv420p",
+      "r_frame_rate": "24/1",
+      "duration": "8.000000",
+      "nb_read_frames": "192"
+    },
+    "pts": {
+      "count": 192,
+      "last": 7.958333
+    },
+    "extracted": "/Volumes/eyedisk/develop/cinewright/evidence/aesthetic-toolkit-2026-11-08/independent-review-02/laboratory-1080p-104.png"
+  },
+  {
+    "name": "effects2d",
+    "file": "/Volumes/eyedisk/develop/cinewright/evidence/aesthetic-toolkit-2026-11-08/effects2d-reviewed/540p.mp4",
+    "pass": true,
+    "probe": {
+      "width": 960,
+      "height": 540,
+      "pix_fmt": "yuv420p",
+      "r_frame_rate": "24/1",
+      "duration": "8.000000",
+      "nb_read_frames": "192"
+    },
+    "pts": {
+      "count": 192,
+      "last": 7.958333
+    },
+    "extracted": "/Volumes/eyedisk/develop/cinewright/evidence/aesthetic-toolkit-2026-11-08/independent-review-02/effects2d-540p-sheet.png"
+  },
+  {
+    "name": "effects2d",
+    "file": "/Volumes/eyedisk/develop/cinewright/evidence/aesthetic-toolkit-2026-11-08/effects2d-reviewed/1080p.mp4",
+    "pass": true,
+    "probe": {
+      "width": 1920,
+      "height": 1080,
+      "pix_fmt": "yuv420p",
+      "r_frame_rate": "24/1",
+      "duration": "8.000000",
+      "nb_read_frames": "192"
+    },
+    "pts": {
+      "count": 192,
+      "last": 7.958333
+    },
+    "extracted": "/Volumes/eyedisk/develop/cinewright/evidence/aesthetic-toolkit-2026-11-08/independent-review-02/effects2d-1080p-104.png"
+  },
+  {
+    "name": "effects3d",
+    "file": "/Volumes/eyedisk/develop/cinewright/evidence/aesthetic-toolkit-2026-11-08/C/effects/540p.mp4",
+    "pass": true,
+    "probe": {
+      "width": 960,
+      "height": 540,
+      "pix_fmt": "yuv420p",
+      "r_frame_rate": "24/1",
+      "duration": "8.000000",
+      "nb_read_frames": "192"
+    },
+    "pts": {
+      "count": 192,
+      "last": 7.958333
+    },
+    "extracted": "/Volumes/eyedisk/develop/cinewright/evidence/aesthetic-toolkit-2026-11-08/independent-review-02/effects3d-540p-sheet.png"
+  },
+  {
+    "name": "effects3d",
+    "file": "/Volumes/eyedisk/develop/cinewright/evidence/aesthetic-toolkit-2026-11-08/C/effects/1080p.mp4",
+    "pass": true,
+    "probe": {
+      "width": 1920,
+      "height": 1080,
+      "pix_fmt": "yuv420p",
+      "r_frame_rate": "24/1",
+      "duration": "8.000000",
+      "nb_read_frames": "192"
+    },
+    "pts": {
+      "count": 192,
+      "last": 7.958333
+    },
+    "extracted": "/Volumes/eyedisk/develop/cinewright/evidence/aesthetic-toolkit-2026-11-08/independent-review-02/effects3d-1080p-104.png"
+  },
+  {
+    "name": "mixed",
+    "file": "/Volumes/eyedisk/develop/cinewright/evidence/aesthetic-toolkit-2026-11-08/C/mixed/540p.mp4",
+    "pass": true,
+    "probe": {
+      "width": 960,
+      "height": 540,
+      "pix_fmt": "yuv420p",
+      "r_frame_rate": "24/1",
+      "duration": "8.000000",
+      "nb_read_frames": "192"
+    },
+    "pts": {
+      "count": 192,
+      "last": 7.958333
+    },
+    "extracted": "/Volumes/eyedisk/develop/cinewright/evidence/aesthetic-toolkit-2026-11-08/independent-review-02/mixed-540p-sheet.png"
+  },
+  {
+    "name": "mixed",
+    "file": "/Volumes/eyedisk/develop/cinewright/evidence/aesthetic-toolkit-2026-11-08/C/mixed/1080p.mp4",
+    "pass": true,
+    "probe": {
+      "width": 1920,
+      "height": 1080,
+      "pix_fmt": "yuv420p",
+      "r_frame_rate": "24/1",
+      "duration": "8.000000",
+      "nb_read_frames": "192"
+    },
+    "pts": {
+      "count": 192,
+      "last": 7.958333
+    },
+    "extracted": "/Volumes/eyedisk/develop/cinewright/evidence/aesthetic-toolkit-2026-11-08/independent-review-02/mixed-1080p-104.png"
+  }
+]

@@ -1,0 +1,12 @@
+✔ 2D default/empty/maximum particle, trail and hatch counts stay bounded and fail above limits (10.197334ms)
+✔ all transition types clamp half-open boundaries and reject invalid time/centers (0.366667ms)
+✔ 3D atlas/material/dust/light maxima are actual bounded allocations with cleanup (11.15175ms)
+✔ line-wash aggregate preparation accepts its exact point budget then rejects additional marks (17.337833ms)
+ℹ tests 4
+ℹ suites 0
+ℹ pass 4
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 164.577166

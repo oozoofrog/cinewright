@@ -1,0 +1,11 @@
+{
+  "checks": 9,
+  "passed": 8,
+  "failed": [
+    {
+      "name": "R3 update precise pre/post proof with header-only PNG",
+      "pass": false,
+      "error": "AssertionError [ERR_ASSERTION]: malformed image update was accepted\n\ntrue !== false\n"
+    }
+  ]
+}

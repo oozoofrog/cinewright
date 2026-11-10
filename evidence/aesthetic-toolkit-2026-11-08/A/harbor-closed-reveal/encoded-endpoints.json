@@ -1,0 +1,94 @@
+[
+  {
+    "label": "540p",
+    "samples": [
+      {
+        "frame": 0,
+        "min": [
+          182,
+          188,
+          195
+        ],
+        "max": [
+          182,
+          188,
+          195
+        ]
+      },
+      {
+        "frame": 1,
+        "min": [
+          116,
+          123,
+          113
+        ],
+        "max": [
+          232,
+          214,
+          198
+        ]
+      },
+      {
+        "frame": 2,
+        "min": [
+          108,
+          118,
+          118
+        ],
+        "max": [
+          233,
+          215,
+          198
+        ]
+      }
+    ],
+    "closedFirstFrame": true,
+    "irisAppearsNextFrame": true
+  },
+  {
+    "label": "1080p",
+    "samples": [
+      {
+        "frame": 0,
+        "min": [
+          182,
+          188,
+          195
+        ],
+        "max": [
+          182,
+          188,
+          195
+        ]
+      },
+      {
+        "frame": 1,
+        "min": [
+          116,
+          123,
+          113
+        ],
+        "max": [
+          232,
+          214,
+          198
+        ]
+      },
+      {
+        "frame": 2,
+        "min": [
+          108,
+          117,
+          118
+        ],
+        "max": [
+          235,
+          216,
+          198
+        ]
+      }
+    ],
+    "closedFirstFrame": true,
+    "irisAppearsNextFrame": true
+  }
+]

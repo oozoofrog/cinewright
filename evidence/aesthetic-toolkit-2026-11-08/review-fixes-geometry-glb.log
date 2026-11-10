@@ -1,0 +1,59 @@
+✔ absolute reverse clip seek and disposal (1.587917ms)
+✔ held clip and clamped nonloop (0.249042ms)
+✔ GLB rejects malformed headers and remote dependencies (0.231166ms)
+✔ vendor closure pins version and retains MIT license (12.756708ms)
+✔ three authored scene grammars validate without mutation (15.168375ms)
+✔ scene rejects malformed mesh UV, missing material, key mismatch and invalid gobo (2.451791ms)
+✔ absolute deformation restores rest across random/reverse queries (3.134834ms)
+✔ UV atlas contains nested density, shader uses UV and keeps color/fog stages (1.897917ms)
+✔ instanced dust is analytic seed/id/age and does not retain last frame (0.956958ms)
+✔ clip negative timeScale, looping boundary and weight keep absolute semantics (1.148709ms)
+✔ embedded original assets include UV and matching animation (1.667375ms)
+✔ capability failure is explicit and never silently paints fallback (0.159875ms)
+✔ shot keys clamp and interpolate world transforms independently (0.2175ms)
+✔ actual r180 GLTFLoader parses original embedded UV meshes and animation in Node (6.288042ms)
+✔ public geometry/lighting helpers reject allocation expansion and invalid graphic shadows (0.64275ms)
+✔ 2D default/empty/maximum particle, trail and hatch counts stay bounded and fail above limits (14.604292ms)
+✔ all transition types clamp half-open boundaries and reject invalid time/centers (0.156041ms)
+✔ 3D atlas/material/dust/light maxima are actual bounded allocations with cleanup (18.13075ms)
+✔ scene preflight rejects missing shapes, ranges, mismatched poses, malformed reveal and missing assets without publication (13.022166ms)
+✔ straight cubic retains nonlinear pressure, finite derived length and bounded flatten allocation (39.014ms)
+✔ public wash/transition and B dab validation reject nonfinite or malformed inputs (0.841708ms)
+✔ geometry factory and C scene reject zero/fractional subdivisions before Three allocates NaN buffers (1.430041ms)
+✔ provenance has no circular self hash and matches all authored silhouette bytes (1.350459ms)
+✔ authored commuter contact holds planted shoes fixed while swing feet lift and ankle lines match (27.218875ms)
+✖ staged generation rejects malformed embedded GLB before publishing or replacing prior bytes (7.181916ms)
+ℹ tests 25
+ℹ suites 0
+ℹ pass 24
+ℹ fail 1
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 245.370917
+
+✖ failing tests:
+
+test at tests/style-review-regression.test.mjs:12:1
+✖ staged generation rejects malformed embedded GLB before publishing or replacing prior bytes (7.181916ms)
+  AssertionError [ERR_ASSERTION]: The input did not match the regular expression /GLB/. Input:
+  
+  'Error: Symlink not allowed: /var/folders/tf/wn7gzzvd6l7f7_ttdx84ps880000gn/T/style-glb-preflight-c8RIaS/bad.glb'
+  
+      at async TestContext.<anonymous> (file:///Volumes/eyedisk/develop/cinewright/tests/style-review-regression.test.mjs:12:446)
+      at async Test.run (node:internal/test_runner/test:1409:7)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: Error: Symlink not allowed: /var/folders/tf/wn7gzzvd6l7f7_ttdx84ps880000gn/T/style-glb-preflight-c8RIaS/bad.glb
+        at noLinks (file:///Volumes/eyedisk/develop/cinewright/scripts/materialize-style.mjs:14:221)
+        at async materializeStyle (file:///Volumes/eyedisk/develop/cinewright/scripts/materialize-style.mjs:23:161)
+        at async waitForActual (node:assert:615:5)
+        at async strict.rejects (node:assert:738:25)
+        at async TestContext.<anonymous> (file:///Volumes/eyedisk/develop/cinewright/tests/style-review-regression.test.mjs:12:446)
+        at async Test.run (node:internal/test_runner/test:1409:7)
+        at async Test.processPendingSubtests (node:internal/test_runner/test:974:7),
+    expected: /GLB/,
+    operator: 'rejects',
+    diff: 'simple'
+  }

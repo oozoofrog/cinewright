@@ -1,0 +1,463 @@
+Job 6b22cf2f-b4cf-4865-91e2-36d912520386 · /Volumes/eyedisk/develop/cinewright/.direction/aesthetic-toolkit-2026-11-08/effects-store/jobs/6b22cf2f-b4cf-4865-91e2-36d912520386
+Job cb7501b5-edce-4c43-af9a-2cb8a70daa41 · /Volumes/eyedisk/develop/cinewright/.direction/aesthetic-toolkit-2026-11-08/effects-store/jobs/cb7501b5-edce-4c43-af9a-2cb8a70daa41
+{
+  "project": "/Volumes/eyedisk/develop/cinewright/.direction/aesthetic-toolkit-2026-11-08/effects2d-reviewed",
+  "revision": "1bae35d38555e7d2833a07ae5c0f91b58569a479e87b81d33539788d8ccae5ee",
+  "browser": "157.0.8103.38",
+  "size": [
+    1920,
+    1080
+  ],
+  "frames": 192,
+  "fps": 24,
+  "errors": [],
+  "warnings": [
+    "[.WebGL-0x11c00587200]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels"
+  ],
+  "network": [],
+  "notes": [
+    "same software WebGL2 environment, no cross-GPU pixel guarantee",
+    "autoplay is automated; human continuous viewing/listening/accessibility/acceptance unverified"
+  ],
+  "prepareMs": 746.176292,
+  "seek": {
+    "checks": 55,
+    "canonical": {
+      "0": {
+        "state": {
+          "frame": 0,
+          "values": {},
+          "exposures": {
+            "effects": {
+              "frame": 0
+            }
+          }
+        },
+        "hash": "7f39de3f81f2e3ba76e2bbf699eafc2ddfba10a6e7489beb21a7f8462db0fe1a"
+      },
+      "1": {
+        "state": {
+          "frame": 1,
+          "values": {},
+          "exposures": {
+            "effects": {
+              "frame": 1
+            }
+          }
+        },
+        "hash": "351b344dc0a1c343cb231b9cb1d4497738927e874a8d33c00ba3bbf74c94fef9"
+      },
+      "2": {
+        "state": {
+          "frame": 2,
+          "values": {},
+          "exposures": {
+            "effects": {
+              "frame": 2
+            }
+          }
+        },
+        "hash": "032e53e8d9c809b7490a304ecef04d5ef82c92c0427e7c05933f2d710d5cda70"
+      },
+      "23": {
+        "state": {
+          "frame": 23,
+          "values": {},
+          "exposures": {
+            "effects": {
+              "frame": 23
+            }
+          }
+        },
+        "hash": "5b1b9cd4bb7ea0b81fd54d914ca715001afbe6d8b452db771b9eaf1ea7869461"
+      },
+      "24": {
+        "state": {
+          "frame": 24,
+          "values": {},
+          "exposures": {
+            "effects": {
+              "frame": 24
+            }
+          }
+        },
+        "hash": "24e8e0e0ff8031ed245e88c9d5601fe2e2d285e60cf837de3e80247afbff811f"
+      },
+      "25": {
+        "state": {
+          "frame": 25,
+          "values": {},
+          "exposures": {
+            "effects": {
+              "frame": 25
+            }
+          }
+        },
+        "hash": "556bf77d8555a5f51ddeda6d15a559160965e1e22bd1c3831c5b9f9469b85284"
+      },
+      "47": {
+        "state": {
+          "frame": 47,
+          "values": {},
+          "exposures": {
+            "effects": {
+              "frame": 47
+            }
+          }
+        },
+        "hash": "7fd571752ddb2f32074699e8fd5aa579e607989706c2a79e747c641dbc4ed842"
+      },
+      "48": {
+        "state": {
+          "frame": 48,
+          "values": {},
+          "exposures": {
+            "effects": {
+              "frame": 48
+            }
+          }
+        },
+        "hash": "60549189cdbe202cd6d9f96072fa30aac82b56c4798e32247885152792d8e74c"
+      },
+      "49": {
+        "state": {
+          "frame": 49,
+          "values": {},
+          "exposures": {
+            "effects": {
+              "frame": 49
+            }
+          }
+        },
+        "hash": "37719cd904bcca163c9d281c90ee43dc95d4617038eb1ad31ce75a33bc8e1488"
+      },
+      "71": {
+        "state": {
+          "frame": 71,
+          "values": {},
+          "exposures": {
+            "effects": {
+              "frame": 71
+            }
+          }
+        },
+        "hash": "8ef7ca23375903525580b426d8af5d7847ebed0fa1fe59ee0a1df6bb65ddee93"
+      },
+      "72": {
+        "state": {
+          "frame": 72,
+          "values": {},
+          "exposures": {
+            "effects": {
+              "frame": 72
+            }
+          }
+        },
+        "hash": "ae9cebdb8ee7645251fdff57139fbea198bc59452543579c39b2aae0b3e51d9c"
+      },
+      "73": {
+        "state": {
+          "frame": 73,
+          "values": {},
+          "exposures": {
+            "effects": {
+              "frame": 73
+            }
+          }
+        },
+        "hash": "c453e15ffccaebe2bacf0225b414c0269dd18bbc54a2b3e652039b982d8fd4ba"
+      },
+      "95": {
+        "state": {
+          "frame": 95,
+          "values": {},
+          "exposures": {
+            "effects": {
+              "frame": 95
+            }
+          }
+        },
+        "hash": "3c929cfc02c1337896d34856c12188a332d25050496114067d61b3a84637b9f7"
+      },
+      "96": {
+        "state": {
+          "frame": 96,
+          "values": {},
+          "exposures": {
+            "effects": {
+              "frame": 96
+            }
+          }
+        },
+        "hash": "0bb1c60c0931a82c2395f5002a3f2461a9909a7118b0fbe1ad1c16d9e2a5974f"
+      },
+      "97": {
+        "state": {
+          "frame": 97,
+          "values": {},
+          "exposures": {
+            "effects": {
+              "frame": 97
+            }
+          }
+        },
+        "hash": "fdda9bf0a5bab250b26ed0d5439a467955c76f8054cc714d617438af76c92d98"
+      },
+      "103": {
+        "state": {
+          "frame": 103,
+          "values": {},
+          "exposures": {
+            "effects": {
+              "frame": 103
+            }
+          }
+        },
+        "hash": "46785b97c1d8e8fc1cdff11ed1bc06a5ebb272a321a0a15c47c643fc2abd27e6"
+      },
+      "104": {
+        "state": {
+          "frame": 104,
+          "values": {},
+          "exposures": {
+            "effects": {
+              "frame": 104
+            }
+          }
+        },
+        "hash": "47896a17f35184eb32c6295aac1cef6317a971173e7cb7c2d50a40bfd5657394"
+      },
+      "105": {
+        "state": {
+          "frame": 105,
+          "values": {},
+          "exposures": {
+            "effects": {
+              "frame": 105
+            }
+          }
+        },
+        "hash": "a32694cabe1efbb7f4eb8ff5ab6ea398b3ee3b838b91937b35dabe05bb3d8af4"
+      },
+      "127": {
+        "state": {
+          "frame": 127,
+          "values": {},
+          "exposures": {
+            "effects": {
+              "frame": 127
+            }
+          }
+        },
+        "hash": "24b392c4b6116fd89ccce94b33df3ac637ef40ac5ac071f54af9e00a52af6762"
+      },
+      "128": {
+        "state": {
+          "frame": 128,
+          "values": {},
+          "exposures": {
+            "effects": {
+              "frame": 128
+            }
+          }
+        },
+        "hash": "7888bff04a3bb6db92d53165a648708a7bb9074dea97a6afb04d82a539416846"
+      },
+      "129": {
+        "state": {
+          "frame": 129,
+          "values": {},
+          "exposures": {
+            "effects": {
+              "frame": 129
+            }
+          }
+        },
+        "hash": "abdb8ce4791ed2eb7d8b00b182febb8c2d95e1803efaf439263097ae47e30571"
+      },
+      "143": {
+        "state": {
+          "frame": 143,
+          "values": {},
+          "exposures": {
+            "effects": {
+              "frame": 143
+            }
+          }
+        },
+        "hash": "ab5ffa3b6aec87e20450d83d34f5969b9c1b12f94f5585da5079b0a491647acb"
+      },
+      "144": {
+        "state": {
+          "frame": 144,
+          "values": {},
+          "exposures": {
+            "effects": {
+              "frame": 144
+            }
+          }
+        },
+        "hash": "7c20d8d9ffd7a682fa993bc63358e733a2fc61e372780be2e26f48c7d7727d59"
+      },
+      "145": {
+        "state": {
+          "frame": 145,
+          "values": {},
+          "exposures": {
+            "effects": {
+              "frame": 145
+            }
+          }
+        },
+        "hash": "325fdd53c132e4bc69421fc5d84ff86a2bcca5462e60b2899c6dce7b07d90bf4"
+      },
+      "190": {
+        "state": {
+          "frame": 190,
+          "values": {},
+          "exposures": {
+            "effects": {
+              "frame": 190
+            }
+          }
+        },
+        "hash": "30aca3881a8fd1cfead2307701334aa8fedfff77e90ca2054af9349b5d72c6d9"
+      },
+      "191": {
+        "state": {
+          "frame": 191,
+          "values": {},
+          "exposures": {
+            "effects": {
+              "frame": 191
+            }
+          }
+        },
+        "hash": "2dda59149498f618d59d9e788ff9942790412e03c99bb09667d738f3bec64b42"
+      }
+    }
+  },
+  "performance": {
+    "samples": 60,
+    "p50Ms": 0.40000009536743164,
+    "p95Ms": 0.6000000238418579,
+    "jsHeapBytes": 7720829,
+    "renderer": "WebKit WebGL",
+    "gpuMemoryBytes": null,
+    "note": "synchronous draw submission incl canvas composite; GPU memory unavailable"
+  },
+  "freezeSourceIsolation": true,
+  "autoplay": {
+    "completed": true,
+    "lastFrame": 191,
+    "muted": true
+  },
+  "lifecycle": [
+    {
+      "disposedDrawRejected": true
+    },
+    {
+      "disposedDrawRejected": true
+    },
+    {
+      "disposedDrawRejected": true
+    },
+    {
+      "disposedDrawRejected": true
+    }
+  ],
+  "jobs": [
+    {
+      "id": "6b22cf2f-b4cf-4865-91e2-36d912520386",
+      "output": "/Volumes/eyedisk/develop/cinewright/.direction/aesthetic-toolkit-2026-11-08/effects-store/jobs/6b22cf2f-b4cf-4865-91e2-36d912520386/work.mp4",
+      "copy": "/Volumes/eyedisk/develop/cinewright/evidence/aesthetic-toolkit-2026-11-08/effects2d-reviewed/540p.mp4",
+      "revision": "1bae35d38555e7d2833a07ae5c0f91b58569a479e87b81d33539788d8ccae5ee",
+      "probe": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "width": 960,
+            "height": 540,
+            "pix_fmt": "yuv420p",
+            "r_frame_rate": "24/1",
+            "duration": "8.000000",
+            "nb_read_frames": "192"
+          }
+        ]
+      },
+      "pts": {
+        "count": 192,
+        "first": 0,
+        "last": 7.958333,
+        "monotone": true
+      },
+      "flash": {
+        "version": 1,
+        "file": "/Volumes/eyedisk/develop/cinewright/evidence/aesthetic-toolkit-2026-11-08/effects2d-reviewed/540p.mp4",
+        "fps": 24,
+        "resolution": [
+          160,
+          90
+        ],
+        "frames": 192,
+        "maxTransitionsInOneSecond": 0,
+        "flaggedWindows": 0,
+        "examples": [],
+        "status": "screen-negative",
+        "scope": "Every decoded CFR frame at 160x90; >=25% same-direction area, linear luminance delta >=0.10 (peak >=0.20) or saturated-red delta >=0.20; >=6 alternating transitions in a rolling second flags risk (both polarities retained for simultaneous opposing regions, at most one count per decoded transition).",
+        "limitations": [
+          "Not WCAG certification, medical advice, or a guarantee of safety.",
+          "Downscaling can miss small/local patterns; no spatial-frequency, visual-angle or display-luminance model.",
+          "Screen-negative is not safe; human accessibility review remains required."
+        ]
+      }
+    },
+    {
+      "id": "cb7501b5-edce-4c43-af9a-2cb8a70daa41",
+      "output": "/Volumes/eyedisk/develop/cinewright/.direction/aesthetic-toolkit-2026-11-08/effects-store/jobs/cb7501b5-edce-4c43-af9a-2cb8a70daa41/work.mp4",
+      "copy": "/Volumes/eyedisk/develop/cinewright/evidence/aesthetic-toolkit-2026-11-08/effects2d-reviewed/1080p.mp4",
+      "revision": "1bae35d38555e7d2833a07ae5c0f91b58569a479e87b81d33539788d8ccae5ee",
+      "probe": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "width": 1920,
+            "height": 1080,
+            "pix_fmt": "yuv420p",
+            "r_frame_rate": "24/1",
+            "duration": "8.000000",
+            "nb_read_frames": "192"
+          }
+        ]
+      },
+      "pts": {
+        "count": 192,
+        "first": 0,
+        "last": 7.958333,
+        "monotone": true
+      },
+      "flash": {
+        "version": 1,
+        "file": "/Volumes/eyedisk/develop/cinewright/evidence/aesthetic-toolkit-2026-11-08/effects2d-reviewed/1080p.mp4",
+        "fps": 24,
+        "resolution": [
+          160,
+          90
+        ],
+        "frames": 192,
+        "maxTransitionsInOneSecond": 0,
+        "flaggedWindows": 0,
+        "examples": [],
+        "status": "screen-negative",
+        "scope": "Every decoded CFR frame at 160x90; >=25% same-direction area, linear luminance delta >=0.10 (peak >=0.20) or saturated-red delta >=0.20; >=6 alternating transitions in a rolling second flags risk (both polarities retained for simultaneous opposing regions, at most one count per decoded transition).",
+        "limitations": [
+          "Not WCAG certification, medical advice, or a guarantee of safety.",
+          "Downscaling can miss small/local patterns; no spatial-frequency, visual-angle or display-luminance model.",
+          "Screen-negative is not safe; human accessibility review remains required."
+        ]
+      }
+    }
+  ]
+}

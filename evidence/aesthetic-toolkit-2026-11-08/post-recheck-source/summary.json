@@ -1,0 +1,16 @@
+[
+  {
+    "scene": "A/forest",
+    "revision": "a01058e3997fd0d7148bc5ebe7accd735c9c8cdd9b57c3730c187057fd75755b",
+    "comparedTo": "b6a2519893b864678c79c9597536f9b474ab29fe03e6774c9e626b708fea5930",
+    "samePixels": true,
+    "checks": 55
+  },
+  {
+    "scene": "A/portrait",
+    "revision": "3dfaa86186f99561061b7a5766a25a4c69b6989ab0bae2a902e725d9ad24ba27",
+    "comparedTo": "c201856f3451d3c480a83077544e78e6e34a1d9171cd59d5c26feb79d45574aa",
+    "samePixels": true,
+    "checks": 55
+  }
+]

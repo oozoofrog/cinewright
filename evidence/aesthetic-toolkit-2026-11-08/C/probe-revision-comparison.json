@@ -1,0 +1,10 @@
+{
+  "probe": "e7c2054c9ddb15121cd9f2eb9f2a1b980dc5c92847bf605c83b012eb17ada3ef",
+  "effects": "a70ba38039dc538de1cd4a1cc5784b2f530d0cfe4849b0ee4622a08b34d5630b",
+  "differences": [
+    "project/.cinewright-style.json",
+    "project/modules/animation/exposure.mjs",
+    "project/style-version.json"
+  ],
+  "rendererAndGLBUnchanged": false
+}

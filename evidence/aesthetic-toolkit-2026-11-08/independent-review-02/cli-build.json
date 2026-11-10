@@ -1,0 +1,51 @@
+{
+  "project": "/Volumes/eyedisk/develop/cinewright/.direction/aesthetic-toolkit-2026-11-08/review-02/CLI-B",
+  "style": "line-wash",
+  "version": "1.0.0",
+  "files": [
+    {
+      "file": "modules/styles/line-wash/index.mjs",
+      "sha256": "22a0a9b5d9a2a0b5c1c87c0f0be035ac9bb22a8d98fca25c7152c689887dc6d6"
+    },
+    {
+      "file": "modules/fx2d/stroke.mjs",
+      "sha256": "2fc1df6bea032f82b369a88a7b0e70b4acef66ce6c619e6d14b7ad056597b158"
+    },
+    {
+      "file": "modules/fx2d/brush.mjs",
+      "sha256": "1e5f89c617800d9e5c23b2d5943b14ee2630b83a333e23227ad7cb8b650fdac3"
+    },
+    {
+      "file": "modules/fx2d/wash.mjs",
+      "sha256": "157d0d85a4139dad78d46292b78a93aa40d068e16c792cf5690530c2bbdb3cec"
+    },
+    {
+      "file": "modules/fx2d/hatch.mjs",
+      "sha256": "0921337a4a581388090121771d351b632d19798f6bb05491af81fedf879363ee"
+    },
+    {
+      "file": "modules/fx2d/redraw.mjs",
+      "sha256": "39e591c3abaf0028122ba5124abb1cebf6391a6d0696d907c4f5c88e1c2fee0d"
+    },
+    {
+      "file": "modules/animation/exposure.mjs",
+      "sha256": "ed8455c1aed87d78c88b1275b3ba74cc3783f073b6e9f9699d58f5be8ace1ab3"
+    },
+    {
+      "file": "modules/fx2d/erase.mjs",
+      "sha256": "c6fb931e0a9c36c2a0e23eca5142f6a2e109c2e9eab49ee94f9b95de762abbce"
+    },
+    {
+      "file": "work.json",
+      "sha256": "be3f42486010804419ce63c442c56934cecca0805c001e9da29c745e8c6f5ae5"
+    },
+    {
+      "file": "style-scene.json",
+      "sha256": "c8d70556925f7ea985da26109fd02718eec6addd4d48b1ca7e251e60bc7fca5f"
+    },
+    {
+      "file": "style-version.json",
+      "sha256": "4d4510cb26ada9cdb48be8c0011530c261a7b47b757f96187250a0ef36a63b87"
+    }
+  ]
+}

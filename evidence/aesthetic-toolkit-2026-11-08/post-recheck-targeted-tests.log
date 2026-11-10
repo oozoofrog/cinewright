@@ -1,0 +1,10 @@
+✔ real image decode rejects header-only PNG new/update before publication while preserving all prior bytes (6147.064958ms)
+✔ actual Canvas iris/curtain/match are empty before/from, visible after from and full at to across arbitrary seeks (3530.038667ms)
+ℹ tests 2
+ℹ suites 0
+ℹ pass 2
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 9794.116041

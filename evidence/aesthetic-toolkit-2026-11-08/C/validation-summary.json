@@ -1,0 +1,515 @@
+{
+  "results": [
+    {
+      "scene": "station-final",
+      "revision": "1b5fa6a053b8968045ded0817d6f8e922929b65c54bc62da8e9871943774a87e",
+      "browser": "157.0.8103.38",
+      "seekChecks": 55,
+      "freezeSourceIsolation": true,
+      "autoplay": {
+        "completed": true,
+        "lastFrame": 191,
+        "muted": true
+      },
+      "lifecycle": [
+        {
+          "disposedDrawRejected": true
+        },
+        {
+          "disposedDrawRejected": true
+        },
+        {
+          "disposedDrawRejected": true
+        },
+        {
+          "disposedDrawRejected": true
+        }
+      ],
+      "errors": [],
+      "network": [],
+      "performance": {
+        "samples": 60,
+        "p50Ms": 0.20000004768371582,
+        "p95Ms": 30.700000047683716,
+        "jsHeapBytes": 34818217,
+        "renderer": "WebKit WebGL",
+        "gpuMemoryBytes": null,
+        "note": "synchronous draw submission incl canvas composite; GPU memory unavailable"
+      },
+      "jobs": [
+        {
+          "id": "d32460c0-1603-453f-bc1c-e72c43545bd2",
+          "file": "/Volumes/eyedisk/develop/cinewright/evidence/aesthetic-toolkit-2026-11-08/C/station-final/540p.mp4",
+          "probe": {
+            "programs": [],
+            "stream_groups": [],
+            "streams": [
+              {
+                "width": 960,
+                "height": 540,
+                "pix_fmt": "yuv420p",
+                "r_frame_rate": "24/1",
+                "duration": "8.000000",
+                "nb_read_frames": "192"
+              }
+            ]
+          },
+          "pts": {
+            "count": 192,
+            "first": 0,
+            "last": 7.958333,
+            "monotone": true
+          },
+          "flash": "screen-negative"
+        },
+        {
+          "id": "0b0415b8-dc23-4530-a830-fb2e63f1cc1f",
+          "file": "/Volumes/eyedisk/develop/cinewright/evidence/aesthetic-toolkit-2026-11-08/C/station-final/1080p.mp4",
+          "probe": {
+            "programs": [],
+            "stream_groups": [],
+            "streams": [
+              {
+                "width": 1920,
+                "height": 1080,
+                "pix_fmt": "yuv420p",
+                "r_frame_rate": "24/1",
+                "duration": "8.000000",
+                "nb_read_frames": "192"
+              }
+            ]
+          },
+          "pts": {
+            "count": 192,
+            "first": 0,
+            "last": 7.958333,
+            "monotone": true
+          },
+          "flash": "screen-negative"
+        }
+      ]
+    },
+    {
+      "scene": "laboratory-final",
+      "revision": "baf83d6cbc78b8510a20946123a4a6c10df3b34e575606db16dacf7821c37355",
+      "browser": "157.0.8103.38",
+      "seekChecks": 55,
+      "freezeSourceIsolation": true,
+      "autoplay": {
+        "completed": true,
+        "lastFrame": 191,
+        "muted": true
+      },
+      "lifecycle": [
+        {
+          "disposedDrawRejected": true
+        },
+        {
+          "disposedDrawRejected": true
+        },
+        {
+          "disposedDrawRejected": true
+        },
+        {
+          "disposedDrawRejected": true
+        }
+      ],
+      "errors": [],
+      "network": [],
+      "performance": {
+        "samples": 60,
+        "p50Ms": 0.2999999523162842,
+        "p95Ms": 23.300000071525574,
+        "jsHeapBytes": 40663087,
+        "renderer": "WebKit WebGL",
+        "gpuMemoryBytes": null,
+        "note": "synchronous draw submission incl canvas composite; GPU memory unavailable"
+      },
+      "jobs": [
+        {
+          "id": "92589638-22cd-4261-80ed-acfb02bba97b",
+          "file": "/Volumes/eyedisk/develop/cinewright/evidence/aesthetic-toolkit-2026-11-08/C/laboratory-final/540p.mp4",
+          "probe": {
+            "programs": [],
+            "stream_groups": [],
+            "streams": [
+              {
+                "width": 960,
+                "height": 540,
+                "pix_fmt": "yuv420p",
+                "r_frame_rate": "24/1",
+                "duration": "8.000000",
+                "nb_read_frames": "192"
+              }
+            ]
+          },
+          "pts": {
+            "count": 192,
+            "first": 0,
+            "last": 7.958333,
+            "monotone": true
+          },
+          "flash": "screen-negative"
+        },
+        {
+          "id": "b573f5f6-8bc8-4611-8916-4307930f7f7d",
+          "file": "/Volumes/eyedisk/develop/cinewright/evidence/aesthetic-toolkit-2026-11-08/C/laboratory-final/1080p.mp4",
+          "probe": {
+            "programs": [],
+            "stream_groups": [],
+            "streams": [
+              {
+                "width": 1920,
+                "height": 1080,
+                "pix_fmt": "yuv420p",
+                "r_frame_rate": "24/1",
+                "duration": "8.000000",
+                "nb_read_frames": "192"
+              }
+            ]
+          },
+          "pts": {
+            "count": 192,
+            "first": 0,
+            "last": 7.958333,
+            "monotone": true
+          },
+          "flash": "screen-negative"
+        }
+      ]
+    },
+    {
+      "scene": "effects",
+      "revision": "a70ba38039dc538de1cd4a1cc5784b2f530d0cfe4849b0ee4622a08b34d5630b",
+      "browser": "157.0.8103.38",
+      "seekChecks": 55,
+      "freezeSourceIsolation": true,
+      "autoplay": {
+        "completed": true,
+        "lastFrame": 191,
+        "muted": true
+      },
+      "lifecycle": [
+        {
+          "disposedDrawRejected": true
+        },
+        {
+          "disposedDrawRejected": true
+        },
+        {
+          "disposedDrawRejected": true
+        },
+        {
+          "disposedDrawRejected": true
+        }
+      ],
+      "errors": [],
+      "network": [],
+      "performance": {
+        "samples": 60,
+        "p50Ms": 0.10000002384185791,
+        "p95Ms": 0.20000004768371582,
+        "jsHeapBytes": 15073894,
+        "renderer": "WebKit WebGL",
+        "gpuMemoryBytes": null,
+        "note": "synchronous draw submission incl canvas composite; GPU memory unavailable"
+      },
+      "jobs": [
+        {
+          "id": "248ae22c-8d18-4fd7-9a7d-6d8a755fc36b",
+          "file": "/Volumes/eyedisk/develop/cinewright/evidence/aesthetic-toolkit-2026-11-08/C/effects/540p.mp4",
+          "probe": {
+            "programs": [],
+            "stream_groups": [],
+            "streams": [
+              {
+                "width": 960,
+                "height": 540,
+                "pix_fmt": "yuv420p",
+                "r_frame_rate": "24/1",
+                "duration": "8.000000",
+                "nb_read_frames": "192"
+              }
+            ]
+          },
+          "pts": {
+            "count": 192,
+            "first": 0,
+            "last": 7.958333,
+            "monotone": true
+          },
+          "flash": "screen-negative"
+        },
+        {
+          "id": "f964f351-d89c-4189-b3e2-646603c73326",
+          "file": "/Volumes/eyedisk/develop/cinewright/evidence/aesthetic-toolkit-2026-11-08/C/effects/1080p.mp4",
+          "probe": {
+            "programs": [],
+            "stream_groups": [],
+            "streams": [
+              {
+                "width": 1920,
+                "height": 1080,
+                "pix_fmt": "yuv420p",
+                "r_frame_rate": "24/1",
+                "duration": "8.000000",
+                "nb_read_frames": "192"
+              }
+            ]
+          },
+          "pts": {
+            "count": 192,
+            "first": 0,
+            "last": 7.958333,
+            "monotone": true
+          },
+          "flash": "screen-negative"
+        }
+      ]
+    },
+    {
+      "scene": "mixed",
+      "revision": "38c4cdf30e16778b862b9ce6a9782d090dfdacb09b3b87823a850cff5a69b73a",
+      "browser": "157.0.8103.38",
+      "seekChecks": 55,
+      "freezeSourceIsolation": true,
+      "autoplay": {
+        "completed": true,
+        "lastFrame": 191,
+        "muted": true
+      },
+      "lifecycle": [
+        {
+          "disposedDrawRejected": true
+        },
+        {
+          "disposedDrawRejected": true
+        },
+        {
+          "disposedDrawRejected": true
+        },
+        {
+          "disposedDrawRejected": true
+        }
+      ],
+      "errors": [],
+      "network": [],
+      "performance": {
+        "samples": 60,
+        "p50Ms": 0.2999999523162842,
+        "p95Ms": 23,
+        "jsHeapBytes": 41277938,
+        "renderer": "WebKit WebGL",
+        "gpuMemoryBytes": null,
+        "note": "synchronous draw submission incl canvas composite; GPU memory unavailable"
+      },
+      "jobs": [
+        {
+          "id": "580806bd-fa27-4ed9-8f18-7b224366688c",
+          "file": "/Volumes/eyedisk/develop/cinewright/evidence/aesthetic-toolkit-2026-11-08/C/mixed/540p.mp4",
+          "probe": {
+            "programs": [],
+            "stream_groups": [],
+            "streams": [
+              {
+                "width": 960,
+                "height": 540,
+                "pix_fmt": "yuv420p",
+                "r_frame_rate": "24/1",
+                "duration": "8.000000",
+                "nb_read_frames": "192"
+              }
+            ]
+          },
+          "pts": {
+            "count": 192,
+            "first": 0,
+            "last": 7.958333,
+            "monotone": true
+          },
+          "flash": "screen-negative"
+        },
+        {
+          "id": "4b14f3b5-80b1-4597-8a17-75b1a0ea9616",
+          "file": "/Volumes/eyedisk/develop/cinewright/evidence/aesthetic-toolkit-2026-11-08/C/mixed/1080p.mp4",
+          "probe": {
+            "programs": [],
+            "stream_groups": [],
+            "streams": [
+              {
+                "width": 1920,
+                "height": 1080,
+                "pix_fmt": "yuv420p",
+                "r_frame_rate": "24/1",
+                "duration": "8.000000",
+                "nb_read_frames": "192"
+              }
+            ]
+          },
+          "pts": {
+            "count": 192,
+            "first": 0,
+            "last": 7.958333,
+            "monotone": true
+          },
+          "flash": "screen-negative"
+        }
+      ]
+    },
+    {
+      "scene": "portrait",
+      "revision": "534af250fc37626eae5cc72b731e5acbb6df364c3cd492619a11615dc02ed76e",
+      "browser": "157.0.8103.38",
+      "seekChecks": 55,
+      "freezeSourceIsolation": true,
+      "autoplay": {
+        "completed": true,
+        "lastFrame": 191,
+        "muted": true
+      },
+      "lifecycle": [
+        {
+          "disposedDrawRejected": true
+        },
+        {
+          "disposedDrawRejected": true
+        },
+        {
+          "disposedDrawRejected": true
+        },
+        {
+          "disposedDrawRejected": true
+        }
+      ],
+      "errors": [],
+      "network": [],
+      "performance": {
+        "samples": 60,
+        "p50Ms": 0.20000004768371582,
+        "p95Ms": 0.5,
+        "jsHeapBytes": 37777038,
+        "renderer": "WebKit WebGL",
+        "gpuMemoryBytes": null,
+        "note": "synchronous draw submission incl canvas composite; GPU memory unavailable"
+      },
+      "jobs": []
+    }
+  ],
+  "probes": {
+    "revision": "a70ba38039dc538de1cd4a1cc5784b2f530d0cfe4849b0ee4622a08b34d5630b",
+    "browser": "157.0.8103.38",
+    "opaque": [
+      128,
+      128,
+      128,
+      255
+    ],
+    "clear": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "alpha": [
+      128,
+      128,
+      128,
+      128
+    ],
+    "black": [
+      64,
+      64,
+      64,
+      255
+    ],
+    "white": [
+      191,
+      191,
+      191,
+      255
+    ],
+    "stats": {
+      "disposed": false,
+      "calls": 1,
+      "triangles": 2,
+      "geometries": 1,
+      "textures": 0
+    },
+    "disposedStats": {
+      "disposed": true,
+      "calls": 1,
+      "triangles": 2,
+      "geometries": 0,
+      "textures": 0
+    },
+    "cycles": [
+      {
+        "before": {
+          "disposed": false,
+          "calls": 10,
+          "triangles": 5400,
+          "geometries": 8,
+          "textures": 7,
+          "objects": 4,
+          "clips": 1
+        },
+        "after": {
+          "disposed": true,
+          "calls": 10,
+          "triangles": 5400,
+          "geometries": 0,
+          "textures": 0,
+          "objects": 4,
+          "clips": 1
+        }
+      },
+      {
+        "before": {
+          "disposed": false,
+          "calls": 10,
+          "triangles": 5400,
+          "geometries": 8,
+          "textures": 7,
+          "objects": 4,
+          "clips": 1
+        },
+        "after": {
+          "disposed": true,
+          "calls": 10,
+          "triangles": 5400,
+          "geometries": 0,
+          "textures": 0,
+          "objects": 4,
+          "clips": 1
+        }
+      },
+      {
+        "before": {
+          "disposed": false,
+          "calls": 10,
+          "triangles": 5400,
+          "geometries": 8,
+          "textures": 7,
+          "objects": 4,
+          "clips": 1
+        },
+        "after": {
+          "disposed": true,
+          "calls": 10,
+          "triangles": 5400,
+          "geometries": 0,
+          "textures": 0,
+          "objects": 4,
+          "clips": 1
+        }
+      }
+    ],
+    "partialFailure": "Error: GLB clip not found: assets/specimen.glb",
+    "errors": []
+  },
+  "notes": [
+    "Automated browser playback, no human continuous viewing or aesthetic acceptance",
+    "Representative images inspected separately; same-machine pixels, not cross-GPU guarantee",
+    "GPU memory not measured; synchronous draw timing is not full GPU completion time"
+  ]
+}

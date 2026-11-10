@@ -1,0 +1,19 @@
+Collecting PyYAML==6.0.3
+  Downloading pyyaml-6.0.3.tar.gz (130 kB)
+  Installing build dependencies: started
+  Installing build dependencies: finished with status 'done'
+  Getting requirements to build wheel: started
+  Getting requirements to build wheel: finished with status 'done'
+  Preparing metadata (pyproject.toml): started
+  Preparing metadata (pyproject.toml): finished with status 'done'
+Building wheels for collected packages: PyYAML
+  Building wheel for PyYAML (pyproject.toml): started
+  Building wheel for PyYAML (pyproject.toml): finished with status 'done'
+  Created wheel for PyYAML: filename=pyyaml-6.0.3-cp315-cp315-macosx_27_0_arm64.whl size=45468 sha256=c75edb3d29ecb935e8d324cb52315bb45d01c6709b47036af52a423376abc039
+  Stored in directory: /Users/oozoofrog/Library/Caches/pip/wheels/39/c5/03/188d3f8dc792f835b1e767b5e6e0fec41846dc06f6dd368652
+Successfully built PyYAML
+Installing collected packages: PyYAML
+Successfully installed PyYAML-6.0.3
+
+[notice] A new release of pip is available: 26.2.2 -> 26.3
+[notice] To update, run: /Volumes/eyedisk/develop/cinewright/.direction/aesthetic-toolkit-2026-11-08/validation-venv/bin/python3.15 -m pip install --upgrade pip

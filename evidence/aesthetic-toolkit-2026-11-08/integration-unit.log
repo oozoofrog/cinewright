@@ -1,0 +1,36 @@
+✔ absolute reverse clip seek and disposal (1.445875ms)
+✔ held clip and clamped nonloop (0.2285ms)
+✔ GLB rejects malformed headers and remote dependencies (0.184333ms)
+✔ vendor closure pins version and retains MIT license (3.2145ms)
+✔ three authored scene grammars validate without mutation (4.037959ms)
+✔ scene rejects malformed mesh UV, missing material, key mismatch and invalid gobo (1.781334ms)
+✔ absolute deformation restores rest across random/reverse queries (2.491709ms)
+✔ UV atlas contains nested density, shader uses UV and keeps color/fog stages (1.81575ms)
+✔ instanced dust is analytic seed/id/age and does not retain last frame (1.136042ms)
+✔ clip negative timeScale, looping boundary and weight keep absolute semantics (1.027584ms)
+✔ embedded original assets include UV and matching animation (0.953083ms)
+✔ capability failure is explicit and never silently paints fallback (0.167584ms)
+✔ shot keys clamp and interpolate world transforms independently (0.123167ms)
+✔ actual r180 GLTFLoader parses original embedded UV meshes and animation in Node (5.113042ms)
+✔ public geometry/lighting helpers reject allocation expansion and invalid graphic shadows (0.618041ms)
+✔ cubic approximation, bounded failure, invalid data and immutability (0.944208ms)
+✔ redraw correspondence, exposure, erasure boundaries and seeded dabs (0.579958ms)
+✔ authored scenes validate and reverse seek is independent (9.535333ms)
+✔ scene rejects bad bank pressure, masks and material (1.766167ms)
+✔ arc-length reveal and input immutability (0.753584ms)
+✔ rejects invalid pressure and zero length (0.127ms)
+✔ replaceable forest, harbor and portrait compile to manifest v1 without changing authored input (45.462584ms)
+✔ bad scene fails before publishing; preserve input, reject cycles and excess objects (2.014625ms)
+✔ half-open irregular exposure preserves frame/value, hold versus interpolation (0.776542ms)
+✔ hierarchy, clamps, input immutability, cycles and parent errors (0.306667ms)
+✔ continuous camera coexists with held pose and coverage diagnoses edges (0.153625ms)
+✔ absolute emitter and independent trail survive arbitrary sampling (0.325042ms)
+✔ SVG and command validation rejects truncated curves, arc flags and nonfinite coordinates before publishing (0.317416ms)
+ℹ tests 28
+ℹ suites 0
+ℹ pass 28
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 159.09925

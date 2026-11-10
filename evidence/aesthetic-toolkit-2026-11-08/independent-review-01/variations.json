@@ -1,0 +1,23 @@
+[
+  {
+    "name": "A",
+    "style": "silhouette-theatre",
+    "project": "/Volumes/eyedisk/develop/cinewright/.direction/aesthetic-toolkit-2026-11-08/review-01/A-project",
+    "revision": "531a2749cde43b4bffa83678ecb1a39a8ddb0a49e8b9fcf26b35dbb6d5c31a36",
+    "files": 30
+  },
+  {
+    "name": "B",
+    "style": "line-wash",
+    "project": "/Volumes/eyedisk/develop/cinewright/.direction/aesthetic-toolkit-2026-11-08/review-01/B-project",
+    "revision": "1990ccc7268b2d1b47c7e83104456496e7395d313ab130e3f2ec2e65262ad242",
+    "files": 30
+  },
+  {
+    "name": "C",
+    "style": "expressionist-space",
+    "project": "/Volumes/eyedisk/develop/cinewright/.direction/aesthetic-toolkit-2026-11-08/review-01/C-project",
+    "revision": "c30becf02620ef159910b77a992c2f8be87c2d4157644fefc001697c2ca67f7d",
+    "files": 40
+  }
+]

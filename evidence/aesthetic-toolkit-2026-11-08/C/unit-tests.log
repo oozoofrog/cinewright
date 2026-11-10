@@ -1,0 +1,23 @@
+✔ absolute reverse clip seek and disposal (1.401625ms)
+✔ held clip and clamped nonloop (0.227917ms)
+✔ GLB rejects malformed headers and remote dependencies (0.181792ms)
+✔ vendor closure pins version and retains MIT license (3.120291ms)
+✔ three authored scene grammars validate without mutation (4.495708ms)
+✔ scene rejects malformed mesh UV, missing material, key mismatch and invalid gobo (2.03825ms)
+✔ absolute deformation restores rest across random/reverse queries (2.76975ms)
+✔ UV atlas contains nested density, shader uses UV and keeps color/fog stages (1.901083ms)
+✔ instanced dust is analytic seed/id/age and does not retain last frame (0.877958ms)
+✔ clip negative timeScale, looping boundary and weight keep absolute semantics (0.984666ms)
+✔ embedded original assets include UV and matching animation (1.113417ms)
+✔ capability failure is explicit and never silently paints fallback (0.123584ms)
+✔ shot keys clamp and interpolate world transforms independently (0.107708ms)
+✔ actual r180 GLTFLoader parses original embedded UV meshes and animation in Node (5.335541ms)
+✔ public geometry/lighting helpers reject allocation expansion and invalid graphic shadows (0.601958ms)
+ℹ tests 15
+ℹ suites 0
+ℹ pass 15
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 140.147292

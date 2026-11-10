@@ -1,0 +1,10 @@
+{
+  screened: 10,
+  statuses: [
+    { name: 'A/forest-v3', screens: [Array] },
+    { name: 'A/harbor', screens: [Array] },
+    { name: 'B/rain-final', screens: [Array] },
+    { name: 'B/commuter-final', screens: [Array] },
+    { name: 'effects2d', screens: [Array] }
+  ]
+}
