@@ -1,0 +1,140 @@
+{
+  "branch": "chore/organize-work-artifacts",
+  "main_unchanged": "36ab1241d58cb4ccb5af6b7ac42922adf8969d45",
+  "head_before_final": "7302c592f25b228e876344281b273de83197ccba",
+  "tracked_before": {
+    "count": 1539,
+    "bytes": 143458509
+  },
+  "tracked_before_final_management_commit": {
+    "count": 2923,
+    "bytes_in_working_tree": 153461779
+  },
+  "new_media_additions": [],
+  "new_added_files_over_500000_bytes": [],
+  "product_runtime_modules_and_package_changes": false,
+  "evidence_root_loose_files": [],
+  "scripts_remaining": [
+    "audio.mjs",
+    "auto-rig.mjs",
+    "direction.mjs",
+    "execution.mjs",
+    "flash.mjs",
+    "jobs.mjs",
+    "materialize-kit.mjs",
+    "materialize-style.mjs",
+    "music.mjs",
+    "observe.mjs",
+    "retarget-bake.mjs",
+    "review.mjs",
+    "revisions.mjs",
+    "scaffold.mjs",
+    "server.mjs",
+    "style-images.mjs",
+    "style-vendor-expressionist.mjs",
+    "watercolor-bake.mjs",
+    "watercolor-examples.mjs",
+    "watercolor-memory.mjs"
+  ],
+  "ignore_boundary_probes": [
+    {
+      "path": ".agent-loop/example/state.json",
+      "expected_ignored": true,
+      "observed_ignored": true,
+      "matched_rule": ".gitignore:7:.agent-loop/\t.agent-loop/example/state.json"
+    },
+    {
+      "path": ".direction/example/work.json",
+      "expected_ignored": true,
+      "observed_ignored": true,
+      "matched_rule": ".gitignore:2:.direction/\t.direction/example/work.json"
+    },
+    {
+      "path": "evidence/2026-11-10-probe/work.mp4",
+      "expected_ignored": true,
+      "observed_ignored": true,
+      "matched_rule": ".gitignore:21:evidence/**/*.mp4\tevidence/2026-11-10-probe/work.mp4"
+    },
+    {
+      "path": "evidence/2026-11-10-probe/figures/representative.png",
+      "expected_ignored": true,
+      "observed_ignored": true,
+      "matched_rule": ".gitignore:29:evidence/**/*.png\tevidence/2026-11-10-probe/figures/representative.png"
+    },
+    {
+      "path": "evidence/2026-11-10-probe/store/work.json",
+      "expected_ignored": true,
+      "observed_ignored": true,
+      "matched_rule": ".gitignore:10:evidence/**/store/\tevidence/2026-11-10-probe/store/work.json"
+    },
+    {
+      "path": "evidence/2026-11-10-probe/draft-store/work.json",
+      "expected_ignored": true,
+      "observed_ignored": true,
+      "matched_rule": ".gitignore:12:evidence/**/*-store/\tevidence/2026-11-10-probe/draft-store/work.json"
+    },
+    {
+      "path": "evidence/2026-11-10-probe/frames/frame.json",
+      "expected_ignored": true,
+      "observed_ignored": true,
+      "matched_rule": ".gitignore:18:evidence/**/frames/\tevidence/2026-11-10-probe/frames/frame.json"
+    },
+    {
+      "path": "evidence/2026-11-10-probe/frame-bundle/frame.json",
+      "expected_ignored": true,
+      "observed_ignored": true,
+      "matched_rule": ".gitignore:19:evidence/**/frame-bundle/\tevidence/2026-11-10-probe/frame-bundle/frame.json"
+    },
+    {
+      "path": "evidence/2026-11-10-probe/render-job/work.json",
+      "expected_ignored": true,
+      "observed_ignored": true,
+      "matched_rule": ".gitignore:16:evidence/**/render-job/\tevidence/2026-11-10-probe/render-job/work.json"
+    },
+    {
+      "path": "evidence/2026-11-10-probe/report.md",
+      "expected_ignored": false,
+      "observed_ignored": false,
+      "matched_rule": ""
+    },
+    {
+      "path": "evidence/2026-11-10-probe/data.json",
+      "expected_ignored": false,
+      "observed_ignored": false,
+      "matched_rule": ""
+    },
+    {
+      "path": "evidence/2026-11-10-probe/run.log",
+      "expected_ignored": false,
+      "observed_ignored": false,
+      "matched_rule": ""
+    },
+    {
+      "path": "evidence/2026-11-10-probe/scripts/a.mjs",
+      "expected_ignored": false,
+      "observed_ignored": false,
+      "matched_rule": ""
+    },
+    {
+      "path": "docs/work-index.md",
+      "expected_ignored": false,
+      "observed_ignored": false,
+      "matched_rule": ""
+    },
+    {
+      "path": "scripts/watercolor-memory.mjs",
+      "expected_ignored": false,
+      "observed_ignored": false,
+      "matched_rule": ""
+    }
+  ],
+  "status_counts_before_final": {
+    " M": 2,
+    "??": 20,
+    "!!": 15103
+  },
+  "full_status_local": "status-ignored-full.txt",
+  "full_log_stat_local": "branch-log-stat-full.txt",
+  "tracked_media_rule": "All media tracked at initial HEAD is retained; media renames preserve bytes. Ignore rules never remove tracked entries. No rm --cached, deletion, push, deploy or global/cache edit was used.",
+  "self_reference": "This snapshot precedes the final management commit. Its own final hash/status/byte totals are checked after commit and reported externally/in the handoff, not fabricated inside itself."
+}

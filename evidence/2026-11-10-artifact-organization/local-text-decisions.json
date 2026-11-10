@@ -1,0 +1,303 @@
+[
+  {
+    "path": "evidence/2026-11-08-aesthetic-toolkit-phase02/coordinator/baseline.json",
+    "bytes": 2579512,
+    "tracked": false,
+    "decision": "local-only",
+    "reason": "Generated or large evidence, exact path ignore; no blanket JSON/log ignore"
+  },
+  {
+    "path": "evidence/2026-11-08-aesthetic-toolkit-phase02/independent-recheck/hashes-after.json",
+    "bytes": 2711676,
+    "tracked": false,
+    "decision": "local-only",
+    "reason": "Generated or large evidence, exact path ignore; no blanket JSON/log ignore"
+  },
+  {
+    "path": "evidence/2026-11-08-aesthetic-toolkit-phase02/independent-recheck/hashes-before.json",
+    "bytes": 2741208,
+    "tracked": false,
+    "decision": "local-only",
+    "reason": "Generated or large evidence, exact path ignore; no blanket JSON/log ignore"
+  },
+  {
+    "path": "evidence/2026-11-08-cinematic-animation-implementation/assets/reader-inferred.rig.json",
+    "bytes": 915703,
+    "tracked": false,
+    "decision": "local-only",
+    "reason": "Generated or large evidence, exact path ignore; no blanket JSON/log ignore"
+  },
+  {
+    "path": "evidence/2026-11-08-cinematic-animation-implementation/assets/reader.rig.json",
+    "bytes": 811319,
+    "tracked": false,
+    "decision": "local-only",
+    "reason": "Generated or large evidence, exact path ignore; no blanket JSON/log ignore"
+  },
+  {
+    "path": "evidence/2026-11-08-cinematic-animation-implementation/watercolor/overlap-96x54.json",
+    "bytes": 38539771,
+    "tracked": false,
+    "decision": "local-only",
+    "reason": "Generated or large evidence, exact path ignore; no blanket JSON/log ignore"
+  },
+  {
+    "path": "evidence/2026-11-08-cinematic-animation-implementation/watercolor/wet-96x54.json",
+    "bytes": 21597646,
+    "tracked": false,
+    "decision": "local-only",
+    "reason": "Generated or large evidence, exact path ignore; no blanket JSON/log ignore"
+  },
+  {
+    "path": "evidence/2026-11-09-craft-review/implementation/store/revisions/38b4551aa5c40649d9b461e2205cecf28d908f8045723ecafed612613becac38/vendor/three/three.core.js",
+    "bytes": 1403455,
+    "tracked": false,
+    "decision": "local-only",
+    "reason": "Generated or large evidence, exact path ignore; no blanket JSON/log ignore"
+  },
+  {
+    "path": "evidence/2026-11-09-craft-review/implementation/store/revisions/38b4551aa5c40649d9b461e2205cecf28d908f8045723ecafed612613becac38/vendor/three/three.module.js",
+    "bytes": 603113,
+    "tracked": false,
+    "decision": "local-only",
+    "reason": "Generated or large evidence, exact path ignore; no blanket JSON/log ignore"
+  },
+  {
+    "path": "evidence/2026-11-09-gap-closure/preserved-before.json",
+    "bytes": 689736,
+    "tracked": false,
+    "decision": "local-only",
+    "reason": "Generated or large evidence, exact path ignore; no blanket JSON/log ignore"
+  },
+  {
+    "path": "evidence/2026-11-09-skill-production-loop/implementation/demo/store/revisions/d73936b8be740e5e1446017e62309e2ba0cbde2a6a03f93f52ee141784752b1a/vendor/three/three.core.js",
+    "bytes": 1403455,
+    "tracked": false,
+    "decision": "local-only",
+    "reason": "Generated or large evidence, exact path ignore; no blanket JSON/log ignore"
+  },
+  {
+    "path": "evidence/2026-11-09-skill-production-loop/implementation/demo/store/revisions/d73936b8be740e5e1446017e62309e2ba0cbde2a6a03f93f52ee141784752b1a/vendor/three/three.module.js",
+    "bytes": 603113,
+    "tracked": false,
+    "decision": "local-only",
+    "reason": "Generated or large evidence, exact path ignore; no blanket JSON/log ignore"
+  },
+  {
+    "path": "evidence/2026-11-09-skill-production-loop/implementation/verified-demo/store/revisions/d73936b8be740e5e1446017e62309e2ba0cbde2a6a03f93f52ee141784752b1a/vendor/three/three.core.js",
+    "bytes": 1403455,
+    "tracked": false,
+    "decision": "local-only",
+    "reason": "Generated or large evidence, exact path ignore; no blanket JSON/log ignore"
+  },
+  {
+    "path": "evidence/2026-11-09-skill-production-loop/implementation/verified-demo/store/revisions/d73936b8be740e5e1446017e62309e2ba0cbde2a6a03f93f52ee141784752b1a/vendor/three/three.module.js",
+    "bytes": 603113,
+    "tracked": false,
+    "decision": "local-only",
+    "reason": "Generated or large evidence, exact path ignore; no blanket JSON/log ignore"
+  },
+  {
+    "path": "evidence/2026-11-09-skill-production-loop/implementation/verified-demo/store/revisions/e3f5775da83aaf3e87c7fdb255c66a46482c6f214e41c5a2a9bb62bba2da02e0/vendor/three/three.core.js",
+    "bytes": 1403455,
+    "tracked": false,
+    "decision": "local-only",
+    "reason": "Generated or large evidence, exact path ignore; no blanket JSON/log ignore"
+  },
+  {
+    "path": "evidence/2026-11-09-skill-production-loop/implementation/verified-demo/store/revisions/e3f5775da83aaf3e87c7fdb255c66a46482c6f214e41c5a2a9bb62bba2da02e0/vendor/three/three.module.js",
+    "bytes": 603113,
+    "tracked": false,
+    "decision": "local-only",
+    "reason": "Generated or large evidence, exact path ignore; no blanket JSON/log ignore"
+  },
+  {
+    "path": "evidence/2026-11-09-skill-production-loop/independent/store/revisions/12e8108e288eac934950af77dc6ed2a55e3809d8d2a8eca7d3f7dbdeaa123d0e/vendor/three/three.core.js",
+    "bytes": 1403455,
+    "tracked": false,
+    "decision": "local-only",
+    "reason": "Generated or large evidence, exact path ignore; no blanket JSON/log ignore"
+  },
+  {
+    "path": "evidence/2026-11-09-skill-production-loop/independent/store/revisions/12e8108e288eac934950af77dc6ed2a55e3809d8d2a8eca7d3f7dbdeaa123d0e/vendor/three/three.module.js",
+    "bytes": 603113,
+    "tracked": false,
+    "decision": "local-only",
+    "reason": "Generated or large evidence, exact path ignore; no blanket JSON/log ignore"
+  },
+  {
+    "path": "evidence/2026-11-09-skill-production-loop/independent/store/revisions/68484f6314fa50269f6953a3ba9ee496cc2a1484bafdc38b9d2adb5fa1f5006c/vendor/three/three.core.js",
+    "bytes": 1403455,
+    "tracked": false,
+    "decision": "local-only",
+    "reason": "Generated or large evidence, exact path ignore; no blanket JSON/log ignore"
+  },
+  {
+    "path": "evidence/2026-11-09-skill-production-loop/independent/store/revisions/68484f6314fa50269f6953a3ba9ee496cc2a1484bafdc38b9d2adb5fa1f5006c/vendor/three/three.module.js",
+    "bytes": 603113,
+    "tracked": false,
+    "decision": "local-only",
+    "reason": "Generated or large evidence, exact path ignore; no blanket JSON/log ignore"
+  },
+  {
+    "path": "evidence/2026-11-09-skill-production-loop/independent/store/revisions/7e181fb0b2f2f3de16a0bc4064b61d453f7180e3fbe80fc26491c2d93030f489/vendor/three/three.core.js",
+    "bytes": 1403455,
+    "tracked": false,
+    "decision": "local-only",
+    "reason": "Generated or large evidence, exact path ignore; no blanket JSON/log ignore"
+  },
+  {
+    "path": "evidence/2026-11-09-skill-production-loop/independent/store/revisions/7e181fb0b2f2f3de16a0bc4064b61d453f7180e3fbe80fc26491c2d93030f489/vendor/three/three.module.js",
+    "bytes": 603113,
+    "tracked": false,
+    "decision": "local-only",
+    "reason": "Generated or large evidence, exact path ignore; no blanket JSON/log ignore"
+  },
+  {
+    "path": "evidence/2026-11-10-code-expression/delivery/store/revisions/517cfa5582aea710236af06ec30937d4488027828dbce4f22b38d18b0c9845f4/vendor/three/three.core.js",
+    "bytes": 1403455,
+    "tracked": false,
+    "decision": "local-only",
+    "reason": "Generated or large evidence, exact path ignore; no blanket JSON/log ignore"
+  },
+  {
+    "path": "evidence/2026-11-10-code-expression/delivery/store/revisions/517cfa5582aea710236af06ec30937d4488027828dbce4f22b38d18b0c9845f4/vendor/three/three.module.js",
+    "bytes": 603113,
+    "tracked": false,
+    "decision": "local-only",
+    "reason": "Generated or large evidence, exact path ignore; no blanket JSON/log ignore"
+  },
+  {
+    "path": "evidence/2026-11-10-code-expression/delivery/store/revisions/bfc7411768e8a9bf444833c20e3e40791c16363e13c92ab10f41379de45aa9b0/vendor/three/three.core.js",
+    "bytes": 1403455,
+    "tracked": false,
+    "decision": "local-only",
+    "reason": "Generated or large evidence, exact path ignore; no blanket JSON/log ignore"
+  },
+  {
+    "path": "evidence/2026-11-10-code-expression/delivery/store/revisions/bfc7411768e8a9bf444833c20e3e40791c16363e13c92ab10f41379de45aa9b0/vendor/three/three.module.js",
+    "bytes": 603113,
+    "tracked": false,
+    "decision": "local-only",
+    "reason": "Generated or large evidence, exact path ignore; no blanket JSON/log ignore"
+  },
+  {
+    "path": "evidence/2026-11-10-code-expression/delivery/store/revisions/c5aa4ad8f24dee659526807136d4dd7ffd69b6ef74fb3559c2df831c0231ffd6/vendor/three/three.core.js",
+    "bytes": 1403455,
+    "tracked": false,
+    "decision": "local-only",
+    "reason": "Generated or large evidence, exact path ignore; no blanket JSON/log ignore"
+  },
+  {
+    "path": "evidence/2026-11-10-code-expression/delivery/store/revisions/c5aa4ad8f24dee659526807136d4dd7ffd69b6ef74fb3559c2df831c0231ffd6/vendor/three/three.module.js",
+    "bytes": 603113,
+    "tracked": false,
+    "decision": "local-only",
+    "reason": "Generated or large evidence, exact path ignore; no blanket JSON/log ignore"
+  },
+  {
+    "path": "evidence/2026-11-10-code-expression/draft-store/revisions/c2c60793c87f1e2eaf6fccc68421344b873c6db7f60a4d84b39ac609dff57e23/vendor/three/three.core.js",
+    "bytes": 1403455,
+    "tracked": false,
+    "decision": "local-only",
+    "reason": "Generated or large evidence, exact path ignore; no blanket JSON/log ignore"
+  },
+  {
+    "path": "evidence/2026-11-10-code-expression/draft-store/revisions/c2c60793c87f1e2eaf6fccc68421344b873c6db7f60a4d84b39ac609dff57e23/vendor/three/three.module.js",
+    "bytes": 603113,
+    "tracked": false,
+    "decision": "local-only",
+    "reason": "Generated or large evidence, exact path ignore; no blanket JSON/log ignore"
+  },
+  {
+    "path": "evidence/2026-11-10-code-expression/final/store/revisions/0f702c9cd5765e7ca1610e34f15f20c0ccb4add2256162a0ec1ea5bb0b0de18c/vendor/three/three.core.js",
+    "bytes": 1403455,
+    "tracked": false,
+    "decision": "local-only",
+    "reason": "Generated or large evidence, exact path ignore; no blanket JSON/log ignore"
+  },
+  {
+    "path": "evidence/2026-11-10-code-expression/final/store/revisions/0f702c9cd5765e7ca1610e34f15f20c0ccb4add2256162a0ec1ea5bb0b0de18c/vendor/three/three.module.js",
+    "bytes": 603113,
+    "tracked": false,
+    "decision": "local-only",
+    "reason": "Generated or large evidence, exact path ignore; no blanket JSON/log ignore"
+  },
+  {
+    "path": "evidence/2026-11-10-code-expression/final/store/revisions/30a71618e892790aa7a25bc54079b2c131bd3835fe4969c502a6631b6684ee2d/vendor/three/three.core.js",
+    "bytes": 1403455,
+    "tracked": false,
+    "decision": "local-only",
+    "reason": "Generated or large evidence, exact path ignore; no blanket JSON/log ignore"
+  },
+  {
+    "path": "evidence/2026-11-10-code-expression/final/store/revisions/30a71618e892790aa7a25bc54079b2c131bd3835fe4969c502a6631b6684ee2d/vendor/three/three.module.js",
+    "bytes": 603113,
+    "tracked": false,
+    "decision": "local-only",
+    "reason": "Generated or large evidence, exact path ignore; no blanket JSON/log ignore"
+  },
+  {
+    "path": "evidence/2026-11-10-code-expression/final/store/revisions/7bc926b1fee89b31c4ecb5dd41492c5f218418ddb8f0d1e100f151d579301e17/vendor/three/three.core.js",
+    "bytes": 1403455,
+    "tracked": false,
+    "decision": "local-only",
+    "reason": "Generated or large evidence, exact path ignore; no blanket JSON/log ignore"
+  },
+  {
+    "path": "evidence/2026-11-10-code-expression/final/store/revisions/7bc926b1fee89b31c4ecb5dd41492c5f218418ddb8f0d1e100f151d579301e17/vendor/three/three.module.js",
+    "bytes": 603113,
+    "tracked": false,
+    "decision": "local-only",
+    "reason": "Generated or large evidence, exact path ignore; no blanket JSON/log ignore"
+  },
+  {
+    "path": "evidence/2026-11-10-code-expression/final/store/revisions/bfc7411768e8a9bf444833c20e3e40791c16363e13c92ab10f41379de45aa9b0/vendor/three/three.core.js",
+    "bytes": 1403455,
+    "tracked": false,
+    "decision": "local-only",
+    "reason": "Generated or large evidence, exact path ignore; no blanket JSON/log ignore"
+  },
+  {
+    "path": "evidence/2026-11-10-code-expression/final/store/revisions/bfc7411768e8a9bf444833c20e3e40791c16363e13c92ab10f41379de45aa9b0/vendor/three/three.module.js",
+    "bytes": 603113,
+    "tracked": false,
+    "decision": "local-only",
+    "reason": "Generated or large evidence, exact path ignore; no blanket JSON/log ignore"
+  },
+  {
+    "path": "evidence/2026-11-10-code-expression/final/store/revisions/c5aa4ad8f24dee659526807136d4dd7ffd69b6ef74fb3559c2df831c0231ffd6/vendor/three/three.core.js",
+    "bytes": 1403455,
+    "tracked": false,
+    "decision": "local-only",
+    "reason": "Generated or large evidence, exact path ignore; no blanket JSON/log ignore"
+  },
+  {
+    "path": "evidence/2026-11-10-code-expression/final/store/revisions/c5aa4ad8f24dee659526807136d4dd7ffd69b6ef74fb3559c2df831c0231ffd6/vendor/three/three.module.js",
+    "bytes": 603113,
+    "tracked": false,
+    "decision": "local-only",
+    "reason": "Generated or large evidence, exact path ignore; no blanket JSON/log ignore"
+  },
+  {
+    "path": "evidence/2026-11-10-code-expression/final/store/revisions/e3f770f2de3d147ccb58bff26b62d473b4f6959903de7e72c9e63b3587aee60a/vendor/three/three.core.js",
+    "bytes": 1403455,
+    "tracked": false,
+    "decision": "local-only",
+    "reason": "Generated or large evidence, exact path ignore; no blanket JSON/log ignore"
+  },
+  {
+    "path": "evidence/2026-11-10-code-expression/final/store/revisions/e3f770f2de3d147ccb58bff26b62d473b4f6959903de7e72c9e63b3587aee60a/vendor/three/three.module.js",
+    "bytes": 603113,
+    "tracked": false,
+    "decision": "local-only",
+    "reason": "Generated or large evidence, exact path ignore; no blanket JSON/log ignore"
+  },
+  {
+    "path": "evidence/2026-11-10-motion-authoring/baseline/original-files.sha256.json",
+    "bytes": 2434220,
+    "tracked": false,
+    "decision": "local-only",
+    "reason": "Generated or large evidence, exact path ignore; no blanket JSON/log ignore"
+  }
+]

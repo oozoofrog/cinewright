@@ -1,0 +1,104 @@
+{
+  "sources": [
+    "motion-authoring baseline -> code expression and inseparable earlier edits",
+    "audience-acceptance baseline -> motion authoring",
+    "saved initial dirty docs -> audience acceptance"
+  ],
+  "coverage": [
+    {
+      "path": "SKILL.md",
+      "stage1": "changed",
+      "stage2": "changed",
+      "stage3": "changed"
+    },
+    {
+      "path": "references/craft-execution.md",
+      "stage1": "changed",
+      "stage2": "changed",
+      "stage3": "changed"
+    },
+    {
+      "path": "references/craft.md",
+      "stage1": "changed",
+      "stage2": "unchanged",
+      "stage3": "changed"
+    },
+    {
+      "path": "references/direction.md",
+      "stage1": "changed",
+      "stage2": "unchanged",
+      "stage3": "changed"
+    },
+    {
+      "path": "references/format.md",
+      "stage1": "changed",
+      "stage2": "unchanged",
+      "stage3": "unchanged"
+    },
+    {
+      "path": "references/music-box.md",
+      "stage1": "unchanged",
+      "stage2": "unchanged",
+      "stage3": "changed"
+    },
+    {
+      "path": "references/music.md",
+      "stage1": "changed",
+      "stage2": "unchanged",
+      "stage3": "changed"
+    },
+    {
+      "path": "references/stillcuts.md",
+      "stage1": "changed",
+      "stage2": "unchanged",
+      "stage3": "changed"
+    },
+    {
+      "path": "references/styles/expressionist-space.md",
+      "stage1": "unchanged",
+      "stage2": "unchanged",
+      "stage3": "changed"
+    },
+    {
+      "path": "references/styles/index.md",
+      "stage1": "unchanged",
+      "stage2": "unchanged",
+      "stage3": "changed"
+    },
+    {
+      "path": "references/styles/line-wash.md",
+      "stage1": "unchanged",
+      "stage2": "unchanged",
+      "stage3": "changed"
+    },
+    {
+      "path": "references/styles/retarget.md",
+      "stage1": "unchanged",
+      "stage2": "unchanged",
+      "stage3": "changed"
+    },
+    {
+      "path": "references/styles/silhouette-theatre.md",
+      "stage1": "unchanged",
+      "stage2": "unchanged",
+      "stage3": "changed"
+    },
+    {
+      "path": "references/styles/watercolor-physical.md",
+      "stage1": "unchanged",
+      "stage2": "unchanged",
+      "stage3": "changed"
+    },
+    {
+      "path": "skills/cinewright/SKILL.md",
+      "stage1": "changed",
+      "stage2": "unchanged",
+      "stage3": "changed"
+    }
+  ],
+  "first_commit_body_discloses_inseparable_user_edits": true,
+  "first_commit": "483dba6756a753996569fcddd38630effade0eee",
+  "second_commit": "036582dcee577e66dfe0d49be71fb1dfaad431c4",
+  "third_commit": "2bb71d099a9986025e28d88728b39ca7c703a181",
+  "all_15_bytes_matched_after_third_commit": true
+}

@@ -1,0 +1,252 @@
+{
+  "removal_requests_renamed": 142,
+  "missing_quarantine_destinations": [],
+  "all_removed_bytes_retained": true,
+  "source_destination_log": "/Volumes/eyedisk/cinewright-artifact-quarantine-sauealit/organization-work/quarantine-mappings.jsonl",
+  "same_device_external_quarantine": "/Volumes/eyedisk/cinewright-artifact-quarantine-sauealit",
+  "system_volume_mirrors": [
+    {
+      "quarantine": "/var/folders/tf/wn7gzzvd6l7f7_ttdx84ps880000gn/T/cinewright-nondeletion-dxhYZT/6492-feb566d7-c565-4d0e-aa0c-01c8d79eb450",
+      "stable_copy": "/Volumes/eyedisk/cinewright-artifact-quarantine-sauealit/organization-work/internal-quarantine-preserved/6492-feb566d7-c565-4d0e-aa0c-01c8d79eb450"
+    },
+    {
+      "quarantine": "/var/folders/tf/wn7gzzvd6l7f7_ttdx84ps880000gn/T/cinewright-nondeletion-dxhYZT/6492-a8927049-b42b-421d-96e3-c0f6a8b5d0fd",
+      "stable_copy": "/Volumes/eyedisk/cinewright-artifact-quarantine-sauealit/organization-work/internal-quarantine-preserved/6492-a8927049-b42b-421d-96e3-c0f6a8b5d0fd"
+    },
+    {
+      "quarantine": "/var/folders/tf/wn7gzzvd6l7f7_ttdx84ps880000gn/T/cinewright-nondeletion-dxhYZT/6492-86d19cf2-b02d-4ad4-a129-b3ad715bd0d7",
+      "stable_copy": "/Volumes/eyedisk/cinewright-artifact-quarantine-sauealit/organization-work/internal-quarantine-preserved/6492-86d19cf2-b02d-4ad4-a129-b3ad715bd0d7"
+    },
+    {
+      "quarantine": "/var/folders/tf/wn7gzzvd6l7f7_ttdx84ps880000gn/T/cinewright-nondeletion-dxhYZT/6492-dce099ab-6339-4c59-9dbd-cbd24fd57d4a",
+      "stable_copy": "/Volumes/eyedisk/cinewright-artifact-quarantine-sauealit/organization-work/internal-quarantine-preserved/6492-dce099ab-6339-4c59-9dbd-cbd24fd57d4a"
+    },
+    {
+      "quarantine": "/var/folders/tf/wn7gzzvd6l7f7_ttdx84ps880000gn/T/cinewright-nondeletion-dxhYZT/6492-c2abc324-650c-4f50-9af0-366027d33aae",
+      "stable_copy": "/Volumes/eyedisk/cinewright-artifact-quarantine-sauealit/organization-work/internal-quarantine-preserved/6492-c2abc324-650c-4f50-9af0-366027d33aae"
+    },
+    {
+      "quarantine": "/var/folders/tf/wn7gzzvd6l7f7_ttdx84ps880000gn/T/cinewright-nondeletion-dxhYZT/6492-e711bdc1-b5da-49cb-8895-145bbbb61bb3",
+      "stable_copy": "/Volumes/eyedisk/cinewright-artifact-quarantine-sauealit/organization-work/internal-quarantine-preserved/6492-e711bdc1-b5da-49cb-8895-145bbbb61bb3"
+    },
+    {
+      "quarantine": "/var/folders/tf/wn7gzzvd6l7f7_ttdx84ps880000gn/T/cinewright-nondeletion-dxhYZT/6492-b06686f1-7115-4f95-8a8a-ddf20b77387e",
+      "stable_copy": "/Volumes/eyedisk/cinewright-artifact-quarantine-sauealit/organization-work/internal-quarantine-preserved/6492-b06686f1-7115-4f95-8a8a-ddf20b77387e"
+    },
+    {
+      "quarantine": "/var/folders/tf/wn7gzzvd6l7f7_ttdx84ps880000gn/T/cinewright-nondeletion-dxhYZT/6492-e60db9f2-e537-4545-8cf9-919673f8fdfd",
+      "stable_copy": "/Volumes/eyedisk/cinewright-artifact-quarantine-sauealit/organization-work/internal-quarantine-preserved/6492-e60db9f2-e537-4545-8cf9-919673f8fdfd"
+    },
+    {
+      "quarantine": "/var/folders/tf/wn7gzzvd6l7f7_ttdx84ps880000gn/T/cinewright-nondeletion-dxhYZT/6492-eb6c9b6b-3af5-4635-9625-70303c105060",
+      "stable_copy": "/Volumes/eyedisk/cinewright-artifact-quarantine-sauealit/organization-work/internal-quarantine-preserved/6492-eb6c9b6b-3af5-4635-9625-70303c105060"
+    },
+    {
+      "quarantine": "/var/folders/tf/wn7gzzvd6l7f7_ttdx84ps880000gn/T/cinewright-nondeletion-dxhYZT/6492-a18c13a2-0751-469b-8377-4667983fa7bf",
+      "stable_copy": "/Volumes/eyedisk/cinewright-artifact-quarantine-sauealit/organization-work/internal-quarantine-preserved/6492-a18c13a2-0751-469b-8377-4667983fa7bf"
+    },
+    {
+      "quarantine": "/var/folders/tf/wn7gzzvd6l7f7_ttdx84ps880000gn/T/cinewright-nondeletion-pQvwpX/11612-591fe947-76f6-4559-8d40-1259638317ce",
+      "stable_copy": "/Volumes/eyedisk/cinewright-artifact-quarantine-sauealit/organization-work/internal-quarantine-preserved/11612-591fe947-76f6-4559-8d40-1259638317ce"
+    },
+    {
+      "quarantine": "/var/folders/tf/wn7gzzvd6l7f7_ttdx84ps880000gn/T/cinewright-nondeletion-pQvwpX/11612-2faa1d48-4d4a-4be2-89c1-dad4f6024302",
+      "stable_copy": "/Volumes/eyedisk/cinewright-artifact-quarantine-sauealit/organization-work/internal-quarantine-preserved/11612-2faa1d48-4d4a-4be2-89c1-dad4f6024302"
+    },
+    {
+      "quarantine": "/var/folders/tf/wn7gzzvd6l7f7_ttdx84ps880000gn/T/cinewright-nondeletion-pQvwpX/11612-d9d97799-ee2d-49c3-860c-5d6ea6f842eb",
+      "stable_copy": "/Volumes/eyedisk/cinewright-artifact-quarantine-sauealit/organization-work/internal-quarantine-preserved/11612-d9d97799-ee2d-49c3-860c-5d6ea6f842eb"
+    },
+    {
+      "quarantine": "/var/folders/tf/wn7gzzvd6l7f7_ttdx84ps880000gn/T/cinewright-nondeletion-pQvwpX/11612-3a52df9a-ee96-4285-ab48-fd5ac4608226",
+      "stable_copy": "/Volumes/eyedisk/cinewright-artifact-quarantine-sauealit/organization-work/internal-quarantine-preserved/11612-3a52df9a-ee96-4285-ab48-fd5ac4608226"
+    },
+    {
+      "quarantine": "/var/folders/tf/wn7gzzvd6l7f7_ttdx84ps880000gn/T/cinewright-nondeletion-pQvwpX/11612-45268642-90f3-416c-89d3-ad2c6006dea5",
+      "stable_copy": "/Volumes/eyedisk/cinewright-artifact-quarantine-sauealit/organization-work/internal-quarantine-preserved/11612-45268642-90f3-416c-89d3-ad2c6006dea5"
+    },
+    {
+      "quarantine": "/var/folders/tf/wn7gzzvd6l7f7_ttdx84ps880000gn/T/cinewright-nondeletion-pQvwpX/11612-1bbf9ccf-84d0-47ce-8093-fb93cc15c9fe",
+      "stable_copy": "/Volumes/eyedisk/cinewright-artifact-quarantine-sauealit/organization-work/internal-quarantine-preserved/11612-1bbf9ccf-84d0-47ce-8093-fb93cc15c9fe"
+    },
+    {
+      "quarantine": "/var/folders/tf/wn7gzzvd6l7f7_ttdx84ps880000gn/T/cinewright-nondeletion-pQvwpX/11612-c7ef43a0-0ae7-48c4-82ce-a0804c7c8444",
+      "stable_copy": "/Volumes/eyedisk/cinewright-artifact-quarantine-sauealit/organization-work/internal-quarantine-preserved/11612-c7ef43a0-0ae7-48c4-82ce-a0804c7c8444"
+    },
+    {
+      "quarantine": "/var/folders/tf/wn7gzzvd6l7f7_ttdx84ps880000gn/T/cinewright-nondeletion-pQvwpX/11612-f6b72b87-9b08-42f4-95e4-119879a1ce46",
+      "stable_copy": "/Volumes/eyedisk/cinewright-artifact-quarantine-sauealit/organization-work/internal-quarantine-preserved/11612-f6b72b87-9b08-42f4-95e4-119879a1ce46"
+    },
+    {
+      "quarantine": "/var/folders/tf/wn7gzzvd6l7f7_ttdx84ps880000gn/T/cinewright-nondeletion-pQvwpX/11612-ba120ec3-6a6e-4542-9305-7d3d896979a8",
+      "stable_copy": "/Volumes/eyedisk/cinewright-artifact-quarantine-sauealit/organization-work/internal-quarantine-preserved/11612-ba120ec3-6a6e-4542-9305-7d3d896979a8"
+    },
+    {
+      "quarantine": "/var/folders/tf/wn7gzzvd6l7f7_ttdx84ps880000gn/T/cinewright-nondeletion-pQvwpX/11612-7dc39ea8-e958-414a-adb0-d9de833290a6",
+      "stable_copy": "/Volumes/eyedisk/cinewright-artifact-quarantine-sauealit/organization-work/internal-quarantine-preserved/11612-7dc39ea8-e958-414a-adb0-d9de833290a6"
+    },
+    {
+      "quarantine": "/var/folders/tf/wn7gzzvd6l7f7_ttdx84ps880000gn/T/cinewright-nondeletion-yEqqIi/11623-9521cf63-9856-4baa-afdb-23560f4b82d3",
+      "stable_copy": "/Volumes/eyedisk/cinewright-artifact-quarantine-sauealit/organization-work/internal-quarantine-preserved/11623-9521cf63-9856-4baa-afdb-23560f4b82d3"
+    },
+    {
+      "quarantine": "/var/folders/tf/wn7gzzvd6l7f7_ttdx84ps880000gn/T/cinewright-nondeletion-Gl4WMK/11645-c44c62bf-2f13-4415-9f80-f6a97a02cebf",
+      "stable_copy": "/Volumes/eyedisk/cinewright-artifact-quarantine-sauealit/organization-work/internal-quarantine-preserved/11645-c44c62bf-2f13-4415-9f80-f6a97a02cebf"
+    },
+    {
+      "quarantine": "/var/folders/tf/wn7gzzvd6l7f7_ttdx84ps880000gn/T/cinewright-nondeletion-kb2iML/11685-08f8e69e-0fc6-4ad9-88f5-c1779c3b54ea",
+      "stable_copy": "/Volumes/eyedisk/cinewright-artifact-quarantine-sauealit/organization-work/internal-quarantine-preserved/11685-08f8e69e-0fc6-4ad9-88f5-c1779c3b54ea"
+    },
+    {
+      "quarantine": "/var/folders/tf/wn7gzzvd6l7f7_ttdx84ps880000gn/T/cinewright-nondeletion-yMj6Dz/11701-8b26c9e7-5ea0-46ac-9a14-91fa0b4c3416",
+      "stable_copy": "/Volumes/eyedisk/cinewright-artifact-quarantine-sauealit/organization-work/internal-quarantine-preserved/11701-8b26c9e7-5ea0-46ac-9a14-91fa0b4c3416"
+    },
+    {
+      "quarantine": "/var/folders/tf/wn7gzzvd6l7f7_ttdx84ps880000gn/T/cinewright-nondeletion-ASJYDk/11705-25c7a22d-7be3-41cc-bbc2-5055ffa3d9be",
+      "stable_copy": "/Volumes/eyedisk/cinewright-artifact-quarantine-sauealit/organization-work/internal-quarantine-preserved/11705-25c7a22d-7be3-41cc-bbc2-5055ffa3d9be"
+    },
+    {
+      "quarantine": "/var/folders/tf/wn7gzzvd6l7f7_ttdx84ps880000gn/T/cinewright-nondeletion-eQWIZ4/12926-28855e3e-1413-480c-86e6-b41238e938f6",
+      "stable_copy": "/Volumes/eyedisk/cinewright-artifact-quarantine-sauealit/organization-work/internal-quarantine-preserved/12926-28855e3e-1413-480c-86e6-b41238e938f6"
+    },
+    {
+      "quarantine": "/var/folders/tf/wn7gzzvd6l7f7_ttdx84ps880000gn/T/cinewright-nondeletion-vDs2eY/12971-8f5c25b4-e0dc-4eb0-a2cf-3086cab6eea7",
+      "stable_copy": "/Volumes/eyedisk/cinewright-artifact-quarantine-sauealit/organization-work/internal-quarantine-preserved/12971-8f5c25b4-e0dc-4eb0-a2cf-3086cab6eea7"
+    },
+    {
+      "quarantine": "/var/folders/tf/wn7gzzvd6l7f7_ttdx84ps880000gn/T/cinewright-nondeletion-vDs2eY/12971-a01afe2f-8907-4148-b984-1febcb486109",
+      "stable_copy": "/Volumes/eyedisk/cinewright-artifact-quarantine-sauealit/organization-work/internal-quarantine-preserved/12971-a01afe2f-8907-4148-b984-1febcb486109"
+    },
+    {
+      "quarantine": "/var/folders/tf/wn7gzzvd6l7f7_ttdx84ps880000gn/T/cinewright-nondeletion-L1wGh8/13008-a9e6436a-d1a4-4cf7-b104-2f7b2f75279f",
+      "stable_copy": "/Volumes/eyedisk/cinewright-artifact-quarantine-sauealit/organization-work/internal-quarantine-preserved/13008-a9e6436a-d1a4-4cf7-b104-2f7b2f75279f"
+    },
+    {
+      "quarantine": "/var/folders/tf/wn7gzzvd6l7f7_ttdx84ps880000gn/T/cinewright-nondeletion-rZvXp7/13018-7e3f28f0-d9b3-4e11-bbed-44e7e3c8bedb",
+      "stable_copy": "/Volumes/eyedisk/cinewright-artifact-quarantine-sauealit/organization-work/internal-quarantine-preserved/13018-7e3f28f0-d9b3-4e11-bbed-44e7e3c8bedb"
+    },
+    {
+      "quarantine": "/var/folders/tf/wn7gzzvd6l7f7_ttdx84ps880000gn/T/cinewright-nondeletion-ql6RbA/13028-7aa32491-da09-4c27-a923-a81fb0ada2aa",
+      "stable_copy": "/Volumes/eyedisk/cinewright-artifact-quarantine-sauealit/organization-work/internal-quarantine-preserved/13028-7aa32491-da09-4c27-a923-a81fb0ada2aa"
+    },
+    {
+      "quarantine": "/var/folders/tf/wn7gzzvd6l7f7_ttdx84ps880000gn/T/cinewright-nondeletion-geAqwb/13038-c5d4c7ea-dbd2-43d1-b7e3-d63a9c86656c",
+      "stable_copy": "/Volumes/eyedisk/cinewright-artifact-quarantine-sauealit/organization-work/internal-quarantine-preserved/13038-c5d4c7ea-dbd2-43d1-b7e3-d63a9c86656c"
+    },
+    {
+      "quarantine": "/var/folders/tf/wn7gzzvd6l7f7_ttdx84ps880000gn/T/cinewright-nondeletion-geAqwb/13038-5e2b6a8f-4d90-4dc9-ac70-d37c3b2bc265",
+      "stable_copy": "/Volumes/eyedisk/cinewright-artifact-quarantine-sauealit/organization-work/internal-quarantine-preserved/13038-5e2b6a8f-4d90-4dc9-ac70-d37c3b2bc265"
+    },
+    {
+      "quarantine": "/var/folders/tf/wn7gzzvd6l7f7_ttdx84ps880000gn/T/cinewright-nondeletion-0qazbt/13128-be9a586d-f4a7-4fb5-952a-c0397f5d29b5",
+      "stable_copy": "/Volumes/eyedisk/cinewright-artifact-quarantine-sauealit/organization-work/internal-quarantine-preserved/13128-be9a586d-f4a7-4fb5-952a-c0397f5d29b5"
+    },
+    {
+      "quarantine": "/var/folders/tf/wn7gzzvd6l7f7_ttdx84ps880000gn/T/cinewright-nondeletion-2L4UVh/13161-cdb7d342-1dc0-4133-808b-f10b11869290",
+      "stable_copy": "/Volumes/eyedisk/cinewright-artifact-quarantine-sauealit/organization-work/internal-quarantine-preserved/13161-cdb7d342-1dc0-4133-808b-f10b11869290"
+    },
+    {
+      "quarantine": "/var/folders/tf/wn7gzzvd6l7f7_ttdx84ps880000gn/T/cinewright-nondeletion-2L4UVh/13161-c8727577-7c45-45ad-911a-00295320e776",
+      "stable_copy": "/Volumes/eyedisk/cinewright-artifact-quarantine-sauealit/organization-work/internal-quarantine-preserved/13161-c8727577-7c45-45ad-911a-00295320e776"
+    },
+    {
+      "quarantine": "/var/folders/tf/wn7gzzvd6l7f7_ttdx84ps880000gn/T/cinewright-nondeletion-L9Og7a/13201-6fe24718-19bd-45de-b645-a6862dc164ff",
+      "stable_copy": "/Volumes/eyedisk/cinewright-artifact-quarantine-sauealit/organization-work/internal-quarantine-preserved/13201-6fe24718-19bd-45de-b645-a6862dc164ff"
+    },
+    {
+      "quarantine": "/var/folders/tf/wn7gzzvd6l7f7_ttdx84ps880000gn/T/cinewright-nondeletion-L9Og7a/13201-2b0b1366-8077-4b03-9aef-cfe93910aaa2",
+      "stable_copy": "/Volumes/eyedisk/cinewright-artifact-quarantine-sauealit/organization-work/internal-quarantine-preserved/13201-2b0b1366-8077-4b03-9aef-cfe93910aaa2"
+    },
+    {
+      "quarantine": "/var/folders/tf/wn7gzzvd6l7f7_ttdx84ps880000gn/T/cinewright-nondeletion-UlaEbI/13248-2805209a-e821-4f35-acab-4d539612cc16",
+      "stable_copy": "/Volumes/eyedisk/cinewright-artifact-quarantine-sauealit/organization-work/internal-quarantine-preserved/13248-2805209a-e821-4f35-acab-4d539612cc16"
+    },
+    {
+      "quarantine": "/var/folders/tf/wn7gzzvd6l7f7_ttdx84ps880000gn/T/cinewright-nondeletion-6poH9G/13236-344b4214-5e94-4d77-9cb3-56bc2eb94bf5",
+      "stable_copy": "/Volumes/eyedisk/cinewright-artifact-quarantine-sauealit/organization-work/internal-quarantine-preserved/13236-344b4214-5e94-4d77-9cb3-56bc2eb94bf5"
+    },
+    {
+      "quarantine": "/var/folders/tf/wn7gzzvd6l7f7_ttdx84ps880000gn/T/cinewright-nondeletion-MN1B5P/63932-8d4a6bf6-a161-4269-842a-8791d555d3c8",
+      "stable_copy": "/Volumes/eyedisk/cinewright-artifact-quarantine-sauealit/organization-work/internal-quarantine-preserved/63932-8d4a6bf6-a161-4269-842a-8791d555d3c8"
+    },
+    {
+      "quarantine": "/var/folders/tf/wn7gzzvd6l7f7_ttdx84ps880000gn/T/cinewright-nondeletion-xawH3G/64845-bae9a4af-ae72-45fc-b5ca-756c4aa171d0",
+      "stable_copy": "/Volumes/eyedisk/cinewright-artifact-quarantine-sauealit/organization-work/internal-quarantine-preserved/64845-bae9a4af-ae72-45fc-b5ca-756c4aa171d0"
+    },
+    {
+      "quarantine": "/var/folders/tf/wn7gzzvd6l7f7_ttdx84ps880000gn/T/cinewright-nondeletion-plEOqj/65248-2da73d92-4174-4760-8caf-1ed1660f794a",
+      "stable_copy": "/Volumes/eyedisk/cinewright-artifact-quarantine-sauealit/organization-work/internal-quarantine-preserved/65248-2da73d92-4174-4760-8caf-1ed1660f794a"
+    },
+    {
+      "quarantine": "/var/folders/tf/wn7gzzvd6l7f7_ttdx84ps880000gn/T/cinewright-nondeletion-7Ku0sU/65315-e012802f-26bf-4672-ac46-79f79f123dcf",
+      "stable_copy": "/Volumes/eyedisk/cinewright-artifact-quarantine-sauealit/organization-work/internal-quarantine-preserved/65315-e012802f-26bf-4672-ac46-79f79f123dcf"
+    },
+    {
+      "quarantine": "/var/folders/tf/wn7gzzvd6l7f7_ttdx84ps880000gn/T/cinewright-nondeletion-qxm3Na/65319-9952423c-7364-4ca0-87fc-6cb1991eaf4c",
+      "stable_copy": "/Volumes/eyedisk/cinewright-artifact-quarantine-sauealit/organization-work/internal-quarantine-preserved/65319-9952423c-7364-4ca0-87fc-6cb1991eaf4c"
+    },
+    {
+      "quarantine": "/var/folders/tf/wn7gzzvd6l7f7_ttdx84ps880000gn/T/cinewright-nondeletion-xHJ99y/66611-9e2b1cd5-016b-482c-b0e2-02e07a30ba86",
+      "stable_copy": "/Volumes/eyedisk/cinewright-artifact-quarantine-sauealit/organization-work/internal-quarantine-preserved/66611-9e2b1cd5-016b-482c-b0e2-02e07a30ba86"
+    },
+    {
+      "quarantine": "/var/folders/tf/wn7gzzvd6l7f7_ttdx84ps880000gn/T/cinewright-nondeletion-6QWChF/66630-efaf54f3-c404-4526-8943-371bbd99b0ea",
+      "stable_copy": "/Volumes/eyedisk/cinewright-artifact-quarantine-sauealit/organization-work/internal-quarantine-preserved/66630-efaf54f3-c404-4526-8943-371bbd99b0ea"
+    },
+    {
+      "quarantine": "/var/folders/tf/wn7gzzvd6l7f7_ttdx84ps880000gn/T/cinewright-nondeletion-6QWChF/66630-b47d1444-e1e2-4b32-ada9-3448f0f43e96",
+      "stable_copy": "/Volumes/eyedisk/cinewright-artifact-quarantine-sauealit/organization-work/internal-quarantine-preserved/66630-b47d1444-e1e2-4b32-ada9-3448f0f43e96"
+    },
+    {
+      "quarantine": "/var/folders/tf/wn7gzzvd6l7f7_ttdx84ps880000gn/T/cinewright-nondeletion-r7KzR9/66633-4b6a8acf-8bb2-4943-b862-54e6e84df3ed",
+      "stable_copy": "/Volumes/eyedisk/cinewright-artifact-quarantine-sauealit/organization-work/internal-quarantine-preserved/66633-4b6a8acf-8bb2-4943-b862-54e6e84df3ed"
+    },
+    {
+      "quarantine": "/var/folders/tf/wn7gzzvd6l7f7_ttdx84ps880000gn/T/cinewright-nondeletion-Dff6jv/66637-5fd81280-b7e1-4232-9655-3b70acd9da1e",
+      "stable_copy": "/Volumes/eyedisk/cinewright-artifact-quarantine-sauealit/organization-work/internal-quarantine-preserved/66637-5fd81280-b7e1-4232-9655-3b70acd9da1e"
+    },
+    {
+      "quarantine": "/var/folders/tf/wn7gzzvd6l7f7_ttdx84ps880000gn/T/cinewright-nondeletion-3v66SP/66654-8fbe43d2-e770-44b4-a17d-c9a451fdd56e",
+      "stable_copy": "/Volumes/eyedisk/cinewright-artifact-quarantine-sauealit/organization-work/internal-quarantine-preserved/66654-8fbe43d2-e770-44b4-a17d-c9a451fdd56e"
+    },
+    {
+      "quarantine": "/var/folders/tf/wn7gzzvd6l7f7_ttdx84ps880000gn/T/cinewright-nondeletion-UynGkV/66820-042391d5-9343-43e6-a484-8b9388df1b86",
+      "stable_copy": "/Volumes/eyedisk/cinewright-artifact-quarantine-sauealit/organization-work/internal-quarantine-preserved/66820-042391d5-9343-43e6-a484-8b9388df1b86"
+    },
+    {
+      "quarantine": "/var/folders/tf/wn7gzzvd6l7f7_ttdx84ps880000gn/T/cinewright-nondeletion-UynGkV/66820-19eebd24-c7e1-45dd-a09d-47313a0744dd",
+      "stable_copy": "/Volumes/eyedisk/cinewright-artifact-quarantine-sauealit/organization-work/internal-quarantine-preserved/66820-19eebd24-c7e1-45dd-a09d-47313a0744dd"
+    },
+    {
+      "quarantine": "/var/folders/tf/wn7gzzvd6l7f7_ttdx84ps880000gn/T/cinewright-nondeletion-2LXW6l/66928-bebf23a1-855d-4876-97fd-b3f92cc73fbf",
+      "stable_copy": "/Volumes/eyedisk/cinewright-artifact-quarantine-sauealit/organization-work/internal-quarantine-preserved/66928-bebf23a1-855d-4876-97fd-b3f92cc73fbf"
+    },
+    {
+      "quarantine": "/var/folders/tf/wn7gzzvd6l7f7_ttdx84ps880000gn/T/cinewright-nondeletion-6MiQe0/66940-9991a746-1602-41be-9f09-8c530fda7987",
+      "stable_copy": "/Volumes/eyedisk/cinewright-artifact-quarantine-sauealit/organization-work/internal-quarantine-preserved/66940-9991a746-1602-41be-9f09-8c530fda7987"
+    },
+    {
+      "quarantine": "/var/folders/tf/wn7gzzvd6l7f7_ttdx84ps880000gn/T/cinewright-nondeletion-6MiQe0/66940-fab3bc33-81d4-4aee-ba4c-62f63df81428",
+      "stable_copy": "/Volumes/eyedisk/cinewright-artifact-quarantine-sauealit/organization-work/internal-quarantine-preserved/66940-fab3bc33-81d4-4aee-ba4c-62f63df81428"
+    },
+    {
+      "quarantine": "/var/folders/tf/wn7gzzvd6l7f7_ttdx84ps880000gn/T/cinewright-nondeletion-ypUnJc/66945-1171dd44-569d-4f6f-9b0e-49317afb02b1",
+      "stable_copy": "/Volumes/eyedisk/cinewright-artifact-quarantine-sauealit/organization-work/internal-quarantine-preserved/66945-1171dd44-569d-4f6f-9b0e-49317afb02b1"
+    },
+    {
+      "quarantine": "/var/folders/tf/wn7gzzvd6l7f7_ttdx84ps880000gn/T/cinewright-nondeletion-ypUnJc/66945-9b4da55f-6c82-45a7-a7d9-181f6372ba5e",
+      "stable_copy": "/Volumes/eyedisk/cinewright-artifact-quarantine-sauealit/organization-work/internal-quarantine-preserved/66945-9b4da55f-6c82-45a7-a7d9-181f6372ba5e"
+    },
+    {
+      "quarantine": "/var/folders/tf/wn7gzzvd6l7f7_ttdx84ps880000gn/T/cinewright-nondeletion-gO5NO5/67079-69e37cd0-a761-4c55-a649-3da401180d0b",
+      "stable_copy": "/Volumes/eyedisk/cinewright-artifact-quarantine-sauealit/organization-work/internal-quarantine-preserved/67079-69e37cd0-a761-4c55-a649-3da401180d0b"
+    },
+    {
+      "quarantine": "/var/folders/tf/wn7gzzvd6l7f7_ttdx84ps880000gn/T/cinewright-nondeletion-I7994H/66984-7888d7f4-47a7-43e2-87fc-41a7de16295c",
+      "stable_copy": "/Volumes/eyedisk/cinewright-artifact-quarantine-sauealit/organization-work/internal-quarantine-preserved/66984-7888d7f4-47a7-43e2-87fc-41a7de16295c"
+    }
+  ],
+  "adapter": "/Volumes/eyedisk/cinewright-artifact-quarantine-sauealit/organization-work/cinewright-nondeletion.cjs",
+  "smoke_script": "/Volumes/eyedisk/cinewright-artifact-quarantine-sauealit/organization-work/cinewright-nondeletion-smoke.mjs",
+  "note": "Mirrors copy retained quarantines only; no source is deleted. The adapter itself uses rename and refuses EXDEV."
+}

@@ -1,0 +1,34 @@
+{
+  "baseline_count": 434,
+  "final_count": 434,
+  "baseline_by_reason": {
+    "missing-path": 254,
+    "missing-local-direction": 178,
+    "undefined-reference": 2
+  },
+  "final_by_reason": {
+    "missing-path": 254,
+    "missing-local-direction": 178,
+    "undefined-reference": 2
+  },
+  "baseline_by_syntax": {
+    "inline": 432,
+    "undefined-reference": 2
+  },
+  "final_by_syntax": {
+    "inline": 432,
+    "undefined-reference": 2
+  },
+  "introduced_count": 0,
+  "introduced": [],
+  "resolved_or_removed_count": 0,
+  "path_mapping": "Exact semantic source + target + fragment + reason + syntax multiset; source and target translated through the saved directory/file map; line numbers ignored.",
+  "baseline_missing_paths": 432,
+  "final_missing_paths": 432,
+  "conservative_undefined_reference_warnings": 2,
+  "final_markdown_files": 283,
+  "final_local_links": 1810,
+  "checker_external": "/Volumes/eyedisk/cinewright-artifact-quarantine-sauealit/organization-work/check_markdown.py",
+  "checker_sha256": "c77ea67588cbddf79989733a79d1964508618c8903e9473c685822af9002c614",
+  "selftest_external": "/Volumes/eyedisk/cinewright-artifact-quarantine-sauealit/organization-work/checker_selftest.py"
+}

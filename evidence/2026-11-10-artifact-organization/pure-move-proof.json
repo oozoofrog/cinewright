@@ -1,0 +1,10 @@
+{
+  "all_bytes_equal": true,
+  "original_manifest_files_checked": 15002,
+  "mapped_files": 13702,
+  "directory_moves": 22,
+  "explicit_file_moves": 126,
+  "loose_evidence_moves": 94,
+  "oneoff_script_moves": 15,
+  "unclassified": []
+}

@@ -1,0 +1,17 @@
+{
+  "original_scope_count": 14994,
+  "identical_bytes_count": 14700,
+  "path_only_text_edit_count": 294,
+  "missing_count": 0,
+  "unique_final_mapping": true,
+  "multiplicities_preserved_for_unmodified_originals": true,
+  "original_media_identical_count": 11860,
+  "original_media_identical_bytes": 1842100302,
+  "historical_agent_loop_files_unchanged": 70,
+  "unexplained_losses": [],
+  "exception_list": "path-only-original-exceptions.json",
+  "full_mapping_local": "original-final-map.jsonl",
+  "full_mapping_sha256": "239235b0e60ec06f942905cfb87345ab119fbdce674ddc25c7e701c207058128",
+  "manifest_provenance": "Supplied original temp backup disappeared. Recovered 14994-file original scope from unchanged checkout by excluding the eight files created by the current organization task, backed by retained prior preservation-check.json (14994, no changed/missing). No independent bytewise comparison with the vanished manifest is possible. Stable replacement snapshot and full original bytes are outside the repository.",
+  "external_backup": "/Volumes/eyedisk/cinewright-artifact-quarantine-sauealit/organization-work/replacement-originals"
+}

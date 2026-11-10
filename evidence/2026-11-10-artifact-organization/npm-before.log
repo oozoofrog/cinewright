@@ -1,0 +1,770 @@
+
+> cinewright@1.1.0 test
+> node --test --test-concurrency=1 tests/*.test.mjs --test-timeout=60000
+
+✔ provides only the geometry and prepare entry points without browser globals (1.7985ms)
+✔ places an original-image anchor at its target with one scalar (0.208042ms)
+✔ keeps the same original anchor at its target after moving the crop origin (0.085583ms)
+✔ defaults crop to the whole source and permits an off-canvas target without canvasSize (0.089792ms)
+✔ supports fractional coordinates and anchors outside the source (0.097542ms)
+✔ contain centers a wide image in the default canvas box without clipping or stretching (0.082625ms)
+✔ cover centers a wide image and clips overflow to the default canvas box (0.082666ms)
+▶ fits the cropped dimensions inside an explicit box without requiring canvasSize
+  ✔ contain (0.051708ms)
+  ✔ cover (0.055292ms)
+✔ fits the cropped dimensions inside an explicit box without requiring canvasSize (0.305416ms)
+▶ fits a tall image into an off-canvas box using the other limiting dimension
+  ✔ contain (0.051625ms)
+  ✔ cover (0.030084ms)
+✔ fits a tall image into an off-canvas box using the other limiting dimension (0.205792ms)
+✔ does not mutate input or expose its arrays through placement output (0.108833ms)
+✔ inherited optional crop and canvasSize cannot change anchored placement (0.060167ms)
+✔ inherited fit and box cannot switch anchored placement mode (0.056208ms)
+✔ inherited box or anchored controls cannot change fit placement (0.062875ms)
+▶ rejects invalid root, placement, and missing anchored fields
+  ✔ missing root (0.217333ms)
+  ✔ null root (0.047667ms)
+  ✔ array root (0.033083ms)
+  ✔ text root (0.036041ms)
+  ✔ missing placement (0.044583ms)
+  ✔ placement shape 0 (0.035667ms)
+  ✔ placement shape 1 (0.028083ms)
+  ✔ placement shape 2 (0.025042ms)
+  ✔ missing anchor (0.029625ms)
+  ✔ missing at (0.032792ms)
+  ✔ missing scale (0.027042ms)
+✔ rejects invalid root, placement, and missing anchored fields (0.808542ms)
+▶ rejects source sizes that are not two finite positive numbers
+  ✔ size 0 (0.050375ms)
+  ✔ size 1 (0.024458ms)
+  ✔ size 2 (0.028042ms)
+  ✔ size 3 (0.029625ms)
+  ✔ size 4 (0.022292ms)
+  ✔ size 5 (0.024959ms)
+  ✔ size 6 (0.023208ms)
+  ✔ size 7 (0.038916ms)
+  ✔ size 8 (0.021875ms)
+  ✔ size 9 (0.023333ms)
+  ✔ size 10 (0.041917ms)
+✔ rejects source sizes that are not two finite positive numbers (0.508208ms)
+▶ rejects invalid crop shapes, nonfinite coordinates, and crops beyond the source
+  ✔ crop 0 (0.034667ms)
+  ✔ crop 1 (0.070417ms)
+  ✔ crop 2 (0.036625ms)
+  ✔ crop 3 (0.026917ms)
+  ✔ crop 4 (0.026042ms)
+  ✔ crop 5 (0.021083ms)
+  ✔ crop 6 (0.0205ms)
+  ✔ crop 7 (0.021167ms)
+  ✔ crop 8 (0.020167ms)
+  ✔ crop 9 (0.021958ms)
+  ✔ crop 10 (0.020375ms)
+  ✔ crop 11 (0.020625ms)
+  ✔ crop 12 (0.01975ms)
+  ✔ crop 13 (0.032042ms)
+  ✔ crop 14 (0.0335ms)
+  ✔ crop 15 (0.02825ms)
+  ✔ crop 16 (0.019542ms)
+✔ rejects invalid crop shapes, nonfinite coordinates, and crops beyond the source (1.049417ms)
+▶ rejects anchors and targets that are not finite coordinate pairs
+  ✔ anchor 0 (0.032542ms)
+  ✔ anchor 1 (0.02325ms)
+  ✔ anchor 2 (0.02275ms)
+  ✔ anchor 3 (0.027083ms)
+  ✔ anchor 4 (0.02175ms)
+  ✔ anchor 5 (0.022125ms)
+  ✔ anchor 6 (0.027708ms)
+  ✔ anchor 7 (0.021333ms)
+  ✔ anchor 8 (0.038709ms)
+  ✔ at 0 (0.022291ms)
+  ✔ at 1 (0.029333ms)
+  ✔ at 2 (0.020292ms)
+  ✔ at 3 (0.021ms)
+  ✔ at 4 (0.036708ms)
+  ✔ at 5 (0.02025ms)
+  ✔ at 6 (0.021625ms)
+  ✔ at 7 (0.021667ms)
+  ✔ at 8 (0.028708ms)
+✔ rejects anchors and targets that are not finite coordinate pairs (0.7525ms)
+▶ rejects zero, negative, nonfinite, and non-scalar scales
+  ✔ scale 0 (0.028708ms)
+  ✔ scale 1 (0.020875ms)
+  ✔ scale 2 (0.021333ms)
+  ✔ scale 3 (0.021083ms)
+  ✔ scale 4 (0.020542ms)
+  ✔ scale 5 (0.020542ms)
+  ✔ scale 6 (0.069292ms)
+  ✔ scale 7 (0.039334ms)
+  ✔ scale 8 (0.032375ms)
+✔ rejects zero, negative, nonfinite, and non-scalar scales (0.741208ms)
+▶ rejects unknown fit modes and explicit invalid optional controls
+  ✔ fit 0 (0.051709ms)
+  ✔ fit 1 (0.026292ms)
+  ✔ fit 2 (0.022917ms)
+  ✔ fit 3 (0.022167ms)
+  ✔ fit 4 (0.024ms)
+  ✔ fit 5 (0.021167ms)
+  ✔ explicit undefined box (0.030208ms)
+  ✔ no default scale (0.029625ms)
+✔ rejects unknown fit modes and explicit invalid optional controls (0.419084ms)
+▶ rejects mixing fit and anchored controls even when their own value is undefined
+  ✔ anchor (0.040333ms)
+  ✔ at (0.024625ms)
+  ✔ scale (0.023416ms)
+  ✔ box without fit (0.030584ms)
+✔ rejects mixing fit and anchored controls even when their own value is undefined (0.204833ms)
+▶ rejects inherited required anchored fields
+  ✔ anchor (0.027834ms)
+  ✔ at (0.021625ms)
+  ✔ scale (0.021417ms)
+✔ rejects inherited required anchored fields (0.144667ms)
+▶ requires canvasSize for the default fit box and validates it whenever supplied
+  ✔ missing default canvas (0.02725ms)
+  ✔ anchored canvas 0 (0.025333ms)
+  ✔ anchored canvas 1 (0.018959ms)
+  ✔ anchored canvas 2 (0.02075ms)
+  ✔ anchored canvas 3 (0.018166ms)
+  ✔ anchored canvas 4 (0.018833ms)
+  ✔ anchored canvas 5 (0.018083ms)
+  ✔ anchored canvas 6 (0.018333ms)
+  ✔ anchored canvas 7 (0.020875ms)
+  ✔ anchored canvas 8 (0.018667ms)
+  ✔ unused explicit-box canvas (0.024333ms)
+✔ requires canvasSize for the default fit box and validates it whenever supplied (0.386042ms)
+▶ rejects fit boxes with invalid shape, coordinates, or dimensions
+  ✔ box 0 (0.028ms)
+  ✔ box 1 (0.019958ms)
+  ✔ box 2 (0.01975ms)
+  ✔ box 3 (0.019708ms)
+  ✔ box 4 (0.019417ms)
+  ✔ box 5 (0.019292ms)
+  ✔ box 6 (0.0195ms)
+  ✔ box 7 (0.019625ms)
+  ✔ box 8 (0.019709ms)
+✔ rejects fit boxes with invalid shape, coordinates, or dimensions (0.309917ms)
+▶ rejects finite inputs whose derived scale or destination is not drawable
+  ✔ unrepresentable result 0 (0.0315ms)
+  ✔ unrepresentable result 1 (0.234291ms)
+  ✔ unrepresentable result 2 (0.022292ms)
+  ✔ unrepresentable result 3 (0.021417ms)
+✔ rejects finite inputs whose derived scale or destination is not drawable (0.393583ms)
+✔ does not impose an arbitrary size limit on representable finite geometry (0.096792ms)
+▶ copies validated indexed crop and box coordinates instead of custom iterator output
+  ✔ crop iterator cannot inject nonfinite or extra source coordinates (0.04625ms)
+  ✔ box iterator cannot replace coordinates or extend the clip rectangle (0.034958ms)
+✔ copies validated indexed crop and box coordinates instead of custom iterator output (0.143416ms)
+✔ reads each input coordinate once and validates the same value used for placement (0.077167ms)
+✔ prepare loads every artwork and draws the selected image using natural dimensions (0.258125ms)
+✔ cover clips with a separate Path2D and restores state after drawing (0.275083ms)
+✔ restores saved state when drawImage throws (0.104042ms)
+✔ prepares cover without Path2D and restores state if its draw-time construction fails (0.091666ms)
+✔ selects own artwork keys including prototype-like and nonenumerable names (0.140666ms)
+▶ rejects unknown or missing values before changing the graphics state
+  ✔ value 0 (0.034166ms)
+  ✔ value 1 (0.0185ms)
+  ✔ value 2 (0.014292ms)
+  ✔ value 3 (0.013125ms)
+  ✔ value 4 (0.0125ms)
+  ✔ value 5 (0.013083ms)
+  ✔ value 6 (0.047542ms)
+  ✔ value 7 (0.044209ms)
+  ✔ value 8 (0.024583ms)
+  ✔ value 9 (0.021334ms)
+  ✔ value 10 (0.015292ms)
+✔ rejects unknown or missing values before changing the graphics state (0.546334ms)
+✔ draw uses prepared geometry consistently across frame order and later config edits (0.138292ms)
+✔ empty artwork dictionaries can prepare but have no implicit draw fallback (0.058167ms)
+✔ preparation ignores inherited optional crop data (0.058333ms)
+▶ image rejection and synchronous loader failure retain artwork ID, asset, and cause
+  ✔ rejection (0.098667ms)
+  ✔ throw (0.030209ms)
+✔ image rejection and synchronous loader failure retain artwork ID, asset, and cause (0.208208ms)
+▶ throwing artwork and asset getters retain the artwork ID and unavailable asset context
+  ✔ artwork (0.060042ms)
+  ✔ asset (0.027041ms)
+✔ throwing artwork and asset getters retain the artwork ID and unavailable asset context (0.158ms)
+▶ invalid decoded image dimensions never fall back to displayed dimensions
+  ✔ image 0 (0.039542ms)
+  ✔ image 1 (0.025333ms)
+  ✔ image 2 (0.035208ms)
+  ✔ image 3 (0.040666ms)
+  ✔ image 4 (0.031791ms)
+  ✔ image 5 (0.020417ms)
+✔ invalid decoded image dimensions never fall back to displayed dimensions (0.322375ms)
+▶ invalid artwork objects, asset names, crops, and placement carry artwork context
+  ✔ artwork 0 (0.044875ms)
+  ✔ artwork 1 (0.022208ms)
+  ✔ artwork 2 (0.021625ms)
+  ✔ artwork 3 (0.019792ms)
+  ✔ artwork 4 (0.02ms)
+  ✔ artwork 5 (0.026292ms)
+  ✔ artwork 6 (0.024708ms)
+  ✔ artwork 7 (0.021125ms)
+  ✔ artwork 8 (0.024583ms)
+✔ invalid artwork objects, asset names, crops, and placement carry artwork context (0.376667ms)
+▶ rejects invalid preparation API or configuration with field context
+  ✔ shape 0 (0.030667ms)
+  ✔ shape 1 (0.070958ms)
+  ✔ shape 2 (0.02825ms)
+  ✔ shape 3 (0.02ms)
+  ✔ shape 4 (0.01775ms)
+  ✔ shape 5 (0.019375ms)
+  ✔ shape 6 (0.0195ms)
+  ✔ shape 7 (0.018834ms)
+  ✔ shape 8 (0.016ms)
+  ✔ shape 9 (0.017667ms)
+  ✔ shape 10 (0.014917ms)
+  ✔ shape 11 (0.014625ms)
+✔ rejects invalid preparation API or configuration with field context (0.835458ms)
+✖ auto-rig public style frozen source-absent skin/hatch/outline, pixel seeking, GLB and disposal (125.434833ms)
+✔ same inference algorithm rigs two static surfaces without hints or name branches (51.1745ms)
+✔ explicit axes and landmark provenance preserve authored coordinate space (79.424ms)
+✔ reject disconnected islands, closed legs, asymmetry, invalid profile and corrupt skin data (101.343167ms)
+✔ rest bind skin matrices and actual deformed vertices remain finite with bounded stretch (23.175542ms)
+✔ actual exported embedded GLB contains skin attributes and reloads Three skin/rest (37.168125ms)
+✔ reconstruction preserves flat concentrations, layer order and deterministic paper, without square plateaus (8.263875ms)
+✔ commuter continuous grips stay on the SAME paper corners, pose read lifts paper, feet remain planted (561.927542ms)
+✔ wash bank rejects topology/time failures and draws corresponding shapes on reverse seeks (50.26875ms)
+✔ traveler is continuously transformed behind opaque jamb and train/shadow cues retain timing (1.314625ms)
+✔ public station and designed reader builders package their actual authored assets (35.884958ms)
+✔ craft selected frozen job rejects stale records, escaped outputs and stale landmarks before consumption (9.363334ms)
+✔ craft render requires a fresh label before modifying production (266.720333ms)
+✔ authored clearance removes intermediate collision while preserving endpoints, contact and release (3.249833ms)
+✔ fresh materialization/import/prepare evaluates modified geometry and timing; refuses overwrite (24.595417ms)
+✔ compiles authored cuts and explicit empty intervals into runtime tables (0.832375ms)
+✔ compiled output keeps runtime exposure half-open and terminal boundaries out of points (0.3265ms)
+✔ moving one boundary updates every dependent exposure, point, and span (0.357875ms)
+✔ compilation accepts frozen input, returns fresh data, and survives a JSON round trip (0.158084ms)
+✔ point names and generated or additional span names are separate namespaces (0.08ms)
+✔ prototype-like names remain own JSON properties and valid own artwork keys (0.126292ms)
+✔ one-frame empty work has a span without exposure and needs no additional spans (0.061458ms)
+✔ inherited empty marker cannot authorize a cut without artwork (0.130833ms)
+✔ inherited empty marker does not reject a cut with its own artwork (0.062625ms)
+✔ unused interior boundaries remain points and artwork data is not copied (0.080958ms)
+▶ rejects invalid root and collection shapes with field context
+  ✔ root null (0.069209ms)
+  ✔ root undefined (0.031959ms)
+  ✔ root  (0.030125ms)
+  ✔ root 12 (0.036167ms)
+  ✔ root spec (0.032916ms)
+  ✔ boundaries null (0.047792ms)
+  ✔ boundaries {} (0.027083ms)
+  ✔ boundaries [] (0.026208ms)
+  ✔ artworks null (0.022542ms)
+  ✔ artworks [] (0.022459ms)
+  ✔ artworks "waiting" (0.01775ms)
+  ✔ cuts null (0.0205ms)
+  ✔ cuts {} (0.014083ms)
+  ✔ cuts [] (0.014583ms)
+  ✔ spans null (0.015333ms)
+  ✔ spans {} (0.013625ms)
+  ✔ missing boundaries (0.024375ms)
+  ✔ missing artworks (0.015791ms)
+  ✔ missing cuts (0.016291ms)
+  ✔ boundaries entry is not an object (0.02525ms)
+  ✔ boundaries sparse entry (0.026083ms)
+  ✔ cuts entry is not an object (0.023166ms)
+  ✔ cuts sparse entry (0.022583ms)
+  ✔ spans entry is not an object (0.047167ms)
+  ✔ spans sparse entry (0.034709ms)
+✔ rejects invalid root and collection shapes with field context (1.183083ms)
+▶ rejects non-positive, non-finite, fractional, and unsafe frame counts
+  ✔ 0 (0.031042ms)
+  ✔ -1 (0.014583ms)
+  ✔ 1.5 (0.018375ms)
+  ✔ NaN (0.016125ms)
+  ✔ Infinity (0.020958ms)
+  ✔ -Infinity (0.025834ms)
+  ✔ 9007199254740992 (0.014875ms)
+  ✔ 12 (0.019958ms)
+  ✔ null (0.014917ms)
+  ✔ undefined (0.016125ms)
+✔ rejects non-positive, non-finite, fractional, and unsafe frame counts (0.367125ms)
+▶ rejects invalid boundary frames without sorting or repairing them
+  ✔ nonzero first (0.02975ms)
+  ✔ negative (0.018375ms)
+  ✔ out of range (0.017833ms)
+  ✔ duplicate frame (0.024625ms)
+  ✔ reversed (0.017708ms)
+  ✔ fractional (0.019583ms)
+  ✔ NaN (0.018709ms)
+  ✔ infinite (0.020292ms)
+  ✔ string (0.026792ms)
+  ✔ unsafe (0.020167ms)
+  ✔ short terminal (0.023834ms)
+  ✔ single boundary (0.020667ms)
+✔ rejects invalid boundary frames without sorting or repairing them (0.45475ms)
+▶ rejects empty or non-string names and duplicate names within each namespace
+  ✔ boundaries name  (0.314042ms)
+  ✔ boundaries name     (0.0225ms)
+  ✔ boundaries name 1 (0.015083ms)
+  ✔ boundaries name null (0.014292ms)
+  ✔ boundaries name undefined (0.0175ms)
+  ✔ duplicate boundaries (0.027792ms)
+  ✔ cuts name  (0.019083ms)
+  ✔ cuts name     (0.018458ms)
+  ✔ cuts name 1 (0.024791ms)
+  ✔ cuts name null (0.018875ms)
+  ✔ cuts name undefined (0.019459ms)
+  ✔ duplicate cuts (0.027208ms)
+  ✔ spans name  (0.03ms)
+  ✔ spans name     (0.023167ms)
+  ✔ spans name 1 (0.023125ms)
+  ✔ spans name null (0.022292ms)
+  ✔ spans name undefined (0.033334ms)
+  ✔ duplicate spans (0.025625ms)
+  ✔ additional span collides with generated empty cut span (0.029583ms)
+✔ rejects empty or non-string names and duplicate names within each namespace (0.997917ms)
+▶ rejects missing, inherited, or non-string boundary references
+  ✔ cuts from missing (0.0315ms)
+  ✔ cuts from toString (0.020584ms)
+  ✔ cuts from __proto__ (0.023416ms)
+  ✔ cuts from  (0.020667ms)
+  ✔ cuts from 4 (0.020583ms)
+  ✔ cuts from null (0.024875ms)
+  ✔ cuts from undefined (0.020125ms)
+  ✔ cuts to missing (0.020542ms)
+  ✔ cuts to toString (0.024584ms)
+  ✔ cuts to __proto__ (0.022083ms)
+  ✔ cuts to  (0.019959ms)
+  ✔ cuts to 4 (0.020334ms)
+  ✔ cuts to null (0.019708ms)
+  ✔ cuts to undefined (0.029625ms)
+  ✔ spans from missing (0.025959ms)
+  ✔ spans from toString (0.024083ms)
+  ✔ spans from __proto__ (0.026584ms)
+  ✔ spans from  (0.023709ms)
+  ✔ spans from 4 (0.029833ms)
+  ✔ spans from null (0.029041ms)
+  ✔ spans from undefined (0.025167ms)
+  ✔ spans to missing (0.035708ms)
+  ✔ spans to toString (0.026833ms)
+  ✔ spans to __proto__ (0.027458ms)
+  ✔ spans to  (0.030917ms)
+  ✔ spans to 4 (0.027541ms)
+  ✔ spans to null (0.026334ms)
+  ✔ spans to undefined (0.024917ms)
+✔ rejects missing, inherited, or non-string boundary references (1.1295ms)
+▶ rejects reversed, empty, overlapping, unordered, or uncovered cut intervals
+  ✔ reversed (0.237834ms)
+  ✔ zero length (0.023791ms)
+  ✔ initial gap (0.023625ms)
+  ✔ overlap (0.023959ms)
+  ✔ implicit interior gap (0.028166ms)
+  ✔ unordered author input (0.040041ms)
+  ✔ terminal gap (0.025916ms)
+✔ rejects reversed, empty, overlapping, unordered, or uncovered cut intervals (0.528041ms)
+▶ rejects reversed or empty additional spans
+  ✔ start (0.032084ms)
+  ✔ turn (0.022167ms)
+✔ rejects reversed or empty additional spans (0.095333ms)
+▶ rejects missing or inherited artwork references and malformed exposure intervals
+  ✔ artwork missing (0.027584ms)
+  ✔ artwork toString (0.019125ms)
+  ✔ artwork __proto__ (0.0185ms)
+  ✔ artwork  (0.019042ms)
+  ✔ artwork 1 (0.019291ms)
+  ✔ artwork null (0.018708ms)
+  ✔ artwork undefined (0.018333ms)
+  ✔ custom inherited artwork (0.02775ms)
+  ✔ missing artwork field (0.024917ms)
+  ✔ every 0 (0.02375ms)
+  ✔ every -1 (0.018917ms)
+  ✔ every 1.5 (0.021542ms)
+  ✔ every NaN (0.022416ms)
+  ✔ every Infinity (0.023375ms)
+  ✔ every -Infinity (0.019209ms)
+  ✔ every 9007199254740992 (0.019542ms)
+  ✔ every 2 (0.026ms)
+  ✔ every null (0.020417ms)
+  ✔ every undefined (0.02375ms)
+✔ rejects missing or inherited artwork references and malformed exposure intervals (0.649542ms)
+▶ empty cuts cannot silently carry artwork or exposure cadence
+  ✔ artwork waiting (0.0355ms)
+  ✔ artwork undefined (0.022041ms)
+  ✔ every 1 (0.021417ms)
+  ✔ every undefined (0.019917ms)
+  ✔ empty 1 (0.02575ms)
+  ✔ empty true (0.024375ms)
+  ✔ empty null (0.021541ms)
+  ✔ empty undefined (0.019333ms)
+✔ empty cuts cannot silently carry artwork or exposure cadence (0.313334ms)
+✔ absolute reverse clip seek and disposal (1.361791ms)
+✔ held clip and clamped nonloop (0.222667ms)
+✔ GLB rejects malformed headers and remote dependencies (0.2035ms)
+✔ vendor closure pins version and retains MIT license (2.170042ms)
+✔ three authored scene grammars validate without mutation (3.8335ms)
+✔ scene rejects malformed mesh UV, missing material, key mismatch and invalid gobo (2.039833ms)
+✔ absolute deformation restores rest across random/reverse queries (2.503958ms)
+✔ UV atlas contains nested density, shader uses UV and keeps color/fog stages (1.801542ms)
+✔ instanced dust is analytic seed/id/age and does not retain last frame (0.862625ms)
+✔ clip negative timeScale, looping boundary and weight keep absolute semantics (1.005292ms)
+✔ embedded original assets include UV and matching animation (0.767833ms)
+✔ capability failure is explicit and never silently paints fallback (0.114875ms)
+✔ shot keys clamp and interpolate world transforms independently (0.125125ms)
+✔ actual r180 GLTFLoader parses original embedded UV meshes and animation in Node (5.385292ms)
+✔ public geometry/lighting helpers reject allocation expansion and invalid graphic shadows (0.534458ms)
+✔ focus stationary aperture uses exposure time and exact closed/open bounds (0.806584ms)
+✔ accent is a bounded local two-mark contact and ends exactly at release (0.213ms)
+✔ particles form, disperse and reform indexed glyphs with no accumulated state (0.590542ms)
+Integration records: /Volumes/eyedisk/develop/cinewright/.direction/test-runs/integration-HePZkR
+✖ continuous playback, direct seek, authored substitutions and offline frame use the same state and pixels (133.010791ms)
+✖ changing a steering input invalidates revision and drives 3D and both consumers across a cut (47.822375ms)
+✖ missing assets and tool failure cannot publish; cancellation retains partial frames and retries into a new job (508.789708ms)
+✖ precomputed exchange data is loaded and evaluated out of order (1.850708ms)
+✔ cubic approximation, bounded failure, invalid data and immutability (1.357833ms)
+✔ redraw correspondence, exposure, erasure boundaries and seeded dabs (0.559458ms)
+✔ authored scenes validate and reverse seek is independent (62.238667ms)
+✔ scene rejects bad bank pressure, masks and material (31.645917ms)
+✔ arc-length reveal and input immutability (0.652083ms)
+✔ rejects invalid pressure and zero length (0.1125ms)
+✔ motion frames clamp, ease holds endpoints, stagger has explicit per-item delay (0.463375ms)
+✔ motion seeded/noise is indexed and reproducible in arbitrary order, including negative positions (0.157875ms)
+✔ motion latest-event envelope has explicit attack, release and half-open end (0.104375ms)
+✔ motion path is arc-length sampled, clamped, handles zero-length segments without mutation (0.349875ms)
+Music Box Dancer SYNTHETIC ONLY evidence: /Volumes/eyedisk/develop/cinewright/.direction/test-runs/music-box-dancer-jTsKE5
+✔ three executable recipes expose planted contact/hold, independent voices and shape return (2.360708ms)
+✔ materialize-kit closes dependencies, is idempotent, and refuses unknown, authored or symlink paths (5.355709ms)
+✔ Music Box Dancer theatre preserves canonical data/audio and evaluates every phase without frame history (15.052375ms)
+✔ Music Box Dancer counterpoint preserves canonical data/audio and evaluates every phase without frame history (13.300416ms)
+✔ builder rejects changed analysis, missing source audio, mismatched timing and foreign channel consumers (3.477166ms)
+✖ silent native browser frames from frozen projects are distinct and deterministic on random seek (118.445416ms)
+✔ flashAccumulator bounds scope and distinguishes holds, small accents and full-field reversal (44.331834ms)
+✔ flashAccumulator counts counterphase panels without doubling simultaneous transitions (24.65775ms)
+Job d59fee6e-0939-4554-8c87-4fe83b064c6c · /Volumes/eyedisk/develop/cinewright/.direction/music-integration/run-TsHqxs/store/jobs/d59fee6e-0939-4554-8c87-4fe83b064c6c
+✖ music CLI uses real services, canonical energy arrays, frozen scene, full-end render and original AAC (822.93175ms)
+✔ streaming screen detects encoded full-field flashing and retains no false safe claim (228.42775ms)
+✔ screenFlashes detects encoded half-screen counterphase exchanges (228.305292ms)
+✔ plugin skill entrypoint stays rooted and music guidance does not widen sync claims (2.502542ms)
+Job 4709df9d-1b86-476c-88be-584a5c5aefb1 · /Volumes/eyedisk/develop/cinewright/.direction/music-integration/run-TsHqxs/page-error-store/jobs/4709df9d-1b86-476c-88be-584a5c5aefb1
+✖ asynchronous browser module failures prevent publication and retain the job log (81.956875ms)
+Music test records: /Volumes/eyedisk/develop/cinewright/.direction/music-tests/run-7fY5v9
+✔ ingest real MP4 audio into sample-domain mixer and preserve original AAC/native identity (414.322625ms)
+✔ PCM onset/normalized band analysis and local beat diagnostics are based on audio, including stereo antiphase (15.547667ms)
+✔ derive keeps analysis immutable; boundaries, collisions, manual corrections and typed channels are explicit (21.463791ms)
+✔ silence and short material require manual fallback; non-AAC source cannot claim passthrough (85.585417ms)
+✔ nonzero source start is explicitly ineligible and missing-audio inputs never publish source metadata (180.024875ms)
+✔ AAC remux proves packet and decoded identity, preserves end, refuses trim/gain/offset/multiple clips or overwrite (1087.8025ms)
+✔ source identity tampering and cancellation reject instead of producing misleading derivatives (19.255917ms)
+✖ browser music helpers are random-access, half-open and agree with runtime key interpolation (230.902708ms)
+✖ direct watercolor API repeat pixels at 540p/1080p with explicit Canvas readback policies (566.050625ms)
+✔ public materializer validates watercolor bake and freezes complete decoder/overlay closure before publication (44.964959ms)
+✔ public materializer rejects mismatched rig/motion before new/update publication (420.912625ms)
+✔ review drying trajectory stays positive/finite and conservative through accepted loss bound (21.667875ms)
+✔ review inverse bind corruption rejected for rig-only new/update preserving bytes (291.793084ms)
+✔ review contact construction rejects malformed windows/pole/flexion even when contacts disabled (12.789292ms)
+✔ recheck threshold donor budget preserves nonnegative water through 320 boundary cases (9.372708ms)
+✔ recheck zero-coefficient sinks stay exactly zero in both directions across subnormal probes (3.145375ms)
+Porcelain SYNTHETIC fixture evidence: /Volumes/eyedisk/develop/cinewright/.direction/test-runs/porcelain-6g6VRB
+✔ turn keeps continuous angular velocity, finite poses and a bounded study (5.379375ms)
+✖ study preserves canonical bytes/audio, freezes locally, and renders reverse/random seeks identically (315.053709ms)
+✔ pose-tracks public materialization closes imports and preserves authored and unrelated files (24.946667ms)
+✔ prepared scalar/vector segments preserve smoothstep, exact hold boundaries and immutable random access (0.872125ms)
+✔ reject malformed authoring early, including invalid corrections/contact/target geometry (0.35775ms)
+✔ all vector APIs reject missing coordinates before evaluation (0.163916ms)
+✔ second case: telescoping crane geometry, linear trolley and held hook with pose-space clearance (0.318167ms)
+✔ actual dancer preserves all out-of-scope poses and arm lengths; exposes cloth/contact channels (44.776541ms)
+✔ authored histories, spatial cut and fold retain their distinct time relations under arbitrary seek (8.503042ms)
+✔ three self-contained projects survive freeze/import and refuse to replace existing author files (362.758042ms)
+✔ 17 semantic mapping applies distinct axes, names, proportions and rest orientation (1727.50625ms)
+✔ explicit name mapping overrides semantics; unmapped targets fail (5.065375ms)
+✔ units, proportional scale, root apply/extract/inPlace and rest root offset (5.972459ms)
+✔ IK reachable geometry preserves lengths, forward knee and limits (0.368166ms)
+✔ IK unreachable, coincident, pole degeneracy and angular limits are bounded and finite (0.294208ms)
+✔ bounded ground correction reports achieved residual for all four motion/target combinations (27.527042ms)
+✔ direct/reverse/repeat/end-start are exactly pose AND skin equal; weight, negative timeScale, cleanup (33.830709ms)
+✔ local bake survives source removal/JSON roundtrip, playback interpolation and rest mismatch rejection (7.826167ms)
+✔ reject invalid time, axes, malformed tracks and bakes; evaluator releases correctly (3.905292ms)
+✔ CLI/file publication is local, atomic, no-overwrite and cleans cancelled/failed staging (46.027125ms)
+✔ world rest deltas conjugate across coordinate axes with actual coordinator mesh factory (13.28325ms)
+✔ actual mesh foot positions agree with baked signed contact residuals (9.284917ms)
+✔ player root policies and fractional-time sampling preserve local rest + explicit displacement (11.866458ms)
+✖ replaceable forest, harbor and portrait compile to manifest v1 without changing authored input (213.266208ms)
+✔ bad scene fails before publishing; preserve input, reject cycles and excess objects (12.698958ms)
+Stillcuts build records: /Volumes/eyedisk/develop/cinewright/.direction/test-runs/stillcuts-build-4Axa8F
+✔ real stillcuts build preserves valid unchanged input and reports a distinct boundary fixture (197.315ms)
+✔ real stillcuts build preserves valid touch-equals-fixture-target input and reports a distinct boundary fixture (197.826792ms)
+✔ real stillcuts build preserves valid release-before-fixture-target input and reports a distinct boundary fixture (171.54775ms)
+✔ copied stillcuts a draws all three artworks after editing the source ID to ordinary-contact (7.550875ms)
+✔ copied stillcuts a draws all three artworks after editing the source ID to __proto__ (5.563417ms)
+✔ copied stillcuts b draws all three artworks after editing the source ID to ordinary-contact (8.773666ms)
+✔ copied stillcuts b draws all three artworks after editing the source ID to __proto__ (4.513833ms)
+Stillcuts evidence records: /Volumes/eyedisk/develop/cinewright/.direction/test-runs/stillcuts-evidence-CgrxLt
+✔ Task 4 refuses completed and partial destinations without changing retained records (19.1625ms)
+✔ deliberate subprocess failure retains stdout, stderr and status before rejection (162.271375ms)
+✔ frozen authored bounds reject a same-length wrong span and wrong frame/full ranges (2.003834ms)
+✖ actual video readiness has bounded timeout and media-error paths (236.19175ms)
+Stillcuts integration records: /Volumes/eyedisk/develop/cinewright/.direction/test-runs/stillcuts-integration-w8luGW
+✖ native pixels, frame order, CLI frames and copied frozen helpers preserve the stillcut contract (204.474708ms)
+✖ actual Canvas cover clipping preserves alpha, caller graphics state and current path (4.399917ms)
+✔ half-open irregular exposure preserves frame/value, hold versus interpolation (0.840167ms)
+✔ hierarchy, clamps, input immutability, cycles and parent errors (0.313958ms)
+✔ continuous camera coexists with held pose and coverage diagnoses edges (0.171542ms)
+✔ absolute emitter and independent trail survive arbitrary sampling (1.541708ms)
+✔ SVG and command validation rejects truncated curves, arc flags and nonfinite coordinates before publishing (0.635667ms)
+✔ 2D default/empty/maximum particle, trail and hatch counts stay bounded and fail above limits (24.203542ms)
+✔ all transition types clamp half-open boundaries and reject invalid time/centers (1.235375ms)
+✔ 3D atlas/material/dust/light maxima are actual bounded allocations with cleanup (23.382666ms)
+✔ line-wash aggregate preparation accepts its exact point budget then rejects additional marks (26.375292ms)
+✖ compositor disposes prior layers on partial prepare failure and explicit shutdown is idempotent (179.529084ms)
+✖ real image decode rejects header-only PNG new/update before publication while preserving all prior bytes (265.772875ms)
+✖ actual Canvas iris/curtain/match are empty before/from, visible after from and full at to across arbitrary seeks (20.150916ms)
+✔ scene preflight rejects missing shapes, ranges, mismatched poses, malformed reveal and missing assets without publication (24.241917ms)
+✔ straight cubic retains nonlinear pressure, finite derived length and bounded flatten allocation (75.073ms)
+✔ public wash/transition and B dab validation reject nonfinite or malformed inputs (2.31675ms)
+✔ geometry factory and C scene reject zero/fractional subdivisions before Three allocates NaN buffers (4.711916ms)
+✔ provenance has no circular self hash and matches all authored silhouette bytes (2.426375ms)
+✔ authored commuter contact holds planted shoes fixed while swing feet lift and ankle lines match (408.37ms)
+✔ staged generation rejects malformed embedded GLB before publishing or replacing prior bytes (18.551583ms)
+✔ held exposure and hard substitution are half-open, including a hole (1.941916ms)
+✔ linear and stepped properties are stable in random access (0.168583ms)
+✔ cues are descriptive and spans remain independent of them (0.282667ms)
+✔ channel contracts enforce provider, consumer, space, validity and presence (0.204708ms)
+✖ frozen compositor pixel seeks, overlay and matched polygon measurement (249.521666ms)
+✖ second frozen bake: reverse, permutation, end to start and dispose (51.765917ms)
+✖ solver robustness change preserves every original demo pixel (1.461ms)
+✔ closed flux and sink balances including events (2.365458ms)
+✔ determinism, seek, bounds and cancellation (3.242625ms)
+✔ frozen style loads only bake; seeks and disposes (0.93225ms)
+✔ CLI refuses existing destination and leaves no partial output on invalid input (242.922292ms)
+✔ active CLI cancellation and failed publication clean up temporary file (366.043916ms)
+✔ extreme dilute water remains finite, positivity at stability boundary (0.451292ms)
+ℹ tests 489
+ℹ suites 0
+ℹ pass 468
+ℹ fail 21
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 19047.612792
+
+✖ failing tests:
+
+test at tests/auto-rig-browser.test.mjs:2:1
+✖ auto-rig public style frozen source-absent skin/hatch/outline, pixel seeking, GLB and disposal (125.434833ms)
+  browserType.launch: Failed to launch chromium because executable doesn't exist at /Volumes/eyedisk/cinewright-artifact-quarantine-sauealit/native-browser-disabled-no-deletion
+      at browser (/Volumes/eyedisk/develop/cinewright/scripts/execution.mjs:35:19)
+      at async TestContext.<anonymous> (/Volumes/eyedisk/develop/cinewright/tests/auto-rig-browser.test.mjs:2:215) {
+    name: 'Error',
+    log: []
+  }
+
+test at tests/integration.test.mjs:49:1
+✖ continuous playback, direct seek, authored substitutions and offline frame use the same state and pixels (133.010791ms)
+  browserType.launch: Failed to launch chromium because executable doesn't exist at /Volumes/eyedisk/cinewright-artifact-quarantine-sauealit/native-browser-disabled-no-deletion
+      at browser (/Volumes/eyedisk/develop/cinewright/scripts/execution.mjs:35:19)
+      at async TestContext.<anonymous> (/Volumes/eyedisk/develop/cinewright/tests/integration.test.mjs:66:18) {
+    name: 'Error',
+    log: []
+  }
+
+test at tests/integration.test.mjs:126:1
+✖ changing a steering input invalidates revision and drives 3D and both consumers across a cut (47.822375ms)
+  browserType.launch: Failed to launch chromium because executable doesn't exist at /Volumes/eyedisk/cinewright-artifact-quarantine-sauealit/native-browser-disabled-no-deletion
+      at browser (/Volumes/eyedisk/develop/cinewright/scripts/execution.mjs:35:19)
+      at async TestContext.<anonymous> (/Volumes/eyedisk/develop/cinewright/tests/integration.test.mjs:137:18) {
+    name: 'Error',
+    log: []
+  }
+
+test at tests/integration.test.mjs:158:1
+✖ missing assets and tool failure cannot publish; cancellation retains partial frames and retries into a new job (508.789708ms)
+  AssertionError [ERR_ASSERTION]: The input did not match the regular expression /Image decode failed: missing.png/. Input:
+  
+  "browserType.launch: Failed to launch chromium because executable doesn't exist at /Volumes/eyedisk/cinewright-artifact-quarantine-sauealit/native-browser-disabled-no-deletion\n" +
+    '    at browser (/Volumes/eyedisk/develop/cinewright/scripts/execution.mjs:35:19)\n' +
+    '    at async render (/Volumes/eyedisk/develop/cinewright/.direction/test-runs/integration-HePZkR/revisions/d9979bbdebc0b198387408b046a5265ba40f26c9bf3f47c8356235526e3f5748/tools/jobs.mjs:45:14)\n' +
+    '    at async main (/Volumes/eyedisk/develop/cinewright/scripts/direction.mjs:198:14)'
+  
+      at TestContext.<anonymous> (file:///Volumes/eyedisk/develop/cinewright/tests/integration.test.mjs:167:12)
+      at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+      at async Test.run (node:internal/test_runner/test:1409:7)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: "browserType.launch: Failed to launch chromium because executable doesn't exist at /Volumes/eyedisk/cinewright-artifact-quarantine-sauealit/native-browser-disabled-no-deletion\n    at browser (/Volumes/eyedisk/develop/cinewright/scripts/execution.mjs:35:19)\n    at async render (/Volumes/eyedisk/develop/cinewright/.direction/test-runs/integration-HePZkR/revisions/d9979bbdebc0b198387408b046a5265ba40f26c9bf3f47c8356235526e3f5748/tools/jobs.mjs:45:14)\n    at async main (/Volumes/eyedisk/develop/cinewright/scripts/direction.mjs:198:14)",
+    expected: /Image decode failed: missing.png/,
+    operator: 'match',
+    diff: 'simple'
+  }
+
+test at tests/integration.test.mjs:216:1
+✖ precomputed exchange data is loaded and evaluated out of order (1.850708ms)
+  browserType.launch: Failed to launch chromium because executable doesn't exist at /Volumes/eyedisk/cinewright-artifact-quarantine-sauealit/native-browser-disabled-no-deletion
+      at browser (/Volumes/eyedisk/develop/cinewright/scripts/execution.mjs:35:19)
+      at async TestContext.<anonymous> (/Volumes/eyedisk/develop/cinewright/tests/integration.test.mjs:232:18) {
+    name: 'Error',
+    log: []
+  }
+
+test at tests/music-box-dancer.test.mjs:123:1
+✖ silent native browser frames from frozen projects are distinct and deterministic on random seek (118.445416ms)
+  browserType.launch: Failed to launch chromium because executable doesn't exist at /Volumes/eyedisk/cinewright-artifact-quarantine-sauealit/native-browser-disabled-no-deletion
+      at browser (/Volumes/eyedisk/develop/cinewright/scripts/execution.mjs:35:19)
+      at async TestContext.<anonymous> (/Volumes/eyedisk/develop/cinewright/tests/music-box-dancer.test.mjs:124:16) {
+    name: 'Error',
+    log: []
+  }
+
+test at tests/music-integration.test.mjs:70:1
+✖ music CLI uses real services, canonical energy arrays, frozen scene, full-end render and original AAC (822.93175ms)
+  AssertionError [ERR_ASSERTION]: browserType.launch: Failed to launch chromium because executable doesn't exist at /Volumes/eyedisk/cinewright-artifact-quarantine-sauealit/native-browser-disabled-no-deletion
+      at browser (/Volumes/eyedisk/develop/cinewright/.direction/music-integration/run-TsHqxs/store/revisions/f7348be718ff1f34cb531b18f7359739e0fce52e9b0aba3c1128c23d67e4b29e/tools/execution.mjs:35:19)
+      at async Module.render (/Volumes/eyedisk/develop/cinewright/.direction/music-integration/run-TsHqxs/store/revisions/f7348be718ff1f34cb531b18f7359739e0fce52e9b0aba3c1128c23d67e4b29e/tools/jobs.mjs:45:14)
+      at async TestContext.<anonymous> (/Volumes/eyedisk/develop/cinewright/tests/music-integration.test.mjs:101:15)
+  + actual - expected
+  
+  + 'failed'
+  - 'completed'
+  
+      at TestContext.<anonymous> (file:///Volumes/eyedisk/develop/cinewright/tests/music-integration.test.mjs:102:10)
+      at async Test.run (node:internal/test_runner/test:1409:7)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: 'failed',
+    expected: 'completed',
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at tests/music-integration.test.mjs:160:1
+✖ asynchronous browser module failures prevent publication and retain the job log (81.956875ms)
+  AssertionError [ERR_ASSERTION]: The input did not match the regular expression /Browser page error.*unhandled module failure/. Input:
+  
+  "browserType.launch: Failed to launch chromium because executable doesn't exist at /Volumes/eyedisk/cinewright-artifact-quarantine-sauealit/native-browser-disabled-no-deletion\n" +
+    '    at browser (/Volumes/eyedisk/develop/cinewright/.direction/music-integration/run-TsHqxs/page-error-store/revisions/9db5873db7dffc7a49269818f8832d286edb634a891d53ab09e6b258a1a1fd49/tools/execution.mjs:35:19)\n' +
+    '    at async Module.render (/Volumes/eyedisk/develop/cinewright/.direction/music-integration/run-TsHqxs/page-error-store/revisions/9db5873db7dffc7a49269818f8832d286edb634a891d53ab09e6b258a1a1fd49/tools/jobs.mjs:45:14)\n' +
+    '    at async TestContext.<anonymous> (/Volumes/eyedisk/develop/cinewright/tests/music-integration.test.mjs:169:15)'
+  
+      at TestContext.<anonymous> (file:///Volumes/eyedisk/develop/cinewright/tests/music-integration.test.mjs:172:10)
+      at async Test.run (node:internal/test_runner/test:1409:7)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: "browserType.launch: Failed to launch chromium because executable doesn't exist at /Volumes/eyedisk/cinewright-artifact-quarantine-sauealit/native-browser-disabled-no-deletion\n    at browser (/Volumes/eyedisk/develop/cinewright/.direction/music-integration/run-TsHqxs/page-error-store/revisions/9db5873db7dffc7a49269818f8832d286edb634a891d53ab09e6b258a1a1fd49/tools/execution.mjs:35:19)\n    at async Module.render (/Volumes/eyedisk/develop/cinewright/.direction/music-integration/run-TsHqxs/page-error-store/revisions/9db5873db7dffc7a49269818f8832d286edb634a891d53ab09e6b258a1a1fd49/tools/jobs.mjs:45:14)\n    at async TestContext.<anonymous> (/Volumes/eyedisk/develop/cinewright/tests/music-integration.test.mjs:169:15)",
+    expected: /Browser page error.*unhandled module failure/,
+    operator: 'match',
+    diff: 'simple'
+  }
+
+test at tests/music.test.mjs:222:1
+✖ browser music helpers are random-access, half-open and agree with runtime key interpolation (230.902708ms)
+  browserType.launch: Failed to launch chromium because executable doesn't exist at /Volumes/eyedisk/cinewright-artifact-quarantine-sauealit/native-browser-disabled-no-deletion
+      at browser (/Volumes/eyedisk/develop/cinewright/scripts/execution.mjs:35:19)
+      at async TestContext.<anonymous> (/Volumes/eyedisk/develop/cinewright/tests/music.test.mjs:239:18) {
+    name: 'Error',
+    log: []
+  }
+
+test at tests/phase02-context.test.mjs:2:1
+✖ direct watercolor API repeat pixels at 540p/1080p with explicit Canvas readback policies (566.050625ms)
+  browserType.launch: Failed to launch chromium because executable doesn't exist at /Volumes/eyedisk/cinewright-artifact-quarantine-sauealit/native-browser-disabled-no-deletion
+      at browser (/Volumes/eyedisk/develop/cinewright/scripts/execution.mjs:35:19)
+      at async TestContext.<anonymous> (/Volumes/eyedisk/develop/cinewright/tests/phase02-context.test.mjs:2:643) {
+    name: 'Error',
+    log: []
+  }
+
+test at tests/porcelain-study.test.mjs:33:1
+✖ study preserves canonical bytes/audio, freezes locally, and renders reverse/random seeks identically (315.053709ms)
+  browserType.launch: Failed to launch chromium because executable doesn't exist at /Volumes/eyedisk/cinewright-artifact-quarantine-sauealit/native-browser-disabled-no-deletion
+      at browser (/Volumes/eyedisk/develop/cinewright/scripts/execution.mjs:35:19)
+      at async TestContext.<anonymous> (/Volumes/eyedisk/develop/cinewright/tests/porcelain-study.test.mjs:55:16) {
+    name: 'Error',
+    log: []
+  }
+
+test at tests/silhouette.test.mjs:4:1
+✖ replaceable forest, harbor and portrait compile to manifest v1 without changing authored input (213.266208ms)
+  browserType.launch: Failed to launch chromium because executable doesn't exist at /Volumes/eyedisk/cinewright-artifact-quarantine-sauealit/native-browser-disabled-no-deletion
+      at browser (/Volumes/eyedisk/develop/cinewright/scripts/execution.mjs:35:19)
+      at async validateStyleImages (/Volumes/eyedisk/develop/cinewright/scripts/style-images.mjs:7:15)
+      at async materializeStyle (/Volumes/eyedisk/develop/cinewright/scripts/materialize-style.mjs:41:2)
+      at async TestContext.<anonymous> (/Volumes/eyedisk/develop/cinewright/tests/silhouette.test.mjs:4:283) {
+    name: 'Error',
+    log: []
+  }
+
+test at tests/stillcuts-evidence.test.mjs:74:1
+✖ actual video readiness has bounded timeout and media-error paths (236.19175ms)
+  browserType.launch: Failed to launch chromium because executable doesn't exist at /Volumes/eyedisk/cinewright-artifact-quarantine-sauealit/native-browser-disabled-no-deletion
+      at browser (/Volumes/eyedisk/develop/cinewright/scripts/execution.mjs:35:19)
+      at async TestContext.<anonymous> (/Volumes/eyedisk/develop/cinewright/tests/stillcuts-evidence.test.mjs:75:18) {
+    name: 'Error',
+    log: []
+  }
+
+test at tests/stillcuts.integration.test.mjs:95:1
+✖ native pixels, frame order, CLI frames and copied frozen helpers preserve the stillcut contract (204.474708ms)
+  browserType.launch: Failed to launch chromium because executable doesn't exist at /Volumes/eyedisk/cinewright-artifact-quarantine-sauealit/native-browser-disabled-no-deletion
+      at browser (/Volumes/eyedisk/develop/cinewright/scripts/execution.mjs:35:19)
+      at async TestContext.<anonymous> (/Volumes/eyedisk/develop/cinewright/tests/stillcuts.integration.test.mjs:96:18) {
+    name: 'Error',
+    log: []
+  }
+
+test at tests/stillcuts.integration.test.mjs:194:1
+✖ actual Canvas cover clipping preserves alpha, caller graphics state and current path (4.399917ms)
+  browserType.launch: Failed to launch chromium because executable doesn't exist at /Volumes/eyedisk/cinewright-artifact-quarantine-sauealit/native-browser-disabled-no-deletion
+      at browser (/Volumes/eyedisk/develop/cinewright/scripts/execution.mjs:35:19)
+      at async TestContext.<anonymous> (/Volumes/eyedisk/develop/cinewright/tests/stillcuts.integration.test.mjs:195:18) {
+    name: 'Error',
+    log: []
+  }
+
+test at tests/style-lifecycle.test.mjs:3:1
+✖ compositor disposes prior layers on partial prepare failure and explicit shutdown is idempotent (179.529084ms)
+  browserType.launch: Failed to launch chromium because executable doesn't exist at /Volumes/eyedisk/cinewright-artifact-quarantine-sauealit/native-browser-disabled-no-deletion
+      at browser (/Volumes/eyedisk/develop/cinewright/scripts/execution.mjs:35:19)
+      at async TestContext.<anonymous> (/Volumes/eyedisk/develop/cinewright/tests/style-lifecycle.test.mjs:3:910) {
+    name: 'Error',
+    log: []
+  }
+
+test at tests/style-recheck.test.mjs:3:1
+✖ real image decode rejects header-only PNG new/update before publication while preserving all prior bytes (265.772875ms)
+  browserType.launch: Failed to launch chromium because executable doesn't exist at /Volumes/eyedisk/cinewright-artifact-quarantine-sauealit/native-browser-disabled-no-deletion
+      at browser (/Volumes/eyedisk/develop/cinewright/scripts/execution.mjs:35:19)
+      at async TestContext.<anonymous> (/Volumes/eyedisk/develop/cinewright/tests/style-recheck.test.mjs:3:282) {
+    name: 'Error',
+    log: []
+  }
+
+test at tests/style-recheck.test.mjs:4:1
+✖ actual Canvas iris/curtain/match are empty before/from, visible after from and full at to across arbitrary seeks (20.150916ms)
+  browserType.launch: Failed to launch chromium because executable doesn't exist at /Volumes/eyedisk/cinewright-artifact-quarantine-sauealit/native-browser-disabled-no-deletion
+      at browser (/Volumes/eyedisk/develop/cinewright/scripts/execution.mjs:35:19)
+      at async validateStyleImages (/Volumes/eyedisk/develop/cinewright/scripts/style-images.mjs:7:15)
+      at async materializeStyle (/Volumes/eyedisk/develop/cinewright/scripts/materialize-style.mjs:41:2)
+      at async TestContext.<anonymous> (/Volumes/eyedisk/develop/cinewright/tests/style-recheck.test.mjs:4:318) {
+    name: 'Error',
+    log: []
+  }
+
+test at tests/watercolor-browser.test.mjs:3:1
+✖ frozen compositor pixel seeks, overlay and matched polygon measurement (249.521666ms)
+  browserType.launch: Failed to launch chromium because executable doesn't exist at /Volumes/eyedisk/cinewright-artifact-quarantine-sauealit/native-browser-disabled-no-deletion
+      at browser (/Volumes/eyedisk/develop/cinewright/scripts/execution.mjs:35:19)
+      at async TestContext.<anonymous> (/Volumes/eyedisk/develop/cinewright/tests/watercolor-browser.test.mjs:3:546) {
+    name: 'Error',
+    log: []
+  }
+
+test at tests/watercolor-browser.test.mjs:6:1
+✖ second frozen bake: reverse, permutation, end to start and dispose (51.765917ms)
+  browserType.launch: Failed to launch chromium because executable doesn't exist at /Volumes/eyedisk/cinewright-artifact-quarantine-sauealit/native-browser-disabled-no-deletion
+      at browser (/Volumes/eyedisk/develop/cinewright/scripts/execution.mjs:35:19)
+      at async TestContext.<anonymous> (/Volumes/eyedisk/develop/cinewright/tests/watercolor-browser.test.mjs:6:546) {
+    name: 'Error',
+    log: []
+  }
+
+test at tests/watercolor-browser.test.mjs:7:1
+✖ solver robustness change preserves every original demo pixel (1.461ms)
+  browserType.launch: Failed to launch chromium because executable doesn't exist at /Volumes/eyedisk/cinewright-artifact-quarantine-sauealit/native-browser-disabled-no-deletion
+      at browser (/Volumes/eyedisk/develop/cinewright/scripts/execution.mjs:35:19)
+      at async TestContext.<anonymous> (/Volumes/eyedisk/develop/cinewright/tests/watercolor-browser.test.mjs:7:621) {
+    name: 'Error',
+    log: []
+  }

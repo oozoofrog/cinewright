@@ -1,0 +1,82 @@
+{
+  "checked_before_path_repair": true,
+  "count": 15,
+  "all_equal": true,
+  "files": [
+    {
+      "path": "SKILL.md",
+      "equal": true,
+      "sha256": "1079162c7edc63a65e59833dee66442770c4cf95e7d55cdac63c3e4586bd2320"
+    },
+    {
+      "path": "references/craft-execution.md",
+      "equal": true,
+      "sha256": "1587c63a300620dd146bc66ad3de634dbd9271f4ac70776ea2be895dc88d24c6"
+    },
+    {
+      "path": "references/craft.md",
+      "equal": true,
+      "sha256": "af7dfb076aa424bcb9daf306c2f6cb66ec9f5991cf3e7e8ef682844ec4607bd6"
+    },
+    {
+      "path": "references/direction.md",
+      "equal": true,
+      "sha256": "62233857855d5a26726487494afed1a8eb1d9088aaf66a6247b02949e278dbcd"
+    },
+    {
+      "path": "references/format.md",
+      "equal": true,
+      "sha256": "c5d4b4f0925809acb740a3d38e8d3d6488eec6e21526f93e59cc545a7a0f0e75"
+    },
+    {
+      "path": "references/music-box.md",
+      "equal": true,
+      "sha256": "756a4fdf5c6d52d26a4c671034adebab095b95c89f88ce14278a9aa673752581"
+    },
+    {
+      "path": "references/music.md",
+      "equal": true,
+      "sha256": "01a6986a425a8668f3577735fa07483b917c2dca7b78dea5890148fc1e2a79d4"
+    },
+    {
+      "path": "references/stillcuts.md",
+      "equal": true,
+      "sha256": "d1ceee2a886e9cf1cb9ae2da246cbecae0e3f05cf702dcc7216f246cc9347c0b"
+    },
+    {
+      "path": "references/styles/expressionist-space.md",
+      "equal": true,
+      "sha256": "37cd7ba350a98aae18857b618385b174842d4f6b48fdeb2d171be3b55875d8e6"
+    },
+    {
+      "path": "references/styles/index.md",
+      "equal": true,
+      "sha256": "9e7e72da58adde5416d0983bbe973225e77ff6bcf9196b71591487134966bcf7"
+    },
+    {
+      "path": "references/styles/line-wash.md",
+      "equal": true,
+      "sha256": "d9149729934e03ea75a9281d7fbbb0da32ec7026a1dbdf712e2e162699033cc5"
+    },
+    {
+      "path": "references/styles/retarget.md",
+      "equal": true,
+      "sha256": "e1151ea2c2a47faadf7b11e5b027d9bed2f7023b60a5e31e06ded1adbaadff31"
+    },
+    {
+      "path": "references/styles/silhouette-theatre.md",
+      "equal": true,
+      "sha256": "4a6a3d66804936b068130de9b4f02e230e470afdc42ec8251b268180799ca8c5"
+    },
+    {
+      "path": "references/styles/watercolor-physical.md",
+      "equal": true,
+      "sha256": "738267a0b061adc4d30963c19abe799b400e7aa76568aeca812185217ec142fa"
+    },
+    {
+      "path": "skills/cinewright/SKILL.md",
+      "equal": true,
+      "sha256": "a740a5cc78d167b52b380b8ec8226eba4143be9d1cb45ed1aadc2a7976372e50"
+    }
+  ]
+}

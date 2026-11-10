@@ -60,7 +60,11 @@ node scripts/direction.mjs render examples/harbor-landfall
 
 ## 저장소 구성
 
-`scripts/`와 `runtime/`은 실행 도구, `modules/`는 프로젝트에 복사하는 컷·원화 helper, `examples/`는 제작 입력, `tests/`는 회귀 검사다. `SKILL.md`와 `references/`에 제작 지침을 둔다. `outputs/`와 `evidence/`에는 현재 검증 작품과 제작 근거를 함께 보관한다.
+`SKILL.md`와 `references/`는 제작 지침, `scripts/`와 `runtime/`은 실행 도구, `modules/`는 프로젝트에 복사하는 helper, `examples/`는 제작 입력, `tests/`는 회귀 검사다. [작업 인덱스](docs/work-index.md)에서 작업별 보고서·근거·로컬 제작물·커밋·검증 한계를 찾는다.
+
+`docs/<분류>/<YYYY-MM-DD-topic>/`에 보고서를, `evidence/<YYYY-MM-DD-topic>/`에 해당 작업의 텍스트 근거를 둔다. 일회성 실행 파일은 각 근거 폴더의 `scripts/`에 둔다. 새 영상·음원·이미지와 store·프레임·render-job 폴더는 로컬에 보존하며 Git에서 제외한다. 보고서에 직접 삽입하는 대표 이미지만 500KB 이하일 때 `figures/`에서 추적할 수 있다. 이미 추적된 미디어는 계속 보존한다.
+
+`outputs/`에는 기존 검증 작품이 있다. `.agent-loop/`와 `.direction/`은 로컬 기록이며 기존 run·제작 경로를 바꾸지 않는다. 날짜를 확인할 수 없는 자료에는 날짜를 붙이지 않고 인덱스에 미확인으로 남긴다.
 
 `node_modules/`와 `.direction/`은 로컬 실행 데이터다. 새 체크아웃에서는 `npm ci`를 실행하고 예제 경로로 렌더한다. 기존 개정본 해시와 작업 ID를 사용하는 명령은 해당 `.direction/` 기록이 있는 환경에서 실행한다.
 

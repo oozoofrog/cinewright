@@ -1,0 +1,428 @@
+{
+  "audits": [
+    {
+      "audit": "commit-01-audit.json",
+      "title": "Document authored code expression and relation studies",
+      "units": [
+        "2026-11-10-code-expression"
+      ],
+      "staged_stat_last_line": " 134 files changed, 10585 insertions(+), 18 deletions(-)",
+      "audited_files": 134,
+      "new_files": 126,
+      "max_staged_bytes": 21983,
+      "new_media_additions": 0,
+      "new_files_over_500000_bytes": 0,
+      "raw_sha256": "6aa334a19cccf0de496b59aa46931374876a3f94e149ab190b69cacee12f15e4"
+    },
+    {
+      "audit": "commit-02-audit.json",
+      "title": "Document motion authoring guidance and verification",
+      "units": [
+        "2026-11-10-motion-authoring"
+      ],
+      "staged_stat_last_line": " 90 files changed, 4855 insertions(+), 3 deletions(-)",
+      "audited_files": 90,
+      "new_files": 88,
+      "max_staged_bytes": 48632,
+      "new_media_additions": 0,
+      "new_files_over_500000_bytes": 0,
+      "raw_sha256": "c8f68a990c5b729668ec20c0893aa88e818719b018b365d81b84dbbffd82dbf1"
+    },
+    {
+      "audit": "commit-03-audit.json",
+      "title": "Clarify audience acceptance and required defects",
+      "units": [
+        "2026-11-10-audience-acceptance"
+      ],
+      "staged_stat_last_line": " 86 files changed, 13213 insertions(+), 60 deletions(-)",
+      "audited_files": 86,
+      "new_files": 72,
+      "max_staged_bytes": 222321,
+      "new_media_additions": 0,
+      "new_files_over_500000_bytes": 0,
+      "raw_sha256": "e39cf7ba3c3f0902fc955cebe8345f7463345fd928a65f10609b27ad38b1f360"
+    },
+    {
+      "audit": "commit-04-audit.json",
+      "title": "Preserve aesthetic toolkit research and review evidence",
+      "units": [
+        "2026-11-08-aesthetic-toolkit"
+      ],
+      "staged_stat_last_line": " 379 files changed, 58794 insertions(+)",
+      "audited_files": 379,
+      "new_files": 379,
+      "max_staged_bytes": 119338,
+      "new_media_additions": 0,
+      "new_files_over_500000_bytes": 0,
+      "raw_sha256": "25ae0166bb157f542901a307c5d5445286717aa503a219908752ef07c8365dbb"
+    },
+    {
+      "audit": "commit-05-audit.json",
+      "title": "Preserve phase02 toolkit contracts and verification",
+      "units": [
+        "2026-11-08-aesthetic-toolkit-phase02"
+      ],
+      "staged_stat_last_line": " 154 files changed, 22490 insertions(+)",
+      "audited_files": 154,
+      "new_files": 154,
+      "max_staged_bytes": 59369,
+      "new_media_additions": 0,
+      "new_files_over_500000_bytes": 0,
+      "raw_sha256": "a31c6b2c99c0f13f4ee70e311c7ab80fd4a9cb7bc6f4249aa09ba4c477440cf5"
+    },
+    {
+      "audit": "commit-06-audit.json",
+      "title": "Preserve cinematic animation implementation evidence",
+      "units": [
+        "2026-11-08-cinematic-animation-implementation"
+      ],
+      "staged_stat_last_line": " 111 files changed, 26349 insertions(+)",
+      "audited_files": 111,
+      "new_files": 111,
+      "max_staged_bytes": 177685,
+      "new_media_additions": 0,
+      "new_files_over_500000_bytes": 0,
+      "raw_sha256": "d7ba54635fd77c246785f7052d4fa423d9feeb1d700af76bda1e939ae1204a7b"
+    },
+    {
+      "audit": "commit-07-audit.json",
+      "title": "Preserve cinematic animation independent reviews",
+      "units": [
+        "2026-11-08-cinematic-animation-review"
+      ],
+      "staged_stat_last_line": " 13 files changed, 2005 insertions(+)",
+      "audited_files": 13,
+      "new_files": 13,
+      "max_staged_bytes": 45152,
+      "new_media_additions": 0,
+      "new_files_over_500000_bytes": 0,
+      "raw_sha256": "0e542b324e7488107d4ae228981c863e6a0e6503884f9ab463e2377e64dde122"
+    },
+    {
+      "audit": "commit-08-audit.json",
+      "title": "Preserve established craft review and source research",
+      "units": [
+        "2026-11-09-craft-review",
+        "2026-11-09-dancer-craft"
+      ],
+      "staged_stat_last_line": " 94 files changed, 9366 insertions(+)",
+      "audited_files": 94,
+      "new_files": 94,
+      "max_staged_bytes": 39710,
+      "new_media_additions": 0,
+      "new_files_over_500000_bytes": 0,
+      "raw_sha256": "c60eb20032712ce4856df2fef07e14f88985d14356d0f748640da900ea78ee27"
+    },
+    {
+      "audit": "commit-09-audit.json",
+      "title": "Preserve dancer increment validation records",
+      "units": [
+        "2026-11-09-dancer-increment"
+      ],
+      "staged_stat_last_line": " 19 files changed, 5439 insertions(+)",
+      "audited_files": 19,
+      "new_files": 19,
+      "max_staged_bytes": 254182,
+      "new_media_additions": 0,
+      "new_files_over_500000_bytes": 0,
+      "raw_sha256": "fcd228eb8ae0fa79ae1997c88200a1be66ee7853adc2fdc72a382a4683f5d5c2"
+    },
+    {
+      "audit": "commit-10-audit.json",
+      "title": "Preserve gap closure and source fingerprint evidence",
+      "units": [
+        "2026-11-09-gap-closure"
+      ],
+      "staged_stat_last_line": " 15 files changed, 288 insertions(+)",
+      "audited_files": 15,
+      "new_files": 15,
+      "max_staged_bytes": 7164,
+      "new_media_additions": 0,
+      "new_files_over_500000_bytes": 0,
+      "raw_sha256": "8a6c5793e8761d90eaad6701c87bb19fba030d5836584217be2ba764817c1555"
+    },
+    {
+      "audit": "commit-11-audit.json",
+      "title": "Preserve skill production loop verification",
+      "units": [
+        "2026-11-09-skill-production-loop"
+      ],
+      "staged_stat_last_line": " 68 files changed, 6044 insertions(+)",
+      "audited_files": 68,
+      "new_files": 68,
+      "max_staged_bytes": 70914,
+      "new_media_additions": 0,
+      "new_files_over_500000_bytes": 0,
+      "raw_sha256": "11cc6ab60bc91f384a62143ef7d23eea3d2c17c5bf3937fb7912d50cc73b702a"
+    },
+    {
+      "audit": "commit-12-audit.json",
+      "title": "Preserve subject understanding verification",
+      "units": [
+        "2026-11-09-subject-understanding"
+      ],
+      "staged_stat_last_line": " 5 files changed, 206 insertions(+)",
+      "audited_files": 5,
+      "new_files": 5,
+      "max_staged_bytes": 10930,
+      "new_media_additions": 0,
+      "new_files_over_500000_bytes": 0,
+      "raw_sha256": "cf57b91760648b38f4aa9e57f2eb4194bc3aabe53fb92acafba14a716bce692e"
+    },
+    {
+      "audit": "commit-13-audit.json",
+      "title": "Preserve global update preparation and verification",
+      "units": [
+        "2026-11-05-global-update-224452-79c01a37"
+      ],
+      "staged_stat_last_line": " 194 files changed, 38429 insertions(+)",
+      "audited_files": 194,
+      "new_files": 194,
+      "max_staged_bytes": 290079,
+      "new_media_additions": 0,
+      "new_files_over_500000_bytes": 0,
+      "raw_sha256": "1f2bdcc95d9f13e0915362be05b3f2200331bd87103246d502428a6cacc90628"
+    },
+    {
+      "audit": "commit-14-audit.json",
+      "title": "Preserve music box dancer pause and visual study handoffs",
+      "units": [
+        "2026-11-07-music-box-dancer-paused",
+        "2026-11-08-music-box-dancer-visual-study"
+      ],
+      "staged_stat_last_line": " 2 files changed, 309 insertions(+)",
+      "audited_files": 2,
+      "new_files": 2,
+      "max_staged_bytes": 19357,
+      "new_media_additions": 0,
+      "new_files_over_500000_bytes": 0,
+      "raw_sha256": "fd3f7216d75460c7979a83e27ad3b5f99580b8d96722e5aa7b75779ed5565fc9"
+    },
+    {
+      "audit": "commit-15-audit.json",
+      "title": "Preserve the initial production plan",
+      "units": [
+        "2026-11-05-production"
+      ],
+      "staged_stat_last_line": " 1 file changed, 139 insertions(+)",
+      "audited_files": 1,
+      "new_files": 1,
+      "max_staged_bytes": 20148,
+      "new_media_additions": 0,
+      "new_files_over_500000_bytes": 0,
+      "raw_sha256": "2a0e270a5a629d26eae2da6627353aa0bec1fbb88d289cdcf023017d136a56da"
+    },
+    {
+      "audit": "commit-16-audit.json",
+      "title": "Organize artifacts by dated work unit",
+      "units": [
+        "2026-11-04-global-install",
+        "2026-11-04-harbor-v2",
+        "2026-11-04-initial-production",
+        "2026-11-04-night-sorter",
+        "2026-11-04-standalone-setup",
+        "2026-11-05-global-update-224452-79c01a37",
+        "2026-11-08-aesthetic-toolkit",
+        "2026-11-08-aesthetic-toolkit-phase02",
+        "2026-11-08-cinematic-animation-implementation",
+        "2026-11-08-cinematic-animation-review",
+        "2026-11-09-craft-review",
+        "2026-11-09-dancer-increment",
+        "2026-11-09-gap-closure",
+        "2026-11-09-release",
+        "2026-11-09-skill-production-loop",
+        "2026-11-09-subject-understanding",
+        "2026-11-10-audience-acceptance",
+        "2026-11-10-code-expression",
+        "2026-11-10-motion-authoring"
+      ],
+      "staged_stat_last_line": " 1569 files changed, 0 insertions(+), 0 deletions(-)",
+      "audited_files": 1569,
+      "new_files": 0,
+      "max_staged_bytes": 2706948,
+      "new_media_additions": 0,
+      "new_files_over_500000_bytes": 0,
+      "raw_sha256": "62922c2b7259854fe82f53c2413c3532d0c0c60e2ab4d1299c4771ac6ae69e92"
+    },
+    {
+      "audit": "commit-17-audit.json",
+      "title": "Preserve historical release and installation evidence",
+      "units": [
+        "2026-11-09-release"
+      ],
+      "staged_stat_last_line": " 37 files changed, 13189 insertions(+)",
+      "audited_files": 37,
+      "new_files": 37,
+      "max_staged_bytes": 449609,
+      "new_media_additions": 0,
+      "new_files_over_500000_bytes": 0,
+      "raw_sha256": "3efd41336a349eef86233b8efc485fc69604f2594361e2125f890933164f1da7"
+    },
+    {
+      "audit": "commit-18-audit.json",
+      "title": "Normalize the historical release evidence directory",
+      "units": [
+        "2026-11-09-release"
+      ],
+      "staged_stat_last_line": " 37 files changed, 0 insertions(+), 0 deletions(-)",
+      "audited_files": 37,
+      "new_files": 0,
+      "max_staged_bytes": 449609,
+      "new_media_additions": 0,
+      "new_files_over_500000_bytes": 0,
+      "raw_sha256": "1429a8ba15fa3211813acd161368f485e197b60bca572dbd534d2808a53f737d"
+    },
+    {
+      "audit": "commit-19-audit.json",
+      "title": "Preserve locally excluded production closure records",
+      "units": [
+        "2026-11-05-production"
+      ],
+      "staged_stat_last_line": " 4 files changed, 2263 insertions(+)",
+      "audited_files": 4,
+      "new_files": 4,
+      "max_staged_bytes": 152211,
+      "new_media_additions": 0,
+      "new_files_over_500000_bytes": 0,
+      "raw_sha256": "a3fe6fa1b2930a50f3df830b6c2682cd2c27af64ec4173c0986e2febdfd562aa"
+    },
+    {
+      "audit": "commit-20-audit.json",
+      "title": "Preserve source licenses with historical text evidence",
+      "units": [
+        "2026-11-08-cinematic-animation-implementation",
+        "2026-11-05-global-update-224452-79c01a37"
+      ],
+      "staged_stat_last_line": " 2 files changed, 22 insertions(+)",
+      "audited_files": 2,
+      "new_files": 2,
+      "max_staged_bytes": 1081,
+      "new_media_additions": 0,
+      "new_files_over_500000_bytes": 0,
+      "raw_sha256": "51a91ba52569fc4b9dc3afef717d94287d72ce90cd2c1d4756e3ec047d3709ef"
+    },
+    {
+      "audit": "commit-21-audit.json",
+      "title": "Place historical licenses with their work units",
+      "units": [
+        "2026-11-08-cinematic-animation-implementation",
+        "2026-11-05-global-update-224452-79c01a37"
+      ],
+      "staged_stat_last_line": " 2 files changed, 0 insertions(+), 0 deletions(-)",
+      "audited_files": 2,
+      "new_files": 0,
+      "max_staged_bytes": 1081,
+      "new_media_additions": 0,
+      "new_files_over_500000_bytes": 0,
+      "raw_sha256": "3ed795314bf86228be48dced110cdd556b63e9a0be165498861c34a2739ef160"
+    },
+    {
+      "audit": "commit-22-audit.json",
+      "title": "Repair references to organized artifact paths",
+      "units": [
+        "2026-11-10-artifact-organization"
+      ],
+      "staged_stat_last_line": " 298 files changed, 2333 insertions(+), 2333 deletions(-)",
+      "audited_files": 298,
+      "new_files": 0,
+      "max_staged_bytes": 458193,
+      "new_media_additions": 0,
+      "new_files_over_500000_bytes": 0,
+      "raw_sha256": "b24c4ef43ca777e75e3969a66cc201128cb0e5245b320a97b01f1179b5bf9646"
+    }
+  ],
+  "raw_audits_directory": "/Volumes/eyedisk/cinewright-artifact-quarantine-sauealit/organization-work",
+  "previously_tracked_media": "All initial tracked media retained. Rename commits audit their bytes as already-tracked exceptions. No new media or file above 500000 bytes was committed.",
+  "explicit_exception": "First content commit admitted 22 small draft-store TEXT files before its generated-directory filter was tightened. They remain tracked to honor no deletion/no rm --cached/no history rewrite. All are listed below; generated directory ignores still apply to untracked content. No commercial or other new media was added.",
+  "retained_small_store_text": [
+    {
+      "path": "evidence/2026-11-10-code-expression/draft-store/jobs/fe6d9c47-e866-4e85-a2c5-4341c530ee65/execution.log",
+      "bytes": 5952
+    },
+    {
+      "path": "evidence/2026-11-10-code-expression/draft-store/jobs/fe6d9c47-e866-4e85-a2c5-4341c530ee65/job.json",
+      "bytes": 1353
+    },
+    {
+      "path": "evidence/2026-11-10-code-expression/draft-store/revisions/c2c60793c87f1e2eaf6fccc68421344b873c6db7f60a4d84b39ac609dff57e23/project/.cinewright-kit.json",
+      "bytes": 280
+    },
+    {
+      "path": "evidence/2026-11-10-code-expression/draft-store/revisions/c2c60793c87f1e2eaf6fccc68421344b873c6db7f60a4d84b39ac609dff57e23/project/modules/animation/pose-tracks.mjs",
+      "bytes": 4864
+    },
+    {
+      "path": "evidence/2026-11-10-code-expression/draft-store/revisions/c2c60793c87f1e2eaf6fccc68421344b873c6db7f60a4d84b39ac609dff57e23/project/modules/motion.mjs",
+      "bytes": 3332
+    },
+    {
+      "path": "evidence/2026-11-10-code-expression/draft-store/revisions/c2c60793c87f1e2eaf6fccc68421344b873c6db7f60a4d84b39ac609dff57e23/project/scene.mjs",
+      "bytes": 2825
+    },
+    {
+      "path": "evidence/2026-11-10-code-expression/draft-store/revisions/c2c60793c87f1e2eaf6fccc68421344b873c6db7f60a4d84b39ac609dff57e23/project/source.json",
+      "bytes": 3144
+    },
+    {
+      "path": "evidence/2026-11-10-code-expression/draft-store/revisions/c2c60793c87f1e2eaf6fccc68421344b873c6db7f60a4d84b39ac609dff57e23/project/work.json",
+      "bytes": 1226
+    },
+    {
+      "path": "evidence/2026-11-10-code-expression/draft-store/revisions/c2c60793c87f1e2eaf6fccc68421344b873c6db7f60a4d84b39ac609dff57e23/revision.json",
+      "bytes": 2796
+    },
+    {
+      "path": "evidence/2026-11-10-code-expression/draft-store/revisions/c2c60793c87f1e2eaf6fccc68421344b873c6db7f60a4d84b39ac609dff57e23/runtime/compositor.mjs",
+      "bytes": 6079
+    },
+    {
+      "path": "evidence/2026-11-10-code-expression/draft-store/revisions/c2c60793c87f1e2eaf6fccc68421344b873c6db7f60a4d84b39ac609dff57e23/runtime/index.html",
+      "bytes": 1169
+    },
+    {
+      "path": "evidence/2026-11-10-code-expression/draft-store/revisions/c2c60793c87f1e2eaf6fccc68421344b873c6db7f60a4d84b39ac609dff57e23/runtime/player.mjs",
+      "bytes": 4031
+    },
+    {
+      "path": "evidence/2026-11-10-code-expression/draft-store/revisions/c2c60793c87f1e2eaf6fccc68421344b873c6db7f60a4d84b39ac609dff57e23/runtime/review-player.mjs",
+      "bytes": 2152
+    },
+    {
+      "path": "evidence/2026-11-10-code-expression/draft-store/revisions/c2c60793c87f1e2eaf6fccc68421344b873c6db7f60a4d84b39ac609dff57e23/runtime/review.html",
+      "bytes": 617
+    },
+    {
+      "path": "evidence/2026-11-10-code-expression/draft-store/revisions/c2c60793c87f1e2eaf6fccc68421344b873c6db7f60a4d84b39ac609dff57e23/runtime/style.css",
+      "bytes": 932
+    },
+    {
+      "path": "evidence/2026-11-10-code-expression/draft-store/revisions/c2c60793c87f1e2eaf6fccc68421344b873c6db7f60a4d84b39ac609dff57e23/runtime/timeline.mjs",
+      "bytes": 6649
+    },
+    {
+      "path": "evidence/2026-11-10-code-expression/draft-store/revisions/c2c60793c87f1e2eaf6fccc68421344b873c6db7f60a4d84b39ac609dff57e23/tools/audio.mjs",
+      "bytes": 2296
+    },
+    {
+      "path": "evidence/2026-11-10-code-expression/draft-store/revisions/c2c60793c87f1e2eaf6fccc68421344b873c6db7f60a4d84b39ac609dff57e23/tools/execution.mjs",
+      "bytes": 1730
+    },
+    {
+      "path": "evidence/2026-11-10-code-expression/draft-store/revisions/c2c60793c87f1e2eaf6fccc68421344b873c6db7f60a4d84b39ac609dff57e23/tools/jobs.mjs",
+      "bytes": 6005
+    },
+    {
+      "path": "evidence/2026-11-10-code-expression/draft-store/revisions/c2c60793c87f1e2eaf6fccc68421344b873c6db7f60a4d84b39ac609dff57e23/tools/package-lock.json",
+      "bytes": 1033
+    },
+    {
+      "path": "evidence/2026-11-10-code-expression/draft-store/revisions/c2c60793c87f1e2eaf6fccc68421344b873c6db7f60a4d84b39ac609dff57e23/tools/revisions.mjs",
+      "bytes": 4565
+    },
+    {
+      "path": "evidence/2026-11-10-code-expression/draft-store/revisions/c2c60793c87f1e2eaf6fccc68421344b873c6db7f60a4d84b39ac609dff57e23/tools/server.mjs",
+      "bytes": 3077
+    }
+  ],
+  "late_content_order_exceptions": "Previously locally excluded release/production records and two extensionless license texts were discovered after other units moved. Their original bytes were committed at original paths before their own separate moves. Commits explicitly disclose the ordering exception."
+}

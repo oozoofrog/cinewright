@@ -1,0 +1,89 @@
+{
+  "command": "npm test -- --test-timeout=60000",
+  "NODE_OPTIONS": "--require=/Volumes/eyedisk/cinewright-artifact-quarantine-sauealit/organization-work/cinewright-nondeletion.cjs",
+  "DIRECTION_CHROME": "/Volumes/eyedisk/cinewright-artifact-quarantine-sauealit/native-browser-disabled-no-deletion",
+  "reason": "No native Chromium subprocess was launched: its own deletions cannot be intercepted safely by the Node preload. All 21 failures are observed under this environment limitation. No product or test logic edits were made to obtain passes; only moved path strings changed. Full real-browser verification remains for the lead in an environment with an authorized nondeletion strategy.",
+  "before_after_same_counts": true,
+  "before_after_same_failed_titles": true,
+  "runs": [
+    {
+      "phase": "before",
+      "counts": {
+        "tests": 489,
+        "suites": 0,
+        "pass": 468,
+        "fail": 21,
+        "cancelled": 0,
+        "skipped": 0,
+        "todo": 0
+      },
+      "exit": 1,
+      "failed_titles": [
+        "auto-rig public style frozen source-absent skin/hatch/outline, pixel seeking, GLB and disposal",
+        "continuous playback, direct seek, authored substitutions and offline frame use the same state and pixels",
+        "changing a steering input invalidates revision and drives 3D and both consumers across a cut",
+        "missing assets and tool failure cannot publish; cancellation retains partial frames and retries into a new job",
+        "precomputed exchange data is loaded and evaluated out of order",
+        "silent native browser frames from frozen projects are distinct and deterministic on random seek",
+        "music CLI uses real services, canonical energy arrays, frozen scene, full-end render and original AAC",
+        "asynchronous browser module failures prevent publication and retain the job log",
+        "browser music helpers are random-access, half-open and agree with runtime key interpolation",
+        "direct watercolor API repeat pixels at 540p/1080p with explicit Canvas readback policies",
+        "study preserves canonical bytes/audio, freezes locally, and renders reverse/random seeks identically",
+        "replaceable forest, harbor and portrait compile to manifest v1 without changing authored input",
+        "actual video readiness has bounded timeout and media-error paths",
+        "native pixels, frame order, CLI frames and copied frozen helpers preserve the stillcut contract",
+        "actual Canvas cover clipping preserves alpha, caller graphics state and current path",
+        "compositor disposes prior layers on partial prepare failure and explicit shutdown is idempotent",
+        "real image decode rejects header-only PNG new/update before publication while preserving all prior bytes",
+        "actual Canvas iris/curtain/match are empty before/from, visible after from and full at to across arbitrary seeks",
+        "frozen compositor pixel seeks, overlay and matched polygon measurement",
+        "second frozen bake: reverse, permutation, end to start and dispose",
+        "solver robustness change preserves every original demo pixel"
+      ],
+      "raw_log": "npm-before.log",
+      "sha256": "7cef7c498afc9957e6138e99e99e6376cb13d543d509ed6795acbf2a459ba5eb"
+    },
+    {
+      "phase": "after",
+      "counts": {
+        "tests": 489,
+        "suites": 0,
+        "pass": 468,
+        "fail": 21,
+        "cancelled": 0,
+        "skipped": 0,
+        "todo": 0
+      },
+      "exit": 1,
+      "failed_titles": [
+        "auto-rig public style frozen source-absent skin/hatch/outline, pixel seeking, GLB and disposal",
+        "continuous playback, direct seek, authored substitutions and offline frame use the same state and pixels",
+        "changing a steering input invalidates revision and drives 3D and both consumers across a cut",
+        "missing assets and tool failure cannot publish; cancellation retains partial frames and retries into a new job",
+        "precomputed exchange data is loaded and evaluated out of order",
+        "silent native browser frames from frozen projects are distinct and deterministic on random seek",
+        "music CLI uses real services, canonical energy arrays, frozen scene, full-end render and original AAC",
+        "asynchronous browser module failures prevent publication and retain the job log",
+        "browser music helpers are random-access, half-open and agree with runtime key interpolation",
+        "direct watercolor API repeat pixels at 540p/1080p with explicit Canvas readback policies",
+        "study preserves canonical bytes/audio, freezes locally, and renders reverse/random seeks identically",
+        "replaceable forest, harbor and portrait compile to manifest v1 without changing authored input",
+        "actual video readiness has bounded timeout and media-error paths",
+        "native pixels, frame order, CLI frames and copied frozen helpers preserve the stillcut contract",
+        "actual Canvas cover clipping preserves alpha, caller graphics state and current path",
+        "compositor disposes prior layers on partial prepare failure and explicit shutdown is idempotent",
+        "real image decode rejects header-only PNG new/update before publication while preserving all prior bytes",
+        "actual Canvas iris/curtain/match are empty before/from, visible after from and full at to across arbitrary seeks",
+        "frozen compositor pixel seeks, overlay and matched polygon measurement",
+        "second frozen bake: reverse, permutation, end to start and dispose",
+        "solver robustness change preserves every original demo pixel"
+      ],
+      "raw_log": "npm-after.log",
+      "sha256": "3cc18b2818698a2122a0de65db3bbafa4bd766ac55fbf1c8856028705e92c29f"
+    }
+  ],
+  "adapter_semantics": "fs.rm/unlink/rmdir sync, callback, promises and named ESM exports rename into same-device quarantine. Missing force/ENOENT, unlink-directory, rmdir-file/nonempty directory checks were smoke-tested. This does not reproduce every OS race, recursive per-child permission error, invalid-option check, or native non-Node cleanup. It never uses copy+delete for EXDEV. No product dependency was added.",
+  "cleanup_call_inspection": "package script invokes node --test serially. Inspected scripts/runtime/modules/tests and task4 runner: Node cleanup operations are intercepted; process children are Node, FFmpeg/FFprobe or Chromium. No external shell rm/unlink/rmdir invocation was found. Native Chromium intentionally unavailable.",
+  "baseline_outputs": "All original scope files copied externally before tests. No original evidence bytes changed during baseline run. Final run left tracked artifact bytes at the checked path-reference commit; only README/.gitignore/new organization evidence were independently edited."
+}

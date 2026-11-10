@@ -1,0 +1,392 @@
+[
+  {
+    "path": "evidence/2026-11-10-artifact-organization/status-ignored-full.txt",
+    "bytes": 1488541,
+    "tracked": false,
+    "reason": "원본·생성 데이터가 크며 요약/명세로 검토; 로컬 보존"
+  },
+  {
+    "path": "evidence/2026-11-10-artifact-organization/original-final-map.jsonl",
+    "bytes": 6914683,
+    "tracked": false,
+    "reason": "원본·생성 데이터가 크며 요약/명세로 검토; 로컬 보존"
+  },
+  {
+    "path": "evidence/2026-11-10-code-expression/final/store/revisions/0f702c9cd5765e7ca1610e34f15f20c0ccb4add2256162a0ec1ea5bb0b0de18c/vendor/three/three.core.js",
+    "bytes": 1403455,
+    "tracked": false,
+    "reason": "원본·생성 데이터가 크며 요약/명세로 검토; 로컬 보존"
+  },
+  {
+    "path": "evidence/2026-11-10-code-expression/final/store/revisions/e3f770f2de3d147ccb58bff26b62d473b4f6959903de7e72c9e63b3587aee60a/vendor/three/three.core.js",
+    "bytes": 1403455,
+    "tracked": false,
+    "reason": "원본·생성 데이터가 크며 요약/명세로 검토; 로컬 보존"
+  },
+  {
+    "path": "evidence/2026-11-10-code-expression/final/store/revisions/30a71618e892790aa7a25bc54079b2c131bd3835fe4969c502a6631b6684ee2d/vendor/three/three.core.js",
+    "bytes": 1403455,
+    "tracked": false,
+    "reason": "원본·생성 데이터가 크며 요약/명세로 검토; 로컬 보존"
+  },
+  {
+    "path": "evidence/2026-11-10-code-expression/final/store/revisions/bfc7411768e8a9bf444833c20e3e40791c16363e13c92ab10f41379de45aa9b0/vendor/three/three.core.js",
+    "bytes": 1403455,
+    "tracked": false,
+    "reason": "원본·생성 데이터가 크며 요약/명세로 검토; 로컬 보존"
+  },
+  {
+    "path": "evidence/2026-11-10-code-expression/final/store/revisions/c5aa4ad8f24dee659526807136d4dd7ffd69b6ef74fb3559c2df831c0231ffd6/vendor/three/three.core.js",
+    "bytes": 1403455,
+    "tracked": false,
+    "reason": "원본·생성 데이터가 크며 요약/명세로 검토; 로컬 보존"
+  },
+  {
+    "path": "evidence/2026-11-10-code-expression/final/store/revisions/7bc926b1fee89b31c4ecb5dd41492c5f218418ddb8f0d1e100f151d579301e17/vendor/three/three.core.js",
+    "bytes": 1403455,
+    "tracked": false,
+    "reason": "원본·생성 데이터가 크며 요약/명세로 검토; 로컬 보존"
+  },
+  {
+    "path": "evidence/2026-11-10-code-expression/delivery/store/revisions/bfc7411768e8a9bf444833c20e3e40791c16363e13c92ab10f41379de45aa9b0/vendor/three/three.core.js",
+    "bytes": 1403455,
+    "tracked": false,
+    "reason": "원본·생성 데이터가 크며 요약/명세로 검토; 로컬 보존"
+  },
+  {
+    "path": "evidence/2026-11-10-code-expression/delivery/store/revisions/517cfa5582aea710236af06ec30937d4488027828dbce4f22b38d18b0c9845f4/vendor/three/three.core.js",
+    "bytes": 1403455,
+    "tracked": false,
+    "reason": "원본·생성 데이터가 크며 요약/명세로 검토; 로컬 보존"
+  },
+  {
+    "path": "evidence/2026-11-10-code-expression/delivery/store/revisions/c5aa4ad8f24dee659526807136d4dd7ffd69b6ef74fb3559c2df831c0231ffd6/vendor/three/three.core.js",
+    "bytes": 1403455,
+    "tracked": false,
+    "reason": "원본·생성 데이터가 크며 요약/명세로 검토; 로컬 보존"
+  },
+  {
+    "path": "evidence/2026-11-10-code-expression/draft-store/revisions/c2c60793c87f1e2eaf6fccc68421344b873c6db7f60a4d84b39ac609dff57e23/vendor/three/three.core.js",
+    "bytes": 1403455,
+    "tracked": false,
+    "reason": "원본·생성 데이터가 크며 요약/명세로 검토; 로컬 보존"
+  },
+  {
+    "path": "evidence/2026-11-05-production/output-contact-fix-1/store/revisions/4355e5ec4829e994785e96c7788387d0a61f44dd43d2aa566cb3124cdd86fac0/vendor/three/three.core.js",
+    "bytes": 1403455,
+    "tracked": true,
+    "reason": "기존 추적 파일 보존; 이번에 새로 추가하지 않음"
+  },
+  {
+    "path": "evidence/2026-11-05-production/output-contact-fix-1/store/revisions/f1d51eaa10567cba25eb1787fa5e65d8776f4da185c1c2bd4e290a0a658abc04/vendor/three/three.core.js",
+    "bytes": 1403455,
+    "tracked": true,
+    "reason": "기존 추적 파일 보존; 이번에 새로 추가하지 않음"
+  },
+  {
+    "path": "evidence/2026-11-05-production/task-5-measurement/stores/unique-24/revisions/ec93f1a4f306737b88eca519996a7fc6c1c7c25db8d9b0e4d33689c98973885c/vendor/three/three.core.js",
+    "bytes": 1403455,
+    "tracked": true,
+    "reason": "기존 추적 파일 보존; 이번에 새로 추가하지 않음"
+  },
+  {
+    "path": "evidence/2026-11-05-production/task-5-measurement/stores/baseline-4/revisions/ddc2b82474ed99437967d0ef7f797ca28aa153d1dddfce6ca4b3bfbfede0f094/vendor/three/three.core.js",
+    "bytes": 1403455,
+    "tracked": true,
+    "reason": "기존 추적 파일 보존; 이번에 새로 추가하지 않음"
+  },
+  {
+    "path": "evidence/2026-11-05-production/task-5-measurement/stores/reused-24/revisions/16a5290d78a75919deb5f5bcf4c55b0a7a1081495d1f8762015cce8c5f146ce4/vendor/three/three.core.js",
+    "bytes": 1403455,
+    "tracked": true,
+    "reason": "기존 추적 파일 보존; 이번에 새로 추가하지 않음"
+  },
+  {
+    "path": "evidence/2026-11-05-production/task-3-store/revisions/f48dddf994816b294cbf1ec79764643241f3342afbb48b99afd219b52569ccd5/vendor/three/three.core.js",
+    "bytes": 1403455,
+    "tracked": true,
+    "reason": "기존 추적 파일 보존; 이번에 새로 추가하지 않음"
+  },
+  {
+    "path": "evidence/2026-11-05-production/task-3-store/revisions/b80a591239cabcf6a440cf9a3bf788a74b7f7094f4eca89e0b2d9f267930fb79/vendor/three/three.core.js",
+    "bytes": 1403455,
+    "tracked": true,
+    "reason": "기존 추적 파일 보존; 이번에 새로 추가하지 않음"
+  },
+  {
+    "path": "evidence/2026-11-05-production/task-3-store/revisions/6b814e28ef5d10301da86feb845ba2a40093629132a189d63782461994a9a975/vendor/three/three.core.js",
+    "bytes": 1403455,
+    "tracked": true,
+    "reason": "기존 추적 파일 보존; 이번에 새로 추가하지 않음"
+  },
+  {
+    "path": "evidence/2026-11-08-cinematic-animation-implementation/watercolor/wet-96x54.json",
+    "bytes": 21597646,
+    "tracked": false,
+    "reason": "원본·생성 데이터가 크며 요약/명세로 검토; 로컬 보존"
+  },
+  {
+    "path": "evidence/2026-11-08-cinematic-animation-implementation/watercolor/overlap-96x54.json",
+    "bytes": 38539771,
+    "tracked": false,
+    "reason": "원본·생성 데이터가 크며 요약/명세로 검토; 로컬 보존"
+  },
+  {
+    "path": "evidence/2026-11-10-motion-authoring/baseline/original-files.sha256.json",
+    "bytes": 2434220,
+    "tracked": false,
+    "reason": "원본·생성 데이터가 크며 요약/명세로 검토; 로컬 보존"
+  },
+  {
+    "path": "evidence/2026-11-08-aesthetic-toolkit-phase02/coordinator/baseline.json",
+    "bytes": 2579512,
+    "tracked": false,
+    "reason": "원본·생성 데이터가 크며 요약/명세로 검토; 로컬 보존"
+  },
+  {
+    "path": "evidence/2026-11-08-aesthetic-toolkit-phase02/independent-recheck/hashes-after.json",
+    "bytes": 2711676,
+    "tracked": false,
+    "reason": "원본·생성 데이터가 크며 요약/명세로 검토; 로컬 보존"
+  },
+  {
+    "path": "evidence/2026-11-08-aesthetic-toolkit-phase02/independent-recheck/hashes-before.json",
+    "bytes": 2741208,
+    "tracked": false,
+    "reason": "원본·생성 데이터가 크며 요약/명세로 검토; 로컬 보존"
+  },
+  {
+    "path": "evidence/2026-11-09-skill-production-loop/implementation/verified-demo/store/revisions/d73936b8be740e5e1446017e62309e2ba0cbde2a6a03f93f52ee141784752b1a/vendor/three/three.core.js",
+    "bytes": 1403455,
+    "tracked": false,
+    "reason": "원본·생성 데이터가 크며 요약/명세로 검토; 로컬 보존"
+  },
+  {
+    "path": "evidence/2026-11-09-skill-production-loop/implementation/verified-demo/store/revisions/e3f5775da83aaf3e87c7fdb255c66a46482c6f214e41c5a2a9bb62bba2da02e0/vendor/three/three.core.js",
+    "bytes": 1403455,
+    "tracked": false,
+    "reason": "원본·생성 데이터가 크며 요약/명세로 검토; 로컬 보존"
+  },
+  {
+    "path": "evidence/2026-11-09-skill-production-loop/implementation/demo/store/revisions/d73936b8be740e5e1446017e62309e2ba0cbde2a6a03f93f52ee141784752b1a/vendor/three/three.core.js",
+    "bytes": 1403455,
+    "tracked": false,
+    "reason": "원본·생성 데이터가 크며 요약/명세로 검토; 로컬 보존"
+  },
+  {
+    "path": "evidence/2026-11-09-skill-production-loop/independent/store/revisions/68484f6314fa50269f6953a3ba9ee496cc2a1484bafdc38b9d2adb5fa1f5006c/vendor/three/three.core.js",
+    "bytes": 1403455,
+    "tracked": false,
+    "reason": "원본·생성 데이터가 크며 요약/명세로 검토; 로컬 보존"
+  },
+  {
+    "path": "evidence/2026-11-09-skill-production-loop/independent/store/revisions/7e181fb0b2f2f3de16a0bc4064b61d453f7180e3fbe80fc26491c2d93030f489/vendor/three/three.core.js",
+    "bytes": 1403455,
+    "tracked": false,
+    "reason": "원본·생성 데이터가 크며 요약/명세로 검토; 로컬 보존"
+  },
+  {
+    "path": "evidence/2026-11-09-skill-production-loop/independent/store/revisions/12e8108e288eac934950af77dc6ed2a55e3809d8d2a8eca7d3f7dbdeaa123d0e/vendor/three/three.core.js",
+    "bytes": 1403455,
+    "tracked": false,
+    "reason": "원본·생성 데이터가 크며 요약/명세로 검토; 로컬 보존"
+  },
+  {
+    "path": "evidence/2026-11-09-craft-review/implementation/store/revisions/38b4551aa5c40649d9b461e2205cecf28d908f8045723ecafed612613becac38/vendor/three/three.core.js",
+    "bytes": 1403455,
+    "tracked": false,
+    "reason": "원본·생성 데이터가 크며 요약/명세로 검토; 로컬 보존"
+  },
+  {
+    "path": "examples/styles/phase02-rig/assets/broad/static.json",
+    "bytes": 1223326,
+    "tracked": true,
+    "reason": "기존 추적 파일 보존; 이번에 새로 추가하지 않음"
+  },
+  {
+    "path": "examples/styles/phase02-rig/assets/broad/character.rig.json",
+    "bytes": 2985095,
+    "tracked": true,
+    "reason": "기존 추적 파일 보존; 이번에 새로 추가하지 않음"
+  },
+  {
+    "path": "examples/styles/phase02-rig/assets/tall/static.json",
+    "bytes": 1048198,
+    "tracked": true,
+    "reason": "기존 추적 파일 보존; 이번에 새로 추가하지 않음"
+  },
+  {
+    "path": "examples/styles/phase02-rig/assets/tall/character.rig.json",
+    "bytes": 2865030,
+    "tracked": true,
+    "reason": "기존 추적 파일 보존; 이번에 새로 추가하지 않음"
+  },
+  {
+    "path": "examples/styles/phase02-watercolor/overlap/assets/watercolor.json",
+    "bytes": 9331278,
+    "tracked": true,
+    "reason": "기존 추적 파일 보존; 이번에 새로 추가하지 않음"
+  },
+  {
+    "path": "examples/styles/phase02-watercolor/wet/assets/watercolor.json",
+    "bytes": 5261389,
+    "tracked": true,
+    "reason": "기존 추적 파일 보존; 이번에 새로 추가하지 않음"
+  },
+  {
+    "path": ".direction/aesthetic-toolkit-phase02-2026-11-08/watercolor/revisions/22778af9871ffad421a19e66d5979239b59120072e8fbf3117ef9e1bf295eb65/vendor/three/three.core.js",
+    "bytes": 1403455,
+    "tracked": false,
+    "reason": "로컬 제작·테스트 store; .direction 전체 제외"
+  },
+  {
+    "path": ".direction/aesthetic-toolkit-phase02-2026-11-08/watercolor/revisions/22778af9871ffad421a19e66d5979239b59120072e8fbf3117ef9e1bf295eb65/project/assets/watercolor.json",
+    "bytes": 9331278,
+    "tracked": false,
+    "reason": "로컬 제작·테스트 store; .direction 전체 제외"
+  },
+  {
+    "path": ".direction/aesthetic-toolkit-phase02-2026-11-08/watercolor/revisions/951327cfae243943e788313c94b7f2420088695a65deaac5ba6d6b3f3d749c59/vendor/three/three.core.js",
+    "bytes": 1403455,
+    "tracked": false,
+    "reason": "로컬 제작·테스트 store; .direction 전체 제외"
+  },
+  {
+    "path": ".direction/aesthetic-toolkit-phase02-2026-11-08/watercolor/revisions/951327cfae243943e788313c94b7f2420088695a65deaac5ba6d6b3f3d749c59/project/assets/watercolor.json",
+    "bytes": 9331385,
+    "tracked": false,
+    "reason": "로컬 제작·테스트 store; .direction 전체 제외"
+  },
+  {
+    "path": ".direction/aesthetic-toolkit-phase02-2026-11-08/watercolor/revisions/6891d13dbba04628391f14285703f6b455f42a7733207de95bbb934c93a3c1e0/vendor/three/three.core.js",
+    "bytes": 1403455,
+    "tracked": false,
+    "reason": "로컬 제작·테스트 store; .direction 전체 제외"
+  },
+  {
+    "path": ".direction/aesthetic-toolkit-phase02-2026-11-08/watercolor/revisions/6891d13dbba04628391f14285703f6b455f42a7733207de95bbb934c93a3c1e0/project/assets/watercolor.json",
+    "bytes": 5261424,
+    "tracked": false,
+    "reason": "로컬 제작·테스트 store; .direction 전체 제외"
+  },
+  {
+    "path": ".direction/aesthetic-toolkit-phase02-2026-11-08/watercolor/revisions/9c1dc416e9eab3f63acd4a60b495ea9bddae3af5715eabb5f278215e12a44c60/vendor/three/three.core.js",
+    "bytes": 1403455,
+    "tracked": false,
+    "reason": "로컬 제작·테스트 store; .direction 전체 제외"
+  },
+  {
+    "path": ".direction/aesthetic-toolkit-phase02-2026-11-08/watercolor/revisions/9c1dc416e9eab3f63acd4a60b495ea9bddae3af5715eabb5f278215e12a44c60/project/assets/watercolor.json",
+    "bytes": 5261389,
+    "tracked": false,
+    "reason": "로컬 제작·테스트 store; .direction 전체 제외"
+  },
+  {
+    "path": ".direction/productions/music-box-dancer-motion-20261110/new-standard-12s-20261110/production/store/revisions/acb48da0c5a0a28a6a0c251925800c1bfb506d98749a75df0f9503ab7a66f512/vendor/three/three.core.js",
+    "bytes": 1403455,
+    "tracked": false,
+    "reason": "로컬 제작·테스트 store; .direction 전체 제외"
+  },
+  {
+    "path": ".direction/productions/music-box-dancer-redesign-20261108/intro-16/store/revisions/8e02b50a1855380296b60c83de79114d048381fef83da9cbfa7a566788ca865a/vendor/three/three.core.js",
+    "bytes": 1403455,
+    "tracked": false,
+    "reason": "로컬 제작·테스트 store; .direction 전체 제외"
+  },
+  {
+    "path": ".direction/music-integration/run-dRKeMf/store/revisions/692be76e161cfa7ed2c798adae011f65f311d438b38328d9f154d27cbc88f1b2/vendor/three/three.core.js",
+    "bytes": 1403455,
+    "tracked": false,
+    "reason": "로컬 제작·테스트 store; .direction 전체 제외"
+  },
+  {
+    "path": ".direction/music-integration/run-dRKeMf/page-error-store/revisions/9db5873db7dffc7a49269818f8832d286edb634a891d53ab09e6b258a1a1fd49/vendor/three/three.core.js",
+    "bytes": 1403455,
+    "tracked": false,
+    "reason": "로컬 제작·테스트 store; .direction 전체 제외"
+  },
+  {
+    "path": ".direction/music-integration/run-TsHqxs/store/revisions/f7348be718ff1f34cb531b18f7359739e0fce52e9b0aba3c1128c23d67e4b29e/vendor/three/three.core.js",
+    "bytes": 1403455,
+    "tracked": false,
+    "reason": "로컬 제작·테스트 store; .direction 전체 제외"
+  },
+  {
+    "path": ".direction/music-integration/run-TsHqxs/page-error-store/revisions/9db5873db7dffc7a49269818f8832d286edb634a891d53ab09e6b258a1a1fd49/vendor/three/three.core.js",
+    "bytes": 1403455,
+    "tracked": false,
+    "reason": "로컬 제작·테스트 store; .direction 전체 제외"
+  },
+  {
+    "path": ".direction/test-runs/stillcuts-integration-TYNV6z/revisions/3689d2729b55f73d2b3a5beb3601390edbd79a6ca7cd5c9b8338265c2107fcec/vendor/three/three.core.js",
+    "bytes": 1403455,
+    "tracked": false,
+    "reason": "로컬 제작·테스트 store; .direction 전체 제외"
+  },
+  {
+    "path": ".direction/test-runs/porcelain-6g6VRB/store/revisions/9bde44943aa105be3e84c45a3bb5c323a5fe4899367475a5a131af62e135f5c4/vendor/three/three.core.js",
+    "bytes": 1403455,
+    "tracked": false,
+    "reason": "로컬 제작·테스트 store; .direction 전체 제외"
+  },
+  {
+    "path": ".direction/test-runs/integration-Kip4pj/revisions/f60abd51e91590aa201dc805ae7472c19fb58d9d4a20cfc76dd021d6ae6e4c31/vendor/three/three.core.js",
+    "bytes": 1403455,
+    "tracked": false,
+    "reason": "로컬 제작·테스트 store; .direction 전체 제외"
+  },
+  {
+    "path": ".direction/test-runs/integration-Kip4pj/revisions/8dc4850bca8a09011df75ed59a8828cdec5072cd0b85f33886d22563d4c9c6eb/vendor/three/three.core.js",
+    "bytes": 1403455,
+    "tracked": false,
+    "reason": "로컬 제작·테스트 store; .direction 전체 제외"
+  },
+  {
+    "path": ".direction/test-runs/integration-Kip4pj/revisions/d9979bbdebc0b198387408b046a5265ba40f26c9bf3f47c8356235526e3f5748/vendor/three/three.core.js",
+    "bytes": 1403455,
+    "tracked": false,
+    "reason": "로컬 제작·테스트 store; .direction 전체 제외"
+  },
+  {
+    "path": ".direction/test-runs/integration-Kip4pj/revisions/661171aa97f60e4c01c8619b8d9f6cac6797324b00cc7f608f8f3a637d49acd7/vendor/three/three.core.js",
+    "bytes": 1403455,
+    "tracked": false,
+    "reason": "로컬 제작·테스트 store; .direction 전체 제외"
+  },
+  {
+    "path": ".direction/test-runs/integration-HePZkR/revisions/f60abd51e91590aa201dc805ae7472c19fb58d9d4a20cfc76dd021d6ae6e4c31/vendor/three/three.core.js",
+    "bytes": 1403455,
+    "tracked": false,
+    "reason": "로컬 제작·테스트 store; .direction 전체 제외"
+  },
+  {
+    "path": ".direction/test-runs/integration-HePZkR/revisions/8dc4850bca8a09011df75ed59a8828cdec5072cd0b85f33886d22563d4c9c6eb/vendor/three/three.core.js",
+    "bytes": 1403455,
+    "tracked": false,
+    "reason": "로컬 제작·테스트 store; .direction 전체 제외"
+  },
+  {
+    "path": ".direction/test-runs/integration-HePZkR/revisions/d9979bbdebc0b198387408b046a5265ba40f26c9bf3f47c8356235526e3f5748/vendor/three/three.core.js",
+    "bytes": 1403455,
+    "tracked": false,
+    "reason": "로컬 제작·테스트 store; .direction 전체 제외"
+  },
+  {
+    "path": ".direction/test-runs/integration-HePZkR/revisions/661171aa97f60e4c01c8619b8d9f6cac6797324b00cc7f608f8f3a637d49acd7/vendor/three/three.core.js",
+    "bytes": 1403455,
+    "tracked": false,
+    "reason": "로컬 제작·테스트 store; .direction 전체 제외"
+  },
+  {
+    "path": ".direction/test-runs/stillcuts-integration-w8luGW/revisions/3689d2729b55f73d2b3a5beb3601390edbd79a6ca7cd5c9b8338265c2107fcec/vendor/three/three.core.js",
+    "bytes": 1403455,
+    "tracked": false,
+    "reason": "로컬 제작·테스트 store; .direction 전체 제외"
+  },
+  {
+    "path": ".direction/test-runs/porcelain-F1HlIz/store/revisions/9bde44943aa105be3e84c45a3bb5c323a5fe4899367475a5a131af62e135f5c4/vendor/three/three.core.js",
+    "bytes": 1403455,
+    "tracked": false,
+    "reason": "로컬 제작·테스트 store; .direction 전체 제외"
+  }
+]

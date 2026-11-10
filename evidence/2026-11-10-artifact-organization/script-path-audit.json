@@ -1,0 +1,885 @@
+{
+  "syntax_checks": [
+    {
+      "path": "evidence/2026-11-04-harbor-v2/check-review.mjs",
+      "exit": 0,
+      "output": ""
+    },
+    {
+      "path": "evidence/2026-11-04-harbor-v2/compare-output.py",
+      "exit": 0,
+      "method": "ast.parse, no bytecode generated"
+    },
+    {
+      "path": "evidence/2026-11-04-harbor-v2/serve-review.mjs",
+      "exit": 0,
+      "output": ""
+    },
+    {
+      "path": "evidence/2026-11-04-harbor-v2/verify-work.mjs",
+      "exit": 0,
+      "output": ""
+    },
+    {
+      "path": "evidence/2026-11-04-initial-production/scripts/make_examples.py",
+      "exit": 0,
+      "method": "ast.parse, no bytecode generated"
+    },
+    {
+      "path": "evidence/2026-11-08-aesthetic-toolkit-phase02/coordinator/final-v3/seek.mjs",
+      "exit": 0,
+      "output": ""
+    },
+    {
+      "path": "evidence/2026-11-08-aesthetic-toolkit-phase02/coordinator/fix-recheck/water-sweep.mjs",
+      "exit": 0,
+      "output": ""
+    },
+    {
+      "path": "evidence/2026-11-08-aesthetic-toolkit-phase02/independent-recheck/cpu.mjs",
+      "exit": 0,
+      "output": ""
+    },
+    {
+      "path": "evidence/2026-11-08-aesthetic-toolkit-phase02/independent-recheck/media.mjs",
+      "exit": 0,
+      "output": ""
+    },
+    {
+      "path": "evidence/2026-11-08-aesthetic-toolkit-phase02/independent-recheck/preserve.py",
+      "exit": 0,
+      "method": "ast.parse, no bytecode generated"
+    },
+    {
+      "path": "evidence/2026-11-08-aesthetic-toolkit-phase02/independent-review/closure-audit.mjs",
+      "exit": 0,
+      "output": ""
+    },
+    {
+      "path": "evidence/2026-11-08-aesthetic-toolkit-phase02/independent-review/cpu.mjs",
+      "exit": 0,
+      "output": ""
+    },
+    {
+      "path": "evidence/2026-11-08-aesthetic-toolkit-phase02/independent-review/extra-cpu.mjs",
+      "exit": 0,
+      "output": ""
+    },
+    {
+      "path": "evidence/2026-11-08-aesthetic-toolkit-phase02/independent-review/media-audit.mjs",
+      "exit": 0,
+      "output": ""
+    },
+    {
+      "path": "evidence/2026-11-08-aesthetic-toolkit-phase02/independent-review/repros.mjs",
+      "exit": 0,
+      "output": ""
+    },
+    {
+      "path": "evidence/2026-11-08-aesthetic-toolkit-phase02/independent-review/serve.mjs",
+      "exit": 0,
+      "output": ""
+    },
+    {
+      "path": "evidence/2026-11-08-aesthetic-toolkit-phase02/independent-review/setup.mjs",
+      "exit": 0,
+      "output": ""
+    },
+    {
+      "path": "evidence/2026-11-08-aesthetic-toolkit-phase02/scripts/phase02-final-audit.mjs",
+      "exit": 0,
+      "output": ""
+    },
+    {
+      "path": "evidence/2026-11-08-aesthetic-toolkit-phase02/scripts/phase02-fullhd-check.mjs",
+      "exit": 0,
+      "output": ""
+    },
+    {
+      "path": "evidence/2026-11-08-aesthetic-toolkit-phase02/scripts/phase02-fullhd.mjs",
+      "exit": 0,
+      "output": ""
+    },
+    {
+      "path": "evidence/2026-11-08-aesthetic-toolkit-phase02/scripts/phase02-playback-check.mjs",
+      "exit": 0,
+      "output": ""
+    },
+    {
+      "path": "evidence/2026-11-08-aesthetic-toolkit-phase02/scripts/phase02-rig-evidence.mjs",
+      "exit": 0,
+      "output": ""
+    },
+    {
+      "path": "evidence/2026-11-08-aesthetic-toolkit-phase02/scripts/watercolor-evidence.mjs",
+      "exit": 0,
+      "output": ""
+    },
+    {
+      "path": "evidence/2026-11-08-aesthetic-toolkit/independent-review-01/browser-probe.mjs",
+      "exit": 0,
+      "output": ""
+    },
+    {
+      "path": "evidence/2026-11-08-aesthetic-toolkit/independent-review-01/evidence-audit.mjs",
+      "exit": 0,
+      "output": ""
+    },
+    {
+      "path": "evidence/2026-11-08-aesthetic-toolkit/independent-review-01/extra-probes.mjs",
+      "exit": 0,
+      "output": ""
+    },
+    {
+      "path": "evidence/2026-11-08-aesthetic-toolkit/independent-review-01/finish-audit.mjs",
+      "exit": 0,
+      "output": ""
+    },
+    {
+      "path": "evidence/2026-11-08-aesthetic-toolkit/independent-review-01/followup-probes.mjs",
+      "exit": 0,
+      "output": ""
+    },
+    {
+      "path": "evidence/2026-11-08-aesthetic-toolkit/independent-review-01/forward-test.mjs",
+      "exit": 0,
+      "output": ""
+    },
+    {
+      "path": "evidence/2026-11-08-aesthetic-toolkit/independent-review-01/probes.mjs",
+      "exit": 0,
+      "output": ""
+    },
+    {
+      "path": "evidence/2026-11-08-aesthetic-toolkit/independent-review-02/audit.mjs",
+      "exit": 0,
+      "output": ""
+    },
+    {
+      "path": "evidence/2026-11-08-aesthetic-toolkit/independent-review-02/supplement.mjs",
+      "exit": 0,
+      "output": ""
+    },
+    {
+      "path": "evidence/2026-11-08-cinematic-animation-implementation/scripts/cinematic-author.py",
+      "exit": 0,
+      "method": "ast.parse, no bytecode generated"
+    },
+    {
+      "path": "evidence/2026-11-08-cinematic-animation-implementation/scripts/cinematic-evidence.py",
+      "exit": 0,
+      "method": "ast.parse, no bytecode generated"
+    },
+    {
+      "path": "evidence/2026-11-08-cinematic-animation-implementation/scripts/cinematic-render.mjs",
+      "exit": 0,
+      "output": ""
+    },
+    {
+      "path": "evidence/2026-11-08-cinematic-animation-implementation/scripts/cinematic-rig-asset.mjs",
+      "exit": 0,
+      "output": ""
+    },
+    {
+      "path": "evidence/2026-11-08-cinematic-animation-implementation/scripts/cinematic-rig-check.mjs",
+      "exit": 0,
+      "output": ""
+    },
+    {
+      "path": "evidence/2026-11-08-cinematic-animation-implementation/scripts/cinematic-watercolor-compare.mjs",
+      "exit": 0,
+      "output": ""
+    },
+    {
+      "path": "evidence/2026-11-08-cinematic-animation-review/cinematography/write_report.py",
+      "exit": 0,
+      "method": "ast.parse, no bytecode generated"
+    },
+    {
+      "path": "evidence/2026-11-09-craft-review/implementation/verify.py",
+      "exit": 0,
+      "method": "ast.parse, no bytecode generated"
+    },
+    {
+      "path": "evidence/2026-11-09-skill-production-loop/independent/author.mjs",
+      "exit": 0,
+      "output": ""
+    },
+    {
+      "path": "evidence/2026-11-09-skill-production-loop/independent/check.mjs",
+      "exit": 0,
+      "output": ""
+    },
+    {
+      "path": "evidence/2026-11-09-skill-production-loop/independent/revise.mjs",
+      "exit": 0,
+      "output": ""
+    },
+    {
+      "path": "evidence/2026-11-10-code-expression/independent-review-evidence/extract.py",
+      "exit": 0,
+      "method": "ast.parse, no bytecode generated"
+    },
+    {
+      "path": "evidence/2026-11-10-code-expression/independent-review-evidence/spotcheck.py",
+      "exit": 0,
+      "method": "ast.parse, no bytecode generated"
+    },
+    {
+      "path": "evidence/2026-11-10-code-expression/produce-comparisons.mjs",
+      "exit": 0,
+      "output": ""
+    },
+    {
+      "path": "evidence/2026-11-10-code-expression/summarize-comparisons.py",
+      "exit": 0,
+      "method": "ast.parse, no bytecode generated"
+    },
+    {
+      "path": "evidence/2026-11-10-motion-authoring/verification/check-links.py",
+      "exit": 0,
+      "method": "ast.parse, no bytecode generated"
+    },
+    {
+      "path": "examples/styles/expressionist-space/summarize-validation.mjs",
+      "exit": 0,
+      "output": ""
+    },
+    {
+      "path": "examples/styles/expressionist-space/verify-package.mjs",
+      "exit": 0,
+      "output": ""
+    },
+    {
+      "path": "examples/styles/final-source-audit.mjs",
+      "exit": 0,
+      "output": ""
+    },
+    {
+      "path": "examples/styles/finish-source-check.mjs",
+      "exit": 0,
+      "output": ""
+    },
+    {
+      "path": "examples/styles/media-endpoint-check.mjs",
+      "exit": 0,
+      "output": ""
+    },
+    {
+      "path": "examples/styles/phase02-retarget/audit.mjs",
+      "exit": 0,
+      "output": ""
+    },
+    {
+      "path": "examples/styles/phase02-retarget/evidence.mjs",
+      "exit": 0,
+      "output": ""
+    },
+    {
+      "path": "examples/styles/revalidate-b.mjs",
+      "exit": 0,
+      "output": ""
+    },
+    {
+      "path": "examples/styles/revalidate.mjs",
+      "exit": 0,
+      "output": ""
+    },
+    {
+      "path": "examples/styles/summarize.mjs",
+      "exit": 0,
+      "output": ""
+    },
+    {
+      "path": "scripts/watercolor-memory.mjs",
+      "exit": 0,
+      "output": ""
+    },
+    {
+      "path": "tests/auto-rig-browser.test.mjs",
+      "exit": 0,
+      "output": ""
+    },
+    {
+      "path": "tests/watercolor-browser.test.mjs",
+      "exit": 0,
+      "output": ""
+    },
+    {
+      "path": "tests/watercolor.test.mjs",
+      "exit": 0,
+      "output": ""
+    }
+  ],
+  "relative_imports": [
+    {
+      "source": "evidence/2026-11-04-harbor-v2/check-review.mjs",
+      "specifier": "../../scripts/execution.mjs",
+      "target": "scripts/execution.mjs",
+      "exists": true
+    },
+    {
+      "source": "evidence/2026-11-04-harbor-v2/serve-review.mjs",
+      "specifier": "../../scripts/server.mjs",
+      "target": "scripts/server.mjs",
+      "exists": true
+    },
+    {
+      "source": "evidence/2026-11-04-harbor-v2/verify-work.mjs",
+      "specifier": "../../scripts/execution.mjs",
+      "target": "scripts/execution.mjs",
+      "exists": true
+    },
+    {
+      "source": "evidence/2026-11-04-harbor-v2/verify-work.mjs",
+      "specifier": "../../scripts/revisions.mjs",
+      "target": "scripts/revisions.mjs",
+      "exists": true
+    },
+    {
+      "source": "evidence/2026-11-04-harbor-v2/verify-work.mjs",
+      "specifier": "../../scripts/server.mjs",
+      "target": "scripts/server.mjs",
+      "exists": true
+    },
+    {
+      "source": "evidence/2026-11-04-harbor-v2/verify-work.mjs",
+      "specifier": "../../scripts/audio.mjs",
+      "target": "scripts/audio.mjs",
+      "exists": true
+    },
+    {
+      "source": "evidence/2026-11-08-aesthetic-toolkit-phase02/coordinator/final-v3/seek.mjs",
+      "specifier": "../../../../scripts/revisions.mjs",
+      "target": "scripts/revisions.mjs",
+      "exists": true
+    },
+    {
+      "source": "evidence/2026-11-08-aesthetic-toolkit-phase02/coordinator/final-v3/seek.mjs",
+      "specifier": "../../../../scripts/server.mjs",
+      "target": "scripts/server.mjs",
+      "exists": true
+    },
+    {
+      "source": "evidence/2026-11-08-aesthetic-toolkit-phase02/coordinator/final-v3/seek.mjs",
+      "specifier": "../../../../scripts/execution.mjs",
+      "target": "scripts/execution.mjs",
+      "exists": true
+    },
+    {
+      "source": "evidence/2026-11-08-aesthetic-toolkit-phase02/coordinator/fix-recheck/water-sweep.mjs",
+      "specifier": "../../../../modules/fx2d/watercolor.mjs",
+      "target": "modules/fx2d/watercolor.mjs",
+      "exists": true
+    },
+    {
+      "source": "evidence/2026-11-08-aesthetic-toolkit-phase02/independent-recheck/cpu.mjs",
+      "specifier": "../../../modules/fx2d/watercolor.mjs",
+      "target": "modules/fx2d/watercolor.mjs",
+      "exists": true
+    },
+    {
+      "source": "evidence/2026-11-08-aesthetic-toolkit-phase02/independent-recheck/cpu.mjs",
+      "specifier": "../../../modules/animation/auto-rig.mjs",
+      "target": "modules/animation/auto-rig.mjs",
+      "exists": true
+    },
+    {
+      "source": "evidence/2026-11-08-aesthetic-toolkit-phase02/independent-recheck/cpu.mjs",
+      "specifier": "../../../scripts/materialize-style.mjs",
+      "target": "scripts/materialize-style.mjs",
+      "exists": true
+    },
+    {
+      "source": "evidence/2026-11-08-aesthetic-toolkit-phase02/independent-recheck/cpu.mjs",
+      "specifier": "../../../examples/styles/phase02-retarget/fixtures.mjs",
+      "target": "examples/styles/phase02-retarget/fixtures.mjs",
+      "exists": true
+    },
+    {
+      "source": "evidence/2026-11-08-aesthetic-toolkit-phase02/independent-recheck/cpu.mjs",
+      "specifier": "../../../modules/animation/retarget.mjs",
+      "target": "modules/animation/retarget.mjs",
+      "exists": true
+    },
+    {
+      "source": "evidence/2026-11-08-aesthetic-toolkit-phase02/independent-recheck/media.mjs",
+      "specifier": "../../../scripts/revisions.mjs",
+      "target": "scripts/revisions.mjs",
+      "exists": true
+    },
+    {
+      "source": "evidence/2026-11-08-aesthetic-toolkit-phase02/independent-recheck/media.mjs",
+      "specifier": "../../../scripts/server.mjs",
+      "target": "scripts/server.mjs",
+      "exists": true
+    },
+    {
+      "source": "evidence/2026-11-08-aesthetic-toolkit-phase02/independent-recheck/media.mjs",
+      "specifier": "../../../scripts/execution.mjs",
+      "target": "scripts/execution.mjs",
+      "exists": true
+    },
+    {
+      "source": "evidence/2026-11-08-aesthetic-toolkit-phase02/independent-recheck/media.mjs",
+      "specifier": "../../../scripts/flash.mjs",
+      "target": "scripts/flash.mjs",
+      "exists": true
+    },
+    {
+      "source": "evidence/2026-11-08-aesthetic-toolkit-phase02/scripts/phase02-fullhd-check.mjs",
+      "specifier": "../../../scripts/execution.mjs",
+      "target": "scripts/execution.mjs",
+      "exists": true
+    },
+    {
+      "source": "evidence/2026-11-08-aesthetic-toolkit-phase02/scripts/phase02-fullhd-check.mjs",
+      "specifier": "../../../scripts/flash.mjs",
+      "target": "scripts/flash.mjs",
+      "exists": true
+    },
+    {
+      "source": "evidence/2026-11-08-aesthetic-toolkit-phase02/scripts/phase02-fullhd.mjs",
+      "specifier": "../../../scripts/materialize-style.mjs",
+      "target": "scripts/materialize-style.mjs",
+      "exists": true
+    },
+    {
+      "source": "evidence/2026-11-08-aesthetic-toolkit-phase02/scripts/phase02-fullhd.mjs",
+      "specifier": "../../../examples/styles/phase02-rig/build.mjs",
+      "target": "examples/styles/phase02-rig/build.mjs",
+      "exists": true
+    },
+    {
+      "source": "evidence/2026-11-08-aesthetic-toolkit-phase02/scripts/phase02-fullhd.mjs",
+      "specifier": "../../../examples/styles/phase02-retarget/build.mjs",
+      "target": "examples/styles/phase02-retarget/build.mjs",
+      "exists": true
+    },
+    {
+      "source": "evidence/2026-11-08-aesthetic-toolkit-phase02/scripts/phase02-fullhd.mjs",
+      "specifier": "../../../modules/fx2d/watercolor.mjs",
+      "target": "modules/fx2d/watercolor.mjs",
+      "exists": true
+    },
+    {
+      "source": "evidence/2026-11-08-aesthetic-toolkit-phase02/scripts/phase02-fullhd.mjs",
+      "specifier": "../../../scripts/revisions.mjs",
+      "target": "scripts/revisions.mjs",
+      "exists": true
+    },
+    {
+      "source": "evidence/2026-11-08-aesthetic-toolkit-phase02/scripts/phase02-fullhd.mjs",
+      "specifier": "../../../scripts/execution.mjs",
+      "target": "scripts/execution.mjs",
+      "exists": true
+    },
+    {
+      "source": "evidence/2026-11-08-aesthetic-toolkit-phase02/scripts/phase02-fullhd.mjs",
+      "specifier": "../../../scripts/revisions.mjs",
+      "target": "scripts/revisions.mjs",
+      "exists": true
+    },
+    {
+      "source": "evidence/2026-11-08-aesthetic-toolkit-phase02/scripts/phase02-playback-check.mjs",
+      "specifier": "../../../scripts/execution.mjs",
+      "target": "scripts/execution.mjs",
+      "exists": true
+    },
+    {
+      "source": "evidence/2026-11-08-aesthetic-toolkit-phase02/scripts/phase02-rig-evidence.mjs",
+      "specifier": "../../../scripts/execution.mjs",
+      "target": "scripts/execution.mjs",
+      "exists": true
+    },
+    {
+      "source": "evidence/2026-11-08-aesthetic-toolkit-phase02/scripts/phase02-rig-evidence.mjs",
+      "specifier": "../../../scripts/flash.mjs",
+      "target": "scripts/flash.mjs",
+      "exists": true
+    },
+    {
+      "source": "evidence/2026-11-08-aesthetic-toolkit-phase02/scripts/watercolor-evidence.mjs",
+      "specifier": "../../../scripts/execution.mjs",
+      "target": "scripts/execution.mjs",
+      "exists": true
+    },
+    {
+      "source": "evidence/2026-11-08-aesthetic-toolkit-phase02/scripts/watercolor-evidence.mjs",
+      "specifier": "../../../scripts/flash.mjs",
+      "target": "scripts/flash.mjs",
+      "exists": true
+    },
+    {
+      "source": "evidence/2026-11-08-aesthetic-toolkit/independent-review-01/browser-probe.mjs",
+      "specifier": "../../../scripts/revisions.mjs",
+      "target": "scripts/revisions.mjs",
+      "exists": true
+    },
+    {
+      "source": "evidence/2026-11-08-aesthetic-toolkit/independent-review-01/browser-probe.mjs",
+      "specifier": "../../../scripts/server.mjs",
+      "target": "scripts/server.mjs",
+      "exists": true
+    },
+    {
+      "source": "evidence/2026-11-08-aesthetic-toolkit/independent-review-01/browser-probe.mjs",
+      "specifier": "../../../scripts/execution.mjs",
+      "target": "scripts/execution.mjs",
+      "exists": true
+    },
+    {
+      "source": "evidence/2026-11-08-aesthetic-toolkit/independent-review-01/evidence-audit.mjs",
+      "specifier": "../../../scripts/flash.mjs",
+      "target": "scripts/flash.mjs",
+      "exists": true
+    },
+    {
+      "source": "evidence/2026-11-08-aesthetic-toolkit/independent-review-01/extra-probes.mjs",
+      "specifier": "../../../modules/styles/line-wash/index.mjs",
+      "target": "modules/styles/line-wash/index.mjs",
+      "exists": true
+    },
+    {
+      "source": "evidence/2026-11-08-aesthetic-toolkit/independent-review-01/extra-probes.mjs",
+      "specifier": "../../../modules/styles/silhouette-theatre/index.mjs",
+      "target": "modules/styles/silhouette-theatre/index.mjs",
+      "exists": true
+    },
+    {
+      "source": "evidence/2026-11-08-aesthetic-toolkit/independent-review-01/finish-audit.mjs",
+      "specifier": "../../../scripts/flash.mjs",
+      "target": "scripts/flash.mjs",
+      "exists": true
+    },
+    {
+      "source": "evidence/2026-11-08-aesthetic-toolkit/independent-review-01/forward-test.mjs",
+      "specifier": "../../../scripts/revisions.mjs",
+      "target": "scripts/revisions.mjs",
+      "exists": true
+    },
+    {
+      "source": "evidence/2026-11-08-cinematic-animation-implementation/scripts/cinematic-render.mjs",
+      "specifier": "../../../scripts/materialize-style.mjs",
+      "target": "scripts/materialize-style.mjs",
+      "exists": true
+    },
+    {
+      "source": "evidence/2026-11-08-cinematic-animation-implementation/scripts/cinematic-render.mjs",
+      "specifier": "../../../scripts/revisions.mjs",
+      "target": "scripts/revisions.mjs",
+      "exists": true
+    },
+    {
+      "source": "evidence/2026-11-08-cinematic-animation-implementation/scripts/cinematic-render.mjs",
+      "specifier": "../../../scripts/server.mjs",
+      "target": "scripts/server.mjs",
+      "exists": true
+    },
+    {
+      "source": "evidence/2026-11-08-cinematic-animation-implementation/scripts/cinematic-render.mjs",
+      "specifier": "../../../scripts/execution.mjs",
+      "target": "scripts/execution.mjs",
+      "exists": true
+    },
+    {
+      "source": "evidence/2026-11-08-cinematic-animation-implementation/scripts/cinematic-rig-asset.mjs",
+      "specifier": "../../../modules/animation/auto-rig.mjs",
+      "target": "modules/animation/auto-rig.mjs",
+      "exists": true
+    },
+    {
+      "source": "evidence/2026-11-08-cinematic-animation-implementation/scripts/cinematic-rig-asset.mjs",
+      "specifier": "../../../modules/animation/retarget.mjs",
+      "target": "modules/animation/retarget.mjs",
+      "exists": true
+    },
+    {
+      "source": "evidence/2026-11-08-cinematic-animation-implementation/scripts/cinematic-rig-asset.mjs",
+      "specifier": "../../../scripts/auto-rig.mjs",
+      "target": "scripts/auto-rig.mjs",
+      "exists": true
+    },
+    {
+      "source": "evidence/2026-11-08-cinematic-animation-implementation/scripts/cinematic-rig-check.mjs",
+      "specifier": "../../../modules/animation/auto-rig.mjs",
+      "target": "modules/animation/auto-rig.mjs",
+      "exists": true
+    },
+    {
+      "source": "evidence/2026-11-08-cinematic-animation-implementation/scripts/cinematic-rig-check.mjs",
+      "specifier": "../../../modules/animation/retarget.mjs",
+      "target": "modules/animation/retarget.mjs",
+      "exists": true
+    },
+    {
+      "source": "evidence/2026-11-08-cinematic-animation-implementation/scripts/cinematic-watercolor-compare.mjs",
+      "specifier": "../../../modules/fx2d/watercolor.mjs",
+      "target": "modules/fx2d/watercolor.mjs",
+      "exists": true
+    },
+    {
+      "source": "evidence/2026-11-08-cinematic-animation-implementation/scripts/cinematic-watercolor-compare.mjs",
+      "specifier": "../../../modules/fx2d/watercolor-reconstruct.mjs",
+      "target": "modules/fx2d/watercolor-reconstruct.mjs",
+      "exists": true
+    },
+    {
+      "source": "evidence/2026-11-09-skill-production-loop/independent/author.mjs",
+      "specifier": "../../../scripts/materialize-kit.mjs",
+      "target": "scripts/materialize-kit.mjs",
+      "exists": true
+    },
+    {
+      "source": "evidence/2026-11-09-skill-production-loop/independent/check.mjs",
+      "specifier": "../../../scripts/revisions.mjs",
+      "target": "scripts/revisions.mjs",
+      "exists": true
+    },
+    {
+      "source": "evidence/2026-11-09-skill-production-loop/independent/revise.mjs",
+      "specifier": "../../../scripts/materialize-kit.mjs",
+      "target": "scripts/materialize-kit.mjs",
+      "exists": true
+    },
+    {
+      "source": "evidence/2026-11-10-code-expression/produce-comparisons.mjs",
+      "specifier": "../../examples/relation-studies/studies.mjs",
+      "target": "examples/relation-studies/studies.mjs",
+      "exists": true
+    },
+    {
+      "source": "evidence/2026-11-10-code-expression/produce-comparisons.mjs",
+      "specifier": "../../examples/relation-studies/build.mjs",
+      "target": "examples/relation-studies/build.mjs",
+      "exists": true
+    },
+    {
+      "source": "evidence/2026-11-10-code-expression/produce-comparisons.mjs",
+      "specifier": "../../scripts/revisions.mjs",
+      "target": "scripts/revisions.mjs",
+      "exists": true
+    },
+    {
+      "source": "evidence/2026-11-10-code-expression/produce-comparisons.mjs",
+      "specifier": "../../scripts/jobs.mjs",
+      "target": "scripts/jobs.mjs",
+      "exists": true
+    },
+    {
+      "source": "examples/styles/expressionist-space/verify-package.mjs",
+      "specifier": "./build.mjs",
+      "target": "examples/styles/expressionist-space/build.mjs",
+      "exists": true
+    },
+    {
+      "source": "examples/styles/expressionist-space/verify-package.mjs",
+      "specifier": "./build-mixed.mjs",
+      "target": "examples/styles/expressionist-space/build-mixed.mjs",
+      "exists": true
+    },
+    {
+      "source": "examples/styles/expressionist-space/verify-package.mjs",
+      "specifier": "../../../scripts/revisions.mjs",
+      "target": "scripts/revisions.mjs",
+      "exists": true
+    },
+    {
+      "source": "examples/styles/final-source-audit.mjs",
+      "specifier": "../../scripts/revisions.mjs",
+      "target": "scripts/revisions.mjs",
+      "exists": true
+    },
+    {
+      "source": "examples/styles/finish-source-check.mjs",
+      "specifier": "./validate.mjs",
+      "target": "examples/styles/validate.mjs",
+      "exists": true
+    },
+    {
+      "source": "examples/styles/media-endpoint-check.mjs",
+      "specifier": "../../scripts/execution.mjs",
+      "target": "scripts/execution.mjs",
+      "exists": true
+    },
+    {
+      "source": "examples/styles/phase02-retarget/audit.mjs",
+      "specifier": "../../../scripts/revisions.mjs",
+      "target": "scripts/revisions.mjs",
+      "exists": true
+    },
+    {
+      "source": "examples/styles/phase02-retarget/audit.mjs",
+      "specifier": "../../../scripts/server.mjs",
+      "target": "scripts/server.mjs",
+      "exists": true
+    },
+    {
+      "source": "examples/styles/phase02-retarget/audit.mjs",
+      "specifier": "../../../scripts/execution.mjs",
+      "target": "scripts/execution.mjs",
+      "exists": true
+    },
+    {
+      "source": "examples/styles/phase02-retarget/evidence.mjs",
+      "specifier": "../../../scripts/revisions.mjs",
+      "target": "scripts/revisions.mjs",
+      "exists": true
+    },
+    {
+      "source": "examples/styles/phase02-retarget/evidence.mjs",
+      "specifier": "../../../scripts/execution.mjs",
+      "target": "scripts/execution.mjs",
+      "exists": true
+    },
+    {
+      "source": "examples/styles/phase02-retarget/evidence.mjs",
+      "specifier": "../../../scripts/server.mjs",
+      "target": "scripts/server.mjs",
+      "exists": true
+    },
+    {
+      "source": "examples/styles/phase02-retarget/evidence.mjs",
+      "specifier": "../../../scripts/flash.mjs",
+      "target": "scripts/flash.mjs",
+      "exists": true
+    },
+    {
+      "source": "examples/styles/revalidate-b.mjs",
+      "specifier": "./validate.mjs",
+      "target": "examples/styles/validate.mjs",
+      "exists": true
+    },
+    {
+      "source": "examples/styles/revalidate.mjs",
+      "specifier": "./validate.mjs",
+      "target": "examples/styles/validate.mjs",
+      "exists": true
+    },
+    {
+      "source": "scripts/watercolor-memory.mjs",
+      "specifier": "../modules/fx2d/watercolor.mjs",
+      "target": "modules/fx2d/watercolor.mjs",
+      "exists": true
+    },
+    {
+      "source": "tests/auto-rig-browser.test.mjs",
+      "specifier": "../scripts/revisions.mjs",
+      "target": "scripts/revisions.mjs",
+      "exists": true
+    },
+    {
+      "source": "tests/auto-rig-browser.test.mjs",
+      "specifier": "../scripts/server.mjs",
+      "target": "scripts/server.mjs",
+      "exists": true
+    },
+    {
+      "source": "tests/auto-rig-browser.test.mjs",
+      "specifier": "../scripts/execution.mjs",
+      "target": "scripts/execution.mjs",
+      "exists": true
+    },
+    {
+      "source": "tests/auto-rig-browser.test.mjs",
+      "specifier": "../examples/styles/phase02-rig/build.mjs",
+      "target": "examples/styles/phase02-rig/build.mjs",
+      "exists": true
+    },
+    {
+      "source": "tests/watercolor-browser.test.mjs",
+      "specifier": "../scripts/revisions.mjs",
+      "target": "scripts/revisions.mjs",
+      "exists": true
+    },
+    {
+      "source": "tests/watercolor-browser.test.mjs",
+      "specifier": "../scripts/server.mjs",
+      "target": "scripts/server.mjs",
+      "exists": true
+    },
+    {
+      "source": "tests/watercolor-browser.test.mjs",
+      "specifier": "../scripts/execution.mjs",
+      "target": "scripts/execution.mjs",
+      "exists": true
+    },
+    {
+      "source": "tests/watercolor.test.mjs",
+      "specifier": "../modules/fx2d/watercolor.mjs",
+      "target": "modules/fx2d/watercolor.mjs",
+      "exists": true
+    },
+    {
+      "source": "tests/watercolor.test.mjs",
+      "specifier": "../modules/styles/watercolor-physical/index.mjs",
+      "target": "modules/styles/watercolor-physical/index.mjs",
+      "exists": true
+    }
+  ],
+  "all_existing": true,
+  "python_roots": "Moved root-based Python scripts use resolve().parents[3]; MJS process.cwd() remains repository-root execution. No .direction path was renamed.",
+  "kept_tool": "scripts/watercolor-memory.mjs is explicitly advertised in references/styles/watercolor-physical.md; internal scripts required by direction.mjs/materialize-style remain in scripts/.",
+  "moved_scripts": [
+    {
+      "from": "scripts/make_examples.py",
+      "to": "evidence/2026-11-04-initial-production/scripts/make_examples.py"
+    },
+    {
+      "from": "scripts/playback-sheet.py",
+      "to": "evidence/2026-11-04-initial-production/scripts/playback-sheet.py"
+    },
+    {
+      "from": "scripts/cinematic-traveler-asset.mjs",
+      "to": "evidence/2026-11-08-cinematic-animation-implementation/scripts/cinematic-traveler-asset.mjs"
+    },
+    {
+      "from": "scripts/cinematic-author.py",
+      "to": "evidence/2026-11-08-cinematic-animation-implementation/scripts/cinematic-author.py"
+    },
+    {
+      "from": "scripts/cinematic-evidence.py",
+      "to": "evidence/2026-11-08-cinematic-animation-implementation/scripts/cinematic-evidence.py"
+    },
+    {
+      "from": "scripts/cinematic-render.mjs",
+      "to": "evidence/2026-11-08-cinematic-animation-implementation/scripts/cinematic-render.mjs"
+    },
+    {
+      "from": "scripts/cinematic-rig-asset.mjs",
+      "to": "evidence/2026-11-08-cinematic-animation-implementation/scripts/cinematic-rig-asset.mjs"
+    },
+    {
+      "from": "scripts/cinematic-rig-check.mjs",
+      "to": "evidence/2026-11-08-cinematic-animation-implementation/scripts/cinematic-rig-check.mjs"
+    },
+    {
+      "from": "scripts/cinematic-watercolor-compare.mjs",
+      "to": "evidence/2026-11-08-cinematic-animation-implementation/scripts/cinematic-watercolor-compare.mjs"
+    },
+    {
+      "from": "scripts/phase02-final-audit.mjs",
+      "to": "evidence/2026-11-08-aesthetic-toolkit-phase02/scripts/phase02-final-audit.mjs"
+    },
+    {
+      "from": "scripts/phase02-fullhd-check.mjs",
+      "to": "evidence/2026-11-08-aesthetic-toolkit-phase02/scripts/phase02-fullhd-check.mjs"
+    },
+    {
+      "from": "scripts/phase02-fullhd.mjs",
+      "to": "evidence/2026-11-08-aesthetic-toolkit-phase02/scripts/phase02-fullhd.mjs"
+    },
+    {
+      "from": "scripts/phase02-playback-check.mjs",
+      "to": "evidence/2026-11-08-aesthetic-toolkit-phase02/scripts/phase02-playback-check.mjs"
+    },
+    {
+      "from": "scripts/phase02-rig-evidence.mjs",
+      "to": "evidence/2026-11-08-aesthetic-toolkit-phase02/scripts/phase02-rig-evidence.mjs"
+    },
+    {
+      "from": "scripts/watercolor-evidence.mjs",
+      "to": "evidence/2026-11-08-aesthetic-toolkit-phase02/scripts/watercolor-evidence.mjs"
+    }
+  ]
+}

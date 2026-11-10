@@ -1,0 +1,2942 @@
+[
+  {
+    "original_path": "evidence/2026-11-05-production/final-fix-1/before.json",
+    "final_path": "evidence/2026-11-05-production/final-fix-1/before.json",
+    "original_bytes": 453739,
+    "original_sha256": "85fc4da34b7f8a7375c0bd7b02703471d198ba752adca9c353ec8ee07fdbe347",
+    "final_bytes": 458193,
+    "final_sha256": "60bb1dc3951e51308bf12bbbbb30197073cfe459dd61f17276c48aee6da66e9d",
+    "state": "path-only-text-edit",
+    "diff_lines": 526
+  },
+  {
+    "original_path": "evidence/2026-11-05-production/preserved-existing-source.json",
+    "final_path": "evidence/2026-11-05-production/preserved-existing-source.json",
+    "original_bytes": 16021,
+    "original_sha256": "4f4fda858f680abc53a5a46e3180d5804501c189e59682b02393f25275560a59",
+    "final_bytes": 16099,
+    "final_sha256": "9d671a77db9d08b84f9b410031ab17f9e0aac63b4c8f1a9a009eb253cf309fd1",
+    "state": "path-only-text-edit",
+    "diff_lines": 20
+  },
+  {
+    "original_path": "evidence/2026-11-05-production/protected-after.json",
+    "final_path": "evidence/2026-11-05-production/protected-after.json",
+    "original_bytes": 152211,
+    "original_sha256": "81a2b8bf07b398fdf1e3920eb95b15272265da7021f9a3ac930b655470686e77",
+    "final_bytes": 152289,
+    "final_sha256": "575afe04cd7f955ae60312a7fe174d071bf7978d4c0de3be5b087e8ae78fa925",
+    "state": "path-only-text-edit",
+    "diff_lines": 14
+  },
+  {
+    "original_path": "evidence/2026-11-05-production/protected-before.json",
+    "final_path": "evidence/2026-11-05-production/protected-before.json",
+    "original_bytes": 151885,
+    "original_sha256": "054ec801eec0970bdaca93a2632132d502defc328c479b7d53c0f781dbcaac96",
+    "final_bytes": 151963,
+    "final_sha256": "9d3f52ab5c85c97df5fb6d3aa8b50869228bbe2902d6f6f8348c4df87c3f232b",
+    "state": "path-only-text-edit",
+    "diff_lines": 14
+  },
+  {
+    "original_path": "evidence/ART.md",
+    "final_path": "evidence/2026-11-04-initial-production/ART.md",
+    "original_bytes": 1291,
+    "original_sha256": "38a624b0620d2c113d5ca8cecaded4dfaba7a69f9a6952533c6bc2cd84db5ab7",
+    "final_bytes": 1330,
+    "final_sha256": "4ad20e1268d5cad6cd365601ff1bb5af1a4a2c246ca65facf214ebf34758127c",
+    "state": "path-only-text-edit",
+    "diff_lines": 10
+  },
+  {
+    "original_path": "evidence/CONTEXT-CHECKPOINT.md",
+    "final_path": "evidence/2026-11-04-night-sorter/CONTEXT-CHECKPOINT.md",
+    "original_bytes": 1264,
+    "original_sha256": "a9f62cb0a19376751325efa669363edba9ed6e8cd10a29a8c34e04228bb71b99",
+    "final_bytes": 1340,
+    "final_sha256": "22b284e345b10849298519a7836f4e2eddd379714e9c2f9a23261acd6d6693ba",
+    "state": "path-only-text-edit",
+    "diff_lines": 15
+  },
+  {
+    "original_path": "evidence/FORWARD.md",
+    "final_path": "evidence/2026-11-04-night-sorter/FORWARD.md",
+    "original_bytes": 3369,
+    "original_sha256": "a5eefb78059b3e0c592daec3144ffc11c688e0e594bf931b1e55cd51ee6461d0",
+    "final_bytes": 3362,
+    "final_sha256": "6fb84351d6da05392cd248b0695fdcca56fc014fd28db963d33940c36eab8929",
+    "state": "path-only-text-edit",
+    "diff_lines": 19
+  },
+  {
+    "original_path": "evidence/RESULTS.md",
+    "final_path": "evidence/2026-11-04-initial-production/RESULTS.md",
+    "original_bytes": 5656,
+    "original_sha256": "244b5314efc3138f01417b43bfcc818ae72f40d405b01ab573b3d0d52e5267d4",
+    "final_bytes": 5683,
+    "final_sha256": "bf56f9c2f615c4dbdf4dc1e9fef98dc033de1e5e7d452e5d779fb077794eec20",
+    "state": "path-only-text-edit",
+    "diff_lines": 11
+  },
+  {
+    "original_path": "evidence/WORKING.md",
+    "final_path": "evidence/2026-11-04-initial-production/WORKING.md",
+    "original_bytes": 3338,
+    "original_sha256": "15518596189550e6f4078682a6ed6c8937fa0386a42383ed89c32eca7a9c40e9",
+    "final_bytes": 3365,
+    "final_sha256": "48be4bc87d5b860e69c2449aae3360d8f4748add22eb9f0016cd6d5f881a318b",
+    "state": "path-only-text-edit",
+    "diff_lines": 8
+  },
+  {
+    "original_path": "evidence/aesthetic-toolkit-2026-11-08/A/forest/flash-1080p.json",
+    "final_path": "evidence/2026-11-08-aesthetic-toolkit/A/forest/flash-1080p.json",
+    "original_bytes": 904,
+    "original_sha256": "acd521c165cfc17e9e4e04938382ed3915fdf226d96103cc5d58155df5de3a50",
+    "final_bytes": 904,
+    "final_sha256": "32d13f233fcc8a865f6e677b3c30c8fb36a602491f4d376492e57b197c9d358b",
+    "state": "path-only-text-edit",
+    "diff_lines": 10
+  },
+  {
+    "original_path": "evidence/aesthetic-toolkit-2026-11-08/A/forest/flash-540p.json",
+    "final_path": "evidence/2026-11-08-aesthetic-toolkit/A/forest/flash-540p.json",
+    "original_bytes": 903,
+    "original_sha256": "b3b80b77fa89bc68f7b9f44eab5aa14308f927c89338be1830f7acc1c7e96e7f",
+    "final_bytes": 903,
+    "final_sha256": "5eb4724346a20713c38f614ed7b2daf5406a6d2e2f6a254a40dddcf285bed582",
+    "state": "path-only-text-edit",
+    "diff_lines": 10
+  },
+  {
+    "original_path": "evidence/aesthetic-toolkit-2026-11-08/A/forest/validation.json",
+    "final_path": "evidence/2026-11-08-aesthetic-toolkit/A/forest/validation.json",
+    "original_bytes": 12534,
+    "original_sha256": "c99ed39a21f0b9f5f53c7951765a1922c5da1d4ca2327780e5fde53b5467c0a0",
+    "final_bytes": 12534,
+    "final_sha256": "414fb6b341ed962dbba4809c26b645d1e156c24949efc8c8cde727e76e32070e",
+    "state": "path-only-text-edit",
+    "diff_lines": 38
+  },
+  {
+    "original_path": "evidence/aesthetic-toolkit-2026-11-08/A/forest-v2/flash-1080p.json",
+    "final_path": "evidence/2026-11-08-aesthetic-toolkit/A/forest-v2/flash-1080p.json",
+    "original_bytes": 907,
+    "original_sha256": "d3768fe24cb4635f73b49f4ee6829a778f69498e91cba1d2577eb2d34da4a2e2",
+    "final_bytes": 907,
+    "final_sha256": "966fe52d0677a54700679c37e1c0bdbdaf60ea0649c4a4654add9b0532a64af0",
+    "state": "path-only-text-edit",
+    "diff_lines": 10
+  },
+  {
+    "original_path": "evidence/aesthetic-toolkit-2026-11-08/A/forest-v2/flash-540p.json",
+    "final_path": "evidence/2026-11-08-aesthetic-toolkit/A/forest-v2/flash-540p.json",
+    "original_bytes": 906,
+    "original_sha256": "d1443a3a8e5679368977d4240a89858d6a92c983a89032fab6a36086bd1054d6",
+    "final_bytes": 906,
+    "final_sha256": "0d6b309f0545a03cad1da95d35c947a61dea130d1a6d55d3222a0cdb7b26dca8",
+    "state": "path-only-text-edit",
+    "diff_lines": 10
+  },
+  {
+    "original_path": "evidence/aesthetic-toolkit-2026-11-08/A/forest-v2/validation.json",
+    "final_path": "evidence/2026-11-08-aesthetic-toolkit/A/forest-v2/validation.json",
+    "original_bytes": 12547,
+    "original_sha256": "71987595b53f34b8e0876be47004329a8e381b1d8386c8ccfdf5ffbc354cb14b",
+    "final_bytes": 12547,
+    "final_sha256": "a4aeeb1c3219290271e3fbc4f073021f9d54bfd93fc95e058c6846bcbf3a601f",
+    "state": "path-only-text-edit",
+    "diff_lines": 38
+  },
+  {
+    "original_path": "evidence/aesthetic-toolkit-2026-11-08/A/forest-v3/flash-1080p.json",
+    "final_path": "evidence/2026-11-08-aesthetic-toolkit/A/forest-v3/flash-1080p.json",
+    "original_bytes": 907,
+    "original_sha256": "2bc2ab3cbb151b90ed083b15f180c7fddaafe01a769bbccd0a2f8c4d35b067cf",
+    "final_bytes": 907,
+    "final_sha256": "9517c1c155511be884f595967ccde1415d68f66bef170fb4128cfe7466189e37",
+    "state": "path-only-text-edit",
+    "diff_lines": 10
+  },
+  {
+    "original_path": "evidence/aesthetic-toolkit-2026-11-08/A/forest-v3/flash-540p.json",
+    "final_path": "evidence/2026-11-08-aesthetic-toolkit/A/forest-v3/flash-540p.json",
+    "original_bytes": 906,
+    "original_sha256": "a27b65287a5a080466143d19d3d9ba48ec5687d739d0b2d462c0c114e128854c",
+    "final_bytes": 906,
+    "final_sha256": "885bfefa6bf10b0a83e9510b0affa19745daa72fc70e1a5f5a0ccfc7ce8d5b39",
+    "state": "path-only-text-edit",
+    "diff_lines": 10
+  },
+  {
+    "original_path": "evidence/aesthetic-toolkit-2026-11-08/A/forest-v3/validation.json",
+    "final_path": "evidence/2026-11-08-aesthetic-toolkit/A/forest-v3/validation.json",
+    "original_bytes": 12545,
+    "original_sha256": "4c4c9d8e75139b6e24699341e346aef371cb674e7d81bd89282c73642136a74f",
+    "final_bytes": 12545,
+    "final_sha256": "99db56906752b15f2cb34d4591b9347c6a4489cda2a0471ae4190285f8508cf3",
+    "state": "path-only-text-edit",
+    "diff_lines": 38
+  },
+  {
+    "original_path": "evidence/aesthetic-toolkit-2026-11-08/A/harbor/flash-1080p.json",
+    "final_path": "evidence/2026-11-08-aesthetic-toolkit/A/harbor/flash-1080p.json",
+    "original_bytes": 904,
+    "original_sha256": "35d09bd7b224b96028b216214f3fa273eb5f6f984a6006da8a616b35389f643e",
+    "final_bytes": 904,
+    "final_sha256": "d17a5c6f416d4918c0793cd47c4f1a6b67270073f73152684ddba162866e1c66",
+    "state": "path-only-text-edit",
+    "diff_lines": 10
+  },
+  {
+    "original_path": "evidence/aesthetic-toolkit-2026-11-08/A/harbor/flash-540p.json",
+    "final_path": "evidence/2026-11-08-aesthetic-toolkit/A/harbor/flash-540p.json",
+    "original_bytes": 903,
+    "original_sha256": "78f3a4415219f7067f3c8da798070bfc3fc33f8f012d1bea8c7b986ce2a3e0f6",
+    "final_bytes": 903,
+    "final_sha256": "ca623d66d39e3c3a38571b8f2a89d9f9062800c30cf9c0cbf7a485e3e3b079cd",
+    "state": "path-only-text-edit",
+    "diff_lines": 10
+  },
+  {
+    "original_path": "evidence/aesthetic-toolkit-2026-11-08/A/harbor/validation.json",
+    "final_path": "evidence/2026-11-08-aesthetic-toolkit/A/harbor/validation.json",
+    "original_bytes": 12541,
+    "original_sha256": "1049993be7c95441dbb335d285a5ec5c5778272d363ab5da1861f3a13547b6f5",
+    "final_bytes": 12541,
+    "final_sha256": "1af5a0d20950fa7e6efc53b89b69b6767f234d005e2884eb15051b3752bdc669",
+    "state": "path-only-text-edit",
+    "diff_lines": 38
+  },
+  {
+    "original_path": "evidence/aesthetic-toolkit-2026-11-08/A/harbor-closed-reveal/flash-1080p.json",
+    "final_path": "evidence/2026-11-08-aesthetic-toolkit/A/harbor-closed-reveal/flash-1080p.json",
+    "original_bytes": 918,
+    "original_sha256": "ac7d99ee6b2edb16cb88e98b734a9c7c06c145af8910aef84d6ea96e026940b4",
+    "final_bytes": 918,
+    "final_sha256": "dd7b9dcc2ab3fecf88ca0881140e10c55436655c16a61d6e08431079d36c7404",
+    "state": "path-only-text-edit",
+    "diff_lines": 10
+  },
+  {
+    "original_path": "evidence/aesthetic-toolkit-2026-11-08/A/harbor-closed-reveal/flash-540p.json",
+    "final_path": "evidence/2026-11-08-aesthetic-toolkit/A/harbor-closed-reveal/flash-540p.json",
+    "original_bytes": 917,
+    "original_sha256": "2c60b4ba8254b622361411c621c3233ef1e1e173ff26b799973731f0d0664174",
+    "final_bytes": 917,
+    "final_sha256": "503cccb56d228068d6e8d82428eb1e0f8d071cc9c0887d35eed0bea3365331f3",
+    "state": "path-only-text-edit",
+    "diff_lines": 10
+  },
+  {
+    "original_path": "evidence/aesthetic-toolkit-2026-11-08/A/harbor-closed-reveal/validation.json",
+    "final_path": "evidence/2026-11-08-aesthetic-toolkit/A/harbor-closed-reveal/validation.json",
+    "original_bytes": 12590,
+    "original_sha256": "fced37d767ff49cd27080a11f635183a9aad6a7802d0e7d9e20186c8e7ee7213",
+    "final_bytes": 12590,
+    "final_sha256": "726408c07575be185d09372d68ffcf4a745655115f2cf88dad1521ad9ffd0d76",
+    "state": "path-only-text-edit",
+    "diff_lines": 38
+  },
+  {
+    "original_path": "evidence/aesthetic-toolkit-2026-11-08/B/README.md",
+    "final_path": "evidence/2026-11-08-aesthetic-toolkit/B/README.md",
+    "original_bytes": 1300,
+    "original_sha256": "519efccd21e5ec56c56847107322bf35044edddf2b6498437472f780a14928f3",
+    "final_bytes": 1300,
+    "final_sha256": "45cafce07218e0e1e032c7a4194515a2032b9ab0d89fe68785bfa2fee8f68da1",
+    "state": "path-only-text-edit",
+    "diff_lines": 13
+  },
+  {
+    "original_path": "evidence/aesthetic-toolkit-2026-11-08/B/commuter-final/flash-1080p.json",
+    "final_path": "evidence/2026-11-08-aesthetic-toolkit/B/commuter-final/flash-1080p.json",
+    "original_bytes": 912,
+    "original_sha256": "27646dff41ccc39b6bee1d50def6c2e79678ea90cc1f01fa5f835e221af83369",
+    "final_bytes": 912,
+    "final_sha256": "33ea9a361baa0217e0b3806f3631d580a028b9ccfcea1b5abdd0867f0296122c",
+    "state": "path-only-text-edit",
+    "diff_lines": 10
+  },
+  {
+    "original_path": "evidence/aesthetic-toolkit-2026-11-08/B/commuter-final/flash-540p.json",
+    "final_path": "evidence/2026-11-08-aesthetic-toolkit/B/commuter-final/flash-540p.json",
+    "original_bytes": 911,
+    "original_sha256": "bb97f5fcbc1f9245649c22c54c117ac5d6d5aa1079ca636673c81a60c55ab77e",
+    "final_bytes": 911,
+    "final_sha256": "feb1bb2f668615eb904eaa411af64bc8c129f2d3a9e6663b2167ba84c503efd0",
+    "state": "path-only-text-edit",
+    "diff_lines": 10
+  },
+  {
+    "original_path": "evidence/aesthetic-toolkit-2026-11-08/B/commuter-final/validation.json",
+    "final_path": "evidence/2026-11-08-aesthetic-toolkit/B/commuter-final/validation.json",
+    "original_bytes": 12572,
+    "original_sha256": "051fb61405e499d6c27a4da8b6fdbdd26d21d70893a5c733f131628cfdd0bf9c",
+    "final_bytes": 12572,
+    "final_sha256": "9d37f875328972387446c9784e2b2f6f67b310196e3ca987de2bd3f19a568311",
+    "state": "path-only-text-edit",
+    "diff_lines": 38
+  },
+  {
+    "original_path": "evidence/aesthetic-toolkit-2026-11-08/B/commuter-full/flash-1080p.json",
+    "final_path": "evidence/2026-11-08-aesthetic-toolkit/B/commuter-full/flash-1080p.json",
+    "original_bytes": 911,
+    "original_sha256": "c011964356e360701f056fb588dd6735f5be57e5e5a6dbe6078a175f4dc3cf4b",
+    "final_bytes": 911,
+    "final_sha256": "10244dc6cb2256af22a617dd5645d3d976a2037345676da2c460d01a433b3451",
+    "state": "path-only-text-edit",
+    "diff_lines": 10
+  },
+  {
+    "original_path": "evidence/aesthetic-toolkit-2026-11-08/B/commuter-full/flash-540p.json",
+    "final_path": "evidence/2026-11-08-aesthetic-toolkit/B/commuter-full/flash-540p.json",
+    "original_bytes": 910,
+    "original_sha256": "60ed39ed7c7ae7e078bcb8511646115f10dd9c56ffe58200ec33aa36703c3e52",
+    "final_bytes": 910,
+    "final_sha256": "9ce71f9bb9a2d6a41159e5dd66099019fc89d88e674d17eb50fb7722d0e21675",
+    "state": "path-only-text-edit",
+    "diff_lines": 10
+  },
+  {
+    "original_path": "evidence/aesthetic-toolkit-2026-11-08/B/commuter-full/validation.json",
+    "final_path": "evidence/2026-11-08-aesthetic-toolkit/B/commuter-full/validation.json",
+    "original_bytes": 12568,
+    "original_sha256": "b55c2e015f28402c65b79489e6ac33918d2c1aecc70b79ae0462a858e528fa8b",
+    "final_bytes": 12568,
+    "final_sha256": "4b062beeacef08492e1cfb80143fa5fcd0137a367008dc28172508ff66ec8df5",
+    "state": "path-only-text-edit",
+    "diff_lines": 38
+  },
+  {
+    "original_path": "evidence/aesthetic-toolkit-2026-11-08/B/commuter-reviewed/flash-1080p.json",
+    "final_path": "evidence/2026-11-08-aesthetic-toolkit/B/commuter-reviewed/flash-1080p.json",
+    "original_bytes": 915,
+    "original_sha256": "1db0ea3c80d9a251468f53ee8639cc5ce3990cd2e26b74e41faaf8d7a228a42d",
+    "final_bytes": 915,
+    "final_sha256": "3aa14e1f2d0eb7b886e40ca8ffd67e389ce5d8f0f3499623c3be5b4f010636ba",
+    "state": "path-only-text-edit",
+    "diff_lines": 10
+  },
+  {
+    "original_path": "evidence/aesthetic-toolkit-2026-11-08/B/commuter-reviewed/flash-540p.json",
+    "final_path": "evidence/2026-11-08-aesthetic-toolkit/B/commuter-reviewed/flash-540p.json",
+    "original_bytes": 914,
+    "original_sha256": "eafbdbf60afb25a94e06779378014c3753f53cf80c8f4479ab8663ee198d1501",
+    "final_bytes": 914,
+    "final_sha256": "e91b9ee312e21a6a38fd40d53b509410680db8dfcc9d83a2c86e741fb9a4354e",
+    "state": "path-only-text-edit",
+    "diff_lines": 10
+  },
+  {
+    "original_path": "evidence/aesthetic-toolkit-2026-11-08/B/commuter-reviewed/validation.json",
+    "final_path": "evidence/2026-11-08-aesthetic-toolkit/B/commuter-reviewed/validation.json",
+    "original_bytes": 12585,
+    "original_sha256": "bb380927348c0b8130137f3e02c9c094edaf076cf996c2715aec4291eb4cea1a",
+    "final_bytes": 12585,
+    "final_sha256": "f181b1218aebe9c538761d98c048bbf51e355dc8d73dcdd12eac9c4521b7a399",
+    "state": "path-only-text-edit",
+    "diff_lines": 38
+  },
+  {
+    "original_path": "evidence/aesthetic-toolkit-2026-11-08/B/rain-final/flash-1080p.json",
+    "final_path": "evidence/2026-11-08-aesthetic-toolkit/B/rain-final/flash-1080p.json",
+    "original_bytes": 908,
+    "original_sha256": "703723f5ff4a18f5d044a9750f856244f7abcfc8fd5a791ff9f632f8c5964970",
+    "final_bytes": 908,
+    "final_sha256": "0eab32295d1fefdeb79ca47d160fc2604d81a66cce65a0dbda9213d4d68f855a",
+    "state": "path-only-text-edit",
+    "diff_lines": 10
+  },
+  {
+    "original_path": "evidence/aesthetic-toolkit-2026-11-08/B/rain-final/flash-540p.json",
+    "final_path": "evidence/2026-11-08-aesthetic-toolkit/B/rain-final/flash-540p.json",
+    "original_bytes": 907,
+    "original_sha256": "42ab682f7e6226c4b4496624c17356f7eaf474df2c7a37dd8e1f0cb149b091ae",
+    "final_bytes": 907,
+    "final_sha256": "de0d38a7e4411592024f81a9f8a8fe31d1e2077b8819336c42eb0525a87d85e7",
+    "state": "path-only-text-edit",
+    "diff_lines": 10
+  },
+  {
+    "original_path": "evidence/aesthetic-toolkit-2026-11-08/B/rain-final/validation.json",
+    "final_path": "evidence/2026-11-08-aesthetic-toolkit/B/rain-final/validation.json",
+    "original_bytes": 12552,
+    "original_sha256": "25b25afd4aa78bb31fb6b9d761437fc8c4c8cff36222e4c1dbc96c64db20e809",
+    "final_bytes": 12552,
+    "final_sha256": "af7bf21f5bd9acf8ed29dc89887060d91fee98e46f90162aa6ea233e1a9c2cc1",
+    "state": "path-only-text-edit",
+    "diff_lines": 38
+  },
+  {
+    "original_path": "evidence/aesthetic-toolkit-2026-11-08/B/rain-full/flash-1080p.json",
+    "final_path": "evidence/2026-11-08-aesthetic-toolkit/B/rain-full/flash-1080p.json",
+    "original_bytes": 907,
+    "original_sha256": "6f12672000035e29f81eb69db5d437761db384665459e5dbbdaf00a99d7f12fa",
+    "final_bytes": 907,
+    "final_sha256": "5833ea89d538045a8b63d3e6597d322705ee719be062b3dd6f7f7ec671752ad5",
+    "state": "path-only-text-edit",
+    "diff_lines": 10
+  },
+  {
+    "original_path": "evidence/aesthetic-toolkit-2026-11-08/B/rain-full/flash-540p.json",
+    "final_path": "evidence/2026-11-08-aesthetic-toolkit/B/rain-full/flash-540p.json",
+    "original_bytes": 906,
+    "original_sha256": "dbbda89b407e66c3b7fb48fae36116eb247e6f801cd5e43ebe2b97a582d48d3f",
+    "final_bytes": 906,
+    "final_sha256": "aba8a6524fd993b73f30bc0dd91ae676b6363f59435079db9043e174916120ae",
+    "state": "path-only-text-edit",
+    "diff_lines": 10
+  },
+  {
+    "original_path": "evidence/aesthetic-toolkit-2026-11-08/B/rain-full/validation.json",
+    "final_path": "evidence/2026-11-08-aesthetic-toolkit/B/rain-full/validation.json",
+    "original_bytes": 12548,
+    "original_sha256": "907e1c6d5a91237128afc18d27359d933e0b1c54845af6d6667530ad31360a62",
+    "final_bytes": 12548,
+    "final_sha256": "570f1a860526efcf22d1bc16ef1a0d77ab3351d4f563b29b12966f72579cf205",
+    "state": "path-only-text-edit",
+    "diff_lines": 38
+  },
+  {
+    "original_path": "evidence/aesthetic-toolkit-2026-11-08/B/rain-reviewed/flash-1080p.json",
+    "final_path": "evidence/2026-11-08-aesthetic-toolkit/B/rain-reviewed/flash-1080p.json",
+    "original_bytes": 911,
+    "original_sha256": "72798cb56acb0259e5da73d6d1ec244cc038c01ce39726d31bb36e849f9ab1e1",
+    "final_bytes": 911,
+    "final_sha256": "0a7ab452e40c30931036d0f1b75c45010787ce7857d21ccd6dbf24c425298dec",
+    "state": "path-only-text-edit",
+    "diff_lines": 10
+  },
+  {
+    "original_path": "evidence/aesthetic-toolkit-2026-11-08/B/rain-reviewed/flash-540p.json",
+    "final_path": "evidence/2026-11-08-aesthetic-toolkit/B/rain-reviewed/flash-540p.json",
+    "original_bytes": 910,
+    "original_sha256": "f3aa6fdf400d13fffc45e084a512d25fca2c1b062c97cff10219e48e840bf42b",
+    "final_bytes": 910,
+    "final_sha256": "aebc4daaaf19b1586946564610a45135b9e2ee3a61feda9e3f2144d32d7418d5",
+    "state": "path-only-text-edit",
+    "diff_lines": 10
+  },
+  {
+    "original_path": "evidence/aesthetic-toolkit-2026-11-08/B/rain-reviewed/validation.json",
+    "final_path": "evidence/2026-11-08-aesthetic-toolkit/B/rain-reviewed/validation.json",
+    "original_bytes": 12564,
+    "original_sha256": "33bc5b4f2836807c3dc43696c150c0a2d54da9320cad89990009f58a927fb856",
+    "final_bytes": 12564,
+    "final_sha256": "cfbc4e250ff5c0de7eaad1daa68ed7f7a98a0309d1d13001be67a76f2bc3e80e",
+    "state": "path-only-text-edit",
+    "diff_lines": 38
+  },
+  {
+    "original_path": "evidence/aesthetic-toolkit-2026-11-08/C/HANDOFF.md",
+    "final_path": "evidence/2026-11-08-aesthetic-toolkit/C/HANDOFF.md",
+    "original_bytes": 10722,
+    "original_sha256": "5e758bd122fbbb94d1eb2cb53f51a9fa3c9039534db2c9d03ac90b4fc6547dbf",
+    "final_bytes": 10722,
+    "final_sha256": "c35902bf39d944b21fd63ad7f5dcd7f9c21a7ca9357904ab7bc98b96b598d3e9",
+    "state": "path-only-text-edit",
+    "diff_lines": 30
+  },
+  {
+    "original_path": "evidence/aesthetic-toolkit-2026-11-08/C/effects/flash-1080p.json",
+    "final_path": "evidence/2026-11-08-aesthetic-toolkit/C/effects/flash-1080p.json",
+    "original_bytes": 905,
+    "original_sha256": "4b5eac3cc97110bc6fbb0f580846c0243be6598732dbceace26a18ef0e03422b",
+    "final_bytes": 905,
+    "final_sha256": "4af5f96d52d8ca1f63d5de63c42690c5e232e31c85064646d91b631b81c24c31",
+    "state": "path-only-text-edit",
+    "diff_lines": 10
+  },
+  {
+    "original_path": "evidence/aesthetic-toolkit-2026-11-08/C/effects/flash-540p.json",
+    "final_path": "evidence/2026-11-08-aesthetic-toolkit/C/effects/flash-540p.json",
+    "original_bytes": 904,
+    "original_sha256": "9029ac0313690acc8c2a2d975f92c003f39404039210108f08f6dd5855771be8",
+    "final_bytes": 904,
+    "final_sha256": "dae68ed87e61e02175f0f30997793319bd5034829feb3801b00ebb7ed4499a52",
+    "state": "path-only-text-edit",
+    "diff_lines": 10
+  },
+  {
+    "original_path": "evidence/aesthetic-toolkit-2026-11-08/C/effects/validation.json",
+    "final_path": "evidence/2026-11-08-aesthetic-toolkit/C/effects/validation.json",
+    "original_bytes": 12951,
+    "original_sha256": "18de0fb6430b66dbe376e1e277e7249718f85012136b1d6493e5cea0b2e68a64",
+    "final_bytes": 12951,
+    "final_sha256": "95a303579c4b254e5294658dd66c20623054ed293e707555dfceadf236d715a0",
+    "state": "path-only-text-edit",
+    "diff_lines": 38
+  },
+  {
+    "original_path": "evidence/aesthetic-toolkit-2026-11-08/C/laboratory/flash-1080p.json",
+    "final_path": "evidence/2026-11-08-aesthetic-toolkit/C/laboratory/flash-1080p.json",
+    "original_bytes": 908,
+    "original_sha256": "25c2b4d90c6a59e11356cb1d3675ba40020d251114381aea943432c743ff4e80",
+    "final_bytes": 908,
+    "final_sha256": "087d75db4a928108753b553349218b806d76e9afc47c60962128b6c8b7406732",
+    "state": "path-only-text-edit",
+    "diff_lines": 10
+  },
+  {
+    "original_path": "evidence/aesthetic-toolkit-2026-11-08/C/laboratory/flash-540p.json",
+    "final_path": "evidence/2026-11-08-aesthetic-toolkit/C/laboratory/flash-540p.json",
+    "original_bytes": 907,
+    "original_sha256": "e6776669221c9671e57e3520fcc23834193786c4e6d23823686910304cf7637f",
+    "final_bytes": 907,
+    "final_sha256": "269d09418483369d92b598f54c6bcc6771dd28a96f77435d7e234e1e371281dc",
+    "state": "path-only-text-edit",
+    "diff_lines": 10
+  },
+  {
+    "original_path": "evidence/aesthetic-toolkit-2026-11-08/C/laboratory/validation.json",
+    "final_path": "evidence/2026-11-08-aesthetic-toolkit/C/laboratory/validation.json",
+    "original_bytes": 12957,
+    "original_sha256": "f7173bf5c635fcc40c361c0f4cb76a316ffc58f2e4b8f8d99783b52d9f0ea3cd",
+    "final_bytes": 12957,
+    "final_sha256": "835c41ae6c6cca28b23374958fbcf842bd0822a0a36271e8a1e58840da2f0238",
+    "state": "path-only-text-edit",
+    "diff_lines": 38
+  },
+  {
+    "original_path": "evidence/aesthetic-toolkit-2026-11-08/C/laboratory-final/flash-1080p.json",
+    "final_path": "evidence/2026-11-08-aesthetic-toolkit/C/laboratory-final/flash-1080p.json",
+    "original_bytes": 914,
+    "original_sha256": "a23da9c6707d3aeeda5a8ec8c08d8fef7ac8d9f2217073d5bb413a9c3ac8f64d",
+    "final_bytes": 914,
+    "final_sha256": "130447d297a5d3e48ec8facc70657261532d865dec42596649e093ba1afa81c0",
+    "state": "path-only-text-edit",
+    "diff_lines": 10
+  },
+  {
+    "original_path": "evidence/aesthetic-toolkit-2026-11-08/C/laboratory-final/flash-540p.json",
+    "final_path": "evidence/2026-11-08-aesthetic-toolkit/C/laboratory-final/flash-540p.json",
+    "original_bytes": 913,
+    "original_sha256": "e9358cb94dac8917268545be178a4a67eecdb74e62b05e7148ce554c6f7ae753",
+    "final_bytes": 913,
+    "final_sha256": "c1c324a305e9a4cd8cbc5fe40fafa65d98b58cbaaa30928cd465d4a33f493884",
+    "state": "path-only-text-edit",
+    "diff_lines": 10
+  },
+  {
+    "original_path": "evidence/aesthetic-toolkit-2026-11-08/C/laboratory-final/validation.json",
+    "final_path": "evidence/2026-11-08-aesthetic-toolkit/C/laboratory-final/validation.json",
+    "original_bytes": 12978,
+    "original_sha256": "9228b5bea706fcd472708d992f6f4fd6239fe84b44515fc5e2d45fdf95c4c627",
+    "final_bytes": 12978,
+    "final_sha256": "c67de58dead45f9b6cc04e708dfee514e04b5f8f0c4a9365360480602020ced1",
+    "state": "path-only-text-edit",
+    "diff_lines": 38
+  },
+  {
+    "original_path": "evidence/aesthetic-toolkit-2026-11-08/C/mixed/flash-1080p.json",
+    "final_path": "evidence/2026-11-08-aesthetic-toolkit/C/mixed/flash-1080p.json",
+    "original_bytes": 903,
+    "original_sha256": "7353eacd0371af276c78d0891afd091accdfa6e87babf85a65e622479823fd1f",
+    "final_bytes": 903,
+    "final_sha256": "df8e74c51de1a0e8f445e8d652d3cbae5992c273fffde12e9bc1a330f2589b43",
+    "state": "path-only-text-edit",
+    "diff_lines": 10
+  },
+  {
+    "original_path": "evidence/aesthetic-toolkit-2026-11-08/C/mixed/flash-540p.json",
+    "final_path": "evidence/2026-11-08-aesthetic-toolkit/C/mixed/flash-540p.json",
+    "original_bytes": 902,
+    "original_sha256": "3bdd41e01dcc3dc123f2c10418039aab832b055459155d290cfb6c9cd67f34cf",
+    "final_bytes": 902,
+    "final_sha256": "3d4404c8e61915cdba57d828cc48bc92dfbd5680df333bacb17648bb2eff1800",
+    "state": "path-only-text-edit",
+    "diff_lines": 10
+  },
+  {
+    "original_path": "evidence/aesthetic-toolkit-2026-11-08/C/mixed/validation.json",
+    "final_path": "evidence/2026-11-08-aesthetic-toolkit/C/mixed/validation.json",
+    "original_bytes": 18824,
+    "original_sha256": "c8f78881377b57be18a8eec3578cf9e387c387e0e5d051ddbbae3e65d8f8ac93",
+    "final_bytes": 18824,
+    "final_sha256": "a40c8f1adad7dccbcb1f3ba391876d70fde5ebf98875ade3d5bd8273f011351f",
+    "state": "path-only-text-edit",
+    "diff_lines": 38
+  },
+  {
+    "original_path": "evidence/aesthetic-toolkit-2026-11-08/C/station/flash-1080p.json",
+    "final_path": "evidence/2026-11-08-aesthetic-toolkit/C/station/flash-1080p.json",
+    "original_bytes": 905,
+    "original_sha256": "7d0dff25ee439614336298fef1be03e4890f85c11011369559725638b8c5d748",
+    "final_bytes": 905,
+    "final_sha256": "ac2fb0bb49dadb04db48614ac22bf1fef05658e46c34d6c721c8d62aec5b5b76",
+    "state": "path-only-text-edit",
+    "diff_lines": 10
+  },
+  {
+    "original_path": "evidence/aesthetic-toolkit-2026-11-08/C/station/flash-540p.json",
+    "final_path": "evidence/2026-11-08-aesthetic-toolkit/C/station/flash-540p.json",
+    "original_bytes": 904,
+    "original_sha256": "6cd1db61dc48c71ac97ba05f34ad8c5aa464808bc6f632300837ef8d4f5e9001",
+    "final_bytes": 904,
+    "final_sha256": "1b6f048fbf0c3e60f275d147b7d7cd0d3149dcf2b0963e06fa898cc83e3d2a40",
+    "state": "path-only-text-edit",
+    "diff_lines": 10
+  },
+  {
+    "original_path": "evidence/aesthetic-toolkit-2026-11-08/C/station/validation.json",
+    "final_path": "evidence/2026-11-08-aesthetic-toolkit/C/station/validation.json",
+    "original_bytes": 12943,
+    "original_sha256": "cdf5ea25aa01a6224dd76fc1bfb68f60bd7998ffa3db4963df48107de716a247",
+    "final_bytes": 12943,
+    "final_sha256": "4c64a692cafdd43e27a2b58093a6629f24f5a1fec84e7d832651ad5c72b74b04",
+    "state": "path-only-text-edit",
+    "diff_lines": 38
+  },
+  {
+    "original_path": "evidence/aesthetic-toolkit-2026-11-08/C/station-final/flash-1080p.json",
+    "final_path": "evidence/2026-11-08-aesthetic-toolkit/C/station-final/flash-1080p.json",
+    "original_bytes": 911,
+    "original_sha256": "2b35fe400461f59b53e80b8c07a29979f66a9b8853f93016bc118defb64be6ba",
+    "final_bytes": 911,
+    "final_sha256": "c95825f68944e7135d418c8f6f5d63e891451e182d20d257f32f2360d3308c67",
+    "state": "path-only-text-edit",
+    "diff_lines": 10
+  },
+  {
+    "original_path": "evidence/aesthetic-toolkit-2026-11-08/C/station-final/flash-540p.json",
+    "final_path": "evidence/2026-11-08-aesthetic-toolkit/C/station-final/flash-540p.json",
+    "original_bytes": 910,
+    "original_sha256": "7738fecce219ca882a0f3dd3d7ca4e9de90fb8e20b1422a5a79e0715931c1a18",
+    "final_bytes": 910,
+    "final_sha256": "de264b9eb1b538fae15e38802239e9f408404c10c92bf1f9cbce29dab5e3341f",
+    "state": "path-only-text-edit",
+    "diff_lines": 10
+  },
+  {
+    "original_path": "evidence/aesthetic-toolkit-2026-11-08/C/station-final/validation.json",
+    "final_path": "evidence/2026-11-08-aesthetic-toolkit/C/station-final/validation.json",
+    "original_bytes": 12974,
+    "original_sha256": "e849dd3b8a309129a0e6f011498b648031cbf3e4f1c20d54b4995433b5597635",
+    "final_bytes": 12974,
+    "final_sha256": "63759c95921f9825f89ef2ff260a9d5c599e64482a5d4c1b868cb69f1f1ff7d5",
+    "state": "path-only-text-edit",
+    "diff_lines": 38
+  },
+  {
+    "original_path": "evidence/aesthetic-toolkit-2026-11-08/C/validation-summary.json",
+    "final_path": "evidence/2026-11-08-aesthetic-toolkit/C/validation-summary.json",
+    "original_bytes": 13380,
+    "original_sha256": "9ad6f3932827bfa7868fe7744ff3d001d85caf9c6e03980a0192dc47b25214a5",
+    "final_bytes": 13380,
+    "final_sha256": "1138e595c99aab1b80919fd6f29bca2ea520f00c2d901032a0df45c78c4aa1f5",
+    "state": "path-only-text-edit",
+    "diff_lines": 74
+  },
+  {
+    "original_path": "evidence/aesthetic-toolkit-2026-11-08/baseline.json",
+    "final_path": "evidence/2026-11-08-aesthetic-toolkit/baseline.json",
+    "original_bytes": 95204,
+    "original_sha256": "bbd471340b4fbb32cc583960df713b43af0fdf070d5fca8e814fc8d1fa71ab6a",
+    "final_bytes": 95240,
+    "final_sha256": "9894b180f9b1b0ca1bf4aad7f996b390100d29febcf15023bf12af750755ce73",
+    "state": "path-only-text-edit",
+    "diff_lines": 2363
+  },
+  {
+    "original_path": "evidence/aesthetic-toolkit-2026-11-08/effects2d/flash-1080p.json",
+    "final_path": "evidence/2026-11-08-aesthetic-toolkit/effects2d/flash-1080p.json",
+    "original_bytes": 905,
+    "original_sha256": "2f02a77ffe6872814861c485fde8b790aa6108898d27f49a4c0101f4187902aa",
+    "final_bytes": 905,
+    "final_sha256": "424dfc416335e1d72361e7b4504106674408bb3784548d91ec611cfd76321323",
+    "state": "path-only-text-edit",
+    "diff_lines": 10
+  },
+  {
+    "original_path": "evidence/aesthetic-toolkit-2026-11-08/effects2d/flash-540p.json",
+    "final_path": "evidence/2026-11-08-aesthetic-toolkit/effects2d/flash-540p.json",
+    "original_bytes": 904,
+    "original_sha256": "8fa9e2afc72228c3c5f46e0eeaf320b0fe973da4be6135720eb67ab3eae944b2",
+    "final_bytes": 904,
+    "final_sha256": "cb1731489c99a4eecfeafe4e97839090f4b5c8290d10522cd02ac02ecbaaacbf",
+    "state": "path-only-text-edit",
+    "diff_lines": 10
+  },
+  {
+    "original_path": "evidence/aesthetic-toolkit-2026-11-08/effects2d/validation.json",
+    "final_path": "evidence/2026-11-08-aesthetic-toolkit/effects2d/validation.json",
+    "original_bytes": 12586,
+    "original_sha256": "b2ff8408367874c7328bd375f3893a7141d8562a295c8c4fb3ea97c0001ee920",
+    "final_bytes": 12586,
+    "final_sha256": "6fd906ca32a9306047d065eff70c22fb263b23b1441488ea250ae7170a274002",
+    "state": "path-only-text-edit",
+    "diff_lines": 38
+  },
+  {
+    "original_path": "evidence/aesthetic-toolkit-2026-11-08/effects2d-closed-reveal/flash-1080p.json",
+    "final_path": "evidence/2026-11-08-aesthetic-toolkit/effects2d-closed-reveal/flash-1080p.json",
+    "original_bytes": 919,
+    "original_sha256": "609026585db2fe2039663fd15e0fba3b628f40524878957d3750ee64d95d5042",
+    "final_bytes": 919,
+    "final_sha256": "8ad65388534ca25278dbf9ececc859ea3ba4f5db29ac510d1f80e42e6a8e79a2",
+    "state": "path-only-text-edit",
+    "diff_lines": 10
+  },
+  {
+    "original_path": "evidence/aesthetic-toolkit-2026-11-08/effects2d-closed-reveal/flash-540p.json",
+    "final_path": "evidence/2026-11-08-aesthetic-toolkit/effects2d-closed-reveal/flash-540p.json",
+    "original_bytes": 918,
+    "original_sha256": "b95a556d08d0c812e567ccd97c848336ee22703b8801f0f5136cc9b8631901c5",
+    "final_bytes": 918,
+    "final_sha256": "c29064db58682164e7ffd999b36f5050e558fcf2c4f13ea72cb0d2b33fac5e07",
+    "state": "path-only-text-edit",
+    "diff_lines": 10
+  },
+  {
+    "original_path": "evidence/aesthetic-toolkit-2026-11-08/effects2d-closed-reveal/validation.json",
+    "final_path": "evidence/2026-11-08-aesthetic-toolkit/effects2d-closed-reveal/validation.json",
+    "original_bytes": 12641,
+    "original_sha256": "f12e73938c8a91e7bcecc4fd1da0ba38aee4fd0a04f3535e4a50e01640a95065",
+    "final_bytes": 12641,
+    "final_sha256": "268b49450c0ef211e2c9cc4752f9c3b7f3e978904be140480ff51abe3fd26f0c",
+    "state": "path-only-text-edit",
+    "diff_lines": 38
+  },
+  {
+    "original_path": "evidence/aesthetic-toolkit-2026-11-08/effects2d-reviewed/flash-1080p.json",
+    "final_path": "evidence/2026-11-08-aesthetic-toolkit/effects2d-reviewed/flash-1080p.json",
+    "original_bytes": 914,
+    "original_sha256": "01706dffd233117b88b80b80ca101f19c1475d7329c527e2632e4aad3113283e",
+    "final_bytes": 914,
+    "final_sha256": "2f5954799df82b4ec8cd838619f4158b22d075acd8d176f05f49238b57b798a6",
+    "state": "path-only-text-edit",
+    "diff_lines": 10
+  },
+  {
+    "original_path": "evidence/aesthetic-toolkit-2026-11-08/effects2d-reviewed/flash-540p.json",
+    "final_path": "evidence/2026-11-08-aesthetic-toolkit/effects2d-reviewed/flash-540p.json",
+    "original_bytes": 913,
+    "original_sha256": "e7473165445b2ad2ebe211e8d23b9e378ebb7d29b69867254627c64fb028f8cd",
+    "final_bytes": 913,
+    "final_sha256": "de8d6d47ad1403ef1053115ab8d289fd1c567176130cbc13c31163c9eb1bff71",
+    "state": "path-only-text-edit",
+    "diff_lines": 10
+  },
+  {
+    "original_path": "evidence/aesthetic-toolkit-2026-11-08/effects2d-reviewed/validation.json",
+    "final_path": "evidence/2026-11-08-aesthetic-toolkit/effects2d-reviewed/validation.json",
+    "original_bytes": 12647,
+    "original_sha256": "106227537ccbff86d42d14eb0befee7426fc4e8668afd66140e9ec5d101dbfab",
+    "final_bytes": 12647,
+    "final_sha256": "e064eb10ab5a8551ef8606c2d321bab625d643052438f7300b31f0bae01e1fdc",
+    "state": "path-only-text-edit",
+    "diff_lines": 38
+  },
+  {
+    "original_path": "evidence/aesthetic-toolkit-2026-11-08/final-evidence-index.json",
+    "final_path": "evidence/2026-11-08-aesthetic-toolkit/final-evidence-index.json",
+    "original_bytes": 20975,
+    "original_sha256": "5b6b8eec3d793981ed277151422b4ab8edca881996608fa8685333120b68faa8",
+    "final_bytes": 20975,
+    "final_sha256": "b6541ac6f58130cf1d2fb978f13ee06e7aa5f89ce61149026cde685a5a1a2eb3",
+    "state": "path-only-text-edit",
+    "diff_lines": 314
+  },
+  {
+    "original_path": "evidence/aesthetic-toolkit-2026-11-08/independent-review-01/A-forest-v3-1080p-flash.json",
+    "final_path": "evidence/2026-11-08-aesthetic-toolkit/independent-review-01/A-forest-v3-1080p-flash.json",
+    "original_bytes": 907,
+    "original_sha256": "2bc2ab3cbb151b90ed083b15f180c7fddaafe01a769bbccd0a2f8c4d35b067cf",
+    "final_bytes": 907,
+    "final_sha256": "9517c1c155511be884f595967ccde1415d68f66bef170fb4128cfe7466189e37",
+    "state": "path-only-text-edit",
+    "diff_lines": 10
+  },
+  {
+    "original_path": "evidence/aesthetic-toolkit-2026-11-08/independent-review-01/A-forest-v3-flash.json",
+    "final_path": "evidence/2026-11-08-aesthetic-toolkit/independent-review-01/A-forest-v3-flash.json",
+    "original_bytes": 906,
+    "original_sha256": "a27b65287a5a080466143d19d3d9ba48ec5687d739d0b2d462c0c114e128854c",
+    "final_bytes": 906,
+    "final_sha256": "885bfefa6bf10b0a83e9510b0affa19745daa72fc70e1a5f5a0ccfc7ce8d5b39",
+    "state": "path-only-text-edit",
+    "diff_lines": 10
+  },
+  {
+    "original_path": "evidence/aesthetic-toolkit-2026-11-08/independent-review-01/A-harbor-1080p-flash.json",
+    "final_path": "evidence/2026-11-08-aesthetic-toolkit/independent-review-01/A-harbor-1080p-flash.json",
+    "original_bytes": 904,
+    "original_sha256": "35d09bd7b224b96028b216214f3fa273eb5f6f984a6006da8a616b35389f643e",
+    "final_bytes": 904,
+    "final_sha256": "d17a5c6f416d4918c0793cd47c4f1a6b67270073f73152684ddba162866e1c66",
+    "state": "path-only-text-edit",
+    "diff_lines": 10
+  },
+  {
+    "original_path": "evidence/aesthetic-toolkit-2026-11-08/independent-review-01/A-harbor-flash.json",
+    "final_path": "evidence/2026-11-08-aesthetic-toolkit/independent-review-01/A-harbor-flash.json",
+    "original_bytes": 903,
+    "original_sha256": "78f3a4415219f7067f3c8da798070bfc3fc33f8f012d1bea8c7b986ce2a3e0f6",
+    "final_bytes": 903,
+    "final_sha256": "ca623d66d39e3c3a38571b8f2a89d9f9062800c30cf9c0cbf7a485e3e3b079cd",
+    "state": "path-only-text-edit",
+    "diff_lines": 10
+  },
+  {
+    "original_path": "evidence/aesthetic-toolkit-2026-11-08/independent-review-01/B-commuter-final-1080p-flash.json",
+    "final_path": "evidence/2026-11-08-aesthetic-toolkit/independent-review-01/B-commuter-final-1080p-flash.json",
+    "original_bytes": 912,
+    "original_sha256": "27646dff41ccc39b6bee1d50def6c2e79678ea90cc1f01fa5f835e221af83369",
+    "final_bytes": 912,
+    "final_sha256": "33ea9a361baa0217e0b3806f3631d580a028b9ccfcea1b5abdd0867f0296122c",
+    "state": "path-only-text-edit",
+    "diff_lines": 10
+  },
+  {
+    "original_path": "evidence/aesthetic-toolkit-2026-11-08/independent-review-01/B-commuter-final-flash.json",
+    "final_path": "evidence/2026-11-08-aesthetic-toolkit/independent-review-01/B-commuter-final-flash.json",
+    "original_bytes": 911,
+    "original_sha256": "bb97f5fcbc1f9245649c22c54c117ac5d6d5aa1079ca636673c81a60c55ab77e",
+    "final_bytes": 911,
+    "final_sha256": "feb1bb2f668615eb904eaa411af64bc8c129f2d3a9e6663b2167ba84c503efd0",
+    "state": "path-only-text-edit",
+    "diff_lines": 10
+  },
+  {
+    "original_path": "evidence/aesthetic-toolkit-2026-11-08/independent-review-01/B-rain-final-1080p-flash.json",
+    "final_path": "evidence/2026-11-08-aesthetic-toolkit/independent-review-01/B-rain-final-1080p-flash.json",
+    "original_bytes": 908,
+    "original_sha256": "703723f5ff4a18f5d044a9750f856244f7abcfc8fd5a791ff9f632f8c5964970",
+    "final_bytes": 908,
+    "final_sha256": "0eab32295d1fefdeb79ca47d160fc2604d81a66cce65a0dbda9213d4d68f855a",
+    "state": "path-only-text-edit",
+    "diff_lines": 10
+  },
+  {
+    "original_path": "evidence/aesthetic-toolkit-2026-11-08/independent-review-01/B-rain-final-flash.json",
+    "final_path": "evidence/2026-11-08-aesthetic-toolkit/independent-review-01/B-rain-final-flash.json",
+    "original_bytes": 907,
+    "original_sha256": "42ab682f7e6226c4b4496624c17356f7eaf474df2c7a37dd8e1f0cb149b091ae",
+    "final_bytes": 907,
+    "final_sha256": "de0d38a7e4411592024f81a9f8a8fe31d1e2077b8819336c42eb0525a87d85e7",
+    "state": "path-only-text-edit",
+    "diff_lines": 10
+  },
+  {
+    "original_path": "evidence/aesthetic-toolkit-2026-11-08/independent-review-01/browser-probe.mjs",
+    "final_path": "evidence/2026-11-08-aesthetic-toolkit/independent-review-01/browser-probe.mjs",
+    "original_bytes": 2501,
+    "original_sha256": "74c655a81083d890610a93b8c1b0a3e52108c2c137abc21858503b8080c49ac3",
+    "final_bytes": 2501,
+    "final_sha256": "f039f00264d9705dfa47454d25d2f6abb2caf9e2dad4da47dbb4ff134a9f0575",
+    "state": "path-only-text-edit",
+    "diff_lines": 10
+  },
+  {
+    "original_path": "evidence/aesthetic-toolkit-2026-11-08/independent-review-01/checks.json",
+    "final_path": "evidence/2026-11-08-aesthetic-toolkit/independent-review-01/checks.json",
+    "original_bytes": 20366,
+    "original_sha256": "10891c08417d5c8d5bb0669126d180c0a2e499034b0921e75be0d89427f8a41f",
+    "final_bytes": 20366,
+    "final_sha256": "30023a5c59b78bb6b5e8cd04a3ea4fd07965adc76468f722f6db1a07810314b2",
+    "state": "path-only-text-edit",
+    "diff_lines": 89
+  },
+  {
+    "original_path": "evidence/aesthetic-toolkit-2026-11-08/independent-review-01/cli-list.json",
+    "final_path": "evidence/2026-11-08-aesthetic-toolkit/independent-review-01/cli-list.json",
+    "original_bytes": 7792,
+    "original_sha256": "26d11a3ae147360592fdd2c9c84311cf102b00b030e894275a9c4e3a63d571a4",
+    "final_bytes": 7792,
+    "final_sha256": "d8449cb21580a9e8890eea3719059b0a48de84be6fd0ab75a26729fea0bbc4bb",
+    "state": "path-only-text-edit",
+    "diff_lines": 29
+  },
+  {
+    "original_path": "evidence/aesthetic-toolkit-2026-11-08/independent-review-01/effects2d-1080p-flash.json",
+    "final_path": "evidence/2026-11-08-aesthetic-toolkit/independent-review-01/effects2d-1080p-flash.json",
+    "original_bytes": 905,
+    "original_sha256": "2f02a77ffe6872814861c485fde8b790aa6108898d27f49a4c0101f4187902aa",
+    "final_bytes": 905,
+    "final_sha256": "424dfc416335e1d72361e7b4504106674408bb3784548d91ec611cfd76321323",
+    "state": "path-only-text-edit",
+    "diff_lines": 10
+  },
+  {
+    "original_path": "evidence/aesthetic-toolkit-2026-11-08/independent-review-01/effects2d-flash.json",
+    "final_path": "evidence/2026-11-08-aesthetic-toolkit/independent-review-01/effects2d-flash.json",
+    "original_bytes": 904,
+    "original_sha256": "8fa9e2afc72228c3c5f46e0eeaf320b0fe973da4be6135720eb67ab3eae944b2",
+    "final_bytes": 904,
+    "final_sha256": "cb1731489c99a4eecfeafe4e97839090f4b5c8290d10522cd02ac02ecbaaacbf",
+    "state": "path-only-text-edit",
+    "diff_lines": 10
+  },
+  {
+    "original_path": "evidence/aesthetic-toolkit-2026-11-08/independent-review-01/evidence-audit.mjs",
+    "final_path": "evidence/2026-11-08-aesthetic-toolkit/independent-review-01/evidence-audit.mjs",
+    "original_bytes": 3169,
+    "original_sha256": "a6905e7a6930a1e1ac00f4fb788095841512a4ffbdcbf3b5e3993204ac1f1748",
+    "final_bytes": 3169,
+    "final_sha256": "aa12b1361e782110e9857a8452096982abafaa54e8645c41ca9acd996b3b2529",
+    "state": "path-only-text-edit",
+    "diff_lines": 10
+  },
+  {
+    "original_path": "evidence/aesthetic-toolkit-2026-11-08/independent-review-01/extra-probes.mjs",
+    "final_path": "evidence/2026-11-08-aesthetic-toolkit/independent-review-01/extra-probes.mjs",
+    "original_bytes": 3262,
+    "original_sha256": "0f5b1429502cffb0db3b51ec8fd3ce204402e8977f81c5753511447c5cb690ea",
+    "final_bytes": 3262,
+    "final_sha256": "0239fdb4894b4aebe92c0826b151d4699332cd980c0ab6dff31275fc9cfe7865",
+    "state": "path-only-text-edit",
+    "diff_lines": 12
+  },
+  {
+    "original_path": "evidence/aesthetic-toolkit-2026-11-08/independent-review-01/finish-audit.mjs",
+    "final_path": "evidence/2026-11-08-aesthetic-toolkit/independent-review-01/finish-audit.mjs",
+    "original_bytes": 1786,
+    "original_sha256": "58caed260f23dbc2b3fb0891057568e57717c4818a01c952641a3ce6ec3aca51",
+    "final_bytes": 1786,
+    "final_sha256": "f570860c12218e035c78e7f269f766b4e1d30b0c0e1d300e757af191dea049a4",
+    "state": "path-only-text-edit",
+    "diff_lines": 10
+  },
+  {
+    "original_path": "evidence/aesthetic-toolkit-2026-11-08/independent-review-01/followup-probes.mjs",
+    "final_path": "evidence/2026-11-08-aesthetic-toolkit/independent-review-01/followup-probes.mjs",
+    "original_bytes": 4985,
+    "original_sha256": "159480152c1348cca93db6e50c26a6aa2095429174a104948573123e361eda1a",
+    "final_bytes": 4985,
+    "final_sha256": "84d63a324eab05039ea5aa7399557466b798da4692e95cfd0304b088d70ee155",
+    "state": "path-only-text-edit",
+    "diff_lines": 9
+  },
+  {
+    "original_path": "evidence/aesthetic-toolkit-2026-11-08/independent-review-01/forward-test.mjs",
+    "final_path": "evidence/2026-11-08-aesthetic-toolkit/independent-review-01/forward-test.mjs",
+    "original_bytes": 4037,
+    "original_sha256": "70c3b3bdc26586c0d9247789e9afd500d5e80d92a656432a18091f581e5a634a",
+    "final_bytes": 4037,
+    "final_sha256": "129369082e886a15e99dd70635de5597d9c9fa6fcbb6f815c36ea9122ec84839",
+    "state": "path-only-text-edit",
+    "diff_lines": 9
+  },
+  {
+    "original_path": "evidence/aesthetic-toolkit-2026-11-08/independent-review-01/probes.mjs",
+    "final_path": "evidence/2026-11-08-aesthetic-toolkit/independent-review-01/probes.mjs",
+    "original_bytes": 12153,
+    "original_sha256": "f14e7262caee0a9c280d6fb73093bfa268f808d4323d94f1c715c664b749d5be",
+    "final_bytes": 12153,
+    "final_sha256": "affd84f2c1c9c216fd7e7d868e8e15f9ed50619543064953c006a5740dbd2010",
+    "state": "path-only-text-edit",
+    "diff_lines": 9
+  },
+  {
+    "original_path": "evidence/aesthetic-toolkit-2026-11-08/independent-review-02/audit.mjs",
+    "final_path": "evidence/2026-11-08-aesthetic-toolkit/independent-review-02/audit.mjs",
+    "original_bytes": 7104,
+    "original_sha256": "ff2b100235986d265ce3bd28098471837a818ff038d5aacec6aec31daef0a356",
+    "final_bytes": 7104,
+    "final_sha256": "370f993efc331b519b964d1dfd4380456d67eb81c6ff95005bef289d569245b1",
+    "state": "path-only-text-edit",
+    "diff_lines": 11
+  },
+  {
+    "original_path": "evidence/aesthetic-toolkit-2026-11-08/independent-review-02/browser.json",
+    "final_path": "evidence/2026-11-08-aesthetic-toolkit/independent-review-02/browser.json",
+    "original_bytes": 50383,
+    "original_sha256": "ad57e90b2b52234eadddbc3da577c110b24ff774b04e6dbb833a8700fba6e5cd",
+    "final_bytes": 50383,
+    "final_sha256": "b02a0f502a9c97701fc0f011696708cd76e2d88be7b0e6c72a1d6118672b6890",
+    "state": "path-only-text-edit",
+    "diff_lines": 20
+  },
+  {
+    "original_path": "evidence/aesthetic-toolkit-2026-11-08/independent-review-02/cli-list.json",
+    "final_path": "evidence/2026-11-08-aesthetic-toolkit/independent-review-02/cli-list.json",
+    "original_bytes": 8043,
+    "original_sha256": "6008cca45a97ae0521bb1d6c2d80e28878a619b156fa9aabde473c3bc9554aa4",
+    "final_bytes": 8043,
+    "final_sha256": "a4a2e4408c76d4f05577dd80fcd8d7e652397a72d13315788bd51d307eabc13f",
+    "state": "path-only-text-edit",
+    "diff_lines": 29
+  },
+  {
+    "original_path": "evidence/aesthetic-toolkit-2026-11-08/independent-review-02/cpu.json",
+    "final_path": "evidence/2026-11-08-aesthetic-toolkit/independent-review-02/cpu.json",
+    "original_bytes": 4485,
+    "original_sha256": "84da65917fcd8e4be053defa87822cdc9be025319220a98d2709ff1a5661aac0",
+    "final_bytes": 4485,
+    "final_sha256": "4eb47ed680dd467926ce16dd70b8363fb21f897d0aa0c2acdd9ebf2c77e4a9e6",
+    "state": "path-only-text-edit",
+    "diff_lines": 17
+  },
+  {
+    "original_path": "evidence/aesthetic-toolkit-2026-11-08/independent-review-02/media.json",
+    "final_path": "evidence/2026-11-08-aesthetic-toolkit/independent-review-02/media.json",
+    "original_bytes": 9822,
+    "original_sha256": "df66a4517840f74fa93ffdd72e49d521118a5040d95d6f4e115d682b7e792ca6",
+    "final_bytes": 9822,
+    "final_sha256": "78edc8da0f577218fc44b955fdb57b17418e15ce05ec6f27421173770b72efe9",
+    "state": "path-only-text-edit",
+    "diff_lines": 599
+  },
+  {
+    "original_path": "evidence/aesthetic-toolkit-2026-11-08/independent-review-02/report.md",
+    "final_path": "evidence/2026-11-08-aesthetic-toolkit/independent-review-02/report.md",
+    "original_bytes": 16211,
+    "original_sha256": "b968e3d30541572e48670f49f889a1106ec72ceff4ad61dfa9627cdc64944206",
+    "final_bytes": 16211,
+    "final_sha256": "c7b42d0409791fa8faf38e729ae1828ca146b11623ff483ff7559802e989f637",
+    "state": "path-only-text-edit",
+    "diff_lines": 11
+  },
+  {
+    "original_path": "evidence/aesthetic-toolkit-2026-11-08/independent-review-02/results.json",
+    "final_path": "evidence/2026-11-08-aesthetic-toolkit/independent-review-02/results.json",
+    "original_bytes": 2196,
+    "original_sha256": "34f8929bcac903b3b5bb2ab2ab33e69a7b7232d5713036170ecb243241b139eb",
+    "final_bytes": 2196,
+    "final_sha256": "485c1826a720b463c1402e4ef203f91d56e54ac67f25250c8e04465bca71fc49",
+    "state": "path-only-text-edit",
+    "diff_lines": 9
+  },
+  {
+    "original_path": "evidence/aesthetic-toolkit-2026-11-08/independent-review-02/reviewed-source-hashes.json",
+    "final_path": "evidence/2026-11-08-aesthetic-toolkit/independent-review-02/reviewed-source-hashes.json",
+    "original_bytes": 13618,
+    "original_sha256": "f3c95e42aa439f4ef5b041ffff32d319d39e53eacf24c3b1928cd5e44fc1c7e7",
+    "final_bytes": 13618,
+    "final_sha256": "8287152a940e4d15acb0cba6e83d5d9e9e15d50ca1fe626be72535549d3e4428",
+    "state": "path-only-text-edit",
+    "diff_lines": 127
+  },
+  {
+    "original_path": "evidence/aesthetic-toolkit-2026-11-08/independent-review-02/supplement.mjs",
+    "final_path": "evidence/2026-11-08-aesthetic-toolkit/independent-review-02/supplement.mjs",
+    "original_bytes": 4960,
+    "original_sha256": "87548a8af69a80bcb14963071c07a7a254b883d163a311b5f95b2389a48bb958",
+    "final_bytes": 4960,
+    "final_sha256": "03784cb433a91890f597487d355c298a8af7500c3308b14878809ab6ff5153ae",
+    "state": "path-only-text-edit",
+    "diff_lines": 9
+  },
+  {
+    "original_path": "evidence/aesthetic-toolkit-2026-11-08/preservation-audit-final.json",
+    "final_path": "evidence/2026-11-08-aesthetic-toolkit/preservation-audit-final.json",
+    "original_bytes": 1573,
+    "original_sha256": "178bb3213ac6361e6bcd17605c516499c82207601cedb8ac7467df3515a876fd",
+    "final_bytes": 1573,
+    "final_sha256": "300caea482ee6f47e7d7f1c6b38fe033351b752f2f1a6b8b20192e8244949703",
+    "state": "path-only-text-edit",
+    "diff_lines": 11
+  },
+  {
+    "original_path": "evidence/aesthetic-toolkit-2026-11-08/preservation-audit.json",
+    "final_path": "evidence/2026-11-08-aesthetic-toolkit/preservation-audit.json",
+    "original_bytes": 1573,
+    "original_sha256": "50c808d951b22b0358d82e2803a0ee40483fdf526a5e519c97cbcb40a3ff5a32",
+    "final_bytes": 1573,
+    "final_sha256": "bfd49e43105628cdc1bda3d5f8f8ab9d329f7cc1674057943dea19904373aadc",
+    "state": "path-only-text-edit",
+    "diff_lines": 11
+  },
+  {
+    "original_path": "evidence/aesthetic-toolkit-2026-11-08/recheck-brief.md",
+    "final_path": "evidence/2026-11-08-aesthetic-toolkit/recheck-brief.md",
+    "original_bytes": 3310,
+    "original_sha256": "6751617529fdff560d764359e5110893c6b2788ee1a9648af557c9ba9373068f",
+    "final_bytes": 3310,
+    "final_sha256": "b2ca2056da2217a13b17d3beccd6487da1efb03998b3c88c84c91fde6b3ce40a",
+    "state": "path-only-text-edit",
+    "diff_lines": 10
+  },
+  {
+    "original_path": "evidence/aesthetic-toolkit-2026-11-08/style-list-closed-reveal.json",
+    "final_path": "evidence/2026-11-08-aesthetic-toolkit/style-list-closed-reveal.json",
+    "original_bytes": 8458,
+    "original_sha256": "6ccc50c67aca7cdf269fafae94ca9d195396c72209cf8ebfc9aa167e8a70f6dc",
+    "final_bytes": 8458,
+    "final_sha256": "1c899f49470872c3af7be9340aac46205b186f8b526fffeeec5bc0bb7ad0f39e",
+    "state": "path-only-text-edit",
+    "diff_lines": 29
+  },
+  {
+    "original_path": "evidence/aesthetic-toolkit-2026-11-08/style-list-final.json",
+    "final_path": "evidence/2026-11-08-aesthetic-toolkit/style-list-final.json",
+    "original_bytes": 8557,
+    "original_sha256": "63b8614d52efe5c5968ede13b408583d10cfd3bf0e1031a2d37f6e459f320b34",
+    "final_bytes": 8557,
+    "final_sha256": "f7515b013f531c3d4e935d64cc29e89ac9b72b1694f8b56aaabb7df3ef3c4ae3",
+    "state": "path-only-text-edit",
+    "diff_lines": 29
+  },
+  {
+    "original_path": "evidence/aesthetic-toolkit-2026-11-08/style-list-initial.json",
+    "final_path": "evidence/2026-11-08-aesthetic-toolkit/style-list-initial.json",
+    "original_bytes": 2413,
+    "original_sha256": "c09a4147ef87e5dad0bb0b9ea3b4fb20ac74e5acfd696ac1f3dfb2a414445bed",
+    "final_bytes": 2413,
+    "final_sha256": "f3389587c975ce704ebd05d45d18254816a918c5646e485aee9eb18ddd9d2b44",
+    "state": "path-only-text-edit",
+    "diff_lines": 29
+  },
+  {
+    "original_path": "evidence/aesthetic-toolkit-phase02-2026-11-08/coordinator/final-evidence-index.json",
+    "final_path": "evidence/2026-11-08-aesthetic-toolkit-phase02/coordinator/final-evidence-index.json",
+    "original_bytes": 25647,
+    "original_sha256": "10041c552fdcddc300bb260d25a7482a55ef0aad9bdf86d4a9bd52e6ada67cd7",
+    "final_bytes": 25701,
+    "final_sha256": "c2bee01494f2c101b7223aedf200b724f30f2ae98f8929397eb28f483fd4ff89",
+    "state": "path-only-text-edit",
+    "diff_lines": 28
+  },
+  {
+    "original_path": "evidence/aesthetic-toolkit-phase02-2026-11-08/coordinator/final-v3/seek.mjs",
+    "final_path": "evidence/2026-11-08-aesthetic-toolkit-phase02/coordinator/final-v3/seek.mjs",
+    "original_bytes": 1937,
+    "original_sha256": "58003e3667762999efe21fa604f5852e45dd9bf94ebca828476fdd9498bb2a77",
+    "final_bytes": 1937,
+    "final_sha256": "c1cee1c99a48df1dcedb3fc4c00bc2b8b25a0f3da78fd1c015eab4ce11aef2f5",
+    "state": "path-only-text-edit",
+    "diff_lines": 6
+  },
+  {
+    "original_path": "evidence/aesthetic-toolkit-phase02-2026-11-08/coordinator/fix-recheck/water-sweep.mjs",
+    "final_path": "evidence/2026-11-08-aesthetic-toolkit-phase02/coordinator/fix-recheck/water-sweep.mjs",
+    "original_bytes": 2179,
+    "original_sha256": "2c6ebc56ee541d97c4001a338ce346708ec3626381bb85a895783685da51ed3d",
+    "final_bytes": 2179,
+    "final_sha256": "f1e4387facc9e1bc0fedf8938e14b5e9aa309c42424d93fc7e3a9f96e7373d66",
+    "state": "path-only-text-edit",
+    "diff_lines": 8
+  },
+  {
+    "original_path": "evidence/aesthetic-toolkit-phase02-2026-11-08/coordinator/native-video-playback.json",
+    "final_path": "evidence/2026-11-08-aesthetic-toolkit-phase02/coordinator/native-video-playback.json",
+    "original_bytes": 1946,
+    "original_sha256": "3360834dc7ac4a6aa4c68e81c9ece21e6189fbaca09936004324084dc2235fe5",
+    "final_bytes": 1946,
+    "final_sha256": "f15ea93f43c8266e6a7a22d41485686e178546983ecedde569b532f4c0f6020d",
+    "state": "path-only-text-edit",
+    "diff_lines": 20
+  },
+  {
+    "original_path": "evidence/aesthetic-toolkit-phase02-2026-11-08/coordinator/style-list.json",
+    "final_path": "evidence/2026-11-08-aesthetic-toolkit-phase02/coordinator/style-list.json",
+    "original_bytes": 10426,
+    "original_sha256": "a9884cc8be8f60c46e03697c474f67848d2de8d7641acc8ab3965e0ed9e8bf9e",
+    "final_bytes": 10426,
+    "final_sha256": "716f40a73faed497788b49aa233a3a82d35e3b5b1291d6ca7959548ae227b529",
+    "state": "path-only-text-edit",
+    "diff_lines": 38
+  },
+  {
+    "original_path": "evidence/aesthetic-toolkit-phase02-2026-11-08/independent-recheck/cpu.mjs",
+    "final_path": "evidence/2026-11-08-aesthetic-toolkit-phase02/independent-recheck/cpu.mjs",
+    "original_bytes": 10957,
+    "original_sha256": "e6b268b407c1b740616e6889610a72c516ee8dd4020863c1d8b4c5d50728d695",
+    "final_bytes": 10957,
+    "final_sha256": "9edd1c64e0e30d31878dc8b039fca18d6225700d5b71bfb14b5f772f3d26e5ad",
+    "state": "path-only-text-edit",
+    "diff_lines": 11
+  },
+  {
+    "original_path": "evidence/aesthetic-toolkit-phase02-2026-11-08/independent-recheck/media.mjs",
+    "final_path": "evidence/2026-11-08-aesthetic-toolkit-phase02/independent-recheck/media.mjs",
+    "original_bytes": 11723,
+    "original_sha256": "f19732f4a2849a80608de7928f1df59f692318ce23209e6e0b0428bec50b5b6a",
+    "final_bytes": 11723,
+    "final_sha256": "c9dd5ded35b758b33cb3c4111211c1dcf0e514a41093c2668357efc3a57b0e8e",
+    "state": "path-only-text-edit",
+    "diff_lines": 18
+  },
+  {
+    "original_path": "evidence/aesthetic-toolkit-phase02-2026-11-08/independent-recheck/preserve.py",
+    "final_path": "evidence/2026-11-08-aesthetic-toolkit-phase02/independent-recheck/preserve.py",
+    "original_bytes": 1894,
+    "original_sha256": "571fecc8bcaff73419e9cbcd88232c209e5467ae9047fee1f972d18cca5e03df",
+    "final_bytes": 1912,
+    "final_sha256": "6f1f0d04cb5ab039726b7f299e4309de02e10d8f218b0cf583b6eaae9054fcac",
+    "state": "path-only-text-edit",
+    "diff_lines": 21
+  },
+  {
+    "original_path": "evidence/aesthetic-toolkit-phase02-2026-11-08/independent-review/additional-reviewed-hashes.json",
+    "final_path": "evidence/2026-11-08-aesthetic-toolkit-phase02/independent-review/additional-reviewed-hashes.json",
+    "original_bytes": 1088,
+    "original_sha256": "1494aad75e43047330a91abcda5db71a88a52595baa2b2d14da7bca81cb77e7a",
+    "final_bytes": 1142,
+    "final_sha256": "fd3a2941991ce96a156c1ac07c6386e37a38127f4975cdffc1facfad46da475b",
+    "state": "path-only-text-edit",
+    "diff_lines": 13
+  },
+  {
+    "original_path": "evidence/aesthetic-toolkit-phase02-2026-11-08/independent-review/closure-audit.mjs",
+    "final_path": "evidence/2026-11-08-aesthetic-toolkit-phase02/independent-review/closure-audit.mjs",
+    "original_bytes": 2942,
+    "original_sha256": "304f50888d4ca21586ec8d8fd28a6814f6446c4ab9799e89a2d7006faba64b06",
+    "final_bytes": 2942,
+    "final_sha256": "247f724c18461dcd445e5a4b3f8a6296f16425556d86c2f0d86171f07e149ba3",
+    "state": "path-only-text-edit",
+    "diff_lines": 9
+  },
+  {
+    "original_path": "evidence/aesthetic-toolkit-phase02-2026-11-08/independent-review/cpu.mjs",
+    "final_path": "evidence/2026-11-08-aesthetic-toolkit-phase02/independent-review/cpu.mjs",
+    "original_bytes": 10761,
+    "original_sha256": "ce0551c72e1d143bdc9886264adf1eb9f61f11b8d40f3eda7c8e888c26b03534",
+    "final_bytes": 10761,
+    "final_sha256": "5c8e752b89b74537c06f4a9bb17bced345b3949e26978ab1e8840aa1dc766b2c",
+    "state": "path-only-text-edit",
+    "diff_lines": 9
+  },
+  {
+    "original_path": "evidence/aesthetic-toolkit-phase02-2026-11-08/independent-review/extra-cpu.mjs",
+    "final_path": "evidence/2026-11-08-aesthetic-toolkit-phase02/independent-review/extra-cpu.mjs",
+    "original_bytes": 3666,
+    "original_sha256": "9ff95ad75f647a53aca694487bbe1cc5a8a9e3750c15bb84249ee3dbef535f70",
+    "final_bytes": 3666,
+    "final_sha256": "04cdc78d6a92470cb3c3a77ef17113f145c6e2a744e1829dfc11681a9d96e412",
+    "state": "path-only-text-edit",
+    "diff_lines": 8
+  },
+  {
+    "original_path": "evidence/aesthetic-toolkit-phase02-2026-11-08/independent-review/media-audit.mjs",
+    "final_path": "evidence/2026-11-08-aesthetic-toolkit-phase02/independent-review/media-audit.mjs",
+    "original_bytes": 3648,
+    "original_sha256": "41c65dc880fc5ce913980227a3b2abf1e0a8afbad34b77d7373b3a43c20336bf",
+    "final_bytes": 3648,
+    "final_sha256": "8062ba98035ff900919c6a868df4f6b443aa776da925d7247ac6ec8c4907e2f2",
+    "state": "path-only-text-edit",
+    "diff_lines": 11
+  },
+  {
+    "original_path": "evidence/aesthetic-toolkit-phase02-2026-11-08/independent-review/media.json",
+    "final_path": "evidence/2026-11-08-aesthetic-toolkit-phase02/independent-review/media.json",
+    "original_bytes": 15361,
+    "original_sha256": "1a3069d3e2bb0871835db2e363d78a7c38dfe734e1708ae45fa51b82dc341ce3",
+    "final_bytes": 15361,
+    "final_sha256": "83b4fc675eb1bf9ba27551a2aeb6f8e2593831f34363ef3dfba19df59fa7810e",
+    "state": "path-only-text-edit",
+    "diff_lines": 38
+  },
+  {
+    "original_path": "evidence/aesthetic-toolkit-phase02-2026-11-08/independent-review/repros.mjs",
+    "final_path": "evidence/2026-11-08-aesthetic-toolkit-phase02/independent-review/repros.mjs",
+    "original_bytes": 2581,
+    "original_sha256": "5f9c28ac985329f7a9bef2b4553d967242a5c24901cfcf9012ef345d8ba1050a",
+    "final_bytes": 2581,
+    "final_sha256": "e78f34a677601edc0af8bfd53ae80c72557e7d2afe2172bff3878b2b101a30b4",
+    "state": "path-only-text-edit",
+    "diff_lines": 9
+  },
+  {
+    "original_path": "evidence/aesthetic-toolkit-phase02-2026-11-08/independent-review/serve.mjs",
+    "final_path": "evidence/2026-11-08-aesthetic-toolkit-phase02/independent-review/serve.mjs",
+    "original_bytes": 3448,
+    "original_sha256": "619003ae2d8be5b6cc1592426f3673f107a0b63db6d33e4e0566a0d6f7656f2a",
+    "final_bytes": 3448,
+    "final_sha256": "b8e228342a3ba57774d0671d94fdf906f52723080552e8aca2817d745e2a3b9b",
+    "state": "path-only-text-edit",
+    "diff_lines": 13
+  },
+  {
+    "original_path": "evidence/aesthetic-toolkit-phase02-2026-11-08/independent-review/setup.mjs",
+    "final_path": "evidence/2026-11-08-aesthetic-toolkit-phase02/independent-review/setup.mjs",
+    "original_bytes": 3205,
+    "original_sha256": "0bb7249f179d2a02a65047e42f4ac00ff182ec4a0556ef27c9e66d9afaecdea2",
+    "final_bytes": 3205,
+    "final_sha256": "336ccb1b33c45c40432a452c47faad052a90a08e00ca7cec4aa609602e2d34d4",
+    "state": "path-only-text-edit",
+    "diff_lines": 15
+  },
+  {
+    "original_path": "evidence/aesthetic-toolkit-phase02-2026-11-08/independent-review/source-hashes-after.json",
+    "final_path": "evidence/2026-11-08-aesthetic-toolkit-phase02/independent-review/source-hashes-after.json",
+    "original_bytes": 11810,
+    "original_sha256": "c8b273beb14d250d932cfb9d0db52a111fd57024232d88fbcdfb6f991b7e15dc",
+    "final_bytes": 12026,
+    "final_sha256": "b47c8a773591bffb8701ef41d213e5355c382be2b5f8670c0af49f36a94fcf94",
+    "state": "path-only-text-edit",
+    "diff_lines": 41
+  },
+  {
+    "original_path": "evidence/aesthetic-toolkit-phase02-2026-11-08/independent-review/source-hashes-before.json",
+    "final_path": "evidence/2026-11-08-aesthetic-toolkit-phase02/independent-review/source-hashes-before.json",
+    "original_bytes": 11810,
+    "original_sha256": "c8b273beb14d250d932cfb9d0db52a111fd57024232d88fbcdfb6f991b7e15dc",
+    "final_bytes": 12026,
+    "final_sha256": "b47c8a773591bffb8701ef41d213e5355c382be2b5f8670c0af49f36a94fcf94",
+    "state": "path-only-text-edit",
+    "diff_lines": 41
+  },
+  {
+    "original_path": "evidence/aesthetic-toolkit-phase02-2026-11-08/independent-review/style-list.json",
+    "final_path": "evidence/2026-11-08-aesthetic-toolkit-phase02/independent-review/style-list.json",
+    "original_bytes": 10426,
+    "original_sha256": "a9884cc8be8f60c46e03697c474f67848d2de8d7641acc8ab3965e0ed9e8bf9e",
+    "final_bytes": 10426,
+    "final_sha256": "716f40a73faed497788b49aa233a3a82d35e3b5b1291d6ca7959548ae227b529",
+    "state": "path-only-text-edit",
+    "diff_lines": 38
+  },
+  {
+    "original_path": "evidence/aesthetic-toolkit-phase02-2026-11-08/independent-review/summary.json",
+    "final_path": "evidence/2026-11-08-aesthetic-toolkit-phase02/independent-review/summary.json",
+    "original_bytes": 1255,
+    "original_sha256": "1ef4572b40257bb7e79251c592a4830dd868f9dd90e7c96348236cd364a06247",
+    "final_bytes": 1273,
+    "final_sha256": "07117978e3efb2be381b553146318c2e68cb45e8a2686e023b353e7d510afa69",
+    "state": "path-only-text-edit",
+    "diff_lines": 10
+  },
+  {
+    "original_path": "evidence/aesthetic-toolkit-phase02-2026-11-08/retarget/evidence.json",
+    "final_path": "evidence/2026-11-08-aesthetic-toolkit-phase02/retarget/evidence.json",
+    "original_bytes": 7769,
+    "original_sha256": "c778ee351befeed440b455b044b5ffc6996d5d4dd98c50c14929277f3fb73b26",
+    "final_bytes": 7769,
+    "final_sha256": "2d9bf9e58632aa72c40d7988b104b210e2e22c76b95e6012d50e2eaf2e214e58",
+    "state": "path-only-text-edit",
+    "diff_lines": 38
+  },
+  {
+    "original_path": "evidence/aesthetic-toolkit-phase02-2026-11-08/retarget/salute-flash.json",
+    "final_path": "evidence/2026-11-08-aesthetic-toolkit-phase02/retarget/salute-flash.json",
+    "original_bytes": 913,
+    "original_sha256": "66c694c9c3591aff3e0f73e6134f1fe3a0a4469a4f20e6e907acc8735c7d93c8",
+    "final_bytes": 913,
+    "final_sha256": "251c368a4f3d636d8c4d8bed655d865a7e85e84b16567d1595e60f8ba1dae0a7",
+    "state": "path-only-text-edit",
+    "diff_lines": 10
+  },
+  {
+    "original_path": "evidence/aesthetic-toolkit-phase02-2026-11-08/retarget/stride-flash.json",
+    "final_path": "evidence/2026-11-08-aesthetic-toolkit-phase02/retarget/stride-flash.json",
+    "original_bytes": 913,
+    "original_sha256": "804ea19cbd3b3947fadb942581d65aa024447e811c2fa4d2e377de1d59c56756",
+    "final_bytes": 913,
+    "final_sha256": "c40425abf2f070f149ade4212740d2a3916cfd53656b9bc0486dd1ed9c0a1c3b",
+    "state": "path-only-text-edit",
+    "diff_lines": 10
+  },
+  {
+    "original_path": "evidence/audience-acceptance-20261110/audit-changes.md",
+    "final_path": "evidence/2026-11-10-audience-acceptance/audit-changes.md",
+    "original_bytes": 47790,
+    "original_sha256": "6a7f22d2db7c6ae259c04065a61966c2d907c0878ed4b25233d5a2196da3ea97",
+    "final_bytes": 47790,
+    "final_sha256": "5f94958829c3056c20002f8d101807f425e973fac3651a5e9fe6d697b915352c",
+    "state": "path-only-text-edit",
+    "diff_lines": 23
+  },
+  {
+    "original_path": "evidence/audience-acceptance-20261110/decision-baseline.md",
+    "final_path": "evidence/2026-11-10-audience-acceptance/decision-baseline.md",
+    "original_bytes": 3222,
+    "original_sha256": "ff74766b9e6f63ca15317335c62db149bac6ab230c3b71f5e0a23f8c89e06d91",
+    "final_bytes": 3224,
+    "final_sha256": "83527f0136388ed418ef7ac7943edccd1b21de2a904aea094516545de3ccaa7b",
+    "state": "path-only-text-edit",
+    "diff_lines": 11
+  },
+  {
+    "original_path": "evidence/audience-acceptance-20261110/plan-baseline.md",
+    "final_path": "evidence/2026-11-10-audience-acceptance/plan-baseline.md",
+    "original_bytes": 6310,
+    "original_sha256": "ece2c226f5ea221ee7817c1d48641398f43427b50c595c0b946d736e531df31a",
+    "final_bytes": 6312,
+    "final_sha256": "9d36cd2da5060735bc901c42c18d1b6975b1140aae8a1b8bf234e77d9905946a",
+    "state": "path-only-text-edit",
+    "diff_lines": 11
+  },
+  {
+    "original_path": "evidence/cinematic-animation-implementation-2026-11-08/README.md",
+    "final_path": "evidence/2026-11-08-cinematic-animation-implementation/README.md",
+    "original_bytes": 4578,
+    "original_sha256": "609836a9a3d4141888e6d74e719a7e11eeba8db208e7e31ab4dc9345ce421453",
+    "final_bytes": 4623,
+    "final_sha256": "6495a05ef71cdb8a09b773a21dc543fae3aa6a72ff9ed840ce3061a657166131",
+    "state": "path-only-text-edit",
+    "diff_lines": 32
+  },
+  {
+    "original_path": "evidence/cinematic-animation-implementation-2026-11-08/changes.json",
+    "final_path": "evidence/2026-11-08-cinematic-animation-implementation/changes.json",
+    "original_bytes": 6476,
+    "original_sha256": "356919619b14ed8cc866e76eb6f49135a957b8dce9d1bfcef75f473e7ba9bfb3",
+    "final_bytes": 6906,
+    "final_sha256": "134f8241515299c0a291532f1a73db998be90648ccbefe04193cc4403c50528c",
+    "state": "path-only-text-edit",
+    "diff_lines": 65
+  },
+  {
+    "original_path": "evidence/cinematic-animation-implementation-2026-11-08/comparison-manifest.json",
+    "final_path": "evidence/2026-11-08-cinematic-animation-implementation/comparison-manifest.json",
+    "original_bytes": 7321,
+    "original_sha256": "5954e49d2f7a35eb7452651ac5280c1f3442529258de73820d69c8d2aed51f75",
+    "final_bytes": 7321,
+    "final_sha256": "96003f8b747cc07f42f5fcb4f97671053addc85e8adc4eb934b9c8256ccbe9b6",
+    "state": "path-only-text-edit",
+    "diff_lines": 163
+  },
+  {
+    "original_path": "evidence/cinematic-animation-implementation-2026-11-08/review-gallery.html",
+    "final_path": "evidence/2026-11-08-cinematic-animation-implementation/review-gallery.html",
+    "original_bytes": 3957,
+    "original_sha256": "ec640073ac7f5833fc14ac76cbcfbe52e0fb7fed7dc921fdbf1db832fa90ed42",
+    "final_bytes": 3957,
+    "final_sha256": "34dc6dc276a91cf3ff2ba688d9b05bef4fe00fa74548ace90b9e71c6e684fdd0",
+    "state": "path-only-text-edit",
+    "diff_lines": 9
+  },
+  {
+    "original_path": "evidence/cinematic-animation-review-2026-11-08/README.md",
+    "final_path": "evidence/2026-11-08-cinematic-animation-review/README.md",
+    "original_bytes": 7866,
+    "original_sha256": "64179881ed7b1f6d40e786d3f667025ebc897692ec1c4d6fc79fcc26c3f71a6e",
+    "final_bytes": 7866,
+    "final_sha256": "83d3d40f0095e3540345f6d45225e8fa2a7cdb9ce34eae85a6da10e8d394d6bf",
+    "state": "path-only-text-edit",
+    "diff_lines": 148
+  },
+  {
+    "original_path": "evidence/cinematic-animation-review-2026-11-08/art-direction/extraction-manifest.json",
+    "final_path": "evidence/2026-11-08-cinematic-animation-review/art-direction/extraction-manifest.json",
+    "original_bytes": 12586,
+    "original_sha256": "65648fb14ba24da225ac08ef7c5a30392aee26b7abdac81ee01cde0dbc94a3ac",
+    "final_bytes": 12586,
+    "final_sha256": "f43deef1549ed46f91cfbd17030f33521dcb19c1ef832c0546ffa275d8a27452",
+    "state": "path-only-text-edit",
+    "diff_lines": 248
+  },
+  {
+    "original_path": "evidence/cinematic-animation-review-2026-11-08/cinematography/extraction-log.json",
+    "final_path": "evidence/2026-11-08-cinematic-animation-review/cinematography/extraction-log.json",
+    "original_bytes": 10895,
+    "original_sha256": "758de49eb0900db6949a84e43f43f22720623ec2651c4937d1751235bfcfeb36",
+    "final_bytes": 10895,
+    "final_sha256": "d1194b2d603d9ecce3c7c68e9a6006ef56a2b67e82e346980b2b841fdc6df71c",
+    "state": "path-only-text-edit",
+    "diff_lines": 261
+  },
+  {
+    "original_path": "evidence/cinematic-animation-review-2026-11-08/cinematography/write_report.py",
+    "final_path": "evidence/2026-11-08-cinematic-animation-review/cinematography/write_report.py",
+    "original_bytes": 37000,
+    "original_sha256": "fde47311b4c25416c87682f7d1ec66998c746d978868a17947be663ce7d4e284",
+    "final_bytes": 37007,
+    "final_sha256": "e18066afde72e37f8d496aa12c3f4ebc66634f493fe5ae404da1082def8eac02",
+    "state": "path-only-text-edit",
+    "diff_lines": 12
+  },
+  {
+    "original_path": "evidence/cinematic-animation-review-2026-11-08/manifest.json",
+    "final_path": "evidence/2026-11-08-cinematic-animation-review/manifest.json",
+    "original_bytes": 16076,
+    "original_sha256": "4411ad99117b44bc2e2b85a2befd211cbd85837f46712a5b8684463c4389ac17",
+    "final_bytes": 16076,
+    "final_sha256": "5096c2e20f733c2611a37350d4f8a25a8e56d89cd6dd834ecf10b52aae2b932e",
+    "state": "path-only-text-edit",
+    "diff_lines": 269
+  },
+  {
+    "original_path": "evidence/code-expression-20261110/comparisons.json",
+    "final_path": "evidence/2026-11-10-code-expression/comparisons.json",
+    "original_bytes": 1229,
+    "original_sha256": "6279724c88687e74e5c07965d935afe738d7071cb7dd4855e4977b63879f9dcd",
+    "final_bytes": 1235,
+    "final_sha256": "4a51c334c0af32a5ea2075cc94b1cca32f7099b95607399023af51539f8f6f70",
+    "state": "path-only-text-edit",
+    "diff_lines": 27
+  },
+  {
+    "original_path": "evidence/code-expression-20261110/delivery/results.json",
+    "final_path": "evidence/2026-11-10-code-expression/delivery/results.json",
+    "original_bytes": 2046,
+    "original_sha256": "e3f7728f16032d9e4368314d5bb7901e4bcf1a8bc603d64b422883acff24ef01",
+    "final_bytes": 2060,
+    "final_sha256": "92719c041f406a9ca7f13274e5675b6bb40f51ac8d8a10bd978b6ce6821dba51",
+    "state": "path-only-text-edit",
+    "diff_lines": 40
+  },
+  {
+    "original_path": "evidence/code-expression-20261110/delivery/verification/report.json",
+    "final_path": "evidence/2026-11-10-code-expression/delivery/verification/report.json",
+    "original_bytes": 21983,
+    "original_sha256": "cd5ef20ccbc665f9c5939b5304823745127a639796769fdd331c8f823ad64e60",
+    "final_bytes": 22007,
+    "final_sha256": "dc99506303ad0de782d8990ff945691d11af021dc592cdbfd1a1140538f1d090",
+    "state": "path-only-text-edit",
+    "diff_lines": 89
+  },
+  {
+    "original_path": "evidence/code-expression-20261110/delivery-audit.json",
+    "final_path": "evidence/2026-11-10-code-expression/delivery-audit.json",
+    "original_bytes": 3914,
+    "original_sha256": "63cefa8f038af1508a9a53e1e04782ad24ba569de42fa05419fc44356d83fbf6",
+    "final_bytes": 3920,
+    "final_sha256": "3f89b3864f9cd055ba96641d2bab7790d5f9cbe2820b3fa55275199713adc7a3",
+    "state": "path-only-text-edit",
+    "diff_lines": 29
+  },
+  {
+    "original_path": "evidence/code-expression-20261110/delivery-run.json",
+    "final_path": "evidence/2026-11-10-code-expression/delivery-run.json",
+    "original_bytes": 2138,
+    "original_sha256": "88e10f8de9e8a300cc921d4205928b73ed82ec50e88f66f99f1db0f0d997bc5a",
+    "final_bytes": 2154,
+    "final_sha256": "cb5c00c1f7ae3d945eda6db9e70d82b3efd2b4eb19a29cf82bbb9ff1c1ed3717",
+    "state": "path-only-text-edit",
+    "diff_lines": 42
+  },
+  {
+    "original_path": "evidence/code-expression-20261110/draft-render.json",
+    "final_path": "evidence/2026-11-10-code-expression/draft-render.json",
+    "original_bytes": 1353,
+    "original_sha256": "2158d4967eaa32ddea20f1a816bf9791a28338893980f156658a31a0815a941a",
+    "final_bytes": 1359,
+    "final_sha256": "319522950e10e4042194d3f566d5dcb5a8a4384463fd605beaee45d6d5c73fa0",
+    "state": "path-only-text-edit",
+    "diff_lines": 23
+  },
+  {
+    "original_path": "evidence/code-expression-20261110/final/results.json",
+    "final_path": "evidence/2026-11-10-code-expression/final/results.json",
+    "original_bytes": 2025,
+    "original_sha256": "5a37f801eb6b41330fe7c5602c53c9e49553db9303660c7b66e7bb121babe94e",
+    "final_bytes": 2039,
+    "final_sha256": "7cc4ea76781c036c5f87b7675e238c7ef0ba538a6f1f92507612f14630b46602",
+    "state": "path-only-text-edit",
+    "diff_lines": 40
+  },
+  {
+    "original_path": "evidence/code-expression-20261110/final/verification/report.json",
+    "final_path": "evidence/2026-11-10-code-expression/final/verification/report.json",
+    "original_bytes": 21960,
+    "original_sha256": "354735e56bf18a84ed7ea6c44836d3b3ca53ec900a40c8abea6f27d2de033a38",
+    "final_bytes": 21984,
+    "final_sha256": "41332cdcbe13799f67c0f0bbaf4fb5abc3cb2edd77ae5070768a22c43fd0dec9",
+    "state": "path-only-text-edit",
+    "diff_lines": 89
+  },
+  {
+    "original_path": "evidence/code-expression-20261110/fold-r1.json",
+    "final_path": "evidence/2026-11-10-code-expression/fold-r1.json",
+    "original_bytes": 581,
+    "original_sha256": "b85e54a42673300aca742f539348c2f09318bd783f5b4f0ab449055d60189055",
+    "final_bytes": 585,
+    "final_sha256": "1365c532308748ab45d58d2b9e0a7275e0b2980bedd09a099af9a8b3596aa8e0",
+    "state": "path-only-text-edit",
+    "diff_lines": 13
+  },
+  {
+    "original_path": "evidence/code-expression-20261110/fold-recheck/results.json",
+    "final_path": "evidence/2026-11-10-code-expression/fold-recheck/results.json",
+    "original_bytes": 752,
+    "original_sha256": "3011de441018a51a1a0f05bd92f2473ea7ddd57f0be8fd017329aca49617d56d",
+    "final_bytes": 758,
+    "final_sha256": "a342faf7b0cae44cb87762191323b1eb1de993cf964285910314c5c38ea02c93",
+    "state": "path-only-text-edit",
+    "diff_lines": 18
+  },
+  {
+    "original_path": "evidence/code-expression-20261110/fold-recheck/verification/report.json",
+    "final_path": "evidence/2026-11-10-code-expression/fold-recheck/verification/report.json",
+    "original_bytes": 6651,
+    "original_sha256": "2115d5c53b862a76a23b3527290356358658c587e343f5600e7e936ca91eb438",
+    "final_bytes": 6659,
+    "final_sha256": "33b06afadd516908c6b7783890fe627a841c896e66ff578ccc042e8fac5ea1c9",
+    "state": "path-only-text-edit",
+    "diff_lines": 31
+  },
+  {
+    "original_path": "evidence/code-expression-20261110/independent-review-evidence/extract.py",
+    "final_path": "evidence/2026-11-10-code-expression/independent-review-evidence/extract.py",
+    "original_bytes": 1554,
+    "original_sha256": "ed51624b0da3a053d58ec2e5257a824aa91342ff2995f191240e734a7eca4473",
+    "final_bytes": 1556,
+    "final_sha256": "1bb7b05ff31bfb96bc018688828987004db00b0252fe95aa57cc6a392d1ec548",
+    "state": "path-only-text-edit",
+    "diff_lines": 11
+  },
+  {
+    "original_path": "evidence/code-expression-20261110/independent-review-evidence/manifest.json",
+    "final_path": "evidence/2026-11-10-code-expression/independent-review-evidence/manifest.json",
+    "original_bytes": 20972,
+    "original_sha256": "9a07a940ecc680d2b9746cadd820a6d6d7123a8508739c5f5c54f5ccb4b8921a",
+    "final_bytes": 20992,
+    "final_sha256": "49e25bc2fd4107d95cc8649bd0967810d683ccd076436604ceb8c9fdffada5d8",
+    "state": "path-only-text-edit",
+    "diff_lines": 91
+  },
+  {
+    "original_path": "evidence/code-expression-20261110/independent-review-evidence/spotcheck.py",
+    "final_path": "evidence/2026-11-10-code-expression/independent-review-evidence/spotcheck.py",
+    "original_bytes": 1997,
+    "original_sha256": "bb66dac799a346366e52b5ac55c07911313e3c301ee03fd8eea8b37bbdc53712",
+    "final_bytes": 1999,
+    "final_sha256": "c2c8b3c4941a458a449cdb8414b4cd9c427dca5e7bec63f99c85ac1efd5deb65",
+    "state": "path-only-text-edit",
+    "diff_lines": 10
+  },
+  {
+    "original_path": "evidence/code-expression-20261110/pixel-comparisons.json",
+    "final_path": "evidence/2026-11-10-code-expression/pixel-comparisons.json",
+    "original_bytes": 1914,
+    "original_sha256": "2b93b64039ea785c7f4ea4b5935c22be66305a42a8c87ea0b2571b3f39afd1c6",
+    "final_bytes": 1930,
+    "final_sha256": "e38c28ba99fcc1bf32b0ed12f5fcce1ba9e197ed7ce13460b8d021bdcb70d042",
+    "state": "path-only-text-edit",
+    "diff_lines": 45
+  },
+  {
+    "original_path": "evidence/code-expression-20261110/produce-comparisons.mjs",
+    "final_path": "evidence/2026-11-10-code-expression/produce-comparisons.mjs",
+    "original_bytes": 1949,
+    "original_sha256": "67e5740d29124770b7a91dcc86b13300aa2aa12aef8b98df4f8051157d92bb5f",
+    "final_bytes": 1951,
+    "final_sha256": "7096830546b9f6acd9f18ea2ccc8d01799d923b6fbe3a4678f782c5db757edd9",
+    "state": "path-only-text-edit",
+    "diff_lines": 11
+  },
+  {
+    "original_path": "evidence/code-expression-20261110/run.json",
+    "final_path": "evidence/2026-11-10-code-expression/run.json",
+    "original_bytes": 2114,
+    "original_sha256": "669f3cc590844d9b5fdc2b9a8f063970b10e537b688a5647dce4432abd1629ca",
+    "final_bytes": 2130,
+    "final_sha256": "400add0b441c3b7a759aa2a1bee6b3b893eaee67076d0bb63bcbc782889d94ef",
+    "state": "path-only-text-edit",
+    "diff_lines": 42
+  },
+  {
+    "original_path": "evidence/code-expression-20261110/summarize-comparisons.py",
+    "final_path": "evidence/2026-11-10-code-expression/summarize-comparisons.py",
+    "original_bytes": 1572,
+    "original_sha256": "8e62fffef713c3fed94d89c3577de70d6f9a49e9f812289e4a3a4321c0c814d1",
+    "final_bytes": 1574,
+    "final_sha256": "d0dd3243f0ced92f712751f7d043574232439a80d61bdabd483bf73a05f301c0",
+    "state": "path-only-text-edit",
+    "diff_lines": 10
+  },
+  {
+    "original_path": "evidence/craft-review-20261109/implementation/REPORT.md",
+    "final_path": "evidence/2026-11-09-craft-review/implementation/REPORT.md",
+    "original_bytes": 7007,
+    "original_sha256": "e35fcca19d79820e5ee2a6ae64332951a2fa6b1b64829208d451b5f210f962f3",
+    "final_bytes": 7009,
+    "final_sha256": "6e1a9b896b38887a55c9ccf5e8911744ef15ba1ef33a7b313570313d3b4df8db",
+    "state": "path-only-text-edit",
+    "diff_lines": 11
+  },
+  {
+    "original_path": "evidence/craft-review-20261109/implementation/pixel-comparison.json",
+    "final_path": "evidence/2026-11-09-craft-review/implementation/pixel-comparison.json",
+    "original_bytes": 447,
+    "original_sha256": "567f3148de96db72f47f35c1d9ac811624dc86581abc390e084b51f1e9d8c60e",
+    "final_bytes": 451,
+    "final_sha256": "e5c1cad249916d9d12cd6c0d632075cc82c3e119dbbd8aae9a2e64c152425fe3",
+    "state": "path-only-text-edit",
+    "diff_lines": 12
+  },
+  {
+    "original_path": "evidence/craft-review-20261109/implementation/source-after-checks.sha256.json",
+    "final_path": "evidence/2026-11-09-craft-review/implementation/source-after-checks.sha256.json",
+    "original_bytes": 8276,
+    "original_sha256": "22d34ad5a9d0edcf1a0e1640e310d6476b2f9c8ad749fce8e6e8ba7092ea8548",
+    "final_bytes": 8827,
+    "final_sha256": "6acd86b584ae4342e882ebf657a08eb3dca8f92a1e82cbc67968c2e6ca7f3aa1",
+    "state": "path-only-text-edit",
+    "diff_lines": 45
+  },
+  {
+    "original_path": "evidence/craft-review-20261109/implementation/source-before-checks.sha256.json",
+    "final_path": "evidence/2026-11-09-craft-review/implementation/source-before-checks.sha256.json",
+    "original_bytes": 8276,
+    "original_sha256": "22d34ad5a9d0edcf1a0e1640e310d6476b2f9c8ad749fce8e6e8ba7092ea8548",
+    "final_bytes": 8827,
+    "final_sha256": "6acd86b584ae4342e882ebf657a08eb3dca8f92a1e82cbc67968c2e6ca7f3aa1",
+    "state": "path-only-text-edit",
+    "diff_lines": 45
+  },
+  {
+    "original_path": "evidence/craft-review-20261109/implementation/verify.py",
+    "final_path": "evidence/2026-11-09-craft-review/implementation/verify.py",
+    "original_bytes": 2806,
+    "original_sha256": "114cfed4ad17c6f75aee8e8648db353ab0506f4de5345ccdea1a81ac7f6fb1ff",
+    "final_bytes": 2808,
+    "final_sha256": "66831870a3677408b2904d4046f132e84769a41fd1b8bbfb58120de1cfc3a993",
+    "state": "path-only-text-edit",
+    "diff_lines": 10
+  },
+  {
+    "original_path": "evidence/dancer-increment-20261109/changed-files.json",
+    "final_path": "evidence/2026-11-09-dancer-increment/changed-files.json",
+    "original_bytes": 254182,
+    "original_sha256": "ff605f92315e28495c33acd7d8d35f778ad277e90562c697beccd5459624748f",
+    "final_bytes": 254208,
+    "final_sha256": "1ee98a8ba451c4dff9c76fa7ed57647d78bb9410ab5a927827d5fdc84d8b9831",
+    "state": "path-only-text-edit",
+    "diff_lines": 98
+  },
+  {
+    "original_path": "evidence/gap-closure-20261109/evidence-manifest.json",
+    "final_path": "evidence/2026-11-09-gap-closure/evidence-manifest.json",
+    "original_bytes": 1895,
+    "original_sha256": "f8401f117f78c725d9bb8fb46a0f0b5a99550f8817d6644775f0b19560850bbb",
+    "final_bytes": 1925,
+    "final_sha256": "c8f94a3408c970678337fbf1df61a7c3fbdb79a8150feca521869775358ba251",
+    "state": "path-only-text-edit",
+    "diff_lines": 35
+  },
+  {
+    "original_path": "evidence/global-install/installation.json",
+    "final_path": "evidence/2026-11-04-global-install/installation.json",
+    "original_bytes": 6910,
+    "original_sha256": "4b8305ce66d36913181f1898d2b3cd70db6aba2a4364a12b9f97571d06af0fbd",
+    "final_bytes": 6988,
+    "final_sha256": "98ff2d2f7bb8d3c071dabd469b359c7eb02498efbff962a29955ea89b86dfc05",
+    "state": "path-only-text-edit",
+    "diff_lines": 16
+  },
+  {
+    "original_path": "evidence/global-update-2026-11-05-224452-79c01a37/INSTALLATION.json",
+    "final_path": "evidence/2026-11-05-global-update-224452-79c01a37/INSTALLATION.json",
+    "original_bytes": 32475,
+    "original_sha256": "b3382719a457c4ca19744f2c4e586fd15b21fa6f57f27c3e37549f871b3bbaee",
+    "final_bytes": 32475,
+    "final_sha256": "8593dc2476e75f73d0c1cd0bfe862fbc82898926f1dbd1122e92be18bc859626",
+    "state": "path-only-text-edit",
+    "diff_lines": 206
+  },
+  {
+    "original_path": "evidence/global-update-2026-11-05-224452-79c01a37/RESULT.md",
+    "final_path": "evidence/2026-11-05-global-update-224452-79c01a37/RESULT.md",
+    "original_bytes": 5385,
+    "original_sha256": "28538e42c5e1fed62615d86fd72628b3c1e8963e97af58a766e9f1791f876486",
+    "final_bytes": 5385,
+    "final_sha256": "69cd573a264cfd74f8a74b46cede26b72e0532113f70c0d359ce5fccf2491c88",
+    "state": "path-only-text-edit",
+    "diff_lines": 11
+  },
+  {
+    "original_path": "evidence/global-update-2026-11-05-224452-79c01a37/ROLLBACK.md",
+    "final_path": "evidence/2026-11-05-global-update-224452-79c01a37/ROLLBACK.md",
+    "original_bytes": 1758,
+    "original_sha256": "367b049a070629bab525e0f93c15975bc3b69d11ecb1772c1c80e1b50f3b00eb",
+    "final_bytes": 1758,
+    "final_sha256": "5f6ce98eddaee7fe1fb9e1e10ae8b105d5a4d2f2ebcd7b98c6e58ec66ec0915a",
+    "state": "path-only-text-edit",
+    "diff_lines": 23
+  },
+  {
+    "original_path": "evidence/global-update-2026-11-05-224452-79c01a37/context.json",
+    "final_path": "evidence/2026-11-05-global-update-224452-79c01a37/context.json",
+    "original_bytes": 1001,
+    "original_sha256": "c82e3b257dedfddca7abf58c1270e4e25dde2091a8c197c868751862fba4f93f",
+    "final_bytes": 1001,
+    "final_sha256": "f045b48f639a91fbf20bf862fc488cf6d748b267000d667cfedcb32b301e1f97",
+    "state": "path-only-text-edit",
+    "diff_lines": 11
+  },
+  {
+    "original_path": "evidence/global-update-2026-11-05-224452-79c01a37/delivery.json",
+    "final_path": "evidence/2026-11-05-global-update-224452-79c01a37/delivery.json",
+    "original_bytes": 742,
+    "original_sha256": "8af92ee03f150fd810b05ca66f5c61e88a5f86fa43799f53e773b52a8bdb45db",
+    "final_bytes": 742,
+    "final_sha256": "807ff152cd8819381c0694c9e11133b1093e5aeddf7ad294dcc45818f8ca165a",
+    "state": "path-only-text-edit",
+    "diff_lines": 15
+  },
+  {
+    "original_path": "evidence/global-update-2026-11-05-224452-79c01a37/installed-after-apply.json",
+    "final_path": "evidence/2026-11-05-global-update-224452-79c01a37/installed-after-apply.json",
+    "original_bytes": 23373,
+    "original_sha256": "84c8d699b72733064524ab72b7771a7cf74aaa84097896ed87ed8f19c25820ae",
+    "final_bytes": 23451,
+    "final_sha256": "e36b56cfaf06c5a37018ab594a2ca5f2dddc515a80375ad3cc449dffecad384f",
+    "state": "path-only-text-edit",
+    "diff_lines": 20
+  },
+  {
+    "original_path": "evidence/global-update-2026-11-05-224452-79c01a37/installed-after.json",
+    "final_path": "evidence/2026-11-05-global-update-224452-79c01a37/installed-after.json",
+    "original_bytes": 195355,
+    "original_sha256": "33118e01bf8d14cb9db5b084e63f451c0226caba3c69b60db13ac90d4aeb641a",
+    "final_bytes": 195433,
+    "final_sha256": "e591d3f59dae6184184132b9e4f40a2035b6692ebb26ab13df1bb61f1f4fe311",
+    "state": "path-only-text-edit",
+    "diff_lines": 20
+  },
+  {
+    "original_path": "evidence/global-update-2026-11-05-224452-79c01a37/installed-before.json",
+    "final_path": "evidence/2026-11-05-global-update-224452-79c01a37/installed-before.json",
+    "original_bytes": 14093,
+    "original_sha256": "d7a24075258d5b33cda1e64054ebf92b557718254b058bd72ea85aa54dcfaf19",
+    "final_bytes": 14171,
+    "final_sha256": "717083cfafbeef08364d8a84132c7d2933ed6f6bce84cab11d592b0937ef50ed",
+    "state": "path-only-text-edit",
+    "diff_lines": 20
+  },
+  {
+    "original_path": "evidence/global-update-2026-11-05-224452-79c01a37/logs/apply-2.status.json",
+    "final_path": "evidence/2026-11-05-global-update-224452-79c01a37/logs/apply-2.status.json",
+    "original_bytes": 204,
+    "original_sha256": "71d1b59019a6c7f9b88a900e41d0df450e0f16c1006e9e9a3dc7642750edfbf3",
+    "final_bytes": 204,
+    "final_sha256": "1245414d35a9c0dc51c8e3b39f7cbe19a316354196eca18d7d36c6b49121ba94",
+    "state": "path-only-text-edit",
+    "diff_lines": 11
+  },
+  {
+    "original_path": "evidence/global-update-2026-11-05-224452-79c01a37/logs/apply.status.json",
+    "final_path": "evidence/2026-11-05-global-update-224452-79c01a37/logs/apply.status.json",
+    "original_bytes": 204,
+    "original_sha256": "65636847ec52e6d6dcfd113ae1fc4584e08b6b2e6948b4fb3f452819d090cb64",
+    "final_bytes": 204,
+    "final_sha256": "76690acbbe13eefc75d300b40aa20468557f555e42e43bd9ad8651f035477064",
+    "state": "path-only-text-edit",
+    "diff_lines": 11
+  },
+  {
+    "original_path": "evidence/global-update-2026-11-05-224452-79c01a37/logs/doctor.started.json",
+    "final_path": "evidence/2026-11-05-global-update-224452-79c01a37/logs/doctor.started.json",
+    "original_bytes": 944,
+    "original_sha256": "0ff5c0d8235074890dcdda636a5b845bb9c6423ddc4aff5bec4b12b3867f281b",
+    "final_bytes": 944,
+    "final_sha256": "6b77f10fbde80a1b0c73985d7d68aab300207763f28d519dde1bff569b8d0bb5",
+    "state": "path-only-text-edit",
+    "diff_lines": 20
+  },
+  {
+    "original_path": "evidence/global-update-2026-11-05-224452-79c01a37/logs/doctor.status.json",
+    "final_path": "evidence/2026-11-05-global-update-224452-79c01a37/logs/doctor.status.json",
+    "original_bytes": 1046,
+    "original_sha256": "077258b9a38e27b982e33969fb500098ad938cf34cbef304d61387d85dcef7f4",
+    "final_bytes": 1046,
+    "final_sha256": "23a38227c4512a85b108352f93707c586ebddc4fc86e67e26595229f086adf75",
+    "state": "path-only-text-edit",
+    "diff_lines": 22
+  },
+  {
+    "original_path": "evidence/global-update-2026-11-05-224452-79c01a37/logs/finalize.status.json",
+    "final_path": "evidence/2026-11-05-global-update-224452-79c01a37/logs/finalize.status.json",
+    "original_bytes": 207,
+    "original_sha256": "618f9fa45a93dcaa623a3f9693df180335d9288bca4f111205dca743b613c1d6",
+    "final_bytes": 207,
+    "final_sha256": "81dd4f2babde60daa9456116944696c210c557b3ba636911faccb5554cb11e7b",
+    "state": "path-only-text-edit",
+    "diff_lines": 11
+  },
+  {
+    "original_path": "evidence/global-update-2026-11-05-224452-79c01a37/logs/help.started.json",
+    "final_path": "evidence/2026-11-05-global-update-224452-79c01a37/logs/help.started.json",
+    "original_bytes": 938,
+    "original_sha256": "c7ca60c40ea03e812c3be249d73b8bde1937d14f26b7edec256d87f87a2440ae",
+    "final_bytes": 938,
+    "final_sha256": "c45fd308279c39769e0455e6ae8e4dde139bcdd0e86d7caed9a79ccd2da92b01",
+    "state": "path-only-text-edit",
+    "diff_lines": 20
+  },
+  {
+    "original_path": "evidence/global-update-2026-11-05-224452-79c01a37/logs/help.status.json",
+    "final_path": "evidence/2026-11-05-global-update-224452-79c01a37/logs/help.status.json",
+    "original_bytes": 1041,
+    "original_sha256": "5230b2bdd0806521a850d35bf012f2ffa702d3a9c6b842287b89c7263d511482",
+    "final_bytes": 1041,
+    "final_sha256": "fabe27dfc65203b3ddd64f5b33f2f8f42c13575348ffb77c444402b8b7837949",
+    "state": "path-only-text-edit",
+    "diff_lines": 22
+  },
+  {
+    "original_path": "evidence/global-update-2026-11-05-224452-79c01a37/logs/node-version.started.json",
+    "final_path": "evidence/2026-11-05-global-update-224452-79c01a37/logs/node-version.started.json",
+    "original_bytes": 936,
+    "original_sha256": "95e4ebdc35c117d203bafa4f8476e3b19400cd1df138e28c9199b433c1bb2745",
+    "final_bytes": 936,
+    "final_sha256": "24fbe3c70d8c34f0cbbed24e45714fe346721c48261c7db0268632851a7a089f",
+    "state": "path-only-text-edit",
+    "diff_lines": 20
+  },
+  {
+    "original_path": "evidence/global-update-2026-11-05-224452-79c01a37/logs/node-version.status.json",
+    "final_path": "evidence/2026-11-05-global-update-224452-79c01a37/logs/node-version.status.json",
+    "original_bytes": 1039,
+    "original_sha256": "00b290fe06a716a77393298ce78e8066e40c8f6dd34504c4e341d8e29b85f79e",
+    "final_bytes": 1039,
+    "final_sha256": "e47a52945355816d82e71fdeca186cf8e9eb80db564d1e6b7e57df9e50eac0ca",
+    "state": "path-only-text-edit",
+    "diff_lines": 22
+  },
+  {
+    "original_path": "evidence/global-update-2026-11-05-224452-79c01a37/logs/npm-test.started.json",
+    "final_path": "evidence/2026-11-05-global-update-224452-79c01a37/logs/npm-test.started.json",
+    "original_bytes": 918,
+    "original_sha256": "662b6378e99ea229e195ff41d8b6b70d00972a6c8d5aa09f917aafc60ee14db0",
+    "final_bytes": 918,
+    "final_sha256": "95bce1a655c3355083c33ab9ed6397061fea8a4114767c09fefa8f0ae6ce99a2",
+    "state": "path-only-text-edit",
+    "diff_lines": 20
+  },
+  {
+    "original_path": "evidence/global-update-2026-11-05-224452-79c01a37/logs/npm-test.status.json",
+    "final_path": "evidence/2026-11-05-global-update-224452-79c01a37/logs/npm-test.status.json",
+    "original_bytes": 1019,
+    "original_sha256": "c32ad83ab76ea894f02ec2ee9c1dd286cb1e3b52262cc8553f6f274fac5618aa",
+    "final_bytes": 1019,
+    "final_sha256": "e6ec1467d40ad9c0f3622b0814380fac9fe259f979f2f48499dccb52de78c37d",
+    "state": "path-only-text-edit",
+    "diff_lines": 22
+  },
+  {
+    "original_path": "evidence/global-update-2026-11-05-224452-79c01a37/logs/npm-version.started.json",
+    "final_path": "evidence/2026-11-05-global-update-224452-79c01a37/logs/npm-version.started.json",
+    "original_bytes": 932,
+    "original_sha256": "faf90f7e144539f30677e6169aac8b2132e06fcd4912a080863d00f6ef8e1c92",
+    "final_bytes": 932,
+    "final_sha256": "8c92d9685a2d43cb17ec147e3cf2b32f4b9702604ba13c91ef6bcc64f9542b78",
+    "state": "path-only-text-edit",
+    "diff_lines": 20
+  },
+  {
+    "original_path": "evidence/global-update-2026-11-05-224452-79c01a37/logs/npm-version.status.json",
+    "final_path": "evidence/2026-11-05-global-update-224452-79c01a37/logs/npm-version.status.json",
+    "original_bytes": 1035,
+    "original_sha256": "27d34c3e72e32bc2431fafae6e94daf1af87c0a662befb95518eaaea5eb1a2af",
+    "final_bytes": 1035,
+    "final_sha256": "a108eec771c53ff2f905ff67a9a376c32dbb82c0b6e5ce8334800168499e6594",
+    "state": "path-only-text-edit",
+    "diff_lines": 22
+  },
+  {
+    "original_path": "evidence/global-update-2026-11-05-224452-79c01a37/logs/prepare-2.status.json",
+    "final_path": "evidence/2026-11-05-global-update-224452-79c01a37/logs/prepare-2.status.json",
+    "original_bytes": 206,
+    "original_sha256": "6f2b8e55013b31b9e258ec33fe38f268a88a7aecef43ec590b60b40ba2e11b32",
+    "final_bytes": 206,
+    "final_sha256": "39d5de3fab1871d534140a76db20ffa73e9c1c313e49eb85ba8d6452bff34ce9",
+    "state": "path-only-text-edit",
+    "diff_lines": 11
+  },
+  {
+    "original_path": "evidence/global-update-2026-11-05-224452-79c01a37/logs/prepare.status.json",
+    "final_path": "evidence/2026-11-05-global-update-224452-79c01a37/logs/prepare.status.json",
+    "original_bytes": 304,
+    "original_sha256": "5ce356ea3f7c67ea690c4b0858d3be69db1c51454b5ab0ee4f3d3285371d5c10",
+    "final_bytes": 304,
+    "final_sha256": "8a1b91db2237381a854352899aef1da96b296cd0f9e6f9b2ede54ca5d1eea2a3",
+    "state": "path-only-text-edit",
+    "diff_lines": 11
+  },
+  {
+    "original_path": "evidence/global-update-2026-11-05-224452-79c01a37/logs/quick-validate.started.json",
+    "final_path": "evidence/2026-11-05-global-update-224452-79c01a37/logs/quick-validate.started.json",
+    "original_bytes": 1054,
+    "original_sha256": "347a11c7fdc0cda75710827f1100ae7a3390d002f2c1a5c3799a9ddd41bd5e61",
+    "final_bytes": 1054,
+    "final_sha256": "eafdca1c3f473b1c7fe8f4e10a46137a6848de6e845524b616773ae7f69b6a66",
+    "state": "path-only-text-edit",
+    "diff_lines": 20
+  },
+  {
+    "original_path": "evidence/global-update-2026-11-05-224452-79c01a37/logs/quick-validate.status.json",
+    "final_path": "evidence/2026-11-05-global-update-224452-79c01a37/logs/quick-validate.status.json",
+    "original_bytes": 1156,
+    "original_sha256": "772a3241f1488bc28d17d4e60996569f9b477a14b06ea868b9793a99f9a59e62",
+    "final_bytes": 1156,
+    "final_sha256": "ec26697ed9625376db4b4ddae6a5bc82b0ffac7c681821287437bbc28cda61bb",
+    "state": "path-only-text-edit",
+    "diff_lines": 22
+  },
+  {
+    "original_path": "evidence/global-update-2026-11-05-224452-79c01a37/post-verification.json",
+    "final_path": "evidence/2026-11-05-global-update-224452-79c01a37/post-verification.json",
+    "original_bytes": 2558,
+    "original_sha256": "cd4c3dc5369bbfaa5da383ad3d1c53bc9db40604906704c64eaa5a3b5054b1de",
+    "final_bytes": 2558,
+    "final_sha256": "46c00cd82a3d91141252ff7be2bf7ba6be20311cf9dbe5dafd5784783ce2138f",
+    "state": "path-only-text-edit",
+    "diff_lines": 11
+  },
+  {
+    "original_path": "evidence/global-update-2026-11-05-224452-79c01a37/source-after-apply.json",
+    "final_path": "evidence/2026-11-05-global-update-224452-79c01a37/source-after-apply.json",
+    "original_bytes": 12755,
+    "original_sha256": "daecb3fcc4d4fdf1eb52d57c1ffc81400e96f8dfdb07d927c362d7322d9fa555",
+    "final_bytes": 12833,
+    "final_sha256": "3759f43fe7a4b1732a096cf21ce8e62b9a2ff9caa7c0fb37f4e19effed9ac00a",
+    "state": "path-only-text-edit",
+    "diff_lines": 14
+  },
+  {
+    "original_path": "evidence/global-update-2026-11-05-224452-79c01a37/source-after.json",
+    "final_path": "evidence/2026-11-05-global-update-224452-79c01a37/source-after.json",
+    "original_bytes": 12798,
+    "original_sha256": "65bb8e16e48997cd0c6287e58b22f8a8dd1b3dba0e8d0180220fffb2cc872d77",
+    "final_bytes": 12876,
+    "final_sha256": "bf3d04a97c2b9d6c0d706edcb4b5eca26e31bba0f21256a69d97de0911e3ec78",
+    "state": "path-only-text-edit",
+    "diff_lines": 14
+  },
+  {
+    "original_path": "evidence/global-update-2026-11-05-224452-79c01a37/source-before.json",
+    "final_path": "evidence/2026-11-05-global-update-224452-79c01a37/source-before.json",
+    "original_bytes": 12317,
+    "original_sha256": "af17189dc41bd8f1a446436a9b297759c022ff08ac5176dc120e95b493137247",
+    "final_bytes": 12395,
+    "final_sha256": "9406302ef4efb7d044b753bb80183e844fc742f29cb7f85bb50ea545e47d652a",
+    "state": "path-only-text-edit",
+    "diff_lines": 14
+  },
+  {
+    "original_path": "evidence/global-update-2026-11-05-224452-79c01a37/validation-artifacts.json",
+    "final_path": "evidence/2026-11-05-global-update-224452-79c01a37/validation-artifacts.json",
+    "original_bytes": 1321,
+    "original_sha256": "737bbf3317fa105a9274a3498f88104e2f3b1a5b63c7e15a925883165b4580d4",
+    "final_bytes": 1321,
+    "final_sha256": "5d8a2c0fb75bc961897463c84fa8f9ce561131bcb9942ae5f5bd3591fab6bc8e",
+    "state": "path-only-text-edit",
+    "diff_lines": 9
+  },
+  {
+    "original_path": "evidence/global-update-2026-11-05-224452-79c01a37/validation-commands.json",
+    "final_path": "evidence/2026-11-05-global-update-224452-79c01a37/validation-commands.json",
+    "original_bytes": 6603,
+    "original_sha256": "eb0bb0e45ea973c194ae96f70e65771cf3b414d14325eddcaba812f9921e4fc6",
+    "final_bytes": 6603,
+    "final_sha256": "af8ccc0219008cac160c3c80d753f61d06d75719bcdf0f56849b488944cfc993",
+    "state": "path-only-text-edit",
+    "diff_lines": 122
+  },
+  {
+    "original_path": "evidence/global-update-2026-11-05-224452-79c01a37/validation-configuration.json",
+    "final_path": "evidence/2026-11-05-global-update-224452-79c01a37/validation-configuration.json",
+    "original_bytes": 949,
+    "original_sha256": "b0a6b7c5850b2c6af73fa1b251d54bd7d173e82a4e5cfdfce261acc1eb24aa6c",
+    "final_bytes": 949,
+    "final_sha256": "16f11642bee152dffa32d9a292d7c08f324ab15d7c9f7377fe1441a8be7b7a72",
+    "state": "path-only-text-edit",
+    "diff_lines": 16
+  },
+  {
+    "original_path": "evidence/harbor-v2/PLAN.md",
+    "final_path": "evidence/2026-11-04-harbor-v2/PLAN.md",
+    "original_bytes": 4585,
+    "original_sha256": "528606fe6682c70d7b1ff43f7fda42154e9b20d17fa3af73dcbdacb965e61052",
+    "final_bytes": 4596,
+    "final_sha256": "7879e5e18ed9ab2c8bd669454eb1654d0da1b55fc4d03c9a2a69b32ddec7b13a",
+    "state": "path-only-text-edit",
+    "diff_lines": 11
+  },
+  {
+    "original_path": "evidence/harbor-v2/REVIEW.md",
+    "final_path": "evidence/2026-11-04-harbor-v2/REVIEW.md",
+    "original_bytes": 8611,
+    "original_sha256": "ea6367e9ee4cc946eebd9a2af63630ebe0f47c0d88ffddb6b164db980319fd75",
+    "final_bytes": 8633,
+    "final_sha256": "0f0cfdfc8c3ee095593af0e7cd47700ef27c9309b23ee7faf3dc287ad2634942",
+    "state": "path-only-text-edit",
+    "diff_lines": 17
+  },
+  {
+    "original_path": "evidence/harbor-v2/before-window-fix/delivery-check.json",
+    "final_path": "evidence/2026-11-04-harbor-v2/before-window-fix/delivery-check.json",
+    "original_bytes": 3131,
+    "original_sha256": "c3e07311517cf7bc004df7a3247207081c4367367dab1d5c363b4619519f7641",
+    "final_bytes": 3235,
+    "final_sha256": "4c75fd2b4d5224c90a89e05c567efbd7eb6e33b23608147b28d23733e130fd6a",
+    "state": "path-only-text-edit",
+    "diff_lines": 29
+  },
+  {
+    "original_path": "evidence/harbor-v2/check-review.mjs",
+    "final_path": "evidence/2026-11-04-harbor-v2/check-review.mjs",
+    "original_bytes": 1870,
+    "original_sha256": "8a695dc3bbfcb3d0c5f1b196ba2f1e41a3424c711e5386f4b69e116f7b439596",
+    "final_bytes": 1892,
+    "final_sha256": "889cf03b806e66726d3a54dcc2214b79f1797c0541ef92ff569e6b9e83447cd3",
+    "state": "path-only-text-edit",
+    "diff_lines": 20
+  },
+  {
+    "original_path": "evidence/harbor-v2/compare-output.py",
+    "final_path": "evidence/2026-11-04-harbor-v2/compare-output.py",
+    "original_bytes": 1616,
+    "original_sha256": "db62732c029cb5058abfeb534129b1ef94a935ccc3a3d393e38752cfcd8ae5f2",
+    "final_bytes": 1627,
+    "final_sha256": "ade98a5228336270a5f9407a4aa3f21e1fb2a775cbbfb556ec46c0f4d26623f4",
+    "state": "path-only-text-edit",
+    "diff_lines": 11
+  },
+  {
+    "original_path": "evidence/harbor-v2/delivery-check.json",
+    "final_path": "evidence/2026-11-04-harbor-v2/delivery-check.json",
+    "original_bytes": 3236,
+    "original_sha256": "c525a6b2381fc259db8d99f8d40159466899514367171dc19703e9e7da7889a4",
+    "final_bytes": 3329,
+    "final_sha256": "c84670869df23d6db86e2dafd72453cace98bbd40780697e7005f1cd2878f25a",
+    "state": "path-only-text-edit",
+    "diff_lines": 25
+  },
+  {
+    "original_path": "evidence/harbor-v2/preserved.json",
+    "final_path": "evidence/2026-11-04-harbor-v2/preserved.json",
+    "original_bytes": 1081,
+    "original_sha256": "b4c51c308509a7dad4b7fe97f5d1c9a9e5ad276937e42c9ce06a18e314d6fcf3",
+    "final_bytes": 1141,
+    "final_sha256": "b076b6dd0a2bf193ba19c7f27b4d4de9801a112a6324003f6cc7487e6a899cff",
+    "state": "path-only-text-edit",
+    "diff_lines": 11
+  },
+  {
+    "original_path": "evidence/harbor-v2/serve-review.mjs",
+    "final_path": "evidence/2026-11-04-harbor-v2/serve-review.mjs",
+    "original_bytes": 1060,
+    "original_sha256": "71b40182954d930fa0d7aac0dc4a13c98e9d2af1b309389127a4867e6cc31263",
+    "final_bytes": 1082,
+    "final_sha256": "bd020dfe4aa2d26d5606ef962fba8735f66b7f5ccd5797a7d33e30c2688a9dea",
+    "state": "path-only-text-edit",
+    "diff_lines": 11
+  },
+  {
+    "original_path": "evidence/harbor-v2/verify-work.mjs",
+    "final_path": "evidence/2026-11-04-harbor-v2/verify-work.mjs",
+    "original_bytes": 5033,
+    "original_sha256": "f0ba73c4d2e475c05821cf15f2ec02b7543af5de3d22c3ce0557ce637278efa6",
+    "final_bytes": 5044,
+    "final_sha256": "46a06def9bfa768fe7bb0d22b5f866cdf138584530568e69290ec34cee9fb9fc",
+    "state": "path-only-text-edit",
+    "diff_lines": 11
+  },
+  {
+    "original_path": "evidence/motion-authoring-20261110/plan-input.json",
+    "final_path": "evidence/2026-11-10-motion-authoring/plan-input.json",
+    "original_bytes": 2942,
+    "original_sha256": "be2daa79229e16e6ac3003a006c0cc4c240eebd9f5c88803835b7ef14dfd4eb8",
+    "final_bytes": 2954,
+    "final_sha256": "98755ef83ff4203fe3b5f581cb8ab59a40c43c341e4e292ae7dd89622c773c55",
+    "state": "path-only-text-edit",
+    "diff_lines": 48
+  },
+  {
+    "original_path": "evidence/motion-authoring-20261110/plans/audit-a.json",
+    "final_path": "evidence/2026-11-10-motion-authoring/plans/audit-a.json",
+    "original_bytes": 1319,
+    "original_sha256": "b7dde4cee4690fb5e30f7ca37af6a4c2224dcd576adb4d1e866efd6db98796dd",
+    "final_bytes": 1343,
+    "final_sha256": "cd0803a62f4ec49e80721e6bb2d2d9dac7dd076583ddbe6d0692ab45ea9350fb",
+    "state": "path-only-text-edit",
+    "diff_lines": 21
+  },
+  {
+    "original_path": "evidence/motion-authoring-20261110/plans/audit-b.json",
+    "final_path": "evidence/2026-11-10-motion-authoring/plans/audit-b.json",
+    "original_bytes": 1887,
+    "original_sha256": "bcbf9dc8ba335904fde95ab4b04d57acac7cc9929ebbd409620a65580d2b80f5",
+    "final_bytes": 1923,
+    "final_sha256": "7bb211bca288f2fbb99895f9a100a4257b91d8bb6bad7e87c72d9eb38aede78b",
+    "state": "path-only-text-edit",
+    "diff_lines": 27
+  },
+  {
+    "original_path": "evidence/motion-authoring-20261110/plans/plan-a.md",
+    "final_path": "evidence/2026-11-10-motion-authoring/plans/plan-a.md",
+    "original_bytes": 15176,
+    "original_sha256": "0bf84c9184d05bdbbc380bcbb9a6957db8527ada07b033d1199986d658096a5e",
+    "final_bytes": 15190,
+    "final_sha256": "b628f4ee1cf37ce25cb2aa38b11b9288c30215501cf64e7c322dc182ef9b2e32",
+    "state": "path-only-text-edit",
+    "diff_lines": 22
+  },
+  {
+    "original_path": "evidence/motion-authoring-20261110/plans/plan-b.md",
+    "final_path": "evidence/2026-11-10-motion-authoring/plans/plan-b.md",
+    "original_bytes": 17387,
+    "original_sha256": "f49d0a44a4f7b028ab4ede18f955480f24b6dd53b1e5b8ea94432b13f50f2a87",
+    "final_bytes": 17401,
+    "final_sha256": "112f1f813de1ab86ee581ed2b51819b16d72f53eba99388c62bd23cce99f3fae",
+    "state": "path-only-text-edit",
+    "diff_lines": 20
+  },
+  {
+    "original_path": "evidence/motion-authoring-20261110/verification/check-links.py",
+    "final_path": "evidence/2026-11-10-motion-authoring/verification/check-links.py",
+    "original_bytes": 1843,
+    "original_sha256": "e2ffc5ce2cf90ec785024cc0ddabe308ff1110a33577e13fc0fb9244f4c3a378",
+    "final_bytes": 1847,
+    "final_sha256": "2619043eab3aa822bc2625d809c6ddac52c0d5c02463535c65b932bc1cc4a627",
+    "state": "path-only-text-edit",
+    "diff_lines": 18
+  },
+  {
+    "original_path": "evidence/motion-authoring-20261110/verification/final-artifacts.sha256.json",
+    "final_path": "evidence/2026-11-10-motion-authoring/verification/final-artifacts.sha256.json",
+    "original_bytes": 1671,
+    "original_sha256": "2391d8273fd706c22143734c20e7fdbb20c15a0ebdc51c0f0ea5fd15c2cbb113",
+    "final_bytes": 1677,
+    "final_sha256": "8d92a1bab97e1df0aeb2f65e22ab69f106627dd4a5d12031c67560ffae4f4420",
+    "state": "path-only-text-edit",
+    "diff_lines": 13
+  },
+  {
+    "original_path": "evidence/motion-authoring-20261110/verification/links.json",
+    "final_path": "evidence/2026-11-10-motion-authoring/verification/links.json",
+    "original_bytes": 10416,
+    "original_sha256": "e759f36959c3cfac8f1527d591173d93392eb771e0c005d9459b1cfbacbc9c88",
+    "final_bytes": 10422,
+    "final_sha256": "797118026b12622f4381396b21e16658823084e7dc634b314557355efe378341",
+    "state": "path-only-text-edit",
+    "diff_lines": 28
+  },
+  {
+    "original_path": "evidence/motion-authoring-20261110/verification/loop-check.json",
+    "final_path": "evidence/2026-11-10-motion-authoring/verification/loop-check.json",
+    "original_bytes": 2516,
+    "original_sha256": "bca280945d535f2a6ddd38e62f49c834b0810e546bb7502d93b176c85182f3bf",
+    "final_bytes": 2544,
+    "final_sha256": "1e223c011e4651d097196e9bdbdb0d252de3fdba44cc7890cd919d669cd5ef5b",
+    "state": "path-only-text-edit",
+    "diff_lines": 5
+  },
+  {
+    "original_path": "evidence/motion-authoring-20261110/verification/loop-status.json",
+    "final_path": "evidence/2026-11-10-motion-authoring/verification/loop-status.json",
+    "original_bytes": 2737,
+    "original_sha256": "7445e792d61430751713c8e31cdeed94d1bdf3a3eb59e8f497221cee564319c3",
+    "final_bytes": 2765,
+    "final_sha256": "f405add66b980b34990c434037731edeff0dce57f38b0b41d01ad199f8958bfb",
+    "state": "path-only-text-edit",
+    "diff_lines": 5
+  },
+  {
+    "original_path": "evidence/motion-authoring-20261110/verification/test-input-hashes.json",
+    "final_path": "evidence/2026-11-10-motion-authoring/verification/test-input-hashes.json",
+    "original_bytes": 14999,
+    "original_sha256": "d75dfb6f10d3a41ff0d94040123831a4d54466f28b4c580a36a0bd9cf65c470c",
+    "final_bytes": 15738,
+    "final_sha256": "addbe64ec1881186290e787744157def8120cbe391849a2732b45f60438d9597",
+    "state": "path-only-text-edit",
+    "diff_lines": 59
+  },
+  {
+    "original_path": "evidence/release-20261109/installed-hash-parity.json",
+    "final_path": "evidence/2026-11-09-release/installed-hash-parity.json",
+    "original_bytes": 449609,
+    "original_sha256": "e29414fcc784980e5e832dbb98751af89c98c37eb7255e3745c93121b2a5355e",
+    "final_bytes": 454134,
+    "final_sha256": "da8dde5ac78f6d71afccabe07d962bc119f10a9f2acba18c78ef14778f490f75",
+    "state": "path-only-text-edit",
+    "diff_lines": 1660
+  },
+  {
+    "original_path": "evidence/release-20261109/installed-styles.json",
+    "final_path": "evidence/2026-11-09-release/installed-styles.json",
+    "original_bytes": 10426,
+    "original_sha256": "a9884cc8be8f60c46e03697c474f67848d2de8d7641acc8ab3965e0ed9e8bf9e",
+    "final_bytes": 10426,
+    "final_sha256": "716f40a73faed497788b49aa233a3a82d35e3b5b1291d6ca7959548ae227b529",
+    "state": "path-only-text-edit",
+    "diff_lines": 38
+  },
+  {
+    "original_path": "evidence/release-20261109/removed-standalone-inventory.json",
+    "final_path": "evidence/2026-11-09-release/removed-standalone-inventory.json",
+    "original_bytes": 51169,
+    "original_sha256": "9e9bdd048a4cdb67f54c1c8458fc9faa44e88775fba9f44a02f4759232cbc4f0",
+    "final_bytes": 52116,
+    "final_sha256": "8ce603d2e1fcee57fa25646b5190dbe2971ade7a88999e285960e9dece7ccc60",
+    "state": "path-only-text-edit",
+    "diff_lines": 261
+  },
+  {
+    "original_path": "evidence/release-20261109/standalone-unique-paths.json",
+    "final_path": "evidence/2026-11-09-release/standalone-unique-paths.json",
+    "original_bytes": 2661,
+    "original_sha256": "e7dff4b9befb81fa249cf7ab398be7b0fc2c80a1ba73099a5e996be4db351e1f",
+    "final_bytes": 3475,
+    "final_sha256": "7d23638f1904ab4a3de19ddd3c4b5c76f9cc4d50b5d35a8e4d6284b9d70118e1",
+    "state": "path-only-text-edit",
+    "diff_lines": 92
+  },
+  {
+    "original_path": "evidence/skill-production-loop-20261109/closure.md",
+    "final_path": "evidence/2026-11-09-skill-production-loop/closure.md",
+    "original_bytes": 3404,
+    "original_sha256": "d07a573cf672c0ddc1b81c33030830018bad53a64e9e57c6cd1eb1f55c361411",
+    "final_bytes": 3406,
+    "final_sha256": "64d50efdecd2374221f80e253da9e8a3ca85fc6f275bd3c3f39b7a713b93827f",
+    "state": "path-only-text-edit",
+    "diff_lines": 9
+  },
+  {
+    "original_path": "evidence/skill-production-loop-20261109/implementation/implementation-report.md",
+    "final_path": "evidence/2026-11-09-skill-production-loop/implementation/implementation-report.md",
+    "original_bytes": 7192,
+    "original_sha256": "f60b5e57202c6b1dec4b62df06d7d0fa2cb3e0ee30b9c3b6cea5530c1c0381a2",
+    "final_bytes": 7194,
+    "final_sha256": "1956cd775cc8857daa5f4d9567c089926d9f65fadb68962d64e14c57d3d9dd7f",
+    "state": "path-only-text-edit",
+    "diff_lines": 11
+  },
+  {
+    "original_path": "evidence/skill-production-loop-20261109/implementation/verified-demo/comparison.json",
+    "final_path": "evidence/2026-11-09-skill-production-loop/implementation/verified-demo/comparison.json",
+    "original_bytes": 70914,
+    "original_sha256": "21e4804fa0d47f11b48f3373f7c7e64d94c2baf35c4c783fe4ba8de3d4b827e7",
+    "final_bytes": 70920,
+    "final_sha256": "ab028f6259981c69fd16ee470de69df4ed867823c579193506916373bcab4556",
+    "state": "path-only-text-edit",
+    "diff_lines": 26
+  },
+  {
+    "original_path": "evidence/skill-production-loop-20261109/independent/author.mjs",
+    "final_path": "evidence/2026-11-09-skill-production-loop/independent/author.mjs",
+    "original_bytes": 1314,
+    "original_sha256": "2085a928742025d43d97fcb2257b9b61de041f2c58471676fdbd3ff5d89d82e9",
+    "final_bytes": 1313,
+    "final_sha256": "d2df7af7fedf5fe396e55e8a8562ad84ce432366d12c0cf02465bbfd091902e6",
+    "state": "path-only-text-edit",
+    "diff_lines": 10
+  },
+  {
+    "original_path": "evidence/skill-production-loop-20261109/independent/check.mjs",
+    "final_path": "evidence/2026-11-09-skill-production-loop/independent/check.mjs",
+    "original_bytes": 3460,
+    "original_sha256": "a90ed9fa367ef7d3889a70244f1a7855d643436281e594cdcdf80584490f1421",
+    "final_bytes": 3459,
+    "final_sha256": "bcd7e5acf5f7d2e79bf37b21aa9b2031475d64e5cf854a487198fc56ab39d204",
+    "state": "path-only-text-edit",
+    "diff_lines": 9
+  },
+  {
+    "original_path": "evidence/skill-production-loop-20261109/independent/comparison.json",
+    "final_path": "evidence/2026-11-09-skill-production-loop/independent/comparison.json",
+    "original_bytes": 6067,
+    "original_sha256": "043db247d6ad52f697ab2de82466d8868f7ee33555f2f96c1efc1657978c70ff",
+    "final_bytes": 6071,
+    "final_sha256": "53ee315338a023cd27fab35e100c9bc9711decf7ef29518850f87cbe4262922f",
+    "state": "path-only-text-edit",
+    "diff_lines": 20
+  },
+  {
+    "original_path": "evidence/skill-production-loop-20261109/independent/report.md",
+    "final_path": "evidence/2026-11-09-skill-production-loop/independent/report.md",
+    "original_bytes": 10615,
+    "original_sha256": "08a7fc180bc14fb4b544ed649ca792d15d202695c1847c261806bfb41829c50d",
+    "final_bytes": 10617,
+    "final_sha256": "a3bdbde7073ca1977cb4e63e7e641ee8f3377649cbf902c411ce4ba66c3e1d1a",
+    "state": "path-only-text-edit",
+    "diff_lines": 11
+  },
+  {
+    "original_path": "evidence/skill-production-loop-20261109/independent/revise.mjs",
+    "final_path": "evidence/2026-11-09-skill-production-loop/independent/revise.mjs",
+    "original_bytes": 680,
+    "original_sha256": "072a56ab5ae35132c5b724e2af6615809a4008c25e146613c30698a57cbd71df",
+    "final_bytes": 679,
+    "final_sha256": "8b20176236b4fbe199b811ffc0213712373b50a78fea69744d370c24e8768875",
+    "state": "path-only-text-edit",
+    "diff_lines": 10
+  },
+  {
+    "original_path": "evidence/subject-understanding-20261109/remaining-gaps-review.md",
+    "final_path": "evidence/2026-11-09-subject-understanding/remaining-gaps-review.md",
+    "original_bytes": 10930,
+    "original_sha256": "7ab5d8ef3b3cbd13dd3a6e726a683091a25043c9822c1b39e89c10ca54e8d14f",
+    "final_bytes": 10934,
+    "final_sha256": "f27c7d8e817280251e80abeafdf4aafc6a5a3e0e8c26a27a6cc7a17c38e4bce1",
+    "state": "path-only-text-edit",
+    "diff_lines": 29
+  },
+  {
+    "original_path": "docs/handoffs/2026-11-08-aesthetic-toolkit-contract.md",
+    "final_path": "docs/handoffs/2026-11-08-aesthetic-toolkit/contract.md",
+    "original_bytes": 7319,
+    "original_sha256": "b73a973ad87fac6b0e2f3666502e02fbf1cdbf423075e0e90de4239c546ef683",
+    "final_bytes": 7319,
+    "final_sha256": "0d9fe92a13b4a791438ce873fc1161c5e0025998f64443b659f5013aa108a600",
+    "state": "path-only-text-edit",
+    "diff_lines": 18
+  },
+  {
+    "original_path": "docs/handoffs/2026-11-08-aesthetic-toolkit-execution.md",
+    "final_path": "docs/handoffs/2026-11-08-aesthetic-toolkit/execution.md",
+    "original_bytes": 11341,
+    "original_sha256": "0a83c1ebab941c608dc1b75f041882db7f6a6443fec99af0a1c9ee5037b33d51",
+    "final_bytes": 11228,
+    "final_sha256": "fbcb37ca007d3026987c8d7d0ab041bafbe420bb14e79980e2781646215d1a4b",
+    "state": "path-only-text-edit",
+    "diff_lines": 37
+  },
+  {
+    "original_path": "docs/handoffs/2026-11-08-aesthetic-toolkit-final.md",
+    "final_path": "docs/handoffs/2026-11-08-aesthetic-toolkit/final.md",
+    "original_bytes": 14643,
+    "original_sha256": "6d81fea4fbabf928e5e8321589a90ad7c232bafaa83e53d7892c0c60f11cb336",
+    "final_bytes": 14562,
+    "final_sha256": "cfb89d54689636f6c3c0fed0d85fe0b322aff3e17422ff2ac6c8e9a97c5af9fc",
+    "state": "path-only-text-edit",
+    "diff_lines": 64
+  },
+  {
+    "original_path": "docs/handoffs/2026-11-08-aesthetic-toolkit-followup-execution.md",
+    "final_path": "docs/handoffs/2026-11-08-aesthetic-toolkit/followup-execution.md",
+    "original_bytes": 4615,
+    "original_sha256": "a504d3aefe63b92ef68df93e54b2d1a502e2a3f08126ccf4644b2d24b2dd5cf5",
+    "final_bytes": 4589,
+    "final_sha256": "dc8be4b9ea701673da0959529adf2315f8ff6d14f64042628499fecd516799a9",
+    "state": "path-only-text-edit",
+    "diff_lines": 11
+  },
+  {
+    "original_path": "docs/handoffs/2026-11-08-aesthetic-toolkit-followup-final.md",
+    "final_path": "docs/handoffs/2026-11-08-aesthetic-toolkit/followup-final.md",
+    "original_bytes": 16635,
+    "original_sha256": "3c81a459b24d380f1a1d75bbd845b6da6ed7806f25d247e63b4c37fe536a171f",
+    "final_bytes": 16847,
+    "final_sha256": "2ab0d12478dc9a15a41ffb838de037e4779be9174779dcc1fa5e63c8cabf062e",
+    "state": "path-only-text-edit",
+    "diff_lines": 74
+  },
+  {
+    "original_path": "docs/handoffs/2026-11-08-aesthetic-toolkit-review-fixes.md",
+    "final_path": "docs/handoffs/2026-11-08-aesthetic-toolkit/review-fixes.md",
+    "original_bytes": 4037,
+    "original_sha256": "71aa36577d5a83a23527f924241b560125f6529cc2802b22a35f717de07c3830",
+    "final_bytes": 4037,
+    "final_sha256": "583f1146d55930f760695b01a1acf207fa00b9abfa8effebc00fe688b560b9b3",
+    "state": "path-only-text-edit",
+    "diff_lines": 10
+  },
+  {
+    "original_path": "docs/handoffs/2026-11-08-phase02-coordinator.md",
+    "final_path": "docs/handoffs/2026-11-08-aesthetic-toolkit-phase02/coordinator.md",
+    "original_bytes": 3952,
+    "original_sha256": "8068587f64fa83b2b477e7c098b0135a915eea33e8db909a694ec8f571b743e3",
+    "final_bytes": 3952,
+    "final_sha256": "5e91373244684756353317cfb16def95b083436a173aa3ed28668e3c993b4594",
+    "state": "path-only-text-edit",
+    "diff_lines": 16
+  },
+  {
+    "original_path": "docs/handoffs/2026-11-08-phase02-independent-recheck.md",
+    "final_path": "docs/handoffs/2026-11-08-aesthetic-toolkit-phase02/independent-recheck.md",
+    "original_bytes": 11470,
+    "original_sha256": "9a8da74c6c5202e361db9896888d8ab7f5e53564d7cef5d27da97ac4d2804e0a",
+    "final_bytes": 11471,
+    "final_sha256": "a588dd1d2f3a18daefdf23dcc23678d4136650628adac2f3d231f2ea1c3e3e98",
+    "state": "path-only-text-edit",
+    "diff_lines": 54
+  },
+  {
+    "original_path": "docs/handoffs/2026-11-08-phase02-independent-review.md",
+    "final_path": "docs/handoffs/2026-11-08-aesthetic-toolkit-phase02/independent-review.md",
+    "original_bytes": 19828,
+    "original_sha256": "4333ca712b718ab2b5f0185368144ca3e0fc6513172f55016cb1f6ff384d5ee7",
+    "final_bytes": 19876,
+    "final_sha256": "b42f56f24ea9282927b5da62d3abce5f561d4daf7280d6ef87fd8d980d593eaa",
+    "state": "path-only-text-edit",
+    "diff_lines": 46
+  },
+  {
+    "original_path": "docs/handoffs/2026-11-08-phase02-retarget.md",
+    "final_path": "docs/handoffs/2026-11-08-aesthetic-toolkit-phase02/retarget.md",
+    "original_bytes": 11563,
+    "original_sha256": "6cbefa54f437767ade95f5e1585e0fbb6d4e3d7d1343d0fce0b8325a170003d8",
+    "final_bytes": 11563,
+    "final_sha256": "ecf1ad2aee44e935f195496cee367d14b36c5cf3994af3eb20fe441fe0fb4f47",
+    "state": "path-only-text-edit",
+    "diff_lines": 11
+  },
+  {
+    "original_path": "docs/handoffs/2026-11-08-phase02-review-closure.md",
+    "final_path": "docs/handoffs/2026-11-08-aesthetic-toolkit-phase02/review-closure.md",
+    "original_bytes": 5425,
+    "original_sha256": "eb7b88dd380eb0502426395609bc773ecfa8d507d268c34e1e85f1dd3f1bdfae",
+    "final_bytes": 5425,
+    "final_sha256": "b06635f4550767bb1701092d84f41bf6e5db0a408a52885e4e6b9240a63802f3",
+    "state": "path-only-text-edit",
+    "diff_lines": 11
+  },
+  {
+    "original_path": "docs/handoffs/2026-11-08-phase02-watercolor.md",
+    "final_path": "docs/handoffs/2026-11-08-aesthetic-toolkit-phase02/watercolor.md",
+    "original_bytes": 6350,
+    "original_sha256": "3910d88bfa3cc14a7851c5c1f690c9fe5d3bc2a00c84c5285a3f572c25409384",
+    "final_bytes": 6396,
+    "final_sha256": "0478cdd9bbc20f70191a3cfd18008b44d0657ffb745f3401f633df734673887b",
+    "state": "path-only-text-edit",
+    "diff_lines": 10
+  },
+  {
+    "original_path": "docs/handoffs/music-box-dancer-paused.md",
+    "final_path": "docs/handoffs/2026-11-07-music-box-dancer-paused/README.md",
+    "original_bytes": 19357,
+    "original_sha256": "6717b3dd51c40b01899d83cd51c670202a19dac224374934a355e3153f7f9afc",
+    "final_bytes": 19381,
+    "final_sha256": "de47521169a9f7f6587f23bf25f49f6efe7c9c1917715978fc5e95f7fbca9d27",
+    "state": "path-only-text-edit",
+    "diff_lines": 26
+  },
+  {
+    "original_path": "docs/handoffs/music-box-dancer-visual-study.md",
+    "final_path": "docs/handoffs/2026-11-08-music-box-dancer-visual-study/README.md",
+    "original_bytes": 12911,
+    "original_sha256": "318f67b1fe2a0eda65b7ca7f0658437bd42f39f99df40640361242547ef9a913",
+    "final_bytes": 12995,
+    "final_sha256": "4df12f4c0635fd098f2b3e4b17021739a0f1fbc210140a0d9fd8e5c3737be562",
+    "state": "path-only-text-edit",
+    "diff_lines": 47
+  },
+  {
+    "original_path": "docs/implementation/2026-11-08-cinematic-animation/handoff.md",
+    "final_path": "docs/implementation/2026-11-08-cinematic-animation-implementation/handoff.md",
+    "original_bytes": 6371,
+    "original_sha256": "922da509e6a7323448510bcb5f75eaff2c6470627bf5d233203da071b6cac346",
+    "final_bytes": 6921,
+    "final_sha256": "7982f293081aad2a90da7312a928fbb1c3eaf0092c20a9171ac49e660df58b71",
+    "state": "path-only-text-edit",
+    "diff_lines": 40
+  },
+  {
+    "original_path": "docs/implementation/2026-11-08-cinematic-animation/report.md",
+    "final_path": "docs/implementation/2026-11-08-cinematic-animation-implementation/report.md",
+    "original_bytes": 11742,
+    "original_sha256": "f6c35badcefe9306c775bb37c086a4a1eb66528c32e1d2b8e97f8373b8e68f68",
+    "final_bytes": 11742,
+    "final_sha256": "13f168169a0f5bed718fd6083c3a3a0f9ddd2fdff92691fac169721b87b98fdb",
+    "state": "path-only-text-edit",
+    "diff_lines": 11
+  },
+  {
+    "original_path": "docs/implementation/2026-11-10-audience-acceptance/README.md",
+    "final_path": "docs/implementation/2026-11-10-audience-acceptance/README.md",
+    "original_bytes": 10279,
+    "original_sha256": "0b06c4221415adc9f64598e8b49534b3351b11d90eec450d481f2fa09b2a64b5",
+    "final_bytes": 10319,
+    "final_sha256": "8caf159a4414160f774f52f19294f2cc7a1015d44d2dae88d1d5a571884327a2",
+    "state": "path-only-text-edit",
+    "diff_lines": 61
+  },
+  {
+    "original_path": "docs/implementation/2026-11-10-code-expression/README.md",
+    "final_path": "docs/implementation/2026-11-10-code-expression/README.md",
+    "original_bytes": 3777,
+    "original_sha256": "cbba64fba3f4fbaf825cb59128154c062a7b692f9b6e14cc62a4248addc93720",
+    "final_bytes": 3793,
+    "final_sha256": "7e5cc946a5a530764da3c09938581d071e0919076ce378be8ec0b7d13a51e7e0",
+    "state": "path-only-text-edit",
+    "diff_lines": 34
+  },
+  {
+    "original_path": "docs/implementation/2026-11-10-code-expression/craft-redesign.md",
+    "final_path": "docs/implementation/2026-11-10-code-expression/craft-redesign.md",
+    "original_bytes": 8498,
+    "original_sha256": "6c9f40027746e5adfac33a2f03db213dc0831f59148212e14ba25925aef73ae0",
+    "final_bytes": 8511,
+    "final_sha256": "ed717516b2c394db93f62c9cf4f9dee8545c07d4f86f33f010f68c41f2f5c89a",
+    "state": "path-only-text-edit",
+    "diff_lines": 20
+  },
+  {
+    "original_path": "docs/implementation/2026-11-10-code-expression/implementation.md",
+    "final_path": "docs/implementation/2026-11-10-code-expression/implementation.md",
+    "original_bytes": 15540,
+    "original_sha256": "bb783d57456e0ce906ce7fcb6d90cadba9a17f68fe51c68423df8d5cbc5a3c7d",
+    "final_bytes": 15584,
+    "final_sha256": "c97b6f7bfe1f6802522f83c1ebd8673b83808083295de83749248054c25b266c",
+    "state": "path-only-text-edit",
+    "diff_lines": 83
+  },
+  {
+    "original_path": "docs/implementation/2026-11-10-motion-authoring/README.md",
+    "final_path": "docs/implementation/2026-11-10-motion-authoring/README.md",
+    "original_bytes": 6256,
+    "original_sha256": "58183e8015ff84b1288ec81e8afed1ceacc409857d430bcfb0121ba503b76195",
+    "final_bytes": 6264,
+    "final_sha256": "16ace5b45c308fa5da4c26e29a21901b39df659c4c482b284d6d0db099fdbb41",
+    "state": "path-only-text-edit",
+    "diff_lines": 26
+  },
+  {
+    "original_path": "docs/research/2026-11-08-aesthetic-toolkit/IMPLEMENTATION-PROMPT.md",
+    "final_path": "docs/research/2026-11-08-aesthetic-toolkit/IMPLEMENTATION-PROMPT.md",
+    "original_bytes": 30567,
+    "original_sha256": "d10d7af9911662995751538857ba38d21494e8adf3cd4e9dfbc4f54680855b38",
+    "final_bytes": 30585,
+    "final_sha256": "2358c5478c8163819a78c91df8a4ad712a8d14ba2f050f888accf3f8e5c321b2",
+    "state": "path-only-text-edit",
+    "diff_lines": 19
+  },
+  {
+    "original_path": "docs/research/2026-11-08-aesthetic-toolkit/README.md",
+    "final_path": "docs/research/2026-11-08-aesthetic-toolkit/README.md",
+    "original_bytes": 10881,
+    "original_sha256": "f57a2913eacdabc7e53bfffbefc550a5c08527fda13473fd64234fd56a823ed2",
+    "final_bytes": 10881,
+    "final_sha256": "f3032b896c0d072f011425d114c3d1f955ac39d7705684df13676ed219b18fbc",
+    "state": "path-only-text-edit",
+    "diff_lines": 11
+  },
+  {
+    "original_path": "docs/research/aesthetic-toolkit-phase02-2026-11-08/COMMON-CONTRACT.md",
+    "final_path": "docs/research/2026-11-08-aesthetic-toolkit-phase02/COMMON-CONTRACT.md",
+    "original_bytes": 5630,
+    "original_sha256": "f269efac80e730eb77b44e3e391370a0e938cad71ed5566b4c3fe19a77375446",
+    "final_bytes": 5666,
+    "final_sha256": "0dd7c556dfe45e834526ca051592b524e73138c55735f3b716c4b58a3a3be430",
+    "state": "path-only-text-edit",
+    "diff_lines": 17
+  },
+  {
+    "original_path": "docs/research/aesthetic-toolkit-phase02-2026-11-08/TEAM-RECEIPTS.json",
+    "final_path": "docs/research/2026-11-08-aesthetic-toolkit-phase02/TEAM-RECEIPTS.json",
+    "original_bytes": 3911,
+    "original_sha256": "56706cde40f3f53712f1a5d8465e49afbc4efcb4a52b25cfe38c40687c4c40b8",
+    "final_bytes": 3947,
+    "final_sha256": "b76bf1a03b1f2ba1f96da11ba84b28531f2d7071ff1017f089b8a7475e9223ea",
+    "state": "path-only-text-edit",
+    "diff_lines": 20
+  },
+  {
+    "original_path": "docs/reviews/2026-11-08-cinematic-animation/README.md",
+    "final_path": "docs/reviews/2026-11-08-cinematic-animation-review/README.md",
+    "original_bytes": 13078,
+    "original_sha256": "9ff3d2b1e1e88b0c5400a457d22b9d28b4b61ef3fc70f61bca6ff7db99817b13",
+    "final_bytes": 13106,
+    "final_sha256": "315cbed51b88753b9456189d554e03003eb452d7068d24a1092352a1c8d2cc0d",
+    "state": "path-only-text-edit",
+    "diff_lines": 50
+  },
+  {
+    "original_path": "docs/reviews/2026-11-08-cinematic-animation/animation.md",
+    "final_path": "docs/reviews/2026-11-08-cinematic-animation-review/animation.md",
+    "original_bytes": 12888,
+    "original_sha256": "e53376c69d7bd9bea56878f6b22eaa3b3d7721a2967a0089adf8290e0a4db48a",
+    "final_bytes": 12888,
+    "final_sha256": "bd735c738ec0b0dbd8354f6d6c351bb034ce6b4ac0e3bb43547393ba7d353174",
+    "state": "path-only-text-edit",
+    "diff_lines": 63
+  },
+  {
+    "original_path": "docs/reviews/2026-11-08-cinematic-animation/art-direction.md",
+    "final_path": "docs/reviews/2026-11-08-cinematic-animation-review/art-direction.md",
+    "original_bytes": 45152,
+    "original_sha256": "4fa0567dfc87c65c4dff29ec5f8e7f2c390664cadc827c6b525cd0bf96db2f50",
+    "final_bytes": 45152,
+    "final_sha256": "4a8e0f5450614cd36cb1aa1176ed292bd9e610c9c98ddf753daabc16dcfb93b9",
+    "state": "path-only-text-edit",
+    "diff_lines": 193
+  },
+  {
+    "original_path": "docs/reviews/2026-11-08-cinematic-animation/cinematography.md",
+    "final_path": "docs/reviews/2026-11-08-cinematic-animation-review/cinematography.md",
+    "original_bytes": 42821,
+    "original_sha256": "c6378ee456630e2e6cfb67c4c85a35dd6e9464e058f0844718877140fa75641c",
+    "final_bytes": 42821,
+    "final_sha256": "b6d05201ad23b9b13dcfa89437cd814c37674982b76e4e0307f6679e18221c0a",
+    "state": "path-only-text-edit",
+    "diff_lines": 157
+  },
+  {
+    "original_path": "docs/reviews/2026-11-08-cinematic-animation/integration-notes.md",
+    "final_path": "docs/reviews/2026-11-08-cinematic-animation-review/integration-notes.md",
+    "original_bytes": 6257,
+    "original_sha256": "e4654323e9782b7cf75be53faf0d18c975e3d471c4b2591d7a756aad90dbc7df",
+    "final_bytes": 6264,
+    "final_sha256": "d41d5afbcde6688d368a96346c9cec4ebe4c3704998dc85371e9d4d3efe362f8",
+    "state": "path-only-text-edit",
+    "diff_lines": 10
+  },
+  {
+    "original_path": "scripts/cinematic-author.py",
+    "final_path": "evidence/2026-11-08-cinematic-animation-implementation/scripts/cinematic-author.py",
+    "original_bytes": 10520,
+    "original_sha256": "4e42281fe72b297de5b7c38bfddbd2d07d8305ccafb79a60e918e27379587e47",
+    "final_bytes": 10520,
+    "final_sha256": "675352ce270536cba9a190526d0ab24bd7782ae42c3c75fd62ba6624a2434933",
+    "state": "path-only-text-edit",
+    "diff_lines": 10
+  },
+  {
+    "original_path": "scripts/cinematic-evidence.py",
+    "final_path": "evidence/2026-11-08-cinematic-animation-implementation/scripts/cinematic-evidence.py",
+    "original_bytes": 4839,
+    "original_sha256": "8835badcb048e2d67bf33dbd41d9bb84d6c5cc3b891d16900fa26a921cb10aa0",
+    "final_bytes": 4839,
+    "final_sha256": "3e17c126027ec10733de7ec99a0df1ef57dce34d826913c545de1387332f0af8",
+    "state": "path-only-text-edit",
+    "diff_lines": 13
+  },
+  {
+    "original_path": "scripts/cinematic-render.mjs",
+    "final_path": "evidence/2026-11-08-cinematic-animation-implementation/scripts/cinematic-render.mjs",
+    "original_bytes": 5404,
+    "original_sha256": "647624530434074c6354b9aa807115c319d6d69a00792a228e854c1b14f31c55",
+    "final_bytes": 5464,
+    "final_sha256": "7176da3164e0c1db355706518df7314fccc9adf32a94bff6fb20959a029a3f56",
+    "state": "path-only-text-edit",
+    "diff_lines": 18
+  },
+  {
+    "original_path": "scripts/cinematic-rig-asset.mjs",
+    "final_path": "evidence/2026-11-08-cinematic-animation-implementation/scripts/cinematic-rig-asset.mjs",
+    "original_bytes": 4203,
+    "original_sha256": "16335c6427f97b3f9b5dee0ac952215c39a20242507b82b2c8cff6bb254f7381",
+    "final_bytes": 4230,
+    "final_sha256": "6e7d7f9a235c738833617a22974f3d3ff1eaae7673c15c41f75ccb7df5221d02",
+    "state": "path-only-text-edit",
+    "diff_lines": 16
+  },
+  {
+    "original_path": "scripts/cinematic-rig-check.mjs",
+    "final_path": "evidence/2026-11-08-cinematic-animation-implementation/scripts/cinematic-rig-check.mjs",
+    "original_bytes": 2085,
+    "original_sha256": "aa2b601dbf4663c1e2fc97c953ec017cc412aff44dab8f7a2d50609c2a284334",
+    "final_bytes": 2097,
+    "final_sha256": "f2ebdffdbcf02f77b6452f55708a37c0c2b8a2cbf8ffc342a8222e3d0cb36221",
+    "state": "path-only-text-edit",
+    "diff_lines": 14
+  },
+  {
+    "original_path": "scripts/cinematic-watercolor-compare.mjs",
+    "final_path": "evidence/2026-11-08-cinematic-animation-implementation/scripts/cinematic-watercolor-compare.mjs",
+    "original_bytes": 1769,
+    "original_sha256": "140da5a0899e60771dbbe24588377d97e8d30e7c79875c0636dec9bad65ed80f",
+    "final_bytes": 1781,
+    "final_sha256": "16de101b6b09de4654fa35f6025a3eff1af5af910c795b0ab99ef6a61d0b6ce0",
+    "state": "path-only-text-edit",
+    "diff_lines": 13
+  },
+  {
+    "original_path": "scripts/make_examples.py",
+    "final_path": "evidence/2026-11-04-initial-production/scripts/make_examples.py",
+    "original_bytes": 7886,
+    "original_sha256": "ec7c6b43da47595895653745f22d0e16cec46726361dc080a6126b0fe64db627",
+    "final_bytes": 7886,
+    "final_sha256": "94a9fb9ec17a8003c414e50347d9da8dd72d077243da5757848a41c3366c1f44",
+    "state": "path-only-text-edit",
+    "diff_lines": 11
+  },
+  {
+    "original_path": "scripts/phase02-final-audit.mjs",
+    "final_path": "evidence/2026-11-08-aesthetic-toolkit-phase02/scripts/phase02-final-audit.mjs",
+    "original_bytes": 2132,
+    "original_sha256": "aa0332246f65359646075f5606c1f3d07af4140bda7feb2eb0b9f46d8bf7a258",
+    "final_bytes": 2186,
+    "final_sha256": "b23d157bbe79e5d476b0934d839bf95b8c7c3cbd0cf6efee78dbc4d5d03787e6",
+    "state": "path-only-text-edit",
+    "diff_lines": 9
+  },
+  {
+    "original_path": "scripts/phase02-fullhd-check.mjs",
+    "final_path": "evidence/2026-11-08-aesthetic-toolkit-phase02/scripts/phase02-fullhd-check.mjs",
+    "original_bytes": 2599,
+    "original_sha256": "fa73a4caf0ecf48a1661ec8dc15edd75cca6f2fe2367749dd45c2652a4482bc8",
+    "final_bytes": 2629,
+    "final_sha256": "429b659bc200b78f14f5b52b43034882fc0352ef17bc6e1b9ff95ba1ef01839f",
+    "state": "path-only-text-edit",
+    "diff_lines": 8
+  },
+  {
+    "original_path": "scripts/phase02-fullhd.mjs",
+    "final_path": "evidence/2026-11-08-aesthetic-toolkit-phase02/scripts/phase02-fullhd.mjs",
+    "original_bytes": 3183,
+    "original_sha256": "049e331caf8b64c2e7d749f7b4fd11a8fb3d7b64a3473b78fccf8625d7ad1086",
+    "final_bytes": 3261,
+    "final_sha256": "bc28c4fe1b0d613a3d7d62e0772bff1282643cda684c0bb0e42c71f51ac7f434",
+    "state": "path-only-text-edit",
+    "diff_lines": 10
+  },
+  {
+    "original_path": "scripts/phase02-playback-check.mjs",
+    "final_path": "evidence/2026-11-08-aesthetic-toolkit-phase02/scripts/phase02-playback-check.mjs",
+    "original_bytes": 2141,
+    "original_sha256": "188f0d358ee20c65fb63163813a3a02e26d8ba2ef274983b76b44d31eb6f3661",
+    "final_bytes": 2156,
+    "final_sha256": "c97b7a04d3c47d82427e9687d5025d691d491167bdac6747c078b52bcb2ad82c",
+    "state": "path-only-text-edit",
+    "diff_lines": 8
+  },
+  {
+    "original_path": "scripts/phase02-rig-evidence.mjs",
+    "final_path": "evidence/2026-11-08-aesthetic-toolkit-phase02/scripts/phase02-rig-evidence.mjs",
+    "original_bytes": 1277,
+    "original_sha256": "3354d096eed5f2915b231a9b12f8b9ece475b1c3763b1e99a161af404066e8de",
+    "final_bytes": 1307,
+    "final_sha256": "9a19923c8aba8ef75c08ccf76422b50bba266b9d3de23a3ee2c4c5550a43eb83",
+    "state": "path-only-text-edit",
+    "diff_lines": 7
+  },
+  {
+    "original_path": "scripts/watercolor-evidence.mjs",
+    "final_path": "evidence/2026-11-08-aesthetic-toolkit-phase02/scripts/watercolor-evidence.mjs",
+    "original_bytes": 1178,
+    "original_sha256": "ebde0515dc3000e97f2fc2a77f65c0fca6cd3265b465943942d7802974788b8d",
+    "final_bytes": 1208,
+    "final_sha256": "93e5e16710fef741dfc46fb1b4215cacfa1c6b16ab5a83d077a9455db875ed3b",
+    "state": "path-only-text-edit",
+    "diff_lines": 7
+  },
+  {
+    "original_path": "scripts/watercolor-memory.mjs",
+    "final_path": "scripts/watercolor-memory.mjs",
+    "original_bytes": 1256,
+    "original_sha256": "eaa077d719956ed248207eaed07ceae16844aa7107d0a1128f981efc4a9167e1",
+    "final_bytes": 1256,
+    "final_sha256": "f9798bb38884e0ae4d08247f051f79a703683668a00c5aee3eacc7210e5edfa4",
+    "state": "path-only-text-edit",
+    "diff_lines": 6
+  },
+  {
+    "original_path": "examples/styles/expressionist-space/README.md",
+    "final_path": "examples/styles/expressionist-space/README.md",
+    "original_bytes": 2091,
+    "original_sha256": "3c54c64c28edbaf0f1581d9180a968a5171e2d9771030e734c999d643f55a00a",
+    "final_bytes": 2091,
+    "final_sha256": "8fdaccf241c641d592a3f72aeead0c329e81835ddb294b8a8d156c316cf674d6",
+    "state": "path-only-text-edit",
+    "diff_lines": 8
+  },
+  {
+    "original_path": "examples/styles/expressionist-space/assets/traveler-readable.provenance.json",
+    "final_path": "examples/styles/expressionist-space/assets/traveler-readable.provenance.json",
+    "original_bytes": 484,
+    "original_sha256": "bf82da6ac2f75aa28e03fe1bd3e287c5184ca2442181f6ee76a5d3e74a3b3092",
+    "final_bytes": 539,
+    "final_sha256": "cfebd21154ac60287b372897dc9a36b0aec63f478c800ca1c99b77a6956fe715",
+    "state": "path-only-text-edit",
+    "diff_lines": 10
+  },
+  {
+    "original_path": "examples/styles/expressionist-space/summarize-validation.mjs",
+    "final_path": "examples/styles/expressionist-space/summarize-validation.mjs",
+    "original_bytes": 1803,
+    "original_sha256": "548125a3e257043f35276d524e1edc3bf12cf2c759749d52c5dd032a89e44c6a",
+    "final_bytes": 1803,
+    "final_sha256": "5ac0af154547cc952980bf3599961ca6ce51b9e8d040ac55de6a9f1b4957bb65",
+    "state": "path-only-text-edit",
+    "diff_lines": 9
+  },
+  {
+    "original_path": "examples/styles/expressionist-space/verify-package.mjs",
+    "final_path": "examples/styles/expressionist-space/verify-package.mjs",
+    "original_bytes": 2628,
+    "original_sha256": "afa8768fd9aba8a966ede3146ef6cb7376fc89c77ec5557cc6a23ec54b9f6053",
+    "final_bytes": 2628,
+    "final_sha256": "9fdc8671fe5178d1cdf374beb56a389ed9b4e4bbe27125505bf6c9c32d3333b1",
+    "state": "path-only-text-edit",
+    "diff_lines": 11
+  },
+  {
+    "original_path": "examples/styles/final-source-audit.mjs",
+    "final_path": "examples/styles/final-source-audit.mjs",
+    "original_bytes": 1669,
+    "original_sha256": "9e55ddb039ad81355b58cf3b0eb3a9584e9f9707efa6adacb424b3d2895d276a",
+    "final_bytes": 1669,
+    "final_sha256": "d18a5d56eea33cf57cf394de807bc88b0aa46e53e03090190354a75546bea143",
+    "state": "path-only-text-edit",
+    "diff_lines": 7
+  },
+  {
+    "original_path": "examples/styles/finish-source-check.mjs",
+    "final_path": "examples/styles/finish-source-check.mjs",
+    "original_bytes": 1066,
+    "original_sha256": "bd70002bb8b730b9736938875fe6d9e6b98137e45a1d169f96eb69704911bddb",
+    "final_bytes": 1066,
+    "final_sha256": "7a504e54dfd529c9e08793b18fb72425ab7e58aba9527e8296eb0771c148f50c",
+    "state": "path-only-text-edit",
+    "diff_lines": 6
+  },
+  {
+    "original_path": "examples/styles/media-endpoint-check.mjs",
+    "final_path": "examples/styles/media-endpoint-check.mjs",
+    "original_bytes": 1064,
+    "original_sha256": "21fa0efe5479cfbb0a1e434b653186ebb791669303567e04d2c9fcf268eae363",
+    "final_bytes": 1064,
+    "final_sha256": "d5da8957895d92b8b461648d254007c63195624998eaa1e2424c08ee4c11dd41",
+    "state": "path-only-text-edit",
+    "diff_lines": 8
+  },
+  {
+    "original_path": "examples/styles/phase02-retarget/audit.mjs",
+    "final_path": "examples/styles/phase02-retarget/audit.mjs",
+    "original_bytes": 4230,
+    "original_sha256": "a17b0c059102277364fb57319989ad77600e7d3b4b3f865eab19abaa6f310c08",
+    "final_bytes": 4230,
+    "final_sha256": "dfbcbdf162d6571b355a736090cd5e99687fea70802d0b7569f8b1e3abc73be5",
+    "state": "path-only-text-edit",
+    "diff_lines": 10
+  },
+  {
+    "original_path": "examples/styles/phase02-retarget/evidence.mjs",
+    "final_path": "examples/styles/phase02-retarget/evidence.mjs",
+    "original_bytes": 5912,
+    "original_sha256": "9b33372c9f5b73e1b8cc63877d7153445e48303b3fe3589a26b2b9420ce7c8d7",
+    "final_bytes": 5912,
+    "final_sha256": "f1a796d0527448beba94c2b2129514e7f1ce97570e2aa590fd3925d00f6e5611",
+    "state": "path-only-text-edit",
+    "diff_lines": 10
+  },
+  {
+    "original_path": "examples/styles/revalidate-b.mjs",
+    "final_path": "examples/styles/revalidate-b.mjs",
+    "original_bytes": 1144,
+    "original_sha256": "d1ec1c9caa2e5663292babb8ad35265a33712c582f3a2ae4ef8576929d929105",
+    "final_bytes": 1144,
+    "final_sha256": "94c4c5492c427a7e57465d87132d3a82c41c595a6cc3068e3ad8964f0d7e9a8a",
+    "state": "path-only-text-edit",
+    "diff_lines": 5
+  },
+  {
+    "original_path": "examples/styles/revalidate.mjs",
+    "final_path": "examples/styles/revalidate.mjs",
+    "original_bytes": 1407,
+    "original_sha256": "6c79cf5265fe373b96740c041b4738230d2b72f056330684da51dec9934fd886",
+    "final_bytes": 1407,
+    "final_sha256": "75e20448c3d7c7fe383ec6a227cbb8f4e5307621886437d2d13d8713c5cb8722",
+    "state": "path-only-text-edit",
+    "diff_lines": 8
+  },
+  {
+    "original_path": "examples/styles/summarize.mjs",
+    "final_path": "examples/styles/summarize.mjs",
+    "original_bytes": 2311,
+    "original_sha256": "3e6921da905aa3a852797b58d82b27f52e5bc9d65afea77a50aa9cff7ab00027",
+    "final_bytes": 2311,
+    "final_sha256": "8dd76cd442f1d06ce218f6ffbb28ad923fa129d8ab11b9b6c07e20970371f2ab",
+    "state": "path-only-text-edit",
+    "diff_lines": 8
+  },
+  {
+    "original_path": "tests/auto-rig-browser.test.mjs",
+    "final_path": "tests/auto-rig-browser.test.mjs",
+    "original_bytes": 3696,
+    "original_sha256": "7c63f1728a17e372add52a1123e01cce8813800946514001d0c55b3f5a5aeae4",
+    "final_bytes": 3696,
+    "final_sha256": "8798064abe81e4ad4731a6ca3cd8fe3f36259638b10176aeaed5a72c9ade0b2e",
+    "state": "path-only-text-edit",
+    "diff_lines": 6
+  },
+  {
+    "original_path": "tests/watercolor-browser.test.mjs",
+    "final_path": "tests/watercolor-browser.test.mjs",
+    "original_bytes": 8308,
+    "original_sha256": "11b26216eae99d4c86a6e08fd01e7de02d8d95f5cb47aafb71434bfbd59153db",
+    "final_bytes": 8308,
+    "final_sha256": "b534f5c7d1b063cb206c72a6a4f3501e2ba6119105ebeefcfb0002e08fb0c73c",
+    "state": "path-only-text-edit",
+    "diff_lines": 9
+  },
+  {
+    "original_path": "tests/watercolor.test.mjs",
+    "final_path": "tests/watercolor.test.mjs",
+    "original_bytes": 5149,
+    "original_sha256": "3c4be16cd75efda18a60fba54af0f16cfbddc168899ed1fb2343bca1eb5e5ea0",
+    "final_bytes": 5149,
+    "final_sha256": "be302a6f83f4277aff7cc50625d04cd64d3877277fb34d0b66875f9791d375d6",
+    "state": "path-only-text-edit",
+    "diff_lines": 10
+  }
+]
