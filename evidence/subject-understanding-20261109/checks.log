@@ -1,0 +1,11 @@
+Traceback (most recent call last):
+  File "/Users/oozoofrog/.codex/skills/.system/skill-creator/scripts/quick_validate.py", line 10, in <module>
+    import yaml
+ModuleNotFoundError: No module named 'yaml'
+Skill is valid!
+Skill is valid!
+PASS: 20 local Markdown links and referenced heading anchors resolve in source entrypoints/references.
+PASS: Codex and Claude marketplace sources target repository root; unchanged thin router resolves ../../SKILL.md.
+ PASS: git diff --check for modified tracked skill sources.
+PASS: all 5 scenario-artifact links resolve.
+PASS: new reference and scenario artifact have no trailing whitespace.
