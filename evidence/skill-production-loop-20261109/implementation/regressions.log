@@ -1,0 +1,22 @@
+✔ authored clearance removes intermediate collision while preserving endpoints, contact and release (3.828875ms)
+✔ fresh materialization/import/prepare evaluates modified geometry and timing; refuses overwrite (13.779833ms)
+✔ motion frames clamp, ease holds endpoints, stagger has explicit per-item delay (0.474125ms)
+✔ motion seeded/noise is indexed and reproducible in arbitrary order, including negative positions (0.160416ms)
+✔ motion latest-event envelope has explicit attack, release and half-open end (0.091917ms)
+✔ motion path is arc-length sampled, clamped, handles zero-length segments without mutation (0.7675ms)
+✔ public materializer validates watercolor bake and freezes complete decoder/overlay closure before publication (25.335708ms)
+✔ public materializer rejects mismatched rig/motion before new/update publication (177.166291ms)
+✔ pose-tracks public materialization closes imports and preserves authored and unrelated files (20.36275ms)
+✔ prepared scalar/vector segments preserve smoothstep, exact hold boundaries and immutable random access (1.27925ms)
+✔ reject malformed authoring early, including invalid corrections/contact/target geometry (0.344791ms)
+✔ all vector APIs reject missing coordinates before evaluation (0.153959ms)
+✔ second case: telescoping crane geometry, linear trolley and held hook with pose-space clearance (0.300584ms)
+✔ actual dancer preserves all out-of-scope poses and arm lengths; exposes cloth/contact channels (35.917ms)
+ℹ tests 14
+ℹ suites 0
+ℹ pass 14
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 359.019792

@@ -1,0 +1,90 @@
+ M README.md
+ M SKILL.md
+ M package.json
+ M references/craft.md
+ M references/direction.md
+ M references/tools.md
+ M runtime/compositor.mjs
+ M runtime/player.mjs
+ M scripts/direction.mjs
+ M scripts/jobs.mjs
+ M skills/cinewright/SKILL.md
+?? .agent-loop/
+?? catalog/
+?? docs/
+?? evidence/aesthetic-toolkit-2026-11-08/
+?? evidence/aesthetic-toolkit-phase02-2026-11-08/
+?? evidence/cinematic-animation-implementation-2026-11-08/
+?? evidence/cinematic-animation-review-2026-11-08/
+?? evidence/dancer-increment-20261109/
+?? evidence/gap-closure-20261109/
+?? evidence/global-update-2026-11-05-224452-79c01a37/
+?? evidence/skill-production-loop-20261109/
+?? evidence/subject-understanding-20261109/
+?? examples/music-box-dancer/
+?? examples/styles/
+?? modules/animation/
+?? modules/fx/
+?? modules/fx2d/
+?? modules/fx3d/
+?? modules/motion.mjs
+?? modules/music.mjs
+?? modules/styles/
+?? recipes/
+?? references/music-box.md
+?? references/music.md
+?? references/pose-tracks.md
+?? references/styles/
+?? scripts/auto-rig.mjs
+?? scripts/cinematic-author.py
+?? scripts/cinematic-evidence.py
+?? scripts/cinematic-render.mjs
+?? scripts/cinematic-rig-asset.mjs
+?? scripts/cinematic-rig-check.mjs
+?? scripts/cinematic-traveler-asset.mjs
+?? scripts/cinematic-watercolor-compare.mjs
+?? scripts/flash.mjs
+?? scripts/materialize-kit.mjs
+?? scripts/materialize-style.mjs
+?? scripts/music.mjs
+?? scripts/phase02-final-audit.mjs
+?? scripts/phase02-fullhd-check.mjs
+?? scripts/phase02-fullhd.mjs
+?? scripts/phase02-playback-check.mjs
+?? scripts/phase02-rig-evidence.mjs
+?? scripts/retarget-bake.mjs
+?? scripts/style-images.mjs
+?? scripts/style-vendor-expressionist.mjs
+?? scripts/watercolor-bake.mjs
+?? scripts/watercolor-evidence.mjs
+?? scripts/watercolor-examples.mjs
+?? scripts/watercolor-memory.mjs
+?? tests/auto-rig-browser.test.mjs
+?? tests/auto-rig.test.mjs
+?? tests/cinematic-implementation.test.mjs
+?? tests/craft-binding.test.mjs
+?? tests/expressionist-core.test.mjs
+?? tests/expressionist-package.test.mjs
+?? tests/fx.test.mjs
+?? tests/line-wash-core.test.mjs
+?? tests/line-wash-stroke.test.mjs
+?? tests/motion.test.mjs
+?? tests/music-box-dancer.test.mjs
+?? tests/music-integration.test.mjs
+?? tests/music.test.mjs
+?? tests/phase02-context.test.mjs
+?? tests/phase02-materialize.test.mjs
+?? tests/phase02-review-fixes.test.mjs
+?? tests/porcelain-study.test.mjs
+?? tests/pose-materialize.test.mjs
+?? tests/pose-tracks.test.mjs
+?? tests/retarget-core.test.mjs
+?? tests/retarget-publication.test.mjs
+?? tests/silhouette.test.mjs
+?? tests/style-common.test.mjs
+?? tests/style-effects-limits.test.mjs
+?? tests/style-lifecycle.test.mjs
+?? tests/style-recheck.test.mjs
+?? tests/style-review-regression.test.mjs
+?? tests/watercolor-browser.test.mjs
+?? tests/watercolor.test.mjs

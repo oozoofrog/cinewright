@@ -1,0 +1,3338 @@
+{
+  "scope": "Original vector functional study; geometric collision evidence, not artistic acceptance",
+  "store": "/Volumes/eyedisk/develop/cinewright/evidence/skill-production-loop-20261109/implementation/verified-demo/store",
+  "results": [
+    {
+      "label": "first-pass",
+      "revision": "d73936b8be740e5e1446017e62309e2ba0cbde2a6a03f93f52ee141784752b1a",
+      "job": "0339fcf8-9377-40f7-a5f2-36d81a8c8c4f",
+      "output": "/Volumes/eyedisk/develop/cinewright/evidence/skill-production-loop-20261109/implementation/verified-demo/store/jobs/0339fcf8-9377-40f7-a5f2-36d81a8c8c4f/work.mp4",
+      "outputSha256": "5d4b7da7c4e36e5323d8562bf11534c3de1c13d723254c3950f2b3e123fb05e7",
+      "sourceSha256": "cc22f7a272b3bde7a04cbccf0cd61484b7d1115be9c79c0804d63753e43d9c3e",
+      "rows": [
+        {
+          "frame": 0,
+          "hook": [
+            120,
+            230
+          ],
+          "parcel": [
+            120,
+            254
+          ],
+          "reach": {
+            "point": [
+              120,
+              230
+            ],
+            "distance": 170,
+            "residual": 0,
+            "reachable": true
+          },
+          "collision": false,
+          "attached": true,
+          "contactResidual": null
+        },
+        {
+          "frame": 1,
+          "hook": [
+            120,
+            230
+          ],
+          "parcel": [
+            120,
+            254
+          ],
+          "reach": {
+            "point": [
+              120,
+              230
+            ],
+            "distance": 170,
+            "residual": 0,
+            "reachable": true
+          },
+          "collision": false,
+          "attached": true,
+          "contactResidual": null
+        },
+        {
+          "frame": 2,
+          "hook": [
+            120,
+            230
+          ],
+          "parcel": [
+            120,
+            254
+          ],
+          "reach": {
+            "point": [
+              120,
+              230
+            ],
+            "distance": 170,
+            "residual": 0,
+            "reachable": true
+          },
+          "collision": false,
+          "attached": true,
+          "contactResidual": null
+        },
+        {
+          "frame": 3,
+          "hook": [
+            120,
+            230
+          ],
+          "parcel": [
+            120,
+            254
+          ],
+          "reach": {
+            "point": [
+              120,
+              230
+            ],
+            "distance": 170,
+            "residual": 0,
+            "reachable": true
+          },
+          "collision": false,
+          "attached": true,
+          "contactResidual": null
+        },
+        {
+          "frame": 4,
+          "hook": [
+            120,
+            230
+          ],
+          "parcel": [
+            120,
+            254
+          ],
+          "reach": {
+            "point": [
+              120,
+              230
+            ],
+            "distance": 170,
+            "residual": 0,
+            "reachable": true
+          },
+          "collision": false,
+          "attached": true,
+          "contactResidual": null
+        },
+        {
+          "frame": 5,
+          "hook": [
+            120,
+            230
+          ],
+          "parcel": [
+            120,
+            254
+          ],
+          "reach": {
+            "point": [
+              120,
+              230
+            ],
+            "distance": 170,
+            "residual": 0,
+            "reachable": true
+          },
+          "collision": false,
+          "attached": true,
+          "contactResidual": null
+        },
+        {
+          "frame": 6,
+          "hook": [
+            120,
+            230
+          ],
+          "parcel": [
+            120,
+            254
+          ],
+          "reach": {
+            "point": [
+              120,
+              230
+            ],
+            "distance": 170,
+            "residual": 0,
+            "reachable": true
+          },
+          "collision": false,
+          "attached": true,
+          "contactResidual": null
+        },
+        {
+          "frame": 7,
+          "hook": [
+            120,
+            230
+          ],
+          "parcel": [
+            120,
+            254
+          ],
+          "reach": {
+            "point": [
+              120,
+              230
+            ],
+            "distance": 170,
+            "residual": 0,
+            "reachable": true
+          },
+          "collision": false,
+          "attached": true,
+          "contactResidual": null
+        },
+        {
+          "frame": 8,
+          "hook": [
+            120,
+            230
+          ],
+          "parcel": [
+            120,
+            254
+          ],
+          "reach": {
+            "point": [
+              120,
+              230
+            ],
+            "distance": 170,
+            "residual": 0,
+            "reachable": true
+          },
+          "collision": false,
+          "attached": true,
+          "contactResidual": null
+        },
+        {
+          "frame": 9,
+          "hook": [
+            120,
+            230
+          ],
+          "parcel": [
+            120,
+            254
+          ],
+          "reach": {
+            "point": [
+              120,
+              230
+            ],
+            "distance": 170,
+            "residual": 0,
+            "reachable": true
+          },
+          "collision": false,
+          "attached": true,
+          "contactResidual": null
+        },
+        {
+          "frame": 10,
+          "hook": [
+            120,
+            230
+          ],
+          "parcel": [
+            120,
+            254
+          ],
+          "reach": {
+            "point": [
+              120,
+              230
+            ],
+            "distance": 170,
+            "residual": 0,
+            "reachable": true
+          },
+          "collision": false,
+          "attached": true,
+          "contactResidual": null
+        },
+        {
+          "frame": 11,
+          "hook": [
+            120,
+            230
+          ],
+          "parcel": [
+            120,
+            254
+          ],
+          "reach": {
+            "point": [
+              120,
+              230
+            ],
+            "distance": 170,
+            "residual": 0,
+            "reachable": true
+          },
+          "collision": false,
+          "attached": true,
+          "contactResidual": null
+        },
+        {
+          "frame": 12,
+          "hook": [
+            120,
+            230
+          ],
+          "parcel": [
+            120,
+            254
+          ],
+          "reach": {
+            "point": [
+              120,
+              230
+            ],
+            "distance": 170,
+            "residual": 0,
+            "reachable": true
+          },
+          "collision": false,
+          "attached": true,
+          "contactResidual": null
+        },
+        {
+          "frame": 13,
+          "hook": [
+            130,
+            230
+          ],
+          "parcel": [
+            130,
+            254
+          ],
+          "reach": {
+            "point": [
+              130,
+              230
+            ],
+            "distance": 170,
+            "residual": 0,
+            "reachable": true
+          },
+          "collision": false,
+          "attached": true,
+          "contactResidual": null
+        },
+        {
+          "frame": 14,
+          "hook": [
+            140,
+            230
+          ],
+          "parcel": [
+            140,
+            254
+          ],
+          "reach": {
+            "point": [
+              140,
+              230
+            ],
+            "distance": 170,
+            "residual": 0,
+            "reachable": true
+          },
+          "collision": false,
+          "attached": true,
+          "contactResidual": null
+        },
+        {
+          "frame": 15,
+          "hook": [
+            150,
+            230
+          ],
+          "parcel": [
+            150,
+            254
+          ],
+          "reach": {
+            "point": [
+              150,
+              230
+            ],
+            "distance": 170,
+            "residual": 0,
+            "reachable": true
+          },
+          "collision": false,
+          "attached": true,
+          "contactResidual": null
+        },
+        {
+          "frame": 16,
+          "hook": [
+            160,
+            230
+          ],
+          "parcel": [
+            160,
+            254
+          ],
+          "reach": {
+            "point": [
+              160,
+              230
+            ],
+            "distance": 170,
+            "residual": 0,
+            "reachable": true
+          },
+          "collision": false,
+          "attached": true,
+          "contactResidual": null
+        },
+        {
+          "frame": 17,
+          "hook": [
+            170,
+            230
+          ],
+          "parcel": [
+            170,
+            254
+          ],
+          "reach": {
+            "point": [
+              170,
+              230
+            ],
+            "distance": 170,
+            "residual": 0,
+            "reachable": true
+          },
+          "collision": false,
+          "attached": true,
+          "contactResidual": null
+        },
+        {
+          "frame": 18,
+          "hook": [
+            180,
+            230
+          ],
+          "parcel": [
+            180,
+            254
+          ],
+          "reach": {
+            "point": [
+              180,
+              230
+            ],
+            "distance": 170,
+            "residual": 0,
+            "reachable": true
+          },
+          "collision": false,
+          "attached": true,
+          "contactResidual": null
+        },
+        {
+          "frame": 19,
+          "hook": [
+            190,
+            230
+          ],
+          "parcel": [
+            190,
+            254
+          ],
+          "reach": {
+            "point": [
+              190,
+              230
+            ],
+            "distance": 170,
+            "residual": 0,
+            "reachable": true
+          },
+          "collision": false,
+          "attached": true,
+          "contactResidual": null
+        },
+        {
+          "frame": 20,
+          "hook": [
+            200,
+            230
+          ],
+          "parcel": [
+            200,
+            254
+          ],
+          "reach": {
+            "point": [
+              200,
+              230
+            ],
+            "distance": 170,
+            "residual": 0,
+            "reachable": true
+          },
+          "collision": false,
+          "attached": true,
+          "contactResidual": null
+        },
+        {
+          "frame": 21,
+          "hook": [
+            210,
+            230
+          ],
+          "parcel": [
+            210,
+            254
+          ],
+          "reach": {
+            "point": [
+              210,
+              230
+            ],
+            "distance": 170,
+            "residual": 0,
+            "reachable": true
+          },
+          "collision": false,
+          "attached": true,
+          "contactResidual": null
+        },
+        {
+          "frame": 22,
+          "hook": [
+            220,
+            230
+          ],
+          "parcel": [
+            220,
+            254
+          ],
+          "reach": {
+            "point": [
+              220,
+              230
+            ],
+            "distance": 170,
+            "residual": 0,
+            "reachable": true
+          },
+          "collision": false,
+          "attached": true,
+          "contactResidual": null
+        },
+        {
+          "frame": 23,
+          "hook": [
+            230,
+            230
+          ],
+          "parcel": [
+            230,
+            254
+          ],
+          "reach": {
+            "point": [
+              230,
+              230
+            ],
+            "distance": 170,
+            "residual": 0,
+            "reachable": true
+          },
+          "collision": false,
+          "attached": true,
+          "contactResidual": null
+        },
+        {
+          "frame": 24,
+          "hook": [
+            240,
+            230
+          ],
+          "parcel": [
+            240,
+            254
+          ],
+          "reach": {
+            "point": [
+              240,
+              230
+            ],
+            "distance": 170,
+            "residual": 0,
+            "reachable": true
+          },
+          "collision": false,
+          "attached": true,
+          "contactResidual": null
+        },
+        {
+          "frame": 25,
+          "hook": [
+            250,
+            230
+          ],
+          "parcel": [
+            250,
+            254
+          ],
+          "reach": {
+            "point": [
+              250,
+              230
+            ],
+            "distance": 170,
+            "residual": 0,
+            "reachable": true
+          },
+          "collision": true,
+          "attached": true,
+          "contactResidual": null
+        },
+        {
+          "frame": 26,
+          "hook": [
+            260,
+            230
+          ],
+          "parcel": [
+            260,
+            254
+          ],
+          "reach": {
+            "point": [
+              260,
+              230
+            ],
+            "distance": 170,
+            "residual": 0,
+            "reachable": true
+          },
+          "collision": true,
+          "attached": true,
+          "contactResidual": null
+        },
+        {
+          "frame": 27,
+          "hook": [
+            270,
+            230
+          ],
+          "parcel": [
+            270,
+            254
+          ],
+          "reach": {
+            "point": [
+              270,
+              230
+            ],
+            "distance": 170,
+            "residual": 0,
+            "reachable": true
+          },
+          "collision": true,
+          "attached": true,
+          "contactResidual": null
+        },
+        {
+          "frame": 28,
+          "hook": [
+            280,
+            230
+          ],
+          "parcel": [
+            280,
+            254
+          ],
+          "reach": {
+            "point": [
+              280,
+              230
+            ],
+            "distance": 170,
+            "residual": 0,
+            "reachable": true
+          },
+          "collision": true,
+          "attached": true,
+          "contactResidual": null
+        },
+        {
+          "frame": 29,
+          "hook": [
+            290,
+            230
+          ],
+          "parcel": [
+            290,
+            254
+          ],
+          "reach": {
+            "point": [
+              290,
+              230
+            ],
+            "distance": 170,
+            "residual": 0,
+            "reachable": true
+          },
+          "collision": true,
+          "attached": true,
+          "contactResidual": null
+        },
+        {
+          "frame": 30,
+          "hook": [
+            300,
+            230
+          ],
+          "parcel": [
+            300,
+            254
+          ],
+          "reach": {
+            "point": [
+              300,
+              230
+            ],
+            "distance": 170,
+            "residual": 0,
+            "reachable": true
+          },
+          "collision": true,
+          "attached": true,
+          "contactResidual": null
+        },
+        {
+          "frame": 31,
+          "hook": [
+            310,
+            230
+          ],
+          "parcel": [
+            310,
+            254
+          ],
+          "reach": {
+            "point": [
+              310,
+              230
+            ],
+            "distance": 170,
+            "residual": 0,
+            "reachable": true
+          },
+          "collision": true,
+          "attached": true,
+          "contactResidual": null
+        },
+        {
+          "frame": 32,
+          "hook": [
+            320,
+            230
+          ],
+          "parcel": [
+            320,
+            254
+          ],
+          "reach": {
+            "point": [
+              320,
+              230
+            ],
+            "distance": 170,
+            "residual": 0,
+            "reachable": true
+          },
+          "collision": true,
+          "attached": true,
+          "contactResidual": null
+        },
+        {
+          "frame": 33,
+          "hook": [
+            330,
+            230
+          ],
+          "parcel": [
+            330,
+            254
+          ],
+          "reach": {
+            "point": [
+              330,
+              230
+            ],
+            "distance": 170,
+            "residual": 0,
+            "reachable": true
+          },
+          "collision": true,
+          "attached": true,
+          "contactResidual": null
+        },
+        {
+          "frame": 34,
+          "hook": [
+            340,
+            230
+          ],
+          "parcel": [
+            340,
+            254
+          ],
+          "reach": {
+            "point": [
+              340,
+              230
+            ],
+            "distance": 170,
+            "residual": 0,
+            "reachable": true
+          },
+          "collision": true,
+          "attached": true,
+          "contactResidual": null
+        },
+        {
+          "frame": 35,
+          "hook": [
+            350,
+            230
+          ],
+          "parcel": [
+            350,
+            254
+          ],
+          "reach": {
+            "point": [
+              350,
+              230
+            ],
+            "distance": 170,
+            "residual": 0,
+            "reachable": true
+          },
+          "collision": true,
+          "attached": true,
+          "contactResidual": null
+        },
+        {
+          "frame": 36,
+          "hook": [
+            360,
+            230
+          ],
+          "parcel": [
+            360,
+            254
+          ],
+          "reach": {
+            "point": [
+              360,
+              230
+            ],
+            "distance": 170,
+            "residual": 0,
+            "reachable": true
+          },
+          "collision": false,
+          "attached": true,
+          "contactResidual": null
+        },
+        {
+          "frame": 37,
+          "hook": [
+            370,
+            230
+          ],
+          "parcel": [
+            370,
+            254
+          ],
+          "reach": {
+            "point": [
+              370,
+              230
+            ],
+            "distance": 170,
+            "residual": 0,
+            "reachable": true
+          },
+          "collision": false,
+          "attached": true,
+          "contactResidual": null
+        },
+        {
+          "frame": 38,
+          "hook": [
+            380,
+            230
+          ],
+          "parcel": [
+            380,
+            254
+          ],
+          "reach": {
+            "point": [
+              380,
+              230
+            ],
+            "distance": 170,
+            "residual": 0,
+            "reachable": true
+          },
+          "collision": false,
+          "attached": true,
+          "contactResidual": null
+        },
+        {
+          "frame": 39,
+          "hook": [
+            390,
+            230
+          ],
+          "parcel": [
+            390,
+            254
+          ],
+          "reach": {
+            "point": [
+              390,
+              230
+            ],
+            "distance": 170,
+            "residual": 0,
+            "reachable": true
+          },
+          "collision": false,
+          "attached": true,
+          "contactResidual": null
+        },
+        {
+          "frame": 40,
+          "hook": [
+            400,
+            230
+          ],
+          "parcel": [
+            400,
+            254
+          ],
+          "reach": {
+            "point": [
+              400,
+              230
+            ],
+            "distance": 170,
+            "residual": 0,
+            "reachable": true
+          },
+          "collision": false,
+          "attached": true,
+          "contactResidual": null
+        },
+        {
+          "frame": 41,
+          "hook": [
+            410,
+            230
+          ],
+          "parcel": [
+            410,
+            254
+          ],
+          "reach": {
+            "point": [
+              410,
+              230
+            ],
+            "distance": 170,
+            "residual": 0,
+            "reachable": true
+          },
+          "collision": false,
+          "attached": true,
+          "contactResidual": null
+        },
+        {
+          "frame": 42,
+          "hook": [
+            420,
+            230
+          ],
+          "parcel": [
+            420,
+            254
+          ],
+          "reach": {
+            "point": [
+              420,
+              230
+            ],
+            "distance": 170,
+            "residual": 0,
+            "reachable": true
+          },
+          "collision": false,
+          "attached": true,
+          "contactResidual": null
+        },
+        {
+          "frame": 43,
+          "hook": [
+            430,
+            230
+          ],
+          "parcel": [
+            430,
+            254
+          ],
+          "reach": {
+            "point": [
+              430,
+              230
+            ],
+            "distance": 170,
+            "residual": 0,
+            "reachable": true
+          },
+          "collision": false,
+          "attached": true,
+          "contactResidual": null
+        },
+        {
+          "frame": 44,
+          "hook": [
+            440,
+            230
+          ],
+          "parcel": [
+            440,
+            254
+          ],
+          "reach": {
+            "point": [
+              440,
+              230
+            ],
+            "distance": 170,
+            "residual": 0,
+            "reachable": true
+          },
+          "collision": false,
+          "attached": true,
+          "contactResidual": null
+        },
+        {
+          "frame": 45,
+          "hook": [
+            450,
+            230
+          ],
+          "parcel": [
+            450,
+            254
+          ],
+          "reach": {
+            "point": [
+              450,
+              230
+            ],
+            "distance": 170,
+            "residual": 0,
+            "reachable": true
+          },
+          "collision": false,
+          "attached": true,
+          "contactResidual": null
+        },
+        {
+          "frame": 46,
+          "hook": [
+            460,
+            230
+          ],
+          "parcel": [
+            460,
+            254
+          ],
+          "reach": {
+            "point": [
+              460,
+              230
+            ],
+            "distance": 170,
+            "residual": 0,
+            "reachable": true
+          },
+          "collision": false,
+          "attached": true,
+          "contactResidual": null
+        },
+        {
+          "frame": 47,
+          "hook": [
+            470,
+            230
+          ],
+          "parcel": [
+            470,
+            254
+          ],
+          "reach": {
+            "point": [
+              470,
+              230
+            ],
+            "distance": 170,
+            "residual": 0,
+            "reachable": true
+          },
+          "collision": false,
+          "attached": true,
+          "contactResidual": null
+        },
+        {
+          "frame": 48,
+          "hook": [
+            480,
+            230
+          ],
+          "parcel": [
+            480,
+            254
+          ],
+          "reach": {
+            "point": [
+              480,
+              230
+            ],
+            "distance": 170,
+            "residual": 0,
+            "reachable": true
+          },
+          "collision": false,
+          "attached": true,
+          "contactResidual": 0
+        },
+        {
+          "frame": 49,
+          "hook": [
+            480,
+            230
+          ],
+          "parcel": [
+            480,
+            254
+          ],
+          "reach": {
+            "point": [
+              480,
+              230
+            ],
+            "distance": 170,
+            "residual": 0,
+            "reachable": true
+          },
+          "collision": false,
+          "attached": true,
+          "contactResidual": 0
+        },
+        {
+          "frame": 50,
+          "hook": [
+            480,
+            230
+          ],
+          "parcel": [
+            480,
+            254
+          ],
+          "reach": {
+            "point": [
+              480,
+              230
+            ],
+            "distance": 170,
+            "residual": 0,
+            "reachable": true
+          },
+          "collision": false,
+          "attached": true,
+          "contactResidual": 0
+        },
+        {
+          "frame": 51,
+          "hook": [
+            480,
+            230
+          ],
+          "parcel": [
+            480,
+            254
+          ],
+          "reach": {
+            "point": [
+              480,
+              230
+            ],
+            "distance": 170,
+            "residual": 0,
+            "reachable": true
+          },
+          "collision": false,
+          "attached": true,
+          "contactResidual": 0
+        },
+        {
+          "frame": 52,
+          "hook": [
+            480,
+            230
+          ],
+          "parcel": [
+            480,
+            254
+          ],
+          "reach": {
+            "point": [
+              480,
+              230
+            ],
+            "distance": 170,
+            "residual": 0,
+            "reachable": true
+          },
+          "collision": false,
+          "attached": true,
+          "contactResidual": 0
+        },
+        {
+          "frame": 53,
+          "hook": [
+            480,
+            230
+          ],
+          "parcel": [
+            480,
+            254
+          ],
+          "reach": {
+            "point": [
+              480,
+              230
+            ],
+            "distance": 170,
+            "residual": 0,
+            "reachable": true
+          },
+          "collision": false,
+          "attached": true,
+          "contactResidual": 0
+        },
+        {
+          "frame": 54,
+          "hook": [
+            480,
+            230
+          ],
+          "parcel": [
+            480,
+            254
+          ],
+          "reach": {
+            "point": [
+              480,
+              230
+            ],
+            "distance": 170,
+            "residual": 0,
+            "reachable": true
+          },
+          "collision": false,
+          "attached": true,
+          "contactResidual": 0
+        },
+        {
+          "frame": 55,
+          "hook": [
+            480,
+            230
+          ],
+          "parcel": [
+            480,
+            254
+          ],
+          "reach": {
+            "point": [
+              480,
+              230
+            ],
+            "distance": 170,
+            "residual": 0,
+            "reachable": true
+          },
+          "collision": false,
+          "attached": true,
+          "contactResidual": 0
+        },
+        {
+          "frame": 56,
+          "hook": [
+            480,
+            230
+          ],
+          "parcel": [
+            480,
+            254
+          ],
+          "reach": {
+            "point": [
+              480,
+              230
+            ],
+            "distance": 170,
+            "residual": 0,
+            "reachable": true
+          },
+          "collision": false,
+          "attached": true,
+          "contactResidual": 0
+        },
+        {
+          "frame": 57,
+          "hook": [
+            480,
+            230
+          ],
+          "parcel": [
+            480,
+            254
+          ],
+          "reach": {
+            "point": [
+              480,
+              230
+            ],
+            "distance": 170,
+            "residual": 0,
+            "reachable": true
+          },
+          "collision": false,
+          "attached": true,
+          "contactResidual": 0
+        },
+        {
+          "frame": 58,
+          "hook": [
+            480,
+            230
+          ],
+          "parcel": [
+            480,
+            254
+          ],
+          "reach": {
+            "point": [
+              480,
+              230
+            ],
+            "distance": 170,
+            "residual": 0,
+            "reachable": true
+          },
+          "collision": false,
+          "attached": true,
+          "contactResidual": 0
+        },
+        {
+          "frame": 59,
+          "hook": [
+            480,
+            230
+          ],
+          "parcel": [
+            480,
+            254
+          ],
+          "reach": {
+            "point": [
+              480,
+              230
+            ],
+            "distance": 170,
+            "residual": 0,
+            "reachable": true
+          },
+          "collision": false,
+          "attached": true,
+          "contactResidual": 0
+        },
+        {
+          "frame": 60,
+          "hook": [
+            480,
+            230
+          ],
+          "parcel": [
+            480,
+            254
+          ],
+          "reach": {
+            "point": [
+              480,
+              230
+            ],
+            "distance": 170,
+            "residual": 0,
+            "reachable": true
+          },
+          "collision": false,
+          "attached": false,
+          "contactResidual": 0
+        },
+        {
+          "frame": 61,
+          "hook": [
+            480,
+            227.9038317054846
+          ],
+          "parcel": [
+            480,
+            254
+          ],
+          "reach": {
+            "point": [
+              480,
+              227.9038317054846
+            ],
+            "distance": 167.9038317054846,
+            "residual": 0,
+            "reachable": true
+          },
+          "collision": false,
+          "attached": false,
+          "contactResidual": 0
+        },
+        {
+          "frame": 62,
+          "hook": [
+            480,
+            222.15627347858754
+          ],
+          "parcel": [
+            480,
+            254
+          ],
+          "reach": {
+            "point": [
+              480,
+              222.15627347858754
+            ],
+            "distance": 162.15627347858754,
+            "residual": 0,
+            "reachable": true
+          },
+          "collision": false,
+          "attached": false,
+          "contactResidual": 0
+        },
+        {
+          "frame": 63,
+          "hook": [
+            480,
+            213.5687453042825
+          ],
+          "parcel": [
+            480,
+            254
+          ],
+          "reach": {
+            "point": [
+              480,
+              213.5687453042825
+            ],
+            "distance": 153.5687453042825,
+            "residual": 0,
+            "reachable": true
+          },
+          "collision": false,
+          "attached": false,
+          "contactResidual": 0
+        },
+        {
+          "frame": 64,
+          "hook": [
+            480,
+            202.9526671675432
+          ],
+          "parcel": [
+            480,
+            254
+          ],
+          "reach": {
+            "point": [
+              480,
+              202.9526671675432
+            ],
+            "distance": 142.9526671675432,
+            "residual": 0,
+            "reachable": true
+          },
+          "collision": false,
+          "attached": false,
+          "contactResidual": 0
+        },
+        {
+          "frame": 65,
+          "hook": [
+            480,
+            191.11945905334335
+          ],
+          "parcel": [
+            480,
+            254
+          ],
+          "reach": {
+            "point": [
+              480,
+              191.11945905334335
+            ],
+            "distance": 131.11945905334335,
+            "residual": 0,
+            "reachable": true
+          },
+          "collision": false,
+          "attached": false,
+          "contactResidual": 0
+        },
+        {
+          "frame": 66,
+          "hook": [
+            480,
+            178.88054094665665
+          ],
+          "parcel": [
+            480,
+            254
+          ],
+          "reach": {
+            "point": [
+              480,
+              178.88054094665665
+            ],
+            "distance": 118.88054094665665,
+            "residual": 0,
+            "reachable": true
+          },
+          "collision": false,
+          "attached": false,
+          "contactResidual": 0
+        },
+        {
+          "frame": 67,
+          "hook": [
+            480,
+            167.0473328324568
+          ],
+          "parcel": [
+            480,
+            254
+          ],
+          "reach": {
+            "point": [
+              480,
+              167.0473328324568
+            ],
+            "distance": 107.04733283245679,
+            "residual": 0,
+            "reachable": true
+          },
+          "collision": false,
+          "attached": false,
+          "contactResidual": 0
+        },
+        {
+          "frame": 68,
+          "hook": [
+            480,
+            156.43125469571748
+          ],
+          "parcel": [
+            480,
+            254
+          ],
+          "reach": {
+            "point": [
+              480,
+              156.43125469571748
+            ],
+            "distance": 96.43125469571748,
+            "residual": 0,
+            "reachable": true
+          },
+          "collision": false,
+          "attached": false,
+          "contactResidual": 0
+        },
+        {
+          "frame": 69,
+          "hook": [
+            480,
+            147.84372652141246
+          ],
+          "parcel": [
+            480,
+            254
+          ],
+          "reach": {
+            "point": [
+              480,
+              147.84372652141246
+            ],
+            "distance": 87.84372652141246,
+            "residual": 0,
+            "reachable": true
+          },
+          "collision": false,
+          "attached": false,
+          "contactResidual": 0
+        },
+        {
+          "frame": 70,
+          "hook": [
+            480,
+            142.0961682945154
+          ],
+          "parcel": [
+            480,
+            254
+          ],
+          "reach": {
+            "point": [
+              480,
+              142.0961682945154
+            ],
+            "distance": 82.0961682945154,
+            "residual": 0,
+            "reachable": true
+          },
+          "collision": false,
+          "attached": false,
+          "contactResidual": 0
+        },
+        {
+          "frame": 71,
+          "hook": [
+            480,
+            140
+          ],
+          "parcel": [
+            480,
+            254
+          ],
+          "reach": {
+            "point": [
+              480,
+              140
+            ],
+            "distance": 80,
+            "residual": 0,
+            "reachable": true
+          },
+          "collision": false,
+          "attached": false,
+          "contactResidual": 0
+        }
+      ]
+    },
+    {
+      "label": "clearance",
+      "revision": "e3f5775da83aaf3e87c7fdb255c66a46482c6f214e41c5a2a9bb62bba2da02e0",
+      "job": "e3f6dcf8-428e-45b7-aa39-7507a133995d",
+      "output": "/Volumes/eyedisk/develop/cinewright/evidence/skill-production-loop-20261109/implementation/verified-demo/store/jobs/e3f6dcf8-428e-45b7-aa39-7507a133995d/work.mp4",
+      "outputSha256": "7d02e3a7b500551535570382f4df2c26bb53dbc6f9c153e3955453c8789aeefc",
+      "sourceSha256": "408d984e6a44d4316859a97d865dfd07c7c12fd8bc029f827bc8d609bfcf122f",
+      "rows": [
+        {
+          "frame": 0,
+          "hook": [
+            120,
+            230
+          ],
+          "parcel": [
+            120,
+            254
+          ],
+          "reach": {
+            "point": [
+              120,
+              230
+            ],
+            "distance": 170,
+            "residual": 0,
+            "reachable": true
+          },
+          "collision": false,
+          "attached": true,
+          "contactResidual": null
+        },
+        {
+          "frame": 1,
+          "hook": [
+            120,
+            230
+          ],
+          "parcel": [
+            120,
+            254
+          ],
+          "reach": {
+            "point": [
+              120,
+              230
+            ],
+            "distance": 170,
+            "residual": 0,
+            "reachable": true
+          },
+          "collision": false,
+          "attached": true,
+          "contactResidual": null
+        },
+        {
+          "frame": 2,
+          "hook": [
+            120,
+            230
+          ],
+          "parcel": [
+            120,
+            254
+          ],
+          "reach": {
+            "point": [
+              120,
+              230
+            ],
+            "distance": 170,
+            "residual": 0,
+            "reachable": true
+          },
+          "collision": false,
+          "attached": true,
+          "contactResidual": null
+        },
+        {
+          "frame": 3,
+          "hook": [
+            120,
+            230
+          ],
+          "parcel": [
+            120,
+            254
+          ],
+          "reach": {
+            "point": [
+              120,
+              230
+            ],
+            "distance": 170,
+            "residual": 0,
+            "reachable": true
+          },
+          "collision": false,
+          "attached": true,
+          "contactResidual": null
+        },
+        {
+          "frame": 4,
+          "hook": [
+            120,
+            230
+          ],
+          "parcel": [
+            120,
+            254
+          ],
+          "reach": {
+            "point": [
+              120,
+              230
+            ],
+            "distance": 170,
+            "residual": 0,
+            "reachable": true
+          },
+          "collision": false,
+          "attached": true,
+          "contactResidual": null
+        },
+        {
+          "frame": 5,
+          "hook": [
+            120,
+            230
+          ],
+          "parcel": [
+            120,
+            254
+          ],
+          "reach": {
+            "point": [
+              120,
+              230
+            ],
+            "distance": 170,
+            "residual": 0,
+            "reachable": true
+          },
+          "collision": false,
+          "attached": true,
+          "contactResidual": null
+        },
+        {
+          "frame": 6,
+          "hook": [
+            120,
+            230
+          ],
+          "parcel": [
+            120,
+            254
+          ],
+          "reach": {
+            "point": [
+              120,
+              230
+            ],
+            "distance": 170,
+            "residual": 0,
+            "reachable": true
+          },
+          "collision": false,
+          "attached": true,
+          "contactResidual": null
+        },
+        {
+          "frame": 7,
+          "hook": [
+            120,
+            230
+          ],
+          "parcel": [
+            120,
+            254
+          ],
+          "reach": {
+            "point": [
+              120,
+              230
+            ],
+            "distance": 170,
+            "residual": 0,
+            "reachable": true
+          },
+          "collision": false,
+          "attached": true,
+          "contactResidual": null
+        },
+        {
+          "frame": 8,
+          "hook": [
+            120,
+            230
+          ],
+          "parcel": [
+            120,
+            254
+          ],
+          "reach": {
+            "point": [
+              120,
+              230
+            ],
+            "distance": 170,
+            "residual": 0,
+            "reachable": true
+          },
+          "collision": false,
+          "attached": true,
+          "contactResidual": null
+        },
+        {
+          "frame": 9,
+          "hook": [
+            120,
+            230
+          ],
+          "parcel": [
+            120,
+            254
+          ],
+          "reach": {
+            "point": [
+              120,
+              230
+            ],
+            "distance": 170,
+            "residual": 0,
+            "reachable": true
+          },
+          "collision": false,
+          "attached": true,
+          "contactResidual": null
+        },
+        {
+          "frame": 10,
+          "hook": [
+            120,
+            230
+          ],
+          "parcel": [
+            120,
+            254
+          ],
+          "reach": {
+            "point": [
+              120,
+              230
+            ],
+            "distance": 170,
+            "residual": 0,
+            "reachable": true
+          },
+          "collision": false,
+          "attached": true,
+          "contactResidual": null
+        },
+        {
+          "frame": 11,
+          "hook": [
+            120,
+            230
+          ],
+          "parcel": [
+            120,
+            254
+          ],
+          "reach": {
+            "point": [
+              120,
+              230
+            ],
+            "distance": 170,
+            "residual": 0,
+            "reachable": true
+          },
+          "collision": false,
+          "attached": true,
+          "contactResidual": null
+        },
+        {
+          "frame": 12,
+          "hook": [
+            120,
+            230
+          ],
+          "parcel": [
+            120,
+            254
+          ],
+          "reach": {
+            "point": [
+              120,
+              230
+            ],
+            "distance": 170,
+            "residual": 0,
+            "reachable": true
+          },
+          "collision": false,
+          "attached": true,
+          "contactResidual": null
+        },
+        {
+          "frame": 13,
+          "hook": [
+            130,
+            229.01920438957475
+          ],
+          "parcel": [
+            130,
+            253.01920438957475
+          ],
+          "reach": {
+            "point": [
+              130,
+              229.01920438957475
+            ],
+            "distance": 169.01920438957475,
+            "residual": 0,
+            "reachable": true
+          },
+          "collision": false,
+          "attached": true,
+          "contactResidual": null
+        },
+        {
+          "frame": 14,
+          "hook": [
+            140,
+            226.22770919067216
+          ],
+          "parcel": [
+            140,
+            250.22770919067216
+          ],
+          "reach": {
+            "point": [
+              140,
+              226.22770919067216
+            ],
+            "distance": 166.22770919067216,
+            "residual": 0,
+            "reachable": true
+          },
+          "collision": false,
+          "attached": true,
+          "contactResidual": null
+        },
+        {
+          "frame": 15,
+          "hook": [
+            150,
+            221.85185185185185
+          ],
+          "parcel": [
+            150,
+            245.85185185185185
+          ],
+          "reach": {
+            "point": [
+              150,
+              221.85185185185185
+            ],
+            "distance": 161.85185185185185,
+            "residual": 0,
+            "reachable": true
+          },
+          "collision": false,
+          "attached": true,
+          "contactResidual": null
+        },
+        {
+          "frame": 16,
+          "hook": [
+            160,
+            216.1179698216735
+          ],
+          "parcel": [
+            160,
+            240.1179698216735
+          ],
+          "reach": {
+            "point": [
+              160,
+              216.1179698216735
+            ],
+            "distance": 156.1179698216735,
+            "residual": 0,
+            "reachable": true
+          },
+          "collision": false,
+          "attached": true,
+          "contactResidual": null
+        },
+        {
+          "frame": 17,
+          "hook": [
+            170,
+            209.25240054869684
+          ],
+          "parcel": [
+            170,
+            233.25240054869684
+          ],
+          "reach": {
+            "point": [
+              170,
+              209.25240054869684
+            ],
+            "distance": 149.25240054869684,
+            "residual": 0,
+            "reachable": true
+          },
+          "collision": false,
+          "attached": true,
+          "contactResidual": null
+        },
+        {
+          "frame": 18,
+          "hook": [
+            180,
+            201.48148148148147
+          ],
+          "parcel": [
+            180,
+            225.48148148148147
+          ],
+          "reach": {
+            "point": [
+              180,
+              201.48148148148147
+            ],
+            "distance": 141.48148148148147,
+            "residual": 0,
+            "reachable": true
+          },
+          "collision": false,
+          "attached": true,
+          "contactResidual": null
+        },
+        {
+          "frame": 19,
+          "hook": [
+            190,
+            193.0315500685871
+          ],
+          "parcel": [
+            190,
+            217.0315500685871
+          ],
+          "reach": {
+            "point": [
+              190,
+              193.0315500685871
+            ],
+            "distance": 133.0315500685871,
+            "residual": 0,
+            "reachable": true
+          },
+          "collision": false,
+          "attached": true,
+          "contactResidual": null
+        },
+        {
+          "frame": 20,
+          "hook": [
+            200,
+            184.12894375857337
+          ],
+          "parcel": [
+            200,
+            208.12894375857337
+          ],
+          "reach": {
+            "point": [
+              200,
+              184.12894375857337
+            ],
+            "distance": 124.12894375857337,
+            "residual": 0,
+            "reachable": true
+          },
+          "collision": false,
+          "attached": true,
+          "contactResidual": null
+        },
+        {
+          "frame": 21,
+          "hook": [
+            210,
+            175
+          ],
+          "parcel": [
+            210,
+            199
+          ],
+          "reach": {
+            "point": [
+              210,
+              175
+            ],
+            "distance": 115,
+            "residual": 0,
+            "reachable": true
+          },
+          "collision": false,
+          "attached": true,
+          "contactResidual": null
+        },
+        {
+          "frame": 22,
+          "hook": [
+            220,
+            165.8710562414266
+          ],
+          "parcel": [
+            220,
+            189.8710562414266
+          ],
+          "reach": {
+            "point": [
+              220,
+              165.8710562414266
+            ],
+            "distance": 105.8710562414266,
+            "residual": 0,
+            "reachable": true
+          },
+          "collision": false,
+          "attached": true,
+          "contactResidual": null
+        },
+        {
+          "frame": 23,
+          "hook": [
+            230,
+            156.9684499314129
+          ],
+          "parcel": [
+            230,
+            180.9684499314129
+          ],
+          "reach": {
+            "point": [
+              230,
+              156.9684499314129
+            ],
+            "distance": 96.96844993141289,
+            "residual": 0,
+            "reachable": true
+          },
+          "collision": false,
+          "attached": true,
+          "contactResidual": null
+        },
+        {
+          "frame": 24,
+          "hook": [
+            240,
+            148.5185185185185
+          ],
+          "parcel": [
+            240,
+            172.5185185185185
+          ],
+          "reach": {
+            "point": [
+              240,
+              148.5185185185185
+            ],
+            "distance": 88.5185185185185,
+            "residual": 0,
+            "reachable": true
+          },
+          "collision": false,
+          "attached": true,
+          "contactResidual": null
+        },
+        {
+          "frame": 25,
+          "hook": [
+            250,
+            140.74759945130316
+          ],
+          "parcel": [
+            250,
+            164.74759945130316
+          ],
+          "reach": {
+            "point": [
+              250,
+              140.74759945130316
+            ],
+            "distance": 80.74759945130316,
+            "residual": 0,
+            "reachable": true
+          },
+          "collision": false,
+          "attached": true,
+          "contactResidual": null
+        },
+        {
+          "frame": 26,
+          "hook": [
+            260,
+            133.8820301783265
+          ],
+          "parcel": [
+            260,
+            157.8820301783265
+          ],
+          "reach": {
+            "point": [
+              260,
+              133.8820301783265
+            ],
+            "distance": 73.88203017832649,
+            "residual": 0,
+            "reachable": true
+          },
+          "collision": false,
+          "attached": true,
+          "contactResidual": null
+        },
+        {
+          "frame": 27,
+          "hook": [
+            270,
+            128.14814814814815
+          ],
+          "parcel": [
+            270,
+            152.14814814814815
+          ],
+          "reach": {
+            "point": [
+              270,
+              128.14814814814815
+            ],
+            "distance": 68.14814814814815,
+            "residual": 0,
+            "reachable": true
+          },
+          "collision": false,
+          "attached": true,
+          "contactResidual": null
+        },
+        {
+          "frame": 28,
+          "hook": [
+            280,
+            123.77229080932786
+          ],
+          "parcel": [
+            280,
+            147.77229080932784
+          ],
+          "reach": {
+            "point": [
+              280,
+              123.77229080932786
+            ],
+            "distance": 63.772290809327856,
+            "residual": 0,
+            "reachable": true
+          },
+          "collision": false,
+          "attached": true,
+          "contactResidual": null
+        },
+        {
+          "frame": 29,
+          "hook": [
+            290,
+            120.98079561042522
+          ],
+          "parcel": [
+            290,
+            144.98079561042522
+          ],
+          "reach": {
+            "point": [
+              290,
+              120.98079561042522
+            ],
+            "distance": 60.98079561042523,
+            "residual": 0,
+            "reachable": true
+          },
+          "collision": false,
+          "attached": true,
+          "contactResidual": null
+        },
+        {
+          "frame": 30,
+          "hook": [
+            300,
+            120
+          ],
+          "parcel": [
+            300,
+            144
+          ],
+          "reach": {
+            "point": [
+              300,
+              120
+            ],
+            "distance": 60,
+            "residual": 0,
+            "reachable": true
+          },
+          "collision": false,
+          "attached": true,
+          "contactResidual": null
+        },
+        {
+          "frame": 31,
+          "hook": [
+            310,
+            120.98079561042522
+          ],
+          "parcel": [
+            310,
+            144.98079561042522
+          ],
+          "reach": {
+            "point": [
+              310,
+              120.98079561042522
+            ],
+            "distance": 60.98079561042523,
+            "residual": 0,
+            "reachable": true
+          },
+          "collision": false,
+          "attached": true,
+          "contactResidual": null
+        },
+        {
+          "frame": 32,
+          "hook": [
+            320,
+            123.77229080932786
+          ],
+          "parcel": [
+            320,
+            147.77229080932784
+          ],
+          "reach": {
+            "point": [
+              320,
+              123.77229080932786
+            ],
+            "distance": 63.772290809327856,
+            "residual": 0,
+            "reachable": true
+          },
+          "collision": false,
+          "attached": true,
+          "contactResidual": null
+        },
+        {
+          "frame": 33,
+          "hook": [
+            330,
+            128.14814814814815
+          ],
+          "parcel": [
+            330,
+            152.14814814814815
+          ],
+          "reach": {
+            "point": [
+              330,
+              128.14814814814815
+            ],
+            "distance": 68.14814814814815,
+            "residual": 0,
+            "reachable": true
+          },
+          "collision": false,
+          "attached": true,
+          "contactResidual": null
+        },
+        {
+          "frame": 34,
+          "hook": [
+            340,
+            133.8820301783265
+          ],
+          "parcel": [
+            340,
+            157.8820301783265
+          ],
+          "reach": {
+            "point": [
+              340,
+              133.8820301783265
+            ],
+            "distance": 73.88203017832649,
+            "residual": 0,
+            "reachable": true
+          },
+          "collision": false,
+          "attached": true,
+          "contactResidual": null
+        },
+        {
+          "frame": 35,
+          "hook": [
+            350,
+            140.74759945130316
+          ],
+          "parcel": [
+            350,
+            164.74759945130316
+          ],
+          "reach": {
+            "point": [
+              350,
+              140.74759945130316
+            ],
+            "distance": 80.74759945130316,
+            "residual": 0,
+            "reachable": true
+          },
+          "collision": false,
+          "attached": true,
+          "contactResidual": null
+        },
+        {
+          "frame": 36,
+          "hook": [
+            360,
+            148.5185185185185
+          ],
+          "parcel": [
+            360,
+            172.5185185185185
+          ],
+          "reach": {
+            "point": [
+              360,
+              148.5185185185185
+            ],
+            "distance": 88.5185185185185,
+            "residual": 0,
+            "reachable": true
+          },
+          "collision": false,
+          "attached": true,
+          "contactResidual": null
+        },
+        {
+          "frame": 37,
+          "hook": [
+            370,
+            156.9684499314129
+          ],
+          "parcel": [
+            370,
+            180.9684499314129
+          ],
+          "reach": {
+            "point": [
+              370,
+              156.9684499314129
+            ],
+            "distance": 96.96844993141289,
+            "residual": 0,
+            "reachable": true
+          },
+          "collision": false,
+          "attached": true,
+          "contactResidual": null
+        },
+        {
+          "frame": 38,
+          "hook": [
+            380,
+            165.8710562414266
+          ],
+          "parcel": [
+            380,
+            189.8710562414266
+          ],
+          "reach": {
+            "point": [
+              380,
+              165.8710562414266
+            ],
+            "distance": 105.8710562414266,
+            "residual": 0,
+            "reachable": true
+          },
+          "collision": false,
+          "attached": true,
+          "contactResidual": null
+        },
+        {
+          "frame": 39,
+          "hook": [
+            390,
+            175
+          ],
+          "parcel": [
+            390,
+            199
+          ],
+          "reach": {
+            "point": [
+              390,
+              175
+            ],
+            "distance": 115,
+            "residual": 0,
+            "reachable": true
+          },
+          "collision": false,
+          "attached": true,
+          "contactResidual": null
+        },
+        {
+          "frame": 40,
+          "hook": [
+            400,
+            184.12894375857337
+          ],
+          "parcel": [
+            400,
+            208.12894375857337
+          ],
+          "reach": {
+            "point": [
+              400,
+              184.12894375857337
+            ],
+            "distance": 124.12894375857337,
+            "residual": 0,
+            "reachable": true
+          },
+          "collision": false,
+          "attached": true,
+          "contactResidual": null
+        },
+        {
+          "frame": 41,
+          "hook": [
+            410,
+            193.0315500685871
+          ],
+          "parcel": [
+            410,
+            217.0315500685871
+          ],
+          "reach": {
+            "point": [
+              410,
+              193.0315500685871
+            ],
+            "distance": 133.0315500685871,
+            "residual": 0,
+            "reachable": true
+          },
+          "collision": false,
+          "attached": true,
+          "contactResidual": null
+        },
+        {
+          "frame": 42,
+          "hook": [
+            420,
+            201.48148148148147
+          ],
+          "parcel": [
+            420,
+            225.48148148148147
+          ],
+          "reach": {
+            "point": [
+              420,
+              201.48148148148147
+            ],
+            "distance": 141.48148148148147,
+            "residual": 0,
+            "reachable": true
+          },
+          "collision": false,
+          "attached": true,
+          "contactResidual": null
+        },
+        {
+          "frame": 43,
+          "hook": [
+            430,
+            209.25240054869684
+          ],
+          "parcel": [
+            430,
+            233.25240054869684
+          ],
+          "reach": {
+            "point": [
+              430,
+              209.25240054869684
+            ],
+            "distance": 149.25240054869684,
+            "residual": 0,
+            "reachable": true
+          },
+          "collision": false,
+          "attached": true,
+          "contactResidual": null
+        },
+        {
+          "frame": 44,
+          "hook": [
+            440,
+            216.1179698216735
+          ],
+          "parcel": [
+            440,
+            240.1179698216735
+          ],
+          "reach": {
+            "point": [
+              440,
+              216.1179698216735
+            ],
+            "distance": 156.1179698216735,
+            "residual": 0,
+            "reachable": true
+          },
+          "collision": false,
+          "attached": true,
+          "contactResidual": null
+        },
+        {
+          "frame": 45,
+          "hook": [
+            450,
+            221.85185185185185
+          ],
+          "parcel": [
+            450,
+            245.85185185185185
+          ],
+          "reach": {
+            "point": [
+              450,
+              221.85185185185185
+            ],
+            "distance": 161.85185185185185,
+            "residual": 0,
+            "reachable": true
+          },
+          "collision": false,
+          "attached": true,
+          "contactResidual": null
+        },
+        {
+          "frame": 46,
+          "hook": [
+            460,
+            226.22770919067216
+          ],
+          "parcel": [
+            460,
+            250.22770919067216
+          ],
+          "reach": {
+            "point": [
+              460,
+              226.22770919067216
+            ],
+            "distance": 166.22770919067216,
+            "residual": 0,
+            "reachable": true
+          },
+          "collision": false,
+          "attached": true,
+          "contactResidual": null
+        },
+        {
+          "frame": 47,
+          "hook": [
+            470,
+            229.01920438957475
+          ],
+          "parcel": [
+            470,
+            253.01920438957475
+          ],
+          "reach": {
+            "point": [
+              470,
+              229.01920438957475
+            ],
+            "distance": 169.01920438957475,
+            "residual": 0,
+            "reachable": true
+          },
+          "collision": false,
+          "attached": true,
+          "contactResidual": null
+        },
+        {
+          "frame": 48,
+          "hook": [
+            480,
+            230
+          ],
+          "parcel": [
+            480,
+            254
+          ],
+          "reach": {
+            "point": [
+              480,
+              230
+            ],
+            "distance": 170,
+            "residual": 0,
+            "reachable": true
+          },
+          "collision": false,
+          "attached": true,
+          "contactResidual": 0
+        },
+        {
+          "frame": 49,
+          "hook": [
+            480,
+            230
+          ],
+          "parcel": [
+            480,
+            254
+          ],
+          "reach": {
+            "point": [
+              480,
+              230
+            ],
+            "distance": 170,
+            "residual": 0,
+            "reachable": true
+          },
+          "collision": false,
+          "attached": true,
+          "contactResidual": 0
+        },
+        {
+          "frame": 50,
+          "hook": [
+            480,
+            230
+          ],
+          "parcel": [
+            480,
+            254
+          ],
+          "reach": {
+            "point": [
+              480,
+              230
+            ],
+            "distance": 170,
+            "residual": 0,
+            "reachable": true
+          },
+          "collision": false,
+          "attached": true,
+          "contactResidual": 0
+        },
+        {
+          "frame": 51,
+          "hook": [
+            480,
+            230
+          ],
+          "parcel": [
+            480,
+            254
+          ],
+          "reach": {
+            "point": [
+              480,
+              230
+            ],
+            "distance": 170,
+            "residual": 0,
+            "reachable": true
+          },
+          "collision": false,
+          "attached": true,
+          "contactResidual": 0
+        },
+        {
+          "frame": 52,
+          "hook": [
+            480,
+            230
+          ],
+          "parcel": [
+            480,
+            254
+          ],
+          "reach": {
+            "point": [
+              480,
+              230
+            ],
+            "distance": 170,
+            "residual": 0,
+            "reachable": true
+          },
+          "collision": false,
+          "attached": true,
+          "contactResidual": 0
+        },
+        {
+          "frame": 53,
+          "hook": [
+            480,
+            230
+          ],
+          "parcel": [
+            480,
+            254
+          ],
+          "reach": {
+            "point": [
+              480,
+              230
+            ],
+            "distance": 170,
+            "residual": 0,
+            "reachable": true
+          },
+          "collision": false,
+          "attached": true,
+          "contactResidual": 0
+        },
+        {
+          "frame": 54,
+          "hook": [
+            480,
+            230
+          ],
+          "parcel": [
+            480,
+            254
+          ],
+          "reach": {
+            "point": [
+              480,
+              230
+            ],
+            "distance": 170,
+            "residual": 0,
+            "reachable": true
+          },
+          "collision": false,
+          "attached": true,
+          "contactResidual": 0
+        },
+        {
+          "frame": 55,
+          "hook": [
+            480,
+            230
+          ],
+          "parcel": [
+            480,
+            254
+          ],
+          "reach": {
+            "point": [
+              480,
+              230
+            ],
+            "distance": 170,
+            "residual": 0,
+            "reachable": true
+          },
+          "collision": false,
+          "attached": true,
+          "contactResidual": 0
+        },
+        {
+          "frame": 56,
+          "hook": [
+            480,
+            230
+          ],
+          "parcel": [
+            480,
+            254
+          ],
+          "reach": {
+            "point": [
+              480,
+              230
+            ],
+            "distance": 170,
+            "residual": 0,
+            "reachable": true
+          },
+          "collision": false,
+          "attached": true,
+          "contactResidual": 0
+        },
+        {
+          "frame": 57,
+          "hook": [
+            480,
+            230
+          ],
+          "parcel": [
+            480,
+            254
+          ],
+          "reach": {
+            "point": [
+              480,
+              230
+            ],
+            "distance": 170,
+            "residual": 0,
+            "reachable": true
+          },
+          "collision": false,
+          "attached": true,
+          "contactResidual": 0
+        },
+        {
+          "frame": 58,
+          "hook": [
+            480,
+            230
+          ],
+          "parcel": [
+            480,
+            254
+          ],
+          "reach": {
+            "point": [
+              480,
+              230
+            ],
+            "distance": 170,
+            "residual": 0,
+            "reachable": true
+          },
+          "collision": false,
+          "attached": true,
+          "contactResidual": 0
+        },
+        {
+          "frame": 59,
+          "hook": [
+            480,
+            230
+          ],
+          "parcel": [
+            480,
+            254
+          ],
+          "reach": {
+            "point": [
+              480,
+              230
+            ],
+            "distance": 170,
+            "residual": 0,
+            "reachable": true
+          },
+          "collision": false,
+          "attached": true,
+          "contactResidual": 0
+        },
+        {
+          "frame": 60,
+          "hook": [
+            480,
+            230
+          ],
+          "parcel": [
+            480,
+            254
+          ],
+          "reach": {
+            "point": [
+              480,
+              230
+            ],
+            "distance": 170,
+            "residual": 0,
+            "reachable": true
+          },
+          "collision": false,
+          "attached": false,
+          "contactResidual": 0
+        },
+        {
+          "frame": 61,
+          "hook": [
+            480,
+            227.9038317054846
+          ],
+          "parcel": [
+            480,
+            254
+          ],
+          "reach": {
+            "point": [
+              480,
+              227.9038317054846
+            ],
+            "distance": 167.9038317054846,
+            "residual": 0,
+            "reachable": true
+          },
+          "collision": false,
+          "attached": false,
+          "contactResidual": 0
+        },
+        {
+          "frame": 62,
+          "hook": [
+            480,
+            222.15627347858754
+          ],
+          "parcel": [
+            480,
+            254
+          ],
+          "reach": {
+            "point": [
+              480,
+              222.15627347858754
+            ],
+            "distance": 162.15627347858754,
+            "residual": 0,
+            "reachable": true
+          },
+          "collision": false,
+          "attached": false,
+          "contactResidual": 0
+        },
+        {
+          "frame": 63,
+          "hook": [
+            480,
+            213.5687453042825
+          ],
+          "parcel": [
+            480,
+            254
+          ],
+          "reach": {
+            "point": [
+              480,
+              213.5687453042825
+            ],
+            "distance": 153.5687453042825,
+            "residual": 0,
+            "reachable": true
+          },
+          "collision": false,
+          "attached": false,
+          "contactResidual": 0
+        },
+        {
+          "frame": 64,
+          "hook": [
+            480,
+            202.9526671675432
+          ],
+          "parcel": [
+            480,
+            254
+          ],
+          "reach": {
+            "point": [
+              480,
+              202.9526671675432
+            ],
+            "distance": 142.9526671675432,
+            "residual": 0,
+            "reachable": true
+          },
+          "collision": false,
+          "attached": false,
+          "contactResidual": 0
+        },
+        {
+          "frame": 65,
+          "hook": [
+            480,
+            191.11945905334335
+          ],
+          "parcel": [
+            480,
+            254
+          ],
+          "reach": {
+            "point": [
+              480,
+              191.11945905334335
+            ],
+            "distance": 131.11945905334335,
+            "residual": 0,
+            "reachable": true
+          },
+          "collision": false,
+          "attached": false,
+          "contactResidual": 0
+        },
+        {
+          "frame": 66,
+          "hook": [
+            480,
+            178.88054094665665
+          ],
+          "parcel": [
+            480,
+            254
+          ],
+          "reach": {
+            "point": [
+              480,
+              178.88054094665665
+            ],
+            "distance": 118.88054094665665,
+            "residual": 0,
+            "reachable": true
+          },
+          "collision": false,
+          "attached": false,
+          "contactResidual": 0
+        },
+        {
+          "frame": 67,
+          "hook": [
+            480,
+            167.0473328324568
+          ],
+          "parcel": [
+            480,
+            254
+          ],
+          "reach": {
+            "point": [
+              480,
+              167.0473328324568
+            ],
+            "distance": 107.04733283245679,
+            "residual": 0,
+            "reachable": true
+          },
+          "collision": false,
+          "attached": false,
+          "contactResidual": 0
+        },
+        {
+          "frame": 68,
+          "hook": [
+            480,
+            156.43125469571748
+          ],
+          "parcel": [
+            480,
+            254
+          ],
+          "reach": {
+            "point": [
+              480,
+              156.43125469571748
+            ],
+            "distance": 96.43125469571748,
+            "residual": 0,
+            "reachable": true
+          },
+          "collision": false,
+          "attached": false,
+          "contactResidual": 0
+        },
+        {
+          "frame": 69,
+          "hook": [
+            480,
+            147.84372652141246
+          ],
+          "parcel": [
+            480,
+            254
+          ],
+          "reach": {
+            "point": [
+              480,
+              147.84372652141246
+            ],
+            "distance": 87.84372652141246,
+            "residual": 0,
+            "reachable": true
+          },
+          "collision": false,
+          "attached": false,
+          "contactResidual": 0
+        },
+        {
+          "frame": 70,
+          "hook": [
+            480,
+            142.0961682945154
+          ],
+          "parcel": [
+            480,
+            254
+          ],
+          "reach": {
+            "point": [
+              480,
+              142.0961682945154
+            ],
+            "distance": 82.0961682945154,
+            "residual": 0,
+            "reachable": true
+          },
+          "collision": false,
+          "attached": false,
+          "contactResidual": 0
+        },
+        {
+          "frame": 71,
+          "hook": [
+            480,
+            140
+          ],
+          "parcel": [
+            480,
+            254
+          ],
+          "reach": {
+            "point": [
+              480,
+              140
+            ],
+            "distance": 80,
+            "residual": 0,
+            "reachable": true
+          },
+          "collision": false,
+          "attached": false,
+          "contactResidual": 0
+        }
+      ]
+    }
+  ]
+}

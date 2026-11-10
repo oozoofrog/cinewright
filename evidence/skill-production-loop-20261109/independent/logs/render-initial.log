@@ -1,0 +1,28 @@
+Job d6240ece-bee9-4af2-8f8d-6afb7236b2d4 · /Volumes/eyedisk/develop/cinewright/evidence/skill-production-loop-20261109/independent/store/jobs/d6240ece-bee9-4af2-8f8d-6afb7236b2d4
+{
+  "id": "d6240ece-bee9-4af2-8f8d-6afb7236b2d4",
+  "revision": "7e181fb0b2f2f3de16a0bc4064b61d453f7180e3fbe80fc26491c2d93030f489",
+  "settings": {
+    "mode": "video",
+    "from": 0,
+    "to": 120,
+    "scale": 1
+  },
+  "status": "failed",
+  "phase": "frames",
+  "frames": 0,
+  "totalFrames": 120,
+  "pid": 1963,
+  "started": "2026-11-09T11:59:21.944Z",
+  "log": "/Volumes/eyedisk/develop/cinewright/evidence/skill-production-loop-20261109/independent/store/jobs/d6240ece-bee9-4af2-8f8d-6afb7236b2d4/execution.log",
+  "ffmpeg": "ffmpeg version 9.0.2 Copyright (c) 2000-2026 the FFmpeg developers",
+  "audio": {
+    "file": "/Volumes/eyedisk/develop/cinewright/evidence/skill-production-loop-20261109/independent/store/jobs/d6240ece-bee9-4af2-8f8d-6afb7236b2d4/mix.wav",
+    "rate": 48000,
+    "duration": 240000,
+    "sources": []
+  },
+  "browser": "157.0.8103.38",
+  "error": "page.evaluate: Error: Error: corrections: samples required\n    at eval (eval at evaluate (:370:30), <anonymous>:2:37)\n    at UtilityScript.evaluate (<anonymous>:372:16)\n    at UtilityScript.<anonymous> (<anonymous>:1:44)\n    at render (/Volumes/eyedisk/develop/cinewright/evidence/skill-production-loop-20261109/independent/store/revisions/7e181fb0b2f2f3de16a0bc4064b61d453f7180e3fbe80fc26491c2d93030f489/tools/jobs.mjs:64:35)\n    at async main (/Volumes/eyedisk/develop/cinewright/scripts/direction.mjs:198:14)",
+  "finished": "2026-11-09T11:59:24.490Z"
+}

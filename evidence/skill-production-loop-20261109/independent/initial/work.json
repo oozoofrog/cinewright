@@ -1,0 +1,34 @@
+{
+  "version": 1,
+  "title": "Paper greeting",
+  "size": [
+    640,
+    480
+  ],
+  "fps": 24,
+  "frames": 120,
+  "points": {
+    "start": 0,
+    "departure": 18,
+    "open": 44,
+    "response": 58,
+    "close": 62,
+    "settled": 88,
+    "last": 119
+  },
+  "spans": {
+    "whole": [
+      0,
+      120
+    ]
+  },
+  "layers": [
+    {
+      "id": "bird",
+      "module": "scene.mjs",
+      "config": {
+        "source": "source.json"
+      }
+    }
+  ]
+}

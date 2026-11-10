@@ -1,0 +1,38 @@
+Job 0339fcf8-9377-40f7-a5f2-36d81a8c8c4f · /Volumes/eyedisk/develop/cinewright/evidence/skill-production-loop-20261109/implementation/verified-demo/store/jobs/0339fcf8-9377-40f7-a5f2-36d81a8c8c4f
+Job e3f6dcf8-428e-45b7-aa39-7507a133995d · /Volumes/eyedisk/develop/cinewright/evidence/skill-production-loop-20261109/implementation/verified-demo/store/jobs/e3f6dcf8-428e-45b7-aa39-7507a133995d
+{
+  "root": "/Volumes/eyedisk/develop/cinewright/evidence/skill-production-loop-20261109/implementation/verified-demo",
+  "comparison": "/Volumes/eyedisk/develop/cinewright/evidence/skill-production-loop-20261109/implementation/verified-demo/comparison.json",
+  "results": [
+    {
+      "label": "first-pass",
+      "revision": "d73936b8be740e5e1446017e62309e2ba0cbde2a6a03f93f52ee141784752b1a",
+      "job": "0339fcf8-9377-40f7-a5f2-36d81a8c8c4f",
+      "output": "/Volumes/eyedisk/develop/cinewright/evidence/skill-production-loop-20261109/implementation/verified-demo/store/jobs/0339fcf8-9377-40f7-a5f2-36d81a8c8c4f/work.mp4",
+      "outputSha256": "5d4b7da7c4e36e5323d8562bf11534c3de1c13d723254c3950f2b3e123fb05e7",
+      "sourceSha256": "cc22f7a272b3bde7a04cbccf0cd61484b7d1115be9c79c0804d63753e43d9c3e",
+      "collisionFrames": [
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35
+      ]
+    },
+    {
+      "label": "clearance",
+      "revision": "e3f5775da83aaf3e87c7fdb255c66a46482c6f214e41c5a2a9bb62bba2da02e0",
+      "job": "e3f6dcf8-428e-45b7-aa39-7507a133995d",
+      "output": "/Volumes/eyedisk/develop/cinewright/evidence/skill-production-loop-20261109/implementation/verified-demo/store/jobs/e3f6dcf8-428e-45b7-aa39-7507a133995d/work.mp4",
+      "outputSha256": "7d02e3a7b500551535570382f4df2c26bb53dbc6f9c153e3955453c8789aeefc",
+      "sourceSha256": "408d984e6a44d4316859a97d865dfd07c7c12fd8bc029f827bc8d609bfcf122f",
+      "collisionFrames": []
+    }
+  ]
+}

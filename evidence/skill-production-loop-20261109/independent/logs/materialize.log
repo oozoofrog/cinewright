@@ -1,0 +1,16 @@
+{
+  "modules": [
+    "motion",
+    "pose-tracks"
+  ],
+  "files": [
+    {
+      "file": "modules/motion.mjs",
+      "sha256": "fea589f724d62f7cdf9cf39ff82cf635f37becf60cfb9bcb85d3ffa02ed19619"
+    },
+    {
+      "file": "modules/animation/pose-tracks.mjs",
+      "sha256": "78d945f8dc6bc613041ed1bd4ac017e57e85ce5d58fe56df2b0b1a7b91e5f37b"
+    }
+  ]
+}

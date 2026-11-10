@@ -1,0 +1,109 @@
+{
+  "title": "Crane transfer — original vector mechanism study",
+  "size": [
+    640,
+    360
+  ],
+  "fps": 24,
+  "frames": 72,
+  "geometry": {
+    "boomY": 60,
+    "floorY": 310,
+    "maxCable": 240,
+    "sling": 24,
+    "parcelSize": [
+      48,
+      32
+    ],
+    "obstacle": {
+      "x": 270,
+      "y": 205,
+      "width": 60,
+      "height": 105
+    },
+    "platforms": [
+      {
+        "x": 80,
+        "y": 270,
+        "width": 80,
+        "height": 40
+      },
+      {
+        "x": 440,
+        "y": 270,
+        "width": 80,
+        "height": 40
+      }
+    ]
+  },
+  "timing": {
+    "departure": 12,
+    "arrival": 48,
+    "release": 60
+  },
+  "tracks": {
+    "hook": [
+      {
+        "frame": 0,
+        "value": [
+          120,
+          230
+        ],
+        "interpolation": "hold"
+      },
+      {
+        "frame": 12,
+        "value": [
+          120,
+          230
+        ],
+        "interpolation": "linear"
+      },
+      {
+        "frame": 48,
+        "value": [
+          480,
+          230
+        ],
+        "interpolation": "hold"
+      },
+      {
+        "frame": 60,
+        "value": [
+          480,
+          230
+        ]
+      },
+      {
+        "frame": 71,
+        "value": [
+          480,
+          140
+        ]
+      }
+    ]
+  },
+  "contacts": [
+    {
+      "channel": "parcel",
+      "from": 48,
+      "to": 72,
+      "target": [
+        480,
+        254
+      ]
+    }
+  ],
+  "corrections": [
+    {
+      "center": 300,
+      "radius": 180,
+      "delta": {
+        "hook": [
+          0,
+          -110
+        ]
+      }
+    }
+  ]
+}

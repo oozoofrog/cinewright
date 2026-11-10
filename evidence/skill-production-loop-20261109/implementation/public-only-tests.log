@@ -1,0 +1,11 @@
+✔ authored clearance removes intermediate collision while preserving endpoints, contact and release (3.680042ms)
+✔ fresh materialization/import/prepare evaluates modified geometry and timing; refuses overwrite (40.624375ms)
+✔ pose-tracks public materialization closes imports and preserves authored and unrelated files (14.567125ms)
+ℹ tests 3
+ℹ suites 0
+ℹ pass 3
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 161.227291

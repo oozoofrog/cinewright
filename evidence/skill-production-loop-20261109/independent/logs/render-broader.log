@@ -1,0 +1,29 @@
+Job 359ad378-7735-468c-9ad1-b7eac644e8be · /Volumes/eyedisk/develop/cinewright/evidence/skill-production-loop-20261109/independent/store/jobs/359ad378-7735-468c-9ad1-b7eac644e8be
+{
+  "id": "359ad378-7735-468c-9ad1-b7eac644e8be",
+  "revision": "12e8108e288eac934950af77dc6ed2a55e3809d8d2a8eca7d3f7dbdeaa123d0e",
+  "settings": {
+    "mode": "video",
+    "from": 0,
+    "to": 120,
+    "scale": 1
+  },
+  "status": "completed",
+  "phase": "published",
+  "frames": 120,
+  "totalFrames": 120,
+  "pid": 6700,
+  "started": "2026-11-09T12:00:54.598Z",
+  "log": "/Volumes/eyedisk/develop/cinewright/evidence/skill-production-loop-20261109/independent/store/jobs/359ad378-7735-468c-9ad1-b7eac644e8be/execution.log",
+  "ffmpeg": "ffmpeg version 9.0.2 Copyright (c) 2000-2026 the FFmpeg developers",
+  "audio": {
+    "file": "/Volumes/eyedisk/develop/cinewright/evidence/skill-production-loop-20261109/independent/store/jobs/359ad378-7735-468c-9ad1-b7eac644e8be/mix.wav",
+    "rate": 48000,
+    "duration": 240000,
+    "sources": []
+  },
+  "browser": "157.0.8103.38",
+  "outputSha256": "614f36f901a238281ac15450f4ff1dbb8757bc7caa66c52f9e231bee4f0ad51f",
+  "output": "/Volumes/eyedisk/develop/cinewright/evidence/skill-production-loop-20261109/independent/store/jobs/359ad378-7735-468c-9ad1-b7eac644e8be/work.mp4",
+  "finished": "2026-11-09T12:01:16.250Z"
+}

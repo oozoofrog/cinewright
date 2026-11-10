@@ -1,0 +1,12 @@
+Job 355ef888-bec8-4a0a-97ac-89774e05e753 · /Volumes/eyedisk/develop/cinewright/evidence/skill-production-loop-20261109/implementation/demo/store/jobs/355ef888-bec8-4a0a-97ac-89774e05e753
+node:path:1336
+      validateString(arg, 'path');
+      ^
+
+TypeError [ERR_INVALID_ARG_TYPE]: The "path" argument must be of type string. Received undefined
+    at Object.join (node:path:1336:7)
+    at file:///Volumes/eyedisk/develop/cinewright/examples/crane-clearance/run.mjs:22:56 {
+  code: 'ERR_INVALID_ARG_TYPE'
+}
+
+Node.js v26.12.1

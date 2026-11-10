@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "title": "Crane transfer — original vector mechanism study",
+  "size": [
+    640,
+    360
+  ],
+  "fps": 24,
+  "frames": 72,
+  "points": {
+    "departure": 12,
+    "arrival": 48,
+    "release": 60
+  },
+  "spans": {
+    "transfer": [
+      12,
+      49
+    ]
+  },
+  "layers": [
+    {
+      "id": "crane",
+      "module": "scene.mjs",
+      "config": {
+        "source": "source.json"
+      }
+    }
+  ]
+}

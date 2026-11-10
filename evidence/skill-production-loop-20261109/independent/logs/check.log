@@ -1,0 +1,168 @@
+[
+  {
+    "revision": "68484f6314fa50269f6953a3ba9ee496cc2a1484bafdc38b9d2adb5fa1f5006c",
+    "job": "6ed0a4ea-06e1-4ef3-9dd7-34a79ce79445",
+    "output": "/Volumes/eyedisk/develop/cinewright/evidence/skill-production-loop-20261109/independent/store/jobs/6ed0a4ea-06e1-4ef3-9dd7-34a79ce79445/work.mp4",
+    "outputSha256": "2a695f0021442658fecb2afb4c3df4c4a574f2087055e449004ffcbc5a76b410",
+    "sourceSha256": "3fb6fd6d85b2a22b53a853ec43b70fac0f63149c0b7cdaac4befe876d84adb27",
+    "sceneSha256": "4a49e5d5c67e33dd3c3e2a20bee7735b2b3244d98b1b69154317978a01a313ed",
+    "keyFrames": [
+      {
+        "frame": 0,
+        "angle": 0,
+        "headAngle": 0,
+        "pngSha256": "74c1d09169ace32b03d5021576d06371fe0b7eea9f03b2c71a57baf539c48d86"
+      },
+      {
+        "frame": 18,
+        "angle": 0,
+        "headAngle": 0,
+        "pngSha256": "74c1d09169ace32b03d5021576d06371fe0b7eea9f03b2c71a57baf539c48d86"
+      },
+      {
+        "frame": 30,
+        "angle": 26.545289030496132,
+        "headAngle": 0,
+        "pngSha256": "f9411d345a7cd58e2b3c7b1e0af0b174b0983e01fbe6d334bd973ba39d8f93d2"
+      },
+      {
+        "frame": 43,
+        "angle": 59.74055530268548,
+        "headAngle": 0,
+        "pngSha256": "65b4dba8dcdea58d17408ff9a0a93daffd601a06a5eba6a2014062b81084a2e6"
+      },
+      {
+        "frame": 44,
+        "angle": 60,
+        "headAngle": 0,
+        "pngSha256": "fb126b76924685e08013ba3fa9d3ef0e4114e7ba65bfd12760e9793437b7411b"
+      },
+      {
+        "frame": 45,
+        "angle": 60,
+        "headAngle": 0,
+        "pngSha256": "fb126b76924685e08013ba3fa9d3ef0e4114e7ba65bfd12760e9793437b7411b"
+      },
+      {
+        "frame": 58,
+        "angle": 60,
+        "headAngle": 8,
+        "pngSha256": "fc24406125f55799d68426d28f564fa7793d5b83cb1dfdd97b9363152dfe2516"
+      },
+      {
+        "frame": 62,
+        "angle": 60,
+        "headAngle": 5.925925925925926,
+        "pngSha256": "4f21135693c7fde746da552a231024cc1664365a1cdf3e2fbd37e32c1bcdb786"
+      },
+      {
+        "frame": 75,
+        "angle": 30,
+        "headAngle": 0,
+        "pngSha256": "44faa07a8d85f74d0269f01e49459833bbe38d72ce5b79fc0e338f4b80a8e748"
+      },
+      {
+        "frame": 87,
+        "angle": 0.259444697314521,
+        "headAngle": 0,
+        "pngSha256": "3253b86d17e919059725c1db9dbadf3f61629a6ca68a0f50a49739aeaf9f5011"
+      },
+      {
+        "frame": 88,
+        "angle": 0,
+        "headAngle": 0,
+        "pngSha256": "74c1d09169ace32b03d5021576d06371fe0b7eea9f03b2c71a57baf539c48d86"
+      },
+      {
+        "frame": 119,
+        "angle": 0,
+        "headAngle": 0,
+        "pngSha256": "74c1d09169ace32b03d5021576d06371fe0b7eea9f03b2c71a57baf539c48d86"
+      }
+    ],
+    "openWingBeakHorizontalGap": 131
+  },
+  {
+    "revision": "12e8108e288eac934950af77dc6ed2a55e3809d8d2a8eca7d3f7dbdeaa123d0e",
+    "job": "359ad378-7735-468c-9ad1-b7eac644e8be",
+    "output": "/Volumes/eyedisk/develop/cinewright/evidence/skill-production-loop-20261109/independent/store/jobs/359ad378-7735-468c-9ad1-b7eac644e8be/work.mp4",
+    "outputSha256": "614f36f901a238281ac15450f4ff1dbb8757bc7caa66c52f9e231bee4f0ad51f",
+    "sourceSha256": "26d8ec4641c5f1fec35e1cd184c5c4d058f403a57fc81623409eb5eb9a46366f",
+    "sceneSha256": "4a49e5d5c67e33dd3c3e2a20bee7735b2b3244d98b1b69154317978a01a313ed",
+    "keyFrames": [
+      {
+        "frame": 0,
+        "angle": 0,
+        "headAngle": 0,
+        "pngSha256": "74c1d09169ace32b03d5021576d06371fe0b7eea9f03b2c71a57baf539c48d86"
+      },
+      {
+        "frame": 18,
+        "angle": 0,
+        "headAngle": 0,
+        "pngSha256": "74c1d09169ace32b03d5021576d06371fe0b7eea9f03b2c71a57baf539c48d86"
+      },
+      {
+        "frame": 30,
+        "angle": 43.10584919867674,
+        "headAngle": 0,
+        "pngSha256": "634b24b8a503ecf1c941090b3f6eb88b47aa763e5c38060d7929d47f659df660"
+      },
+      {
+        "frame": 43,
+        "angle": 99.73831805232925,
+        "headAngle": 0,
+        "pngSha256": "247118c94525e6968780b23ce9839bd156efeac904108c5f15e690965fd8c1b0"
+      },
+      {
+        "frame": 44,
+        "angle": 100,
+        "headAngle": 0,
+        "pngSha256": "13b76bef69a9e92a8c92078e2cd806c562fa6715e18c4c420169485e23b5758b"
+      },
+      {
+        "frame": 45,
+        "angle": 100,
+        "headAngle": 0,
+        "pngSha256": "13b76bef69a9e92a8c92078e2cd806c562fa6715e18c4c420169485e23b5758b"
+      },
+      {
+        "frame": 58,
+        "angle": 100,
+        "headAngle": 8,
+        "pngSha256": "1d0107e5f0cf843664f70eda44762b02e8b477f639e79eb3a0e14c68b929b32f"
+      },
+      {
+        "frame": 62,
+        "angle": 100,
+        "headAngle": 5.925925925925926,
+        "pngSha256": "0f7fa8db6692465602b18899d0e1b6cac2b903da84b78d06e32b46dbc4a80976"
+      },
+      {
+        "frame": 75,
+        "angle": 50,
+        "headAngle": 0,
+        "pngSha256": "2bc8597ff79838709a0b9551a65d6167e63a1809fcca0d55d599dbbbac1f23cd"
+      },
+      {
+        "frame": 87,
+        "angle": 0.2616819476707619,
+        "headAngle": 0,
+        "pngSha256": "a7924f720bb09b4bc021b1904b0d8099f80f902d46659485314da8749e1b67f0"
+      },
+      {
+        "frame": 88,
+        "angle": 0,
+        "headAngle": 0,
+        "pngSha256": "74c1d09169ace32b03d5021576d06371fe0b7eea9f03b2c71a57baf539c48d86"
+      },
+      {
+        "frame": 119,
+        "angle": 0,
+        "headAngle": 0,
+        "pngSha256": "74c1d09169ace32b03d5021576d06371fe0b7eea9f03b2c71a57baf539c48d86"
+      }
+    ],
+    "openWingBeakHorizontalGap": 131
+  }
+]

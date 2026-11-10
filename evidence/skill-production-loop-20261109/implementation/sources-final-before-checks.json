@@ -1,0 +1,15 @@
+{
+  "SKILL.md": "419ed7eaa1ac93fa85f99ad3c3ab0c76a29e5ef8b4e7e5cd75d50180f42cdb8d",
+  "references/tools.md": "5a82b536dc0f7eed2370a199a0caa7631985975d8d221ba1f9a861b8ec2bc364",
+  "references/pose-tracks.md": "c3c7b99a20dfac93a11c9200a62cb2370778a1132d268bd60be60761442244ba",
+  "references/craft-execution.md": "b18da2964d1512388e86c4d1ebf6144b3c60b584348e13c41d5b4ee520f547a5",
+  "scripts/materialize-kit.mjs": "9e7e78ce77afde1edb9530cc824a45bdb3dd225ccb9a97158b2f825943536944",
+  "modules/animation/pose-tracks.mjs": "78d945f8dc6bc613041ed1bd4ac017e57e85ce5d58fe56df2b0b1a7b91e5f37b",
+  "modules/animation/rig2d.mjs": "ec22bdb4b394105c07c318334ae9a73bb5e1dd58de79d12db286248848ffb0a9",
+  "tests/craft-execution.test.mjs": "51f8a78ab3507f01708a46adb5ef572d1df182a6893a3548d1f72fd09c30b9f3",
+  "examples/crane-clearance/build.mjs": "7d57c0f142d1ee23086f23a7d4233bf1e184d6b5111205db86d4390a891ea8b2",
+  "examples/crane-clearance/clearance.json": "a8464ba06ebf14b122c7bfae0e38904c068c4ceaee161a234478ffedf318137b",
+  "examples/crane-clearance/first-pass.json": "15a28e41760dd01cd5ff631a045fa35f96d1638fcad62f32c6143e1967698dac",
+  "examples/crane-clearance/run.mjs": "fba386bbca8ed8fc50bca4955d88f4f0a705a982471e29a9cf55fca7c2ef154b",
+  "examples/crane-clearance/scene.mjs": "4500b79df6578362f6527753d05e04df3f70139854b297253db52bbc43816a5c"
+}

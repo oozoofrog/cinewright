@@ -1,0 +1,8 @@
+{
+  "SKILL.md": "6c21199fe9ddbe434d5ea4a464651f89093791bc4210ffd5b868b2138e58fd43",
+  "references/tools.md": "1dfcbf5439886de3d80d789d9927eefde8001570e50f3062b24e69de30f878ca",
+  "references/pose-tracks.md": "c2d7db7b6f0f3c22e48e62560b6371fe38a04b33957c3f97c9e6afbaa585e75d",
+  "scripts/materialize-kit.mjs": "9e7e78ce77afde1edb9530cc824a45bdb3dd225ccb9a97158b2f825943536944",
+  "modules/animation/pose-tracks.mjs": "78d945f8dc6bc613041ed1bd4ac017e57e85ce5d58fe56df2b0b1a7b91e5f37b",
+  "modules/animation/rig2d.mjs": "ec22bdb4b394105c07c318334ae9a73bb5e1dd58de79d12db286248848ffb0a9"
+}
