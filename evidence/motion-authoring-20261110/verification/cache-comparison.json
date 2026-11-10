@@ -1,0 +1,68 @@
+{
+  "cache": "/Users/oozoofrog/.codex/plugins/cache/cinewright-local/cinewright/1.1.0",
+  "workspace_version": "1.1.0",
+  "cache_version": "1.1.0",
+  "files": [
+    {
+      "file": "SKILL.md",
+      "workspace_sha256": "e7b772ba85a1e726a869f59323b932998d8546d3b63bd359327a69819db6f53c",
+      "cache_sha256": "d8d25e351bd207593f0df7220b99472f40134270358798a6d1b29335da2ac86c",
+      "same": false
+    },
+    {
+      "file": "skills/cinewright/SKILL.md",
+      "workspace_sha256": "89f4e73b9a620f916ad05995be7938dde892bc10fac8ced5e20396cef44d0315",
+      "cache_sha256": "cea2d0785d4ceeb68fe14e6e7323c1ba49eca1c369a250fcd6d1c0f77f68f731",
+      "same": false
+    },
+    {
+      "file": "references/craft-execution.md",
+      "workspace_sha256": "d44e82e930fce4e8b78e522c49fc2cafe322c3fa1b82b031ce12fe2e4c99b95f",
+      "cache_sha256": "0fe6d204c49419f46c9247b5ae0dd98496bf3c9a35ff69bc7540d9e70236e224",
+      "same": false
+    },
+    {
+      "file": "references/craft.md",
+      "workspace_sha256": "be65a40f1933ae9cc9895c998c496209fd5bec640c7ff92656910c9ca10590d5",
+      "cache_sha256": "4bd3bbbfc3c2b397f6711427a2515ed884a0cfb15bcd10b76e42b9e28c0ae3df",
+      "same": false
+    },
+    {
+      "file": "references/direction.md",
+      "workspace_sha256": "3681b4ca1ff4611b3a31e2ce5038d2008bafacea5f507aa82f26a7d5ba6ded23",
+      "cache_sha256": "36a5f26473a5b26252e63f8d9804e633bf62b30ba4980ea625c5fbc9bd34c722",
+      "same": false
+    },
+    {
+      "file": "references/format.md",
+      "workspace_sha256": "c5d4b4f0925809acb740a3d38e8d3d6488eec6e21526f93e59cc545a7a0f0e75",
+      "cache_sha256": "0e6b14b032bb0d2f9ed3d587f7c0630569bf9ce8f862248b2473a213364c9286",
+      "same": false
+    },
+    {
+      "file": "references/music.md",
+      "workspace_sha256": "e03cc149b643507fe81bf3e046cd21e074284fa595fa9e56179b2dec3d70806d",
+      "cache_sha256": "5a7d38ee9e18b3ca50b03ecde9b5a2e850503dfe6e1dd550ecec2482655dbb8c",
+      "same": false
+    },
+    {
+      "file": "references/stillcuts.md",
+      "workspace_sha256": "26fb03facf16e21762c5023b3de1249d492787ecefe7df1850b4e31676a6e587",
+      "cache_sha256": "f9d5e3ee87a212d9d381e061aaa7b7e5ef1d38a6afd690a6478325a0eaaba77b",
+      "same": false
+    },
+    {
+      "file": "plugin.json",
+      "workspace_sha256": "f50ee2e41062978b97da6ce1eeeee0bfa62430d3e0d3c25fae634426eec132d3",
+      "cache_sha256": "f50ee2e41062978b97da6ce1eeeee0bfa62430d3e0d3c25fae634426eec132d3",
+      "same": true
+    }
+  ],
+  "legacy_link": {
+    "path": "/Users/oozoofrog/.agents/skills/cinewright",
+    "is_symlink": true,
+    "target": "/Users/oozoofrog/.codex/skills/cinewright",
+    "exists": false
+  },
+  "mode": "read_only"
+}

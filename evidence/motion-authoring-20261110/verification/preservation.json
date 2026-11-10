@@ -1,0 +1,11 @@
+{
+  "baseline_file_count": 14852,
+  "changed": [
+    "SKILL.md",
+    "references/craft-execution.md"
+  ],
+  "missing": [],
+  "unexpected_changes": [],
+  "old_runs_unchanged": true,
+  "examples_and_prior_evidence_unchanged": true
+}

@@ -1,0 +1,34 @@
+direction <command> [inputs] [options]
+
+  style list                         List style APIs and support status
+  style build STYLE --scene JSON --project NEW [--assets JSON] [--update]
+  doctor                             Execute browser and media dependency checks
+  init PROJECT [--title TITLE]        Create a new project in an unused directory
+  music init PROJECT FILE            Ingest read-only music, analyze, derive and build
+  music analyze PROJECT              Re-analyze preview PCM (tentative timing)
+  music derive PROJECT               Derive channels; optional --overrides JSON_FILE
+  music build PROJECT                Build --variant theatre|counterpoint
+  music remux PROJECT VIDEO OUTPUT   Verify and stream-copy original eligible AAC
+  flash JOB_ID                       Screen every decoded frame for flash risk
+  freeze PROJECT                     Write a content-addressed revision
+  play PROJECT_OR_REVISION           Serve the live composited preview
+  frame PROJECT_OR_REVISION AT       Extract authored frame number or named cue
+  render PROJECT_OR_REVISION         Render the entire work to MP4
+  preview PROJECT_OR_REVISION        Render a 0.5-scale whole-work draft to MP4
+  render … --span NAME               Render a named half-open range
+  render … --from AT --to AT         Render a half-open range
+  status JOB_ID                      Read progress and result metadata
+  retry JOB_ID                       Re-run the recorded revision and settings as a new job
+  review JOB_ID [JOB_ID …]           Serve completed clips for independent playback and comparison
+  observe JOB_ID                     Play one MP4 in real time and capture playback evidence
+  sync JOB_ID                        Measure authored probes in a whole-work muxed MP4
+
+Shared options: --store PATH (default: ./.direction), --port N (play/review), --scale N (0.125–1)
+init options: --title TITLE, --frames N, --fps N
+music options: --fps N (default 24), --variant theatre|counterpoint, --overrides JSON_FILE
+Example: direction music init ./private-song /path/song.mp4 --variant theatre
+Then: preview ./private-song; play ./private-song; render ./private-song
+flash is a bounded reduced-resolution risk screen, NOT safety/WCAG certification.
+Environment: DIRECTION_CHROME, DIRECTION_FFMPEG, DIRECTION_FFPROBE
+Ctrl+C cancels work and retains its job record. Use local trusted project modules.
+

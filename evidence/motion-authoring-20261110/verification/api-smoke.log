@@ -1,0 +1,3 @@
+PASS: documented motion, pose-track, exposure exports/signatures and representative values
+motion exports: clamp, ease, eventEnvelope, eventIndex, lerp, noise, pathPoint, progress, seeded, stagger
+No phrase transform/repeat API; custom vector/key transformation is author responsibility.

@@ -1,0 +1,35 @@
+2026-11-10 09:12:25.455126+00:00
+node --test --test-concurrency=1 tests/music-integration.test.mjs tests/motion.test.mjs tests/pose-tracks.test.mjs tests/pose-materialize.test.mjs tests/relation-studies.test.mjs tests/craft-execution.test.mjs
+✔ authored clearance removes intermediate collision while preserving endpoints, contact and release (3.743041ms)
+✔ fresh materialization/import/prepare evaluates modified geometry and timing; refuses overwrite (27.897292ms)
+✔ motion frames clamp, ease holds endpoints, stagger has explicit per-item delay (0.439875ms)
+✔ motion seeded/noise is indexed and reproducible in arbitrary order, including negative positions (0.160125ms)
+✔ motion latest-event envelope has explicit attack, release and half-open end (0.090417ms)
+✔ motion path is arc-length sampled, clamped, handles zero-length segments without mutation (0.377833ms)
+✔ flashAccumulator bounds scope and distinguishes holds, small accents and full-field reversal (41.3515ms)
+✔ flashAccumulator counts counterphase panels without doubling simultaneous transitions (21.481667ms)
+Job 0b4c69b6-fdcf-45b6-bd93-85f220e53bd6 · /Volumes/eyedisk/develop/cinewright/.direction/music-integration/run-b83Z1D/store/jobs/0b4c69b6-fdcf-45b6-bd93-85f220e53bd6
+✔ music CLI uses real services, canonical energy arrays, frozen scene, full-end render and original AAC (11732.399042ms)
+✔ streaming screen detects encoded full-field flashing and retains no false safe claim (121.506541ms)
+✔ screenFlashes detects encoded half-screen counterphase exchanges (92.555583ms)
+✔ plugin skill entrypoint stays rooted and music guidance does not widen sync claims (1.025917ms)
+Job 58fbcf6e-094a-4d56-9f1f-021b78546562 · /Volumes/eyedisk/develop/cinewright/.direction/music-integration/run-b83Z1D/page-error-store/jobs/58fbcf6e-094a-4d56-9f1f-021b78546562
+✔ asynchronous browser module failures prevent publication and retain the job log (2078.330584ms)
+✔ pose-tracks public materialization closes imports and preserves authored and unrelated files (9.156292ms)
+✔ prepared scalar/vector segments preserve smoothstep, exact hold boundaries and immutable random access (1.411791ms)
+✔ reject malformed authoring early, including invalid corrections/contact/target geometry (0.356791ms)
+✔ all vector APIs reject missing coordinates before evaluation (0.151125ms)
+✔ second case: telescoping crane geometry, linear trolley and held hook with pose-space clearance (0.308416ms)
+✔ actual dancer preserves all out-of-scope poses and arm lengths; exposes cloth/contact channels (24.515416ms)
+✔ authored histories, spatial cut and fold retain their distinct time relations under arbitrary seek (8.609875ms)
+✔ three self-contained projects survive freeze/import and refuse to replace existing author files (273.288208ms)
+ℹ tests 21
+ℹ suites 0
+ℹ pass 21
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 15110.317458
+
+EXIT_CODE=0

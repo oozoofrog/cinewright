@@ -1,0 +1,16 @@
+{
+  "timestamp": "2026-11-10 09:18:46.249332+00:00",
+  "baseline_files": 14852,
+  "changed": [
+    "SKILL.md",
+    "references/craft-execution.md"
+  ],
+  "missing": [],
+  "unexpected_new": [],
+  "new_files_count": 93,
+  "cache_unchanged": true,
+  "legacy_link_unchanged": true,
+  "test_inputs_still_match": true,
+  "node": "v26.12.1",
+  "git_diff_check_exit": 0
+}

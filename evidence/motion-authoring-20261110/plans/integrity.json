@@ -1,0 +1,15 @@
+{
+  "prompts_equal_except_paths": true,
+  "inputs": {
+    "a": {
+      "files": 19,
+      "bundle_and_source_match": true,
+      "plan_sha256": "0bf84c9184d05bdbbc380bcbb9a6957db8527ada07b033d1199986d658096a5e"
+    },
+    "b": {
+      "files": 19,
+      "bundle_and_source_match": true,
+      "plan_sha256": "f49d0a44a4f7b028ab4ede18f955480f24b6dd53b1e5b8ea94432b13f50f2a87"
+    }
+  }
+}

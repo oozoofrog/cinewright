@@ -1,0 +1,113 @@
+{
+  "schema_version": 1,
+  "goal": "움직임 자체의 형태·리듬·매력을 저작하도록 Cinewright 지침 보완",
+  "question_budget": {
+    "max_questions": 3,
+    "max_rounds": 2
+  },
+  "decisions": [],
+  "tasks": [
+    {
+      "id": "baseline",
+      "title": "현재 워킹트리 보존 및 기존 지침·API 대조",
+      "depends_on": [],
+      "reads": [
+        "SKILL.md",
+        "references",
+        "modules",
+        "examples/relation-studies",
+        "docs/implementation/2026-11-10-code-expression",
+        "evidence/code-expression-20261110"
+      ],
+      "writes": [
+        "evidence/motion-authoring-20261110"
+      ],
+      "checks": [
+        {
+          "id": "baseline",
+          "description": "현재 워킹트리 보존 및 기존 지침·API 대조의 실제 근거 확인"
+        }
+      ],
+      "max_attempts": 3,
+      "decision_ids": []
+    },
+    {
+      "id": "documents",
+      "title": "작법과 찻잔 문서 사례 통합",
+      "depends_on": [
+        "baseline"
+      ],
+      "reads": [
+        "evidence/motion-authoring-20261110/baseline",
+        "modules"
+      ],
+      "writes": [
+        "SKILL.md",
+        "skills/cinewright/SKILL.md",
+        "references/craft-execution.md",
+        "references/craft.md",
+        "references/direction.md",
+        "references/format.md",
+        "references/music.md",
+        "references/stillcuts.md",
+        "docs/implementation/2026-11-10-motion-authoring"
+      ],
+      "checks": [
+        {
+          "id": "integration",
+          "description": "작법과 찻잔 문서 사례 통합의 실제 근거 확인"
+        }
+      ],
+      "max_attempts": 3,
+      "decision_ids": []
+    },
+    {
+      "id": "plans",
+      "title": "독립된 전후 제작 계획 대조",
+      "depends_on": [
+        "documents"
+      ],
+      "reads": [
+        "evidence/motion-authoring-20261110/baseline",
+        "SKILL.md",
+        "references"
+      ],
+      "writes": [
+        "evidence/motion-authoring-20261110/plans"
+      ],
+      "checks": [
+        {
+          "id": "comparison",
+          "description": "독립된 전후 제작 계획 대조의 실제 근거 확인"
+        }
+      ],
+      "max_attempts": 3,
+      "decision_ids": []
+    },
+    {
+      "id": "verify",
+      "title": "링크·명령·API·영향 검사·캐시 및 보존 확인",
+      "depends_on": [
+        "plans"
+      ],
+      "reads": [
+        "SKILL.md",
+        "references",
+        "tests",
+        "docs/implementation/2026-11-10-motion-authoring"
+      ],
+      "writes": [
+        "evidence/motion-authoring-20261110",
+        "docs/implementation/2026-11-10-motion-authoring"
+      ],
+      "checks": [
+        {
+          "id": "verification",
+          "description": "링크·명령·API·영향 검사·캐시 및 보존 확인의 실제 근거 확인"
+        }
+      ],
+      "max_attempts": 3,
+      "decision_ids": []
+    }
+  ]
+}

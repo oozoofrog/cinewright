@@ -1,0 +1,426 @@
+{
+  "scope": [
+    "SKILL.md",
+    "skills/cinewright/SKILL.md",
+    "references/craft-execution.md",
+    "references/craft.md",
+    "references/direction.md",
+    "references/format.md",
+    "references/music.md",
+    "references/stillcuts.md",
+    "references/pose-tracks.md",
+    "docs/implementation/2026-11-10-motion-authoring/README.md",
+    "evidence/motion-authoring-20261110/plans/comparison.md"
+  ],
+  "checked": 58,
+  "failures": [],
+  "results": [
+    {
+      "source": "SKILL.md",
+      "line": 12,
+      "link": "references/craft-execution.md#표현-목표에서-제작안-선택까지",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "source": "SKILL.md",
+      "line": 18,
+      "link": "references/direction.md#대상-이해",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "source": "SKILL.md",
+      "line": 18,
+      "link": "references/music-box.md",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "source": "SKILL.md",
+      "line": 25,
+      "link": "references/direction.md",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "source": "SKILL.md",
+      "line": 29,
+      "link": "references/craft-execution.md",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "source": "SKILL.md",
+      "line": 32,
+      "link": "references/craft.md",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "source": "SKILL.md",
+      "line": 33,
+      "link": "references/stillcuts.md",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "source": "SKILL.md",
+      "line": 34,
+      "link": "references/format.md",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "source": "SKILL.md",
+      "line": 40,
+      "link": "references/tools.md",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "source": "SKILL.md",
+      "line": 40,
+      "link": "examples/stillcuts/README.md",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "source": "SKILL.md",
+      "line": 44,
+      "link": "references/music.md",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "source": "SKILL.md",
+      "line": 48,
+      "link": "references/styles/index.md",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "source": "SKILL.md",
+      "line": 50,
+      "link": "references/styles/watercolor-physical.md",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "source": "SKILL.md",
+      "line": 50,
+      "link": "references/styles/auto-rig.md",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "source": "SKILL.md",
+      "line": 50,
+      "link": "references/styles/retarget.md",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "source": "skills/cinewright/SKILL.md",
+      "line": 8,
+      "link": "../../SKILL.md",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "source": "skills/cinewright/SKILL.md",
+      "line": 14,
+      "link": "../../references/craft-execution.md",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "source": "references/craft-execution.md",
+      "line": 27,
+      "link": "direction.md#대상-이해",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "source": "references/craft-execution.md",
+      "line": 29,
+      "link": "format.md",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "source": "references/craft-execution.md",
+      "line": 40,
+      "link": "stillcuts.md#고정-구도와-독립적인-환경-시간",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "source": "references/craft-execution.md",
+      "line": 43,
+      "link": "format.md",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "source": "references/craft-execution.md",
+      "line": 43,
+      "link": "pose-tracks.md",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "source": "references/craft-execution.md",
+      "line": 51,
+      "link": "../examples/relation-studies/README.md",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "source": "references/craft-execution.md",
+      "line": 63,
+      "link": "../docs/implementation/2026-11-10-code-expression/implementation.md",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "source": "references/craft-execution.md",
+      "line": 63,
+      "link": "../docs/implementation/2026-11-10-code-expression/README.md",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "source": "references/craft-execution.md",
+      "line": 73,
+      "link": "tools.md",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "source": "references/craft.md",
+      "line": 3,
+      "link": "craft-execution.md",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "source": "references/craft.md",
+      "line": 9,
+      "link": "direction.md#대상-이해",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "source": "references/craft.md",
+      "line": 9,
+      "link": "music-box.md",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "source": "references/craft.md",
+      "line": 84,
+      "link": "stillcuts.md",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "source": "references/craft.md",
+      "line": 84,
+      "link": "../evidence/2026-11-05-production/research-notes.md",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "source": "references/direction.md",
+      "line": 27,
+      "link": "music-box.md",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "source": "references/direction.md",
+      "line": 62,
+      "link": "../evidence/2026-11-05-production/BRIEF.md",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "source": "references/format.md",
+      "line": 14,
+      "link": "stillcuts.md#컷-목록의-정본과-생성물",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "source": "references/format.md",
+      "line": 20,
+      "link": "stillcuts.md#원화-배치의-정본과-공개-함수",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "source": "references/music.md",
+      "line": 5,
+      "link": "craft-execution.md#공개-관계-연구-대표와-두-변주",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "source": "references/music.md",
+      "line": 12,
+      "link": "../examples/music-box-dancer/README.md",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "source": "references/stillcuts.md",
+      "line": 7,
+      "link": "direction.md#시퀀스의-판단-사슬",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "source": "references/stillcuts.md",
+      "line": 20,
+      "link": "craft.md#구도를-유지하거나-바꾸는-선택",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "source": "references/stillcuts.md",
+      "line": 28,
+      "link": "../modules/cuts.mjs",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "source": "references/stillcuts.md",
+      "line": 59,
+      "link": "../modules/artwork.mjs",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "source": "references/stillcuts.md",
+      "line": 89,
+      "link": "../examples/stillcuts/README.md",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "source": "references/stillcuts.md",
+      "line": 99,
+      "link": "format.md",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "source": "references/stillcuts.md",
+      "line": 105,
+      "link": "../examples/stillcuts/README.md",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "source": "references/pose-tracks.md",
+      "line": 20,
+      "link": "craft-execution.md",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "source": "docs/implementation/2026-11-10-motion-authoring/README.md",
+      "line": 3,
+      "link": "../../../SKILL.md#제작과-검토",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "source": "docs/implementation/2026-11-10-motion-authoring/README.md",
+      "line": 3,
+      "link": "../../../references/craft-execution.md#단서에서-저작-입력까지",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "source": "docs/implementation/2026-11-10-motion-authoring/README.md",
+      "line": 5,
+      "link": "../../../references/craft-execution.md#표현-목표에서-제작안-선택까지",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "source": "docs/implementation/2026-11-10-motion-authoring/README.md",
+      "line": 5,
+      "link": "../../../references/direction.md#스틸-동작-시험-전체-초안",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "source": "docs/implementation/2026-11-10-motion-authoring/README.md",
+      "line": 5,
+      "link": "../../../references/music.md",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "source": "docs/implementation/2026-11-10-motion-authoring/README.md",
+      "line": 5,
+      "link": "../../../references/craft-execution.md#실제-출력에서-원인을-선택하고-고치기",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "source": "docs/implementation/2026-11-10-motion-authoring/README.md",
+      "line": 9,
+      "link": "../../../references/craft-execution.md#미출력-저작-예시-두-찻잔의-춤",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "source": "docs/implementation/2026-11-10-motion-authoring/README.md",
+      "line": 11,
+      "link": "../../../evidence/motion-authoring-20261110/plans/comparison.md",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "source": "docs/implementation/2026-11-10-motion-authoring/README.md",
+      "line": 13,
+      "link": "../../../evidence/motion-authoring-20261110/verification/",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "source": "docs/implementation/2026-11-10-motion-authoring/README.md",
+      "line": 15,
+      "link": "../../../evidence/motion-authoring-20261110/verification/cache-comparison.json",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "source": "docs/implementation/2026-11-10-motion-authoring/README.md",
+      "line": 17,
+      "link": "../2026-11-10-code-expression/craft-redesign.md#플러그인-배포-준비--읽기-전용-조사",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "source": "evidence/motion-authoring-20261110/plans/comparison.md",
+      "line": 5,
+      "link": "plan-a.md",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "source": "evidence/motion-authoring-20261110/plans/comparison.md",
+      "line": 5,
+      "link": "plan-b.md",
+      "ok": true,
+      "reason": ""
+    }
+  ],
+  "limits": "Inline relative Markdown links and heading anchors in listed documents only; external URLs not fetched."
+}

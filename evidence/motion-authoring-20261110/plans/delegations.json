@@ -1,0 +1,58 @@
+[
+  {
+    "taskId": "node:delegated-task:command%3Amcp%3A834a70ba-33a2-413c-af19-de0f2cd6758b%3Adelegate-task%3A74e7704d-a41d-4066-a6f7-c831cfab003e",
+    "childThreadId": "thread:delegated-task:command%3Amcp%3A834a70ba-33a2-413c-af19-de0f2cd6758b%3Adelegate-task%3A74e7704d-a41d-4066-a6f7-c831cfab003e",
+    "link": "<t3-thread://v2/4976b4a8-e1c4-4543-877c-25d62dfa39d1/thread:delegated-task:command%3Amcp%3A834a70ba-33a2-413c-af19-de0f2cd6758b%3Adelegate-task%3A74e7704d-a41d-4066-a6f7-c831cfab003e>",
+    "childRunId": "run:thread:thread%3Adelegated-task%3Acommand%253Amcp%253A834a70ba-33a2-413c-af19-de0f2cd6758b%253Adelegate-task%253A74e7704d-a41d-4066-a6f7-c831cfab003e:ordinal:1",
+    "childNodeId": "node:delegated-task:command%3Amcp%3A834a70ba-33a2-413c-af19-de0f2cd6758b%3Adelegate-task%3A74e7704d-a41d-4066-a6f7-c831cfab003e",
+    "status": "running",
+    "workState": "working",
+    "hasPendingChildRuns": false,
+    "latestTerminalRunId": null,
+    "latestTerminalStatus": null,
+    "latestTerminalSummary": null,
+    "latestTerminalResultContextTransferId": null,
+    "providerInstanceId": "codex-eyemacworld",
+    "model": "gpt-6.1-sol",
+    "options": [
+      {
+        "id": "reasoningEffort",
+        "value": "medium"
+      }
+    ],
+    "summary": null,
+    "resultContextTransferId": null,
+    "hasPendingQuestion": false,
+    "pendingApproval": null,
+    "waitTimedOut": false,
+    "next": "Completion wakes this thread, so end your turn. Do not wait on it or poll it."
+  },
+  {
+    "taskId": "node:delegated-task:command%3Amcp%3A834a70ba-33a2-413c-af19-de0f2cd6758b%3Adelegate-task%3Aba7ffe75-af72-4e15-a6be-0e84ff21ed6c",
+    "childThreadId": "thread:delegated-task:command%3Amcp%3A834a70ba-33a2-413c-af19-de0f2cd6758b%3Adelegate-task%3Aba7ffe75-af72-4e15-a6be-0e84ff21ed6c",
+    "link": "<t3-thread://v2/4976b4a8-e1c4-4543-877c-25d62dfa39d1/thread:delegated-task:command%3Amcp%3A834a70ba-33a2-413c-af19-de0f2cd6758b%3Adelegate-task%3Aba7ffe75-af72-4e15-a6be-0e84ff21ed6c>",
+    "childRunId": "run:thread:thread%3Adelegated-task%3Acommand%253Amcp%253A834a70ba-33a2-413c-af19-de0f2cd6758b%253Adelegate-task%253Aba7ffe75-af72-4e15-a6be-0e84ff21ed6c:ordinal:1",
+    "childNodeId": "node:delegated-task:command%3Amcp%3A834a70ba-33a2-413c-af19-de0f2cd6758b%3Adelegate-task%3Aba7ffe75-af72-4e15-a6be-0e84ff21ed6c",
+    "status": "running",
+    "workState": "working",
+    "hasPendingChildRuns": false,
+    "latestTerminalRunId": null,
+    "latestTerminalStatus": null,
+    "latestTerminalSummary": null,
+    "latestTerminalResultContextTransferId": null,
+    "providerInstanceId": "codex-eyemacworld",
+    "model": "gpt-6.1-sol",
+    "options": [
+      {
+        "id": "reasoningEffort",
+        "value": "medium"
+      }
+    ],
+    "summary": null,
+    "resultContextTransferId": null,
+    "hasPendingQuestion": false,
+    "pendingApproval": null,
+    "waitTimedOut": false,
+    "next": "Completion wakes this thread, so end your turn. Do not wait on it or poll it."
+  }
+]
