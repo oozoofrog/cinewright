@@ -1,0 +1,171 @@
+{
+  "key": "tall",
+  "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) T3CodeBeta/0.1.7 Chrome/152.0.7977.169 Electron/44.10.1 Safari/537.36",
+  "errors": [],
+  "imageSeeks": [
+    {
+      "frame": 191,
+      "hash": "4f6d991654e6c9339799ba16f57069e44d561554f30764a220999543725e7db6"
+    },
+    {
+      "frame": 173,
+      "hash": "733d08fa99aeedef61b66214c49d02e7e4d64096a1d2548c7a26b6851265a0b9"
+    },
+    {
+      "frame": 127,
+      "hash": "95cac7cbb9bf9a77ab292b3439516b2bcda4603469f9c0dad5e10a69bf362ec7"
+    },
+    {
+      "frame": 95,
+      "hash": "4f6d991654e6c9339799ba16f57069e44d561554f30764a220999543725e7db6"
+    },
+    {
+      "frame": 63,
+      "hash": "1c657cde8ba35ab23cd6973fd385d0261ad9128fc33ea38ebc15bfe4f48d4aaa"
+    },
+    {
+      "frame": 37,
+      "hash": "414a1169e188703440c386c91ea41bf54caf2292f27bc1e6f1270e010e0635d2"
+    },
+    {
+      "frame": 23,
+      "hash": "63cfe3b9f9c28361fbe2037a58a7e19805e6ea80115f45081016fa0d74205d95"
+    },
+    {
+      "frame": 7,
+      "hash": "ab667c735fd8f3aea9f533a4152646eedc54e287e830529dd7c95bec41679968"
+    },
+    {
+      "frame": 1,
+      "hash": "d34d570c509f035534369f2ec326c7410e6b00c7843305e48832fbd1d20074df"
+    },
+    {
+      "frame": 0,
+      "hash": "d34d570c509f035534369f2ec326c7410e6b00c7843305e48832fbd1d20074df"
+    },
+    {
+      "frame": 191,
+      "hash": "4f6d991654e6c9339799ba16f57069e44d561554f30764a220999543725e7db6"
+    },
+    {
+      "frame": 0,
+      "hash": "d34d570c509f035534369f2ec326c7410e6b00c7843305e48832fbd1d20074df"
+    },
+    {
+      "frame": 37,
+      "hash": "414a1169e188703440c386c91ea41bf54caf2292f27bc1e6f1270e010e0635d2"
+    },
+    {
+      "frame": 95,
+      "hash": "4f6d991654e6c9339799ba16f57069e44d561554f30764a220999543725e7db6"
+    },
+    {
+      "frame": 0,
+      "hash": "d34d570c509f035534369f2ec326c7410e6b00c7843305e48832fbd1d20074df"
+    },
+    {
+      "frame": 37,
+      "hash": "414a1169e188703440c386c91ea41bf54caf2292f27bc1e6f1270e010e0635d2"
+    }
+  ],
+  "layers": [
+    {
+      "scale": 1,
+      "size": [
+        960,
+        540
+      ],
+      "before": {
+        "disposed": false,
+        "calls": 3,
+        "triangles": 13532,
+        "geometries": 2,
+        "textures": 4,
+        "objects": 2,
+        "clips": 1
+      },
+      "after": {
+        "disposed": true,
+        "calls": 3,
+        "triangles": 13532,
+        "geometries": 0,
+        "textures": 0,
+        "objects": 2,
+        "clips": 1
+      },
+      "transparent": 322051,
+      "opaque": 194571,
+      "partial": 1778,
+      "hashes": {
+        "0": "f4b097ed6df3095306f552e7f5a24a7436ca10ffb139bf853ebd36b9a7675422",
+        "7": "fe63f2123f42cd037ddaa4e9af05ff12259ade2103c265e4e26614b4b6095ee1",
+        "37": "4e68c479eaf6c4aa0d1d102cab91cd913bd2931874497ad0607bcf16bbeb23fc",
+        "95": "52d40037ebebfbf5703926d508a3f70fee3e06c4c4ca6b3b0f079b827b6275dd",
+        "191": "52d40037ebebfbf5703926d508a3f70fee3e06c4c4ca6b3b0f079b827b6275dd"
+      }
+    },
+    {
+      "scale": 2,
+      "size": [
+        1920,
+        1080
+      ],
+      "before": {
+        "disposed": false,
+        "calls": 3,
+        "triangles": 13532,
+        "geometries": 2,
+        "textures": 4,
+        "objects": 2,
+        "clips": 1
+      },
+      "after": {
+        "disposed": true,
+        "calls": 3,
+        "triangles": 13532,
+        "geometries": 0,
+        "textures": 0,
+        "objects": 2,
+        "clips": 1
+      },
+      "transparent": 1289955,
+      "opaque": 779958,
+      "partial": 3687,
+      "hashes": {
+        "0": "0ba4e5b8317675a3521829fc9cc6f01b76e1f3f554daba2ac305eb976c1861ae",
+        "7": "5c5a06ed57204e6fd0f9eed6ee4a553a4041a85b209e26656a8dd6d4e0f8ec7c",
+        "37": "9bbe62912a55a82ab81b9db1807cb4b124dea75162b049c5a727f2c7d3d02ecc",
+        "95": "984b5d9f4368d8bf8e8952c948f3c4ffd308b54063cab3a60e77a8a592b6bcfe",
+        "191": "984b5d9f4368d8bf8e8952c948f3c4ffd308b54063cab3a60e77a8a592b6bcfe"
+      }
+    }
+  ],
+  "video": {
+    "duration": 8,
+    "width": 960,
+    "height": 540,
+    "elapsed": 8.0445,
+    "timeupdates": 31,
+    "totalVideoFrames": 455,
+    "droppedVideoFrames": 0,
+    "scope": "Automated native full-duration decode/play, with sampled decoded images. No human continuous viewing or aesthetic acceptance.",
+    "loopAt": 0.02
+  },
+  "skin": {
+    "0": "f53c091212ded60445237d5709845be8011a62f8f67df9558a36f280cb40085f",
+    "7": "3c122f3287fd6de0f0bfaba1dad5c5a9e5e5df40592d8a062ed2a3c870c75de5",
+    "63": "96c6911054756b4b1913d71f12a324dd962d63a7b0c56779b04bd38d618b5edd",
+    "95": "8df7b50de03df701fef805037c90e1b9e8fd4028c73e83fc46689c5639ada1c7",
+    "191": "ee9354873e18432de92b0195a34362f11e5f4c75044a324f68eb2d46ff319f95"
+  },
+  "failedPrepare": {
+    "error": "injected motion read failure",
+    "counts": {
+      "geometry": 1,
+      "skeleton": 1,
+      "material": 2,
+      "renderer": 0,
+      "contextLoss": 0
+    }
+  }
+}

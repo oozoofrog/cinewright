@@ -1,0 +1,92 @@
+{
+  "environment": {
+    "node": "v26.12.1",
+    "platform": "darwin",
+    "arch": "arm64"
+  },
+  "scope": "observed process memory; GC not forced; not a heap ceiling or real-time guarantee",
+  "rows": [
+    {
+      "name": "tall",
+      "vertices": 20280,
+      "inferMs": [
+        46.985792000000004,
+        33.931916,
+        34.264959000000005
+      ],
+      "prepareMs": 2.8573749999999905,
+      "rigJsonBytes": 2865030,
+      "memoryBefore": {
+        "rss": 38883600,
+        "heapTotal": 19972096,
+        "heapUsed": 11670056,
+        "external": 3643568,
+        "arrayBuffers": 216286
+      },
+      "memoryAfter": {
+        "rss": 151046336,
+        "heapTotal": 107282432,
+        "heapUsed": 55948440,
+        "external": 7053876,
+        "arrayBuffers": 3626554
+      },
+      "diagnostics": {
+        "components": 1,
+        "height": 3.9749999999999996,
+        "halfWidth": 0.6,
+        "crotch": 1.6893749999999996,
+        "shoulderY": 3,
+        "legX": 0.375,
+        "landmarksUsed": [],
+        "inference": "80 horizontal surface sections; bilaterally separated legs and straight arms",
+        "limits": [
+          "linear blend skinning loses joint volume",
+          "no fingers/face/twist bones",
+          "surface sections and distance weights, not Pinocchio heat diffusion"
+        ],
+        "maxRestError": 1.4364415740205255e-7
+      }
+    },
+    {
+      "name": "broad",
+      "vertices": 19800,
+      "inferMs": [
+        30.238540999999998,
+        35.434083000000015,
+        32.37370899999999
+      ],
+      "prepareMs": 2.7529160000000275,
+      "rigJsonBytes": 2985095,
+      "memoryBefore": {
+        "rss": 152111416,
+        "heapTotal": 107659264,
+        "heapUsed": 47220272,
+        "external": 7053876,
+        "arrayBuffers": 2489786
+      },
+      "memoryAfter": {
+        "rss": 158272592,
+        "heapTotal": 106807296,
+        "heapUsed": 47393088,
+        "external": 7000116,
+        "arrayBuffers": 3572794
+      },
+      "diagnostics": {
+        "components": 1,
+        "height": 3.225,
+        "halfWidth": 0.6749999999999999,
+        "crotch": 1.29,
+        "shoulderY": 2.4,
+        "legX": 0.525,
+        "landmarksUsed": [],
+        "inference": "80 horizontal surface sections; bilaterally separated legs and straight arms",
+        "limits": [
+          "linear blend skinning loses joint volume",
+          "no fingers/face/twist bones",
+          "surface sections and distance weights, not Pinocchio heat diffusion"
+        ],
+        "maxRestError": 1.1402520642875737e-7
+      }
+    }
+  ]
+}

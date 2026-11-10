@@ -1,0 +1,31 @@
+✔ same inference algorithm rigs two static surfaces without hints or name branches (55.984959ms)
+✔ explicit axes and landmark provenance preserve authored coordinate space (79.061791ms)
+✔ reject disconnected islands, closed legs, asymmetry, invalid profile and corrupt skin data (97.719875ms)
+✔ rest bind skin matrices and actual deformed vertices remain finite with bounded stretch (21.716917ms)
+✔ actual exported embedded GLB contains skin attributes and reloads Three skin/rest (38.483375ms)
+✔ review drying trajectory stays positive/finite and conservative through accepted loss bound (6.687125ms)
+✔ review inverse bind corruption rejected for rig-only new/update preserving bytes (132.840083ms)
+✔ review contact construction rejects malformed windows/pole/flexion even when contacts disabled (6.15225ms)
+✔ 17 semantic mapping applies distinct axes, names, proportions and rest orientation (1240.666625ms)
+✔ explicit name mapping overrides semantics; unmapped targets fail (2.209375ms)
+✔ units, proportional scale, root apply/extract/inPlace and rest root offset (3.622208ms)
+✔ IK reachable geometry preserves lengths, forward knee and limits (0.1565ms)
+✔ IK unreachable, coincident, pole degeneracy and angular limits are bounded and finite (0.1175ms)
+✔ bounded ground correction reports achieved residual for all four motion/target combinations (20.06175ms)
+✔ direct/reverse/repeat/end-start are exactly pose AND skin equal; weight, negative timeScale, cleanup (18.477709ms)
+✔ local bake survives source removal/JSON roundtrip, playback interpolation and rest mismatch rejection (5.164833ms)
+✔ reject invalid time, axes, malformed tracks and bakes; evaluator releases correctly (1.774125ms)
+✔ closed flux and sink balances including events (2.362583ms)
+✔ determinism, seek, bounds and cancellation (3.191709ms)
+✔ frozen style loads only bake; seeks and disposes (0.491458ms)
+✔ CLI refuses existing destination and leaves no partial output on invalid input (209.554625ms)
+✔ active CLI cancellation and failed publication clean up temporary file (359.947083ms)
+✔ extreme dilute water remains finite, positivity at stability boundary (0.4455ms)
+ℹ tests 23
+ℹ suites 0
+ℹ pass 23
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 1417.955167

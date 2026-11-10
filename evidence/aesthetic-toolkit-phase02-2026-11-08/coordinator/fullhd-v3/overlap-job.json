@@ -1,0 +1,28 @@
+{
+  "id": "171a8060-5da8-45cd-b4a8-d23250096281",
+  "revision": "4c41b6612fa81c83500d7e478833d523a90b83bee28fda6c8ec4385badbad59d",
+  "settings": {
+    "mode": "video",
+    "from": 0,
+    "to": 192,
+    "scale": 1
+  },
+  "status": "completed",
+  "phase": "published",
+  "frames": 192,
+  "totalFrames": 192,
+  "pid": 67518,
+  "started": "2026-11-08T08:20:57.468Z",
+  "log": "/Volumes/eyedisk/develop/cinewright/.direction/aesthetic-toolkit-phase02-2026-11-08/fullhd-v3/store/jobs/171a8060-5da8-45cd-b4a8-d23250096281/execution.log",
+  "ffmpeg": "ffmpeg version 9.0.2 Copyright (c) 2000-2026 the FFmpeg developers",
+  "audio": {
+    "file": "/Volumes/eyedisk/develop/cinewright/.direction/aesthetic-toolkit-phase02-2026-11-08/fullhd-v3/store/jobs/171a8060-5da8-45cd-b4a8-d23250096281/mix.wav",
+    "rate": 48000,
+    "duration": 384000,
+    "sources": []
+  },
+  "browser": "157.0.8103.38",
+  "outputSha256": "ba297f484f3126a6e148faf21b081a92837c3a50574a76c71e5afd211028778c",
+  "output": "/Volumes/eyedisk/develop/cinewright/.direction/aesthetic-toolkit-phase02-2026-11-08/fullhd-v3/store/jobs/171a8060-5da8-45cd-b4a8-d23250096281/work.mp4",
+  "finished": "2026-11-08T08:21:06.088Z"
+}

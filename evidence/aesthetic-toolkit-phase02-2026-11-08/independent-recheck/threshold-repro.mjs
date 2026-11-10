@@ -1,0 +1,10 @@
+import fs from'node:fs/promises';import path from'node:path';import assert from'node:assert/strict';import{createSolver,validateInput,bakeWatercolor}from'../../../modules/fx2d/watercolor.mjs';
+const out=path.dirname(new URL(import.meta.url).pathname),N=2**-1022,U=Number.MIN_VALUE;
+const fixture={version:1,seed:1,width:3,height:3,frames:2,dt:1,stepsPerFrame:1,coefficients:{waterDiffusion:.25,pigmentDiffusion:0,absorption:0,evaporation:0,deposition:0},colors:[[20,40,180]],events:[{frame:0,x:1,y:1,radius:.01,water:N+3*U,pigment:[100]}]};
+assert.equal(validateInput(fixture),true);const solver=createSolver(fixture),first=solver.advance(),second=solver.advance();assert.equal(first.water[4],-U);assert.ok(second.water.some(x=>x<0));
+await fs.writeFile(path.join(out,'threshold-negative-water.json'),JSON.stringify(fixture,null,2));
+const rows=[];for(const scale of [.5,1,2,4,8])for(let offset=0;offset<64;offset++){
+ const c=structuredClone(fixture);c.events[0].water=N*scale+offset*U;const s=createSolver(c);let min=Infinity,pigmentError=0;for(let f=0;f<c.frames;f++){const x=s.advance();min=Math.min(min,...x.water);pigmentError=Math.max(pigmentError,Math.abs(x.mobile[0].reduce((a,b)=>a+b,0)-100));}rows.push({scale,offset,inputWater:c.events[0].water,minWater:min,pigmentError});
+}
+const result={valid:true,stability:{diffusion:1,loss:0,deposition:0},first,second,mechanism:{fluxPerEdge:.25*fixture.events[0].water,outgoingFlux4:4*(.25*fixture.events[0].water),input:fixture.events[0].water,residual:fixture.events[0].water-4*(.25*fixture.events[0].water)},scan:{cases:rows.length,negativeCases:rows.filter(x=>x.minWater<0).length,minWater:Math.min(...rows.map(x=>x.minWater)),maxPigmentError:Math.max(...rows.map(x=>x.pigmentError))},rows,bakeStillCompletes:bakeWatercolor(fixture).frames.length===2};
+await fs.writeFile(path.join(out,'threshold-repro.json'),JSON.stringify(result,null,2));console.log(JSON.stringify({firstWater:first.water,secondWater:second.water,mechanism:result.mechanism,scan:result.scan,bakeStillCompletes:result.bakeStillCompletes},null,2));

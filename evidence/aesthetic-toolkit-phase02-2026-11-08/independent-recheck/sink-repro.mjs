@@ -1,0 +1,7 @@
+import fs from'node:fs/promises';import path from'node:path';import assert from'node:assert/strict';import{createSolver,validateInput}from'../../../modules/fx2d/watercolor.mjs';
+const out=path.dirname(new URL(import.meta.url).pathname),U=Number.MIN_VALUE;
+const c={version:1,seed:1,width:2,height:2,frames:1,dt:1,stepsPerFrame:1,coefficients:{waterDiffusion:0,pigmentDiffusion:0,absorption:.25,evaporation:0,deposition:0},colors:[[20,40,180]],events:[{frame:0,x:0,y:0,radius:.01,water:3*U,pigment:[1]}]};
+assert.equal(validateInput(c),true);const actual=createSolver(c).advance();assert.equal(actual.water[0],2*U);assert.equal(actual.totals.absorbed,0);assert.equal(actual.totals.evaporated,U);assert.equal(actual.mobile[0][0],1);
+const rows=[];for(const absorption of [.125,.25,.5,.75,1])for(const quanta of [1,2,3,4,5,7,11,63,128]){const input=structuredClone(c);input.coefficients.absorption=absorption;input.events[0].water=quanta*U;const s=createSolver(input).advance();rows.push({absorption,evaporation:0,quanta,remaining:s.water[0],absorbed:s.totals.absorbed,evaporated:s.totals.evaporated});}
+const result={valid:true,fixture:c,actual,expected:{absorbed:U,evaporated:0,remaining:2*U},scan:{cases:rows.length,zeroEvaporationButNonzeroEvaporated:rows.filter(x=>x.evaporated!==0).length},rows};
+await fs.writeFile(path.join(out,'sink-zero-evaporation.json'),JSON.stringify(c,null,2));await fs.writeFile(path.join(out,'sink-repro.json'),JSON.stringify(result,null,2));console.log(JSON.stringify({actual,expected:result.expected,scan:result.scan},null,2));

@@ -1,0 +1,227 @@
+{
+  "created": "2026-11-08T07:37:23.664Z",
+  "demos": [
+    {
+      "mode": "stride",
+      "revision": "2e6f03125d583104b85df3da5df70d09289ba1d476db0bf513f8952fc421dc63",
+      "job": "34861c75-0982-48ee-a353-223fb59d2a5b",
+      "file": "/Volumes/eyedisk/develop/cinewright/evidence/aesthetic-toolkit-phase02-2026-11-08/retarget/stride.mp4",
+      "sourceProjectAbsentDuringRender": true,
+      "frozenPaths": 30,
+      "authoredSourceTrackInPackage": false,
+      "probe": {
+        "stream": {
+          "width": 960,
+          "height": 540,
+          "avg_frame_rate": "24/1",
+          "duration": "8.000000",
+          "nb_frames": "192",
+          "disposition": {
+            "default": 1,
+            "dub": 0,
+            "original": 0,
+            "comment": 0,
+            "lyrics": 0,
+            "karaoke": 0,
+            "forced": 0,
+            "hearing_impaired": 0,
+            "visual_impaired": 0,
+            "clean_effects": 0,
+            "attached_pic": 0,
+            "timed_thumbnails": 0,
+            "non_diegetic": 0,
+            "captions": 0,
+            "descriptions": 0,
+            "metadata": 0,
+            "dependent": 0,
+            "still_image": 0,
+            "multilayer": 0
+          },
+          "tags": {
+            "language": "und",
+            "handler_name": "VideoHandler",
+            "encoder": "Lavc63.1.102 libx264"
+          }
+        },
+        "ptsFrames": 192,
+        "first": 0,
+        "last": 7.958333,
+        "absolutePtsPass": true
+      },
+      "flash": {
+        "version": 1,
+        "file": "/Volumes/eyedisk/develop/cinewright/evidence/aesthetic-toolkit-phase02-2026-11-08/retarget/stride.mp4",
+        "fps": 24,
+        "resolution": [
+          160,
+          90
+        ],
+        "frames": 192,
+        "maxTransitionsInOneSecond": 0,
+        "flaggedWindows": 0,
+        "examples": [],
+        "status": "screen-negative",
+        "scope": "Every decoded CFR frame at 160x90; >=25% same-direction area, linear luminance delta >=0.10 (peak >=0.20) or saturated-red delta >=0.20; >=6 alternating transitions in a rolling second flags risk (both polarities retained for simultaneous opposing regions, at most one count per decoded transition).",
+        "limitations": [
+          "Not WCAG certification, medical advice, or a guarantee of safety.",
+          "Downscaling can miss small/local patterns; no spatial-frequency, visual-angle or display-luminance model.",
+          "Screen-negative is not safe; human accessibility review remains required."
+        ]
+      },
+      "pixelHashes": {
+        "0": "5b5ecb1b89fe69c5a4ec52801cee808d744e9bc4f4bd3a9774d88ca2d2f83e14",
+        "1": "241d91405cd5757b9074ea219d085d43255379cf05854a77571f8a40f8175ed6",
+        "24": "4375de2e6c2202877cfc06b51dac86311ecee94c3090c1e533b8d6b56e08a600",
+        "53": "feb9b44b35e2167f672eba8b77469e243445b073d9099818056cf4027ea23ea6",
+        "96": "edfdd7a25f4d84c9cdd509c4e1659bd36f208662c894872644ebb1655f4063fb",
+        "191": "8fa1f9f089c0331dbe9b3ea12df97a7c73b509d01d89de5359b492682abaa0b0"
+      },
+      "permutationExact": true,
+      "errors": [],
+      "networkLocalOnly": true,
+      "lifecycle": [
+        {
+          "evaluateMs": 0.01875,
+          "stats": {
+            "disposed": false,
+            "calls": 4,
+            "triangles": 10598,
+            "geometries": 4,
+            "textures": 7
+          },
+          "disposed": true
+        },
+        {
+          "evaluateMs": 0.014166666567325592,
+          "stats": {
+            "disposed": false,
+            "calls": 4,
+            "triangles": 10598,
+            "geometries": 4,
+            "textures": 7
+          },
+          "disposed": true
+        }
+      ],
+      "playback": {
+        "duration": 8,
+        "advanced": 0.898724,
+        "nearEnd": 7.92,
+        "decoded": 20,
+        "dropped": 0
+      }
+    },
+    {
+      "mode": "salute",
+      "revision": "a99e8a0c4eab2d2007358f290c034eb85b7eb08df62c389d3be311b9cfc71c98",
+      "job": "55de56e8-2e81-44b8-a706-6e91e2c2cdc3",
+      "file": "/Volumes/eyedisk/develop/cinewright/evidence/aesthetic-toolkit-phase02-2026-11-08/retarget/salute.mp4",
+      "sourceProjectAbsentDuringRender": true,
+      "frozenPaths": 30,
+      "authoredSourceTrackInPackage": false,
+      "probe": {
+        "stream": {
+          "width": 960,
+          "height": 540,
+          "avg_frame_rate": "24/1",
+          "duration": "9.000000",
+          "nb_frames": "216",
+          "disposition": {
+            "default": 1,
+            "dub": 0,
+            "original": 0,
+            "comment": 0,
+            "lyrics": 0,
+            "karaoke": 0,
+            "forced": 0,
+            "hearing_impaired": 0,
+            "visual_impaired": 0,
+            "clean_effects": 0,
+            "attached_pic": 0,
+            "timed_thumbnails": 0,
+            "non_diegetic": 0,
+            "captions": 0,
+            "descriptions": 0,
+            "metadata": 0,
+            "dependent": 0,
+            "still_image": 0,
+            "multilayer": 0
+          },
+          "tags": {
+            "language": "und",
+            "handler_name": "VideoHandler",
+            "encoder": "Lavc63.1.102 libx264"
+          }
+        },
+        "ptsFrames": 216,
+        "first": 0,
+        "last": 8.958333,
+        "absolutePtsPass": true
+      },
+      "flash": {
+        "version": 1,
+        "file": "/Volumes/eyedisk/develop/cinewright/evidence/aesthetic-toolkit-phase02-2026-11-08/retarget/salute.mp4",
+        "fps": 24,
+        "resolution": [
+          160,
+          90
+        ],
+        "frames": 216,
+        "maxTransitionsInOneSecond": 0,
+        "flaggedWindows": 0,
+        "examples": [],
+        "status": "screen-negative",
+        "scope": "Every decoded CFR frame at 160x90; >=25% same-direction area, linear luminance delta >=0.10 (peak >=0.20) or saturated-red delta >=0.20; >=6 alternating transitions in a rolling second flags risk (both polarities retained for simultaneous opposing regions, at most one count per decoded transition).",
+        "limitations": [
+          "Not WCAG certification, medical advice, or a guarantee of safety.",
+          "Downscaling can miss small/local patterns; no spatial-frequency, visual-angle or display-luminance model.",
+          "Screen-negative is not safe; human accessibility review remains required."
+        ]
+      },
+      "pixelHashes": {
+        "0": "01671781a39d908783a4a4c737f1f2a11b13e719806dc34b619f7cf310f8c2ff",
+        "1": "4d35cdad280a1b9d11ad13ed66eb29dd8a9fe2b4dc76d1360420137cda8710d5",
+        "24": "8831696f151aabe34e6cdab09ba6968bcc6f6018478349f1998d9b3e7e045d63",
+        "53": "48213ad213768cf65345b023bbd8dc04524d0b2986c7a86acb828d8dabf81c43",
+        "96": "47277f6f567e294690276e43493f1b5ca476fe4c880ccae2dcbe4e2e537959c3",
+        "215": "242d4eda5f7dc83d7297a18794626e8319fc70fe05ed96cc1f52818dd95fdd2b"
+      },
+      "permutationExact": true,
+      "errors": [],
+      "networkLocalOnly": true,
+      "lifecycle": [
+        {
+          "evaluateMs": 0.01791666696468989,
+          "stats": {
+            "disposed": false,
+            "calls": 4,
+            "triangles": 10598,
+            "geometries": 4,
+            "textures": 7
+          },
+          "disposed": true
+        },
+        {
+          "evaluateMs": 0.0162500003973643,
+          "stats": {
+            "disposed": false,
+            "calls": 4,
+            "triangles": 10598,
+            "geometries": 4,
+            "textures": 7
+          },
+          "disposed": true
+        }
+      ],
+      "playback": {
+        "duration": 9,
+        "advanced": 0.890839,
+        "nearEnd": 8.92,
+        "decoded": 20,
+        "dropped": 0
+      }
+    }
+  ],
+  "continuousHumanViewing": false,
+  "aestheticAcceptance": false
+}

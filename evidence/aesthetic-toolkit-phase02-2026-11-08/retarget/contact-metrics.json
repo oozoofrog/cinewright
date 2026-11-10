@@ -1,0 +1,90 @@
+[
+  {
+    "mode": "stride",
+    "targets": {
+      "source": {
+        "vertices": 2739,
+        "bones": 17,
+        "samples": 49,
+        "bakeBytes": 60468,
+        "scale": 1,
+        "groundRmsBefore": 0,
+        "groundRmsAfter": 0,
+        "groundMaxAfter": 0,
+        "maxCorrection": 0,
+        "unreachable": 0,
+        "boundRejected": 0
+      },
+      "reed": {
+        "vertices": 2739,
+        "bones": 17,
+        "samples": 49,
+        "bakeBytes": 130440,
+        "scale": 1.4200610784566883,
+        "groundRmsBefore": 0.04127252155700003,
+        "groundRmsAfter": 2.735619399366513e-16,
+        "groundMaxAfter": 8.881784197001252e-16,
+        "maxCorrection": 0.0915529453247671,
+        "unreachable": 0,
+        "boundRejected": 0
+      },
+      "copper": {
+        "vertices": 2739,
+        "bones": 17,
+        "samples": 49,
+        "bakeBytes": 152383,
+        "scale": 0.6957650201411509,
+        "groundRmsBefore": 0.023351159863018507,
+        "groundRmsAfter": 9.714046856816475e-16,
+        "groundMaxAfter": 2.3869795029440866e-15,
+        "maxCorrection": 0.051396433116811635,
+        "unreachable": 0,
+        "boundRejected": 0
+      }
+    }
+  },
+  {
+    "mode": "salute",
+    "targets": {
+      "source": {
+        "vertices": 2739,
+        "bones": 17,
+        "samples": 73,
+        "bakeBytes": 86636,
+        "scale": 1,
+        "groundRmsBefore": 0,
+        "groundRmsAfter": 0,
+        "groundMaxAfter": 0,
+        "maxCorrection": 0,
+        "unreachable": 0,
+        "boundRejected": 0
+      },
+      "reed": {
+        "vertices": 2739,
+        "bones": 17,
+        "samples": 73,
+        "bakeBytes": 176409,
+        "scale": 1.4200610784566883,
+        "groundRmsBefore": 0.13949573431231274,
+        "groundRmsAfter": 2.4012874647345806e-16,
+        "groundMaxAfter": 6.661338147750939e-16,
+        "maxCorrection": 0.23444472414599937,
+        "unreachable": 0,
+        "boundRejected": 0
+      },
+      "copper": {
+        "vertices": 2739,
+        "bones": 17,
+        "samples": 73,
+        "bakeBytes": 222223,
+        "scale": 0.6957650201411509,
+        "groundRmsBefore": 0.07101296735455523,
+        "groundRmsAfter": 1.101845735472325e-15,
+        "groundMaxAfter": 1.9984014443252818e-15,
+        "maxCorrection": 0.12021384406672447,
+        "unreachable": 0,
+        "boundRejected": 0
+      }
+    }
+  }
+]

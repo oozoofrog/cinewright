@@ -1,0 +1,1434 @@
+[
+  {
+    "key": "tall",
+    "scope": "current-source",
+    "revision": "50cf66a0c92f30237ee8bb6374df4e19288d2cebdf366d7b7bf866079b1a2b92",
+    "reachableFiles": [
+      "project/modules/styles/expressionist-space/index.mjs",
+      "vendor/three/three.module.js",
+      "vendor/three/three.core.js",
+      "project/modules/animation/exposure.mjs",
+      "project/modules/animation/clip3d.mjs",
+      "project/modules/fx3d/adapter.mjs",
+      "project/modules/fx3d/material.mjs",
+      "project/modules/fx3d/outline.mjs",
+      "project/modules/fx3d/geometry.mjs",
+      "project/modules/fx3d/light.mjs",
+      "project/modules/fx3d/particles.mjs",
+      "project/modules/fx3d/deform.mjs",
+      "project/modules/fx3d/glb.mjs",
+      "project/vendor/three/addons/loaders/GLTFLoader.js",
+      "project/vendor/three/addons/utils/BufferGeometryUtils.js",
+      "project/modules/animation/auto-rig.mjs",
+      "project/modules/animation/retarget.mjs",
+      "project/modules/fx3d/skinned-outline.mjs",
+      "project/modules/styles/expressionist-space/validate.mjs",
+      "runtime/compositor.mjs",
+      "runtime/timeline.mjs"
+    ],
+    "missing": [],
+    "imports": [
+      {
+        "name": "project/modules/styles/expressionist-space/index.mjs",
+        "spec": "three",
+        "resolved": "vendor/three/three.module.js"
+      },
+      {
+        "name": "vendor/three/three.module.js",
+        "spec": "./three.core.js",
+        "resolved": "vendor/three/three.core.js"
+      },
+      {
+        "name": "vendor/three/three.module.js",
+        "spec": "./three.core.js",
+        "resolved": "vendor/three/three.core.js"
+      },
+      {
+        "name": "project/modules/styles/expressionist-space/index.mjs",
+        "spec": "../../animation/exposure.mjs",
+        "resolved": "project/modules/animation/exposure.mjs"
+      },
+      {
+        "name": "project/modules/styles/expressionist-space/index.mjs",
+        "spec": "../../animation/clip3d.mjs",
+        "resolved": "project/modules/animation/clip3d.mjs"
+      },
+      {
+        "name": "project/modules/animation/clip3d.mjs",
+        "spec": "three",
+        "resolved": "vendor/three/three.module.js"
+      },
+      {
+        "name": "project/modules/animation/clip3d.mjs",
+        "spec": "./exposure.mjs",
+        "resolved": "project/modules/animation/exposure.mjs"
+      },
+      {
+        "name": "project/modules/styles/expressionist-space/index.mjs",
+        "spec": "../../fx3d/adapter.mjs",
+        "resolved": "project/modules/fx3d/adapter.mjs"
+      },
+      {
+        "name": "project/modules/fx3d/adapter.mjs",
+        "spec": "three",
+        "resolved": "vendor/three/three.module.js"
+      },
+      {
+        "name": "project/modules/styles/expressionist-space/index.mjs",
+        "spec": "../../fx3d/material.mjs",
+        "resolved": "project/modules/fx3d/material.mjs"
+      },
+      {
+        "name": "project/modules/fx3d/material.mjs",
+        "spec": "three",
+        "resolved": "vendor/three/three.module.js"
+      },
+      {
+        "name": "project/modules/styles/expressionist-space/index.mjs",
+        "spec": "../../fx3d/outline.mjs",
+        "resolved": "project/modules/fx3d/outline.mjs"
+      },
+      {
+        "name": "project/modules/fx3d/outline.mjs",
+        "spec": "three",
+        "resolved": "vendor/three/three.module.js"
+      },
+      {
+        "name": "project/modules/styles/expressionist-space/index.mjs",
+        "spec": "../../fx3d/geometry.mjs",
+        "resolved": "project/modules/fx3d/geometry.mjs"
+      },
+      {
+        "name": "project/modules/fx3d/geometry.mjs",
+        "spec": "three",
+        "resolved": "vendor/three/three.module.js"
+      },
+      {
+        "name": "project/modules/styles/expressionist-space/index.mjs",
+        "spec": "../../fx3d/light.mjs",
+        "resolved": "project/modules/fx3d/light.mjs"
+      },
+      {
+        "name": "project/modules/fx3d/light.mjs",
+        "spec": "three",
+        "resolved": "vendor/three/three.module.js"
+      },
+      {
+        "name": "project/modules/styles/expressionist-space/index.mjs",
+        "spec": "../../fx3d/particles.mjs",
+        "resolved": "project/modules/fx3d/particles.mjs"
+      },
+      {
+        "name": "project/modules/fx3d/particles.mjs",
+        "spec": "three",
+        "resolved": "vendor/three/three.module.js"
+      },
+      {
+        "name": "project/modules/styles/expressionist-space/index.mjs",
+        "spec": "../../fx3d/deform.mjs",
+        "resolved": "project/modules/fx3d/deform.mjs"
+      },
+      {
+        "name": "project/modules/styles/expressionist-space/index.mjs",
+        "spec": "../../fx3d/glb.mjs",
+        "resolved": "project/modules/fx3d/glb.mjs"
+      },
+      {
+        "name": "project/modules/fx3d/glb.mjs",
+        "spec": "../../vendor/three/addons/loaders/GLTFLoader.js",
+        "resolved": "project/vendor/three/addons/loaders/GLTFLoader.js"
+      },
+      {
+        "name": "project/vendor/three/addons/loaders/GLTFLoader.js",
+        "spec": "three",
+        "resolved": "vendor/three/three.module.js"
+      },
+      {
+        "name": "project/vendor/three/addons/loaders/GLTFLoader.js",
+        "spec": "../utils/BufferGeometryUtils.js",
+        "resolved": "project/vendor/three/addons/utils/BufferGeometryUtils.js"
+      },
+      {
+        "name": "project/vendor/three/addons/utils/BufferGeometryUtils.js",
+        "spec": "three",
+        "resolved": "vendor/three/three.module.js"
+      },
+      {
+        "name": "project/modules/styles/expressionist-space/index.mjs",
+        "spec": "three",
+        "resolved": "vendor/three/three.module.js"
+      },
+      {
+        "name": "project/modules/styles/expressionist-space/index.mjs",
+        "spec": "../../animation/auto-rig.mjs",
+        "resolved": "project/modules/animation/auto-rig.mjs"
+      },
+      {
+        "name": "project/modules/animation/auto-rig.mjs",
+        "spec": "three",
+        "resolved": "vendor/three/three.module.js"
+      },
+      {
+        "name": "project/modules/styles/expressionist-space/index.mjs",
+        "spec": "../../animation/retarget.mjs",
+        "resolved": "project/modules/animation/retarget.mjs"
+      },
+      {
+        "name": "project/modules/animation/retarget.mjs",
+        "spec": "three",
+        "resolved": "vendor/three/three.module.js"
+      },
+      {
+        "name": "project/modules/styles/expressionist-space/index.mjs",
+        "spec": "../../fx3d/skinned-outline.mjs",
+        "resolved": "project/modules/fx3d/skinned-outline.mjs"
+      },
+      {
+        "name": "project/modules/fx3d/skinned-outline.mjs",
+        "spec": "three",
+        "resolved": "vendor/three/three.module.js"
+      },
+      {
+        "name": "project/modules/styles/expressionist-space/index.mjs",
+        "spec": "./validate.mjs",
+        "resolved": "project/modules/styles/expressionist-space/validate.mjs"
+      },
+      {
+        "name": "project/modules/styles/expressionist-space/validate.mjs",
+        "spec": "../../fx3d/geometry.mjs",
+        "resolved": "project/modules/fx3d/geometry.mjs"
+      },
+      {
+        "name": "project/modules/styles/expressionist-space/validate.mjs",
+        "spec": "../../animation/exposure.mjs",
+        "resolved": "project/modules/animation/exposure.mjs"
+      },
+      {
+        "name": "runtime/compositor.mjs",
+        "spec": "./timeline.mjs",
+        "resolved": "runtime/timeline.mjs"
+      }
+    ],
+    "licenseHashes": {
+      "project/assets/LICENSE": "8599962a8fd4f90f6071679bc1a07e613bb15a0aab50b6906fb10aa6aa25a7a3",
+      "project/vendor/three/LICENSE": "bfe119ea4fd413f5f7ca3fcd63adb0c4a073ed39daa2fe7d3e6b769e21272601",
+      "vendor/three/LICENSE": "bfe119ea4fd413f5f7ca3fcd63adb0c4a073ed39daa2fe7d3e6b769e21272601"
+    },
+    "threeLicenseMatches": true
+  },
+  {
+    "key": "broad",
+    "scope": "current-source",
+    "revision": "01debb87c28cf15f03513f5e0af0b44bbeadd5adfde78199c8fc44b1345b3575",
+    "reachableFiles": [
+      "project/modules/styles/expressionist-space/index.mjs",
+      "vendor/three/three.module.js",
+      "vendor/three/three.core.js",
+      "project/modules/animation/exposure.mjs",
+      "project/modules/animation/clip3d.mjs",
+      "project/modules/fx3d/adapter.mjs",
+      "project/modules/fx3d/material.mjs",
+      "project/modules/fx3d/outline.mjs",
+      "project/modules/fx3d/geometry.mjs",
+      "project/modules/fx3d/light.mjs",
+      "project/modules/fx3d/particles.mjs",
+      "project/modules/fx3d/deform.mjs",
+      "project/modules/fx3d/glb.mjs",
+      "project/vendor/three/addons/loaders/GLTFLoader.js",
+      "project/vendor/three/addons/utils/BufferGeometryUtils.js",
+      "project/modules/animation/auto-rig.mjs",
+      "project/modules/animation/retarget.mjs",
+      "project/modules/fx3d/skinned-outline.mjs",
+      "project/modules/styles/expressionist-space/validate.mjs",
+      "runtime/compositor.mjs",
+      "runtime/timeline.mjs"
+    ],
+    "missing": [],
+    "imports": [
+      {
+        "name": "project/modules/styles/expressionist-space/index.mjs",
+        "spec": "three",
+        "resolved": "vendor/three/three.module.js"
+      },
+      {
+        "name": "vendor/three/three.module.js",
+        "spec": "./three.core.js",
+        "resolved": "vendor/three/three.core.js"
+      },
+      {
+        "name": "vendor/three/three.module.js",
+        "spec": "./three.core.js",
+        "resolved": "vendor/three/three.core.js"
+      },
+      {
+        "name": "project/modules/styles/expressionist-space/index.mjs",
+        "spec": "../../animation/exposure.mjs",
+        "resolved": "project/modules/animation/exposure.mjs"
+      },
+      {
+        "name": "project/modules/styles/expressionist-space/index.mjs",
+        "spec": "../../animation/clip3d.mjs",
+        "resolved": "project/modules/animation/clip3d.mjs"
+      },
+      {
+        "name": "project/modules/animation/clip3d.mjs",
+        "spec": "three",
+        "resolved": "vendor/three/three.module.js"
+      },
+      {
+        "name": "project/modules/animation/clip3d.mjs",
+        "spec": "./exposure.mjs",
+        "resolved": "project/modules/animation/exposure.mjs"
+      },
+      {
+        "name": "project/modules/styles/expressionist-space/index.mjs",
+        "spec": "../../fx3d/adapter.mjs",
+        "resolved": "project/modules/fx3d/adapter.mjs"
+      },
+      {
+        "name": "project/modules/fx3d/adapter.mjs",
+        "spec": "three",
+        "resolved": "vendor/three/three.module.js"
+      },
+      {
+        "name": "project/modules/styles/expressionist-space/index.mjs",
+        "spec": "../../fx3d/material.mjs",
+        "resolved": "project/modules/fx3d/material.mjs"
+      },
+      {
+        "name": "project/modules/fx3d/material.mjs",
+        "spec": "three",
+        "resolved": "vendor/three/three.module.js"
+      },
+      {
+        "name": "project/modules/styles/expressionist-space/index.mjs",
+        "spec": "../../fx3d/outline.mjs",
+        "resolved": "project/modules/fx3d/outline.mjs"
+      },
+      {
+        "name": "project/modules/fx3d/outline.mjs",
+        "spec": "three",
+        "resolved": "vendor/three/three.module.js"
+      },
+      {
+        "name": "project/modules/styles/expressionist-space/index.mjs",
+        "spec": "../../fx3d/geometry.mjs",
+        "resolved": "project/modules/fx3d/geometry.mjs"
+      },
+      {
+        "name": "project/modules/fx3d/geometry.mjs",
+        "spec": "three",
+        "resolved": "vendor/three/three.module.js"
+      },
+      {
+        "name": "project/modules/styles/expressionist-space/index.mjs",
+        "spec": "../../fx3d/light.mjs",
+        "resolved": "project/modules/fx3d/light.mjs"
+      },
+      {
+        "name": "project/modules/fx3d/light.mjs",
+        "spec": "three",
+        "resolved": "vendor/three/three.module.js"
+      },
+      {
+        "name": "project/modules/styles/expressionist-space/index.mjs",
+        "spec": "../../fx3d/particles.mjs",
+        "resolved": "project/modules/fx3d/particles.mjs"
+      },
+      {
+        "name": "project/modules/fx3d/particles.mjs",
+        "spec": "three",
+        "resolved": "vendor/three/three.module.js"
+      },
+      {
+        "name": "project/modules/styles/expressionist-space/index.mjs",
+        "spec": "../../fx3d/deform.mjs",
+        "resolved": "project/modules/fx3d/deform.mjs"
+      },
+      {
+        "name": "project/modules/styles/expressionist-space/index.mjs",
+        "spec": "../../fx3d/glb.mjs",
+        "resolved": "project/modules/fx3d/glb.mjs"
+      },
+      {
+        "name": "project/modules/fx3d/glb.mjs",
+        "spec": "../../vendor/three/addons/loaders/GLTFLoader.js",
+        "resolved": "project/vendor/three/addons/loaders/GLTFLoader.js"
+      },
+      {
+        "name": "project/vendor/three/addons/loaders/GLTFLoader.js",
+        "spec": "three",
+        "resolved": "vendor/three/three.module.js"
+      },
+      {
+        "name": "project/vendor/three/addons/loaders/GLTFLoader.js",
+        "spec": "../utils/BufferGeometryUtils.js",
+        "resolved": "project/vendor/three/addons/utils/BufferGeometryUtils.js"
+      },
+      {
+        "name": "project/vendor/three/addons/utils/BufferGeometryUtils.js",
+        "spec": "three",
+        "resolved": "vendor/three/three.module.js"
+      },
+      {
+        "name": "project/modules/styles/expressionist-space/index.mjs",
+        "spec": "three",
+        "resolved": "vendor/three/three.module.js"
+      },
+      {
+        "name": "project/modules/styles/expressionist-space/index.mjs",
+        "spec": "../../animation/auto-rig.mjs",
+        "resolved": "project/modules/animation/auto-rig.mjs"
+      },
+      {
+        "name": "project/modules/animation/auto-rig.mjs",
+        "spec": "three",
+        "resolved": "vendor/three/three.module.js"
+      },
+      {
+        "name": "project/modules/styles/expressionist-space/index.mjs",
+        "spec": "../../animation/retarget.mjs",
+        "resolved": "project/modules/animation/retarget.mjs"
+      },
+      {
+        "name": "project/modules/animation/retarget.mjs",
+        "spec": "three",
+        "resolved": "vendor/three/three.module.js"
+      },
+      {
+        "name": "project/modules/styles/expressionist-space/index.mjs",
+        "spec": "../../fx3d/skinned-outline.mjs",
+        "resolved": "project/modules/fx3d/skinned-outline.mjs"
+      },
+      {
+        "name": "project/modules/fx3d/skinned-outline.mjs",
+        "spec": "three",
+        "resolved": "vendor/three/three.module.js"
+      },
+      {
+        "name": "project/modules/styles/expressionist-space/index.mjs",
+        "spec": "./validate.mjs",
+        "resolved": "project/modules/styles/expressionist-space/validate.mjs"
+      },
+      {
+        "name": "project/modules/styles/expressionist-space/validate.mjs",
+        "spec": "../../fx3d/geometry.mjs",
+        "resolved": "project/modules/fx3d/geometry.mjs"
+      },
+      {
+        "name": "project/modules/styles/expressionist-space/validate.mjs",
+        "spec": "../../animation/exposure.mjs",
+        "resolved": "project/modules/animation/exposure.mjs"
+      },
+      {
+        "name": "runtime/compositor.mjs",
+        "spec": "./timeline.mjs",
+        "resolved": "runtime/timeline.mjs"
+      }
+    ],
+    "licenseHashes": {
+      "project/assets/LICENSE": "8599962a8fd4f90f6071679bc1a07e613bb15a0aab50b6906fb10aa6aa25a7a3",
+      "project/vendor/three/LICENSE": "bfe119ea4fd413f5f7ca3fcd63adb0c4a073ed39daa2fe7d3e6b769e21272601",
+      "vendor/three/LICENSE": "bfe119ea4fd413f5f7ca3fcd63adb0c4a073ed39daa2fe7d3e6b769e21272601"
+    },
+    "threeLicenseMatches": true
+  },
+  {
+    "key": "wet",
+    "scope": "current-source",
+    "revision": "c5f2fea335f3446324d47b139906238e9d7ee475bb7f55b39e5b2bd74c767d76",
+    "reachableFiles": [
+      "project/modules/styles/watercolor-physical/index.mjs",
+      "project/modules/styles/line-wash/index.mjs",
+      "project/modules/fx2d/stroke.mjs",
+      "project/modules/fx2d/brush.mjs",
+      "project/modules/fx2d/wash.mjs",
+      "project/modules/fx2d/hatch.mjs",
+      "project/modules/fx2d/redraw.mjs",
+      "project/modules/animation/exposure.mjs",
+      "project/modules/fx2d/erase.mjs",
+      "project/modules/fx2d/watercolor.mjs",
+      "runtime/compositor.mjs",
+      "runtime/timeline.mjs"
+    ],
+    "missing": [],
+    "imports": [
+      {
+        "name": "project/modules/styles/watercolor-physical/index.mjs",
+        "spec": "../line-wash/index.mjs",
+        "resolved": "project/modules/styles/line-wash/index.mjs"
+      },
+      {
+        "name": "project/modules/styles/line-wash/index.mjs",
+        "spec": "../../fx2d/stroke.mjs",
+        "resolved": "project/modules/fx2d/stroke.mjs"
+      },
+      {
+        "name": "project/modules/styles/line-wash/index.mjs",
+        "spec": "../../fx2d/brush.mjs",
+        "resolved": "project/modules/fx2d/brush.mjs"
+      },
+      {
+        "name": "project/modules/styles/line-wash/index.mjs",
+        "spec": "../../fx2d/wash.mjs",
+        "resolved": "project/modules/fx2d/wash.mjs"
+      },
+      {
+        "name": "project/modules/styles/line-wash/index.mjs",
+        "spec": "../../fx2d/hatch.mjs",
+        "resolved": "project/modules/fx2d/hatch.mjs"
+      },
+      {
+        "name": "project/modules/fx2d/hatch.mjs",
+        "spec": "./brush.mjs",
+        "resolved": "project/modules/fx2d/brush.mjs"
+      },
+      {
+        "name": "project/modules/styles/line-wash/index.mjs",
+        "spec": "../../fx2d/redraw.mjs",
+        "resolved": "project/modules/fx2d/redraw.mjs"
+      },
+      {
+        "name": "project/modules/fx2d/redraw.mjs",
+        "spec": "../animation/exposure.mjs",
+        "resolved": "project/modules/animation/exposure.mjs"
+      },
+      {
+        "name": "project/modules/fx2d/redraw.mjs",
+        "spec": "./brush.mjs",
+        "resolved": "project/modules/fx2d/brush.mjs"
+      },
+      {
+        "name": "project/modules/styles/line-wash/index.mjs",
+        "spec": "../../fx2d/erase.mjs",
+        "resolved": "project/modules/fx2d/erase.mjs"
+      },
+      {
+        "name": "project/modules/styles/watercolor-physical/index.mjs",
+        "spec": "../../fx2d/watercolor.mjs",
+        "resolved": "project/modules/fx2d/watercolor.mjs"
+      },
+      {
+        "name": "runtime/compositor.mjs",
+        "spec": "./timeline.mjs",
+        "resolved": "runtime/timeline.mjs"
+      }
+    ],
+    "licenseHashes": {
+      "vendor/three/LICENSE": "bfe119ea4fd413f5f7ca3fcd63adb0c4a073ed39daa2fe7d3e6b769e21272601"
+    },
+    "threeLicenseMatches": true
+  },
+  {
+    "key": "overlap",
+    "scope": "current-source",
+    "revision": "5e1507e5006d1af87acac5c4e3601113868b9b8b6917171370eca231acce5f33",
+    "reachableFiles": [
+      "project/modules/styles/watercolor-physical/index.mjs",
+      "project/modules/styles/line-wash/index.mjs",
+      "project/modules/fx2d/stroke.mjs",
+      "project/modules/fx2d/brush.mjs",
+      "project/modules/fx2d/wash.mjs",
+      "project/modules/fx2d/hatch.mjs",
+      "project/modules/fx2d/redraw.mjs",
+      "project/modules/animation/exposure.mjs",
+      "project/modules/fx2d/erase.mjs",
+      "project/modules/fx2d/watercolor.mjs",
+      "runtime/compositor.mjs",
+      "runtime/timeline.mjs"
+    ],
+    "missing": [],
+    "imports": [
+      {
+        "name": "project/modules/styles/watercolor-physical/index.mjs",
+        "spec": "../line-wash/index.mjs",
+        "resolved": "project/modules/styles/line-wash/index.mjs"
+      },
+      {
+        "name": "project/modules/styles/line-wash/index.mjs",
+        "spec": "../../fx2d/stroke.mjs",
+        "resolved": "project/modules/fx2d/stroke.mjs"
+      },
+      {
+        "name": "project/modules/styles/line-wash/index.mjs",
+        "spec": "../../fx2d/brush.mjs",
+        "resolved": "project/modules/fx2d/brush.mjs"
+      },
+      {
+        "name": "project/modules/styles/line-wash/index.mjs",
+        "spec": "../../fx2d/wash.mjs",
+        "resolved": "project/modules/fx2d/wash.mjs"
+      },
+      {
+        "name": "project/modules/styles/line-wash/index.mjs",
+        "spec": "../../fx2d/hatch.mjs",
+        "resolved": "project/modules/fx2d/hatch.mjs"
+      },
+      {
+        "name": "project/modules/fx2d/hatch.mjs",
+        "spec": "./brush.mjs",
+        "resolved": "project/modules/fx2d/brush.mjs"
+      },
+      {
+        "name": "project/modules/styles/line-wash/index.mjs",
+        "spec": "../../fx2d/redraw.mjs",
+        "resolved": "project/modules/fx2d/redraw.mjs"
+      },
+      {
+        "name": "project/modules/fx2d/redraw.mjs",
+        "spec": "../animation/exposure.mjs",
+        "resolved": "project/modules/animation/exposure.mjs"
+      },
+      {
+        "name": "project/modules/fx2d/redraw.mjs",
+        "spec": "./brush.mjs",
+        "resolved": "project/modules/fx2d/brush.mjs"
+      },
+      {
+        "name": "project/modules/styles/line-wash/index.mjs",
+        "spec": "../../fx2d/erase.mjs",
+        "resolved": "project/modules/fx2d/erase.mjs"
+      },
+      {
+        "name": "project/modules/styles/watercolor-physical/index.mjs",
+        "spec": "../../fx2d/watercolor.mjs",
+        "resolved": "project/modules/fx2d/watercolor.mjs"
+      },
+      {
+        "name": "runtime/compositor.mjs",
+        "spec": "./timeline.mjs",
+        "resolved": "runtime/timeline.mjs"
+      }
+    ],
+    "licenseHashes": {
+      "vendor/three/LICENSE": "bfe119ea4fd413f5f7ca3fcd63adb0c4a073ed39daa2fe7d3e6b769e21272601"
+    },
+    "threeLicenseMatches": true
+  },
+  {
+    "key": "stride",
+    "scope": "current-source",
+    "revision": "2c52e706d6f8fd12c694975208e6d4e0383e0fea6e6fb64ab74baec033760ade",
+    "reachableFiles": [
+      "project/modules/animation/retarget-stage.mjs",
+      "vendor/three/three.module.js",
+      "vendor/three/three.core.js",
+      "project/modules/animation/auto-rig.mjs",
+      "project/modules/animation/retarget.mjs",
+      "project/modules/fx3d/adapter.mjs",
+      "project/modules/fx3d/material.mjs",
+      "runtime/compositor.mjs",
+      "runtime/timeline.mjs"
+    ],
+    "missing": [],
+    "imports": [
+      {
+        "name": "project/modules/animation/retarget-stage.mjs",
+        "spec": "three",
+        "resolved": "vendor/three/three.module.js"
+      },
+      {
+        "name": "vendor/three/three.module.js",
+        "spec": "./three.core.js",
+        "resolved": "vendor/three/three.core.js"
+      },
+      {
+        "name": "vendor/three/three.module.js",
+        "spec": "./three.core.js",
+        "resolved": "vendor/three/three.core.js"
+      },
+      {
+        "name": "project/modules/animation/retarget-stage.mjs",
+        "spec": "./auto-rig.mjs",
+        "resolved": "project/modules/animation/auto-rig.mjs"
+      },
+      {
+        "name": "project/modules/animation/auto-rig.mjs",
+        "spec": "three",
+        "resolved": "vendor/three/three.module.js"
+      },
+      {
+        "name": "project/modules/animation/retarget-stage.mjs",
+        "spec": "./retarget.mjs",
+        "resolved": "project/modules/animation/retarget.mjs"
+      },
+      {
+        "name": "project/modules/animation/retarget.mjs",
+        "spec": "three",
+        "resolved": "vendor/three/three.module.js"
+      },
+      {
+        "name": "project/modules/animation/retarget-stage.mjs",
+        "spec": "../fx3d/adapter.mjs",
+        "resolved": "project/modules/fx3d/adapter.mjs"
+      },
+      {
+        "name": "project/modules/fx3d/adapter.mjs",
+        "spec": "three",
+        "resolved": "vendor/three/three.module.js"
+      },
+      {
+        "name": "project/modules/animation/retarget-stage.mjs",
+        "spec": "../fx3d/material.mjs",
+        "resolved": "project/modules/fx3d/material.mjs"
+      },
+      {
+        "name": "project/modules/fx3d/material.mjs",
+        "spec": "three",
+        "resolved": "vendor/three/three.module.js"
+      },
+      {
+        "name": "runtime/compositor.mjs",
+        "spec": "./timeline.mjs",
+        "resolved": "runtime/timeline.mjs"
+      }
+    ],
+    "licenseHashes": {
+      "project/assets/LICENSE.txt": "e79a4e3ca1cdf8dc762d89d57a72e974582f6880b33323c39cffd5aa1743920d",
+      "vendor/three/LICENSE": "bfe119ea4fd413f5f7ca3fcd63adb0c4a073ed39daa2fe7d3e6b769e21272601"
+    },
+    "threeLicenseMatches": true
+  },
+  {
+    "key": "salute",
+    "scope": "current-source",
+    "revision": "b7b34425e141813c33f33d52510f50b33d7219131586de3c927373b28217af99",
+    "reachableFiles": [
+      "project/modules/animation/retarget-stage.mjs",
+      "vendor/three/three.module.js",
+      "vendor/three/three.core.js",
+      "project/modules/animation/auto-rig.mjs",
+      "project/modules/animation/retarget.mjs",
+      "project/modules/fx3d/adapter.mjs",
+      "project/modules/fx3d/material.mjs",
+      "runtime/compositor.mjs",
+      "runtime/timeline.mjs"
+    ],
+    "missing": [],
+    "imports": [
+      {
+        "name": "project/modules/animation/retarget-stage.mjs",
+        "spec": "three",
+        "resolved": "vendor/three/three.module.js"
+      },
+      {
+        "name": "vendor/three/three.module.js",
+        "spec": "./three.core.js",
+        "resolved": "vendor/three/three.core.js"
+      },
+      {
+        "name": "vendor/three/three.module.js",
+        "spec": "./three.core.js",
+        "resolved": "vendor/three/three.core.js"
+      },
+      {
+        "name": "project/modules/animation/retarget-stage.mjs",
+        "spec": "./auto-rig.mjs",
+        "resolved": "project/modules/animation/auto-rig.mjs"
+      },
+      {
+        "name": "project/modules/animation/auto-rig.mjs",
+        "spec": "three",
+        "resolved": "vendor/three/three.module.js"
+      },
+      {
+        "name": "project/modules/animation/retarget-stage.mjs",
+        "spec": "./retarget.mjs",
+        "resolved": "project/modules/animation/retarget.mjs"
+      },
+      {
+        "name": "project/modules/animation/retarget.mjs",
+        "spec": "three",
+        "resolved": "vendor/three/three.module.js"
+      },
+      {
+        "name": "project/modules/animation/retarget-stage.mjs",
+        "spec": "../fx3d/adapter.mjs",
+        "resolved": "project/modules/fx3d/adapter.mjs"
+      },
+      {
+        "name": "project/modules/fx3d/adapter.mjs",
+        "spec": "three",
+        "resolved": "vendor/three/three.module.js"
+      },
+      {
+        "name": "project/modules/animation/retarget-stage.mjs",
+        "spec": "../fx3d/material.mjs",
+        "resolved": "project/modules/fx3d/material.mjs"
+      },
+      {
+        "name": "project/modules/fx3d/material.mjs",
+        "spec": "three",
+        "resolved": "vendor/three/three.module.js"
+      },
+      {
+        "name": "runtime/compositor.mjs",
+        "spec": "./timeline.mjs",
+        "resolved": "runtime/timeline.mjs"
+      }
+    ],
+    "licenseHashes": {
+      "project/assets/LICENSE.txt": "e79a4e3ca1cdf8dc762d89d57a72e974582f6880b33323c39cffd5aa1743920d",
+      "vendor/three/LICENSE": "bfe119ea4fd413f5f7ca3fcd63adb0c4a073ed39daa2fe7d3e6b769e21272601"
+    },
+    "threeLicenseMatches": true
+  },
+  {
+    "key": "tall",
+    "scope": "original-video",
+    "revision": "59a9fd3d0d7d29d7128cb92354ed79015ac4a5fe05b7e135ceb3d838fc9a6991",
+    "reachableFiles": [
+      "project/modules/styles/expressionist-space/index.mjs",
+      "vendor/three/three.module.js",
+      "vendor/three/three.core.js",
+      "project/modules/animation/exposure.mjs",
+      "project/modules/animation/clip3d.mjs",
+      "project/modules/fx3d/adapter.mjs",
+      "project/modules/fx3d/material.mjs",
+      "project/modules/fx3d/outline.mjs",
+      "project/modules/fx3d/geometry.mjs",
+      "project/modules/fx3d/light.mjs",
+      "project/modules/fx3d/particles.mjs",
+      "project/modules/fx3d/deform.mjs",
+      "project/modules/fx3d/glb.mjs",
+      "project/vendor/three/addons/loaders/GLTFLoader.js",
+      "project/vendor/three/addons/utils/BufferGeometryUtils.js",
+      "project/modules/animation/auto-rig.mjs",
+      "project/modules/animation/retarget.mjs",
+      "project/modules/fx3d/skinned-outline.mjs",
+      "project/modules/styles/expressionist-space/validate.mjs",
+      "runtime/compositor.mjs",
+      "runtime/timeline.mjs"
+    ],
+    "missing": [],
+    "imports": [
+      {
+        "name": "project/modules/styles/expressionist-space/index.mjs",
+        "spec": "three",
+        "resolved": "vendor/three/three.module.js"
+      },
+      {
+        "name": "vendor/three/three.module.js",
+        "spec": "./three.core.js",
+        "resolved": "vendor/three/three.core.js"
+      },
+      {
+        "name": "vendor/three/three.module.js",
+        "spec": "./three.core.js",
+        "resolved": "vendor/three/three.core.js"
+      },
+      {
+        "name": "project/modules/styles/expressionist-space/index.mjs",
+        "spec": "../../animation/exposure.mjs",
+        "resolved": "project/modules/animation/exposure.mjs"
+      },
+      {
+        "name": "project/modules/styles/expressionist-space/index.mjs",
+        "spec": "../../animation/clip3d.mjs",
+        "resolved": "project/modules/animation/clip3d.mjs"
+      },
+      {
+        "name": "project/modules/animation/clip3d.mjs",
+        "spec": "three",
+        "resolved": "vendor/three/three.module.js"
+      },
+      {
+        "name": "project/modules/animation/clip3d.mjs",
+        "spec": "./exposure.mjs",
+        "resolved": "project/modules/animation/exposure.mjs"
+      },
+      {
+        "name": "project/modules/styles/expressionist-space/index.mjs",
+        "spec": "../../fx3d/adapter.mjs",
+        "resolved": "project/modules/fx3d/adapter.mjs"
+      },
+      {
+        "name": "project/modules/fx3d/adapter.mjs",
+        "spec": "three",
+        "resolved": "vendor/three/three.module.js"
+      },
+      {
+        "name": "project/modules/styles/expressionist-space/index.mjs",
+        "spec": "../../fx3d/material.mjs",
+        "resolved": "project/modules/fx3d/material.mjs"
+      },
+      {
+        "name": "project/modules/fx3d/material.mjs",
+        "spec": "three",
+        "resolved": "vendor/three/three.module.js"
+      },
+      {
+        "name": "project/modules/styles/expressionist-space/index.mjs",
+        "spec": "../../fx3d/outline.mjs",
+        "resolved": "project/modules/fx3d/outline.mjs"
+      },
+      {
+        "name": "project/modules/fx3d/outline.mjs",
+        "spec": "three",
+        "resolved": "vendor/three/three.module.js"
+      },
+      {
+        "name": "project/modules/styles/expressionist-space/index.mjs",
+        "spec": "../../fx3d/geometry.mjs",
+        "resolved": "project/modules/fx3d/geometry.mjs"
+      },
+      {
+        "name": "project/modules/fx3d/geometry.mjs",
+        "spec": "three",
+        "resolved": "vendor/three/three.module.js"
+      },
+      {
+        "name": "project/modules/styles/expressionist-space/index.mjs",
+        "spec": "../../fx3d/light.mjs",
+        "resolved": "project/modules/fx3d/light.mjs"
+      },
+      {
+        "name": "project/modules/fx3d/light.mjs",
+        "spec": "three",
+        "resolved": "vendor/three/three.module.js"
+      },
+      {
+        "name": "project/modules/styles/expressionist-space/index.mjs",
+        "spec": "../../fx3d/particles.mjs",
+        "resolved": "project/modules/fx3d/particles.mjs"
+      },
+      {
+        "name": "project/modules/fx3d/particles.mjs",
+        "spec": "three",
+        "resolved": "vendor/three/three.module.js"
+      },
+      {
+        "name": "project/modules/styles/expressionist-space/index.mjs",
+        "spec": "../../fx3d/deform.mjs",
+        "resolved": "project/modules/fx3d/deform.mjs"
+      },
+      {
+        "name": "project/modules/styles/expressionist-space/index.mjs",
+        "spec": "../../fx3d/glb.mjs",
+        "resolved": "project/modules/fx3d/glb.mjs"
+      },
+      {
+        "name": "project/modules/fx3d/glb.mjs",
+        "spec": "../../vendor/three/addons/loaders/GLTFLoader.js",
+        "resolved": "project/vendor/three/addons/loaders/GLTFLoader.js"
+      },
+      {
+        "name": "project/vendor/three/addons/loaders/GLTFLoader.js",
+        "spec": "three",
+        "resolved": "vendor/three/three.module.js"
+      },
+      {
+        "name": "project/vendor/three/addons/loaders/GLTFLoader.js",
+        "spec": "../utils/BufferGeometryUtils.js",
+        "resolved": "project/vendor/three/addons/utils/BufferGeometryUtils.js"
+      },
+      {
+        "name": "project/vendor/three/addons/utils/BufferGeometryUtils.js",
+        "spec": "three",
+        "resolved": "vendor/three/three.module.js"
+      },
+      {
+        "name": "project/modules/styles/expressionist-space/index.mjs",
+        "spec": "three",
+        "resolved": "vendor/three/three.module.js"
+      },
+      {
+        "name": "project/modules/styles/expressionist-space/index.mjs",
+        "spec": "../../animation/auto-rig.mjs",
+        "resolved": "project/modules/animation/auto-rig.mjs"
+      },
+      {
+        "name": "project/modules/animation/auto-rig.mjs",
+        "spec": "three",
+        "resolved": "vendor/three/three.module.js"
+      },
+      {
+        "name": "project/modules/styles/expressionist-space/index.mjs",
+        "spec": "../../animation/retarget.mjs",
+        "resolved": "project/modules/animation/retarget.mjs"
+      },
+      {
+        "name": "project/modules/animation/retarget.mjs",
+        "spec": "three",
+        "resolved": "vendor/three/three.module.js"
+      },
+      {
+        "name": "project/modules/styles/expressionist-space/index.mjs",
+        "spec": "../../fx3d/skinned-outline.mjs",
+        "resolved": "project/modules/fx3d/skinned-outline.mjs"
+      },
+      {
+        "name": "project/modules/fx3d/skinned-outline.mjs",
+        "spec": "three",
+        "resolved": "vendor/three/three.module.js"
+      },
+      {
+        "name": "project/modules/styles/expressionist-space/index.mjs",
+        "spec": "./validate.mjs",
+        "resolved": "project/modules/styles/expressionist-space/validate.mjs"
+      },
+      {
+        "name": "project/modules/styles/expressionist-space/validate.mjs",
+        "spec": "../../fx3d/geometry.mjs",
+        "resolved": "project/modules/fx3d/geometry.mjs"
+      },
+      {
+        "name": "project/modules/styles/expressionist-space/validate.mjs",
+        "spec": "../../animation/exposure.mjs",
+        "resolved": "project/modules/animation/exposure.mjs"
+      },
+      {
+        "name": "runtime/compositor.mjs",
+        "spec": "./timeline.mjs",
+        "resolved": "runtime/timeline.mjs"
+      }
+    ],
+    "licenseHashes": {
+      "project/assets/LICENSE": "8599962a8fd4f90f6071679bc1a07e613bb15a0aab50b6906fb10aa6aa25a7a3",
+      "project/vendor/three/LICENSE": "bfe119ea4fd413f5f7ca3fcd63adb0c4a073ed39daa2fe7d3e6b769e21272601",
+      "vendor/three/LICENSE": "bfe119ea4fd413f5f7ca3fcd63adb0c4a073ed39daa2fe7d3e6b769e21272601"
+    },
+    "threeLicenseMatches": true
+  },
+  {
+    "key": "broad",
+    "scope": "original-video",
+    "revision": "0d0f50ea4ed5e0b03b93083c94f7ad6691f22548fe324f5dd9f0b12ca4d90b2d",
+    "reachableFiles": [
+      "project/modules/styles/expressionist-space/index.mjs",
+      "vendor/three/three.module.js",
+      "vendor/three/three.core.js",
+      "project/modules/animation/exposure.mjs",
+      "project/modules/animation/clip3d.mjs",
+      "project/modules/fx3d/adapter.mjs",
+      "project/modules/fx3d/material.mjs",
+      "project/modules/fx3d/outline.mjs",
+      "project/modules/fx3d/geometry.mjs",
+      "project/modules/fx3d/light.mjs",
+      "project/modules/fx3d/particles.mjs",
+      "project/modules/fx3d/deform.mjs",
+      "project/modules/fx3d/glb.mjs",
+      "project/vendor/three/addons/loaders/GLTFLoader.js",
+      "project/vendor/three/addons/utils/BufferGeometryUtils.js",
+      "project/modules/animation/auto-rig.mjs",
+      "project/modules/animation/retarget.mjs",
+      "project/modules/fx3d/skinned-outline.mjs",
+      "project/modules/styles/expressionist-space/validate.mjs",
+      "runtime/compositor.mjs",
+      "runtime/timeline.mjs"
+    ],
+    "missing": [],
+    "imports": [
+      {
+        "name": "project/modules/styles/expressionist-space/index.mjs",
+        "spec": "three",
+        "resolved": "vendor/three/three.module.js"
+      },
+      {
+        "name": "vendor/three/three.module.js",
+        "spec": "./three.core.js",
+        "resolved": "vendor/three/three.core.js"
+      },
+      {
+        "name": "vendor/three/three.module.js",
+        "spec": "./three.core.js",
+        "resolved": "vendor/three/three.core.js"
+      },
+      {
+        "name": "project/modules/styles/expressionist-space/index.mjs",
+        "spec": "../../animation/exposure.mjs",
+        "resolved": "project/modules/animation/exposure.mjs"
+      },
+      {
+        "name": "project/modules/styles/expressionist-space/index.mjs",
+        "spec": "../../animation/clip3d.mjs",
+        "resolved": "project/modules/animation/clip3d.mjs"
+      },
+      {
+        "name": "project/modules/animation/clip3d.mjs",
+        "spec": "three",
+        "resolved": "vendor/three/three.module.js"
+      },
+      {
+        "name": "project/modules/animation/clip3d.mjs",
+        "spec": "./exposure.mjs",
+        "resolved": "project/modules/animation/exposure.mjs"
+      },
+      {
+        "name": "project/modules/styles/expressionist-space/index.mjs",
+        "spec": "../../fx3d/adapter.mjs",
+        "resolved": "project/modules/fx3d/adapter.mjs"
+      },
+      {
+        "name": "project/modules/fx3d/adapter.mjs",
+        "spec": "three",
+        "resolved": "vendor/three/three.module.js"
+      },
+      {
+        "name": "project/modules/styles/expressionist-space/index.mjs",
+        "spec": "../../fx3d/material.mjs",
+        "resolved": "project/modules/fx3d/material.mjs"
+      },
+      {
+        "name": "project/modules/fx3d/material.mjs",
+        "spec": "three",
+        "resolved": "vendor/three/three.module.js"
+      },
+      {
+        "name": "project/modules/styles/expressionist-space/index.mjs",
+        "spec": "../../fx3d/outline.mjs",
+        "resolved": "project/modules/fx3d/outline.mjs"
+      },
+      {
+        "name": "project/modules/fx3d/outline.mjs",
+        "spec": "three",
+        "resolved": "vendor/three/three.module.js"
+      },
+      {
+        "name": "project/modules/styles/expressionist-space/index.mjs",
+        "spec": "../../fx3d/geometry.mjs",
+        "resolved": "project/modules/fx3d/geometry.mjs"
+      },
+      {
+        "name": "project/modules/fx3d/geometry.mjs",
+        "spec": "three",
+        "resolved": "vendor/three/three.module.js"
+      },
+      {
+        "name": "project/modules/styles/expressionist-space/index.mjs",
+        "spec": "../../fx3d/light.mjs",
+        "resolved": "project/modules/fx3d/light.mjs"
+      },
+      {
+        "name": "project/modules/fx3d/light.mjs",
+        "spec": "three",
+        "resolved": "vendor/three/three.module.js"
+      },
+      {
+        "name": "project/modules/styles/expressionist-space/index.mjs",
+        "spec": "../../fx3d/particles.mjs",
+        "resolved": "project/modules/fx3d/particles.mjs"
+      },
+      {
+        "name": "project/modules/fx3d/particles.mjs",
+        "spec": "three",
+        "resolved": "vendor/three/three.module.js"
+      },
+      {
+        "name": "project/modules/styles/expressionist-space/index.mjs",
+        "spec": "../../fx3d/deform.mjs",
+        "resolved": "project/modules/fx3d/deform.mjs"
+      },
+      {
+        "name": "project/modules/styles/expressionist-space/index.mjs",
+        "spec": "../../fx3d/glb.mjs",
+        "resolved": "project/modules/fx3d/glb.mjs"
+      },
+      {
+        "name": "project/modules/fx3d/glb.mjs",
+        "spec": "../../vendor/three/addons/loaders/GLTFLoader.js",
+        "resolved": "project/vendor/three/addons/loaders/GLTFLoader.js"
+      },
+      {
+        "name": "project/vendor/three/addons/loaders/GLTFLoader.js",
+        "spec": "three",
+        "resolved": "vendor/three/three.module.js"
+      },
+      {
+        "name": "project/vendor/three/addons/loaders/GLTFLoader.js",
+        "spec": "../utils/BufferGeometryUtils.js",
+        "resolved": "project/vendor/three/addons/utils/BufferGeometryUtils.js"
+      },
+      {
+        "name": "project/vendor/three/addons/utils/BufferGeometryUtils.js",
+        "spec": "three",
+        "resolved": "vendor/three/three.module.js"
+      },
+      {
+        "name": "project/modules/styles/expressionist-space/index.mjs",
+        "spec": "three",
+        "resolved": "vendor/three/three.module.js"
+      },
+      {
+        "name": "project/modules/styles/expressionist-space/index.mjs",
+        "spec": "../../animation/auto-rig.mjs",
+        "resolved": "project/modules/animation/auto-rig.mjs"
+      },
+      {
+        "name": "project/modules/animation/auto-rig.mjs",
+        "spec": "three",
+        "resolved": "vendor/three/three.module.js"
+      },
+      {
+        "name": "project/modules/styles/expressionist-space/index.mjs",
+        "spec": "../../animation/retarget.mjs",
+        "resolved": "project/modules/animation/retarget.mjs"
+      },
+      {
+        "name": "project/modules/animation/retarget.mjs",
+        "spec": "three",
+        "resolved": "vendor/three/three.module.js"
+      },
+      {
+        "name": "project/modules/styles/expressionist-space/index.mjs",
+        "spec": "../../fx3d/skinned-outline.mjs",
+        "resolved": "project/modules/fx3d/skinned-outline.mjs"
+      },
+      {
+        "name": "project/modules/fx3d/skinned-outline.mjs",
+        "spec": "three",
+        "resolved": "vendor/three/three.module.js"
+      },
+      {
+        "name": "project/modules/styles/expressionist-space/index.mjs",
+        "spec": "./validate.mjs",
+        "resolved": "project/modules/styles/expressionist-space/validate.mjs"
+      },
+      {
+        "name": "project/modules/styles/expressionist-space/validate.mjs",
+        "spec": "../../fx3d/geometry.mjs",
+        "resolved": "project/modules/fx3d/geometry.mjs"
+      },
+      {
+        "name": "project/modules/styles/expressionist-space/validate.mjs",
+        "spec": "../../animation/exposure.mjs",
+        "resolved": "project/modules/animation/exposure.mjs"
+      },
+      {
+        "name": "runtime/compositor.mjs",
+        "spec": "./timeline.mjs",
+        "resolved": "runtime/timeline.mjs"
+      }
+    ],
+    "licenseHashes": {
+      "project/assets/LICENSE": "8599962a8fd4f90f6071679bc1a07e613bb15a0aab50b6906fb10aa6aa25a7a3",
+      "project/vendor/three/LICENSE": "bfe119ea4fd413f5f7ca3fcd63adb0c4a073ed39daa2fe7d3e6b769e21272601",
+      "vendor/three/LICENSE": "bfe119ea4fd413f5f7ca3fcd63adb0c4a073ed39daa2fe7d3e6b769e21272601"
+    },
+    "threeLicenseMatches": true
+  },
+  {
+    "key": "wet",
+    "scope": "original-video",
+    "revision": "6891d13dbba04628391f14285703f6b455f42a7733207de95bbb934c93a3c1e0",
+    "reachableFiles": [
+      "project/modules/styles/watercolor-physical/index.mjs",
+      "project/modules/fx2d/watercolor.mjs",
+      "runtime/compositor.mjs",
+      "runtime/timeline.mjs"
+    ],
+    "missing": [],
+    "imports": [
+      {
+        "name": "project/modules/styles/watercolor-physical/index.mjs",
+        "spec": "../../fx2d/watercolor.mjs",
+        "resolved": "project/modules/fx2d/watercolor.mjs"
+      },
+      {
+        "name": "runtime/compositor.mjs",
+        "spec": "./timeline.mjs",
+        "resolved": "runtime/timeline.mjs"
+      }
+    ],
+    "licenseHashes": {
+      "vendor/three/LICENSE": "bfe119ea4fd413f5f7ca3fcd63adb0c4a073ed39daa2fe7d3e6b769e21272601"
+    },
+    "threeLicenseMatches": true
+  },
+  {
+    "key": "overlap",
+    "scope": "original-video",
+    "revision": "951327cfae243943e788313c94b7f2420088695a65deaac5ba6d6b3f3d749c59",
+    "reachableFiles": [
+      "project/modules/styles/watercolor-physical/index.mjs",
+      "project/modules/fx2d/watercolor.mjs",
+      "runtime/compositor.mjs",
+      "runtime/timeline.mjs"
+    ],
+    "missing": [],
+    "imports": [
+      {
+        "name": "project/modules/styles/watercolor-physical/index.mjs",
+        "spec": "../../fx2d/watercolor.mjs",
+        "resolved": "project/modules/fx2d/watercolor.mjs"
+      },
+      {
+        "name": "runtime/compositor.mjs",
+        "spec": "./timeline.mjs",
+        "resolved": "runtime/timeline.mjs"
+      }
+    ],
+    "licenseHashes": {
+      "vendor/three/LICENSE": "bfe119ea4fd413f5f7ca3fcd63adb0c4a073ed39daa2fe7d3e6b769e21272601"
+    },
+    "threeLicenseMatches": true
+  },
+  {
+    "key": "stride",
+    "scope": "original-video",
+    "revision": "2e6f03125d583104b85df3da5df70d09289ba1d476db0bf513f8952fc421dc63",
+    "reachableFiles": [
+      "project/modules/animation/retarget-stage.mjs",
+      "vendor/three/three.module.js",
+      "vendor/three/three.core.js",
+      "project/modules/animation/auto-rig.mjs",
+      "project/modules/animation/retarget.mjs",
+      "project/modules/fx3d/adapter.mjs",
+      "project/modules/fx3d/material.mjs",
+      "runtime/compositor.mjs",
+      "runtime/timeline.mjs"
+    ],
+    "missing": [],
+    "imports": [
+      {
+        "name": "project/modules/animation/retarget-stage.mjs",
+        "spec": "three",
+        "resolved": "vendor/three/three.module.js"
+      },
+      {
+        "name": "vendor/three/three.module.js",
+        "spec": "./three.core.js",
+        "resolved": "vendor/three/three.core.js"
+      },
+      {
+        "name": "vendor/three/three.module.js",
+        "spec": "./three.core.js",
+        "resolved": "vendor/three/three.core.js"
+      },
+      {
+        "name": "project/modules/animation/retarget-stage.mjs",
+        "spec": "./auto-rig.mjs",
+        "resolved": "project/modules/animation/auto-rig.mjs"
+      },
+      {
+        "name": "project/modules/animation/auto-rig.mjs",
+        "spec": "three",
+        "resolved": "vendor/three/three.module.js"
+      },
+      {
+        "name": "project/modules/animation/retarget-stage.mjs",
+        "spec": "./retarget.mjs",
+        "resolved": "project/modules/animation/retarget.mjs"
+      },
+      {
+        "name": "project/modules/animation/retarget.mjs",
+        "spec": "three",
+        "resolved": "vendor/three/three.module.js"
+      },
+      {
+        "name": "project/modules/animation/retarget-stage.mjs",
+        "spec": "../fx3d/adapter.mjs",
+        "resolved": "project/modules/fx3d/adapter.mjs"
+      },
+      {
+        "name": "project/modules/fx3d/adapter.mjs",
+        "spec": "three",
+        "resolved": "vendor/three/three.module.js"
+      },
+      {
+        "name": "project/modules/animation/retarget-stage.mjs",
+        "spec": "../fx3d/material.mjs",
+        "resolved": "project/modules/fx3d/material.mjs"
+      },
+      {
+        "name": "project/modules/fx3d/material.mjs",
+        "spec": "three",
+        "resolved": "vendor/three/three.module.js"
+      },
+      {
+        "name": "runtime/compositor.mjs",
+        "spec": "./timeline.mjs",
+        "resolved": "runtime/timeline.mjs"
+      }
+    ],
+    "licenseHashes": {
+      "project/assets/LICENSE.txt": "e79a4e3ca1cdf8dc762d89d57a72e974582f6880b33323c39cffd5aa1743920d",
+      "vendor/three/LICENSE": "bfe119ea4fd413f5f7ca3fcd63adb0c4a073ed39daa2fe7d3e6b769e21272601"
+    },
+    "threeLicenseMatches": true
+  },
+  {
+    "key": "salute",
+    "scope": "original-video",
+    "revision": "a99e8a0c4eab2d2007358f290c034eb85b7eb08df62c389d3be311b9cfc71c98",
+    "reachableFiles": [
+      "project/modules/animation/retarget-stage.mjs",
+      "vendor/three/three.module.js",
+      "vendor/three/three.core.js",
+      "project/modules/animation/auto-rig.mjs",
+      "project/modules/animation/retarget.mjs",
+      "project/modules/fx3d/adapter.mjs",
+      "project/modules/fx3d/material.mjs",
+      "runtime/compositor.mjs",
+      "runtime/timeline.mjs"
+    ],
+    "missing": [],
+    "imports": [
+      {
+        "name": "project/modules/animation/retarget-stage.mjs",
+        "spec": "three",
+        "resolved": "vendor/three/three.module.js"
+      },
+      {
+        "name": "vendor/three/three.module.js",
+        "spec": "./three.core.js",
+        "resolved": "vendor/three/three.core.js"
+      },
+      {
+        "name": "vendor/three/three.module.js",
+        "spec": "./three.core.js",
+        "resolved": "vendor/three/three.core.js"
+      },
+      {
+        "name": "project/modules/animation/retarget-stage.mjs",
+        "spec": "./auto-rig.mjs",
+        "resolved": "project/modules/animation/auto-rig.mjs"
+      },
+      {
+        "name": "project/modules/animation/auto-rig.mjs",
+        "spec": "three",
+        "resolved": "vendor/three/three.module.js"
+      },
+      {
+        "name": "project/modules/animation/retarget-stage.mjs",
+        "spec": "./retarget.mjs",
+        "resolved": "project/modules/animation/retarget.mjs"
+      },
+      {
+        "name": "project/modules/animation/retarget.mjs",
+        "spec": "three",
+        "resolved": "vendor/three/three.module.js"
+      },
+      {
+        "name": "project/modules/animation/retarget-stage.mjs",
+        "spec": "../fx3d/adapter.mjs",
+        "resolved": "project/modules/fx3d/adapter.mjs"
+      },
+      {
+        "name": "project/modules/fx3d/adapter.mjs",
+        "spec": "three",
+        "resolved": "vendor/three/three.module.js"
+      },
+      {
+        "name": "project/modules/animation/retarget-stage.mjs",
+        "spec": "../fx3d/material.mjs",
+        "resolved": "project/modules/fx3d/material.mjs"
+      },
+      {
+        "name": "project/modules/fx3d/material.mjs",
+        "spec": "three",
+        "resolved": "vendor/three/three.module.js"
+      },
+      {
+        "name": "runtime/compositor.mjs",
+        "spec": "./timeline.mjs",
+        "resolved": "runtime/timeline.mjs"
+      }
+    ],
+    "licenseHashes": {
+      "project/assets/LICENSE.txt": "e79a4e3ca1cdf8dc762d89d57a72e974582f6880b33323c39cffd5aa1743920d",
+      "vendor/three/LICENSE": "bfe119ea4fd413f5f7ca3fcd63adb0c4a073ed39daa2fe7d3e6b769e21272601"
+    },
+    "threeLicenseMatches": true
+  }
+]

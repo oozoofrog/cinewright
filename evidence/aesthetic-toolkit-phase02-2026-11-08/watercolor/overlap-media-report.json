@@ -1,0 +1,26 @@
+{
+  "frames": 192,
+  "first": 0,
+  "last": 7.958333,
+  "maxPtsError": 3.33333333379926e-7,
+  "flash": {
+    "version": 1,
+    "file": ".direction/aesthetic-toolkit-phase02-2026-11-08/watercolor/jobs/78c4e486-b6da-469a-97b3-668115bdb9ce/work.mp4",
+    "fps": 24,
+    "resolution": [
+      160,
+      90
+    ],
+    "frames": 192,
+    "maxTransitionsInOneSecond": 0,
+    "flaggedWindows": 0,
+    "examples": [],
+    "status": "screen-negative",
+    "scope": "Every decoded CFR frame at 160x90; >=25% same-direction area, linear luminance delta >=0.10 (peak >=0.20) or saturated-red delta >=0.20; >=6 alternating transitions in a rolling second flags risk (both polarities retained for simultaneous opposing regions, at most one count per decoded transition).",
+    "limitations": [
+      "Not WCAG certification, medical advice, or a guarantee of safety.",
+      "Downscaling can miss small/local patterns; no spatial-frequency, visual-angle or display-luminance model.",
+      "Screen-negative is not safe; human accessibility review remains required."
+    ]
+  }
+}

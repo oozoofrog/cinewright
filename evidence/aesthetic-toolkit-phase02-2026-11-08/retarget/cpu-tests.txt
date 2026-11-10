@@ -1,0 +1,21 @@
+✔ 17 semantic mapping applies distinct axes, names, proportions and rest orientation (1226.973458ms)
+✔ explicit name mapping overrides semantics; unmapped targets fail (2.969542ms)
+✔ units, proportional scale, root apply/extract/inPlace and rest root offset (2.360958ms)
+✔ IK reachable geometry preserves lengths, forward knee and limits (0.141292ms)
+✔ IK unreachable, coincident, pole degeneracy and angular limits are bounded and finite (0.112041ms)
+✔ bounded ground correction reports achieved residual for all four motion/target combinations (19.036667ms)
+✔ direct/reverse/repeat/end-start are exactly pose AND skin equal; weight, negative timeScale, cleanup (19.013542ms)
+✔ local bake survives source removal/JSON roundtrip, playback interpolation and rest mismatch rejection (4.399416ms)
+✔ reject invalid time, axes, malformed tracks and bakes; evaluator releases correctly (1.634458ms)
+✔ CLI/file publication is local, atomic, no-overwrite and cleans cancelled/failed staging (24.054416ms)
+✔ world rest deltas conjugate across coordinate axes with actual coordinator mesh factory (5.6865ms)
+✔ actual mesh foot positions agree with baked signed contact residuals (5.919333ms)
+✔ player root policies and fractional-time sampling preserve local rest + explicit displacement (6.262125ms)
+ℹ tests 13
+ℹ suites 0
+ℹ pass 13
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 1398.097333

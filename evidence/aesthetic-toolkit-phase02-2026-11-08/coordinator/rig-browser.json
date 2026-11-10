@@ -1,0 +1,34 @@
+[
+  {
+    "variant": "tall",
+    "revision": "0aa23902637089321bb20b8f6e0dbf5f67a1e70cd3a2b3ca6dbc6b031c3d90f5",
+    "sourceRemoved": true,
+    "seekFrames": 12,
+    "alpha": {
+      "transparent": 478192,
+      "opaque": 38573
+    },
+    "frames": {
+      "0": "0c850ad959dbd1b1f03b0051892df93bdc26847c3c87fce4c9e075fd95e7b432",
+      "48": "2ef2d7f82d06fcedb898815b9f94cb4a953473b892b778e6bce3c814b08ed537",
+      "96": "0c850ad959dbd1b1f03b0051892df93bdc26847c3c87fce4c9e075fd95e7b432",
+      "191": "d0bff78c0209fb378ceab848d6ce356e0919424824ec3d0ee1a5901aab584e31"
+    }
+  },
+  {
+    "variant": "broad",
+    "revision": "73e3d61b800447d999b75fdd2a160104cfd26a04562f23ebfc8b135f698de5dc",
+    "sourceRemoved": true,
+    "seekFrames": 12,
+    "alpha": {
+      "transparent": 483725,
+      "opaque": 33136
+    },
+    "frames": {
+      "0": "6edffdeda8e0f1e69fa78800ce9eba85297363dd43719472a8ba391e29e74a97",
+      "48": "df4124ecc526d8d1f83cfb5351e1f597ab2182b30ccffdcdb6b469defe113a5f",
+      "96": "6edffdeda8e0f1e69fa78800ce9eba85297363dd43719472a8ba391e29e74a97",
+      "191": "d49b594436e92794edcfd188e20cdae2236cdd8b74c627eb77b8e4a8aed4bd37"
+    }
+  }
+]

@@ -1,0 +1,86 @@
+[
+  {
+    "mode": "stride",
+    "bakes": [
+      {
+        "kind": "source",
+        "samples": 49,
+        "bytes": 60468,
+        "sha256": "b53254a0e2796494d5bbb801017ee57d199cfe86f36814a5919e2746ce30399b"
+      },
+      {
+        "kind": "reed",
+        "samples": 49,
+        "bytes": 130440,
+        "sha256": "a7205cc1303cc7ae333e2df3c662eb098b2929c72c2a41041d0100dd884605e3"
+      },
+      {
+        "kind": "copper",
+        "samples": 49,
+        "bytes": 152383,
+        "sha256": "3f718bcf74db580793ff20a1e735933ca790a8dc2481472196e8a3872384da10"
+      }
+    ],
+    "sourceTrackAbsent": true,
+    "targetNamesMatch": true,
+    "frozenRuntimeMatchesLive": true,
+    "cleanup": {
+      "before": {
+        "disposed": false,
+        "calls": 4,
+        "triangles": 10598,
+        "geometries": 4,
+        "textures": 7
+      },
+      "after": {
+        "disposed": true,
+        "calls": 4,
+        "triangles": 10598,
+        "geometries": 0,
+        "textures": 0
+      }
+    }
+  },
+  {
+    "mode": "salute",
+    "bakes": [
+      {
+        "kind": "source",
+        "samples": 73,
+        "bytes": 86636,
+        "sha256": "9d0ab5280acee6844fa124429eacecf927f8e6111e87be86ce66db36701ad563"
+      },
+      {
+        "kind": "reed",
+        "samples": 73,
+        "bytes": 176409,
+        "sha256": "2371c62e5ed2ab2d7bb936b1fa1a41fb12a1dd4cf4ed3144a044f5716c3f3b28"
+      },
+      {
+        "kind": "copper",
+        "samples": 73,
+        "bytes": 222223,
+        "sha256": "4eb5ca07310bd351d8e5c32144db847e6c7af4fcbf14def4a5561604f6bc7ea2"
+      }
+    ],
+    "sourceTrackAbsent": true,
+    "targetNamesMatch": true,
+    "frozenRuntimeMatchesLive": true,
+    "cleanup": {
+      "before": {
+        "disposed": false,
+        "calls": 4,
+        "triangles": 10598,
+        "geometries": 4,
+        "textures": 7
+      },
+      "after": {
+        "disposed": true,
+        "calls": 4,
+        "triangles": 10598,
+        "geometries": 0,
+        "textures": 0
+      }
+    }
+  }
+]

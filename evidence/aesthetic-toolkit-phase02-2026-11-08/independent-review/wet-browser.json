@@ -1,0 +1,134 @@
+{
+  "key": "wet",
+  "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) T3CodeBeta/0.1.7 Chrome/152.0.7977.169 Electron/44.10.1 Safari/537.36",
+  "errors": [],
+  "imageSeeks": [
+    {
+      "frame": 191,
+      "hash": "1f408286e04c266aefa3b2c5f7437ab00a2bddf0460f8bd06c0b59f6e0280ff2"
+    },
+    {
+      "frame": 173,
+      "hash": "6105c1a57d273fdd99e08d7cba660834f62135b4f3d13e14397367b5686482b3"
+    },
+    {
+      "frame": 127,
+      "hash": "1d7af71736051ca7000bf41184e8abc4376659f67f392535165c6565f6b89d72"
+    },
+    {
+      "frame": 95,
+      "hash": "283c2f91762c2b261411a6f584871b541646b048a0cbf7d6abafe21aabb2eca6"
+    },
+    {
+      "frame": 63,
+      "hash": "3f92342bb9029ce49ba4110cfe3a05f1d53abacaa04cbfa571c44e1623b54023"
+    },
+    {
+      "frame": 37,
+      "hash": "a13d09cdf8fca619584f6e7be65bedf9f65ac7a348f0569c7672472d44df674b"
+    },
+    {
+      "frame": 23,
+      "hash": "dc48ee87ef5cd214faf48ebc13ac1816272cb7cbf6c06d602e4529706c329d70"
+    },
+    {
+      "frame": 7,
+      "hash": "3c04f24627988d495b57853ccc6ea1ac010578f9c875c5ff536f76d0993d5f8a"
+    },
+    {
+      "frame": 1,
+      "hash": "3c04f24627988d495b57853ccc6ea1ac010578f9c875c5ff536f76d0993d5f8a"
+    },
+    {
+      "frame": 0,
+      "hash": "3c04f24627988d495b57853ccc6ea1ac010578f9c875c5ff536f76d0993d5f8a"
+    },
+    {
+      "frame": 191,
+      "hash": "1f408286e04c266aefa3b2c5f7437ab00a2bddf0460f8bd06c0b59f6e0280ff2"
+    },
+    {
+      "frame": 0,
+      "hash": "3c04f24627988d495b57853ccc6ea1ac010578f9c875c5ff536f76d0993d5f8a"
+    },
+    {
+      "frame": 37,
+      "hash": "a13d09cdf8fca619584f6e7be65bedf9f65ac7a348f0569c7672472d44df674b"
+    },
+    {
+      "frame": 95,
+      "hash": "283c2f91762c2b261411a6f584871b541646b048a0cbf7d6abafe21aabb2eca6"
+    },
+    {
+      "frame": 0,
+      "hash": "3c04f24627988d495b57853ccc6ea1ac010578f9c875c5ff536f76d0993d5f8a"
+    },
+    {
+      "frame": 37,
+      "hash": "a13d09cdf8fca619584f6e7be65bedf9f65ac7a348f0569c7672472d44df674b"
+    }
+  ],
+  "layers": [
+    {
+      "scale": 1,
+      "size": [
+        960,
+        540
+      ],
+      "before": {
+        "cells": 1296,
+        "frames": 192
+      },
+      "after": {
+        "cells": 1296,
+        "frames": 192
+      },
+      "transparent": 0,
+      "opaque": 518400,
+      "partial": 0,
+      "hashes": {
+        "0": "3c04f24627988d495b57853ccc6ea1ac010578f9c875c5ff536f76d0993d5f8a",
+        "7": "3c04f24627988d495b57853ccc6ea1ac010578f9c875c5ff536f76d0993d5f8a",
+        "37": "059c830d0e66c49cbe4c7329a93bbecae30d76ad66be7c9f4b1d48cb23c55dd3",
+        "95": "d144993c7d5ef0392fdd0f9cd9412bc7e65347434f9a02d6ef5c794dbc873e7a",
+        "191": "cd503c2718229159eef7bbaf2bc6b5caadc3e98d01c8706c4869f1ad11208c75"
+      }
+    },
+    {
+      "scale": 2,
+      "size": [
+        1920,
+        1080
+      ],
+      "before": {
+        "cells": 1296,
+        "frames": 192
+      },
+      "after": {
+        "cells": 1296,
+        "frames": 192
+      },
+      "transparent": 0,
+      "opaque": 2073600,
+      "partial": 0,
+      "hashes": {
+        "0": "435fa48dedb5f016b44f9a40b6f177b3f7615abb9a7a7ccf16d6b2f16a2c9671",
+        "7": "435fa48dedb5f016b44f9a40b6f177b3f7615abb9a7a7ccf16d6b2f16a2c9671",
+        "37": "53550e036ae63b3b3a6f47186c7036fb33ee66a04377616a1f37667e24ced5f9",
+        "95": "7df3f59f9e0610ea2587f7ab3ce8ec989929c20cd34eea6a8609f391115137a4",
+        "191": "a600f997e976befd6238f0b3b94bdc2433e3f6701497545e297876163af5ee74"
+      }
+    }
+  ],
+  "video": {
+    "duration": 8,
+    "width": 960,
+    "height": 540,
+    "elapsed": 8.0445,
+    "timeupdates": 31,
+    "totalVideoFrames": 455,
+    "droppedVideoFrames": 0,
+    "scope": "Automated native full-duration decode/play, with sampled decoded images. No human continuous viewing or aesthetic acceptance.",
+    "loopAt": 0.02
+  }
+}

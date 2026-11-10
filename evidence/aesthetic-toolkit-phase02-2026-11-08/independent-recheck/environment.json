@@ -1,0 +1,8 @@
+{
+  "node": "v26.12.1",
+  "platform": "darwin",
+  "chrome": "Google Chrome 157.0.8103.38",
+  "ffmpeg": "ffmpeg version 9.0.2 Copyright (c) 2000-2026 the FFmpeg developers",
+  "playwright": "1.64.1",
+  "three": "0.180.0"
+}

@@ -1,0 +1,51 @@
+{
+  "node": "v26.12.1",
+  "reports": [
+    {
+      "variant": "wet",
+      "fileBytes": 5261389,
+      "readMs": 1.1625830000000015,
+      "parseMs": 7.425374999999999,
+      "validateMs": 4.228250000000003,
+      "before": {
+        "rss": 15337512,
+        "heapTotal": 6176768,
+        "heapUsed": 4442744,
+        "external": 2341826,
+        "arrayBuffers": 137903
+      },
+      "after": {
+        "rss": 34639256,
+        "heapTotal": 13254656,
+        "heapUsed": 8485880,
+        "external": 7603219,
+        "arrayBuffers": 5399292
+      },
+      "retainedHeapDelta": 4043136,
+      "peakRssKiB": 66048
+    },
+    {
+      "variant": "overlap",
+      "fileBytes": 9331278,
+      "readMs": 1.7501669999999976,
+      "parseMs": 12.134041000000003,
+      "validateMs": 4.9780839999999955,
+      "before": {
+        "rss": 15566912,
+        "heapTotal": 6176768,
+        "heapUsed": 4442744,
+        "external": 2341826,
+        "arrayBuffers": 137903
+      },
+      "after": {
+        "rss": 46682120,
+        "heapTotal": 16662528,
+        "heapUsed": 8494952,
+        "external": 11673108,
+        "arrayBuffers": 9469181
+      },
+      "retainedHeapDelta": 4052208,
+      "peakRssKiB": 77408
+    }
+  ]
+}

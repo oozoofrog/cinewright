@@ -1,0 +1,146 @@
+{
+  "key": "salute",
+  "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) T3CodeBeta/0.1.7 Chrome/152.0.7977.169 Electron/44.10.1 Safari/537.36",
+  "errors": [],
+  "imageSeeks": [
+    {
+      "frame": 215,
+      "hash": "bf8ce0b068f4b1bea0018d2538c50b8d4843c5858a123073262c25626abbde6a"
+    },
+    {
+      "frame": 173,
+      "hash": "8f52dfbb8416ba96c1c1bd5906000f7c7f4737cc00c49b16b3b4ac85865d804d"
+    },
+    {
+      "frame": 127,
+      "hash": "bffc9b9908c587beb499bb628247cb376ad5d2bfe50da6ac6f9f6fa4ac26457a"
+    },
+    {
+      "frame": 95,
+      "hash": "0b2a4e894e0f92f965eb03c3f3daac663a05f1a1638088b82586eeee2d78d1d3"
+    },
+    {
+      "frame": 63,
+      "hash": "0983a5bfb528e9b60734fb9fd234bc0e32dd50092d8a3995351f051a007c1b48"
+    },
+    {
+      "frame": 37,
+      "hash": "8c07e121762fb452a8f9480e524f858722a910cd7cc7783e092784b5458e26f8"
+    },
+    {
+      "frame": 23,
+      "hash": "ec1230078e11fc1b5823db889db4995544e1847d14428ef8fd2e864d19173fd5"
+    },
+    {
+      "frame": 7,
+      "hash": "a1bac60e3e0720424ef7fe0bd56c564c94759d2f24cf312fbd30d24745dbe17b"
+    },
+    {
+      "frame": 1,
+      "hash": "a82466405fb961a5972b0c095ed76b9c6717de875dbbd82fd1c875b928d33da6"
+    },
+    {
+      "frame": 0,
+      "hash": "097b6ee495db1dea6cdacc61455f75e001696274526df1b8c890fe1d8ad0f4af"
+    },
+    {
+      "frame": 215,
+      "hash": "bf8ce0b068f4b1bea0018d2538c50b8d4843c5858a123073262c25626abbde6a"
+    },
+    {
+      "frame": 0,
+      "hash": "097b6ee495db1dea6cdacc61455f75e001696274526df1b8c890fe1d8ad0f4af"
+    },
+    {
+      "frame": 37,
+      "hash": "8c07e121762fb452a8f9480e524f858722a910cd7cc7783e092784b5458e26f8"
+    },
+    {
+      "frame": 95,
+      "hash": "0b2a4e894e0f92f965eb03c3f3daac663a05f1a1638088b82586eeee2d78d1d3"
+    },
+    {
+      "frame": 0,
+      "hash": "097b6ee495db1dea6cdacc61455f75e001696274526df1b8c890fe1d8ad0f4af"
+    },
+    {
+      "frame": 37,
+      "hash": "8c07e121762fb452a8f9480e524f858722a910cd7cc7783e092784b5458e26f8"
+    }
+  ],
+  "layers": [
+    {
+      "scale": 1,
+      "size": [
+        960,
+        540
+      ],
+      "before": {
+        "disposed": false,
+        "calls": 4,
+        "triangles": 10598,
+        "geometries": 4,
+        "textures": 7
+      },
+      "after": {
+        "disposed": true,
+        "calls": 4,
+        "triangles": 10598,
+        "geometries": 0,
+        "textures": 0
+      },
+      "transparent": 137369,
+      "opaque": 375476,
+      "partial": 5555,
+      "hashes": {
+        "0": "fa5a89d8d8e16fd1f490283be6e2dbfdba383d991dc841a52f62aa8a974d1a31",
+        "7": "de36dfc101fd9a770ff980724616d91b2a565dd29be6c18123ec74c624c55b0f",
+        "37": "4c83c17e22d886832de8576aa69ccf32006dd268bb48a93d5bd448e1007f305c",
+        "95": "d42b3a8d813703bf62177a5970da3f3754e1cad6e3c7418770f195abab59f60c",
+        "215": "591a15f1a5163e1574f205c556cf9a1fecb4290c4f1d167440a5655a6f2b9720"
+      }
+    },
+    {
+      "scale": 2,
+      "size": [
+        1920,
+        1080
+      ],
+      "before": {
+        "disposed": false,
+        "calls": 4,
+        "triangles": 10598,
+        "geometries": 4,
+        "textures": 7
+      },
+      "after": {
+        "disposed": true,
+        "calls": 4,
+        "triangles": 10598,
+        "geometries": 0,
+        "textures": 0
+      },
+      "transparent": 556085,
+      "opaque": 1506343,
+      "partial": 11172,
+      "hashes": {
+        "0": "6f9f3f3fa5f3ebc19f10ce9611f3b7eca4d61eef95985a7bdf3ca7c2e4275169",
+        "7": "5492399e69e3f391f653ddb39dbf56a23187ae9f46aa6fb380712bc4e56940b4",
+        "37": "9448d1218f1035aa608a6f8931945004655b50fcf47637d9b6de33aae867ceaf",
+        "95": "f8d0e4c65274ef69707f48af9f0e060a0b74cb9279035d72b55c6d6a8c0a711b",
+        "215": "b3e665466d3f7964ab365e3f2434f0b1b62031fc34e49edded71f804f5016794"
+      }
+    }
+  ],
+  "video": {
+    "duration": 9,
+    "width": 960,
+    "height": 540,
+    "elapsed": 9.043099999904632,
+    "timeupdates": 35,
+    "totalVideoFrames": 503,
+    "droppedVideoFrames": 0,
+    "scope": "Automated native full-duration decode/play, with sampled decoded images. No human continuous viewing or aesthetic acceptance.",
+    "loopAt": 0.001646
+  }
+}

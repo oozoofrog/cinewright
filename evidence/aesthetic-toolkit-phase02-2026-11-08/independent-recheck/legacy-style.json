@@ -1,0 +1,74 @@
+[
+  {
+    "name": "wet",
+    "solver": "grid-transport-1",
+    "publicStyleAccepted": true,
+    "hashes": [
+      {
+        "frame": 191,
+        "sha256": "be46fc784d233be212b17352c7361049e3276deaf2964cde24f843121ba961e7"
+      },
+      {
+        "frame": 0,
+        "sha256": "b5c2b808b621b42d364ba142acb6613d913f028c52f835be420a08e6152f800f"
+      },
+      {
+        "frame": 95,
+        "sha256": "117782126c08e5ddf31e57938cddcf868a43a5dd9083b3e67e1ae3a6cd23c526"
+      },
+      {
+        "frame": 37,
+        "sha256": "95934f3f88677a6d050865f842f642d07a4b68584ad53ea01ac57f05ff747d1a"
+      },
+      {
+        "frame": 7,
+        "sha256": "b5c2b808b621b42d364ba142acb6613d913f028c52f835be420a08e6152f800f"
+      },
+      {
+        "frame": 191,
+        "sha256": "be46fc784d233be212b17352c7361049e3276deaf2964cde24f843121ba961e7"
+      },
+      {
+        "frame": 0,
+        "sha256": "b5c2b808b621b42d364ba142acb6613d913f028c52f835be420a08e6152f800f"
+      }
+    ],
+    "disposed": true
+  },
+  {
+    "name": "overlap",
+    "solver": "grid-transport-1",
+    "publicStyleAccepted": true,
+    "hashes": [
+      {
+        "frame": 191,
+        "sha256": "5b49360a4cef39e614d6fca4eeea16078e9a9075f795130717d46b6341bb3297"
+      },
+      {
+        "frame": 0,
+        "sha256": "7fd2435d5badf1888ab183da4ad56efb89c85bd9dd1403732371091fa7ccacca"
+      },
+      {
+        "frame": 95,
+        "sha256": "33cf79f286380d5cf36488e87674b9276605728b2ebd173513d86620e001be02"
+      },
+      {
+        "frame": 37,
+        "sha256": "9ec99248a920511ee51b0cc1dc2456860c6f3196b673ee011c7d781587544c98"
+      },
+      {
+        "frame": 7,
+        "sha256": "9373d8001910f984e1a26f6cb1d5a9d9bbca39864c402fd2aa927363cbe8d3d1"
+      },
+      {
+        "frame": 191,
+        "sha256": "5b49360a4cef39e614d6fca4eeea16078e9a9075f795130717d46b6341bb3297"
+      },
+      {
+        "frame": 0,
+        "sha256": "7fd2435d5badf1888ab183da4ad56efb89c85bd9dd1403732371091fa7ccacca"
+      }
+    ],
+    "disposed": true
+  }
+]

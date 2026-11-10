@@ -1,0 +1,28 @@
+{
+  "taskId": "node:delegated-task:command%3Amcp%3Ab88709ec-8074-49e1-adc4-fdc0404c54cd%3Adelegate-task%3Ae9528ba1-e29f-4857-bc41-ab79c96b2d6d",
+  "childThreadId": "thread:delegated-task:command%3Amcp%3Ab88709ec-8074-49e1-adc4-fdc0404c54cd%3Adelegate-task%3Ae9528ba1-e29f-4857-bc41-ab79c96b2d6d",
+  "link": "<t3-thread://v2/4976b4a8-e1c4-4543-877c-25d62dfa39d1/thread:delegated-task:command%3Amcp%3Ab88709ec-8074-49e1-adc4-fdc0404c54cd%3Adelegate-task%3Ae9528ba1-e29f-4857-bc41-ab79c96b2d6d>",
+  "childRunId": "run:thread:thread%3Adelegated-task%3Acommand%253Amcp%253Ab88709ec-8074-49e1-adc4-fdc0404c54cd%253Adelegate-task%253Ae9528ba1-e29f-4857-bc41-ab79c96b2d6d:ordinal:1",
+  "childNodeId": "node:delegated-task:command%3Amcp%3Ab88709ec-8074-49e1-adc4-fdc0404c54cd%3Adelegate-task%3Ae9528ba1-e29f-4857-bc41-ab79c96b2d6d",
+  "status": "running",
+  "workState": "working",
+  "hasPendingChildRuns": false,
+  "latestTerminalRunId": null,
+  "latestTerminalStatus": null,
+  "latestTerminalSummary": null,
+  "latestTerminalResultContextTransferId": null,
+  "providerInstanceId": "codex-oozoofrog",
+  "model": "gpt-6.1-sol",
+  "options": [
+    {
+      "id": "reasoningEffort",
+      "value": "ultra"
+    }
+  ],
+  "summary": null,
+  "resultContextTransferId": null,
+  "hasPendingQuestion": false,
+  "pendingApproval": null,
+  "waitTimedOut": false,
+  "next": "Completion wakes this thread, so end your turn. Do not wait on it or poll it."
+}

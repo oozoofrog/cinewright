@@ -1,0 +1,12 @@
+node:internal/modules/run_main:111
+    triggerUncaughtException(
+    ^
+
+page.evaluate: Error: not advancing
+    at eval (eval at evaluate (:370:30), <anonymous>:1:341)
+    at async <anonymous>:396:30
+    at /Volumes/eyedisk/develop/cinewright/scripts/phase02-playback-check.mjs:3:172 {
+  log: []
+}
+
+Node.js v26.12.1

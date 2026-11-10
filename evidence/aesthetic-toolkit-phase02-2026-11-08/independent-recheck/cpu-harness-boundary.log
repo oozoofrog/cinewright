@@ -1,0 +1,12 @@
+file:///Volumes/eyedisk/develop/cinewright/modules/fx2d/watercolor.mjs:2
+const fail = m => { throw Error(`watercolor: ${m}`); };
+                          ^
+
+Error: watercolor: unstable coefficients
+    at fail (file:///Volumes/eyedisk/develop/cinewright/modules/fx2d/watercolor.mjs:2:27)
+    at validateInput (file:///Volumes/eyedisk/develop/cinewright/modules/fx2d/watercolor.mjs:6:244)
+    at Module.createSolver (file:///Volumes/eyedisk/develop/cinewright/modules/fx2d/watercolor.mjs:13:33)
+    at check (file:///Volumes/eyedisk/develop/cinewright/evidence/aesthetic-toolkit-phase02-2026-11-08/independent-recheck/cpu.mjs:15:37)
+    at file:///Volumes/eyedisk/develop/cinewright/evidence/aesthetic-toolkit-phase02-2026-11-08/independent-recheck/cpu.mjs:44:2
+
+Node.js v26.12.1

@@ -1,0 +1,62 @@
+[
+  {
+    "name": "wet",
+    "file": "/Volumes/eyedisk/develop/cinewright/.direction/aesthetic-toolkit-phase02-2026-11-08/fullhd/store/jobs/bfa00bd5-e237-43a7-b0d2-6d61d835d5cf/work.mp4",
+    "assertedBefore": "b5c58eb9edfbb9dd6fd94520c78b9e0cba784b345c6b2790cb684fe952ca33f8",
+    "actualAfter": "b5c58eb9edfbb9dd6fd94520c78b9e0cba784b345c6b2790cb684fe952ca33f8",
+    "unchanged": true,
+    "revision": "0d49af7d9721b296c32d5a2d1404b4ae505b846af966b71e854f4653e27bd86a",
+    "revisionRevalidatedAfter": true,
+    "entries": 31
+  },
+  {
+    "name": "overlap",
+    "file": "/Volumes/eyedisk/develop/cinewright/.direction/aesthetic-toolkit-phase02-2026-11-08/fullhd/store/jobs/c13ee8b5-59c0-436c-98f1-45dbc173875f/work.mp4",
+    "assertedBefore": "ba297f484f3126a6e148faf21b081a92837c3a50574a76c71e5afd211028778c",
+    "actualAfter": "ba297f484f3126a6e148faf21b081a92837c3a50574a76c71e5afd211028778c",
+    "unchanged": true,
+    "revision": "9f7f438ecb46456d79594660d67663d97721847edb43000ffdf119ed7060299d",
+    "revisionRevalidatedAfter": true,
+    "entries": 31
+  },
+  {
+    "name": "tall",
+    "file": "/Volumes/eyedisk/develop/cinewright/.direction/aesthetic-toolkit-phase02-2026-11-08/fullhd/store/jobs/d4f706ac-2b7f-40ec-a1eb-d25ace2fca61/work.mp4",
+    "assertedBefore": "a3aeb9bc47f9245179471347c8a5e9e10651f71f6a9a59910d6e694c9af22dbc",
+    "actualAfter": "a3aeb9bc47f9245179471347c8a5e9e10651f71f6a9a59910d6e694c9af22dbc",
+    "unchanged": true,
+    "revision": "97faf35a7b025042f8fe55092de467d1c4f4f06bd226af92474c01bcae11a1cb",
+    "revisionRevalidatedAfter": true,
+    "entries": 43
+  },
+  {
+    "name": "broad",
+    "file": "/Volumes/eyedisk/develop/cinewright/.direction/aesthetic-toolkit-phase02-2026-11-08/fullhd/store/jobs/298b7180-cd24-4101-a1d2-0f79621eb87f/work.mp4",
+    "assertedBefore": "d0db4091643c4af36d37bf6767ac9fb7a6a07fb0eb43974cfaacd88bfea1093a",
+    "actualAfter": "d0db4091643c4af36d37bf6767ac9fb7a6a07fb0eb43974cfaacd88bfea1093a",
+    "unchanged": true,
+    "revision": "e289d9c8840eff687a510c7daef2eff1a8eed9c3f2ac162253a0a80bd78368ae",
+    "revisionRevalidatedAfter": true,
+    "entries": 43
+  },
+  {
+    "name": "stride",
+    "file": "/Volumes/eyedisk/develop/cinewright/.direction/aesthetic-toolkit-phase02-2026-11-08/fullhd/store/jobs/a24bb8c5-65d3-4db4-8fa5-66d329016c57/work.mp4",
+    "assertedBefore": "9b2cdcebad5699708f69de7e34a24e5bd05152f1c1c94b8b9856fcdbda3101b5",
+    "actualAfter": "9b2cdcebad5699708f69de7e34a24e5bd05152f1c1c94b8b9856fcdbda3101b5",
+    "unchanged": true,
+    "revision": "6c08ffeaa69cbf1bc1defa2cc5ade2e331c18ebcd7a7407c4008819a22e6ac0b",
+    "revisionRevalidatedAfter": true,
+    "entries": 30
+  },
+  {
+    "name": "salute",
+    "file": "/Volumes/eyedisk/develop/cinewright/.direction/aesthetic-toolkit-phase02-2026-11-08/fullhd/store/jobs/a1c96d56-d09b-4b45-a448-3c2ecf9951cb/work.mp4",
+    "assertedBefore": "fd14a4abd1f4fb32ef61f5ade3c7dcfdb228c40f361a83950f2f8d16323c65e6",
+    "actualAfter": "fd14a4abd1f4fb32ef61f5ade3c7dcfdb228c40f361a83950f2f8d16323c65e6",
+    "unchanged": true,
+    "revision": "3da05c4ff8f49c23956d7ba6669308aab3b304d3447578023585fe8caa94cedd",
+    "revisionRevalidatedAfter": true,
+    "entries": 30
+  }
+]

@@ -1,0 +1,12 @@
+{
+  "tests/auto-rig.test.mjs": "c067f9f5bdb4a2b6b9917332b2f867322146f966eb530f0e281c418768dcb0bd",
+  "tests/auto-rig-browser.test.mjs": "7c63f1728a17e372add52a1123e01cce8813800946514001d0c55b3f5a5aeae4",
+  "tests/watercolor.test.mjs": "8149f976d236df24be822d84fce73f1a70c3f9dd0b06f91913c8c3a010b50bf2",
+  "tests/watercolor-browser.test.mjs": "5a54614c792ea7a0e9a4e4d10201d68c76addadfee7cccc6b7639f1bb4f60b7a",
+  "tests/retarget-core.test.mjs": "d795feac95cc32dfb31d10b57d4ef85b4d999a723c0fda151879e44b25cf9b01",
+  "tests/retarget-publication.test.mjs": "7a813ffb0467c34db852564468c91742db305b96cd349549fc46afd21f0fcbf7",
+  "tests/phase02-materialize.test.mjs": "a58f25a91a2a28c44889c8ae8c82ca9904ce2111c9c64add6263049112fc6b5e",
+  "docs/handoffs/2026-11-08-phase02-watercolor.md": "7efd542fba8ea6ea09a9423aee69f74902a7250e4fcea1cf6ee296e5c7c47dca",
+  "docs/handoffs/2026-11-08-phase02-retarget.md": "6cbefa54f437767ade95f5e1585e0fbb6d4e3d7d1343d0fce0b8325a170003d8",
+  "docs/handoffs/2026-11-08-phase02-coordinator.md": "8068587f64fa83b2b477e7c098b0135a915eea33e8db909a694ec8f571b743e3"
+}

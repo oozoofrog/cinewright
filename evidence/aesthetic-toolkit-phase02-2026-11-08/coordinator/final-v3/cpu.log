@@ -1,0 +1,19 @@
+✔ review drying trajectory stays positive/finite and conservative through accepted loss bound (6.262333ms)
+✔ review inverse bind corruption rejected for rig-only new/update preserving bytes (110.160916ms)
+✔ review contact construction rejects malformed windows/pole/flexion even when contacts disabled (5.189625ms)
+✔ recheck threshold donor budget preserves nonnegative water through 320 boundary cases (7.053417ms)
+✔ recheck zero-coefficient sinks stay exactly zero in both directions across subnormal probes (1.159958ms)
+✔ closed flux and sink balances including events (2.277ms)
+✔ determinism, seek, bounds and cancellation (2.75175ms)
+✔ frozen style loads only bake; seeks and disposes (0.509042ms)
+✔ CLI refuses existing destination and leaves no partial output on invalid input (198.754083ms)
+✔ active CLI cancellation and failed publication clean up temporary file (351.480042ms)
+✔ extreme dilute water remains finite, positivity at stability boundary (0.390875ms)
+ℹ tests 11
+ℹ suites 0
+ℹ pass 11
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 654.514334

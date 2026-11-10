@@ -1,0 +1,76 @@
+[
+  {
+    key: 'tall',
+    frames: 192,
+    maxPtsError: 3.33333333379926e-7,
+    flaggedWindows: 0,
+    diffs: [ [Object], [Object], [Object] ]
+  },
+  {
+    key: 'broad',
+    frames: 192,
+    maxPtsError: 3.33333333379926e-7,
+    flaggedWindows: 0,
+    diffs: [ [Object], [Object], [Object] ]
+  },
+  {
+    key: 'wet',
+    frames: 192,
+    maxPtsError: 3.33333333379926e-7,
+    flaggedWindows: 0,
+    diffs: [ [Object], [Object], [Object] ]
+  },
+  {
+    key: 'overlap',
+    frames: 192,
+    maxPtsError: 3.33333333379926e-7,
+    flaggedWindows: 0,
+    diffs: [ [Object], [Object], [Object] ]
+  },
+  {
+    key: 'stride',
+    frames: 192,
+    maxPtsError: 3.33333333379926e-7,
+    flaggedWindows: 0,
+    diffs: [ [Object], [Object], [Object] ]
+  },
+  {
+    key: 'salute',
+    frames: 216,
+    maxPtsError: 3.333333342681044e-7,
+    flaggedWindows: 0,
+    diffs: [ [Object], [Object], [Object] ]
+  }
+]
+[
+  {
+    key: 'tall',
+    missing: [ [Object] ],
+    licenses: [
+      'project/assets/LICENSE',
+      'project/vendor/three/LICENSE',
+      'vendor/three/LICENSE'
+    ]
+  },
+  {
+    key: 'broad',
+    missing: [ [Object] ],
+    licenses: [
+      'project/assets/LICENSE',
+      'project/vendor/three/LICENSE',
+      'vendor/three/LICENSE'
+    ]
+  },
+  { key: 'wet', missing: [], licenses: [ 'vendor/three/LICENSE' ] },
+  { key: 'overlap', missing: [], licenses: [ 'vendor/three/LICENSE' ] },
+  {
+    key: 'stride',
+    missing: [ [Object] ],
+    licenses: [ 'project/assets/LICENSE.txt', 'vendor/three/LICENSE' ]
+  },
+  {
+    key: 'salute',
+    missing: [ [Object] ],
+    licenses: [ 'project/assets/LICENSE.txt', 'vendor/three/LICENSE' ]
+  }
+]

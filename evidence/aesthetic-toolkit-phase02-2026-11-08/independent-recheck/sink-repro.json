@@ -1,0 +1,441 @@
+{
+  "valid": true,
+  "fixture": {
+    "version": 1,
+    "seed": 1,
+    "width": 2,
+    "height": 2,
+    "frames": 1,
+    "dt": 1,
+    "stepsPerFrame": 1,
+    "coefficients": {
+      "waterDiffusion": 0,
+      "pigmentDiffusion": 0,
+      "absorption": 0.25,
+      "evaporation": 0,
+      "deposition": 0
+    },
+    "colors": [
+      [
+        20,
+        40,
+        180
+      ]
+    ],
+    "events": [
+      {
+        "frame": 0,
+        "x": 0,
+        "y": 0,
+        "radius": 0.01,
+        "water": 1.5e-323,
+        "pigment": [
+          1
+        ]
+      }
+    ]
+  },
+  "actual": {
+    "water": [
+      1e-323,
+      0,
+      0,
+      0
+    ],
+    "mobile": [
+      [
+        1,
+        0,
+        0,
+        0
+      ]
+    ],
+    "deposited": [
+      [
+        0,
+        0,
+        0,
+        0
+      ]
+    ],
+    "totals": {
+      "waterInput": 1.5e-323,
+      "absorbed": 0,
+      "evaporated": 5e-324,
+      "pigmentInput": [
+        1
+      ]
+    }
+  },
+  "expected": {
+    "absorbed": 5e-324,
+    "evaporated": 0,
+    "remaining": 1e-323
+  },
+  "scan": {
+    "cases": 45,
+    "zeroEvaporationButNonzeroEvaporated": 17
+  },
+  "rows": [
+    {
+      "absorption": 0.125,
+      "evaporation": 0,
+      "quanta": 1,
+      "remaining": 5e-324,
+      "absorbed": 0,
+      "evaporated": 0
+    },
+    {
+      "absorption": 0.125,
+      "evaporation": 0,
+      "quanta": 2,
+      "remaining": 1e-323,
+      "absorbed": 0,
+      "evaporated": 0
+    },
+    {
+      "absorption": 0.125,
+      "evaporation": 0,
+      "quanta": 3,
+      "remaining": 1.5e-323,
+      "absorbed": 0,
+      "evaporated": 0
+    },
+    {
+      "absorption": 0.125,
+      "evaporation": 0,
+      "quanta": 4,
+      "remaining": 2e-323,
+      "absorbed": 0,
+      "evaporated": 0
+    },
+    {
+      "absorption": 0.125,
+      "evaporation": 0,
+      "quanta": 5,
+      "remaining": 2e-323,
+      "absorbed": 0,
+      "evaporated": 5e-324
+    },
+    {
+      "absorption": 0.125,
+      "evaporation": 0,
+      "quanta": 7,
+      "remaining": 3e-323,
+      "absorbed": 0,
+      "evaporated": 5e-324
+    },
+    {
+      "absorption": 0.125,
+      "evaporation": 0,
+      "quanta": 11,
+      "remaining": 5e-323,
+      "absorbed": 0,
+      "evaporated": 5e-324
+    },
+    {
+      "absorption": 0.125,
+      "evaporation": 0,
+      "quanta": 63,
+      "remaining": 2.7e-322,
+      "absorbed": 4e-323,
+      "evaporated": 0
+    },
+    {
+      "absorption": 0.125,
+      "evaporation": 0,
+      "quanta": 128,
+      "remaining": 5.53e-322,
+      "absorbed": 8e-323,
+      "evaporated": 0
+    },
+    {
+      "absorption": 0.25,
+      "evaporation": 0,
+      "quanta": 1,
+      "remaining": 5e-324,
+      "absorbed": 0,
+      "evaporated": 0
+    },
+    {
+      "absorption": 0.25,
+      "evaporation": 0,
+      "quanta": 2,
+      "remaining": 1e-323,
+      "absorbed": 0,
+      "evaporated": 0
+    },
+    {
+      "absorption": 0.25,
+      "evaporation": 0,
+      "quanta": 3,
+      "remaining": 1e-323,
+      "absorbed": 0,
+      "evaporated": 5e-324
+    },
+    {
+      "absorption": 0.25,
+      "evaporation": 0,
+      "quanta": 4,
+      "remaining": 1.5e-323,
+      "absorbed": 0,
+      "evaporated": 5e-324
+    },
+    {
+      "absorption": 0.25,
+      "evaporation": 0,
+      "quanta": 5,
+      "remaining": 2e-323,
+      "absorbed": 0,
+      "evaporated": 5e-324
+    },
+    {
+      "absorption": 0.25,
+      "evaporation": 0,
+      "quanta": 7,
+      "remaining": 2.5e-323,
+      "absorbed": 0,
+      "evaporated": 1e-323
+    },
+    {
+      "absorption": 0.25,
+      "evaporation": 0,
+      "quanta": 11,
+      "remaining": 4e-323,
+      "absorbed": 2e-323,
+      "evaporated": -5e-324
+    },
+    {
+      "absorption": 0.25,
+      "evaporation": 0,
+      "quanta": 63,
+      "remaining": 2.3e-322,
+      "absorbed": 8e-323,
+      "evaporated": 0
+    },
+    {
+      "absorption": 0.25,
+      "evaporation": 0,
+      "quanta": 128,
+      "remaining": 4.74e-322,
+      "absorbed": 1.6e-322,
+      "evaporated": 0
+    },
+    {
+      "absorption": 0.5,
+      "evaporation": 0,
+      "quanta": 1,
+      "remaining": 0,
+      "absorbed": 0,
+      "evaporated": 5e-324
+    },
+    {
+      "absorption": 0.5,
+      "evaporation": 0,
+      "quanta": 2,
+      "remaining": 5e-324,
+      "absorbed": 0,
+      "evaporated": 5e-324
+    },
+    {
+      "absorption": 0.5,
+      "evaporation": 0,
+      "quanta": 3,
+      "remaining": 1e-323,
+      "absorbed": 0,
+      "evaporated": 5e-324
+    },
+    {
+      "absorption": 0.5,
+      "evaporation": 0,
+      "quanta": 4,
+      "remaining": 1e-323,
+      "absorbed": 1e-323,
+      "evaporated": 0
+    },
+    {
+      "absorption": 0.5,
+      "evaporation": 0,
+      "quanta": 5,
+      "remaining": 1e-323,
+      "absorbed": 2e-323,
+      "evaporated": -5e-324
+    },
+    {
+      "absorption": 0.5,
+      "evaporation": 0,
+      "quanta": 7,
+      "remaining": 2e-323,
+      "absorbed": 2e-323,
+      "evaporated": -5e-324
+    },
+    {
+      "absorption": 0.5,
+      "evaporation": 0,
+      "quanta": 11,
+      "remaining": 3e-323,
+      "absorbed": 2e-323,
+      "evaporated": 5e-324
+    },
+    {
+      "absorption": 0.5,
+      "evaporation": 0,
+      "quanta": 63,
+      "remaining": 1.6e-322,
+      "absorbed": 1.6e-322,
+      "evaporated": -5e-324
+    },
+    {
+      "absorption": 0.5,
+      "evaporation": 0,
+      "quanta": 128,
+      "remaining": 3.16e-322,
+      "absorbed": 3.16e-322,
+      "evaporated": 0
+    },
+    {
+      "absorption": 0.75,
+      "evaporation": 0,
+      "quanta": 1,
+      "remaining": 0,
+      "absorbed": 5e-324,
+      "evaporated": 0
+    },
+    {
+      "absorption": 0.75,
+      "evaporation": 0,
+      "quanta": 2,
+      "remaining": 0,
+      "absorbed": 1.5e-323,
+      "evaporated": -5e-324
+    },
+    {
+      "absorption": 0.75,
+      "evaporation": 0,
+      "quanta": 3,
+      "remaining": 5e-324,
+      "absorbed": 1.5e-323,
+      "evaporated": -5e-324
+    },
+    {
+      "absorption": 0.75,
+      "evaporation": 0,
+      "quanta": 4,
+      "remaining": 5e-324,
+      "absorbed": 1.5e-323,
+      "evaporated": 0
+    },
+    {
+      "absorption": 0.75,
+      "evaporation": 0,
+      "quanta": 5,
+      "remaining": 5e-324,
+      "absorbed": 2e-323,
+      "evaporated": 0
+    },
+    {
+      "absorption": 0.75,
+      "evaporation": 0,
+      "quanta": 7,
+      "remaining": 1e-323,
+      "absorbed": 2.5e-323,
+      "evaporated": 0
+    },
+    {
+      "absorption": 0.75,
+      "evaporation": 0,
+      "quanta": 11,
+      "remaining": 1.5e-323,
+      "absorbed": 4e-323,
+      "evaporated": 0
+    },
+    {
+      "absorption": 0.75,
+      "evaporation": 0,
+      "quanta": 63,
+      "remaining": 8e-323,
+      "absorbed": 2.3e-322,
+      "evaporated": 0
+    },
+    {
+      "absorption": 0.75,
+      "evaporation": 0,
+      "quanta": 128,
+      "remaining": 1.6e-322,
+      "absorbed": 4.74e-322,
+      "evaporated": 0
+    },
+    {
+      "absorption": 1,
+      "evaporation": 0,
+      "quanta": 1,
+      "remaining": 0,
+      "absorbed": 5e-324,
+      "evaporated": 0
+    },
+    {
+      "absorption": 1,
+      "evaporation": 0,
+      "quanta": 2,
+      "remaining": 0,
+      "absorbed": 1e-323,
+      "evaporated": 0
+    },
+    {
+      "absorption": 1,
+      "evaporation": 0,
+      "quanta": 3,
+      "remaining": 0,
+      "absorbed": 1.5e-323,
+      "evaporated": 0
+    },
+    {
+      "absorption": 1,
+      "evaporation": 0,
+      "quanta": 4,
+      "remaining": 0,
+      "absorbed": 2e-323,
+      "evaporated": 0
+    },
+    {
+      "absorption": 1,
+      "evaporation": 0,
+      "quanta": 5,
+      "remaining": 0,
+      "absorbed": 2.5e-323,
+      "evaporated": 0
+    },
+    {
+      "absorption": 1,
+      "evaporation": 0,
+      "quanta": 7,
+      "remaining": 0,
+      "absorbed": 3.5e-323,
+      "evaporated": 0
+    },
+    {
+      "absorption": 1,
+      "evaporation": 0,
+      "quanta": 11,
+      "remaining": 0,
+      "absorbed": 5.4e-323,
+      "evaporated": 0
+    },
+    {
+      "absorption": 1,
+      "evaporation": 0,
+      "quanta": 63,
+      "remaining": 0,
+      "absorbed": 3.1e-322,
+      "evaporated": 0
+    },
+    {
+      "absorption": 1,
+      "evaporation": 0,
+      "quanta": 128,
+      "remaining": 0,
+      "absorbed": 6.3e-322,
+      "evaporated": 0
+    }
+  ]
+}

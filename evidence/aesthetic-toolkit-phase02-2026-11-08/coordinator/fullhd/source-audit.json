@@ -1,0 +1,368 @@
+[
+  {
+    "name": "wet",
+    "revision": "0d49af7d9721b296c32d5a2d1404b4ae505b846af966b71e854f4653e27bd86a",
+    "sourceAbsent": true,
+    "modules": [
+      {
+        "file": "modules/animation/exposure.mjs",
+        "equal": true,
+        "sha256": "ed8455c1aed87d78c88b1275b3ba74cc3783f073b6e9f9699d58f5be8ace1ab3"
+      },
+      {
+        "file": "modules/fx2d/brush.mjs",
+        "equal": true,
+        "sha256": "1e5f89c617800d9e5c23b2d5943b14ee2630b83a333e23227ad7cb8b650fdac3"
+      },
+      {
+        "file": "modules/fx2d/erase.mjs",
+        "equal": true,
+        "sha256": "c6fb931e0a9c36c2a0e23eca5142f6a2e109c2e9eab49ee94f9b95de762abbce"
+      },
+      {
+        "file": "modules/fx2d/hatch.mjs",
+        "equal": true,
+        "sha256": "0921337a4a581388090121771d351b632d19798f6bb05491af81fedf879363ee"
+      },
+      {
+        "file": "modules/fx2d/redraw.mjs",
+        "equal": true,
+        "sha256": "39e591c3abaf0028122ba5124abb1cebf6391a6d0696d907c4f5c88e1c2fee0d"
+      },
+      {
+        "file": "modules/fx2d/stroke.mjs",
+        "equal": true,
+        "sha256": "2fc1df6bea032f82b369a88a7b0e70b4acef66ce6c619e6d14b7ad056597b158"
+      },
+      {
+        "file": "modules/fx2d/wash.mjs",
+        "equal": true,
+        "sha256": "157d0d85a4139dad78d46292b78a93aa40d068e16c792cf5690530c2bbdb3cec"
+      },
+      {
+        "file": "modules/fx2d/watercolor.mjs",
+        "equal": true,
+        "sha256": "e94a1269e7ebf5bc426c0c24ac88e0b3e8a808bf9a41e92f5a971917a3cee840"
+      },
+      {
+        "file": "modules/styles/line-wash/index.mjs",
+        "equal": true,
+        "sha256": "7d633c75fb75497011e5e918ecf63df5a364ec7d02b3911b93623b7f2b617cd0"
+      },
+      {
+        "file": "modules/styles/watercolor-physical/index.mjs",
+        "equal": true,
+        "sha256": "4abae25c205329d8e41bd7818fb066a9cc1fbc9e7b179609f5b81b0e1219ccdf"
+      },
+      {
+        "file": "runtime/compositor.mjs",
+        "equal": true
+      }
+    ]
+  },
+  {
+    "name": "overlap",
+    "revision": "9f7f438ecb46456d79594660d67663d97721847edb43000ffdf119ed7060299d",
+    "sourceAbsent": true,
+    "modules": [
+      {
+        "file": "modules/animation/exposure.mjs",
+        "equal": true,
+        "sha256": "ed8455c1aed87d78c88b1275b3ba74cc3783f073b6e9f9699d58f5be8ace1ab3"
+      },
+      {
+        "file": "modules/fx2d/brush.mjs",
+        "equal": true,
+        "sha256": "1e5f89c617800d9e5c23b2d5943b14ee2630b83a333e23227ad7cb8b650fdac3"
+      },
+      {
+        "file": "modules/fx2d/erase.mjs",
+        "equal": true,
+        "sha256": "c6fb931e0a9c36c2a0e23eca5142f6a2e109c2e9eab49ee94f9b95de762abbce"
+      },
+      {
+        "file": "modules/fx2d/hatch.mjs",
+        "equal": true,
+        "sha256": "0921337a4a581388090121771d351b632d19798f6bb05491af81fedf879363ee"
+      },
+      {
+        "file": "modules/fx2d/redraw.mjs",
+        "equal": true,
+        "sha256": "39e591c3abaf0028122ba5124abb1cebf6391a6d0696d907c4f5c88e1c2fee0d"
+      },
+      {
+        "file": "modules/fx2d/stroke.mjs",
+        "equal": true,
+        "sha256": "2fc1df6bea032f82b369a88a7b0e70b4acef66ce6c619e6d14b7ad056597b158"
+      },
+      {
+        "file": "modules/fx2d/wash.mjs",
+        "equal": true,
+        "sha256": "157d0d85a4139dad78d46292b78a93aa40d068e16c792cf5690530c2bbdb3cec"
+      },
+      {
+        "file": "modules/fx2d/watercolor.mjs",
+        "equal": true,
+        "sha256": "e94a1269e7ebf5bc426c0c24ac88e0b3e8a808bf9a41e92f5a971917a3cee840"
+      },
+      {
+        "file": "modules/styles/line-wash/index.mjs",
+        "equal": true,
+        "sha256": "7d633c75fb75497011e5e918ecf63df5a364ec7d02b3911b93623b7f2b617cd0"
+      },
+      {
+        "file": "modules/styles/watercolor-physical/index.mjs",
+        "equal": true,
+        "sha256": "4abae25c205329d8e41bd7818fb066a9cc1fbc9e7b179609f5b81b0e1219ccdf"
+      },
+      {
+        "file": "runtime/compositor.mjs",
+        "equal": true
+      }
+    ]
+  },
+  {
+    "name": "tall",
+    "revision": "97faf35a7b025042f8fe55092de467d1c4f4f06bd226af92474c01bcae11a1cb",
+    "sourceAbsent": true,
+    "modules": [
+      {
+        "file": "modules/animation/auto-rig.mjs",
+        "equal": true,
+        "sha256": "af698c58badc2c6a88d7959944945cdb628ac8412b4fc234910ea4faf37b21a1"
+      },
+      {
+        "file": "modules/animation/clip3d.mjs",
+        "equal": true,
+        "sha256": "f8087674425114b22aedf34f2d9778c89ab6463b24a1a1f4e9de0356f7565819"
+      },
+      {
+        "file": "modules/animation/exposure.mjs",
+        "equal": true,
+        "sha256": "ed8455c1aed87d78c88b1275b3ba74cc3783f073b6e9f9699d58f5be8ace1ab3"
+      },
+      {
+        "file": "modules/animation/retarget.mjs",
+        "equal": true,
+        "sha256": "e53c45921d733951f4a136a189be8574a991fb4fc44505bf49f81b07010ee3b4"
+      },
+      {
+        "file": "modules/fx3d/adapter.mjs",
+        "equal": true,
+        "sha256": "796bc116c14a38aae717efa0aeac8040db09c4d8f9335b8d8a6e84b09f0990b1"
+      },
+      {
+        "file": "modules/fx3d/deform.mjs",
+        "equal": true,
+        "sha256": "23836b65207973de0f18a74ffa04fcd888e5e974f94363b5da86941b42de9544"
+      },
+      {
+        "file": "modules/fx3d/geometry.mjs",
+        "equal": true,
+        "sha256": "8b3e413053cac8b38688d6ebe7e7802192658eaad520763ee71ce3e3e653a7b3"
+      },
+      {
+        "file": "modules/fx3d/glb.mjs",
+        "equal": true,
+        "sha256": "c2032b590c8933ccc24a6faed4eb0e02a595cf68bdf8c3ab8a10e381a7f7ed3b"
+      },
+      {
+        "file": "modules/fx3d/light.mjs",
+        "equal": true,
+        "sha256": "6fdf795ff3bc19be70f3804b088aa744ca3d97df070b20e47685e83757209786"
+      },
+      {
+        "file": "modules/fx3d/material.mjs",
+        "equal": true,
+        "sha256": "810fc554f85e6062888a8971c6d7ab07f72b7ee2e46c6546dff1e099464e9c87"
+      },
+      {
+        "file": "modules/fx3d/outline.mjs",
+        "equal": true,
+        "sha256": "dda72bd5e03193cd6b5245dbf52fcd4a6646c08afd478408853311f2802701bd"
+      },
+      {
+        "file": "modules/fx3d/particles.mjs",
+        "equal": true,
+        "sha256": "54eb4aacc0fa251871dcf14430981e37b170853a172c77ad1a31d5e09a3a9486"
+      },
+      {
+        "file": "modules/fx3d/skinned-outline.mjs",
+        "equal": true,
+        "sha256": "5fbc53a3d59df58f0c504611df3c2a9f8a3e858948c89a1c1a06df847341fc30"
+      },
+      {
+        "file": "modules/styles/expressionist-space/index.mjs",
+        "equal": true,
+        "sha256": "bccd62abbebdae065e65675962999bc7d049136fe9011a483d292fe936dd8f08"
+      },
+      {
+        "file": "modules/styles/expressionist-space/validate.mjs",
+        "equal": true,
+        "sha256": "695e59e9950197c03baac0f7b89caa8152876c80311a2308e117b2fb841f5aa6"
+      },
+      {
+        "file": "runtime/compositor.mjs",
+        "equal": true
+      }
+    ]
+  },
+  {
+    "name": "broad",
+    "revision": "e289d9c8840eff687a510c7daef2eff1a8eed9c3f2ac162253a0a80bd78368ae",
+    "sourceAbsent": true,
+    "modules": [
+      {
+        "file": "modules/animation/auto-rig.mjs",
+        "equal": true,
+        "sha256": "af698c58badc2c6a88d7959944945cdb628ac8412b4fc234910ea4faf37b21a1"
+      },
+      {
+        "file": "modules/animation/clip3d.mjs",
+        "equal": true,
+        "sha256": "f8087674425114b22aedf34f2d9778c89ab6463b24a1a1f4e9de0356f7565819"
+      },
+      {
+        "file": "modules/animation/exposure.mjs",
+        "equal": true,
+        "sha256": "ed8455c1aed87d78c88b1275b3ba74cc3783f073b6e9f9699d58f5be8ace1ab3"
+      },
+      {
+        "file": "modules/animation/retarget.mjs",
+        "equal": true,
+        "sha256": "e53c45921d733951f4a136a189be8574a991fb4fc44505bf49f81b07010ee3b4"
+      },
+      {
+        "file": "modules/fx3d/adapter.mjs",
+        "equal": true,
+        "sha256": "796bc116c14a38aae717efa0aeac8040db09c4d8f9335b8d8a6e84b09f0990b1"
+      },
+      {
+        "file": "modules/fx3d/deform.mjs",
+        "equal": true,
+        "sha256": "23836b65207973de0f18a74ffa04fcd888e5e974f94363b5da86941b42de9544"
+      },
+      {
+        "file": "modules/fx3d/geometry.mjs",
+        "equal": true,
+        "sha256": "8b3e413053cac8b38688d6ebe7e7802192658eaad520763ee71ce3e3e653a7b3"
+      },
+      {
+        "file": "modules/fx3d/glb.mjs",
+        "equal": true,
+        "sha256": "c2032b590c8933ccc24a6faed4eb0e02a595cf68bdf8c3ab8a10e381a7f7ed3b"
+      },
+      {
+        "file": "modules/fx3d/light.mjs",
+        "equal": true,
+        "sha256": "6fdf795ff3bc19be70f3804b088aa744ca3d97df070b20e47685e83757209786"
+      },
+      {
+        "file": "modules/fx3d/material.mjs",
+        "equal": true,
+        "sha256": "810fc554f85e6062888a8971c6d7ab07f72b7ee2e46c6546dff1e099464e9c87"
+      },
+      {
+        "file": "modules/fx3d/outline.mjs",
+        "equal": true,
+        "sha256": "dda72bd5e03193cd6b5245dbf52fcd4a6646c08afd478408853311f2802701bd"
+      },
+      {
+        "file": "modules/fx3d/particles.mjs",
+        "equal": true,
+        "sha256": "54eb4aacc0fa251871dcf14430981e37b170853a172c77ad1a31d5e09a3a9486"
+      },
+      {
+        "file": "modules/fx3d/skinned-outline.mjs",
+        "equal": true,
+        "sha256": "5fbc53a3d59df58f0c504611df3c2a9f8a3e858948c89a1c1a06df847341fc30"
+      },
+      {
+        "file": "modules/styles/expressionist-space/index.mjs",
+        "equal": true,
+        "sha256": "bccd62abbebdae065e65675962999bc7d049136fe9011a483d292fe936dd8f08"
+      },
+      {
+        "file": "modules/styles/expressionist-space/validate.mjs",
+        "equal": true,
+        "sha256": "695e59e9950197c03baac0f7b89caa8152876c80311a2308e117b2fb841f5aa6"
+      },
+      {
+        "file": "runtime/compositor.mjs",
+        "equal": true
+      }
+    ]
+  },
+  {
+    "name": "stride",
+    "revision": "6c08ffeaa69cbf1bc1defa2cc5ade2e331c18ebcd7a7407c4008819a22e6ac0b",
+    "sourceAbsent": true,
+    "modules": [
+      {
+        "file": "modules/animation/auto-rig.mjs",
+        "equal": true,
+        "sha256": "af698c58badc2c6a88d7959944945cdb628ac8412b4fc234910ea4faf37b21a1"
+      },
+      {
+        "file": "modules/animation/retarget-stage.mjs",
+        "equal": true,
+        "sha256": "09b4ab3788979f0f6a30dc83d2cbd80dbeb82c936c05febc995ed2e90991a6d8"
+      },
+      {
+        "file": "modules/animation/retarget.mjs",
+        "equal": true,
+        "sha256": "e53c45921d733951f4a136a189be8574a991fb4fc44505bf49f81b07010ee3b4"
+      },
+      {
+        "file": "modules/fx3d/adapter.mjs",
+        "equal": true,
+        "sha256": "796bc116c14a38aae717efa0aeac8040db09c4d8f9335b8d8a6e84b09f0990b1"
+      },
+      {
+        "file": "modules/fx3d/material.mjs",
+        "equal": true,
+        "sha256": "810fc554f85e6062888a8971c6d7ab07f72b7ee2e46c6546dff1e099464e9c87"
+      },
+      {
+        "file": "runtime/compositor.mjs",
+        "equal": true
+      }
+    ]
+  },
+  {
+    "name": "salute",
+    "revision": "3da05c4ff8f49c23956d7ba6669308aab3b304d3447578023585fe8caa94cedd",
+    "sourceAbsent": true,
+    "modules": [
+      {
+        "file": "modules/animation/auto-rig.mjs",
+        "equal": true,
+        "sha256": "af698c58badc2c6a88d7959944945cdb628ac8412b4fc234910ea4faf37b21a1"
+      },
+      {
+        "file": "modules/animation/retarget-stage.mjs",
+        "equal": true,
+        "sha256": "09b4ab3788979f0f6a30dc83d2cbd80dbeb82c936c05febc995ed2e90991a6d8"
+      },
+      {
+        "file": "modules/animation/retarget.mjs",
+        "equal": true,
+        "sha256": "e53c45921d733951f4a136a189be8574a991fb4fc44505bf49f81b07010ee3b4"
+      },
+      {
+        "file": "modules/fx3d/adapter.mjs",
+        "equal": true,
+        "sha256": "796bc116c14a38aae717efa0aeac8040db09c4d8f9335b8d8a6e84b09f0990b1"
+      },
+      {
+        "file": "modules/fx3d/material.mjs",
+        "equal": true,
+        "sha256": "810fc554f85e6062888a8971c6d7ab07f72b7ee2e46c6546dff1e099464e9c87"
+      },
+      {
+        "file": "runtime/compositor.mjs",
+        "equal": true
+      }
+    ]
+  }
+]

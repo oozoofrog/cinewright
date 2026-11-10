@@ -1,0 +1,25 @@
+{
+  "water": {
+    "valid": true,
+    "diffusionCFL": 0.9550884936470538,
+    "lossCFL": 0.9975440462585539,
+    "depositionCFL": 0.10401809052564204,
+    "lastSuccessful": {
+      "frame": 57,
+      "minWater": 9.4e-323,
+      "maxWater": 1.24e-322,
+      "mobileMin": 6.38168328688495e-10,
+      "mobileMax": 3.0652952991317034e-9
+    },
+    "failure": {
+      "frame": 58,
+      "error": "watercolor: negative pigment: reduce diffusion coefficients"
+    }
+  },
+  "inverseBind": {
+    "valid": true,
+    "factoryError": "auto-rig: stored inverse bind disagrees with rest hierarchy",
+    "published": "/Volumes/eyedisk/develop/cinewright/.direction/aesthetic-toolkit-phase02-2026-11-08/independent-review/repro-package-1794124467413",
+    "corruptUpdateReplacesValid": true
+  }
+}

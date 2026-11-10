@@ -1,0 +1,49 @@
+{
+  "verdict": "request changes",
+  "report": "docs/handoffs/2026-11-08-phase02-independent-review.md",
+  "reportSHA256": "4333ca712b718ab2b5f0185368144ca3e0fc6513172f55016cb1f6ff384d5ee7",
+  "implementationChanged": false,
+  "fullRegressionRerun": false,
+  "findings": [
+    {
+      "severity": "P2",
+      "title": "Accepted watercolor drying trajectory throws at frame 58"
+    },
+    {
+      "severity": "P2",
+      "title": "Rig-only materialization accepts corrupt inverse bind and replaces valid updates"
+    },
+    {
+      "severity": "P3",
+      "title": "Malformed contact windows silently disable correction"
+    },
+    {
+      "severity": "P3",
+      "title": "Direct Canvas default-context pixel determinism needs qualification"
+    },
+    {
+      "severity": "P2 acceptance evidence",
+      "title": "All supplied movies are 540p; contracted moving 1080p evidence absent"
+    }
+  ],
+  "tests": {
+    "waterTrajectories": 80,
+    "waterCompleted": 79,
+    "waterFailures": 1,
+    "IKRandomGeometryFixtures": 250,
+    "staticInferredSurfaces": 3,
+    "frozenDemos": 6,
+    "browserSizes": [
+      [
+        960,
+        540
+      ],
+      [
+        1920,
+        1080
+      ]
+    ],
+    "realVideoFullPlayback": 6
+  },
+  "gpuLockAbsent": true
+}

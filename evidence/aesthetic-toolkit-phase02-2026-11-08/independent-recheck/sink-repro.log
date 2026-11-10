@@ -1,0 +1,43 @@
+{
+  "actual": {
+    "water": [
+      1e-323,
+      0,
+      0,
+      0
+    ],
+    "mobile": [
+      [
+        1,
+        0,
+        0,
+        0
+      ]
+    ],
+    "deposited": [
+      [
+        0,
+        0,
+        0,
+        0
+      ]
+    ],
+    "totals": {
+      "waterInput": 1.5e-323,
+      "absorbed": 0,
+      "evaporated": 5e-324,
+      "pigmentInput": [
+        1
+      ]
+    }
+  },
+  "expected": {
+    "absorbed": 5e-324,
+    "evaporated": 0,
+    "remaining": 1e-323
+  },
+  "scan": {
+    "cases": 45,
+    "zeroEvaporationButNonzeroEvaporated": 17
+  }
+}

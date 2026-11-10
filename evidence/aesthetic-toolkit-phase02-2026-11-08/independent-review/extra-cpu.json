@@ -1,0 +1,134 @@
+[
+  {
+    "kind": "island",
+    "error": "auto-rig: connected surface required; found 2 welded components"
+  },
+  {
+    "kind": "closed-legs",
+    "error": "auto-rig: two separated legs/crotch could not be inferred"
+  },
+  {
+    "kind": "asymmetry",
+    "error": "auto-rig: arm asymmetry exceeds profile"
+  },
+  {
+    "kind": "no-profile",
+    "error": "auto-rig: explicit profile upright-biped required"
+  },
+  {
+    "kind": "cross-axis rest preservation",
+    "restError": 0
+  },
+  {
+    "kind": "cm->m / Y->Z root",
+    "rootMotion": "apply",
+    "scale": 0.01,
+    "actual": [
+      0,
+      1.4210854715202004e-16,
+      1.0000000000000002
+    ],
+    "expected": [
+      0,
+      2.220446049250313e-16,
+      1
+    ]
+  },
+  {
+    "kind": "cm->m / Y->Z root",
+    "rootMotion": "extract",
+    "scale": 0.01,
+    "actual": [
+      0,
+      1.4210854715202004e-16,
+      1.0000000000000002
+    ],
+    "expected": [
+      0,
+      2.220446049250313e-16,
+      1
+    ]
+  },
+  {
+    "kind": "cm->m / Y->Z root",
+    "rootMotion": "inPlace",
+    "scale": 0.01,
+    "actual": [
+      0,
+      1.4210854715202004e-16,
+      1.0000000000000002
+    ],
+    "expected": [
+      0,
+      2.220446049250313e-16,
+      1
+    ]
+  },
+  {
+    "kind": "all-bone world axis conjugation",
+    "maxAngle": 0
+  },
+  {
+    "kind": "unreachable/degenerate IK",
+    "target": [
+      0,
+      0,
+      0
+    ],
+    "knee": [
+      0.6902124615453723,
+      -0.723606770233307,
+      0
+    ],
+    "end": [
+      0,
+      -0.6069587615598715,
+      0
+    ],
+    "flexion": 2.5,
+    "unreachable": true,
+    "error": 0.6069587615598715
+  },
+  {
+    "kind": "unreachable/degenerate IK",
+    "target": [
+      20,
+      0,
+      0
+    ],
+    "knee": [
+      0.999152662419368,
+      0.04115771106716857,
+      0
+    ],
+    "end": [
+      1.697941645460537,
+      0,
+      0
+    ],
+    "flexion": 0.1,
+    "unreachable": true,
+    "error": 18.30205835453946
+  },
+  {
+    "kind": "unreachable/degenerate IK",
+    "target": [
+      0,
+      0.001,
+      0
+    ],
+    "knee": [
+      0.6902124615453723,
+      0.723606770233307,
+      0
+    ],
+    "end": [
+      0,
+      0.6069587615598715,
+      0
+    ],
+    "flexion": 2.5,
+    "unreachable": true,
+    "error": 0.6059587615598715
+  }
+]

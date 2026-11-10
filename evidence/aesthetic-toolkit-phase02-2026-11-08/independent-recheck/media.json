@@ -1,0 +1,1074 @@
+[
+  {
+    "name": "wet",
+    "revision": "0d49af7d9721b296c32d5a2d1404b4ae505b846af966b71e854f4653e27bd86a",
+    "job": "bfa00bd5-e237-43a7-b0d2-6d61d835d5cf",
+    "file": "/Volumes/eyedisk/develop/cinewright/.direction/aesthetic-toolkit-phase02-2026-11-08/fullhd/store/jobs/bfa00bd5-e237-43a7-b0d2-6d61d835d5cf/work.mp4",
+    "sha256": "b5c58eb9edfbb9dd6fd94520c78b9e0cba784b345c6b2790cb684fe952ca33f8",
+    "stream": {
+      "codec_name": "h264",
+      "width": 1920,
+      "height": 1080,
+      "pix_fmt": "yuv420p",
+      "r_frame_rate": "24/1",
+      "avg_frame_rate": "24/1",
+      "duration": "8.000000",
+      "nb_frames": "192",
+      "disposition": {
+        "default": 1,
+        "dub": 0,
+        "original": 0,
+        "comment": 0,
+        "lyrics": 0,
+        "karaoke": 0,
+        "forced": 0,
+        "hearing_impaired": 0,
+        "visual_impaired": 0,
+        "clean_effects": 0,
+        "attached_pic": 0,
+        "timed_thumbnails": 0,
+        "non_diegetic": 0,
+        "captions": 0,
+        "descriptions": 0,
+        "metadata": 0,
+        "dependent": 0,
+        "still_image": 0,
+        "multilayer": 0
+      },
+      "tags": {
+        "language": "und",
+        "handler_name": "VideoHandler",
+        "encoder": "Lavc63.1.102 libx264"
+      }
+    },
+    "decodedFrames": 192,
+    "maxPtsError": 3.33333333379926e-7,
+    "flash": {
+      "version": 1,
+      "file": "/Volumes/eyedisk/develop/cinewright/.direction/aesthetic-toolkit-phase02-2026-11-08/fullhd/store/jobs/bfa00bd5-e237-43a7-b0d2-6d61d835d5cf/work.mp4",
+      "fps": 24,
+      "resolution": [
+        160,
+        90
+      ],
+      "frames": 192,
+      "maxTransitionsInOneSecond": 0,
+      "flaggedWindows": 0,
+      "examples": [],
+      "status": "screen-negative",
+      "scope": "Every decoded CFR frame at 160x90; >=25% same-direction area, linear luminance delta >=0.10 (peak >=0.20) or saturated-red delta >=0.20; >=6 alternating transitions in a rolling second flags risk (both polarities retained for simultaneous opposing regions, at most one count per decoded transition).",
+      "limitations": [
+        "Not WCAG certification, medical advice, or a guarantee of safety.",
+        "Downscaling can miss small/local patterns; no spatial-frequency, visual-angle or display-luminance model.",
+        "Screen-negative is not safe; human accessibility review remains required."
+      ]
+    },
+    "seek": {
+      "size": [
+        1920,
+        1080
+      ],
+      "context": {
+        "alpha": true,
+        "colorSpace": "srgb",
+        "colorType": "unorm8",
+        "desynchronized": false,
+        "toneMapping": {
+          "mode": "standard"
+        },
+        "willReadFrequently": false
+      },
+      "ref": {
+        "0": "435fa48dedb5f016b44f9a40b6f177b3f7615abb9a7a7ccf16d6b2f16a2c9671",
+        "1": "435fa48dedb5f016b44f9a40b6f177b3f7615abb9a7a7ccf16d6b2f16a2c9671",
+        "7": "435fa48dedb5f016b44f9a40b6f177b3f7615abb9a7a7ccf16d6b2f16a2c9671",
+        "17": "435fa48dedb5f016b44f9a40b6f177b3f7615abb9a7a7ccf16d6b2f16a2c9671",
+        "23": "8c9df3c58188846026958a47cf5d6fe3a1b0453c76425d13f5f6385ac1473315",
+        "47": "17c13d864e15d98a919998d22fc3e6cd6a1c34e0e96e872f2a6901e15c3bb3fd",
+        "63": "e0f0bf149a74e4ead003b1af2b10f0ff43fc72ee29d002c887558e4469261078",
+        "95": "3b603394cee23eed5ba18efe5a091348c96761164fce775e3989aebd73da87b5",
+        "127": "492fb9ac0652c525e162dbfa30613b8413ed18109d02e3325df4b82855fed5f0",
+        "174": "247412653e223482fa1800bb620e199359e9f32ab32d5f56804f4d1f9d38d51b",
+        "191": "99e86b2082492cf9aa004578e42c2d5c310e91d1fb3c18b6d4d7e279d1ebf4c5"
+      },
+      "repeatedComparisons": 18,
+      "contexts": [
+        {
+          "kind": "HTMLCanvasElement",
+          "options": {
+            "willReadFrequently": false
+          }
+        },
+        {
+          "kind": "OffscreenCanvas",
+          "options": {
+            "willReadFrequently": false
+          }
+        },
+        {
+          "kind": "HTMLCanvasElement",
+          "options": null
+        }
+      ]
+    },
+    "playback": {
+      "width": 1920,
+      "height": 1080,
+      "duration": 8,
+      "ended": true,
+      "currentTime": 8,
+      "elapsed": 8.0435,
+      "timeupdates": 31,
+      "quality": {
+        "totalVideoFrames": 566,
+        "droppedVideoFrames": 0
+      },
+      "seeks": [
+        {
+          "requested": 7.94,
+          "actual": 7.94,
+          "readyState": 4
+        },
+        {
+          "requested": 0,
+          "actual": 0,
+          "readyState": 4
+        },
+        {
+          "requested": 2.625,
+          "actual": 2.625,
+          "readyState": 4
+        },
+        {
+          "requested": 4,
+          "actual": 4,
+          "readyState": 4
+        },
+        {
+          "requested": 0.292,
+          "actual": 0.292,
+          "readyState": 4
+        }
+      ],
+      "loopAt": 0.002419
+    },
+    "decodedVsCompositor": [
+      {
+        "frame": 0,
+        "meanAbsoluteRGB": 0.3333333333333333,
+        "psnr": 52.90201615587573,
+        "max": 1
+      },
+      {
+        "frame": 63,
+        "meanAbsoluteRGB": 0.41945216049382716,
+        "psnr": 50.46742736911494,
+        "max": 37
+      },
+      {
+        "frame": 191,
+        "meanAbsoluteRGB": 0.5094806134259259,
+        "psnr": 49.38821201152645,
+        "max": 27
+      }
+    ],
+    "pageErrors": [],
+    "localOnlyRequests": true
+  },
+  {
+    "name": "overlap",
+    "revision": "9f7f438ecb46456d79594660d67663d97721847edb43000ffdf119ed7060299d",
+    "job": "c13ee8b5-59c0-436c-98f1-45dbc173875f",
+    "file": "/Volumes/eyedisk/develop/cinewright/.direction/aesthetic-toolkit-phase02-2026-11-08/fullhd/store/jobs/c13ee8b5-59c0-436c-98f1-45dbc173875f/work.mp4",
+    "sha256": "ba297f484f3126a6e148faf21b081a92837c3a50574a76c71e5afd211028778c",
+    "stream": {
+      "codec_name": "h264",
+      "width": 1920,
+      "height": 1080,
+      "pix_fmt": "yuv420p",
+      "r_frame_rate": "24/1",
+      "avg_frame_rate": "24/1",
+      "duration": "8.000000",
+      "nb_frames": "192",
+      "disposition": {
+        "default": 1,
+        "dub": 0,
+        "original": 0,
+        "comment": 0,
+        "lyrics": 0,
+        "karaoke": 0,
+        "forced": 0,
+        "hearing_impaired": 0,
+        "visual_impaired": 0,
+        "clean_effects": 0,
+        "attached_pic": 0,
+        "timed_thumbnails": 0,
+        "non_diegetic": 0,
+        "captions": 0,
+        "descriptions": 0,
+        "metadata": 0,
+        "dependent": 0,
+        "still_image": 0,
+        "multilayer": 0
+      },
+      "tags": {
+        "language": "und",
+        "handler_name": "VideoHandler",
+        "encoder": "Lavc63.1.102 libx264"
+      }
+    },
+    "decodedFrames": 192,
+    "maxPtsError": 3.33333333379926e-7,
+    "flash": {
+      "version": 1,
+      "file": "/Volumes/eyedisk/develop/cinewright/.direction/aesthetic-toolkit-phase02-2026-11-08/fullhd/store/jobs/c13ee8b5-59c0-436c-98f1-45dbc173875f/work.mp4",
+      "fps": 24,
+      "resolution": [
+        160,
+        90
+      ],
+      "frames": 192,
+      "maxTransitionsInOneSecond": 0,
+      "flaggedWindows": 0,
+      "examples": [],
+      "status": "screen-negative",
+      "scope": "Every decoded CFR frame at 160x90; >=25% same-direction area, linear luminance delta >=0.10 (peak >=0.20) or saturated-red delta >=0.20; >=6 alternating transitions in a rolling second flags risk (both polarities retained for simultaneous opposing regions, at most one count per decoded transition).",
+      "limitations": [
+        "Not WCAG certification, medical advice, or a guarantee of safety.",
+        "Downscaling can miss small/local patterns; no spatial-frequency, visual-angle or display-luminance model.",
+        "Screen-negative is not safe; human accessibility review remains required."
+      ]
+    },
+    "seek": {
+      "size": [
+        1920,
+        1080
+      ],
+      "context": {
+        "alpha": true,
+        "colorSpace": "srgb",
+        "colorType": "unorm8",
+        "desynchronized": false,
+        "toneMapping": {
+          "mode": "standard"
+        },
+        "willReadFrequently": false
+      },
+      "ref": {
+        "0": "535c37853dea7a16d3cb60f32fa3b7ea3bb21204fab88df651812a1a3884ae16",
+        "1": "1d222df78161fa975a618f4ff5a67a1ea36e1062f4eb9469e1c7375e40f5a124",
+        "7": "74c81301bb78da56361bba9dc1c86db295333eacad23b829003ea4b9985414fd",
+        "17": "becb28a447d4a310032b149bc0ee12d202cd107aa827d54a102ce49dacc61740",
+        "23": "f8972c8e85d6ddf31f6999139d2385f73d3e640627dbfec74ccf69f0d6428091",
+        "47": "50127e02d2b2af29da586259402c65fb0126808bb9e40a5f67d62e697df40049",
+        "63": "77cb1a2e5b74d08eb52e0dde57652941219a2cb001ff78320fb54fb62add1b4e",
+        "95": "3374914bf0df14c93c5ebab214e443fcf9420226566a1c44478a857d6a5484d5",
+        "127": "6ad80cc2c8f4f28356c1f01e14193e9bff981002d52f123c2833f79a10050ec6",
+        "174": "65dabaed7a478cc8115e61209f8e132023fe237c6a1b1a9561a76ce79f74c806",
+        "191": "1d1880d2fde78704c6a2bc6d6f881d51cacd448efbea036a9df5e7adb0a2332d"
+      },
+      "repeatedComparisons": 18,
+      "contexts": [
+        {
+          "kind": "HTMLCanvasElement",
+          "options": {
+            "willReadFrequently": false
+          }
+        },
+        {
+          "kind": "OffscreenCanvas",
+          "options": {
+            "willReadFrequently": false
+          }
+        },
+        {
+          "kind": "HTMLCanvasElement",
+          "options": null
+        }
+      ]
+    },
+    "playback": {
+      "width": 1920,
+      "height": 1080,
+      "duration": 8,
+      "ended": true,
+      "currentTime": 8,
+      "elapsed": 8.0425,
+      "timeupdates": 31,
+      "quality": {
+        "totalVideoFrames": 566,
+        "droppedVideoFrames": 0
+      },
+      "seeks": [
+        {
+          "requested": 7.94,
+          "actual": 7.94,
+          "readyState": 4
+        },
+        {
+          "requested": 0,
+          "actual": 0,
+          "readyState": 4
+        },
+        {
+          "requested": 2.625,
+          "actual": 2.625,
+          "readyState": 4
+        },
+        {
+          "requested": 4,
+          "actual": 4,
+          "readyState": 4
+        },
+        {
+          "requested": 0.292,
+          "actual": 0.292,
+          "readyState": 4
+        }
+      ],
+      "loopAt": 0.005407
+    },
+    "decodedVsCompositor": [
+      {
+        "frame": 0,
+        "meanAbsoluteRGB": 0.3637210648148148,
+        "psnr": 51.23703721046929,
+        "max": 42
+      },
+      {
+        "frame": 63,
+        "meanAbsoluteRGB": 0.5743103780864197,
+        "psnr": 48.4698165033793,
+        "max": 24
+      },
+      {
+        "frame": 191,
+        "meanAbsoluteRGB": 0.671049704218107,
+        "psnr": 47.691764674516655,
+        "max": 23
+      }
+    ],
+    "pageErrors": [],
+    "localOnlyRequests": true
+  },
+  {
+    "name": "tall",
+    "revision": "97faf35a7b025042f8fe55092de467d1c4f4f06bd226af92474c01bcae11a1cb",
+    "job": "d4f706ac-2b7f-40ec-a1eb-d25ace2fca61",
+    "file": "/Volumes/eyedisk/develop/cinewright/.direction/aesthetic-toolkit-phase02-2026-11-08/fullhd/store/jobs/d4f706ac-2b7f-40ec-a1eb-d25ace2fca61/work.mp4",
+    "sha256": "a3aeb9bc47f9245179471347c8a5e9e10651f71f6a9a59910d6e694c9af22dbc",
+    "stream": {
+      "codec_name": "h264",
+      "width": 1920,
+      "height": 1080,
+      "pix_fmt": "yuv420p",
+      "r_frame_rate": "24/1",
+      "avg_frame_rate": "24/1",
+      "duration": "8.000000",
+      "nb_frames": "192",
+      "disposition": {
+        "default": 1,
+        "dub": 0,
+        "original": 0,
+        "comment": 0,
+        "lyrics": 0,
+        "karaoke": 0,
+        "forced": 0,
+        "hearing_impaired": 0,
+        "visual_impaired": 0,
+        "clean_effects": 0,
+        "attached_pic": 0,
+        "timed_thumbnails": 0,
+        "non_diegetic": 0,
+        "captions": 0,
+        "descriptions": 0,
+        "metadata": 0,
+        "dependent": 0,
+        "still_image": 0,
+        "multilayer": 0
+      },
+      "tags": {
+        "language": "und",
+        "handler_name": "VideoHandler",
+        "encoder": "Lavc63.1.102 libx264"
+      }
+    },
+    "decodedFrames": 192,
+    "maxPtsError": 3.33333333379926e-7,
+    "flash": {
+      "version": 1,
+      "file": "/Volumes/eyedisk/develop/cinewright/.direction/aesthetic-toolkit-phase02-2026-11-08/fullhd/store/jobs/d4f706ac-2b7f-40ec-a1eb-d25ace2fca61/work.mp4",
+      "fps": 24,
+      "resolution": [
+        160,
+        90
+      ],
+      "frames": 192,
+      "maxTransitionsInOneSecond": 0,
+      "flaggedWindows": 0,
+      "examples": [],
+      "status": "screen-negative",
+      "scope": "Every decoded CFR frame at 160x90; >=25% same-direction area, linear luminance delta >=0.10 (peak >=0.20) or saturated-red delta >=0.20; >=6 alternating transitions in a rolling second flags risk (both polarities retained for simultaneous opposing regions, at most one count per decoded transition).",
+      "limitations": [
+        "Not WCAG certification, medical advice, or a guarantee of safety.",
+        "Downscaling can miss small/local patterns; no spatial-frequency, visual-angle or display-luminance model.",
+        "Screen-negative is not safe; human accessibility review remains required."
+      ]
+    },
+    "seek": {
+      "size": [
+        1920,
+        1080
+      ],
+      "context": {
+        "alpha": true,
+        "colorSpace": "srgb",
+        "colorType": "unorm8",
+        "desynchronized": false,
+        "toneMapping": {
+          "mode": "standard"
+        },
+        "willReadFrequently": false
+      },
+      "ref": {
+        "0": "028db09706b8b6a782b9d3eb7e72fc9f008bcb63dfa7e066188958658ba0930a",
+        "1": "028db09706b8b6a782b9d3eb7e72fc9f008bcb63dfa7e066188958658ba0930a",
+        "7": "c7f2806b47e083edaeca2cf6547d1183c6146ad64a7ffa988e259ceb7b80a234",
+        "17": "ea5944451684cdd89f1527e7a0d6019a9f2dc6c2c2f9923238c4ff5f5027764f",
+        "23": "9493043824c854b861cfd974f3b731c63f352eb8be56743e94a7c357d89cfd2d",
+        "47": "afab27d0dd930254582ff40a105b992c97a13705136b832e56dc3bab408e3c46",
+        "63": "1dddfbe5d6c10465c29b900b16524e067b77865ae6de80f1fd3905020f5d94b9",
+        "95": "2f8aaf959e37a9e4340e7c8923d4ab5b15c496f9c5ce356699899a68dede1d62",
+        "127": "fd2cb13690adcca64fdc920a2b4e770c3be7c8ed51c1c5d14e92e98224f8d810",
+        "174": "c5cd379330f0798fc96bb5db10c3e11dcb37f3721c1765f02675adadb310f8f9",
+        "191": "2f8aaf959e37a9e4340e7c8923d4ab5b15c496f9c5ce356699899a68dede1d62"
+      },
+      "repeatedComparisons": 18,
+      "contexts": [
+        {
+          "kind": "HTMLCanvasElement",
+          "options": {
+            "willReadFrequently": false
+          }
+        },
+        {
+          "kind": "OffscreenCanvas",
+          "options": {
+            "willReadFrequently": false
+          }
+        },
+        {
+          "kind": "OffscreenCanvas",
+          "options": null
+        },
+        {
+          "kind": "HTMLCanvasElement",
+          "options": null
+        }
+      ]
+    },
+    "playback": {
+      "width": 1920,
+      "height": 1080,
+      "duration": 8,
+      "ended": true,
+      "currentTime": 8,
+      "elapsed": 8.041899999976158,
+      "timeupdates": 31,
+      "quality": {
+        "totalVideoFrames": 566,
+        "droppedVideoFrames": 0
+      },
+      "seeks": [
+        {
+          "requested": 7.94,
+          "actual": 7.94,
+          "readyState": 4
+        },
+        {
+          "requested": 0,
+          "actual": 0,
+          "readyState": 4
+        },
+        {
+          "requested": 2.625,
+          "actual": 2.625,
+          "readyState": 4
+        },
+        {
+          "requested": 4,
+          "actual": 4,
+          "readyState": 4
+        },
+        {
+          "requested": 0.292,
+          "actual": 0.292,
+          "readyState": 4
+        }
+      ],
+      "loopAt": 0.002351
+    },
+    "decodedVsCompositor": [
+      {
+        "frame": 0,
+        "meanAbsoluteRGB": 0.4590977044753086,
+        "psnr": 47.11569092273186,
+        "max": 60
+      },
+      {
+        "frame": 63,
+        "meanAbsoluteRGB": 0.46476916152263376,
+        "psnr": 46.901269325359195,
+        "max": 41
+      },
+      {
+        "frame": 191,
+        "meanAbsoluteRGB": 0.47925331147119343,
+        "psnr": 46.405091189139824,
+        "max": 56
+      }
+    ],
+    "pageErrors": [],
+    "localOnlyRequests": true
+  },
+  {
+    "name": "broad",
+    "revision": "e289d9c8840eff687a510c7daef2eff1a8eed9c3f2ac162253a0a80bd78368ae",
+    "job": "298b7180-cd24-4101-a1d2-0f79621eb87f",
+    "file": "/Volumes/eyedisk/develop/cinewright/.direction/aesthetic-toolkit-phase02-2026-11-08/fullhd/store/jobs/298b7180-cd24-4101-a1d2-0f79621eb87f/work.mp4",
+    "sha256": "d0db4091643c4af36d37bf6767ac9fb7a6a07fb0eb43974cfaacd88bfea1093a",
+    "stream": {
+      "codec_name": "h264",
+      "width": 1920,
+      "height": 1080,
+      "pix_fmt": "yuv420p",
+      "r_frame_rate": "24/1",
+      "avg_frame_rate": "24/1",
+      "duration": "8.000000",
+      "nb_frames": "192",
+      "disposition": {
+        "default": 1,
+        "dub": 0,
+        "original": 0,
+        "comment": 0,
+        "lyrics": 0,
+        "karaoke": 0,
+        "forced": 0,
+        "hearing_impaired": 0,
+        "visual_impaired": 0,
+        "clean_effects": 0,
+        "attached_pic": 0,
+        "timed_thumbnails": 0,
+        "non_diegetic": 0,
+        "captions": 0,
+        "descriptions": 0,
+        "metadata": 0,
+        "dependent": 0,
+        "still_image": 0,
+        "multilayer": 0
+      },
+      "tags": {
+        "language": "und",
+        "handler_name": "VideoHandler",
+        "encoder": "Lavc63.1.102 libx264"
+      }
+    },
+    "decodedFrames": 192,
+    "maxPtsError": 3.33333333379926e-7,
+    "flash": {
+      "version": 1,
+      "file": "/Volumes/eyedisk/develop/cinewright/.direction/aesthetic-toolkit-phase02-2026-11-08/fullhd/store/jobs/298b7180-cd24-4101-a1d2-0f79621eb87f/work.mp4",
+      "fps": 24,
+      "resolution": [
+        160,
+        90
+      ],
+      "frames": 192,
+      "maxTransitionsInOneSecond": 0,
+      "flaggedWindows": 0,
+      "examples": [],
+      "status": "screen-negative",
+      "scope": "Every decoded CFR frame at 160x90; >=25% same-direction area, linear luminance delta >=0.10 (peak >=0.20) or saturated-red delta >=0.20; >=6 alternating transitions in a rolling second flags risk (both polarities retained for simultaneous opposing regions, at most one count per decoded transition).",
+      "limitations": [
+        "Not WCAG certification, medical advice, or a guarantee of safety.",
+        "Downscaling can miss small/local patterns; no spatial-frequency, visual-angle or display-luminance model.",
+        "Screen-negative is not safe; human accessibility review remains required."
+      ]
+    },
+    "seek": {
+      "size": [
+        1920,
+        1080
+      ],
+      "context": {
+        "alpha": true,
+        "colorSpace": "srgb",
+        "colorType": "unorm8",
+        "desynchronized": false,
+        "toneMapping": {
+          "mode": "standard"
+        },
+        "willReadFrequently": false
+      },
+      "ref": {
+        "0": "58537d8030da375de2855ec691b6f02968dd153f20e5ed0bcdeeb4fb044dbe8c",
+        "1": "58537d8030da375de2855ec691b6f02968dd153f20e5ed0bcdeeb4fb044dbe8c",
+        "7": "c56b0596a89d335bff524c74d5a6641971c0382d6ea02fd096cbf44f8d8aa681",
+        "17": "7eb8341000ab590877c49d386e9636351375d6c04dd0a3e4c4d4f9dd4c1115f9",
+        "23": "b5b00942938f192b7b03727547c9f65c1bd47fe8448e09f7743ae94677ee940b",
+        "47": "77d2a147db298d1dc8b0b21aa365153246044c1b544a6108b9c6c2012b51fddb",
+        "63": "c38fe757ead8e0d38fc75e4b9d34e94160e5b09f1d07816f1bd5a26e51986d24",
+        "95": "80ba6b9f50f4cb3f0ccc32845191123f5a9fc6f1791cf331faf059b494fe5a7e",
+        "127": "27e7d631ad7634cf4d5430a72bb7f71bbae323c2f04e838a9a8f8d29a98862de",
+        "174": "ea25287e11cfa5b53079a1ef8ae8ef9bef549384c02573c77928596aab61b636",
+        "191": "80ba6b9f50f4cb3f0ccc32845191123f5a9fc6f1791cf331faf059b494fe5a7e"
+      },
+      "repeatedComparisons": 18,
+      "contexts": [
+        {
+          "kind": "HTMLCanvasElement",
+          "options": {
+            "willReadFrequently": false
+          }
+        },
+        {
+          "kind": "OffscreenCanvas",
+          "options": {
+            "willReadFrequently": false
+          }
+        },
+        {
+          "kind": "OffscreenCanvas",
+          "options": null
+        },
+        {
+          "kind": "HTMLCanvasElement",
+          "options": null
+        }
+      ]
+    },
+    "playback": {
+      "width": 1920,
+      "height": 1080,
+      "duration": 8,
+      "ended": true,
+      "currentTime": 8,
+      "elapsed": 8.043600000023842,
+      "timeupdates": 31,
+      "quality": {
+        "totalVideoFrames": 566,
+        "droppedVideoFrames": 0
+      },
+      "seeks": [
+        {
+          "requested": 7.94,
+          "actual": 7.94,
+          "readyState": 4
+        },
+        {
+          "requested": 0,
+          "actual": 0,
+          "readyState": 4
+        },
+        {
+          "requested": 2.625,
+          "actual": 2.625,
+          "readyState": 4
+        },
+        {
+          "requested": 4,
+          "actual": 4,
+          "readyState": 4
+        },
+        {
+          "requested": 0.292,
+          "actual": 0.292,
+          "readyState": 4
+        }
+      ],
+      "loopAt": 0.002254
+    },
+    "decodedVsCompositor": [
+      {
+        "frame": 0,
+        "meanAbsoluteRGB": 0.5268327224794239,
+        "psnr": 45.08225052624712,
+        "max": 61
+      },
+      {
+        "frame": 63,
+        "meanAbsoluteRGB": 0.5511315264917696,
+        "psnr": 44.623129494356974,
+        "max": 53
+      },
+      {
+        "frame": 191,
+        "meanAbsoluteRGB": 0.5846378279320987,
+        "psnr": 43.8363092694074,
+        "max": 75
+      }
+    ],
+    "pageErrors": [],
+    "localOnlyRequests": true
+  },
+  {
+    "name": "stride",
+    "revision": "6c08ffeaa69cbf1bc1defa2cc5ade2e331c18ebcd7a7407c4008819a22e6ac0b",
+    "job": "a24bb8c5-65d3-4db4-8fa5-66d329016c57",
+    "file": "/Volumes/eyedisk/develop/cinewright/.direction/aesthetic-toolkit-phase02-2026-11-08/fullhd/store/jobs/a24bb8c5-65d3-4db4-8fa5-66d329016c57/work.mp4",
+    "sha256": "9b2cdcebad5699708f69de7e34a24e5bd05152f1c1c94b8b9856fcdbda3101b5",
+    "stream": {
+      "codec_name": "h264",
+      "width": 1920,
+      "height": 1080,
+      "pix_fmt": "yuv420p",
+      "r_frame_rate": "24/1",
+      "avg_frame_rate": "24/1",
+      "duration": "8.000000",
+      "nb_frames": "192",
+      "disposition": {
+        "default": 1,
+        "dub": 0,
+        "original": 0,
+        "comment": 0,
+        "lyrics": 0,
+        "karaoke": 0,
+        "forced": 0,
+        "hearing_impaired": 0,
+        "visual_impaired": 0,
+        "clean_effects": 0,
+        "attached_pic": 0,
+        "timed_thumbnails": 0,
+        "non_diegetic": 0,
+        "captions": 0,
+        "descriptions": 0,
+        "metadata": 0,
+        "dependent": 0,
+        "still_image": 0,
+        "multilayer": 0
+      },
+      "tags": {
+        "language": "und",
+        "handler_name": "VideoHandler",
+        "encoder": "Lavc63.1.102 libx264"
+      }
+    },
+    "decodedFrames": 192,
+    "maxPtsError": 3.33333333379926e-7,
+    "flash": {
+      "version": 1,
+      "file": "/Volumes/eyedisk/develop/cinewright/.direction/aesthetic-toolkit-phase02-2026-11-08/fullhd/store/jobs/a24bb8c5-65d3-4db4-8fa5-66d329016c57/work.mp4",
+      "fps": 24,
+      "resolution": [
+        160,
+        90
+      ],
+      "frames": 192,
+      "maxTransitionsInOneSecond": 0,
+      "flaggedWindows": 0,
+      "examples": [],
+      "status": "screen-negative",
+      "scope": "Every decoded CFR frame at 160x90; >=25% same-direction area, linear luminance delta >=0.10 (peak >=0.20) or saturated-red delta >=0.20; >=6 alternating transitions in a rolling second flags risk (both polarities retained for simultaneous opposing regions, at most one count per decoded transition).",
+      "limitations": [
+        "Not WCAG certification, medical advice, or a guarantee of safety.",
+        "Downscaling can miss small/local patterns; no spatial-frequency, visual-angle or display-luminance model.",
+        "Screen-negative is not safe; human accessibility review remains required."
+      ]
+    },
+    "seek": {
+      "size": [
+        1920,
+        1080
+      ],
+      "context": {
+        "alpha": true,
+        "colorSpace": "srgb",
+        "colorType": "unorm8",
+        "desynchronized": false,
+        "toneMapping": {
+          "mode": "standard"
+        },
+        "willReadFrequently": false
+      },
+      "ref": {
+        "0": "0e3e93d8a8e31919c8d1c311da6657d5beab54ba03a0b3079bd489ba5ce9fd92",
+        "1": "b6276c6d500cc280ad9e2583647080a4f32d6ff270f1783c6dc3669327820e8e",
+        "7": "a3242482ef1cecbbb05f767208782f40f07a72704d2cf165000e870b1fb6c170",
+        "17": "67603e38a80a45234f41b16668921dbd5e9a824cd2daffe2173ed2895e703230",
+        "23": "c3f91ffb535ccab15a10c09838abc5928333400b54ed396d823ad2615629f357",
+        "47": "10d9f82b1562b7680fb5d0c2c25c23fbd18237b1636dc3983d2c0654c099b355",
+        "63": "ae5035f6caaed4d3485be512f12e729b6ae6e1b2d8a069ba8a789b6f0f9b0692",
+        "95": "ecdb3112763a76af492483e4fbddd73d99350bd6fb34440b5a02fc6113ec41e3",
+        "127": "18f3e09535c6a15b6fd1bfbcec06cf2fc7dc4d6e930229360405b55d246cc21f",
+        "174": "bc9d4a1272227c960b29a370ee8a0c0fd8f96705df874cc919e7a314fe0ff67f",
+        "191": "2cd224755fa9886673519ab73079634e50b96c7af77cdd6ed535774b956e07d2"
+      },
+      "repeatedComparisons": 18,
+      "contexts": [
+        {
+          "kind": "HTMLCanvasElement",
+          "options": {
+            "willReadFrequently": false
+          }
+        },
+        {
+          "kind": "OffscreenCanvas",
+          "options": {
+            "willReadFrequently": false
+          }
+        },
+        {
+          "kind": "OffscreenCanvas",
+          "options": null
+        },
+        {
+          "kind": "HTMLCanvasElement",
+          "options": null
+        }
+      ]
+    },
+    "playback": {
+      "width": 1920,
+      "height": 1080,
+      "duration": 8,
+      "ended": true,
+      "currentTime": 8,
+      "elapsed": 8.0435,
+      "timeupdates": 31,
+      "quality": {
+        "totalVideoFrames": 566,
+        "droppedVideoFrames": 0
+      },
+      "seeks": [
+        {
+          "requested": 7.94,
+          "actual": 7.94,
+          "readyState": 4
+        },
+        {
+          "requested": 0,
+          "actual": 0,
+          "readyState": 4
+        },
+        {
+          "requested": 2.625,
+          "actual": 2.625,
+          "readyState": 4
+        },
+        {
+          "requested": 4,
+          "actual": 4,
+          "readyState": 4
+        },
+        {
+          "requested": 0.292,
+          "actual": 0.292,
+          "readyState": 4
+        }
+      ],
+      "loopAt": 0.00465
+    },
+    "decodedVsCompositor": [
+      {
+        "frame": 0,
+        "meanAbsoluteRGB": 0.8377981931584362,
+        "psnr": 45.46901757287357,
+        "max": 61
+      },
+      {
+        "frame": 63,
+        "meanAbsoluteRGB": 0.8812935635288066,
+        "psnr": 44.27769845778382,
+        "max": 52
+      },
+      {
+        "frame": 191,
+        "meanAbsoluteRGB": 0.8897201324588477,
+        "psnr": 44.22730348165508,
+        "max": 56
+      }
+    ],
+    "pageErrors": [],
+    "localOnlyRequests": true
+  },
+  {
+    "name": "salute",
+    "revision": "3da05c4ff8f49c23956d7ba6669308aab3b304d3447578023585fe8caa94cedd",
+    "job": "a1c96d56-d09b-4b45-a448-3c2ecf9951cb",
+    "file": "/Volumes/eyedisk/develop/cinewright/.direction/aesthetic-toolkit-phase02-2026-11-08/fullhd/store/jobs/a1c96d56-d09b-4b45-a448-3c2ecf9951cb/work.mp4",
+    "sha256": "fd14a4abd1f4fb32ef61f5ade3c7dcfdb228c40f361a83950f2f8d16323c65e6",
+    "stream": {
+      "codec_name": "h264",
+      "width": 1920,
+      "height": 1080,
+      "pix_fmt": "yuv420p",
+      "r_frame_rate": "24/1",
+      "avg_frame_rate": "24/1",
+      "duration": "9.000000",
+      "nb_frames": "216",
+      "disposition": {
+        "default": 1,
+        "dub": 0,
+        "original": 0,
+        "comment": 0,
+        "lyrics": 0,
+        "karaoke": 0,
+        "forced": 0,
+        "hearing_impaired": 0,
+        "visual_impaired": 0,
+        "clean_effects": 0,
+        "attached_pic": 0,
+        "timed_thumbnails": 0,
+        "non_diegetic": 0,
+        "captions": 0,
+        "descriptions": 0,
+        "metadata": 0,
+        "dependent": 0,
+        "still_image": 0,
+        "multilayer": 0
+      },
+      "tags": {
+        "language": "und",
+        "handler_name": "VideoHandler",
+        "encoder": "Lavc63.1.102 libx264"
+      }
+    },
+    "decodedFrames": 216,
+    "maxPtsError": 3.333333342681044e-7,
+    "flash": {
+      "version": 1,
+      "file": "/Volumes/eyedisk/develop/cinewright/.direction/aesthetic-toolkit-phase02-2026-11-08/fullhd/store/jobs/a1c96d56-d09b-4b45-a448-3c2ecf9951cb/work.mp4",
+      "fps": 24,
+      "resolution": [
+        160,
+        90
+      ],
+      "frames": 216,
+      "maxTransitionsInOneSecond": 0,
+      "flaggedWindows": 0,
+      "examples": [],
+      "status": "screen-negative",
+      "scope": "Every decoded CFR frame at 160x90; >=25% same-direction area, linear luminance delta >=0.10 (peak >=0.20) or saturated-red delta >=0.20; >=6 alternating transitions in a rolling second flags risk (both polarities retained for simultaneous opposing regions, at most one count per decoded transition).",
+      "limitations": [
+        "Not WCAG certification, medical advice, or a guarantee of safety.",
+        "Downscaling can miss small/local patterns; no spatial-frequency, visual-angle or display-luminance model.",
+        "Screen-negative is not safe; human accessibility review remains required."
+      ]
+    },
+    "seek": {
+      "size": [
+        1920,
+        1080
+      ],
+      "context": {
+        "alpha": true,
+        "colorSpace": "srgb",
+        "colorType": "unorm8",
+        "desynchronized": false,
+        "toneMapping": {
+          "mode": "standard"
+        },
+        "willReadFrequently": false
+      },
+      "ref": {
+        "0": "fa64ff71a9c2f2eac7873d33850d15735c2c176df7b9997e4750a4814ff1db68",
+        "1": "84853fcbd05bd5316d763c376a942694bc52d6838090670a1cb7c8a30e7f9fe3",
+        "7": "ab9e9a50dbb7052fc8cbc182628f6b7c77c52f238d21498bb54221823cb3a206",
+        "17": "a73654673afbfbcef7596019e7650a171fbd489fe46ca338582430500badd2e8",
+        "23": "7db6b4a713db99bdaff48e3e8f3f6fd5a5c33b91bebf39ddca28685d26d9bceb",
+        "47": "f5c63c3d626ed81326eabbdf99b71b795ada5c8e8a26d1e0353c31add07b33cf",
+        "63": "b56e47f171551b0d632c7ad1b15ca722826de5ba4250f65a8595c3049d16d57a",
+        "95": "879549b749ea8ad7644293ddc31aa7aeb0812592e598d1fc212ef2ee430239ea",
+        "127": "c6c60e94b5d782cdd29ee7baec54845b2beefd894f8d14076a28640ba304dbd1",
+        "174": "01fdcff3a221e0d6a51e17550fab7c0b0a46e8cb78f5dbe85c9af24fada952fc",
+        "215": "0833ffc5d05a251a86811df6276a4318d53ed77c4662b8039f3fb4d9697372d0"
+      },
+      "repeatedComparisons": 18,
+      "contexts": [
+        {
+          "kind": "HTMLCanvasElement",
+          "options": {
+            "willReadFrequently": false
+          }
+        },
+        {
+          "kind": "OffscreenCanvas",
+          "options": {
+            "willReadFrequently": false
+          }
+        },
+        {
+          "kind": "OffscreenCanvas",
+          "options": null
+        },
+        {
+          "kind": "HTMLCanvasElement",
+          "options": null
+        }
+      ]
+    },
+    "playback": {
+      "width": 1920,
+      "height": 1080,
+      "duration": 9,
+      "ended": true,
+      "currentTime": 9,
+      "elapsed": 9.043300000071525,
+      "timeupdates": 35,
+      "quality": {
+        "totalVideoFrames": 626,
+        "droppedVideoFrames": 0
+      },
+      "seeks": [
+        {
+          "requested": 8.94,
+          "actual": 8.94,
+          "readyState": 4
+        },
+        {
+          "requested": 0,
+          "actual": 0,
+          "readyState": 4
+        },
+        {
+          "requested": 2.625,
+          "actual": 2.625,
+          "readyState": 4
+        },
+        {
+          "requested": 4.5,
+          "actual": 4.5,
+          "readyState": 4
+        },
+        {
+          "requested": 0.292,
+          "actual": 0.292,
+          "readyState": 4
+        }
+      ],
+      "loopAt": 0.002377
+    },
+    "decodedVsCompositor": [
+      {
+        "frame": 0,
+        "meanAbsoluteRGB": 0.9542338605967078,
+        "psnr": 45.111459688609,
+        "max": 62
+      },
+      {
+        "frame": 63,
+        "meanAbsoluteRGB": 1.002856706532922,
+        "psnr": 43.888709477524884,
+        "max": 57
+      },
+      {
+        "frame": 215,
+        "meanAbsoluteRGB": 1.0225135030864199,
+        "psnr": 43.696612712886434,
+        "max": 63
+      }
+    ],
+    "pageErrors": [],
+    "localOnlyRequests": true
+  }
+]

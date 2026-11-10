@@ -1,0 +1,47 @@
+{
+  "requests": [
+    "/",
+    "/runtime/style.css",
+    "/runtime/player.mjs",
+    "/audio.wav",
+    "/runtime/compositor.mjs",
+    "/runtime/timeline.mjs",
+    "/project/work.json",
+    "/project/modules/styles/watercolor-physical/index.mjs",
+    "/project/modules/styles/line-wash/index.mjs",
+    "/project/modules/fx2d/watercolor.mjs",
+    "/project/modules/fx2d/stroke.mjs",
+    "/project/modules/fx2d/brush.mjs",
+    "/project/modules/fx2d/wash.mjs",
+    "/project/modules/fx2d/hatch.mjs",
+    "/project/modules/fx2d/redraw.mjs",
+    "/project/modules/fx2d/erase.mjs",
+    "/project/modules/animation/exposure.mjs",
+    "/project/assets/watercolor.json",
+    "/revision",
+    "/project/assets/watercolor.json"
+  ],
+  "benchmark": [
+    {
+      "frame": 48,
+      "physicalMs": 0.09999999403953552,
+      "polygonMs": 0.01666667064030965,
+      "physicalSupport": 67824,
+      "polygonSupport": 12176
+    },
+    {
+      "frame": 96,
+      "physicalMs": 0.20833333333333334,
+      "polygonMs": 0.008333335320154825,
+      "physicalSupport": 120320,
+      "polygonSupport": 12148
+    },
+    {
+      "frame": 191,
+      "physicalMs": 0.3000000019868215,
+      "polygonMs": 0.008333335320154825,
+      "physicalSupport": 185023,
+      "polygonSupport": 12148
+    }
+  ]
+}

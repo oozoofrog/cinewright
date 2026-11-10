@@ -1,0 +1,65 @@
+{
+  "scope": "Automated native Chromium video decode/play/seek/loop observation; no human continuous viewing or acceptance.",
+  "rows": [
+    {
+      "file": "/Volumes/eyedisk/develop/cinewright/.direction/aesthetic-toolkit-phase02-2026-11-08/coordinator/store/jobs/c3f02bc3-84f6-4ad7-979b-926c287fcd79/work.mp4",
+      "duration": 8,
+      "width": 960,
+      "height": 540,
+      "advanced": 0.072305,
+      "sought": 7.5,
+      "loopTime": 0,
+      "decodedFrames": 386
+    },
+    {
+      "file": "/Volumes/eyedisk/develop/cinewright/.direction/aesthetic-toolkit-phase02-2026-11-08/coordinator/store/jobs/a893cf8d-dff1-4c1d-8e2c-d2f3a1993c38/work.mp4",
+      "duration": 8,
+      "width": 960,
+      "height": 540,
+      "advanced": 0.097182,
+      "sought": 7.5,
+      "loopTime": 0.008244,
+      "decodedFrames": 391
+    },
+    {
+      "file": ".direction/aesthetic-toolkit-phase02-2026-11-08/watercolor/jobs/5b6d5be4-3f4d-44e8-a096-2a2cf73a038d/work.mp4",
+      "duration": 8,
+      "width": 960,
+      "height": 540,
+      "advanced": 0.101043,
+      "sought": 7.5,
+      "loopTime": 0.008011,
+      "decodedFrames": 391
+    },
+    {
+      "file": ".direction/aesthetic-toolkit-phase02-2026-11-08/watercolor/jobs/78c4e486-b6da-469a-97b3-668115bdb9ce/work.mp4",
+      "duration": 8,
+      "width": 960,
+      "height": 540,
+      "advanced": 0.05483,
+      "sought": 7.5,
+      "loopTime": 0,
+      "decodedFrames": 385
+    },
+    {
+      "file": "evidence/aesthetic-toolkit-phase02-2026-11-08/retarget/stride.mp4",
+      "duration": 8,
+      "width": 960,
+      "height": 540,
+      "advanced": 0.05219,
+      "sought": 7.5,
+      "loopTime": 0,
+      "decodedFrames": 385
+    },
+    {
+      "file": "evidence/aesthetic-toolkit-phase02-2026-11-08/retarget/salute.mp4",
+      "duration": 9,
+      "width": 960,
+      "height": 540,
+      "advanced": 0.054767,
+      "sought": 8.5,
+      "loopTime": 0,
+      "decodedFrames": 433
+    }
+  ]
+}

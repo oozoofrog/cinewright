@@ -1,0 +1,2251 @@
+{
+  "water": [
+    {
+      "label": "exact prior failing frame58",
+      "frames": 60,
+      "min": 0,
+      "maxBalance": 1.0658141036401503e-14,
+      "finalWater": 0,
+      "absorbed": 4.074330367613583,
+      "evaporated": 12.925669632386407
+    },
+    {
+      "label": "threshold 0",
+      "frames": 40,
+      "min": 0,
+      "maxBalance": 1.3322676295501878e-15,
+      "finalWater": 0,
+      "absorbed": 0,
+      "evaporated": 0
+    },
+    {
+      "label": "threshold sinks 0/1/0",
+      "frames": 40,
+      "min": 0,
+      "maxBalance": 1.3322676295501878e-15,
+      "finalWater": 0,
+      "absorbed": 0,
+      "evaporated": 0
+    },
+    {
+      "label": "threshold sinks 0/0/1",
+      "frames": 40,
+      "min": 0,
+      "maxBalance": 1.3322676295501878e-15,
+      "finalWater": 0,
+      "absorbed": 0,
+      "evaporated": 0
+    },
+    {
+      "label": "threshold sinks 0/0.37/0.63",
+      "frames": 40,
+      "min": 0,
+      "maxBalance": 1.3322676295501878e-15,
+      "finalWater": 0,
+      "absorbed": 0,
+      "evaporated": 0
+    },
+    {
+      "label": "threshold sinks 0/0.21/0.34",
+      "frames": 40,
+      "min": 0,
+      "maxBalance": 1.3322676295501878e-15,
+      "finalWater": 0,
+      "absorbed": 0,
+      "evaporated": 0
+    },
+    {
+      "label": "threshold 5e-324",
+      "frames": 40,
+      "min": 0,
+      "maxBalance": 1.3322676295501878e-15,
+      "finalWater": 5e-324,
+      "absorbed": 0,
+      "evaporated": 0
+    },
+    {
+      "label": "threshold sinks 5e-324/1/0",
+      "frames": 40,
+      "min": 0,
+      "maxBalance": 1.3322676295501878e-15,
+      "finalWater": 0,
+      "absorbed": 5e-324,
+      "evaporated": 0
+    },
+    {
+      "label": "threshold sinks 5e-324/0/1",
+      "frames": 40,
+      "min": 0,
+      "maxBalance": 1.3322676295501878e-15,
+      "finalWater": 0,
+      "absorbed": 0,
+      "evaporated": 5e-324
+    },
+    {
+      "label": "threshold sinks 5e-324/0.37/0.63",
+      "frames": 40,
+      "min": 0,
+      "maxBalance": 1.3322676295501878e-15,
+      "finalWater": 0,
+      "absorbed": 0,
+      "evaporated": 5e-324
+    },
+    {
+      "label": "threshold sinks 5e-324/0.21/0.34",
+      "frames": 40,
+      "min": 0,
+      "maxBalance": 1.3322676295501878e-15,
+      "finalWater": 0,
+      "absorbed": 0,
+      "evaporated": 5e-324
+    },
+    {
+      "label": "threshold 1.5e-323",
+      "frames": 40,
+      "min": 0,
+      "maxBalance": 1.3322676295501878e-15,
+      "finalWater": 1.5e-323,
+      "absorbed": 0,
+      "evaporated": 0
+    },
+    {
+      "label": "threshold sinks 1.5e-323/1/0",
+      "frames": 40,
+      "min": 0,
+      "maxBalance": 1.3322676295501878e-15,
+      "finalWater": 0,
+      "absorbed": 1.5e-323,
+      "evaporated": 0
+    },
+    {
+      "label": "threshold sinks 1.5e-323/0/1",
+      "frames": 40,
+      "min": 0,
+      "maxBalance": 1.3322676295501878e-15,
+      "finalWater": 0,
+      "absorbed": 0,
+      "evaporated": 1.5e-323
+    },
+    {
+      "label": "threshold sinks 1.5e-323/0.37/0.63",
+      "frames": 40,
+      "min": 0,
+      "maxBalance": 1.3322676295501878e-15,
+      "finalWater": 0,
+      "absorbed": 5e-324,
+      "evaporated": 1e-323
+    },
+    {
+      "label": "threshold sinks 1.5e-323/0.21/0.34",
+      "frames": 40,
+      "min": 0,
+      "maxBalance": 1.3322676295501878e-15,
+      "finalWater": 0,
+      "absorbed": 0,
+      "evaporated": 1.5e-323
+    },
+    {
+      "label": "threshold 1.1125369292536007e-308",
+      "frames": 40,
+      "min": 0,
+      "maxBalance": 1.3322676295501878e-15,
+      "finalWater": 1.1125369292536007e-308,
+      "absorbed": 0,
+      "evaporated": 0
+    },
+    {
+      "label": "threshold sinks 1.1125369292536007e-308/1/0",
+      "frames": 40,
+      "min": 0,
+      "maxBalance": 1.3322676295501878e-15,
+      "finalWater": 0,
+      "absorbed": 1.1125369292536007e-308,
+      "evaporated": 0
+    },
+    {
+      "label": "threshold sinks 1.1125369292536007e-308/0/1",
+      "frames": 40,
+      "min": 0,
+      "maxBalance": 1.3322676295501878e-15,
+      "finalWater": 0,
+      "absorbed": 0,
+      "evaporated": 1.1125369292536007e-308
+    },
+    {
+      "label": "threshold sinks 1.1125369292536007e-308/0.37/0.63",
+      "frames": 40,
+      "min": 0,
+      "maxBalance": 1.3322676295501878e-15,
+      "finalWater": 0,
+      "absorbed": 4.116386638238324e-309,
+      "evaporated": 7.008982654297683e-309
+    },
+    {
+      "label": "threshold sinks 1.1125369292536007e-308/0.21/0.34",
+      "frames": 40,
+      "min": 0,
+      "maxBalance": 1.3322676295501878e-15,
+      "finalWater": 1.5e-322,
+      "absorbed": 4.24786827533187e-309,
+      "evaporated": 6.87750101720399e-309
+    },
+    {
+      "label": "threshold 2.225073858507201e-308",
+      "frames": 40,
+      "min": 0,
+      "maxBalance": 1.3322676295501878e-15,
+      "finalWater": 2.225073858507201e-308,
+      "absorbed": 0,
+      "evaporated": 0
+    },
+    {
+      "label": "threshold sinks 2.225073858507201e-308/1/0",
+      "frames": 40,
+      "min": 0,
+      "maxBalance": 1.3322676295501878e-15,
+      "finalWater": 0,
+      "absorbed": 2.225073858507201e-308,
+      "evaporated": 0
+    },
+    {
+      "label": "threshold sinks 2.225073858507201e-308/0/1",
+      "frames": 40,
+      "min": 0,
+      "maxBalance": 1.3322676295501878e-15,
+      "finalWater": 0,
+      "absorbed": 0,
+      "evaporated": 2.225073858507201e-308
+    },
+    {
+      "label": "threshold sinks 2.225073858507201e-308/0.37/0.63",
+      "frames": 40,
+      "min": 0,
+      "maxBalance": 1.3322676295501878e-15,
+      "finalWater": 0,
+      "absorbed": 8.232773276476643e-309,
+      "evaporated": 1.4017965308595366e-308
+    },
+    {
+      "label": "threshold sinks 2.225073858507201e-308/0.21/0.34",
+      "frames": 40,
+      "min": 0,
+      "maxBalance": 1.3322676295501878e-15,
+      "finalWater": 3e-322,
+      "absorbed": 8.49573655066374e-309,
+      "evaporated": 1.3755002034407966e-308
+    },
+    {
+      "label": "threshold 2.2250738585072014e-308",
+      "frames": 40,
+      "min": 0,
+      "maxBalance": 8.881784197001252e-16,
+      "finalWater": 2.2250738585072014e-308,
+      "absorbed": 0,
+      "evaporated": 0
+    },
+    {
+      "label": "threshold sinks 2.2250738585072014e-308/1/0",
+      "frames": 40,
+      "min": 0,
+      "maxBalance": 8.881784197001252e-16,
+      "finalWater": 0,
+      "absorbed": 2.2250738585072014e-308,
+      "evaporated": 0
+    },
+    {
+      "label": "threshold sinks 2.2250738585072014e-308/0/1",
+      "frames": 40,
+      "min": 0,
+      "maxBalance": 8.881784197001252e-16,
+      "finalWater": 0,
+      "absorbed": 0,
+      "evaporated": 2.2250738585072014e-308
+    },
+    {
+      "label": "threshold sinks 2.2250738585072014e-308/0.37/0.63",
+      "frames": 40,
+      "min": 0,
+      "maxBalance": 8.881784197001252e-16,
+      "finalWater": 0,
+      "absorbed": 8.23277327647664e-309,
+      "evaporated": 1.4017965308595376e-308
+    },
+    {
+      "label": "threshold sinks 2.2250738585072014e-308/0.21/0.34",
+      "frames": 40,
+      "min": 0,
+      "maxBalance": 8.881784197001252e-16,
+      "finalWater": 3.06e-322,
+      "absorbed": 8.49573655066373e-309,
+      "evaporated": 1.3755002034407976e-308
+    },
+    {
+      "label": "threshold 2.225073858507202e-308",
+      "frames": 40,
+      "min": 0,
+      "maxBalance": 8.881784197001252e-16,
+      "finalWater": 2.225073858507202e-308,
+      "absorbed": 0,
+      "evaporated": 0
+    },
+    {
+      "label": "threshold sinks 2.225073858507202e-308/1/0",
+      "frames": 40,
+      "min": 0,
+      "maxBalance": 8.881784197001252e-16,
+      "finalWater": 0,
+      "absorbed": 2.225073858507202e-308,
+      "evaporated": 0
+    },
+    {
+      "label": "threshold sinks 2.225073858507202e-308/0/1",
+      "frames": 40,
+      "min": 0,
+      "maxBalance": 8.881784197001252e-16,
+      "finalWater": 0,
+      "absorbed": 0,
+      "evaporated": 2.225073858507202e-308
+    },
+    {
+      "label": "threshold sinks 2.225073858507202e-308/0.37/0.63",
+      "frames": 40,
+      "min": 0,
+      "maxBalance": 8.881784197001252e-16,
+      "finalWater": 0,
+      "absorbed": 8.23277327647664e-309,
+      "evaporated": 1.401796530859538e-308
+    },
+    {
+      "label": "threshold sinks 2.225073858507202e-308/0.21/0.34",
+      "frames": 40,
+      "min": 0,
+      "maxBalance": 8.881784197001252e-16,
+      "finalWater": 3.06e-322,
+      "absorbed": 8.49573655066373e-309,
+      "evaporated": 1.375500203440798e-308
+    },
+    {
+      "label": "threshold 4.450147717014403e-308",
+      "frames": 40,
+      "min": 0,
+      "maxBalance": 8.881784197001252e-16,
+      "finalWater": 4.450147717014403e-308,
+      "absorbed": 0,
+      "evaporated": 0
+    },
+    {
+      "label": "threshold sinks 4.450147717014403e-308/1/0",
+      "frames": 40,
+      "min": 0,
+      "maxBalance": 8.881784197001252e-16,
+      "finalWater": 0,
+      "absorbed": 4.450147717014403e-308,
+      "evaporated": 0
+    },
+    {
+      "label": "threshold sinks 4.450147717014403e-308/0/1",
+      "frames": 40,
+      "min": 0,
+      "maxBalance": 8.881784197001252e-16,
+      "finalWater": 0,
+      "absorbed": 0,
+      "evaporated": 4.450147717014403e-308
+    },
+    {
+      "label": "threshold sinks 4.450147717014403e-308/0.37/0.63",
+      "frames": 40,
+      "min": 0,
+      "maxBalance": 8.881784197001252e-16,
+      "finalWater": 0,
+      "absorbed": 1.6465546552953295e-308,
+      "evaporated": 2.8035930617190733e-308
+    },
+    {
+      "label": "threshold sinks 4.450147717014403e-308/0.21/0.34",
+      "frames": 40,
+      "min": 0,
+      "maxBalance": 8.881784197001252e-16,
+      "finalWater": 6e-322,
+      "absorbed": 1.6991473101327384e-308,
+      "evaporated": 2.7510004068816045e-308
+    },
+    {
+      "label": "threshold 1e-300",
+      "frames": 40,
+      "min": 0,
+      "maxBalance": 1.7763568394002505e-15,
+      "finalWater": 1e-300,
+      "absorbed": 0,
+      "evaporated": 0
+    },
+    {
+      "label": "threshold sinks 1e-300/1/0",
+      "frames": 40,
+      "min": 0,
+      "maxBalance": 8.881784197001252e-16,
+      "finalWater": 0,
+      "absorbed": 1e-300,
+      "evaporated": 0
+    },
+    {
+      "label": "threshold sinks 1e-300/0/1",
+      "frames": 40,
+      "min": 0,
+      "maxBalance": 8.881784197001252e-16,
+      "finalWater": 0,
+      "absorbed": 0,
+      "evaporated": 1e-300
+    },
+    {
+      "label": "threshold sinks 1e-300/0.37/0.63",
+      "frames": 40,
+      "min": 0,
+      "maxBalance": 8.881784197001252e-16,
+      "finalWater": 0,
+      "absorbed": 3.7000000000000006e-301,
+      "evaporated": 6.3000000000000004e-301
+    },
+    {
+      "label": "threshold sinks 1e-300/0.21/0.34",
+      "frames": 40,
+      "min": 0,
+      "maxBalance": 8.881784197001252e-16,
+      "finalWater": 1.3443134726e-314,
+      "absorbed": 3.818181818181778e-301,
+      "evaporated": 6.181818181818106e-301
+    },
+    {
+      "label": "dry-policy diffusion=0 deposition=0",
+      "frames": 1,
+      "min": 0,
+      "maxBalance": 0,
+      "finalWater": 1.1125369292536007e-308,
+      "absorbed": 0,
+      "evaporated": 0
+    },
+    {
+      "label": "dry-policy diffusion=0.125 deposition=0",
+      "frames": 1,
+      "min": 0,
+      "maxBalance": 0,
+      "finalWater": 1.1125369292536007e-308,
+      "absorbed": 0,
+      "evaporated": 0
+    },
+    {
+      "label": "dry-policy diffusion=0 deposition=0.4",
+      "frames": 1,
+      "min": 0,
+      "maxBalance": 0,
+      "finalWater": 1.1125369292536007e-308,
+      "absorbed": 0,
+      "evaporated": 0
+    },
+    {
+      "label": "dry-policy diffusion=0.125 deposition=0.4",
+      "frames": 1,
+      "min": 0,
+      "maxBalance": 2.220446049250313e-16,
+      "finalWater": 1.1125369292536007e-308,
+      "absorbed": 0,
+      "evaporated": 0
+    },
+    {
+      "label": "analytic independent sinks 0.7/0",
+      "frames": 8,
+      "min": 0,
+      "maxBalance": 0,
+      "finalWater": 2.14600924414215,
+      "absorbed": 7.853990755857851,
+      "evaporated": 5.551115123125783e-17
+    },
+    {
+      "label": "analytic independent sinks 0/0.3",
+      "frames": 8,
+      "min": 0,
+      "maxBalance": 0,
+      "finalWater": 5.359618307374574,
+      "absorbed": 0,
+      "evaporated": 4.640381692625426
+    },
+    {
+      "label": "analytic independent sinks 0.7/0.3",
+      "frames": 8,
+      "min": 0,
+      "maxBalance": 0,
+      "finalWater": 1.001129150390625,
+      "absorbed": 6.2992095947265625,
+      "evaporated": 2.6996612548828125
+    },
+    {
+      "label": "new-seed trajectory 0",
+      "frames": 72,
+      "min": 0,
+      "maxBalance": 3.552713678800501e-15,
+      "finalWater": 0,
+      "absorbed": 2.624999999999999,
+      "evaporated": 4.375
+    },
+    {
+      "label": "new-seed trajectory 1",
+      "frames": 72,
+      "min": 0,
+      "maxBalance": 1.7763568394002505e-14,
+      "finalWater": 6.066596427521894e-197,
+      "absorbed": 2.624999999999997,
+      "evaporated": 4.374999999999986
+    },
+    {
+      "label": "new-seed trajectory 2",
+      "frames": 72,
+      "min": 0,
+      "maxBalance": 4.263256414560601e-14,
+      "finalWater": 8.319768635675447e-294,
+      "absorbed": 6.374999999999991,
+      "evaporated": 10.624999999999968
+    },
+    {
+      "label": "new-seed trajectory 3",
+      "frames": 72,
+      "min": 0,
+      "maxBalance": 2.220446049250313e-14,
+      "finalWater": 5.3021066639690857e-197,
+      "absorbed": 2.6249999999999956,
+      "evaporated": 4.374999999999982
+    },
+    {
+      "label": "new-seed trajectory 4",
+      "frames": 72,
+      "min": 0,
+      "maxBalance": 1.9539925233402755e-14,
+      "finalWater": 7.062799029740919e-66,
+      "absorbed": 2.6249999999999947,
+      "evaporated": 4.374999999999986
+    },
+    {
+      "label": "new-seed trajectory 5",
+      "frames": 72,
+      "min": 0,
+      "maxBalance": 7.105427357601002e-15,
+      "finalWater": 0,
+      "absorbed": 6.375,
+      "evaporated": 10.624999999999995
+    },
+    {
+      "label": "new-seed trajectory 6",
+      "frames": 72,
+      "min": 0,
+      "maxBalance": 5.329070518200751e-15,
+      "finalWater": 0,
+      "absorbed": 2.625,
+      "evaporated": 4.374999999999995
+    },
+    {
+      "label": "new-seed trajectory 7",
+      "frames": 72,
+      "min": 0,
+      "maxBalance": 5.329070518200751e-15,
+      "finalWater": 1.155961550439318e-182,
+      "absorbed": 2.6249999999999956,
+      "evaporated": 4.374999999999999
+    },
+    {
+      "label": "new-seed trajectory 8",
+      "frames": 72,
+      "min": 0,
+      "maxBalance": 1.4210854715202004e-14,
+      "finalWater": 3.264497657100171e-68,
+      "absorbed": 6.375000000000008,
+      "evaporated": 10.624999999999977
+    },
+    {
+      "label": "new-seed trajectory 9",
+      "frames": 72,
+      "min": 0,
+      "maxBalance": 2.1316282072803006e-14,
+      "finalWater": 2.41612557459796e-236,
+      "absorbed": 2.6249999999999916,
+      "evaporated": 4.374999999999988
+    },
+    {
+      "label": "new-seed trajectory 10",
+      "frames": 72,
+      "min": 0,
+      "maxBalance": 1.7763568394002505e-15,
+      "finalWater": 0,
+      "absorbed": 2.625,
+      "evaporated": 4.375
+    },
+    {
+      "label": "new-seed trajectory 11",
+      "frames": 72,
+      "min": 0,
+      "maxBalance": 1.7763568394002505e-14,
+      "finalWater": 2.0039468810372934e-298,
+      "absorbed": 6.375000000000001,
+      "evaporated": 10.624999999999995
+    },
+    {
+      "label": "new-seed trajectory 12",
+      "frames": 72,
+      "min": 0,
+      "maxBalance": 8.881784197001252e-15,
+      "finalWater": 7.054810989029343e-47,
+      "absorbed": 2.6249999999999996,
+      "evaporated": 4.375
+    },
+    {
+      "label": "new-seed trajectory 13",
+      "frames": 72,
+      "min": 0,
+      "maxBalance": 1.687538997430238e-14,
+      "finalWater": 1.8855744840961798e-203,
+      "absorbed": 2.624999999999993,
+      "evaporated": 4.37499999999999
+    },
+    {
+      "label": "new-seed trajectory 14",
+      "frames": 72,
+      "min": 0,
+      "maxBalance": 3.552713678800501e-14,
+      "finalWater": 7.839965148777948e-36,
+      "absorbed": 6.374999999999996,
+      "evaporated": 10.625000000000012
+    },
+    {
+      "label": "new-seed trajectory 15",
+      "frames": 72,
+      "min": 0,
+      "maxBalance": 4.440892098500626e-15,
+      "finalWater": 0,
+      "absorbed": 2.624999999999999,
+      "evaporated": 4.375
+    },
+    {
+      "label": "new-seed trajectory 16",
+      "frames": 72,
+      "min": 0,
+      "maxBalance": 9.769962616701378e-15,
+      "finalWater": 1.1386285808582413e-110,
+      "absorbed": 2.625,
+      "evaporated": 4.37499999999999
+    },
+    {
+      "label": "new-seed trajectory 17",
+      "frames": 72,
+      "min": 0,
+      "maxBalance": 4.263256414560601e-14,
+      "finalWater": 3.395259579817137e-291,
+      "absorbed": 6.3749999999999805,
+      "evaporated": 10.624999999999979
+    },
+    {
+      "label": "new-seed trajectory 18",
+      "frames": 72,
+      "min": 0,
+      "maxBalance": 1.2434497875801753e-14,
+      "finalWater": 1.9787829336873073e-248,
+      "absorbed": 2.6249999999999933,
+      "evaporated": 4.375000000000012
+    },
+    {
+      "label": "new-seed trajectory 19",
+      "frames": 72,
+      "min": 0,
+      "maxBalance": 1.7763568394002505e-14,
+      "finalWater": 7.437892988618231e-97,
+      "absorbed": 2.624999999999994,
+      "evaporated": 4.3749999999999885
+    },
+    {
+      "label": "new-seed trajectory 20",
+      "frames": 72,
+      "min": 0,
+      "maxBalance": 3.552713678800501e-15,
+      "finalWater": 0,
+      "absorbed": 6.374999999999998,
+      "evaporated": 10.625000000000005
+    },
+    {
+      "label": "new-seed trajectory 21",
+      "frames": 72,
+      "min": 0,
+      "maxBalance": 2.6645352591003757e-14,
+      "finalWater": 2.274279653478115e-99,
+      "absorbed": 2.6249999999999902,
+      "evaporated": 4.374999999999983
+    },
+    {
+      "label": "new-seed trajectory 22",
+      "frames": 72,
+      "min": 0,
+      "maxBalance": 7.993605777301127e-15,
+      "finalWater": 9.025826622512554e-206,
+      "absorbed": 2.6249999999999956,
+      "evaporated": 4.3749999999999964
+    },
+    {
+      "label": "new-seed trajectory 23",
+      "frames": 72,
+      "min": 0,
+      "maxBalance": 7.105427357601002e-15,
+      "finalWater": 0,
+      "absorbed": 6.375,
+      "evaporated": 10.624999999999991
+    },
+    {
+      "label": "new-seed trajectory 24",
+      "frames": 72,
+      "min": 0,
+      "maxBalance": 1.5987211554602254e-14,
+      "finalWater": 9.918949621045311e-165,
+      "absorbed": 2.625000000000003,
+      "evaporated": 4.375000000000004
+    },
+    {
+      "label": "new-seed trajectory 25",
+      "frames": 72,
+      "min": 0,
+      "maxBalance": 4.440892098500626e-15,
+      "finalWater": 0,
+      "absorbed": 2.6250000000000004,
+      "evaporated": 4.375
+    },
+    {
+      "label": "new-seed trajectory 26",
+      "frames": 72,
+      "min": 0,
+      "maxBalance": 1.0658141036401503e-13,
+      "finalWater": 1.9803404973160627e-155,
+      "absorbed": 6.374999999999952,
+      "evaporated": 10.624999999999941
+    },
+    {
+      "label": "new-seed trajectory 27",
+      "frames": 72,
+      "min": 0,
+      "maxBalance": 2.4868995751603507e-14,
+      "finalWater": 7.334317403869692e-89,
+      "absorbed": 2.6249999999999885,
+      "evaporated": 4.374999999999987
+    },
+    {
+      "label": "new-seed trajectory 28",
+      "frames": 72,
+      "min": 0,
+      "maxBalance": 7.993605777301127e-15,
+      "finalWater": 1.216852265469237e-165,
+      "absorbed": 2.624999999999991,
+      "evaporated": 4.375000000000001
+    },
+    {
+      "label": "new-seed trajectory 29",
+      "frames": 72,
+      "min": 0,
+      "maxBalance": 1.2434497875801753e-14,
+      "finalWater": 0,
+      "absorbed": 6.374999999999988,
+      "evaporated": 10.625000000000005
+    },
+    {
+      "label": "new-seed trajectory 30",
+      "frames": 72,
+      "min": 0,
+      "maxBalance": 1.7763568394002505e-15,
+      "finalWater": 0,
+      "absorbed": 2.6250000000000004,
+      "evaporated": 4.375
+    },
+    {
+      "label": "new-seed trajectory 31",
+      "frames": 72,
+      "min": 0,
+      "maxBalance": 2.6645352591003757e-14,
+      "finalWater": 8.080761784394957e-192,
+      "absorbed": 2.62499999999999,
+      "evaporated": 4.374999999999984
+    },
+    {
+      "label": "new-seed trajectory 32",
+      "frames": 72,
+      "min": 0,
+      "maxBalance": 3.552713678800501e-14,
+      "finalWater": 4.450493570020315e-65,
+      "absorbed": 6.374999999999996,
+      "evaporated": 10.625000000000002
+    },
+    {
+      "label": "new-seed trajectory 33",
+      "frames": 72,
+      "min": 0,
+      "maxBalance": 1.4210854715202004e-14,
+      "finalWater": 2.2141306524594405e-230,
+      "absorbed": 2.625000000000002,
+      "evaporated": 4.374999999999983
+    },
+    {
+      "label": "new-seed trajectory 34",
+      "frames": 72,
+      "min": 0,
+      "maxBalance": 7.993605777301127e-15,
+      "finalWater": 2.3594889352278406e-90,
+      "absorbed": 2.6249999999999956,
+      "evaporated": 4.374999999999997
+    },
+    {
+      "label": "new-seed trajectory 35",
+      "frames": 72,
+      "min": 0,
+      "maxBalance": 3.552713678800501e-15,
+      "finalWater": 0,
+      "absorbed": 6.375000000000001,
+      "evaporated": 10.624999999999998
+    },
+    {
+      "label": "new-seed trajectory 36",
+      "frames": 72,
+      "min": 0,
+      "maxBalance": 5.329070518200751e-15,
+      "finalWater": 3.956485414358005e-168,
+      "absorbed": 2.6249999999999942,
+      "evaporated": 4.375000000000002
+    },
+    {
+      "label": "new-seed trajectory 37",
+      "frames": 72,
+      "min": 0,
+      "maxBalance": 1.3322676295501878e-14,
+      "finalWater": 7.37104508160438e-309,
+      "absorbed": 2.6249999999999947,
+      "evaporated": 4.374999999999992
+    },
+    {
+      "label": "new-seed trajectory 38",
+      "frames": 72,
+      "min": 0,
+      "maxBalance": 6.394884621840902e-14,
+      "finalWater": 3.3229899939758563e-31,
+      "absorbed": 6.374999999999993,
+      "evaporated": 10.624999999999941
+    },
+    {
+      "label": "new-seed trajectory 39",
+      "frames": 72,
+      "min": 0,
+      "maxBalance": 1.687538997430238e-14,
+      "finalWater": 9.456427703040041e-34,
+      "absorbed": 2.6249999999999956,
+      "evaporated": 4.374999999999988
+    },
+    {
+      "label": "new-seed trajectory 40",
+      "frames": 72,
+      "min": 0,
+      "maxBalance": 3.552713678800501e-15,
+      "finalWater": 0,
+      "absorbed": 2.6249999999999987,
+      "evaporated": 4.375
+    },
+    {
+      "label": "new-seed trajectory 41",
+      "frames": 72,
+      "min": 0,
+      "maxBalance": 3.552713678800501e-14,
+      "finalWater": 3.766928504807107e-74,
+      "absorbed": 6.374999999999969,
+      "evaporated": 10.624999999999995
+    },
+    {
+      "label": "new-seed trajectory 42",
+      "frames": 72,
+      "min": 0,
+      "maxBalance": 2.842170943040401e-14,
+      "finalWater": 7.078378703457673e-38,
+      "absorbed": 2.624999999999989,
+      "evaporated": 4.374999999999982
+    },
+    {
+      "label": "new-seed trajectory 43",
+      "frames": 72,
+      "min": 0,
+      "maxBalance": 2.220446049250313e-14,
+      "finalWater": 5.4616588179172135e-254,
+      "absorbed": 2.6249999999999973,
+      "evaporated": 4.3749999999999805
+    },
+    {
+      "label": "new-seed trajectory 44",
+      "frames": 72,
+      "min": 0,
+      "maxBalance": 6.039613253960852e-14,
+      "finalWater": 1.2802632378980833e-60,
+      "absorbed": 6.374999999999964,
+      "evaporated": 10.624999999999977
+    },
+    {
+      "label": "new-seed trajectory 45",
+      "frames": 72,
+      "min": 0,
+      "maxBalance": 2.220446049250313e-15,
+      "finalWater": 0,
+      "absorbed": 2.624999999999999,
+      "evaporated": 4.375000000000001
+    },
+    {
+      "label": "new-seed trajectory 46",
+      "frames": 72,
+      "min": 0,
+      "maxBalance": 7.105427357601002e-15,
+      "finalWater": 0,
+      "absorbed": 2.6250000000000004,
+      "evaporated": 4.374999999999992
+    },
+    {
+      "label": "new-seed trajectory 47",
+      "frames": 72,
+      "min": 0,
+      "maxBalance": 3.730349362740526e-14,
+      "finalWater": 4.0853490211877686e-79,
+      "absorbed": 6.374999999999988,
+      "evaporated": 10.624999999999982
+    },
+    {
+      "label": "new-seed trajectory 48",
+      "frames": 72,
+      "min": 0,
+      "maxBalance": 2.6645352591003757e-14,
+      "finalWater": 2.275673150514482e-138,
+      "absorbed": 2.6249999999999964,
+      "evaporated": 4.374999999999977
+    },
+    {
+      "label": "new-seed trajectory 49",
+      "frames": 72,
+      "min": 0,
+      "maxBalance": 4.440892098500626e-15,
+      "finalWater": 4.631762868747896e-279,
+      "absorbed": 2.6249999999999973,
+      "evaporated": 4.3750000000000036
+    },
+    {
+      "label": "new-seed trajectory 50",
+      "frames": 72,
+      "min": 0,
+      "maxBalance": 3.552713678800501e-15,
+      "finalWater": 0,
+      "absorbed": 6.3749999999999964,
+      "evaporated": 10.625000000000004
+    },
+    {
+      "label": "new-seed trajectory 51",
+      "frames": 72,
+      "min": 0,
+      "maxBalance": 2.6645352591003757e-14,
+      "finalWater": 6.886324502985662e-182,
+      "absorbed": 2.6249999999999942,
+      "evaporated": 4.37499999999998
+    },
+    {
+      "label": "new-seed trajectory 52",
+      "frames": 72,
+      "min": 0,
+      "maxBalance": 2.842170943040401e-14,
+      "finalWater": 2.5720805377445817e-31,
+      "absorbed": 2.624999999999994,
+      "evaporated": 4.374999999999978
+    },
+    {
+      "label": "new-seed trajectory 53",
+      "frames": 72,
+      "min": 0,
+      "maxBalance": 3.552713678800501e-14,
+      "finalWater": 8.186137211936696e-50,
+      "absorbed": 6.375000000000003,
+      "evaporated": 10.624999999999963
+    },
+    {
+      "label": "new-seed trajectory 54",
+      "frames": 72,
+      "min": 0,
+      "maxBalance": 1.3322676295501878e-14,
+      "finalWater": 3.081989770125782e-120,
+      "absorbed": 2.6249999999999893,
+      "evaporated": 4.375000000000006
+    },
+    {
+      "label": "new-seed trajectory 55",
+      "frames": 72,
+      "min": 0,
+      "maxBalance": 1.7763568394002505e-15,
+      "finalWater": 0,
+      "absorbed": 2.624999999999999,
+      "evaporated": 4.375000000000001
+    },
+    {
+      "label": "new-seed trajectory 56",
+      "frames": 72,
+      "min": 0,
+      "maxBalance": 3.907985046680551e-14,
+      "finalWater": 3.792137463440433e-92,
+      "absorbed": 6.374999999999999,
+      "evaporated": 10.624999999999963
+    },
+    {
+      "label": "new-seed trajectory 57",
+      "frames": 72,
+      "min": 0,
+      "maxBalance": 1.5987211554602254e-14,
+      "finalWater": 6.097647641078362e-118,
+      "absorbed": 2.624999999999995,
+      "evaporated": 4.374999999999989
+    },
+    {
+      "label": "new-seed trajectory 58",
+      "frames": 72,
+      "min": 0,
+      "maxBalance": 5.329070518200751e-15,
+      "finalWater": 7.684103344356296e-133,
+      "absorbed": 2.624999999999997,
+      "evaporated": 4.375
+    },
+    {
+      "label": "new-seed trajectory 59",
+      "frames": 72,
+      "min": 0,
+      "maxBalance": 2.842170943040401e-14,
+      "finalWater": 1.5433379620902784e-106,
+      "absorbed": 6.374999999999994,
+      "evaporated": 10.624999999999979
+    },
+    {
+      "label": "new-seed trajectory 60",
+      "frames": 72,
+      "min": 0,
+      "maxBalance": 8.881784197001252e-16,
+      "finalWater": 0,
+      "absorbed": 2.624999999999999,
+      "evaporated": 4.375000000000001
+    },
+    {
+      "label": "new-seed trajectory 61",
+      "frames": 72,
+      "min": 0,
+      "maxBalance": 2.042810365310288e-14,
+      "finalWater": 5.575323618066353e-162,
+      "absorbed": 2.6249999999999973,
+      "evaporated": 4.374999999999982
+    },
+    {
+      "label": "new-seed trajectory 62",
+      "frames": 72,
+      "min": 0,
+      "maxBalance": 2.1316282072803006e-14,
+      "finalWater": 6.464789079819036e-34,
+      "absorbed": 6.374999999999991,
+      "evaporated": 10.624999999999991
+    },
+    {
+      "label": "new-seed trajectory 63",
+      "frames": 72,
+      "min": 0,
+      "maxBalance": 2.1316282072803006e-14,
+      "finalWater": 1.3466116695189983e-120,
+      "absorbed": 2.624999999999991,
+      "evaporated": 4.374999999999988
+    },
+    {
+      "label": "new-seed trajectory 64",
+      "frames": 72,
+      "min": 0,
+      "maxBalance": 4.440892098500626e-15,
+      "finalWater": 2.6598880898304946e-248,
+      "absorbed": 2.6249999999999973,
+      "evaporated": 4.374999999999998
+    },
+    {
+      "label": "new-seed trajectory 65",
+      "frames": 72,
+      "min": 0,
+      "maxBalance": 2.6645352591003757e-15,
+      "finalWater": 0,
+      "absorbed": 6.3749999999999964,
+      "evaporated": 10.625000000000002
+    },
+    {
+      "label": "new-seed trajectory 66",
+      "frames": 72,
+      "min": 0,
+      "maxBalance": 8.881784197001252e-15,
+      "finalWater": 2.2295247301734877e-268,
+      "absorbed": 2.6249999999999956,
+      "evaporated": 4.375000000000001
+    },
+    {
+      "label": "new-seed trajectory 67",
+      "frames": 72,
+      "min": 0,
+      "maxBalance": 1.0658141036401503e-14,
+      "finalWater": 4.12464271609541e-50,
+      "absorbed": 2.624999999999999,
+      "evaporated": 4.375000000000001
+    },
+    {
+      "label": "new-seed trajectory 68",
+      "frames": 72,
+      "min": 0,
+      "maxBalance": 2.842170943040401e-14,
+      "finalWater": 9.686525154175561e-149,
+      "absorbed": 6.374999999999969,
+      "evaporated": 10.625000000000004
+    },
+    {
+      "label": "new-seed trajectory 69",
+      "frames": 72,
+      "min": 0,
+      "maxBalance": 3.2862601528904634e-14,
+      "finalWater": 3.417695314427342e-93,
+      "absorbed": 2.6249999999999964,
+      "evaporated": 4.374999999999971
+    },
+    {
+      "label": "new-seed trajectory 70",
+      "frames": 72,
+      "min": 0,
+      "maxBalance": 5.329070518200751e-15,
+      "finalWater": 0,
+      "absorbed": 2.6250000000000004,
+      "evaporated": 4.375
+    },
+    {
+      "label": "new-seed trajectory 71",
+      "frames": 72,
+      "min": 0,
+      "maxBalance": 6.750155989720952e-14,
+      "finalWater": 2.905908900152257e-30,
+      "absorbed": 6.374999999999983,
+      "evaporated": 10.62499999999995
+    },
+    {
+      "label": "new-seed trajectory 72",
+      "frames": 72,
+      "min": 0,
+      "maxBalance": 9.769962616701378e-15,
+      "finalWater": 4.358059576434805e-118,
+      "absorbed": 2.6249999999999956,
+      "evaporated": 4.374999999999995
+    },
+    {
+      "label": "new-seed trajectory 73",
+      "frames": 72,
+      "min": 0,
+      "maxBalance": 2.5757174171303632e-14,
+      "finalWater": 4.63477426928766e-130,
+      "absorbed": 2.624999999999994,
+      "evaporated": 4.3749999999999805
+    },
+    {
+      "label": "new-seed trajectory 74",
+      "frames": 72,
+      "min": 0,
+      "maxBalance": 7.105427357601002e-14,
+      "finalWater": 2.945617260061007e-134,
+      "absorbed": 6.37499999999999,
+      "evaporated": 10.624999999999938
+    },
+    {
+      "label": "new-seed trajectory 75",
+      "frames": 72,
+      "min": 0,
+      "maxBalance": 2.6645352591003757e-15,
+      "finalWater": 0,
+      "absorbed": 2.6249999999999996,
+      "evaporated": 4.375000000000001
+    },
+    {
+      "label": "new-seed trajectory 76",
+      "frames": 72,
+      "min": 0,
+      "maxBalance": 1.1546319456101628e-14,
+      "finalWater": 3.6749229232542885e-135,
+      "absorbed": 2.625,
+      "evaporated": 4.3749999999999885
+    },
+    {
+      "label": "new-seed trajectory 77",
+      "frames": 72,
+      "min": 0,
+      "maxBalance": 5.684341886080802e-14,
+      "finalWater": 1.3940476674425254e-66,
+      "absorbed": 6.3749999999999805,
+      "evaporated": 10.624999999999964
+    },
+    {
+      "label": "new-seed trajectory 78",
+      "frames": 72,
+      "min": 0,
+      "maxBalance": 2.042810365310288e-14,
+      "finalWater": 1.3901385928292087e-57,
+      "absorbed": 2.6249999999999973,
+      "evaporated": 4.375000000000005
+    },
+    {
+      "label": "new-seed trajectory 79",
+      "frames": 72,
+      "min": 0,
+      "maxBalance": 2.1316282072803006e-14,
+      "finalWater": 4.929423945537841e-105,
+      "absorbed": 2.6249999999999862,
+      "evaporated": 4.374999999999993
+    },
+    {
+      "label": "new-seed trajectory 80",
+      "frames": 72,
+      "min": 0,
+      "maxBalance": 3.552713678800501e-15,
+      "finalWater": 0,
+      "absorbed": 6.374999999999998,
+      "evaporated": 10.625000000000005
+    },
+    {
+      "label": "new-seed trajectory 81",
+      "frames": 72,
+      "min": 0,
+      "maxBalance": 1.7763568394002505e-14,
+      "finalWater": 1.6312170745761989e-43,
+      "absorbed": 2.625000000000003,
+      "evaporated": 4.375000000000005
+    },
+    {
+      "label": "new-seed trajectory 82",
+      "frames": 72,
+      "min": 0,
+      "maxBalance": 1.1546319456101628e-14,
+      "finalWater": 1.227489655077783e-136,
+      "absorbed": 2.624999999999992,
+      "evaporated": 4.3750000000000036
+    },
+    {
+      "label": "new-seed trajectory 83",
+      "frames": 72,
+      "min": 0,
+      "maxBalance": 2.1316282072803006e-14,
+      "finalWater": 8.945177347397215e-216,
+      "absorbed": 6.374999999999986,
+      "evaporated": 10.625000000000005
+    },
+    {
+      "label": "new-seed trajectory 84",
+      "frames": 72,
+      "min": 0,
+      "maxBalance": 3.375077994860476e-14,
+      "finalWater": 5.988392233787825e-246,
+      "absorbed": 2.6249999999999876,
+      "evaporated": 4.374999999999979
+    },
+    {
+      "label": "new-seed trajectory 85",
+      "frames": 72,
+      "min": 0,
+      "maxBalance": 8.881784197001252e-16,
+      "finalWater": 0,
+      "absorbed": 2.625,
+      "evaporated": 4.375
+    },
+    {
+      "label": "new-seed trajectory 86",
+      "frames": 72,
+      "min": 0,
+      "maxBalance": 2.842170943040401e-14,
+      "finalWater": 1.319449928255044e-210,
+      "absorbed": 6.374999999999969,
+      "evaporated": 10.625000000000002
+    },
+    {
+      "label": "new-seed trajectory 87",
+      "frames": 72,
+      "min": 0,
+      "maxBalance": 2.3092638912203256e-14,
+      "finalWater": 8.308912581733099e-203,
+      "absorbed": 2.624999999999994,
+      "evaporated": 4.374999999999983
+    },
+    {
+      "label": "new-seed trajectory 88",
+      "frames": 72,
+      "min": 0,
+      "maxBalance": 4.884981308350689e-14,
+      "finalWater": 1.0414434940629169e-213,
+      "absorbed": 2.6249999999999867,
+      "evaporated": 4.3749999999999645
+    },
+    {
+      "label": "new-seed trajectory 89",
+      "frames": 72,
+      "min": 0,
+      "maxBalance": 8.171241461241152e-14,
+      "finalWater": 1.5133297769439483e-288,
+      "absorbed": 6.3749999999999805,
+      "evaporated": 10.624999999999938
+    },
+    {
+      "label": "new-seed trajectory 90",
+      "frames": 72,
+      "min": 0,
+      "maxBalance": 1.7763568394002505e-15,
+      "finalWater": 0,
+      "absorbed": 2.6249999999999996,
+      "evaporated": 4.375
+    },
+    {
+      "label": "new-seed trajectory 91",
+      "frames": 72,
+      "min": 0,
+      "maxBalance": 1.2434497875801753e-14,
+      "finalWater": 2.263825581859094e-79,
+      "absorbed": 2.6249999999999942,
+      "evaporated": 4.374999999999994
+    },
+    {
+      "label": "new-seed trajectory 92",
+      "frames": 72,
+      "min": 3.185177707307872e-213,
+      "maxBalance": 3.197442310920451e-14,
+      "finalWater": 2.0075485959166247e-211,
+      "absorbed": 6.374999999999982,
+      "evaporated": 10.62500000000002
+    },
+    {
+      "label": "new-seed trajectory 93",
+      "frames": 72,
+      "min": 0,
+      "maxBalance": 1.2434497875801753e-14,
+      "finalWater": 9.980387172022048e-142,
+      "absorbed": 2.6249999999999956,
+      "evaporated": 4.374999999999992
+    },
+    {
+      "label": "new-seed trajectory 94",
+      "frames": 72,
+      "min": 0,
+      "maxBalance": 1.0658141036401503e-14,
+      "finalWater": 8.569811488345683e-194,
+      "absorbed": 2.6249999999999982,
+      "evaporated": 4.374999999999991
+    },
+    {
+      "label": "new-seed trajectory 95",
+      "frames": 72,
+      "min": 0,
+      "maxBalance": 7.105427357601002e-15,
+      "finalWater": 0,
+      "absorbed": 6.374999999999997,
+      "evaporated": 10.624999999999996
+    },
+    {
+      "label": "new-seed trajectory 96",
+      "frames": 72,
+      "min": 0,
+      "maxBalance": 1.5987211554602254e-14,
+      "finalWater": 1.8199621549124915e-177,
+      "absorbed": 2.6249999999999902,
+      "evaporated": 4.374999999999994
+    },
+    {
+      "label": "new-seed trajectory 97",
+      "frames": 72,
+      "min": 0,
+      "maxBalance": 2.4868995751603507e-14,
+      "finalWater": 6.83768263420856e-126,
+      "absorbed": 2.6249999999999947,
+      "evaporated": 4.3749999999999805
+    },
+    {
+      "label": "new-seed trajectory 98",
+      "frames": 72,
+      "min": 0,
+      "maxBalance": 1.7763568394002505e-14,
+      "finalWater": 3.203074884302414e-150,
+      "absorbed": 6.374999999999997,
+      "evaporated": 10.624999999999984
+    },
+    {
+      "label": "new-seed trajectory 99",
+      "frames": 72,
+      "min": 0,
+      "maxBalance": 2.042810365310288e-14,
+      "finalWater": 3.3611981344166746e-239,
+      "absorbed": 2.6249999999999964,
+      "evaporated": 4.374999999999983
+    },
+    {
+      "label": "new-seed trajectory 100",
+      "frames": 72,
+      "min": 0,
+      "maxBalance": 2.6645352591003757e-15,
+      "finalWater": 0,
+      "absorbed": 2.6250000000000004,
+      "evaporated": 4.375
+    },
+    {
+      "label": "new-seed trajectory 101",
+      "frames": 72,
+      "min": 0,
+      "maxBalance": 5.684341886080802e-14,
+      "finalWater": 3.879537547545225e-208,
+      "absorbed": 6.374999999999975,
+      "evaporated": 10.62499999999997
+    },
+    {
+      "label": "new-seed trajectory 102",
+      "frames": 72,
+      "min": 0,
+      "maxBalance": 1.0658141036401503e-14,
+      "finalWater": 2.592007221496912e-126,
+      "absorbed": 2.6249999999999947,
+      "evaporated": 4.375000000000002
+    },
+    {
+      "label": "new-seed trajectory 103",
+      "frames": 72,
+      "min": 0,
+      "maxBalance": 1.4210854715202004e-14,
+      "finalWater": 8.844243282985132e-64,
+      "absorbed": 2.624999999999995,
+      "evaporated": 4.374999999999996
+    },
+    {
+      "label": "new-seed trajectory 104",
+      "frames": 72,
+      "min": 0,
+      "maxBalance": 2.1316282072803006e-14,
+      "finalWater": 2.3121203423844666e-76,
+      "absorbed": 6.37499999999999,
+      "evaporated": 10.624999999999988
+    },
+    {
+      "label": "new-seed trajectory 105",
+      "frames": 72,
+      "min": 0,
+      "maxBalance": 3.552713678800501e-15,
+      "finalWater": 0,
+      "absorbed": 2.625,
+      "evaporated": 4.374999999999999
+    },
+    {
+      "label": "new-seed trajectory 106",
+      "frames": 72,
+      "min": 0,
+      "maxBalance": 2.842170943040401e-14,
+      "finalWater": 1.419496872013507e-72,
+      "absorbed": 2.6249999999999982,
+      "evaporated": 4.374999999999973
+    },
+    {
+      "label": "new-seed trajectory 107",
+      "frames": 72,
+      "min": 0,
+      "maxBalance": 6.039613253960852e-14,
+      "finalWater": 1.115648569597528e-198,
+      "absorbed": 6.3749999999999964,
+      "evaporated": 10.624999999999943
+    },
+    {
+      "label": "new-seed trajectory 108",
+      "frames": 72,
+      "min": 0,
+      "maxBalance": 1.2434497875801753e-14,
+      "finalWater": 7.573258107890057e-102,
+      "absorbed": 2.624999999999998,
+      "evaporated": 4.37499999999999
+    },
+    {
+      "label": "new-seed trajectory 109",
+      "frames": 72,
+      "min": 0,
+      "maxBalance": 1.9539925233402755e-14,
+      "finalWater": 2.895816614699113e-101,
+      "absorbed": 2.6249999999999916,
+      "evaporated": 4.375000000000017
+    },
+    {
+      "label": "new-seed trajectory 110",
+      "frames": 72,
+      "min": 0,
+      "maxBalance": 2.6645352591003757e-15,
+      "finalWater": 0,
+      "absorbed": 6.374999999999997,
+      "evaporated": 10.625000000000002
+    },
+    {
+      "label": "new-seed trajectory 111",
+      "frames": 72,
+      "min": 0,
+      "maxBalance": 3.552713678800501e-15,
+      "finalWater": 5.4398131406145265e-121,
+      "absorbed": 2.6249999999999996,
+      "evaporated": 4.3749999999999964
+    },
+    {
+      "label": "new-seed trajectory 112",
+      "frames": 72,
+      "min": 0,
+      "maxBalance": 5.329070518200751e-15,
+      "finalWater": 1.8651704962183952e-184,
+      "absorbed": 2.624999999999998,
+      "evaporated": 4.375000000000004
+    },
+    {
+      "label": "new-seed trajectory 113",
+      "frames": 72,
+      "min": 0,
+      "maxBalance": 8.171241461241152e-14,
+      "finalWater": 2.8185626936495906e-109,
+      "absorbed": 6.374999999999969,
+      "evaporated": 10.624999999999948
+    },
+    {
+      "label": "new-seed trajectory 114",
+      "frames": 72,
+      "min": 0,
+      "maxBalance": 8.881784197001252e-15,
+      "finalWater": 5.231442141270537e-203,
+      "absorbed": 2.6249999999999942,
+      "evaporated": 4.374999999999997
+    },
+    {
+      "label": "new-seed trajectory 115",
+      "frames": 72,
+      "min": 0,
+      "maxBalance": 1.7763568394002505e-15,
+      "finalWater": 0,
+      "absorbed": 2.625,
+      "evaporated": 4.374999999999999
+    },
+    {
+      "label": "new-seed trajectory 116",
+      "frames": 72,
+      "min": 0,
+      "maxBalance": 4.973799150320701e-14,
+      "finalWater": 3.181350931777822e-123,
+      "absorbed": 6.374999999999988,
+      "evaporated": 10.624999999999963
+    },
+    {
+      "label": "new-seed trajectory 117",
+      "frames": 72,
+      "min": 0,
+      "maxBalance": 1.7763568394002505e-14,
+      "finalWater": 1.489052773660287e-116,
+      "absorbed": 2.6249999999999987,
+      "evaporated": 4.375000000000007
+    },
+    {
+      "label": "new-seed trajectory 118",
+      "frames": 72,
+      "min": 0,
+      "maxBalance": 1.5987211554602254e-14,
+      "finalWater": 3.2398173778067594e-35,
+      "absorbed": 2.625000000000001,
+      "evaporated": 4.374999999999983
+    },
+    {
+      "label": "new-seed trajectory 119",
+      "frames": 72,
+      "min": 0,
+      "maxBalance": 9.237055564881302e-14,
+      "finalWater": 1.0826261489075783e-152,
+      "absorbed": 6.374999999999982,
+      "evaporated": 10.624999999999924
+    },
+    {
+      "label": "new-seed trajectory 120",
+      "frames": 72,
+      "min": 0,
+      "maxBalance": 1.7763568394002505e-15,
+      "finalWater": 0,
+      "absorbed": 2.624999999999999,
+      "evaporated": 4.374999999999999
+    },
+    {
+      "label": "new-seed trajectory 121",
+      "frames": 72,
+      "min": 0,
+      "maxBalance": 7.105427357601002e-15,
+      "finalWater": 0,
+      "absorbed": 2.624999999999996,
+      "evaporated": 4.374999999999997
+    },
+    {
+      "label": "new-seed trajectory 122",
+      "frames": 72,
+      "min": 0,
+      "maxBalance": 1.7763568394002505e-14,
+      "finalWater": 0,
+      "absorbed": 6.3749999999999964,
+      "evaporated": 10.624999999999995
+    },
+    {
+      "label": "new-seed trajectory 123",
+      "frames": 72,
+      "min": 0,
+      "maxBalance": 3.019806626980426e-14,
+      "finalWater": 7.0178046708863294e-68,
+      "absorbed": 2.6249999999999925,
+      "evaporated": 4.374999999999977
+    },
+    {
+      "label": "new-seed trajectory 124",
+      "frames": 72,
+      "min": 0,
+      "maxBalance": 1.4210854715202004e-14,
+      "finalWater": 7.716574399761765e-224,
+      "absorbed": 2.6249999999999925,
+      "evaporated": 4.374999999999994
+    },
+    {
+      "label": "new-seed trajectory 125",
+      "frames": 72,
+      "min": 0,
+      "maxBalance": 4.440892098500626e-16,
+      "finalWater": 0,
+      "absorbed": 6.3749999999999964,
+      "evaporated": 10.625000000000002
+    },
+    {
+      "label": "new-seed trajectory 126",
+      "frames": 72,
+      "min": 0,
+      "maxBalance": 2.4868995751603507e-14,
+      "finalWater": 1.183032340421175e-132,
+      "absorbed": 2.624999999999988,
+      "evaporated": 4.374999999999987
+    },
+    {
+      "label": "new-seed trajectory 127",
+      "frames": 72,
+      "min": 0,
+      "maxBalance": 1.865174681370263e-14,
+      "finalWater": 2.217865886580178e-37,
+      "absorbed": 2.625,
+      "evaporated": 4.374999999999981
+    },
+    {
+      "label": "new-seed trajectory 128",
+      "frames": 72,
+      "min": 0,
+      "maxBalance": 3.552713678800501e-14,
+      "finalWater": 0,
+      "absorbed": 6.3749999999999885,
+      "evaporated": 10.624999999999988
+    },
+    {
+      "label": "new-seed trajectory 129",
+      "frames": 72,
+      "min": 0,
+      "maxBalance": 4.440892098500626e-15,
+      "finalWater": 6.810918510586576e-190,
+      "absorbed": 2.624999999999994,
+      "evaporated": 4.375000000000002
+    },
+    {
+      "label": "new-seed trajectory 130",
+      "frames": 72,
+      "min": 0,
+      "maxBalance": 3.552713678800501e-15,
+      "finalWater": 0,
+      "absorbed": 2.6249999999999987,
+      "evaporated": 4.375
+    },
+    {
+      "label": "new-seed trajectory 131",
+      "frames": 72,
+      "min": 0,
+      "maxBalance": 5.3290705182007514e-14,
+      "finalWater": 1.068255410797129e-130,
+      "absorbed": 6.374999999999999,
+      "evaporated": 10.624999999999948
+    },
+    {
+      "label": "new-seed trajectory 132",
+      "frames": 72,
+      "min": 0,
+      "maxBalance": 2.1316282072803006e-14,
+      "finalWater": 4.1242486098672276e-43,
+      "absorbed": 2.624999999999991,
+      "evaporated": 4.374999999999988
+    },
+    {
+      "label": "new-seed trajectory 133",
+      "frames": 72,
+      "min": 0,
+      "maxBalance": 2.3092638912203256e-14,
+      "finalWater": 4.1986086842857595e-262,
+      "absorbed": 2.6249999999999916,
+      "evaporated": 4.374999999999985
+    },
+    {
+      "label": "new-seed trajectory 134",
+      "frames": 72,
+      "min": 0,
+      "maxBalance": 4.263256414560601e-14,
+      "finalWater": 1.6341091586689569e-35,
+      "absorbed": 6.3749999999999964,
+      "evaporated": 10.624999999999961
+    },
+    {
+      "label": "new-seed trajectory 135",
+      "frames": 72,
+      "min": 0,
+      "maxBalance": 2.6645352591003757e-15,
+      "finalWater": 0,
+      "absorbed": 2.6250000000000004,
+      "evaporated": 4.375000000000001
+    },
+    {
+      "label": "new-seed trajectory 136",
+      "frames": 72,
+      "min": 0,
+      "maxBalance": 1.0658141036401503e-14,
+      "finalWater": 0,
+      "absorbed": 2.6249999999999973,
+      "evaporated": 4.3750000000000036
+    },
+    {
+      "label": "new-seed trajectory 137",
+      "frames": 72,
+      "min": 0,
+      "maxBalance": 4.973799150320701e-14,
+      "finalWater": 6.226754095650153e-82,
+      "absorbed": 6.375000000000006,
+      "evaporated": 10.62499999999999
+    },
+    {
+      "label": "new-seed trajectory 138",
+      "frames": 72,
+      "min": 0,
+      "maxBalance": 1.1546319456101628e-14,
+      "finalWater": 1.0938291923713866e-31,
+      "absorbed": 2.624999999999989,
+      "evaporated": 4.375000000000005
+    },
+    {
+      "label": "new-seed trajectory 139",
+      "frames": 72,
+      "min": 0,
+      "maxBalance": 1.4210854715202004e-14,
+      "finalWater": 1.1888086602897726e-166,
+      "absorbed": 2.6250000000000004,
+      "evaporated": 4.3750000000000115
+    },
+    {
+      "label": "new-seed trajectory 140",
+      "frames": 72,
+      "min": 0,
+      "maxBalance": 4.440892098500626e-15,
+      "finalWater": 0,
+      "absorbed": 6.374999999999997,
+      "evaporated": 10.625000000000002
+    },
+    {
+      "label": "new-seed trajectory 141",
+      "frames": 72,
+      "min": 0,
+      "maxBalance": 7.105427357601002e-15,
+      "finalWater": 2.597376583604541e-191,
+      "absorbed": 2.6249999999999925,
+      "evaporated": 4.375000000000002
+    },
+    {
+      "label": "new-seed trajectory 142",
+      "frames": 72,
+      "min": 0,
+      "maxBalance": 3.9968028886505635e-14,
+      "finalWater": 1.0146326744979766e-90,
+      "absorbed": 2.6249999999999885,
+      "evaporated": 4.374999999999972
+    },
+    {
+      "label": "new-seed trajectory 143",
+      "frames": 72,
+      "min": 0,
+      "maxBalance": 4.618527782440651e-14,
+      "finalWater": 2.8213466112393573e-190,
+      "absorbed": 6.374999999999973,
+      "evaporated": 10.62499999999998
+    },
+    {
+      "label": "new-seed trajectory 144",
+      "frames": 72,
+      "min": 0,
+      "maxBalance": 1.3322676295501878e-14,
+      "finalWater": 1.7392872725783127e-32,
+      "absorbed": 2.624999999999991,
+      "evaporated": 4.374999999999996
+    },
+    {
+      "label": "new-seed trajectory 145",
+      "frames": 72,
+      "min": 0,
+      "maxBalance": 2.6645352591003757e-15,
+      "finalWater": 0,
+      "absorbed": 2.6250000000000004,
+      "evaporated": 4.375000000000001
+    },
+    {
+      "label": "new-seed trajectory 146",
+      "frames": 72,
+      "min": 0,
+      "maxBalance": 6.394884621840902e-14,
+      "finalWater": 5.776057965267734e-277,
+      "absorbed": 6.374999999999989,
+      "evaporated": 10.624999999999947
+    },
+    {
+      "label": "new-seed trajectory 147",
+      "frames": 72,
+      "min": 0,
+      "maxBalance": 7.105427357601002e-15,
+      "finalWater": 1.3228989240750306e-61,
+      "absorbed": 2.625000000000003,
+      "evaporated": 4.374999999999999
+    },
+    {
+      "label": "new-seed trajectory 148",
+      "frames": 72,
+      "min": 0,
+      "maxBalance": 1.3322676295501878e-14,
+      "finalWater": 3.172394710327012e-38,
+      "absorbed": 2.6249999999999956,
+      "evaporated": 4.374999999999991
+    },
+    {
+      "label": "new-seed trajectory 149",
+      "frames": 72,
+      "min": 0,
+      "maxBalance": 4.618527782440651e-14,
+      "finalWater": 1.2047759054937632e-206,
+      "absorbed": 6.374999999999981,
+      "evaporated": 10.624999999999972
+    },
+    {
+      "label": "new-seed trajectory 150",
+      "frames": 72,
+      "min": 0,
+      "maxBalance": 1.7763568394002505e-15,
+      "finalWater": 0,
+      "absorbed": 2.6249999999999987,
+      "evaporated": 4.375
+    },
+    {
+      "label": "new-seed trajectory 151",
+      "frames": 72,
+      "min": 0,
+      "maxBalance": 6.217248937900877e-15,
+      "finalWater": 1.3298861933496614e-114,
+      "absorbed": 2.6249999999999982,
+      "evaporated": 4.375000000000001
+    },
+    {
+      "label": "new-seed trajectory 152",
+      "frames": 72,
+      "min": 2.7212443289460913e-186,
+      "maxBalance": 4.263256414560601e-14,
+      "finalWater": 2.1965386558156927e-184,
+      "absorbed": 6.374999999999988,
+      "evaporated": 10.62499999999997
+    },
+    {
+      "label": "new-seed trajectory 153",
+      "frames": 72,
+      "min": 0,
+      "maxBalance": 2.1316282072803006e-14,
+      "finalWater": 8.636842567640928e-161,
+      "absorbed": 2.625000000000004,
+      "evaporated": 4.375000000000004
+    },
+    {
+      "label": "new-seed trajectory 154",
+      "frames": 72,
+      "min": 0,
+      "maxBalance": 1.2434497875801753e-14,
+      "finalWater": 4.0180873058876405e-67,
+      "absorbed": 2.6249999999999902,
+      "evaporated": 4.375000000000008
+    },
+    {
+      "label": "new-seed trajectory 155",
+      "frames": 72,
+      "min": 0,
+      "maxBalance": 6.217248937900877e-15,
+      "finalWater": 0,
+      "absorbed": 6.374999999999998,
+      "evaporated": 10.625000000000002
+    },
+    {
+      "label": "new-seed trajectory 156",
+      "frames": 72,
+      "min": 0,
+      "maxBalance": 3.108624468950438e-14,
+      "finalWater": 2.0915043895609547e-111,
+      "absorbed": 2.6249999999999973,
+      "evaporated": 4.374999999999972
+    },
+    {
+      "label": "new-seed trajectory 157",
+      "frames": 72,
+      "min": 0,
+      "maxBalance": 3.552713678800501e-15,
+      "finalWater": 3.0784026675135086e-208,
+      "absorbed": 2.624999999999995,
+      "evaporated": 4.375000000000001
+    },
+    {
+      "label": "new-seed trajectory 158",
+      "frames": 72,
+      "min": 0,
+      "maxBalance": 3.907985046680551e-14,
+      "finalWater": 2.4407431422388102e-33,
+      "absorbed": 6.374999999999983,
+      "evaporated": 10.624999999999979
+    },
+    {
+      "label": "new-seed trajectory 159",
+      "frames": 72,
+      "min": 0,
+      "maxBalance": 8.881784197001252e-15,
+      "finalWater": 4.266508311555438e-60,
+      "absorbed": 2.62499999999999,
+      "evaporated": 4.375000000000001
+    }
+  ],
+  "negativeInputs": [
+    "negative water",
+    "negative pigment",
+    "NaN water",
+    "unstable losses"
+  ],
+  "legacy": [
+    {
+      "file": "examples/styles/phase02-watercolor/wet/assets/watercolor.json",
+      "solver": "grid-transport-1",
+      "sha256": "c3ddf725dffb459dd79b10dd514ecf8b756d694a4c7d2c8fa180837b1e247976",
+      "frames": [
+        0,
+        7,
+        37,
+        95,
+        191,
+        191,
+        95,
+        0
+      ],
+      "hashes": [
+        "b5c2b808b621b42d364ba142acb6613d913f028c52f835be420a08e6152f800f",
+        "b5c2b808b621b42d364ba142acb6613d913f028c52f835be420a08e6152f800f",
+        "95934f3f88677a6d050865f842f642d07a4b68584ad53ea01ac57f05ff747d1a",
+        "117782126c08e5ddf31e57938cddcf868a43a5dd9083b3e67e1ae3a6cd23c526",
+        "be46fc784d233be212b17352c7361049e3276deaf2964cde24f843121ba961e7",
+        "be46fc784d233be212b17352c7361049e3276deaf2964cde24f843121ba961e7",
+        "117782126c08e5ddf31e57938cddcf868a43a5dd9083b3e67e1ae3a6cd23c526",
+        "b5c2b808b621b42d364ba142acb6613d913f028c52f835be420a08e6152f800f"
+      ]
+    },
+    {
+      "file": "examples/styles/phase02-watercolor/overlap/assets/watercolor.json",
+      "solver": "grid-transport-1",
+      "sha256": "b474aeb2218a0054ea9c54aaaa70e64153a9e340dda494c305238671f851272e",
+      "frames": [
+        0,
+        7,
+        37,
+        95,
+        191,
+        191,
+        95,
+        0
+      ],
+      "hashes": [
+        "7fd2435d5badf1888ab183da4ad56efb89c85bd9dd1403732371091fa7ccacca",
+        "9373d8001910f984e1a26f6cb1d5a9d9bbca39864c402fd2aa927363cbe8d3d1",
+        "9ec99248a920511ee51b0cc1dc2456860c6f3196b673ee011c7d781587544c98",
+        "33cf79f286380d5cf36488e87674b9276605728b2ebd173513d86620e001be02",
+        "5b49360a4cef39e614d6fca4eeea16078e9a9075f795130717d46b6341bb3297",
+        "5b49360a4cef39e614d6fca4eeea16078e9a9075f795130717d46b6341bb3297",
+        "33cf79f286380d5cf36488e87674b9276605728b2ebd173513d86620e001be02",
+        "7fd2435d5badf1888ab183da4ad56efb89c85bd9dd1403732371091fa7ccacca"
+      ]
+    }
+  ],
+  "rig": [
+    {
+      "label": "root inverse translation",
+      "rejected": true
+    },
+    {
+      "label": "child inverse rotation",
+      "rejected": true
+    },
+    {
+      "label": "changed rest child",
+      "rejected": true
+    },
+    {
+      "label": "changed rest rotation",
+      "rejected": true
+    },
+    {
+      "label": "nonfinite bind",
+      "rejected": true
+    },
+    {
+      "label": "valid recomputed rotated bind",
+      "accepted": true
+    }
+  ],
+  "contact": [
+    {
+      "contact": {
+        "windows": {
+          "left": [
+            [
+              2,
+              1
+            ]
+          ],
+          "right": []
+        }
+      },
+      "error": "retarget: contact left windows require finite ordered seconds in [0,duration]"
+    },
+    {
+      "contact": {
+        "windows": {
+          "left": [
+            [
+              null,
+              1
+            ]
+          ]
+        }
+      },
+      "error": "retarget: contact left windows require finite ordered seconds in [0,duration]"
+    },
+    {
+      "contact": {
+        "windows": {
+          "left": [
+            [
+              -1,
+              0
+            ]
+          ]
+        }
+      },
+      "error": "retarget: contact left windows require finite ordered seconds in [0,duration]"
+    },
+    {
+      "contact": {
+        "windows": {
+          "left": [
+            [
+              0,
+              2.01
+            ]
+          ]
+        }
+      },
+      "error": "retarget: contact left windows require finite ordered seconds in [0,duration]"
+    },
+    {
+      "contact": {
+        "windows": {
+          "left": [
+            [
+              0
+            ]
+          ]
+        }
+      },
+      "error": "retarget: contact left windows require finite ordered seconds in [0,duration]"
+    },
+    {
+      "contact": {
+        "windows": {
+          "left": [
+            [
+              0,
+              1,
+              2
+            ]
+          ]
+        }
+      },
+      "error": "retarget: contact left windows require finite ordered seconds in [0,duration]"
+    },
+    {
+      "contact": {
+        "windows": {
+          "left": null
+        }
+      },
+      "error": "retarget: contact left windows require finite ordered seconds in [0,duration]"
+    },
+    {
+      "contact": {
+        "windows": []
+      },
+      "error": "retarget: contact windows require left/right arrays"
+    },
+    {
+      "contact": {
+        "windows": {
+          "wrong": []
+        }
+      },
+      "error": "retarget: contact windows require left/right arrays"
+    },
+    {
+      "contact": {
+        "windows": {
+          "left": [],
+          "right": []
+        },
+        "pole": [
+          0,
+          0,
+          null
+        ]
+      },
+      "error": "retarget: contact pole must be finite vec3"
+    },
+    {
+      "contact": {
+        "windows": {
+          "left": [],
+          "right": []
+        },
+        "pole": [
+          0,
+          1
+        ]
+      },
+      "error": "retarget: contact pole must be finite vec3"
+    },
+    {
+      "contact": {
+        "windows": {
+          "left": [],
+          "right": []
+        },
+        "minFlexion": -0.001
+      },
+      "error": "retarget: contact flexion bounds require 0 <= min <= max <= PI"
+    },
+    {
+      "contact": {
+        "windows": {
+          "left": [],
+          "right": []
+        },
+        "minFlexion": 2,
+        "maxFlexion": 1
+      },
+      "error": "retarget: contact flexion bounds require 0 <= min <= max <= PI"
+    },
+    {
+      "contact": {
+        "windows": {
+          "left": [],
+          "right": []
+        },
+        "maxFlexion": 3.142592653589793
+      },
+      "error": "retarget: contact flexion bounds require 0 <= min <= max <= PI"
+    },
+    {
+      "contact": {
+        "windows": {
+          "left": [],
+          "right": []
+        },
+        "maxFlexion": null
+      },
+      "error": "retarget: contact flexion bounds require 0 <= min <= max <= PI"
+    },
+    {
+      "contact": {
+        "windows": {
+          "left": [],
+          "right": []
+        }
+      },
+      "accepted": true,
+      "atStart": 0,
+      "atEnd": 0
+    },
+    {
+      "contact": {
+        "windows": {
+          "left": [
+            [
+              0,
+              2
+            ]
+          ],
+          "right": []
+        },
+        "pole": [
+          0,
+          0,
+          0
+        ],
+        "minFlexion": 0,
+        "maxFlexion": 3.141592653589793
+      },
+      "accepted": true,
+      "atStart": 1,
+      "atEnd": 1
+    },
+    {
+      "contact": {
+        "windows": {
+          "left": [
+            [
+              0,
+              0
+            ],
+            [
+              2,
+              2
+            ]
+          ],
+          "right": []
+        }
+      },
+      "accepted": true,
+      "atStart": 1,
+      "atEnd": 1
+    }
+  ],
+  "publication": [
+    {
+      "update": false,
+      "error": "auto-rig: stored inverse bind disagrees with rest hierarchy",
+      "allPackageHashesPreserved": true,
+      "stageOrBadOutputs": 0
+    },
+    {
+      "update": true,
+      "error": "auto-rig: stored inverse bind disagrees with rest hierarchy",
+      "allPackageHashesPreserved": true,
+      "stageOrBadOutputs": 0
+    },
+    {
+      "bakeExistingDestinationRefused": true,
+      "retainedSentinel": true,
+      "temporaryFiles": 0
+    }
+  ],
+  "defects": [],
+  "newBakeHash": "d8981483d525103003ed71a37e358acd0e98cb918a78de9e3cdaca090dd7f834"
+}

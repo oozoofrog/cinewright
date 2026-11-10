@@ -1,0 +1,44 @@
+[
+  {
+    "name": "wet",
+    "revision": "0d49af7d9721b296c32d5a2d1404b4ae505b846af966b71e854f4653e27bd86a",
+    "root": "/Volumes/eyedisk/develop/cinewright/.direction/aesthetic-toolkit-phase02-2026-11-08/fullhd/store/revisions/0d49af7d9721b296c32d5a2d1404b4ae505b846af966b71e854f4653e27bd86a",
+    "project": "/Volumes/eyedisk/develop/cinewright/.direction/aesthetic-toolkit-phase02-2026-11-08/fullhd/projects/wet",
+    "frames": 192
+  },
+  {
+    "name": "overlap",
+    "revision": "9f7f438ecb46456d79594660d67663d97721847edb43000ffdf119ed7060299d",
+    "root": "/Volumes/eyedisk/develop/cinewright/.direction/aesthetic-toolkit-phase02-2026-11-08/fullhd/store/revisions/9f7f438ecb46456d79594660d67663d97721847edb43000ffdf119ed7060299d",
+    "project": "/Volumes/eyedisk/develop/cinewright/.direction/aesthetic-toolkit-phase02-2026-11-08/fullhd/projects/overlap",
+    "frames": 192
+  },
+  {
+    "name": "tall",
+    "revision": "97faf35a7b025042f8fe55092de467d1c4f4f06bd226af92474c01bcae11a1cb",
+    "root": "/Volumes/eyedisk/develop/cinewright/.direction/aesthetic-toolkit-phase02-2026-11-08/fullhd/store/revisions/97faf35a7b025042f8fe55092de467d1c4f4f06bd226af92474c01bcae11a1cb",
+    "project": "/Volumes/eyedisk/develop/cinewright/.direction/aesthetic-toolkit-phase02-2026-11-08/fullhd/projects/tall",
+    "frames": 192
+  },
+  {
+    "name": "broad",
+    "revision": "e289d9c8840eff687a510c7daef2eff1a8eed9c3f2ac162253a0a80bd78368ae",
+    "root": "/Volumes/eyedisk/develop/cinewright/.direction/aesthetic-toolkit-phase02-2026-11-08/fullhd/store/revisions/e289d9c8840eff687a510c7daef2eff1a8eed9c3f2ac162253a0a80bd78368ae",
+    "project": "/Volumes/eyedisk/develop/cinewright/.direction/aesthetic-toolkit-phase02-2026-11-08/fullhd/projects/broad",
+    "frames": 192
+  },
+  {
+    "name": "stride",
+    "revision": "6c08ffeaa69cbf1bc1defa2cc5ade2e331c18ebcd7a7407c4008819a22e6ac0b",
+    "root": "/Volumes/eyedisk/develop/cinewright/.direction/aesthetic-toolkit-phase02-2026-11-08/fullhd/store/revisions/6c08ffeaa69cbf1bc1defa2cc5ade2e331c18ebcd7a7407c4008819a22e6ac0b",
+    "project": "/Volumes/eyedisk/develop/cinewright/.direction/aesthetic-toolkit-phase02-2026-11-08/fullhd/projects/stride",
+    "frames": 192
+  },
+  {
+    "name": "salute",
+    "revision": "3da05c4ff8f49c23956d7ba6669308aab3b304d3447578023585fe8caa94cedd",
+    "root": "/Volumes/eyedisk/develop/cinewright/.direction/aesthetic-toolkit-phase02-2026-11-08/fullhd/store/revisions/3da05c4ff8f49c23956d7ba6669308aab3b304d3447578023585fe8caa94cedd",
+    "project": "/Volumes/eyedisk/develop/cinewright/.direction/aesthetic-toolkit-phase02-2026-11-08/fullhd/projects/salute",
+    "frames": 216
+  }
+]

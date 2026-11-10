@@ -1,0 +1,111 @@
+{
+  "project": "/Volumes/eyedisk/develop/cinewright/.direction/aesthetic-toolkit-phase02-2026-11-08/coordinator/broad",
+  "style": "expressionist-space",
+  "version": "1.0.0",
+  "files": [
+    {
+      "file": "modules/styles/expressionist-space/index.mjs",
+      "sha256": "bccd62abbebdae065e65675962999bc7d049136fe9011a483d292fe936dd8f08"
+    },
+    {
+      "file": "modules/animation/exposure.mjs",
+      "sha256": "ed8455c1aed87d78c88b1275b3ba74cc3783f073b6e9f9699d58f5be8ace1ab3"
+    },
+    {
+      "file": "modules/animation/clip3d.mjs",
+      "sha256": "f8087674425114b22aedf34f2d9778c89ab6463b24a1a1f4e9de0356f7565819"
+    },
+    {
+      "file": "modules/fx3d/adapter.mjs",
+      "sha256": "796bc116c14a38aae717efa0aeac8040db09c4d8f9335b8d8a6e84b09f0990b1"
+    },
+    {
+      "file": "modules/fx3d/material.mjs",
+      "sha256": "810fc554f85e6062888a8971c6d7ab07f72b7ee2e46c6546dff1e099464e9c87"
+    },
+    {
+      "file": "modules/fx3d/outline.mjs",
+      "sha256": "dda72bd5e03193cd6b5245dbf52fcd4a6646c08afd478408853311f2802701bd"
+    },
+    {
+      "file": "modules/fx3d/geometry.mjs",
+      "sha256": "8b3e413053cac8b38688d6ebe7e7802192658eaad520763ee71ce3e3e653a7b3"
+    },
+    {
+      "file": "modules/fx3d/light.mjs",
+      "sha256": "6fdf795ff3bc19be70f3804b088aa744ca3d97df070b20e47685e83757209786"
+    },
+    {
+      "file": "modules/fx3d/particles.mjs",
+      "sha256": "54eb4aacc0fa251871dcf14430981e37b170853a172c77ad1a31d5e09a3a9486"
+    },
+    {
+      "file": "modules/fx3d/deform.mjs",
+      "sha256": "23836b65207973de0f18a74ffa04fcd888e5e974f94363b5da86941b42de9544"
+    },
+    {
+      "file": "modules/fx3d/glb.mjs",
+      "sha256": "c2032b590c8933ccc24a6faed4eb0e02a595cf68bdf8c3ab8a10e381a7f7ed3b"
+    },
+    {
+      "file": "modules/animation/auto-rig.mjs",
+      "sha256": "0503e29ef93b9b7a610582cd4e651a0f9e25b660d604dd543c9ebd8381b0384a"
+    },
+    {
+      "file": "modules/animation/retarget.mjs",
+      "sha256": "18b40d3b0d55b84726328758c069f66628167e86bf1846461a3ac338ea7c81e2"
+    },
+    {
+      "file": "modules/fx3d/skinned-outline.mjs",
+      "sha256": "5fbc53a3d59df58f0c504611df3c2a9f8a3e858948c89a1c1a06df847341fc30"
+    },
+    {
+      "file": "modules/styles/expressionist-space/validate.mjs",
+      "sha256": "695e59e9950197c03baac0f7b89caa8152876c80311a2308e117b2fb841f5aa6"
+    },
+    {
+      "file": "vendor/three/addons/loaders/GLTFLoader.js",
+      "sha256": "67ac5551fdafa6e349bd80c8f8e5e39c136d6b2fb1ad647db9abb21dc86f9e4a"
+    },
+    {
+      "file": "vendor/three/addons/utils/BufferGeometryUtils.js",
+      "sha256": "fda7e946b8e0b5ab39b779206589e7a1079a22eb24efb89d7223e03fdfb1f751"
+    },
+    {
+      "file": "vendor/three/LICENSE",
+      "sha256": "bfe119ea4fd413f5f7ca3fcd63adb0c4a073ed39daa2fe7d3e6b769e21272601"
+    },
+    {
+      "file": "vendor/three/package.json",
+      "sha256": "5197b7644d3a95c16e757d3494a719debbd8fbd0702dedf2c8a1d598a519f9e4"
+    },
+    {
+      "file": "assets/character.rig.json",
+      "sha256": "499a33c3e5fad3171ec1f4c549af6ae90ddf84109027436e23f20d28726fdb3f"
+    },
+    {
+      "file": "assets/character.motion.json",
+      "sha256": "3f45c0febb6f30022d6b04e1b7927f2fb5c5a74958020a29292d6fb2f1275ee3"
+    },
+    {
+      "file": "assets/character.glb",
+      "sha256": "6230a3d938f93255b8559a91c82447e9ef08bb295834e2039b28d247d9a725df"
+    },
+    {
+      "file": "assets/LICENSE",
+      "sha256": "8599962a8fd4f90f6071679bc1a07e613bb15a0aab50b6906fb10aa6aa25a7a3"
+    },
+    {
+      "file": "work.json",
+      "sha256": "b0bd1ed15957749ad0e80c002a8ed8d7e221e93bc7289c7e0c42b7553451a4f8"
+    },
+    {
+      "file": "style-scene.json",
+      "sha256": "8ade26648dbec4f38f9c76ff861934ae2fbb73a9dd437a8db79cb06ffe4bd48f"
+    },
+    {
+      "file": "style-version.json",
+      "sha256": "7c5a729cd06a3d050eca0ddad808d94dad0286c90df867b70222be696769ce05"
+    }
+  ]
+}

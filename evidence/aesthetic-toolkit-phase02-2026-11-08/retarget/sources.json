@@ -1,0 +1,26 @@
+{
+  "threeVersion": "0.180.0",
+  "skeletonUtils": {
+    "url": "https://github.com/mrdoob/three.js/blob/r180/examples/jsm/utils/SkeletonUtils.js",
+    "sha256": "0761b1e003917b215d25dd81439d854b36034b5a57ce84c2cfe3b02428d7b253",
+    "imports": [
+      "three"
+    ],
+    "adopted": false
+  },
+  "license": {
+    "id": "MIT",
+    "url": "https://github.com/mrdoob/three.js/blob/r180/LICENSE",
+    "sha256": "bfe119ea4fd413f5f7ca3fcd63adb0c4a073ed39daa2fe7d3e6b769e21272601"
+  },
+  "analyticIK": {
+    "url": "https://www.ryanjuckett.com/analytic-two-bone-ik-in-2d/",
+    "author": "Ryan Juckett",
+    "published": "2008-12-29",
+    "reuse": "mathematical derivation only; no copied code/art/media; redistribution license not assumed"
+  },
+  "fixtures": {
+    "license": "CC0-1.0",
+    "externalMedia": false
+  }
+}

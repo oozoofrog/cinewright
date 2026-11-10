@@ -1,0 +1,716 @@
+{
+  "water": [
+    {
+      "trial": 0,
+      "maxBalance": 2.6645352591003757e-15,
+      "min": 0
+    },
+    {
+      "trial": 1,
+      "maxBalance": 7.105427357601002e-15,
+      "min": 0
+    },
+    {
+      "trial": 2,
+      "maxBalance": 2.6645352591003757e-15,
+      "min": 0
+    },
+    {
+      "trial": 3,
+      "maxBalance": 4.440892098500626e-15,
+      "min": 0
+    },
+    {
+      "trial": 4,
+      "maxBalance": 1.6342482922482304e-13,
+      "min": 0
+    },
+    {
+      "trial": 5,
+      "maxBalance": 1.3500311979441904e-13,
+      "min": 0
+    },
+    {
+      "trial": 6,
+      "maxBalance": 1.7763568394002505e-14,
+      "min": 0
+    },
+    {
+      "trial": 7,
+      "maxBalance": 3.907985046680551e-14,
+      "min": 0
+    },
+    {
+      "trial": 8,
+      "maxBalance": 7.815970093361102e-14,
+      "min": 0
+    },
+    {
+      "trial": 9,
+      "maxBalance": 2.2026824808563106e-13,
+      "min": 0
+    },
+    {
+      "trial": 10,
+      "maxBalance": 1.0302869668521453e-13,
+      "min": 0
+    },
+    {
+      "trial": 11,
+      "maxBalance": 1.7053025658242404e-13,
+      "min": 0
+    },
+    {
+      "trial": 12,
+      "maxBalance": 1.0658141036401503e-13,
+      "min": 0
+    },
+    {
+      "trial": 13,
+      "maxBalance": 6.394884621840902e-14,
+      "min": 0
+    },
+    {
+      "trial": 14,
+      "maxBalance": 2.4868995751603507e-13,
+      "min": 0
+    },
+    {
+      "trial": 15,
+      "maxBalance": 5.3290705182007514e-14,
+      "min": 0
+    },
+    {
+      "trial": 16,
+      "maxBalance": 3.552713678800501e-14,
+      "min": 0
+    },
+    {
+      "trial": 17,
+      "maxBalance": 5.684341886080802e-14,
+      "min": 0
+    },
+    {
+      "trial": 18,
+      "maxBalance": 3.907985046680551e-14,
+      "min": 0
+    },
+    {
+      "trial": 19,
+      "maxBalance": 1.1368683772161603e-13,
+      "min": 0
+    },
+    {
+      "trial": 20,
+      "maxBalance": 2.1316282072803006e-14,
+      "min": 0
+    },
+    {
+      "trial": 21,
+      "maxBalance": 1.4210854715202004e-13,
+      "min": 0
+    },
+    {
+      "trial": 22,
+      "maxBalance": 1.5631940186722204e-13,
+      "min": 0
+    },
+    {
+      "trial": 23,
+      "maxBalance": 3.197442310920451e-14,
+      "min": 0
+    },
+    {
+      "trial": 24,
+      "maxBalance": 5.3290705182007514e-14,
+      "min": 0
+    },
+    {
+      "trial": 25,
+      "maxBalance": 7.105427357601002e-14,
+      "min": 0
+    },
+    {
+      "trial": 26,
+      "maxBalance": 6.217248937900877e-14,
+      "min": 0
+    },
+    {
+      "trial": 27,
+      "maxBalance": 4.440892098500626e-14,
+      "min": 0
+    },
+    {
+      "trial": 28,
+      "maxBalance": 1.4921397450962104e-13,
+      "min": 0
+    },
+    {
+      "trial": 29,
+      "maxBalance": 1.1013412404281553e-13,
+      "min": 0
+    },
+    {
+      "trial": 30,
+      "maxBalance": 8.881784197001252e-14,
+      "min": 0
+    },
+    {
+      "trial": 31,
+      "maxBalance": 6.039613253960852e-14,
+      "min": 0
+    },
+    {
+      "trial": 32,
+      "maxBalance": 3.019806626980426e-14,
+      "min": 0
+    },
+    {
+      "trial": 33,
+      "maxBalance": 1.2434497875801753e-13,
+      "min": 0
+    },
+    {
+      "trial": 34,
+      "maxBalance": 1.2434497875801753e-13,
+      "min": 0
+    },
+    {
+      "trial": 35,
+      "maxBalance": 2.6645352591003757e-13,
+      "min": 0
+    },
+    {
+      "trial": 36,
+      "maxBalance": 1.0302869668521453e-13,
+      "min": 0
+    },
+    {
+      "trial": 37,
+      "maxBalance": 4.263256414560601e-14,
+      "min": 0
+    },
+    {
+      "trial": 38,
+      "maxBalance": 1.0658141036401503e-14,
+      "min": 0
+    },
+    {
+      "trial": 39,
+      "maxBalance": 1.0302869668521453e-13,
+      "min": 0
+    },
+    {
+      "trial": 40,
+      "maxBalance": 1.4210854715202004e-14,
+      "min": 0
+    },
+    {
+      "trial": 41,
+      "maxBalance": 2.842170943040401e-14,
+      "min": 0
+    },
+    {
+      "trial": 42,
+      "maxBalance": 8.526512829121202e-14,
+      "min": 0
+    },
+    {
+      "trial": 43,
+      "maxBalance": 8.526512829121202e-14,
+      "min": 0
+    },
+    {
+      "trial": 44,
+      "maxBalance": 1.1368683772161603e-13,
+      "min": 0
+    },
+    {
+      "trial": 45,
+      "maxBalance": 2.0961010704922955e-13,
+      "min": 0
+    },
+    {
+      "trial": 46,
+      "maxBalance": 3.552713678800501e-14,
+      "min": 0
+    },
+    {
+      "trial": 47,
+      "maxBalance": 7.460698725481052e-14,
+      "min": 0
+    },
+    {
+      "trial": 48,
+      "maxBalance": 9.237055564881302e-14,
+      "min": 0
+    },
+    {
+      "trial": 49,
+      "maxBalance": 1.0302869668521453e-13,
+      "min": 0
+    },
+    {
+      "trial": 50,
+      "maxBalance": 3.552713678800501e-14,
+      "min": 0
+    },
+    {
+      "trial": 51,
+      "maxBalance": 1.0658141036401503e-13,
+      "min": 0
+    },
+    {
+      "trial": 52,
+      "maxBalance": 4.618527782440651e-14,
+      "min": 0
+    },
+    {
+      "trial": 53,
+      "maxBalance": 9.237055564881302e-14,
+      "min": 0
+    },
+    {
+      "trial": 54,
+      "maxBalance": 1.2434497875801753e-13,
+      "min": 0
+    },
+    {
+      "trial": 55,
+      "maxBalance": 3.197442310920451e-14,
+      "min": 0
+    },
+    {
+      "trial": 56,
+      "maxBalance": 5.684341886080802e-14,
+      "min": 0
+    },
+    {
+      "trial": 57,
+      "maxBalance": 2.5934809855243657e-13,
+      "min": 0
+    },
+    {
+      "trial": 58,
+      "maxBalance": 1.5631940186722204e-13,
+      "min": 0
+    },
+    {
+      "trial": 59,
+      "maxBalance": 1.3145040611561853e-13,
+      "min": 0
+    },
+    {
+      "trial": 60,
+      "maxBalance": 2.4868995751603507e-14,
+      "min": 0
+    },
+    {
+      "trial": 61,
+      "maxBalance": 4.973799150320701e-14,
+      "min": 0
+    },
+    {
+      "trial": 62,
+      "maxBalance": 6.217248937900877e-14,
+      "min": 0
+    },
+    {
+      "trial": 63,
+      "maxBalance": 7.815970093361102e-14,
+      "min": 0
+    },
+    {
+      "trial": 64,
+      "maxBalance": 5.3290705182007514e-14,
+      "min": 0
+    },
+    {
+      "trial": 65,
+      "maxBalance": 1.0125233984581428e-13,
+      "min": 0
+    },
+    {
+      "trial": 66,
+      "maxBalance": 2.0605739337042905e-13,
+      "min": 0
+    },
+    {
+      "trial": 67,
+      "maxBalance": 4.973799150320701e-14,
+      "min": 0
+    },
+    {
+      "trial": 68,
+      "maxBalance": 1.2079226507921703e-13,
+      "min": 0
+    },
+    {
+      "trial": 69,
+      "maxBalance": 3.907985046680551e-14,
+      "min": 0
+    },
+    {
+      "trial": 70,
+      "maxBalance": 1.3500311979441904e-13,
+      "min": 0
+    },
+    {
+      "trial": 71,
+      "maxBalance": 1.8118839761882555e-13,
+      "min": 0
+    },
+    {
+      "trial": 72,
+      "maxBalance": 3.375077994860476e-14,
+      "min": 0
+    },
+    {
+      "trial": 73,
+      "maxBalance": 3.161915174132446e-13,
+      "min": 0
+    },
+    {
+      "trial": 74,
+      "maxBalance": 6.750155989720952e-14,
+      "min": 0
+    },
+    {
+      "trial": 75,
+      "maxBalance": 8.171241461241152e-14,
+      "min": 0
+    },
+    {
+      "trial": 76,
+      "maxBalance": 3.197442310920451e-14,
+      "min": 0
+    },
+    {
+      "trial": 77,
+      "maxBalance": 1.3500311979441904e-13,
+      "min": 0
+    },
+    {
+      "trial": 78,
+      "maxBalance": 1.0302869668521453e-13,
+      "min": 0
+    },
+    {
+      "trial": 79,
+      "maxBalance": 1.4566126083082054e-13,
+      "min": 0
+    }
+  ],
+  "rig": [
+    {
+      "parameters": {},
+      "rest": 1.4364415740205255e-7,
+      "moved": 0.9427047177641021,
+      "diagnostics": {
+        "components": 1,
+        "height": 3.9749999999999996,
+        "halfWidth": 0.6,
+        "crotch": 1.6893749999999996,
+        "shoulderY": 3,
+        "legX": 0.375,
+        "landmarksUsed": [],
+        "inference": "80 horizontal surface sections; bilaterally separated legs and straight arms",
+        "limits": [
+          "linear blend skinning loses joint volume",
+          "no fingers/face/twist bones",
+          "surface sections and distance weights, not Pinocchio heat diffusion"
+        ],
+        "maxRestError": 1.4364415740205255e-7
+      },
+      "vertices": 20280
+    },
+    {
+      "parameters": {
+        "height": 3.2,
+        "shoulder": 0.7,
+        "arm": 1.9,
+        "leg": 0.46,
+        "depth": 0.36
+      },
+      "rest": 1.1402520642875737e-7,
+      "moved": 0.6750961785398161,
+      "diagnostics": {
+        "components": 1,
+        "height": 3.225,
+        "halfWidth": 0.6749999999999999,
+        "crotch": 1.29,
+        "shoulderY": 2.4,
+        "legX": 0.525,
+        "landmarksUsed": [],
+        "inference": "80 horizontal surface sections; bilaterally separated legs and straight arms",
+        "limits": [
+          "linear blend skinning loses joint volume",
+          "no fingers/face/twist bones",
+          "surface sections and distance weights, not Pinocchio heat diffusion"
+        ],
+        "maxRestError": 1.1402520642875737e-7
+      },
+      "vertices": 19800
+    },
+    {
+      "parameters": {
+        "height": 4.2,
+        "shoulder": 0.65,
+        "arm": 2,
+        "leg": 0.48,
+        "depth": 0.33
+      },
+      "rest": 1.7075180017395291e-7,
+      "moved": 0.7688248107809732,
+      "diagnostics": {
+        "components": 1,
+        "height": 4.2,
+        "halfWidth": 0.6749999999999999,
+        "crotch": 1.7325,
+        "shoulderY": 3.15,
+        "legX": 0.525,
+        "landmarksUsed": [],
+        "inference": "80 horizontal surface sections; bilaterally separated legs and straight arms",
+        "limits": [
+          "linear blend skinning loses joint volume",
+          "no fingers/face/twist bones",
+          "surface sections and distance weights, not Pinocchio heat diffusion"
+        ],
+        "maxRestError": 1.7075180017395291e-7
+      },
+      "vertices": 22968
+    }
+  ],
+  "retarget": [
+    {
+      "targetKey": "reed",
+      "motionKey": "stride",
+      "scale": 1.4200610784566883,
+      "maxResidual": 8.881784197001252e-16,
+      "maxCorrection": 0.0915529453247671,
+      "unreachable": 0
+    },
+    {
+      "targetKey": "reed",
+      "motionKey": "stride",
+      "extremeMaxCorrection": 0.00010000000000032205,
+      "minResidual": 99.8599,
+      "unreachable": 0,
+      "boundRejected": 0
+    },
+    {
+      "targetKey": "reed",
+      "motionKey": "salute",
+      "scale": 1.4200610784566883,
+      "maxResidual": 6.661338147750939e-16,
+      "maxCorrection": 0.23444472414599937,
+      "unreachable": 0
+    },
+    {
+      "targetKey": "reed",
+      "motionKey": "salute",
+      "extremeMaxCorrection": 0.00010000000000043308,
+      "minResidual": 99.74176827700774,
+      "unreachable": 0,
+      "boundRejected": 0
+    },
+    {
+      "targetKey": "copper",
+      "motionKey": "stride",
+      "scale": 0.6957650201411509,
+      "maxResidual": 2.3869795029440866e-15,
+      "maxCorrection": 0.051396433116811635,
+      "unreachable": 0
+    },
+    {
+      "targetKey": "copper",
+      "motionKey": "stride",
+      "extremeMaxCorrection": 0.00010000000000032205,
+      "minResidual": 99.8599,
+      "unreachable": 0,
+      "boundRejected": 0
+    },
+    {
+      "targetKey": "copper",
+      "motionKey": "salute",
+      "scale": 0.6957650201411509,
+      "maxResidual": 1.9984014443252818e-15,
+      "maxCorrection": 0.12021384406672447,
+      "unreachable": 0
+    },
+    {
+      "targetKey": "copper",
+      "motionKey": "salute",
+      "extremeMaxCorrection": 0.00009999999999998899,
+      "minResidual": 99.81349205371512,
+      "unreachable": 0,
+      "boundRejected": 0
+    }
+  ],
+  "publication": [
+    {
+      "script": "scripts/watercolor-bake.mjs",
+      "first": {
+        "code": 0,
+        "signal": null,
+        "stderr": ""
+      },
+      "repeat": {
+        "code": 1,
+        "signal": null,
+        "stderr": "node:internal/fs/promises:1946\n  return await PromisePrototypeThen(\n         ^\n\nError: EEXIST: file already exists, link '/Volumes/eyedisk/develop/cinewright/.direction/aesthetic-toolkit-phase02-2026-11-08/independent-review/publication/.water-out.json.21344.tmp' -> '/Volumes/eyedisk/develop/cinewright/.direction/aesthetic-toolkit-phase02-2026-11-08/independent-review/publication/water-out.json'\n    at async Object.link (node:internal/fs/promises:1946:10)\n    at async file:///Volumes/eyedisk/develop/cinewright/scripts/watercolor-bake.mjs:4:491 {\n  errno: -17,\n  code: 'EEXIST',\n  syscall: 'link',\n  path: '/Volumes/eyedisk/develop/cinewright/.direction/aesthetic-toolkit-phase02-2026-11-08/independent-review/publication/.water-out.json.21344.tmp',\n  dest: '/Volumes/eyedisk/develop/cinewright/.direction/aesthetic-toolkit-phase02-2026-11-08/independent-review/publication/water-out.json'\n}\n\nNode.js v26.12.1\n"
+      }
+    },
+    {
+      "script": "scripts/auto-rig.mjs",
+      "first": {
+        "code": 0,
+        "signal": null,
+        "stderr": ""
+      },
+      "repeat": {
+        "code": 1,
+        "signal": null,
+        "stderr": "node:internal/fs/promises:1946\n  return await PromisePrototypeThen(\n         ^\n\nError: EEXIST: file already exists, link '/Volumes/eyedisk/develop/cinewright/.direction/aesthetic-toolkit-phase02-2026-11-08/independent-review/publication/.auto-rig-ibQ9H9/asset' -> '/Volumes/eyedisk/develop/cinewright/.direction/aesthetic-toolkit-phase02-2026-11-08/independent-review/publication/rig-out.json'\n    at async Object.link (node:internal/fs/promises:1946:10)\n    at async writeRig (file:///Volumes/eyedisk/develop/cinewright/scripts/auto-rig.mjs:10:392)\n    at async file:///Volumes/eyedisk/develop/cinewright/scripts/auto-rig.mjs:11:266 {\n  errno: -17,\n  code: 'EEXIST',\n  syscall: 'link',\n  path: '/Volumes/eyedisk/develop/cinewright/.direction/aesthetic-toolkit-phase02-2026-11-08/independent-review/publication/.auto-rig-ibQ9H9/asset',\n  dest: '/Volumes/eyedisk/develop/cinewright/.direction/aesthetic-toolkit-phase02-2026-11-08/independent-review/publication/rig-out.json'\n}\n\nNode.js v26.12.1\n"
+      }
+    },
+    {
+      "script": "scripts/retarget-bake.mjs",
+      "first": {
+        "code": 0,
+        "signal": null,
+        "stderr": ""
+      },
+      "repeat": {
+        "code": 1,
+        "signal": null,
+        "stderr": "node:internal/fs/promises:1946\n  return await PromisePrototypeThen(\n         ^\n\nError: EEXIST: file already exists, link '/Volumes/eyedisk/develop/cinewright/.direction/aesthetic-toolkit-phase02-2026-11-08/independent-review/publication/.retarget-pgShdW/motion.json' -> '/Volumes/eyedisk/develop/cinewright/.direction/aesthetic-toolkit-phase02-2026-11-08/independent-review/publication/motion-out.json'\n    at async Object.link (node:internal/fs/promises:1946:10)\n    at async retargetBakeFile (file:///Volumes/eyedisk/develop/cinewright/scripts/retarget-bake.mjs:10:126)\n    at async file:///Volumes/eyedisk/develop/cinewright/scripts/retarget-bake.mjs:14:29 {\n  errno: -17,\n  code: 'EEXIST',\n  syscall: 'link',\n  path: '/Volumes/eyedisk/develop/cinewright/.direction/aesthetic-toolkit-phase02-2026-11-08/independent-review/publication/.retarget-pgShdW/motion.json',\n  dest: '/Volumes/eyedisk/develop/cinewright/.direction/aesthetic-toolkit-phase02-2026-11-08/independent-review/publication/motion-out.json'\n}\n\nNode.js v26.12.1\n"
+      }
+    },
+    {
+      "cancelled": {
+        "code": 1,
+        "signal": null,
+        "active": true,
+        "stderr": "file:///Volumes/eyedisk/develop/cinewright/scripts/watercolor-bake.mjs:4\n const temp=path.join(path.dirname(output),`.${path.basename(output)}.${process.pid}.tmp`);try{const data=await new Promise((resolve,reject)=>{worker.once('message',m=>m.error?reject(Error(m.error)):resolve(m.data));worker.once('error',reject);worker.once('exit',code=>{if(cancelled)reject(Error('cancelled'));else if(code!==0)reject(Error(`worker exited ${code}`));});});if(cancelled)throw Error('cancelled');await fs.writeFile(temp,data,{flag:'wx'});if(cancelled)throw Error('cancelled');await fs.link(temp,output);}finally{await worker.terminate();await fs.rm(temp,{force:true});process.removeListener('SIGINT',stop);process.removeListener('SIGTERM',stop);}}\n                                                                                                                                                                                                                                                                                                  ^\n\nError: cancelled\n    at Worker.<anonymous> (file:///Volumes/eyedisk/develop/cinewright/scripts/watercolor-bake.mjs:4:291)\n    at Worker.wrapper (node:events:639:12)\n    at Worker.emit (node:events:526:24)\n    at [kOnExit] (node:internal/worker:405:10)\n    at Worker.<computed>.onexit (node:internal/worker:299:20)\n\nNode.js v26.12.1\n"
+      }
+    },
+    {
+      "postStageFailure": {
+        "code": 1,
+        "signal": null,
+        "stderr": "node:internal/fs/promises:1946\n  return await PromisePrototypeThen(\n         ^\n\nError: EEXIST: file already exists, link '/Volumes/eyedisk/develop/cinewright/.direction/aesthetic-toolkit-phase02-2026-11-08/independent-review/publication/.occupied.21364.tmp' -> '/Volumes/eyedisk/develop/cinewright/.direction/aesthetic-toolkit-phase02-2026-11-08/independent-review/publication/occupied'\n    at async Object.link (node:internal/fs/promises:1946:10)\n    at async file:///Volumes/eyedisk/develop/cinewright/scripts/watercolor-bake.mjs:4:491 {\n  errno: -17,\n  code: 'EEXIST',\n  syscall: 'link',\n  path: '/Volumes/eyedisk/develop/cinewright/.direction/aesthetic-toolkit-phase02-2026-11-08/independent-review/publication/.occupied.21364.tmp',\n  dest: '/Volumes/eyedisk/develop/cinewright/.direction/aesthetic-toolkit-phase02-2026-11-08/independent-review/publication/occupied'\n}\n\nNode.js v26.12.1\n"
+      }
+    }
+  ],
+  "defects": [
+    {
+      "case": "valid watercolor input throws",
+      "trial": 38,
+      "frame": 58,
+      "input": {
+        "version": 1,
+        "seed": 5,
+        "width": 9,
+        "height": 7,
+        "frames": 60,
+        "dt": 0.2506466653887182,
+        "stepsPerFrame": 3,
+        "coefficients": {
+          "waterDiffusion": 0.8677987347324267,
+          "pigmentDiffusion": 0.08482564206293586,
+          "absorption": 0.9538442573075465,
+          "evaporation": 3.026037321054972,
+          "deposition": 0.4149989004015849
+        },
+        "colors": [
+          [
+            20,
+            40,
+            180
+          ],
+          [
+            180,
+            30,
+            20
+          ]
+        ],
+        "events": [
+          {
+            "frame": 0,
+            "x": 4,
+            "y": 3,
+            "radius": 1,
+            "water": 10,
+            "pigment": [
+              3,
+              2
+            ]
+          },
+          {
+            "frame": 17,
+            "x": 2,
+            "y": 2,
+            "radius": 2,
+            "water": 7,
+            "pigment": [
+              1,
+              4
+            ]
+          }
+        ]
+      },
+      "error": "watercolor: negative pigment: reduce diffusion coefficients"
+    },
+    {
+      "case": "inconsistent inverseBind without motion",
+      "validatorAccepts": true,
+      "factoryRejects": true,
+      "materializerPublished": true
+    },
+    {
+      "case": "invalid contact",
+      "input": {
+        "windows": {
+          "left": [
+            [
+              null,
+              2
+            ]
+          ],
+          "right": []
+        }
+      },
+      "accepted": true,
+      "contacts": []
+    },
+    {
+      "case": "invalid contact",
+      "input": {
+        "windows": {
+          "left": [
+            [
+              2,
+              1
+            ]
+          ],
+          "right": []
+        }
+      },
+      "accepted": true,
+      "contacts": []
+    },
+    {
+      "case": "invalid contact",
+      "input": {
+        "pole": [
+          null,
+          0,
+          1
+        ]
+      },
+      "accepted": false,
+      "error": "retarget: invalid IK lengths/limits"
+    }
+  ]
+}

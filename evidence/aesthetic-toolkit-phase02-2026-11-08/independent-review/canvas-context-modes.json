@@ -1,0 +1,224 @@
+{
+  "toolIcon": {
+    "_tag": "website",
+    "pageUrl": "http://127.0.0.1:48733/"
+  },
+  "value": [
+    {
+      "diff": 0,
+      "f": 0,
+      "max": 0,
+      "mode": "default"
+    },
+    {
+      "diff": 0,
+      "f": 7,
+      "max": 0,
+      "mode": "default"
+    },
+    {
+      "diff": 0,
+      "f": 37,
+      "max": 0,
+      "mode": "default"
+    },
+    {
+      "diff": 0,
+      "f": 95,
+      "max": 0,
+      "mode": "default"
+    },
+    {
+      "diff": 0,
+      "f": 191,
+      "max": 0,
+      "mode": "default"
+    },
+    {
+      "diff": 0,
+      "f": 191,
+      "max": 0,
+      "mode": "default"
+    },
+    {
+      "diff": 0,
+      "f": 95,
+      "max": 0,
+      "mode": "default"
+    },
+    {
+      "diff": 0,
+      "f": 37,
+      "max": 0,
+      "mode": "default"
+    },
+    {
+      "diff": 79252,
+      "f": 7,
+      "max": 19,
+      "mode": "default"
+    },
+    {
+      "diff": 29838,
+      "f": 0,
+      "max": 28,
+      "mode": "default"
+    },
+    {
+      "diff": 0,
+      "f": 191,
+      "max": 0,
+      "mode": "default"
+    },
+    {
+      "diff": 29838,
+      "f": 0,
+      "max": 28,
+      "mode": "default"
+    },
+    {
+      "diff": 0,
+      "f": 0,
+      "max": 0,
+      "mode": "cpu"
+    },
+    {
+      "diff": 0,
+      "f": 7,
+      "max": 0,
+      "mode": "cpu"
+    },
+    {
+      "diff": 0,
+      "f": 37,
+      "max": 0,
+      "mode": "cpu"
+    },
+    {
+      "diff": 0,
+      "f": 95,
+      "max": 0,
+      "mode": "cpu"
+    },
+    {
+      "diff": 0,
+      "f": 191,
+      "max": 0,
+      "mode": "cpu"
+    },
+    {
+      "diff": 0,
+      "f": 191,
+      "max": 0,
+      "mode": "cpu"
+    },
+    {
+      "diff": 0,
+      "f": 95,
+      "max": 0,
+      "mode": "cpu"
+    },
+    {
+      "diff": 0,
+      "f": 37,
+      "max": 0,
+      "mode": "cpu"
+    },
+    {
+      "diff": 0,
+      "f": 7,
+      "max": 0,
+      "mode": "cpu"
+    },
+    {
+      "diff": 0,
+      "f": 0,
+      "max": 0,
+      "mode": "cpu"
+    },
+    {
+      "diff": 0,
+      "f": 191,
+      "max": 0,
+      "mode": "cpu"
+    },
+    {
+      "diff": 0,
+      "f": 0,
+      "max": 0,
+      "mode": "cpu"
+    },
+    {
+      "diff": 0,
+      "f": 0,
+      "max": 0,
+      "mode": "gpu"
+    },
+    {
+      "diff": 0,
+      "f": 7,
+      "max": 0,
+      "mode": "gpu"
+    },
+    {
+      "diff": 0,
+      "f": 37,
+      "max": 0,
+      "mode": "gpu"
+    },
+    {
+      "diff": 0,
+      "f": 95,
+      "max": 0,
+      "mode": "gpu"
+    },
+    {
+      "diff": 0,
+      "f": 191,
+      "max": 0,
+      "mode": "gpu"
+    },
+    {
+      "diff": 0,
+      "f": 191,
+      "max": 0,
+      "mode": "gpu"
+    },
+    {
+      "diff": 0,
+      "f": 95,
+      "max": 0,
+      "mode": "gpu"
+    },
+    {
+      "diff": 0,
+      "f": 37,
+      "max": 0,
+      "mode": "gpu"
+    },
+    {
+      "diff": 0,
+      "f": 7,
+      "max": 0,
+      "mode": "gpu"
+    },
+    {
+      "diff": 0,
+      "f": 0,
+      "max": 0,
+      "mode": "gpu"
+    },
+    {
+      "diff": 0,
+      "f": 191,
+      "max": 0,
+      "mode": "gpu"
+    },
+    {
+      "diff": 0,
+      "f": 0,
+      "max": 0,
+      "mode": "gpu"
+    }
+  ]
+}

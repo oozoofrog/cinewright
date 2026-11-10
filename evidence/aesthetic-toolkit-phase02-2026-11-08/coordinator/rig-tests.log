@@ -1,0 +1,13 @@
+✔ same inference algorithm rigs two static surfaces without hints or name branches (53.492125ms)
+✔ explicit axes and landmark provenance preserve authored coordinate space (47.148541ms)
+✔ reject disconnected islands, closed legs, asymmetry, invalid profile and corrupt skin data (97.590792ms)
+✔ rest bind skin matrices and actual deformed vertices remain finite with bounded stretch (24.026584ms)
+✔ actual exported embedded GLB contains skin attributes and reloads Three skin/rest (50.277417ms)
+ℹ tests 5
+ℹ suites 0
+ℹ pass 5
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 491.788458

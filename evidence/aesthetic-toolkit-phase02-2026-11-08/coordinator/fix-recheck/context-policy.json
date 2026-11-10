@@ -1,0 +1,26 @@
+[
+  {
+    "width": 960,
+    "height": 540,
+    "willReadFrequently": true,
+    "comparisons": 7
+  },
+  {
+    "width": 960,
+    "height": 540,
+    "willReadFrequently": false,
+    "comparisons": 7
+  },
+  {
+    "width": 1920,
+    "height": 1080,
+    "willReadFrequently": true,
+    "comparisons": 7
+  },
+  {
+    "width": 1920,
+    "height": 1080,
+    "willReadFrequently": false,
+    "comparisons": 7
+  }
+]

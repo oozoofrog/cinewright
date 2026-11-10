@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "seed": 1,
+  "width": 3,
+  "height": 3,
+  "frames": 2,
+  "dt": 1,
+  "stepsPerFrame": 1,
+  "coefficients": {
+    "waterDiffusion": 0.25,
+    "pigmentDiffusion": 0,
+    "absorption": 0,
+    "evaporation": 0,
+    "deposition": 0
+  },
+  "colors": [
+    [
+      20,
+      40,
+      180
+    ]
+  ],
+  "events": [
+    {
+      "frame": 0,
+      "x": 1,
+      "y": 1,
+      "radius": 0.01,
+      "water": 2.225073858507203e-308,
+      "pigment": [
+        100
+      ]
+    }
+  ]
+}

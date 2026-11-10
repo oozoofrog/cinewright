@@ -1,0 +1,204 @@
+{
+  "toolIcon": {
+    "_tag": "website",
+    "pageUrl": "http://127.0.0.1:48733/"
+  },
+  "value": [
+    {
+      "cpu": false,
+      "diff": 0,
+      "examples": [],
+      "f": 0,
+      "max": 0
+    },
+    {
+      "cpu": false,
+      "diff": 0,
+      "examples": [],
+      "f": 7,
+      "max": 0
+    },
+    {
+      "cpu": false,
+      "diff": 0,
+      "examples": [],
+      "f": 37,
+      "max": 0
+    },
+    {
+      "cpu": false,
+      "diff": 0,
+      "examples": [],
+      "f": 95,
+      "max": 0
+    },
+    {
+      "cpu": false,
+      "diff": 0,
+      "examples": [],
+      "f": 191,
+      "max": 0
+    },
+    {
+      "cpu": false,
+      "diff": 0,
+      "examples": [],
+      "f": 191,
+      "max": 0
+    },
+    {
+      "cpu": false,
+      "diff": 0,
+      "examples": [],
+      "f": 95,
+      "max": 0
+    },
+    {
+      "cpu": false,
+      "diff": 0,
+      "examples": [],
+      "f": 37,
+      "max": 0
+    },
+    {
+      "cpu": false,
+      "diff": 0,
+      "examples": [],
+      "f": 7,
+      "max": 0
+    },
+    {
+      "cpu": false,
+      "diff": 0,
+      "examples": [],
+      "f": 0,
+      "max": 0
+    },
+    {
+      "cpu": false,
+      "diff": 0,
+      "examples": [],
+      "f": 191,
+      "max": 0
+    },
+    {
+      "cpu": false,
+      "diff": 0,
+      "examples": [],
+      "f": 0,
+      "max": 0
+    },
+    {
+      "cpu": false,
+      "diff": 0,
+      "examples": [],
+      "f": 37,
+      "max": 0
+    },
+    {
+      "cpu": false,
+      "diff": 0,
+      "examples": [],
+      "f": 37,
+      "max": 0
+    },
+    {
+      "cpu": true,
+      "diff": 0,
+      "examples": [],
+      "f": 0,
+      "max": 0
+    },
+    {
+      "cpu": true,
+      "diff": 0,
+      "examples": [],
+      "f": 7,
+      "max": 0
+    },
+    {
+      "cpu": true,
+      "diff": 0,
+      "examples": [],
+      "f": 37,
+      "max": 0
+    },
+    {
+      "cpu": true,
+      "diff": 0,
+      "examples": [],
+      "f": 95,
+      "max": 0
+    },
+    {
+      "cpu": true,
+      "diff": 0,
+      "examples": [],
+      "f": 191,
+      "max": 0
+    },
+    {
+      "cpu": true,
+      "diff": 0,
+      "examples": [],
+      "f": 191,
+      "max": 0
+    },
+    {
+      "cpu": true,
+      "diff": 0,
+      "examples": [],
+      "f": 95,
+      "max": 0
+    },
+    {
+      "cpu": true,
+      "diff": 0,
+      "examples": [],
+      "f": 37,
+      "max": 0
+    },
+    {
+      "cpu": true,
+      "diff": 0,
+      "examples": [],
+      "f": 7,
+      "max": 0
+    },
+    {
+      "cpu": true,
+      "diff": 0,
+      "examples": [],
+      "f": 0,
+      "max": 0
+    },
+    {
+      "cpu": true,
+      "diff": 0,
+      "examples": [],
+      "f": 191,
+      "max": 0
+    },
+    {
+      "cpu": true,
+      "diff": 0,
+      "examples": [],
+      "f": 0,
+      "max": 0
+    },
+    {
+      "cpu": true,
+      "diff": 0,
+      "examples": [],
+      "f": 37,
+      "max": 0
+    },
+    {
+      "cpu": true,
+      "diff": 0,
+      "examples": [],
+      "f": 37,
+      "max": 0
+    }
+  ]
+}

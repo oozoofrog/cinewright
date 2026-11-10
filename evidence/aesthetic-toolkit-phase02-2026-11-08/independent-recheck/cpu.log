@@ -1,0 +1,27 @@
+{
+  trajectories: 213,
+  maxBalance: 1.0658141036401503e-13,
+  defects: [],
+  legacy: [ 'grid-transport-1', 'grid-transport-1' ],
+  rigCases: 6,
+  contactCases: 18,
+  publication: [
+    {
+      update: false,
+      error: 'auto-rig: stored inverse bind disagrees with rest hierarchy',
+      allPackageHashesPreserved: true,
+      stageOrBadOutputs: 0
+    },
+    {
+      update: true,
+      error: 'auto-rig: stored inverse bind disagrees with rest hierarchy',
+      allPackageHashesPreserved: true,
+      stageOrBadOutputs: 0
+    },
+    {
+      bakeExistingDestinationRefused: true,
+      retainedSentinel: true,
+      temporaryFiles: 0
+    }
+  ]
+}

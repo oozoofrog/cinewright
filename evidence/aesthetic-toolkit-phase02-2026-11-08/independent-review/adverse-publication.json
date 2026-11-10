@@ -1,0 +1,42 @@
+[
+  {
+    "type": "retarget",
+    "error": "EEXIST",
+    "leftoverStages": []
+  },
+  {
+    "type": "rig",
+    "error": "EEXIST",
+    "leftoverStages": []
+  },
+  {
+    "file": "rig-out.json",
+    "i": 0,
+    "rejected": true,
+    "error": "auto-rig: weight or bone index bounds"
+  },
+  {
+    "file": "rig-out.json",
+    "i": 1,
+    "rejected": true,
+    "error": "auto-rig: weight or bone index bounds"
+  },
+  {
+    "file": "rig-out.json",
+    "i": 2,
+    "rejected": true,
+    "error": "auto-rig: invalid hierarchy/rest bone"
+  },
+  {
+    "file": "motion-out.json",
+    "i": 0,
+    "rejected": true,
+    "error": "retarget: invalid baked pose"
+  },
+  {
+    "file": "motion-out.json",
+    "i": 1,
+    "rejected": true,
+    "error": "retarget: invalid baked pose"
+  }
+]

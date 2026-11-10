@@ -1,0 +1,45 @@
+✖ public materializer validates watercolor bake and freezes complete decoder/overlay closure before publication (5.897583ms)
+✖ public materializer rejects mismatched rig/motion before new/update publication (135.280583ms)
+ℹ tests 2
+ℹ suites 0
+ℹ pass 0
+ℹ fail 2
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 258.468125
+
+✖ failing tests:
+
+test at tests/phase02-materialize.test.mjs:2:1
+✖ public materializer validates watercolor bake and freezes complete decoder/overlay closure before publication (5.897583ms)
+  Error: Symlink not allowed: /var/folders/tf/wn7gzzvd6l7f7_ttdx84ps880000gn/T/phase02-water-S7bVko/b.json
+      at noLinks (file:///Volumes/eyedisk/develop/cinewright/scripts/materialize-style.mjs:15:221)
+      at async materializeStyle (file:///Volumes/eyedisk/develop/cinewright/scripts/materialize-style.mjs:24:161)
+      at async TestContext.<anonymous> (file:///Volumes/eyedisk/develop/cinewright/tests/phase02-materialize.test.mjs:2:685)
+      at async Test.run (node:internal/test_runner/test:1409:7)
+      at async startSubtestAfterBootstrap (node:internal/test_runner/harness:387:3)
+
+test at tests/phase02-materialize.test.mjs:3:1
+✖ public materializer rejects mismatched rig/motion before new/update publication (135.280583ms)
+  AssertionError [ERR_ASSERTION]: The input did not match the regular expression /rest mismatch/. Input:
+  
+  'Error: Symlink not allowed: /var/folders/tf/wn7gzzvd6l7f7_ttdx84ps880000gn/T/phase02-rig-pub-5Mg6Rr/p/assets/character.rig.json'
+  
+      at async TestContext.<anonymous> (file:///Volumes/eyedisk/develop/cinewright/tests/phase02-materialize.test.mjs:3:703)
+      at async Test.run (node:internal/test_runner/test:1409:7)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: Error: Symlink not allowed: /var/folders/tf/wn7gzzvd6l7f7_ttdx84ps880000gn/T/phase02-rig-pub-5Mg6Rr/p/assets/character.rig.json
+        at noLinks (file:///Volumes/eyedisk/develop/cinewright/scripts/materialize-style.mjs:15:221)
+        at async materializeStyle (file:///Volumes/eyedisk/develop/cinewright/scripts/materialize-style.mjs:24:161)
+        at async waitForActual (node:assert:615:5)
+        at async strict.rejects (node:assert:738:25)
+        at async TestContext.<anonymous> (file:///Volumes/eyedisk/develop/cinewright/tests/phase02-materialize.test.mjs:3:703)
+        at async Test.run (node:internal/test_runner/test:1409:7)
+        at async Test.processPendingSubtests (node:internal/test_runner/test:974:7),
+    expected: /rest mismatch/,
+    operator: 'rejects',
+    diff: 'simple'
+  }

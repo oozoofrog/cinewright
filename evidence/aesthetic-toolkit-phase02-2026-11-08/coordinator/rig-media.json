@@ -1,0 +1,74 @@
+[
+  {
+    "name": "tall",
+    "job": "c3f02bc3-84f6-4ad7-979b-926c287fcd79",
+    "revision": "59a9fd3d0d7d29d7128cb92354ed79015ac4a5fe05b7e135ceb3d838fc9a6991",
+    "output": "/Volumes/eyedisk/develop/cinewright/.direction/aesthetic-toolkit-phase02-2026-11-08/coordinator/store/jobs/c3f02bc3-84f6-4ad7-979b-926c287fcd79/work.mp4",
+    "sha256": "2e8d6289e062a9472385ef42e39b812a81f7f578845e94dcd4066375b50630a5",
+    "streams": [
+      {
+        "width": 960,
+        "height": 540,
+        "r_frame_rate": "24/1"
+      }
+    ],
+    "frames": 192,
+    "maxPtsError": 3.33333333379926e-7,
+    "flash": {
+      "version": 1,
+      "file": "/Volumes/eyedisk/develop/cinewright/.direction/aesthetic-toolkit-phase02-2026-11-08/coordinator/store/jobs/c3f02bc3-84f6-4ad7-979b-926c287fcd79/work.mp4",
+      "fps": 24,
+      "resolution": [
+        160,
+        90
+      ],
+      "frames": 192,
+      "maxTransitionsInOneSecond": 0,
+      "flaggedWindows": 0,
+      "examples": [],
+      "status": "screen-negative",
+      "scope": "Every decoded CFR frame at 160x90; >=25% same-direction area, linear luminance delta >=0.10 (peak >=0.20) or saturated-red delta >=0.20; >=6 alternating transitions in a rolling second flags risk (both polarities retained for simultaneous opposing regions, at most one count per decoded transition).",
+      "limitations": [
+        "Not WCAG certification, medical advice, or a guarantee of safety.",
+        "Downscaling can miss small/local patterns; no spatial-frequency, visual-angle or display-luminance model.",
+        "Screen-negative is not safe; human accessibility review remains required."
+      ]
+    }
+  },
+  {
+    "name": "broad",
+    "job": "a893cf8d-dff1-4c1d-8e2c-d2f3a1993c38",
+    "revision": "0d0f50ea4ed5e0b03b93083c94f7ad6691f22548fe324f5dd9f0b12ca4d90b2d",
+    "output": "/Volumes/eyedisk/develop/cinewright/.direction/aesthetic-toolkit-phase02-2026-11-08/coordinator/store/jobs/a893cf8d-dff1-4c1d-8e2c-d2f3a1993c38/work.mp4",
+    "sha256": "8b3a1b87ac6e434da71b8c9d4894e225345c6c5fc71ca00060335230f07ec2a4",
+    "streams": [
+      {
+        "width": 960,
+        "height": 540,
+        "r_frame_rate": "24/1"
+      }
+    ],
+    "frames": 192,
+    "maxPtsError": 3.33333333379926e-7,
+    "flash": {
+      "version": 1,
+      "file": "/Volumes/eyedisk/develop/cinewright/.direction/aesthetic-toolkit-phase02-2026-11-08/coordinator/store/jobs/a893cf8d-dff1-4c1d-8e2c-d2f3a1993c38/work.mp4",
+      "fps": 24,
+      "resolution": [
+        160,
+        90
+      ],
+      "frames": 192,
+      "maxTransitionsInOneSecond": 0,
+      "flaggedWindows": 0,
+      "examples": [],
+      "status": "screen-negative",
+      "scope": "Every decoded CFR frame at 160x90; >=25% same-direction area, linear luminance delta >=0.10 (peak >=0.20) or saturated-red delta >=0.20; >=6 alternating transitions in a rolling second flags risk (both polarities retained for simultaneous opposing regions, at most one count per decoded transition).",
+      "limitations": [
+        "Not WCAG certification, medical advice, or a guarantee of safety.",
+        "Downscaling can miss small/local patterns; no spatial-frequency, visual-angle or display-luminance model.",
+        "Screen-negative is not safe; human accessibility review remains required."
+      ]
+    }
+  }
+]

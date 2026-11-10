@@ -1,0 +1,760 @@
+[
+  {
+    "key": "tall",
+    "revision": "50cf66a0c92f30237ee8bb6374df4e19288d2cebdf366d7b7bf866079b1a2b92",
+    "root": "/Volumes/eyedisk/develop/cinewright/.direction/aesthetic-toolkit-phase02-2026-11-08/independent-review/store/revisions/50cf66a0c92f30237ee8bb6374df4e19288d2cebdf366d7b7bf866079b1a2b92",
+    "paths": [
+      "project/.cinewright-style.json",
+      "project/assets/LICENSE",
+      "project/assets/character.glb",
+      "project/assets/character.motion.json",
+      "project/assets/character.rig.json",
+      "project/modules/animation/auto-rig.mjs",
+      "project/modules/animation/clip3d.mjs",
+      "project/modules/animation/exposure.mjs",
+      "project/modules/animation/retarget.mjs",
+      "project/modules/fx3d/adapter.mjs",
+      "project/modules/fx3d/deform.mjs",
+      "project/modules/fx3d/geometry.mjs",
+      "project/modules/fx3d/glb.mjs",
+      "project/modules/fx3d/light.mjs",
+      "project/modules/fx3d/material.mjs",
+      "project/modules/fx3d/outline.mjs",
+      "project/modules/fx3d/particles.mjs",
+      "project/modules/fx3d/skinned-outline.mjs",
+      "project/modules/styles/expressionist-space/index.mjs",
+      "project/modules/styles/expressionist-space/validate.mjs",
+      "project/style-scene.json",
+      "project/style-version.json",
+      "project/vendor/three/LICENSE",
+      "project/vendor/three/addons/loaders/GLTFLoader.js",
+      "project/vendor/three/addons/utils/BufferGeometryUtils.js",
+      "project/vendor/three/package.json",
+      "project/work.json",
+      "runtime/compositor.mjs",
+      "runtime/index.html",
+      "runtime/player.mjs",
+      "runtime/review-player.mjs",
+      "runtime/review.html",
+      "runtime/style.css",
+      "runtime/timeline.mjs",
+      "vendor/three/three.core.js",
+      "vendor/three/three.module.js",
+      "vendor/three/LICENSE",
+      "tools/package-lock.json",
+      "tools/audio.mjs",
+      "tools/execution.mjs",
+      "tools/jobs.mjs",
+      "tools/revisions.mjs",
+      "tools/server.mjs"
+    ],
+    "port": 48730,
+    "manifest": {
+      "version": 1,
+      "title": "Tall figure — arm and greeting",
+      "size": [
+        960,
+        540
+      ],
+      "fps": 24,
+      "frames": 192,
+      "background": "#ece4ce",
+      "points": {
+        "start": 0,
+        "finish": 191
+      },
+      "spans": {
+        "whole": [
+          0,
+          192
+        ]
+      },
+      "audio": [],
+      "layers": [
+        {
+          "id": "style",
+          "module": "modules/styles/expressionist-space/index.mjs",
+          "config": {
+            "scene": {
+              "version": 1,
+              "style": "expressionist-space",
+              "title": "Tall figure — arm and greeting",
+              "size": [
+                960,
+                540
+              ],
+              "fps": 24,
+              "frames": 192,
+              "seed": 17,
+              "background": "#ece4ce",
+              "camera": {
+                "type": "perspective",
+                "position": [
+                  4,
+                  2.7824999999999998,
+                  8
+                ],
+                "target": [
+                  0,
+                  1.9874999999999998,
+                  0
+                ],
+                "fov": 40
+              },
+              "materials": {
+                "body": {
+                  "color": "#84a89b",
+                  "ink": "#242736",
+                  "hatch": 6,
+                  "strength": 0.42
+                },
+                "floor": {
+                  "color": "#c3b493",
+                  "hatch": 4
+                }
+              },
+              "objects": [
+                {
+                  "id": "actor",
+                  "rig": "assets/character.rig.json",
+                  "motion": "assets/character.motion.json",
+                  "material": "body",
+                  "outline": {
+                    "width": 0.025
+                  },
+                  "time": "exposed",
+                  "exposure": {
+                    "every": 2
+                  }
+                },
+                {
+                  "id": "floor",
+                  "geometry": {
+                    "type": "box",
+                    "args": [
+                      12,
+                      0.1,
+                      10
+                    ]
+                  },
+                  "position": [
+                    0,
+                    -0.1,
+                    0
+                  ],
+                  "material": "floor"
+                }
+              ],
+              "lights": [
+                {
+                  "type": "ambient",
+                  "color": "#c9d9ed",
+                  "intensity": 1.1
+                },
+                {
+                  "type": "directional",
+                  "color": "#fff0ce",
+                  "intensity": 2.5,
+                  "position": [
+                    3,
+                    7,
+                    4
+                  ]
+                }
+              ]
+            }
+          }
+        }
+      ]
+    },
+    "sourceAbsent": true
+  },
+  {
+    "key": "broad",
+    "revision": "01debb87c28cf15f03513f5e0af0b44bbeadd5adfde78199c8fc44b1345b3575",
+    "root": "/Volumes/eyedisk/develop/cinewright/.direction/aesthetic-toolkit-phase02-2026-11-08/independent-review/store/revisions/01debb87c28cf15f03513f5e0af0b44bbeadd5adfde78199c8fc44b1345b3575",
+    "paths": [
+      "project/.cinewright-style.json",
+      "project/assets/LICENSE",
+      "project/assets/character.glb",
+      "project/assets/character.motion.json",
+      "project/assets/character.rig.json",
+      "project/modules/animation/auto-rig.mjs",
+      "project/modules/animation/clip3d.mjs",
+      "project/modules/animation/exposure.mjs",
+      "project/modules/animation/retarget.mjs",
+      "project/modules/fx3d/adapter.mjs",
+      "project/modules/fx3d/deform.mjs",
+      "project/modules/fx3d/geometry.mjs",
+      "project/modules/fx3d/glb.mjs",
+      "project/modules/fx3d/light.mjs",
+      "project/modules/fx3d/material.mjs",
+      "project/modules/fx3d/outline.mjs",
+      "project/modules/fx3d/particles.mjs",
+      "project/modules/fx3d/skinned-outline.mjs",
+      "project/modules/styles/expressionist-space/index.mjs",
+      "project/modules/styles/expressionist-space/validate.mjs",
+      "project/style-scene.json",
+      "project/style-version.json",
+      "project/vendor/three/LICENSE",
+      "project/vendor/three/addons/loaders/GLTFLoader.js",
+      "project/vendor/three/addons/utils/BufferGeometryUtils.js",
+      "project/vendor/three/package.json",
+      "project/work.json",
+      "runtime/compositor.mjs",
+      "runtime/index.html",
+      "runtime/player.mjs",
+      "runtime/review-player.mjs",
+      "runtime/review.html",
+      "runtime/style.css",
+      "runtime/timeline.mjs",
+      "vendor/three/three.core.js",
+      "vendor/three/three.module.js",
+      "vendor/three/LICENSE",
+      "tools/package-lock.json",
+      "tools/audio.mjs",
+      "tools/execution.mjs",
+      "tools/jobs.mjs",
+      "tools/revisions.mjs",
+      "tools/server.mjs"
+    ],
+    "port": 48731,
+    "manifest": {
+      "version": 1,
+      "title": "Broad figure — weight and turn",
+      "size": [
+        960,
+        540
+      ],
+      "fps": 24,
+      "frames": 192,
+      "background": "#ece4ce",
+      "points": {
+        "start": 0,
+        "finish": 191
+      },
+      "spans": {
+        "whole": [
+          0,
+          192
+        ]
+      },
+      "audio": [],
+      "layers": [
+        {
+          "id": "style",
+          "module": "modules/styles/expressionist-space/index.mjs",
+          "config": {
+            "scene": {
+              "version": 1,
+              "style": "expressionist-space",
+              "title": "Broad figure — weight and turn",
+              "size": [
+                960,
+                540
+              ],
+              "fps": 24,
+              "frames": 192,
+              "seed": 17,
+              "background": "#ece4ce",
+              "camera": {
+                "type": "perspective",
+                "position": [
+                  4,
+                  2.2575,
+                  8
+                ],
+                "target": [
+                  0,
+                  1.6125,
+                  0
+                ],
+                "fov": 40
+              },
+              "materials": {
+                "body": {
+                  "color": "#bf7654",
+                  "ink": "#242736",
+                  "hatch": 6,
+                  "strength": 0.42
+                },
+                "floor": {
+                  "color": "#c3b493",
+                  "hatch": 4
+                }
+              },
+              "objects": [
+                {
+                  "id": "actor",
+                  "rig": "assets/character.rig.json",
+                  "motion": "assets/character.motion.json",
+                  "material": "body",
+                  "outline": {
+                    "width": 0.025
+                  },
+                  "time": "exposed",
+                  "exposure": {
+                    "every": 2
+                  }
+                },
+                {
+                  "id": "floor",
+                  "geometry": {
+                    "type": "box",
+                    "args": [
+                      12,
+                      0.1,
+                      10
+                    ]
+                  },
+                  "position": [
+                    0,
+                    -0.1,
+                    0
+                  ],
+                  "material": "floor"
+                }
+              ],
+              "lights": [
+                {
+                  "type": "ambient",
+                  "color": "#c9d9ed",
+                  "intensity": 1.1
+                },
+                {
+                  "type": "directional",
+                  "color": "#fff0ce",
+                  "intensity": 2.5,
+                  "position": [
+                    3,
+                    7,
+                    4
+                  ]
+                }
+              ]
+            }
+          }
+        }
+      ]
+    },
+    "sourceAbsent": true
+  },
+  {
+    "key": "wet",
+    "revision": "c5f2fea335f3446324d47b139906238e9d7ee475bb7f55b39e5b2bd74c767d76",
+    "root": "/Volumes/eyedisk/develop/cinewright/.direction/aesthetic-toolkit-phase02-2026-11-08/independent-review/store/revisions/c5f2fea335f3446324d47b139906238e9d7ee475bb7f55b39e5b2bd74c767d76",
+    "paths": [
+      "project/.cinewright-style.json",
+      "project/assets/watercolor.json",
+      "project/modules/animation/exposure.mjs",
+      "project/modules/fx2d/brush.mjs",
+      "project/modules/fx2d/erase.mjs",
+      "project/modules/fx2d/hatch.mjs",
+      "project/modules/fx2d/redraw.mjs",
+      "project/modules/fx2d/stroke.mjs",
+      "project/modules/fx2d/wash.mjs",
+      "project/modules/fx2d/watercolor.mjs",
+      "project/modules/styles/line-wash/index.mjs",
+      "project/modules/styles/watercolor-physical/index.mjs",
+      "project/style-scene.json",
+      "project/style-version.json",
+      "project/work.json",
+      "runtime/compositor.mjs",
+      "runtime/index.html",
+      "runtime/player.mjs",
+      "runtime/review-player.mjs",
+      "runtime/review.html",
+      "runtime/style.css",
+      "runtime/timeline.mjs",
+      "vendor/three/three.core.js",
+      "vendor/three/three.module.js",
+      "vendor/three/LICENSE",
+      "tools/package-lock.json",
+      "tools/audio.mjs",
+      "tools/execution.mjs",
+      "tools/jobs.mjs",
+      "tools/revisions.mjs",
+      "tools/server.mjs"
+    ],
+    "port": 48732,
+    "manifest": {
+      "version": 1,
+      "title": "wet",
+      "size": [
+        960,
+        540
+      ],
+      "fps": 24,
+      "frames": 192,
+      "background": "#eee8d8",
+      "points": {
+        "start": 0,
+        "finish": 191
+      },
+      "spans": {
+        "whole": [
+          0,
+          192
+        ]
+      },
+      "audio": [],
+      "layers": [
+        {
+          "id": "style",
+          "module": "modules/styles/watercolor-physical/index.mjs",
+          "config": {
+            "scene": {
+              "version": 1,
+              "style": "watercolor-physical",
+              "title": "wet",
+              "size": [
+                960,
+                540
+              ],
+              "fps": 24,
+              "frames": 192,
+              "bake": "assets/watercolor.json",
+              "density": 9,
+              "seed": 17
+            }
+          }
+        }
+      ]
+    },
+    "sourceAbsent": true
+  },
+  {
+    "key": "overlap",
+    "revision": "5e1507e5006d1af87acac5c4e3601113868b9b8b6917171370eca231acce5f33",
+    "root": "/Volumes/eyedisk/develop/cinewright/.direction/aesthetic-toolkit-phase02-2026-11-08/independent-review/store/revisions/5e1507e5006d1af87acac5c4e3601113868b9b8b6917171370eca231acce5f33",
+    "paths": [
+      "project/.cinewright-style.json",
+      "project/assets/watercolor.json",
+      "project/modules/animation/exposure.mjs",
+      "project/modules/fx2d/brush.mjs",
+      "project/modules/fx2d/erase.mjs",
+      "project/modules/fx2d/hatch.mjs",
+      "project/modules/fx2d/redraw.mjs",
+      "project/modules/fx2d/stroke.mjs",
+      "project/modules/fx2d/wash.mjs",
+      "project/modules/fx2d/watercolor.mjs",
+      "project/modules/styles/line-wash/index.mjs",
+      "project/modules/styles/watercolor-physical/index.mjs",
+      "project/style-scene.json",
+      "project/style-version.json",
+      "project/work.json",
+      "runtime/compositor.mjs",
+      "runtime/index.html",
+      "runtime/player.mjs",
+      "runtime/review-player.mjs",
+      "runtime/review.html",
+      "runtime/style.css",
+      "runtime/timeline.mjs",
+      "vendor/three/three.core.js",
+      "vendor/three/three.module.js",
+      "vendor/three/LICENSE",
+      "tools/package-lock.json",
+      "tools/audio.mjs",
+      "tools/execution.mjs",
+      "tools/jobs.mjs",
+      "tools/revisions.mjs",
+      "tools/server.mjs"
+    ],
+    "port": 48733,
+    "manifest": {
+      "version": 1,
+      "title": "overlap",
+      "size": [
+        960,
+        540
+      ],
+      "fps": 24,
+      "frames": 192,
+      "background": "#eee8d8",
+      "points": {
+        "start": 0,
+        "finish": 191
+      },
+      "spans": {
+        "whole": [
+          0,
+          192
+        ]
+      },
+      "audio": [],
+      "layers": [
+        {
+          "id": "style",
+          "module": "modules/styles/watercolor-physical/index.mjs",
+          "config": {
+            "scene": {
+              "version": 1,
+              "style": "watercolor-physical",
+              "title": "overlap",
+              "size": [
+                960,
+                540
+              ],
+              "fps": 24,
+              "frames": 192,
+              "bake": "assets/watercolor.json",
+              "density": 9,
+              "seed": 17
+            }
+          }
+        }
+      ]
+    },
+    "sourceAbsent": true
+  },
+  {
+    "key": "stride",
+    "revision": "2c52e706d6f8fd12c694975208e6d4e0383e0fea6e6fb64ab74baec033760ade",
+    "root": "/Volumes/eyedisk/develop/cinewright/.direction/aesthetic-toolkit-phase02-2026-11-08/independent-review/store/revisions/2c52e706d6f8fd12c694975208e6d4e0383e0fea6e6fb64ab74baec033760ade",
+    "paths": [
+      "project/assets/LICENSE.txt",
+      "project/assets/copper.motion.json",
+      "project/assets/copper.rig.json",
+      "project/assets/reed.motion.json",
+      "project/assets/reed.rig.json",
+      "project/assets/source.motion.json",
+      "project/assets/source.rig.json",
+      "project/metrics.json",
+      "project/modules/animation/auto-rig.mjs",
+      "project/modules/animation/clip3d.mjs",
+      "project/modules/animation/exposure.mjs",
+      "project/modules/animation/retarget-stage.mjs",
+      "project/modules/animation/retarget.mjs",
+      "project/modules/animation/rig2d.mjs",
+      "project/modules/animation/shot.mjs",
+      "project/modules/artwork.mjs",
+      "project/modules/cuts.mjs",
+      "project/modules/fx/accent.mjs",
+      "project/modules/fx/focus.mjs",
+      "project/modules/fx/particles.mjs",
+      "project/modules/fx2d/brush.mjs",
+      "project/modules/fx2d/emitter.mjs",
+      "project/modules/fx2d/erase.mjs",
+      "project/modules/fx2d/hatch.mjs",
+      "project/modules/fx2d/mask.mjs",
+      "project/modules/fx2d/redraw.mjs",
+      "project/modules/fx2d/stroke.mjs",
+      "project/modules/fx2d/transition.mjs",
+      "project/modules/fx2d/wash.mjs",
+      "project/modules/fx2d/watercolor.mjs",
+      "project/modules/fx3d/adapter.mjs",
+      "project/modules/fx3d/deform.mjs",
+      "project/modules/fx3d/geometry.mjs",
+      "project/modules/fx3d/glb.mjs",
+      "project/modules/fx3d/light.mjs",
+      "project/modules/fx3d/material.mjs",
+      "project/modules/fx3d/outline.mjs",
+      "project/modules/fx3d/particles.mjs",
+      "project/modules/fx3d/skinned-outline.mjs",
+      "project/modules/motion.mjs",
+      "project/modules/music.mjs",
+      "project/modules/styles/expressionist-space/index.mjs",
+      "project/modules/styles/expressionist-space/validate.mjs",
+      "project/modules/styles/line-wash/index.mjs",
+      "project/modules/styles/silhouette-theatre/index.mjs",
+      "project/modules/styles/watercolor-physical/index.mjs",
+      "project/work.json",
+      "runtime/compositor.mjs",
+      "runtime/index.html",
+      "runtime/player.mjs",
+      "runtime/review-player.mjs",
+      "runtime/review.html",
+      "runtime/style.css",
+      "runtime/timeline.mjs",
+      "vendor/three/three.core.js",
+      "vendor/three/three.module.js",
+      "vendor/three/LICENSE",
+      "tools/package-lock.json",
+      "tools/audio.mjs",
+      "tools/execution.mjs",
+      "tools/jobs.mjs",
+      "tools/revisions.mjs",
+      "tools/server.mjs"
+    ],
+    "port": 48734,
+    "manifest": {
+      "version": 1,
+      "title": "The same stride, three bodies",
+      "size": [
+        960,
+        540
+      ],
+      "fps": 24,
+      "frames": 192,
+      "background": "#17212e",
+      "layers": [
+        {
+          "id": "retarget",
+          "module": "modules/animation/retarget-stage.mjs",
+          "config": {
+            "mode": "stride",
+            "title": "THE SAME STRIDE, THREE BODIES",
+            "subtitle": "Rest-frame and axis correction · proportional root transfer · bounded ground IK",
+            "performers": [
+              {
+                "rig": "assets/source.rig.json",
+                "motion": "assets/source.motion.json",
+                "label": "SOURCE / authored",
+                "color": "#c8ced7"
+              },
+              {
+                "rig": "assets/reed.rig.json",
+                "motion": "assets/reed.motion.json",
+                "label": "REED / long limbs",
+                "color": "#8bbcb2"
+              },
+              {
+                "rig": "assets/copper.rig.json",
+                "motion": "assets/copper.motion.json",
+                "label": "COPPER / Z-up, compact",
+                "color": "#d7a77e"
+              }
+            ]
+          }
+        }
+      ],
+      "audio": [],
+      "points": {
+        "start": 0,
+        "middle": 96
+      },
+      "spans": {
+        "full": [
+          0,
+          192
+        ]
+      }
+    },
+    "sourceAbsent": true
+  },
+  {
+    "key": "salute",
+    "revision": "b7b34425e141813c33f33d52510f50b33d7219131586de3c927373b28217af99",
+    "root": "/Volumes/eyedisk/develop/cinewright/.direction/aesthetic-toolkit-phase02-2026-11-08/independent-review/store/revisions/b7b34425e141813c33f33d52510f50b33d7219131586de3c927373b28217af99",
+    "paths": [
+      "project/assets/LICENSE.txt",
+      "project/assets/copper.motion.json",
+      "project/assets/copper.rig.json",
+      "project/assets/reed.motion.json",
+      "project/assets/reed.rig.json",
+      "project/assets/source.motion.json",
+      "project/assets/source.rig.json",
+      "project/metrics.json",
+      "project/modules/animation/auto-rig.mjs",
+      "project/modules/animation/clip3d.mjs",
+      "project/modules/animation/exposure.mjs",
+      "project/modules/animation/retarget-stage.mjs",
+      "project/modules/animation/retarget.mjs",
+      "project/modules/animation/rig2d.mjs",
+      "project/modules/animation/shot.mjs",
+      "project/modules/artwork.mjs",
+      "project/modules/cuts.mjs",
+      "project/modules/fx/accent.mjs",
+      "project/modules/fx/focus.mjs",
+      "project/modules/fx/particles.mjs",
+      "project/modules/fx2d/brush.mjs",
+      "project/modules/fx2d/emitter.mjs",
+      "project/modules/fx2d/erase.mjs",
+      "project/modules/fx2d/hatch.mjs",
+      "project/modules/fx2d/mask.mjs",
+      "project/modules/fx2d/redraw.mjs",
+      "project/modules/fx2d/stroke.mjs",
+      "project/modules/fx2d/transition.mjs",
+      "project/modules/fx2d/wash.mjs",
+      "project/modules/fx2d/watercolor.mjs",
+      "project/modules/fx3d/adapter.mjs",
+      "project/modules/fx3d/deform.mjs",
+      "project/modules/fx3d/geometry.mjs",
+      "project/modules/fx3d/glb.mjs",
+      "project/modules/fx3d/light.mjs",
+      "project/modules/fx3d/material.mjs",
+      "project/modules/fx3d/outline.mjs",
+      "project/modules/fx3d/particles.mjs",
+      "project/modules/fx3d/skinned-outline.mjs",
+      "project/modules/motion.mjs",
+      "project/modules/music.mjs",
+      "project/modules/styles/expressionist-space/index.mjs",
+      "project/modules/styles/expressionist-space/validate.mjs",
+      "project/modules/styles/line-wash/index.mjs",
+      "project/modules/styles/silhouette-theatre/index.mjs",
+      "project/modules/styles/watercolor-physical/index.mjs",
+      "project/work.json",
+      "runtime/compositor.mjs",
+      "runtime/index.html",
+      "runtime/player.mjs",
+      "runtime/review-player.mjs",
+      "runtime/review.html",
+      "runtime/style.css",
+      "runtime/timeline.mjs",
+      "vendor/three/three.core.js",
+      "vendor/three/three.module.js",
+      "vendor/three/LICENSE",
+      "tools/package-lock.json",
+      "tools/audio.mjs",
+      "tools/execution.mjs",
+      "tools/jobs.mjs",
+      "tools/revisions.mjs",
+      "tools/server.mjs"
+    ],
+    "port": 48735,
+    "manifest": {
+      "version": 1,
+      "title": "A salute in three proportions",
+      "size": [
+        960,
+        540
+      ],
+      "fps": 24,
+      "frames": 216,
+      "background": "#292431",
+      "layers": [
+        {
+          "id": "retarget",
+          "module": "modules/animation/retarget-stage.mjs",
+          "config": {
+            "mode": "salute",
+            "title": "A SALUTE IN THREE PROPORTIONS",
+            "subtitle": "Independent source motion · expressive upper body · two retargeted meshes",
+            "performers": [
+              {
+                "rig": "assets/source.rig.json",
+                "motion": "assets/source.motion.json",
+                "label": "SOURCE / authored",
+                "color": "#c8ced7"
+              },
+              {
+                "rig": "assets/reed.rig.json",
+                "motion": "assets/reed.motion.json",
+                "label": "REED / long limbs",
+                "color": "#8bbcb2"
+              },
+              {
+                "rig": "assets/copper.rig.json",
+                "motion": "assets/copper.motion.json",
+                "label": "COPPER / Z-up, compact",
+                "color": "#d7a77e"
+              }
+            ]
+          }
+        }
+      ],
+      "audio": [],
+      "points": {
+        "start": 0,
+        "middle": 96
+      },
+      "spans": {
+        "full": [
+          0,
+          216
+        ]
+      }
+    },
+    "sourceAbsent": true
+  }
+]
