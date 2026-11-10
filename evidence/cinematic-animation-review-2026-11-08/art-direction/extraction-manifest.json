@@ -1,0 +1,476 @@
+[
+  {
+    "id": "S01",
+    "source": "/Volumes/eyedisk/develop/cinewright/evidence/aesthetic-toolkit-2026-11-08/A/forest-v3/1080p.mp4",
+    "sha256_manifest": "f564c338c4e4a8c405a68789c0379d96435f32cc8850d1ce2c62ab21e4ef5a7a",
+    "fps": 24.0,
+    "source_frames_0_based": [
+      24,
+      48,
+      49,
+      50,
+      51,
+      52,
+      53,
+      54,
+      55,
+      56,
+      57,
+      58,
+      59,
+      126
+    ],
+    "stills": [
+      24,
+      126
+    ],
+    "native24_window": [
+      48,
+      59
+    ],
+    "command": [
+      "ffmpeg",
+      "-hide_banner",
+      "-loglevel",
+      "error",
+      "-i",
+      "/Volumes/eyedisk/develop/cinewright/evidence/aesthetic-toolkit-2026-11-08/A/forest-v3/1080p.mp4",
+      "-vf",
+      "select='eq(n,24)+eq(n,48)+eq(n,49)+eq(n,50)+eq(n,51)+eq(n,52)+eq(n,53)+eq(n,54)+eq(n,55)+eq(n,56)+eq(n,57)+eq(n,58)+eq(n,59)+eq(n,126)'",
+      "-fps_mode",
+      "vfr",
+      "-q:v",
+      "2",
+      "/Volumes/eyedisk/develop/cinewright/evidence/cinematic-animation-review-2026-11-08/art-direction/S01/decoded-%04d.jpg"
+    ]
+  },
+  {
+    "id": "S02",
+    "source": "/Volumes/eyedisk/develop/cinewright/evidence/aesthetic-toolkit-2026-11-08/A/harbor-closed-reveal/1080p.mp4",
+    "sha256_manifest": "ba5025727b95145a13593b81bf615946be9be98eeb4b95a25e5c02e121b2fb98",
+    "fps": 24.0,
+    "source_frames_0_based": [
+      60,
+      178
+    ],
+    "stills": [
+      60,
+      178
+    ],
+    "native24_window": null,
+    "command": [
+      "ffmpeg",
+      "-hide_banner",
+      "-loglevel",
+      "error",
+      "-i",
+      "/Volumes/eyedisk/develop/cinewright/evidence/aesthetic-toolkit-2026-11-08/A/harbor-closed-reveal/1080p.mp4",
+      "-vf",
+      "select='eq(n,60)+eq(n,178)'",
+      "-fps_mode",
+      "vfr",
+      "-q:v",
+      "2",
+      "/Volumes/eyedisk/develop/cinewright/evidence/cinematic-animation-review-2026-11-08/art-direction/S02/decoded-%04d.jpg"
+    ]
+  },
+  {
+    "id": "S03",
+    "source": "/Volumes/eyedisk/develop/cinewright/evidence/aesthetic-toolkit-2026-11-08/B/rain-reviewed/1080p.mp4",
+    "sha256_manifest": "5ce9eb7e307d89dd68c07f890fc053ed8b7c92c1564299344528696abe65909e",
+    "fps": 24.0,
+    "source_frames_0_based": [
+      24,
+      120
+    ],
+    "stills": [
+      24,
+      120
+    ],
+    "native24_window": null,
+    "command": [
+      "ffmpeg",
+      "-hide_banner",
+      "-loglevel",
+      "error",
+      "-i",
+      "/Volumes/eyedisk/develop/cinewright/evidence/aesthetic-toolkit-2026-11-08/B/rain-reviewed/1080p.mp4",
+      "-vf",
+      "select='eq(n,24)+eq(n,120)'",
+      "-fps_mode",
+      "vfr",
+      "-q:v",
+      "2",
+      "/Volumes/eyedisk/develop/cinewright/evidence/cinematic-animation-review-2026-11-08/art-direction/S03/decoded-%04d.jpg"
+    ]
+  },
+  {
+    "id": "S04",
+    "source": "/Volumes/eyedisk/develop/cinewright/evidence/aesthetic-toolkit-2026-11-08/B/commuter-reviewed/1080p.mp4",
+    "sha256_manifest": "b7b1b0c63a2bc23106b3f61495cb19df4234e20493e25b9911895fedc1bc71b8",
+    "fps": 24.0,
+    "source_frames_0_based": [
+      44,
+      120,
+      121,
+      122,
+      123,
+      124,
+      125,
+      126,
+      127,
+      128,
+      129,
+      130,
+      131,
+      156
+    ],
+    "stills": [
+      44,
+      120,
+      156
+    ],
+    "native24_window": [
+      120,
+      131
+    ],
+    "command": [
+      "ffmpeg",
+      "-hide_banner",
+      "-loglevel",
+      "error",
+      "-i",
+      "/Volumes/eyedisk/develop/cinewright/evidence/aesthetic-toolkit-2026-11-08/B/commuter-reviewed/1080p.mp4",
+      "-vf",
+      "select='eq(n,44)+eq(n,120)+eq(n,121)+eq(n,122)+eq(n,123)+eq(n,124)+eq(n,125)+eq(n,126)+eq(n,127)+eq(n,128)+eq(n,129)+eq(n,130)+eq(n,131)+eq(n,156)'",
+      "-fps_mode",
+      "vfr",
+      "-q:v",
+      "2",
+      "/Volumes/eyedisk/develop/cinewright/evidence/cinematic-animation-review-2026-11-08/art-direction/S04/decoded-%04d.jpg"
+    ]
+  },
+  {
+    "id": "S05",
+    "source": "/Volumes/eyedisk/develop/cinewright/evidence/aesthetic-toolkit-2026-11-08/C/station-final/1080p.mp4",
+    "sha256_manifest": "5e8a981c16b11c3f640119dd3d4c0f2f1541880c0861906c45c7c41e8bef7769",
+    "fps": 24.0,
+    "source_frames_0_based": [
+      24,
+      174
+    ],
+    "stills": [
+      24,
+      174
+    ],
+    "native24_window": null,
+    "command": [
+      "ffmpeg",
+      "-hide_banner",
+      "-loglevel",
+      "error",
+      "-i",
+      "/Volumes/eyedisk/develop/cinewright/evidence/aesthetic-toolkit-2026-11-08/C/station-final/1080p.mp4",
+      "-vf",
+      "select='eq(n,24)+eq(n,174)'",
+      "-fps_mode",
+      "vfr",
+      "-q:v",
+      "2",
+      "/Volumes/eyedisk/develop/cinewright/evidence/cinematic-animation-review-2026-11-08/art-direction/S05/decoded-%04d.jpg"
+    ]
+  },
+  {
+    "id": "S06",
+    "source": "/Volumes/eyedisk/develop/cinewright/evidence/aesthetic-toolkit-2026-11-08/C/laboratory-final/1080p.mp4",
+    "sha256_manifest": "3e73c7ed08938dfffb544f13a2fd6d3273dea7d2ba8ab6fe3973315fb9081736",
+    "fps": 24.0,
+    "source_frames_0_based": [
+      24,
+      48,
+      49,
+      50,
+      51,
+      52,
+      53,
+      54,
+      55,
+      56,
+      57,
+      58,
+      59,
+      120
+    ],
+    "stills": [
+      24,
+      120
+    ],
+    "native24_window": [
+      48,
+      59
+    ],
+    "command": [
+      "ffmpeg",
+      "-hide_banner",
+      "-loglevel",
+      "error",
+      "-i",
+      "/Volumes/eyedisk/develop/cinewright/evidence/aesthetic-toolkit-2026-11-08/C/laboratory-final/1080p.mp4",
+      "-vf",
+      "select='eq(n,24)+eq(n,48)+eq(n,49)+eq(n,50)+eq(n,51)+eq(n,52)+eq(n,53)+eq(n,54)+eq(n,55)+eq(n,56)+eq(n,57)+eq(n,58)+eq(n,59)+eq(n,120)'",
+      "-fps_mode",
+      "vfr",
+      "-q:v",
+      "2",
+      "/Volumes/eyedisk/develop/cinewright/evidence/cinematic-animation-review-2026-11-08/art-direction/S06/decoded-%04d.jpg"
+    ]
+  },
+  {
+    "id": "P01",
+    "source": "/Volumes/eyedisk/develop/cinewright/.direction/aesthetic-toolkit-phase02-2026-11-08/fullhd-v3/store/jobs/2781fec5-694d-4db9-ab44-cafc538ab406/work.mp4",
+    "sha256_manifest": "b5c58eb9edfbb9dd6fd94520c78b9e0cba784b345c6b2790cb684fe952ca33f8",
+    "fps": 24.0,
+    "source_frames_0_based": [
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      144
+    ],
+    "stills": [
+      24,
+      144
+    ],
+    "native24_window": [
+      24,
+      35
+    ],
+    "command": [
+      "ffmpeg",
+      "-hide_banner",
+      "-loglevel",
+      "error",
+      "-i",
+      "/Volumes/eyedisk/develop/cinewright/.direction/aesthetic-toolkit-phase02-2026-11-08/fullhd-v3/store/jobs/2781fec5-694d-4db9-ab44-cafc538ab406/work.mp4",
+      "-vf",
+      "select='eq(n,24)+eq(n,25)+eq(n,26)+eq(n,27)+eq(n,28)+eq(n,29)+eq(n,30)+eq(n,31)+eq(n,32)+eq(n,33)+eq(n,34)+eq(n,35)+eq(n,144)'",
+      "-fps_mode",
+      "vfr",
+      "-q:v",
+      "2",
+      "/Volumes/eyedisk/develop/cinewright/evidence/cinematic-animation-review-2026-11-08/art-direction/P01/decoded-%04d.jpg"
+    ]
+  },
+  {
+    "id": "P02",
+    "source": "/Volumes/eyedisk/develop/cinewright/.direction/aesthetic-toolkit-phase02-2026-11-08/fullhd-v3/store/jobs/171a8060-5da8-45cd-b4a8-d23250096281/work.mp4",
+    "sha256_manifest": "ba297f484f3126a6e148faf21b081a92837c3a50574a76c71e5afd211028778c",
+    "fps": 24.0,
+    "source_frames_0_based": [
+      48,
+      144
+    ],
+    "stills": [
+      48,
+      144
+    ],
+    "native24_window": null,
+    "command": [
+      "ffmpeg",
+      "-hide_banner",
+      "-loglevel",
+      "error",
+      "-i",
+      "/Volumes/eyedisk/develop/cinewright/.direction/aesthetic-toolkit-phase02-2026-11-08/fullhd-v3/store/jobs/171a8060-5da8-45cd-b4a8-d23250096281/work.mp4",
+      "-vf",
+      "select='eq(n,48)+eq(n,144)'",
+      "-fps_mode",
+      "vfr",
+      "-q:v",
+      "2",
+      "/Volumes/eyedisk/develop/cinewright/evidence/cinematic-animation-review-2026-11-08/art-direction/P02/decoded-%04d.jpg"
+    ]
+  },
+  {
+    "id": "P03",
+    "source": "/Volumes/eyedisk/develop/cinewright/.direction/aesthetic-toolkit-phase02-2026-11-08/fullhd/store/jobs/d4f706ac-2b7f-40ec-a1eb-d25ace2fca61/work.mp4",
+    "sha256_manifest": "a3aeb9bc47f9245179471347c8a5e9e10651f71f6a9a59910d6e694c9af22dbc",
+    "fps": 24.0,
+    "source_frames_0_based": [
+      24,
+      48,
+      49,
+      50,
+      51,
+      52,
+      53,
+      54,
+      55,
+      56,
+      57,
+      58,
+      59,
+      64
+    ],
+    "stills": [
+      24,
+      64
+    ],
+    "native24_window": [
+      48,
+      59
+    ],
+    "command": [
+      "ffmpeg",
+      "-hide_banner",
+      "-loglevel",
+      "error",
+      "-i",
+      "/Volumes/eyedisk/develop/cinewright/.direction/aesthetic-toolkit-phase02-2026-11-08/fullhd/store/jobs/d4f706ac-2b7f-40ec-a1eb-d25ace2fca61/work.mp4",
+      "-vf",
+      "select='eq(n,24)+eq(n,48)+eq(n,49)+eq(n,50)+eq(n,51)+eq(n,52)+eq(n,53)+eq(n,54)+eq(n,55)+eq(n,56)+eq(n,57)+eq(n,58)+eq(n,59)+eq(n,64)'",
+      "-fps_mode",
+      "vfr",
+      "-q:v",
+      "2",
+      "/Volumes/eyedisk/develop/cinewright/evidence/cinematic-animation-review-2026-11-08/art-direction/P03/decoded-%04d.jpg"
+    ]
+  },
+  {
+    "id": "P05",
+    "source": "/Volumes/eyedisk/develop/cinewright/.direction/aesthetic-toolkit-phase02-2026-11-08/fullhd/store/jobs/a24bb8c5-65d3-4db4-8fa5-66d329016c57/work.mp4",
+    "sha256_manifest": "9b2cdcebad5699708f69de7e34a24e5bd05152f1c1c94b8b9856fcdbda3101b5",
+    "fps": 24.0,
+    "source_frames_0_based": [
+      18,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36
+    ],
+    "stills": [
+      18,
+      36
+    ],
+    "native24_window": [
+      24,
+      35
+    ],
+    "command": [
+      "ffmpeg",
+      "-hide_banner",
+      "-loglevel",
+      "error",
+      "-i",
+      "/Volumes/eyedisk/develop/cinewright/.direction/aesthetic-toolkit-phase02-2026-11-08/fullhd/store/jobs/a24bb8c5-65d3-4db4-8fa5-66d329016c57/work.mp4",
+      "-vf",
+      "select='eq(n,18)+eq(n,24)+eq(n,25)+eq(n,26)+eq(n,27)+eq(n,28)+eq(n,29)+eq(n,30)+eq(n,31)+eq(n,32)+eq(n,33)+eq(n,34)+eq(n,35)+eq(n,36)'",
+      "-fps_mode",
+      "vfr",
+      "-q:v",
+      "2",
+      "/Volumes/eyedisk/develop/cinewright/evidence/cinematic-animation-review-2026-11-08/art-direction/P05/decoded-%04d.jpg"
+    ]
+  },
+  {
+    "id": "F01",
+    "source": "/Volumes/eyedisk/develop/cinewright/evidence/aesthetic-toolkit-2026-11-08/effects2d-closed-reveal/1080p.mp4",
+    "sha256_manifest": "0b18886917062d4a867112f536b203d252e943d40117aa8218a45b8ab881b8f4",
+    "fps": 24,
+    "source_frames_0_based": [
+      126
+    ],
+    "stills": [
+      126
+    ],
+    "native24_window": null,
+    "command": [
+      "ffmpeg",
+      "-hide_banner",
+      "-loglevel",
+      "error",
+      "-i",
+      "/Volumes/eyedisk/develop/cinewright/evidence/aesthetic-toolkit-2026-11-08/effects2d-closed-reveal/1080p.mp4",
+      "-vf",
+      "select='eq(n,126)'",
+      "-frames:v",
+      "1",
+      "-q:v",
+      "2",
+      "/Volumes/eyedisk/develop/cinewright/evidence/cinematic-animation-review-2026-11-08/art-direction/F01/f126.jpg"
+    ]
+  },
+  {
+    "id": "F02",
+    "source": "/Volumes/eyedisk/develop/cinewright/evidence/aesthetic-toolkit-2026-11-08/C/effects/1080p.mp4",
+    "sha256_manifest": "2954b928a923325becb3f5e5f2f6f0115ca35ae2123ecb6dc340a16e91abdeed",
+    "fps": 24,
+    "source_frames_0_based": [
+      126
+    ],
+    "stills": [
+      126
+    ],
+    "native24_window": null,
+    "command": [
+      "ffmpeg",
+      "-hide_banner",
+      "-loglevel",
+      "error",
+      "-i",
+      "/Volumes/eyedisk/develop/cinewright/evidence/aesthetic-toolkit-2026-11-08/C/effects/1080p.mp4",
+      "-vf",
+      "select='eq(n,126)'",
+      "-frames:v",
+      "1",
+      "-q:v",
+      "2",
+      "/Volumes/eyedisk/develop/cinewright/evidence/cinematic-animation-review-2026-11-08/art-direction/F02/f126.jpg"
+    ]
+  },
+  {
+    "id": "F03",
+    "source": "/Volumes/eyedisk/develop/cinewright/evidence/aesthetic-toolkit-2026-11-08/C/mixed/1080p.mp4",
+    "sha256_manifest": "74919745d3a2a122a8471179b15c5eb722e866e00d341cc6d390d5c13af224df",
+    "fps": 24,
+    "source_frames_0_based": [
+      126
+    ],
+    "stills": [
+      126
+    ],
+    "native24_window": null,
+    "command": [
+      "ffmpeg",
+      "-hide_banner",
+      "-loglevel",
+      "error",
+      "-i",
+      "/Volumes/eyedisk/develop/cinewright/evidence/aesthetic-toolkit-2026-11-08/C/mixed/1080p.mp4",
+      "-vf",
+      "select='eq(n,126)'",
+      "-frames:v",
+      "1",
+      "-q:v",
+      "2",
+      "/Volumes/eyedisk/develop/cinewright/evidence/cinematic-animation-review-2026-11-08/art-direction/F03/f126.jpg"
+    ]
+  }
+]

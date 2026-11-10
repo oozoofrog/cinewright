@@ -1,0 +1,81 @@
+{
+  "scope": "Original MP4 integrity only; not an aesthetic or real-time viewing test",
+  "clips": [
+    {
+      "id": "S01",
+      "matchesOriginal": true,
+      "bytes": 2496183
+    },
+    {
+      "id": "S02",
+      "matchesOriginal": true,
+      "bytes": 872582
+    },
+    {
+      "id": "S03",
+      "matchesOriginal": true,
+      "bytes": 183191
+    },
+    {
+      "id": "S04",
+      "matchesOriginal": true,
+      "bytes": 313158
+    },
+    {
+      "id": "S05",
+      "matchesOriginal": true,
+      "bytes": 8095316
+    },
+    {
+      "id": "S06",
+      "matchesOriginal": true,
+      "bytes": 12206372
+    },
+    {
+      "id": "P01",
+      "matchesOriginal": true,
+      "bytes": 309563
+    },
+    {
+      "id": "P02",
+      "matchesOriginal": true,
+      "bytes": 624899
+    },
+    {
+      "id": "P03",
+      "matchesOriginal": true,
+      "bytes": 692339
+    },
+    {
+      "id": "P04",
+      "matchesOriginal": true,
+      "bytes": 975537
+    },
+    {
+      "id": "P05",
+      "matchesOriginal": true,
+      "bytes": 2989146
+    },
+    {
+      "id": "P06",
+      "matchesOriginal": true,
+      "bytes": 3392152
+    },
+    {
+      "id": "F01",
+      "matchesOriginal": true,
+      "bytes": 680253
+    },
+    {
+      "id": "F02",
+      "matchesOriginal": true,
+      "bytes": 4009200
+    },
+    {
+      "id": "F03",
+      "matchesOriginal": true,
+      "bytes": 11454061
+    }
+  ],
+  "allMatch": true
+}
