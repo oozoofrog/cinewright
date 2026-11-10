@@ -1,0 +1,20 @@
+{
+  "revision": "5ab6b666890a0d782985d4c1ef5f98fc0f540d033b73353473b31635d614f6df",
+  "job": "c06457a6-6994-4041-88ee-3378a8cc4204",
+  "repositoryTests": {
+    "pass": 481,
+    "fail": 0,
+    "skip": 0
+  },
+  "finalFocusedTests": {
+    "pass": 4,
+    "fail": 0
+  },
+  "protectedV9SourceUnchanged": true,
+  "currentProjectEqualsFrozenProject": true,
+  "scopeProtectedPNGCount": 343,
+  "seekComparisons": 787,
+  "directNormalSpeedViewing": false,
+  "directListening": false,
+  "independentReview": false
+}

@@ -1,0 +1,34 @@
+✔ prepared scalar/vector segments preserve smoothstep, exact hold boundaries and immutable random access (1.459167ms)
+✔ reject malformed authoring early, including invalid corrections/contact/target geometry (0.547708ms)
+✔ second case: telescoping crane geometry, linear trolley and held hook with pose-space clearance (0.327208ms)
+✖ actual dancer preserves all out-of-scope poses and arm lengths; exposes cloth/contact channels (19.356625ms)
+ℹ tests 4
+ℹ suites 0
+ℹ pass 3
+ℹ fail 1
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 126.193834
+
+✖ failing tests:
+
+test at tests/pose-tracks.test.mjs:30:1
+✖ actual dancer preserves all out-of-scope poses and arm lengths; exposes cloth/contact channels (19.356625ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  + actual - expected
+  
+  + -0.9
+  - -0.8999999999999999
+       ^
+  
+      at TestContext.<anonymous> (file:///Volumes/eyedisk/develop/cinewright/tests/pose-tracks.test.mjs:39:234)
+      at async Test.run (node:internal/test_runner/test:1409:7)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: -0.9,
+    expected: -0.8999999999999999,
+    operator: 'strictEqual',
+    diff: 'simple'
+  }

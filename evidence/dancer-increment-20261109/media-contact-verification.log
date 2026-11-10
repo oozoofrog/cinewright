@@ -1,0 +1,170 @@
+/Volumes/eyedisk/develop/cinewright/.direction/productions/music-box-dancer-redesign-20261108/intro-16/authoring/verify.py:42: DeprecationWarning: Image.Image.getdata is deprecated and will be removed in Pillow 14 (2027-10-15). Use get_flattened_data instead.
+  crop=list(im.crop(box).getdata());back=list(bg.crop(box).getdata());width=box[2]-box[0];coords=[]
+{
+  "revision": "5ab6b666890a0d782985d4c1ef5f98fc0f540d033b73353473b31635d614f6df",
+  "v9ProtectedSegment": {
+    "absoluteFrames": [
+      48,
+      143
+    ],
+    "v9Frames": [
+      0,
+      95
+    ],
+    "byteIdenticalPNGCount": 96,
+    "sameExposureAndCamera": true
+  },
+  "audio": {
+    "inputSamples": 768000,
+    "inputPCMEqualsPreviewRangeAndMix": true,
+    "v9AudioRangeUnchanged": true,
+    "pcmSha256": "64679d651b78c13a67add9efdec068a6f760c9ce6e8cecb566631536a30bef81",
+    "gain": 1,
+    "tempo": 1,
+    "aacOutput": {
+      "decodedSamplesPerChannel": 768000,
+      "zeroLagCorrelation": 0.9999370842654692,
+      "linearGainEstimate": 0.99880624382658,
+      "lossless": false
+    },
+    "directListening": false
+  },
+  "contact": {
+    "supportFramesMeasured": 384,
+    "supportPixelRanges": {
+      "png": {
+        "xRange": [
+          856.5,
+          856.5
+        ],
+        "yRange": [
+          796,
+          796
+        ]
+      },
+      "mp4": {
+        "xRange": [
+          855.8823529411765,
+          856.7272727272727
+        ],
+        "yRange": [
+          795,
+          796
+        ]
+      }
+    },
+    "freeContactFixedPNGFrames": [
+      [
+        0,
+        71
+      ],
+      [
+        320,
+        383
+      ]
+    ],
+    "sampledRecontactRows": [
+      {
+        "frame": 314,
+        "png_support_x": 856.5,
+        "png_support_y": 796,
+        "png_free_x": 787.0,
+        "png_free_y": 788,
+        "mp4_support_x": 856.7272727272727,
+        "mp4_support_y": 796,
+        "mp4_free_x": 786.5,
+        "mp4_free_y": 787
+      },
+      {
+        "frame": 315,
+        "png_support_x": 856.5,
+        "png_support_y": 796,
+        "png_free_x": 787.3076923076923,
+        "png_free_y": 789,
+        "mp4_support_x": 856.7272727272727,
+        "mp4_support_y": 796,
+        "mp4_free_x": 786.5,
+        "mp4_free_y": 787
+      },
+      {
+        "frame": 316,
+        "png_support_x": 856.5,
+        "png_support_y": 796,
+        "png_free_x": 787.3636363636364,
+        "png_free_y": 791,
+        "mp4_support_x": 856.7272727272727,
+        "mp4_support_y": 796,
+        "mp4_free_x": 787.2666666666667,
+        "mp4_free_y": 789
+      },
+      {
+        "frame": 317,
+        "png_support_x": 856.5,
+        "png_support_y": 796,
+        "png_free_x": 787.5,
+        "png_free_y": 793,
+        "mp4_support_x": 856.7272727272727,
+        "mp4_support_y": 796,
+        "mp4_free_x": 787.5,
+        "mp4_free_y": 792
+      },
+      {
+        "frame": 318,
+        "png_support_x": 856.5,
+        "png_support_y": 796,
+        "png_free_x": 787.6666666666666,
+        "png_free_y": 796,
+        "mp4_support_x": 856.7272727272727,
+        "mp4_support_y": 796,
+        "mp4_free_x": 788.1538461538462,
+        "mp4_free_y": 795
+      },
+      {
+        "frame": 319,
+        "png_support_x": 856.5,
+        "png_support_y": 796,
+        "png_free_x": 787.875,
+        "png_free_y": 798,
+        "mp4_support_x": 856.7272727272727,
+        "mp4_support_y": 796,
+        "mp4_free_x": 788.1538461538462,
+        "mp4_free_y": 797
+      },
+      {
+        "frame": 320,
+        "png_support_x": 856.5,
+        "png_support_y": 796,
+        "png_free_x": 788.0,
+        "png_free_y": 798,
+        "mp4_support_x": 856.7272727272727,
+        "mp4_support_y": 796,
+        "mp4_free_x": 788.2307692307693,
+        "mp4_free_y": 797
+      },
+      {
+        "frame": 321,
+        "png_support_x": 856.5,
+        "png_support_y": 796,
+        "png_free_x": 788.0,
+        "png_free_y": 798,
+        "mp4_support_x": 856.7272727272727,
+        "mp4_support_y": 796,
+        "mp4_free_x": 788.2307692307693,
+        "mp4_free_y": 797
+      },
+      {
+        "frame": 322,
+        "png_support_x": 856.5,
+        "png_support_y": 796,
+        "png_free_x": 788.0,
+        "png_free_y": 798,
+        "mp4_support_x": 856.7272727272727,
+        "mp4_support_y": 796,
+        "mp4_free_x": 788.2307692307693,
+        "mp4_free_y": 797
+      }
+    ],
+    "method": "actual PNG / decoded MP4 pixels, fixed ROI/color/background difference",
+    "limitation": "visible shoe core; does not certify pressure, anatomy or professional contact quality"
+  }
+}

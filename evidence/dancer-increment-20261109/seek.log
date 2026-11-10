@@ -1,0 +1,12 @@
+{
+  revision: '5ab6b666890a0d782985d4c1ef5f98fc0f540d033b73353473b31635d614f6df',
+  job: 'c06457a6-6994-4041-88ee-3378a8cc4204',
+  passes: {
+    forward: { frames: 384, allMatchCanonicalRender: true },
+    reverse: { frames: 384, allMatchCanonicalRender: true },
+    random: { frames: 19, allMatchCanonicalRender: true }
+  },
+  hold372to383Identical: true,
+  pageErrors: [],
+  method: 'PNG bytes from the same frozen revision; every frame forward and reverse, compared to canonical job images'
+}

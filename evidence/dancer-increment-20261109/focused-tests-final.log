@@ -1,0 +1,12 @@
+✔ prepared scalar/vector segments preserve smoothstep, exact hold boundaries and immutable random access (1.136625ms)
+✔ reject malformed authoring early, including invalid corrections/contact/target geometry (0.337208ms)
+✔ second case: telescoping crane geometry, linear trolley and held hook with pose-space clearance (0.304541ms)
+✔ actual dancer preserves all out-of-scope poses and arm lengths; exposes cloth/contact channels (21.118042ms)
+ℹ tests 4
+ℹ suites 0
+ℹ pass 4
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 125.968125

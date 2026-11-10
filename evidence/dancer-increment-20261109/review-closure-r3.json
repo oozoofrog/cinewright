@@ -1,0 +1,22 @@
+{
+  "revision": "b4639dfd33a88003d48108c547d3345ce9872029b19e26ae718c8ff0b2dac963",
+  "job": "a63eb813-e8f5-4bea-ab3f-b006da01da31",
+  "r2All384FramesIdentical": true,
+  "r2MixedPCMIdentical": true,
+  "r2MP4Identical": true,
+  "moduleCopiesIdentical": true,
+  "focusedTests": {
+    "pass": 5,
+    "fail": 0
+  },
+  "independentReview": "r2 stills reviewed; P2 sparse vector fixed by lead; r3 pixels identical",
+  "normalSpeedViewing": false,
+  "listening": false,
+  "currentSources": {
+    "modules/animation/pose-tracks.mjs": "78d945f8dc6bc613041ed1bd4ac017e57e85ce5d58fe56df2b0b1a7b91e5f37b",
+    "tests/pose-tracks.test.mjs": "20b975de2697a30bb0316d385ee369a2ac20ca133f6386ee5d2db54468584602",
+    ".direction/productions/music-box-dancer-redesign-20261108/intro-16/authoring/craft-render.mjs": "596169a92731d97a2203379973f68cde8e6b2a1c5650bc7f3c96961bc02306cd",
+    ".direction/productions/music-box-dancer-redesign-20261108/intro-16/project/modules/animation/pose-tracks.mjs": "78d945f8dc6bc613041ed1bd4ac017e57e85ce5d58fe56df2b0b1a7b91e5f37b",
+    ".direction/productions/music-box-dancer-redesign-20261108/intro-16/store/revisions/b4639dfd33a88003d48108c547d3345ce9872029b19e26ae718c8ff0b2dac963/project/modules/animation/pose-tracks.mjs": "78d945f8dc6bc613041ed1bd4ac017e57e85ce5d58fe56df2b0b1a7b91e5f37b"
+  }
+}
