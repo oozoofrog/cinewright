@@ -1,0 +1,29 @@
+{
+  "selectedLabel": "dancer-craft-20261109-r3",
+  "reportLabel": "dancer-craft-r3-gap-closure-20261109",
+  "revision": "b4639dfd33a88003d48108c547d3345ce9872029b19e26ae718c8ff0b2dac963",
+  "job": "a63eb813-e8f5-4bea-ab3f-b006da01da31",
+  "files": {
+    ".direction/productions/music-box-dancer-redesign-20261108/intro-16/reports/dancer-craft-r3-gap-closure-20261109-automatic-playback.json": "e136eae8893c1b8bda050bb8387e773dee07478a9d0503364a884837b6b64c08",
+    ".direction/productions/music-box-dancer-redesign-20261108/intro-16/reports/dancer-craft-r3-gap-closure-20261109-comparison.json": "4f4a44195fcee7b5b84a5324db0fd3ccc927a96268533b36c9e7e7319c47024c",
+    ".direction/productions/music-box-dancer-redesign-20261108/intro-16/reports/dancer-craft-r3-gap-closure-20261109-landmarks.json": "908dbb54e4fe94a35adb8de22ba22b987cca0ef25da99e9bfbdd51cd1d98b4eb",
+    ".direction/productions/music-box-dancer-redesign-20261108/intro-16/stills/dancer-craft-r3-gap-closure-20261109/baseline-every-frame.png": "5b412f08b10117b5452a582b3dafb62900e29b349b49f07f43bad338c0f2f0cc",
+    ".direction/productions/music-box-dancer-redesign-20261108/intro-16/stills/dancer-craft-r3-gap-closure-20261109/candidate-every-frame.png": "e2ac3650760dd2a976ea006ca747c0f2df17296af64652c44fabc49822e972e7",
+    ".direction/productions/music-box-dancer-redesign-20261108/intro-16/stills/dancer-craft-r3-gap-closure-20261109/f346-native-detail.png": "0ef0e1aaac8b4686c2946bd92d480b7112126bc857de2a94a71dab957e0fa5b4",
+    ".direction/productions/music-box-dancer-redesign-20261108/intro-16/stills/dancer-craft-r3-gap-closure-20261109/landmark-trails.png": "22a8835c834352518947681e444233b83954f1919ca1dbff4d60862340c7df9f",
+    ".direction/productions/music-box-dancer-redesign-20261108/intro-16/stills/dancer-craft-r3-gap-closure-20261109/return-comparison.png": "1395d090682dc8e1ceda678fd535bd9af947d4c203c5be0fead1358dc104efe6",
+    ".direction/productions/music-box-dancer-redesign-20261108/intro-16/store/review/observe-qwwfb1/playback.json": "2d8c50b6e5c370b1431692f77100846ea68e64c71f7aca6006dce8e0b0ae4c53",
+    ".direction/productions/music-box-dancer-redesign-20261108/intro-16/store/review/observe-qwwfb1/sample-00.jpg": "020cdcbb33a96bb1d8d014534dbc979d8af5d0c2be70100811189d6b424c5b91",
+    ".direction/productions/music-box-dancer-redesign-20261108/intro-16/store/review/observe-qwwfb1/sample-01.jpg": "714dffc5d4fd4f9fd65445129ca82468625edb010588ba20617784aa77cd1b3e",
+    ".direction/productions/music-box-dancer-redesign-20261108/intro-16/store/review/observe-qwwfb1/sample-02.jpg": "446de2f4cca8eb29f34f79b4e6a33aa8620c3d5cf98dbd59255fef9a5765fb82",
+    ".direction/productions/music-box-dancer-redesign-20261108/intro-16/store/review/observe-qwwfb1/sample-03.jpg": "1d9d6c5e934dc6697cf1bfdd4046f3042587d7a2b4b06934c417a317ac4f49dc",
+    ".direction/productions/music-box-dancer-redesign-20261108/intro-16/store/review/observe-qwwfb1/sample-04.jpg": "06cb5b14e4711c63c3ff5c20d8367d567203390405e41dcaa041ccb8439e9d43",
+    ".direction/productions/music-box-dancer-redesign-20261108/intro-16/store/review/observe-qwwfb1/sample-05.jpg": "e71ca44001037993608e334c6acefa794f02bf454423325b91c34f02c6aafeae",
+    ".direction/productions/music-box-dancer-redesign-20261108/intro-16/store/review/observe-qwwfb1/sample-06.jpg": "915955ab286b1e73cb5cca76bd07fb3c6f2dd9620667ae625ce42e245bf383ee",
+    ".direction/productions/music-box-dancer-redesign-20261108/intro-16/store/review/observe-qwwfb1/sample-07.jpg": "77b044a8225aa71fc4ee2bc2e510437967411c5536091b19f540f6452477022b",
+    ".direction/productions/music-box-dancer-redesign-20261108/intro-16/store/review/observe-qwwfb1/sample-08.jpg": "2978048dd5ed037509f4e121ee37e77ab0becb32ba79ce0187df1b853c5d7110",
+    ".direction/productions/music-box-dancer-redesign-20261108/intro-16/store/review/observe-qwwfb1/sample-09.jpg": "3d65e8c7d8f5d1c8076b0dbf8b02ea7536fd3358b3dd0298eaab91401cbad3e4",
+    ".direction/productions/music-box-dancer-redesign-20261108/intro-16/store/review/observe-qwwfb1/sample-10.jpg": "61cf36b29026a8d1ffbd3ae0261288ed829ce5727eb75b746af234edb65085d9",
+    ".direction/productions/music-box-dancer-redesign-20261108/intro-16/store/review/observe-qwwfb1/sample-11.jpg": "199c5b6a02892d5ff2a042e4eb39c2cc7b55456db9ef5e45f2889d8cd8d068f6"
+  }
+}

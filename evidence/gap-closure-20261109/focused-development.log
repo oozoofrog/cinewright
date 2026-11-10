@@ -1,0 +1,11 @@
+✔ craft selected frozen job rejects stale records, escaped outputs and stale landmarks before consumption (10.25725ms)
+✔ craft render requires a fresh label before modifying production (266.230709ms)
+✔ pose-tracks public materialization closes imports and preserves authored and unrelated files (7.815917ms)
+ℹ tests 3
+ℹ suites 0
+ℹ pass 3
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 375.023625

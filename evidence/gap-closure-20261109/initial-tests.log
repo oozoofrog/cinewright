@@ -1,0 +1,23 @@
+✖ craft selected frozen job rejects stale records, escaped outputs and stale landmarks before consumption (8.65475ms)
+✔ craft render requires a fresh label before modifying production (268.722125ms)
+✔ pose-tracks public materialization closes imports and preserves authored and unrelated files (8.291959ms)
+ℹ tests 3
+ℹ suites 0
+ℹ pass 2
+ℹ fail 1
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 376.512416
+
+✖ failing tests:
+
+test at tests/craft-binding.test.mjs:12:1
+✖ craft selected frozen job rejects stale records, escaped outputs and stale landmarks before consumption (8.65475ms)
+  Error: Expected layers
+      at validate (file:///Volumes/eyedisk/develop/cinewright/runtime/timeline.mjs:88:60)
+      at openRevision (file:///Volumes/eyedisk/develop/cinewright/scripts/revisions.mjs:92:20)
+      at async selectJob (file:///Volumes/eyedisk/develop/cinewright/.direction/productions/music-box-dancer-redesign-20261108/intro-16/authoring/craft-selection.mjs:43:20)
+      at async TestContext.<anonymous> (file:///Volumes/eyedisk/develop/cinewright/tests/craft-binding.test.mjs:30:18)
+      at async Test.run (node:internal/test_runner/test:1409:7)
+      at async startSubtestAfterBootstrap (node:internal/test_runner/harness:387:3)

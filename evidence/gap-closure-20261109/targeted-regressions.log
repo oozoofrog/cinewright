@@ -1,0 +1,25 @@
+✔ craft selected frozen job rejects stale records, escaped outputs and stale landmarks before consumption (15.149459ms)
+✔ craft render requires a fresh label before modifying production (286.497833ms)
+Music Box Dancer SYNTHETIC ONLY evidence: /Volumes/eyedisk/develop/cinewright/.direction/test-runs/music-box-dancer-Bh25jQ
+✔ three executable recipes expose planted contact/hold, independent voices and shape return (2.615541ms)
+✔ materialize-kit closes dependencies, is idempotent, and refuses unknown, authored or symlink paths (8.59875ms)
+✔ Music Box Dancer theatre preserves canonical data/audio and evaluates every phase without frame history (18.02125ms)
+✔ Music Box Dancer counterpoint preserves canonical data/audio and evaluates every phase without frame history (17.153625ms)
+✔ builder rejects changed analysis, missing source audio, mismatched timing and foreign channel consumers (4.749417ms)
+✔ silent native browser frames from frozen projects are distinct and deterministic on random seek (5021.237291ms)
+✔ public materializer validates watercolor bake and freezes complete decoder/overlay closure before publication (16.217542ms)
+✔ public materializer rejects mismatched rig/motion before new/update publication (188.149208ms)
+✔ pose-tracks public materialization closes imports and preserves authored and unrelated files (12.882708ms)
+✔ prepared scalar/vector segments preserve smoothstep, exact hold boundaries and immutable random access (1.35ms)
+✔ reject malformed authoring early, including invalid corrections/contact/target geometry (0.336167ms)
+✔ all vector APIs reject missing coordinates before evaluation (0.153542ms)
+✔ second case: telescoping crane geometry, linear trolley and held hook with pose-space clearance (0.299709ms)
+✔ actual dancer preserves all out-of-scope poses and arm lengths; exposes cloth/contact channels (26.014458ms)
+ℹ tests 16
+ℹ suites 0
+ℹ pass 16
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 5208.245625

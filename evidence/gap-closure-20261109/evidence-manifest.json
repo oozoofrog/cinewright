@@ -1,0 +1,17 @@
+{
+  "evidence/gap-closure-20261109/fingerprint-after.log": "b54883573f1717e0c9ad083658aa1d05dea3c0f6561677945dba7f2b0f247350",
+  "evidence/gap-closure-20261109/fingerprint-before.log": "b7a3d2562a230122187d4c4f5b8dfbe960fe9d7d29caaabb8c30967ab74e4816",
+  "evidence/gap-closure-20261109/fingerprint-verification.json": "abce7a408929737a7d7ca40641c06b5c7761efa5abbdb500ccf74959ff102156",
+  "evidence/gap-closure-20261109/focused-development.log": "f0778ae97ef9b0ee3b146f8bbf3843c868101e6e342710bf5792fe0e03564030",
+  "evidence/gap-closure-20261109/generated-artifacts.json": "94a3fa0b43527b231a147b30206c4e4356e1fe9dc622de14de1a936d6d5728e3",
+  "evidence/gap-closure-20261109/implementation-report.md": "0fad3c42a240bf8d8fcdb7836023f1c95a9b7e043d139be62209bde271f30dcb",
+  "evidence/gap-closure-20261109/initial-tests.log": "95712ad463cb7caca94d552073936be8fdadadf08c8a53d6439795c709bc700a",
+  "evidence/gap-closure-20261109/preserved-before.json": "275f2b2d7719d90c6618beccde27cfdcbcc5682fc8b775a65e3b668515886392",
+  "evidence/gap-closure-20261109/r3-automatic-playback.log": "efd4fc183b85bf68da65c43b0564c914a635e270ccfa499c996f2e680245548a",
+  "evidence/gap-closure-20261109/r3-comparison.log": "6519ef5b748148f576db5ff51aba8e095c54e5d416dfd0af196abe9fc9a78060",
+  "evidence/gap-closure-20261109/r3-diagnostics.log": "50c506dccf5d1bd1d58ac83a7af5d5f7037936c1ac8f029d0af6f139a907529b",
+  "evidence/gap-closure-20261109/sources-before.json": "142726550aa51cb3a48870240fd98e24a129182d2135849de3ab51e60d97cefa",
+  "evidence/gap-closure-20261109/sources-final.json": "142726550aa51cb3a48870240fd98e24a129182d2135849de3ab51e60d97cefa",
+  "evidence/gap-closure-20261109/stale-comparison-rejection.log": "4267b1c7ea6fdbd885140c05816bd9e417dcef5f77738f217e666ee80480463a",
+  "evidence/gap-closure-20261109/targeted-regressions.log": "a7a029ed3416be4119e30eb474eb203edae7ba3e460edd1547a31c553afa55b1"
+}

@@ -1,0 +1,14 @@
+{
+  "selectedLabel": "dancer-craft-20261109-r3",
+  "baselineRevision": "8e02b50a1855380296b60c83de79114d048381fef83da9cbfa7a566788ca865a",
+  "baselineJob": "3adacb52-9f7c-40a7-8049-e88b2fcead97",
+  "revision": "b4639dfd33a88003d48108c547d3345ce9872029b19e26ae718c8ff0b2dac963",
+  "job": "a63eb813-e8f5-4bea-ab3f-b006da01da31",
+  "protectedPNGCount": 343,
+  "protectedV9PNGCount": 96,
+  "finalHoldIdentical": true,
+  "contactMaxResidual": 0,
+  "maxReachResidual": 0,
+  "directNormalSpeedReview": false,
+  "listening": false
+}

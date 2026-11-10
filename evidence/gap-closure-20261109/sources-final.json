@@ -1,0 +1,43 @@
+{
+  "algorithm": "sha256",
+  "files": {
+    ".direction/productions/music-box-dancer-redesign-20261108/intro-16/README.md": "e91df80bfe3e127e8ca61e868f57b357953b8db28e58bad95bf91ae60fae5e63",
+    ".direction/productions/music-box-dancer-redesign-20261108/intro-16/authoring/craft-comparison.py": "469cd544280b8c591a5ce2e70b4f93662fc01dd0e46ca3b94fcba1c1f4decfcd",
+    ".direction/productions/music-box-dancer-redesign-20261108/intro-16/authoring/craft-diagnostics.mjs": "4ad7f6fdc79e1f83c4ff24a7240dfb793fe103680c263565962aa02a73da422b",
+    ".direction/productions/music-box-dancer-redesign-20261108/intro-16/authoring/craft-playback.mjs": "b3c69ef8156dbfb063095dc3bf3ede24eeb6f2f6efa4d583d3bd1eafd1bee238",
+    ".direction/productions/music-box-dancer-redesign-20261108/intro-16/authoring/craft-render.mjs": "a92a4e423d76645471e636dc39a1f4e12bc035bd782e363bf8d166d6ecfe62da",
+    ".direction/productions/music-box-dancer-redesign-20261108/intro-16/authoring/craft-selection.mjs": "044d49e0b394df7e939588e7f42cc6cd5332f3595a87571bf64ee53709835e7d",
+    ".direction/productions/music-box-dancer-redesign-20261108/intro-16/craft-implementation-handoff.md": "7c6f75e8573e69f54eaf5d5027ae780d9b67d379adb0d7985200dcacc5869ade",
+    "modules/animation/pose-tracks.mjs": "78d945f8dc6bc613041ed1bd4ac017e57e85ce5d58fe56df2b0b1a7b91e5f37b",
+    "modules/motion.mjs": "fea589f724d62f7cdf9cf39ff82cf635f37becf60cfb9bcb85d3ffa02ed19619",
+    "package-lock.json": "bed5348ff23d04b1be7db2e6e3fae77bf5b46a7ea8d2b966b5205fce601f3a75",
+    "references/pose-tracks.md": "c2d7db7b6f0f3c22e48e62560b6371fe38a04b33957c3f97c9e6afbaa585e75d",
+    "references/tools.md": "1dfcbf5439886de3d80d789d9927eefde8001570e50f3062b24e69de30f878ca",
+    "runtime/timeline.mjs": "a7533564e29a503ca35b690459f40e9db3ee249b21b03ab45f0bc93de61cc1d3",
+    "scripts/execution.mjs": "73a005ee1ec131838e0493e225d6fc09bfc7f0407d88e58373798f0a9a03b794",
+    "scripts/jobs.mjs": "4afb025fccba5b975ba96862d69c20f783295c53c516f8ff2fc7ebfdb05c7695",
+    "scripts/materialize-kit.mjs": "9e7e78ce77afde1edb9530cc824a45bdb3dd225ccb9a97158b2f825943536944",
+    "scripts/observe.mjs": "cd474bdc00a010723b3d72c308fa8a0e65bff80355b40058985f2f5e6fdf7596",
+    "scripts/revisions.mjs": "44fa3baf89eaad1c584ac724723df186877a7cef46f35ced9d398710c747c516",
+    "tests/craft-binding.test.mjs": "39f577b9598bac97e5ce602514618255f2d394a0efe05aaca69f571ea1670438",
+    "tests/music-box-dancer.test.mjs": "0d6c4a3e0bcb7f9bfe09fd62a480b8988335c4edf9bbe3243b94824f2f0a74aa",
+    "tests/phase02-materialize.test.mjs": "a58f25a91a2a28c44889c8ae8c82ca9904ce2111c9c64add6263049112fc6b5e",
+    "tests/pose-materialize.test.mjs": "1da357496efa5e8402e7b7d2526fed7229a120d961cd54edb9fd33c1b859a19c",
+    "tests/pose-tracks.test.mjs": "20b975de2697a30bb0316d385ee369a2ac20ca133f6386ee5d2db54468584602"
+  },
+  "fingerprint": "550749c6f233d852905bab46a19b94a5a9ebd6704a7efdfad124373a5f099163",
+  "changedFiles": [
+    "scripts/materialize-kit.mjs",
+    "tests/pose-materialize.test.mjs",
+    "tests/craft-binding.test.mjs",
+    "references/pose-tracks.md",
+    "references/tools.md",
+    ".direction/productions/music-box-dancer-redesign-20261108/intro-16/README.md",
+    ".direction/productions/music-box-dancer-redesign-20261108/intro-16/craft-implementation-handoff.md",
+    ".direction/productions/music-box-dancer-redesign-20261108/intro-16/authoring/craft-comparison.py",
+    ".direction/productions/music-box-dancer-redesign-20261108/intro-16/authoring/craft-diagnostics.mjs",
+    ".direction/productions/music-box-dancer-redesign-20261108/intro-16/authoring/craft-playback.mjs",
+    ".direction/productions/music-box-dancer-redesign-20261108/intro-16/authoring/craft-render.mjs",
+    ".direction/productions/music-box-dancer-redesign-20261108/intro-16/authoring/craft-selection.mjs"
+  ]
+}

@@ -1,0 +1,22 @@
+file:///Volumes/eyedisk/develop/cinewright/.direction/productions/music-box-dancer-redesign-20261108/intro-16/authoring/craft-selection.mjs:47
+  if (data.revision !== job.revision || data.job !== job.id || data.baselineRevision !== baselineRevision || data.baselineJob !== baselineJob) throw Error('Landmark revision/job mismatch');
+                                                                                                                                                     ^
+
+Error: Landmark revision/job mismatch
+    at assertLandmarks (file:///Volumes/eyedisk/develop/cinewright/.direction/productions/music-box-dancer-redesign-20261108/intro-16/authoring/craft-selection.mjs:47:150)
+    at file:///Volumes/eyedisk/develop/cinewright/.direction/productions/music-box-dancer-redesign-20261108/intro-16/authoring/craft-selection.mjs:58:3
+
+Node.js v26.12.1
+Traceback (most recent call last):
+  File "/Volumes/eyedisk/develop/cinewright/.direction/productions/music-box-dancer-redesign-20261108/intro-16/authoring/craft-comparison.py", line 5, in <module>
+    selection=json.loads(subprocess.check_output(['node',str(Path(__file__).with_name('craft-selection.mjs')),*sys.argv[1:]],text=True))
+                         ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.15/3.15.2/Frameworks/Python.framework/Versions/3.15/lib/python3.15/subprocess.py", line 587, in check_output
+    return run(*popenargs, stdout=PIPE, timeout=timeout, check=True,
+           ~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+               **kwargs).stdout
+               ^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.15/3.15.2/Frameworks/Python.framework/Versions/3.15/lib/python3.15/subprocess.py", line 692, in run
+    raise CalledProcessError(retcode, process.args,
+                             output=stdout, stderr=stderr)
+subprocess.CalledProcessError: Command ['node', '/Volumes/eyedisk/develop/cinewright/.direction/productions/music-box-dancer-redesign-20261108/intro-16/authoring/craft-selection.mjs', 'dancer-craft-20261109-r2', 'dancer-craft-r3-gap-closure-20261109'] returned non-zero exit status 1.
